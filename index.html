@@ -918,17 +918,23 @@
             showView('processing-view');
             document.getElementById('processing-text').textContent = 'Preparing your action...';
             
-            // Extract asset ID from URL (simplified extraction)
+            // Extract asset ID and clean URL (handles pipe-delimited format)
             const assetId = extractAssetId(data);
+            const cleanUrl = extractUrl(data);
             
             // Simulate brief processing delay
             setTimeout(() => {
-                prepareResult(assetId, data);
+                prepareResult(assetId, cleanUrl);
             }, 1000);
         }
 
         // Extract asset ID from Tandem URL
         function extractAssetId(url) {
+            // Check for pipe-delimited format first: AssetID|URL
+            if (url.includes('|')) {
+                return url.split('|')[0].trim();
+            }
+            
             // Try to extract from common URL patterns
             // Example: https://tandem.autodesk.com/.../assets/HVAC-AHU-001
             const patterns = [
@@ -942,9 +948,24 @@
                 if (match) return match[1];
             }
             
+            // For Tandem URLs with selection parameter, extract a short reference
+            const selectionMatch = url.match(/selection=([^&]+)/);
+            if (selectionMatch) {
+                // Return first 12 chars of selection as reference ID
+                return 'REF-' + selectionMatch[1].substring(0, 12);
+            }
+            
             // Fallback: use last path segment or generate ID
             const pathParts = url.split('/').filter(p => p);
             return pathParts[pathParts.length - 1] || 'ASSET-' + Date.now();
+        }
+        
+        // Extract just the URL if pipe-delimited format is used
+        function extractUrl(data) {
+            if (data.includes('|')) {
+                return data.split('|')[1].trim();
+            }
+            return data;
         }
 
         // Prepare and show result
@@ -956,13 +977,14 @@
             switch (currentMode) {
                 case 'maintenance':
                     // Create mailto link with asset info
-                    const subject = encodeURIComponent(`Maintenance Issue - Asset: ${assetId}`);
+                    const subject = encodeURIComponent(`Maintenance Issue Report`);
                     const body = encodeURIComponent(
                         `Hello Maintenance Team,\n\n` +
                         `I would like to report an issue with the following asset:\n\n` +
-                        `Asset ID: ${assetId}\n` +
-                        `Asset Link: ${sourceUrl}\n\n` +
+                        `Reference ID: ${assetId}\n` +
+                        `View Asset in Tandem: ${sourceUrl}\n\n` +
                         `Issue Description:\n[Please describe the issue here]\n\n` +
+                        `Location:\n[Building/Floor/Room]\n\n` +
                         `Thank you.`
                     );
                     actionUrl = `mailto:maintenance@ABChealthcare.com?subject=${subject}&body=${body}`;
