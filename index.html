@@ -6,7 +6,7 @@
     <title>ABC Healthcare Help Center</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
     <style>
         :root {
             --slate-900: #0f172a;
@@ -23,6 +23,9 @@
             --amber-500: #f59e0b;
             --amber-400: #fbbf24;
             --white: #ffffff;
+            --shadow-soft: 0 4px 24px -4px rgba(15, 23, 42, 0.12);
+            --shadow-medium: 0 8px 32px -8px rgba(15, 23, 42, 0.2);
+            --shadow-strong: 0 16px 48px -12px rgba(15, 23, 42, 0.25);
         }
 
         * {
@@ -32,17 +35,40 @@
         }
 
         body {
-            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'DM Sans', sans-serif;
             background: var(--slate-100);
             min-height: 100vh;
             color: var(--slate-800);
+            overflow-x: hidden;
         }
 
         /* Header */
         .header {
             background: linear-gradient(135deg, var(--slate-900) 0%, var(--slate-700) 100%);
-            padding: 2.5rem 1.5rem 3.5rem;
+            padding: 3rem 2rem 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(ellipse 80% 50% at 20% 40%, rgba(20, 184, 166, 0.15) 0%, transparent 50%),
+                radial-gradient(ellipse 60% 40% at 80% 60%, rgba(245, 158, 11, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .header-content {
+            max-width: 800px;
+            margin: 0 auto;
             text-align: center;
+            position: relative;
+            z-index: 1;
         }
 
         .logo-badge {
@@ -50,13 +76,20 @@
             align-items: center;
             gap: 0.5rem;
             background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
             padding: 0.5rem 1rem;
             border-radius: 50px;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .logo-badge svg {
+            width: 20px;
+            height: 20px;
         }
 
         .logo-badge span {
-            font-size: 0.7rem;
+            font-size: 0.75rem;
             font-weight: 600;
             letter-spacing: 0.1em;
             text-transform: uppercase;
@@ -64,67 +97,96 @@
         }
 
         h1 {
-            font-size: 2rem;
-            font-weight: 300;
+            font-family: 'Instrument Serif', serif;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 400;
             color: var(--white);
-            line-height: 1.2;
+            line-height: 1.1;
+            margin-bottom: 0.75rem;
         }
 
         .subtitle {
-            font-size: 0.95rem;
+            font-size: 1.1rem;
             color: var(--slate-400);
-            margin-top: 0.5rem;
+            font-weight: 400;
         }
 
-        /* Main */
+        /* Main Content */
         .main-content {
-            max-width: 500px;
-            margin: -1.5rem auto 2rem;
-            padding: 0 1rem;
+            max-width: 600px;
+            margin: -2rem auto 3rem;
+            padding: 0 1.5rem;
+            position: relative;
+            z-index: 2;
         }
 
+        /* Views */
         .view {
             display: none;
+            animation: fadeIn 0.4s ease;
         }
+
         .view.active {
             display: block;
         }
 
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Card */
         .card {
             background: var(--white);
-            border-radius: 16px;
-            box-shadow: 0 10px 40px -10px rgba(15, 23, 42, 0.2);
+            border-radius: 20px;
+            box-shadow: var(--shadow-strong);
             overflow: hidden;
         }
 
         .card-body {
-            padding: 1.5rem;
+            padding: 2rem;
         }
 
-        /* Action Buttons */
+        /* Buttons */
         .action-btn {
             display: flex;
             align-items: center;
             width: 100%;
-            padding: 1rem 1.25rem;
+            padding: 1.25rem 1.5rem;
             border: none;
-            border-radius: 12px;
+            border-radius: 14px;
             font-family: inherit;
-            font-size: 0.95rem;
+            font-size: 1rem;
+            font-weight: 500;
             cursor: pointer;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
             text-align: left;
-            gap: 0.875rem;
-            margin-bottom: 0.75rem;
-            transition: transform 0.2s, box-shadow 0.2s;
+            gap: 1rem;
+            margin-bottom: 1rem;
+            position: relative;
+            overflow: hidden;
         }
 
         .action-btn:last-child {
             margin-bottom: 0;
         }
 
+        .action-btn::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, transparent 50%);
+            opacity: 0;
+            transition: opacity 0.25s ease;
+        }
+
+        .action-btn:hover::before {
+            opacity: 1;
+        }
+
         .action-btn:hover {
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px -5px rgba(0,0,0,0.2);
+            box-shadow: var(--shadow-medium);
         }
 
         .action-btn:active {
@@ -132,9 +194,9 @@
         }
 
         .btn-icon {
-            width: 40px;
-            height: 40px;
-            border-radius: 10px;
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -142,8 +204,8 @@
         }
 
         .btn-icon svg {
-            width: 20px;
-            height: 20px;
+            width: 22px;
+            height: 22px;
         }
 
         .btn-content {
@@ -153,86 +215,107 @@
         .btn-title {
             display: block;
             font-weight: 600;
-            margin-bottom: 0.125rem;
+            margin-bottom: 0.25rem;
         }
 
         .btn-desc {
             display: block;
-            font-size: 0.75rem;
+            font-size: 0.8rem;
             opacity: 0.8;
+            font-weight: 400;
         }
 
         .btn-arrow {
-            width: 20px;
-            height: 20px;
-            opacity: 0.5;
+            width: 24px;
+            height: 24px;
+            opacity: 0.6;
+            transition: transform 0.25s ease, opacity 0.25s ease;
         }
 
+        .action-btn:hover .btn-arrow {
+            transform: translateX(4px);
+            opacity: 1;
+        }
+
+        /* Button Variants */
         .btn-maintenance {
-            background: linear-gradient(135deg, var(--teal-600), var(--teal-500));
+            background: linear-gradient(135deg, var(--teal-600) 0%, var(--teal-500) 100%);
             color: var(--white);
         }
+
         .btn-maintenance .btn-icon {
-            background: rgba(255,255,255,0.2);
+            background: rgba(255, 255, 255, 0.2);
         }
 
         .btn-portal {
-            background: linear-gradient(135deg, var(--slate-700), var(--slate-600));
+            background: linear-gradient(135deg, var(--slate-700) 0%, var(--slate-600) 100%);
             color: var(--white);
         }
+
         .btn-portal .btn-icon {
-            background: rgba(255,255,255,0.15);
+            background: rgba(255, 255, 255, 0.15);
         }
 
         .btn-service {
-            background: linear-gradient(135deg, var(--amber-500), var(--amber-400));
+            background: linear-gradient(135deg, var(--amber-500) 0%, var(--amber-400) 100%);
             color: var(--slate-900);
         }
+
         .btn-service .btn-icon {
-            background: rgba(0,0,0,0.1);
+            background: rgba(0, 0, 0, 0.1);
         }
 
         /* Scanner View */
         .scanner-header {
             display: flex;
             align-items: center;
-            gap: 0.75rem;
-            margin-bottom: 1rem;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
         }
 
         .back-btn {
-            width: 36px;
-            height: 36px;
-            border-radius: 8px;
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
             border: 1px solid var(--slate-200);
             background: var(--white);
             cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: all 0.2s ease;
+        }
+
+        .back-btn:hover {
+            background: var(--slate-50);
+            border-color: var(--slate-300);
         }
 
         .back-btn svg {
-            width: 18px;
-            height: 18px;
+            width: 20px;
+            height: 20px;
             color: var(--slate-600);
         }
 
         .scanner-title {
-            font-size: 1.1rem;
+            font-size: 1.25rem;
             font-weight: 600;
+            color: var(--slate-800);
         }
 
         .scanner-subtitle {
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             color: var(--slate-500);
         }
 
+        /* Mode Indicator */
         .mode-badge {
-            display: inline-block;
-            padding: 0.375rem 0.75rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
             border-radius: 50px;
-            font-size: 0.7rem;
+            font-size: 0.8rem;
             font-weight: 600;
             margin-bottom: 1rem;
         }
@@ -241,48 +324,46 @@
             background: rgba(13, 148, 136, 0.1);
             color: var(--teal-600);
         }
+
         .mode-badge.portal {
             background: rgba(71, 85, 105, 0.1);
             color: var(--slate-600);
         }
+
         .mode-badge.service {
-            background: rgba(245, 158, 11, 0.15);
-            color: #b45309;
+            background: rgba(245, 158, 11, 0.1);
+            color: var(--amber-500);
         }
 
-        /* QR Reader Container */
+        /* QR Reader */
         #qr-reader {
             width: 100%;
-            border-radius: 12px;
+            border-radius: 16px;
             overflow: hidden;
             background: var(--slate-900);
         }
 
         #qr-reader video {
-            border-radius: 12px;
-        }
-
-        #qr-reader__scan_region {
-            background: var(--slate-900);
-        }
-
-        #qr-reader__dashboard {
-            padding: 10px !important;
+            border-radius: 16px;
         }
 
         .scanner-instructions {
             text-align: center;
-            color: var(--slate-500);
-            font-size: 0.85rem;
-            margin-top: 1rem;
-            line-height: 1.4;
+            color: var(--slate-600);
+            font-size: 0.9rem;
+            line-height: 1.5;
+            margin-top: 1.25rem;
+        }
+
+        .scanner-instructions strong {
+            color: var(--slate-800);
         }
 
         /* Status Messages */
         .status-message {
             text-align: center;
             padding: 1rem;
-            border-radius: 8px;
+            border-radius: 10px;
             margin-top: 1rem;
             font-size: 0.85rem;
         }
@@ -302,100 +383,104 @@
             color: #2563eb;
         }
 
-        /* Demo Section */
+        /* Demo Input */
         .demo-section {
-            margin-top: 1.25rem;
-            padding-top: 1.25rem;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
             border-top: 1px dashed var(--slate-300);
         }
 
         .demo-label {
-            font-size: 0.7rem;
+            font-size: 0.75rem;
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 0.05em;
             color: var(--slate-400);
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.75rem;
             display: block;
         }
 
         .demo-input {
             width: 100%;
-            padding: 0.75rem;
+            padding: 0.875rem 1rem;
             border: 1px solid var(--slate-200);
-            border-radius: 8px;
-            font-family: inherit;
-            font-size: 0.85rem;
-            margin-bottom: 0.5rem;
+            border-radius: 10px;
+            font-family: 'DM Sans', monospace;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+            margin-bottom: 0.75rem;
         }
 
         .demo-input:focus {
             outline: none;
             border-color: var(--teal-500);
+            box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
         }
 
         .demo-btn {
+            display: block;
             width: 100%;
-            padding: 0.75rem;
+            padding: 0.875rem 1rem;
             border: 1px dashed var(--slate-300);
-            border-radius: 8px;
+            border-radius: 10px;
             background: var(--slate-50);
             color: var(--slate-600);
             font-family: inherit;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
             font-weight: 500;
             cursor: pointer;
+            transition: all 0.2s ease;
         }
 
         .demo-btn:hover {
             background: var(--slate-100);
+            border-color: var(--slate-400);
         }
 
         /* Result View */
         .result-icon {
-            width: 70px;
-            height: 70px;
+            width: 80px;
+            height: 80px;
             border-radius: 50%;
-            background: linear-gradient(135deg, var(--teal-500), var(--teal-400));
+            background: linear-gradient(135deg, var(--teal-500) 0%, var(--teal-400) 100%);
             display: flex;
             align-items: center;
             justify-content: center;
-            margin: 0 auto 1.25rem;
+            margin: 0 auto 1.5rem;
         }
 
         .result-icon svg {
-            width: 35px;
-            height: 35px;
+            width: 40px;
+            height: 40px;
             color: var(--white);
         }
 
         .result-title {
-            font-size: 1.35rem;
+            font-size: 1.5rem;
             font-weight: 600;
             text-align: center;
-            margin-bottom: 0.375rem;
+            margin-bottom: 0.5rem;
         }
 
         .result-desc {
             text-align: center;
             color: var(--slate-500);
-            font-size: 0.9rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2rem;
         }
 
         .result-details {
             background: var(--slate-50);
-            border-radius: 10px;
-            padding: 1rem;
-            margin-bottom: 1.25rem;
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 1.5rem;
         }
 
         .detail-row {
             display: flex;
             justify-content: space-between;
+            align-items: flex-start;
             padding: 0.5rem 0;
             border-bottom: 1px solid var(--slate-200);
-            font-size: 0.85rem;
         }
 
         .detail-row:last-child {
@@ -403,66 +488,79 @@
         }
 
         .detail-label {
+            font-size: 0.85rem;
             color: var(--slate-500);
         }
 
         .detail-value {
+            font-size: 0.85rem;
             font-weight: 500;
             color: var(--slate-800);
             text-align: right;
-            max-width: 55%;
+            max-width: 60%;
             word-break: break-all;
         }
 
         .primary-btn {
             display: block;
             width: 100%;
-            padding: 0.875rem;
+            padding: 1rem;
             border: none;
-            border-radius: 10px;
-            background: linear-gradient(135deg, var(--teal-600), var(--teal-500));
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--teal-600) 0%, var(--teal-500) 100%);
             color: var(--white);
             font-family: inherit;
-            font-size: 0.95rem;
+            font-size: 1rem;
             font-weight: 600;
             cursor: pointer;
+            transition: all 0.25s ease;
             text-decoration: none;
             text-align: center;
         }
 
         .primary-btn:hover {
-            opacity: 0.95;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-medium);
         }
 
         .secondary-btn {
             display: block;
             width: 100%;
-            padding: 0.875rem;
+            padding: 1rem;
             border: 1px solid var(--slate-200);
-            border-radius: 10px;
+            border-radius: 12px;
             background: var(--white);
             color: var(--slate-600);
             font-family: inherit;
-            font-size: 0.95rem;
+            font-size: 1rem;
             font-weight: 500;
             cursor: pointer;
-            margin-top: 0.625rem;
+            transition: all 0.2s ease;
+            margin-top: 0.75rem;
         }
 
-        /* Loading */
+        .secondary-btn:hover {
+            background: var(--slate-50);
+            border-color: var(--slate-300);
+        }
+
+        /* Loading State */
         .loading {
-            text-align: center;
-            padding: 3rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 2rem;
         }
 
         .spinner {
-            width: 40px;
-            height: 40px;
+            width: 48px;
+            height: 48px;
             border: 3px solid var(--slate-200);
             border-top-color: var(--teal-500);
             border-radius: 50%;
-            animation: spin 0.8s linear infinite;
-            margin: 0 auto 1rem;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
         }
 
         @keyframes spin {
@@ -474,7 +572,6 @@
             font-size: 0.9rem;
         }
 
-        /* OCR Progress */
         .ocr-progress {
             margin-top: 0.5rem;
             font-size: 0.8rem;
@@ -484,9 +581,9 @@
         /* Footer */
         .footer {
             text-align: center;
-            padding: 1.5rem;
+            padding: 2rem;
             color: var(--slate-400);
-            font-size: 0.75rem;
+            font-size: 0.8rem;
         }
 
         /* Hidden canvas for OCR */
@@ -497,15 +594,20 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo-badge">
-            <span>⚕ Facility Services</span>
+        <div class="header-content">
+            <div class="logo-badge">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" style="color: var(--teal-400)">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
+                </svg>
+                <span>Facility Services</span>
+            </div>
+            <h1>ABC Healthcare<br>Help Center</h1>
+            <p class="subtitle">Asset management & maintenance support</p>
         </div>
-        <h1>ABC Healthcare<br>Help Center</h1>
-        <p class="subtitle">Asset management & maintenance support</p>
     </header>
 
     <main class="main-content">
-        <!-- Menu View -->
+        <!-- View 1: Main Menu -->
         <div id="menu-view" class="view active">
             <div class="card">
                 <div class="card-body">
@@ -527,7 +629,7 @@
                     <button class="action-btn btn-portal" onclick="startScanner('portal')">
                         <div class="btn-icon">
                             <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7"/>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 012-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/>
                             </svg>
                         </div>
                         <div class="btn-content">
@@ -558,7 +660,7 @@
             </div>
         </div>
 
-        <!-- Scanner View -->
+        <!-- View 2: Scanner -->
         <div id="scanner-view" class="view">
             <div class="card">
                 <div class="card-body">
@@ -581,10 +683,11 @@
                     <div id="status-container"></div>
 
                     <p class="scanner-instructions">
-                        Position the QR code <strong>and label text</strong> within view.<br>
+                        Position the <strong>QR code</strong> and <strong>label text</strong> within the frame.<br>
                         The asset ID will be read automatically.
                     </p>
 
+                    <!-- Manual Entry -->
                     <div class="demo-section">
                         <span class="demo-label">Manual Entry</span>
                         <input type="text" id="demo-asset" class="demo-input" 
@@ -599,20 +702,20 @@
             </div>
         </div>
 
-        <!-- Processing View -->
+        <!-- View 3: Processing -->
         <div id="processing-view" class="view">
             <div class="card">
                 <div class="card-body">
                     <div class="loading">
                         <div class="spinner"></div>
-                        <div class="loading-text" id="processing-text">Processing...</div>
+                        <div class="loading-text" id="processing-text">Processing asset...</div>
                         <div class="ocr-progress" id="ocr-progress"></div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Result View -->
+        <!-- View 4: Result -->
         <div id="result-view" class="view">
             <div class="card">
                 <div class="card-body">
@@ -622,7 +725,7 @@
                         </svg>
                     </div>
                     <h2 class="result-title" id="result-title">Ready!</h2>
-                    <p class="result-desc" id="result-desc">Your action is ready.</p>
+                    <p class="result-desc" id="result-desc">Your action is ready to execute.</p>
                     
                     <div class="result-details">
                         <div class="detail-row">
@@ -644,10 +747,10 @@
     </main>
 
     <footer class="footer">
-        © 2025 ABC Healthcare · Help Center
+        © 2025 ABC Healthcare · Help Center v1.0
     </footer>
 
-    <!-- Hidden canvas for capturing frames -->
+    <!-- Hidden canvas for OCR -->
     <canvas id="ocr-canvas"></canvas>
 
     <!-- Libraries -->
@@ -666,7 +769,7 @@
                 badge: 'maintenance',
                 action: 'Email to maintenance@ABChealthcare.com',
                 resultTitle: 'Email Ready',
-                resultDesc: 'Tap below to open your email app with asset details.'
+                resultDesc: 'Tap below to open your email app with asset details pre-filled.'
             },
             portal: {
                 title: 'Maintenance Portal',
@@ -756,8 +859,6 @@
             ).then(() => {
                 console.log("Scanner started");
                 showStatus("Camera active. Point at QR code with label visible.", "success");
-                
-                // Get reference to video element for frame capture
                 videoElement = document.querySelector('#qr-reader video');
             }).catch(err => {
                 console.error("Scanner failed:", err);
@@ -783,19 +884,15 @@
         async function onScanSuccess(decodedText, decodedResult) {
             console.log("QR Scanned:", decodedText);
             
-            // Capture frame before stopping scanner
             const imageData = captureFrame();
-            
             stopScanner();
             
             showView('processing-view');
             document.getElementById('processing-text').textContent = 'QR code detected! Reading asset ID...';
             document.getElementById('ocr-progress').textContent = 'Initializing OCR...';
             
-            // Run OCR on captured frame
             let assetId = await runOCR(imageData);
             
-            // If OCR didn't find a valid asset ID, fall back to URL parsing
             if (!assetId || assetId === 'UNKNOWN') {
                 assetId = extractAssetIdFromUrl(decodedText);
             }
@@ -813,14 +910,10 @@
             const canvas = document.getElementById('ocr-canvas');
             const ctx = canvas.getContext('2d');
             
-            // Set canvas size to match video
             canvas.width = videoElement.videoWidth;
             canvas.height = videoElement.videoHeight;
-            
-            // Draw current video frame
             ctx.drawImage(videoElement, 0, 0);
             
-            // Return the canvas data URL
             return canvas.toDataURL('image/png');
         }
 
@@ -839,27 +932,23 @@
                 console.log('OCR Raw Text:', text);
                 
                 // Look for asset ID patterns like CAM.E1879-A.01
-                // Pattern: letters/numbers with dots and dashes
                 const patterns = [
-                    /[A-Z]{2,4}\.[A-Z]?\d{3,5}-[A-Z]-?\d{1,2}/gi,  // CAM.E1879-A.01
-                    /[A-Z]{2,4}\.[A-Z]?\d{3,5}-[A-Z]\.\d{1,2}/gi,  // CAM.E1879-A.01
-                    /[A-Z]{2,4}[.\-][A-Z0-9]{3,10}[.\-][A-Z0-9.\-]+/gi,  // General pattern
+                    /[A-Z]{2,4}\.[A-Z]?\d{3,5}-[A-Z]-?\d{1,2}/gi,
+                    /[A-Z]{2,4}\.[A-Z]?\d{3,5}-[A-Z]\.\d{1,2}/gi,
+                    /[A-Z]{2,4}[.\-][A-Z0-9]{3,10}[.\-][A-Z0-9.\-]+/gi,
                 ];
                 
                 for (const pattern of patterns) {
                     const matches = text.match(pattern);
                     if (matches && matches.length > 0) {
-                        // Clean up the match
                         let assetId = matches[0].trim().toUpperCase();
                         console.log('Found Asset ID:', assetId);
                         return assetId;
                     }
                 }
                 
-                // If no pattern match, look for any alphanumeric string that looks like an ID
                 const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
                 for (const line of lines) {
-                    // Look for lines that have the right format (letters, numbers, dots, dashes)
                     if (/^[A-Z0-9][A-Z0-9.\-]{5,20}$/i.test(line)) {
                         console.log('Found potential Asset ID:', line);
                         return line.toUpperCase();
@@ -874,12 +963,10 @@
         }
 
         function extractAssetIdFromUrl(url) {
-            // Check for pipe-delimited format
             if (url.includes('|')) {
                 return url.split('|')[0].trim();
             }
             
-            // For Tandem URLs with selection parameter
             const selectionMatch = url.match(/selection=([^&]+)/);
             if (selectionMatch) {
                 return 'REF-' + selectionMatch[1].substring(0, 12);
