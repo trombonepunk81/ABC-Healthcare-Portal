@@ -297,6 +297,11 @@
             color: #16a34a;
         }
 
+        .status-message.info {
+            background: #eff6ff;
+            color: #2563eb;
+        }
+
         /* Demo Section */
         .demo-section {
             margin-top: 1.25rem;
@@ -469,12 +474,24 @@
             font-size: 0.9rem;
         }
 
+        /* OCR Progress */
+        .ocr-progress {
+            margin-top: 0.5rem;
+            font-size: 0.8rem;
+            color: var(--slate-400);
+        }
+
         /* Footer */
         .footer {
             text-align: center;
             padding: 1.5rem;
             color: var(--slate-400);
             font-size: 0.75rem;
+        }
+
+        /* Hidden canvas for OCR */
+        #ocr-canvas {
+            display: none;
         }
     </style>
 </head>
@@ -564,16 +581,18 @@
                     <div id="status-container"></div>
 
                     <p class="scanner-instructions">
-                        Position the QR code within the camera view.<br>
-                        Scanning will happen automatically.
+                        Position the QR code <strong>and label text</strong> within view.<br>
+                        The asset ID will be read automatically.
                     </p>
 
                     <div class="demo-section">
-                        <span class="demo-label">Manual Entry / Demo Mode</span>
+                        <span class="demo-label">Manual Entry</span>
+                        <input type="text" id="demo-asset" class="demo-input" 
+                               placeholder="Asset ID (e.g., CAM.E1879-A.01)">
                         <input type="text" id="demo-url" class="demo-input" 
-                               placeholder="Paste Tandem URL here...">
+                               placeholder="Tandem URL">
                         <button class="demo-btn" onclick="simulateScan()">
-                            Submit URL Manually
+                            Submit Manually
                         </button>
                     </div>
                 </div>
@@ -587,6 +606,7 @@
                     <div class="loading">
                         <div class="spinner"></div>
                         <div class="loading-text" id="processing-text">Processing...</div>
+                        <div class="ocr-progress" id="ocr-progress"></div>
                     </div>
                 </div>
             </div>
@@ -606,7 +626,7 @@
                     
                     <div class="result-details">
                         <div class="detail-row">
-                            <span class="detail-label">Reference</span>
+                            <span class="detail-label">Asset ID</span>
                             <span class="detail-value" id="result-asset-id">—</span>
                         </div>
                         <div class="detail-row">
@@ -627,12 +647,18 @@
         © 2025 ABC Healthcare · Help Center
     </footer>
 
-    <!-- QR Scanner Library -->
+    <!-- Hidden canvas for capturing frames -->
+    <canvas id="ocr-canvas"></canvas>
+
+    <!-- Libraries -->
     <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
     
     <script>
         let currentMode = null;
         let html5QrCode = null;
+        let tesseractWorker = null;
+        let videoElement = null;
 
         const modes = {
             maintenance: {
@@ -658,6 +684,26 @@
             }
         };
 
+        // Initialize Tesseract worker on page load
+        async function initTesseract() {
+            try {
+                tesseractWorker = await Tesseract.createWorker('eng', 1, {
+                    logger: m => {
+                        if (m.status === 'recognizing text') {
+                            const progress = Math.round(m.progress * 100);
+                            document.getElementById('ocr-progress').textContent = `Reading text: ${progress}%`;
+                        }
+                    }
+                });
+                console.log('Tesseract initialized');
+            } catch (err) {
+                console.error('Tesseract init error:', err);
+            }
+        }
+
+        // Start loading Tesseract when page loads
+        initTesseract();
+
         function showView(viewId) {
             document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
             document.getElementById(viewId).classList.add('active');
@@ -671,11 +717,9 @@
 
         function goBack() {
             if (document.getElementById('result-view').classList.contains('active')) {
-                // From result, go back to scanner
                 showView('scanner-view');
                 startQrScanner();
             } else {
-                // From scanner, go back to menu
                 stopScanner();
                 showView('menu-view');
             }
@@ -696,7 +740,7 @@
 
         function startQrScanner() {
             const qrReaderDiv = document.getElementById('qr-reader');
-            qrReaderDiv.innerHTML = ''; // Clear previous
+            qrReaderDiv.innerHTML = '';
             
             html5QrCode = new Html5Qrcode("qr-reader");
             
@@ -710,11 +754,14 @@
                 onScanSuccess,
                 onScanError
             ).then(() => {
-                console.log("Scanner started successfully");
-                showStatus("Camera active. Point at QR code.", "success");
+                console.log("Scanner started");
+                showStatus("Camera active. Point at QR code with label visible.", "success");
+                
+                // Get reference to video element for frame capture
+                videoElement = document.querySelector('#qr-reader video');
             }).catch(err => {
-                console.error("Scanner failed to start:", err);
-                showStatus("Camera access denied or unavailable. Use manual entry below.", "error");
+                console.error("Scanner failed:", err);
+                showStatus("Camera unavailable. Use manual entry below.", "error");
             });
         }
 
@@ -722,63 +769,123 @@
             if (html5QrCode) {
                 html5QrCode.stop().then(() => {
                     html5QrCode.clear();
-                    console.log("Scanner stopped");
-                }).catch(err => {
-                    console.log("Error stopping scanner:", err);
-                });
+                }).catch(err => console.log("Stop error:", err));
                 html5QrCode = null;
             }
+            videoElement = null;
         }
 
         function showStatus(message, type) {
-            const container = document.getElementById('status-container');
-            container.innerHTML = `<div class="status-message ${type}">${message}</div>`;
+            document.getElementById('status-container').innerHTML = 
+                `<div class="status-message ${type}">${message}</div>`;
         }
 
-        function onScanSuccess(decodedText, decodedResult) {
-            console.log("Scanned:", decodedText);
+        async function onScanSuccess(decodedText, decodedResult) {
+            console.log("QR Scanned:", decodedText);
+            
+            // Capture frame before stopping scanner
+            const imageData = captureFrame();
+            
             stopScanner();
-            processScannedData(decodedText);
+            
+            showView('processing-view');
+            document.getElementById('processing-text').textContent = 'QR code detected! Reading asset ID...';
+            document.getElementById('ocr-progress').textContent = 'Initializing OCR...';
+            
+            // Run OCR on captured frame
+            let assetId = await runOCR(imageData);
+            
+            // If OCR didn't find a valid asset ID, fall back to URL parsing
+            if (!assetId || assetId === 'UNKNOWN') {
+                assetId = extractAssetIdFromUrl(decodedText);
+            }
+            
+            processResult(assetId, decodedText);
         }
 
         function onScanError(error) {
-            // Silently continue scanning
+            // Silent - keep scanning
         }
 
-        function simulateScan() {
-            const demoUrl = document.getElementById('demo-url').value.trim();
-            if (demoUrl) {
-                stopScanner();
-                processScannedData(demoUrl);
-            } else {
-                showStatus("Please enter a URL first.", "error");
+        function captureFrame() {
+            if (!videoElement) return null;
+            
+            const canvas = document.getElementById('ocr-canvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Set canvas size to match video
+            canvas.width = videoElement.videoWidth;
+            canvas.height = videoElement.videoHeight;
+            
+            // Draw current video frame
+            ctx.drawImage(videoElement, 0, 0);
+            
+            // Return the canvas data URL
+            return canvas.toDataURL('image/png');
+        }
+
+        async function runOCR(imageData) {
+            if (!imageData || !tesseractWorker) {
+                console.log('No image data or Tesseract not ready');
+                return 'UNKNOWN';
+            }
+            
+            try {
+                document.getElementById('ocr-progress').textContent = 'Analyzing image...';
+                
+                const result = await tesseractWorker.recognize(imageData);
+                const text = result.data.text;
+                
+                console.log('OCR Raw Text:', text);
+                
+                // Look for asset ID patterns like CAM.E1879-A.01
+                // Pattern: letters/numbers with dots and dashes
+                const patterns = [
+                    /[A-Z]{2,4}\.[A-Z]?\d{3,5}-[A-Z]-?\d{1,2}/gi,  // CAM.E1879-A.01
+                    /[A-Z]{2,4}\.[A-Z]?\d{3,5}-[A-Z]\.\d{1,2}/gi,  // CAM.E1879-A.01
+                    /[A-Z]{2,4}[.\-][A-Z0-9]{3,10}[.\-][A-Z0-9.\-]+/gi,  // General pattern
+                ];
+                
+                for (const pattern of patterns) {
+                    const matches = text.match(pattern);
+                    if (matches && matches.length > 0) {
+                        // Clean up the match
+                        let assetId = matches[0].trim().toUpperCase();
+                        console.log('Found Asset ID:', assetId);
+                        return assetId;
+                    }
+                }
+                
+                // If no pattern match, look for any alphanumeric string that looks like an ID
+                const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 0);
+                for (const line of lines) {
+                    // Look for lines that have the right format (letters, numbers, dots, dashes)
+                    if (/^[A-Z0-9][A-Z0-9.\-]{5,20}$/i.test(line)) {
+                        console.log('Found potential Asset ID:', line);
+                        return line.toUpperCase();
+                    }
+                }
+                
+                return 'UNKNOWN';
+            } catch (err) {
+                console.error('OCR Error:', err);
+                return 'UNKNOWN';
             }
         }
 
-        function extractAssetId(data) {
-            // Check for pipe-delimited format: AssetID|URL
-            if (data.includes('|')) {
-                return data.split('|')[0].trim();
+        function extractAssetIdFromUrl(url) {
+            // Check for pipe-delimited format
+            if (url.includes('|')) {
+                return url.split('|')[0].trim();
             }
             
             // For Tandem URLs with selection parameter
-            const selectionMatch = data.match(/selection=([^&]+)/);
+            const selectionMatch = url.match(/selection=([^&]+)/);
             if (selectionMatch) {
                 return 'REF-' + selectionMatch[1].substring(0, 12);
             }
             
-            // Try other patterns
-            const patterns = [
-                /assets\/([^\/\?]+)/i,
-                /asset[=\/]([^\/\?&]+)/i
-            ];
-            
-            for (const pattern of patterns) {
-                const match = data.match(pattern);
-                if (match) return match[1];
-            }
-            
-            return 'ASSET-' + Date.now().toString().slice(-8);
+            return 'UNKNOWN';
         }
 
         function extractUrl(data) {
@@ -788,16 +895,29 @@
             return data;
         }
 
-        function processScannedData(data) {
+        function simulateScan() {
+            const assetId = document.getElementById('demo-asset').value.trim();
+            const url = document.getElementById('demo-url').value.trim();
+            
+            if (!url) {
+                showStatus("Please enter at least a URL.", "error");
+                return;
+            }
+            
+            stopScanner();
+            processResult(assetId || 'MANUAL-ENTRY', url);
+        }
+
+        function processResult(assetId, sourceUrl) {
             showView('processing-view');
             document.getElementById('processing-text').textContent = 'Preparing action...';
+            document.getElementById('ocr-progress').textContent = '';
             
-            const assetId = extractAssetId(data);
-            const cleanUrl = extractUrl(data);
+            const cleanUrl = extractUrl(sourceUrl);
             
             setTimeout(() => {
                 prepareResult(assetId, cleanUrl);
-            }, 800);
+            }, 500);
         }
 
         function prepareResult(assetId, sourceUrl) {
@@ -807,11 +927,11 @@
             
             switch (currentMode) {
                 case 'maintenance':
-                    const subject = encodeURIComponent('Maintenance Issue Report');
+                    const subject = encodeURIComponent(`Maintenance Issue - ${assetId}`);
                     const body = encodeURIComponent(
                         `Hello Maintenance Team,\n\n` +
                         `I would like to report an issue with the following asset:\n\n` +
-                        `Reference: ${assetId}\n` +
+                        `Asset ID: ${assetId}\n` +
                         `View Asset: ${sourceUrl}\n\n` +
                         `Issue Description:\n[Please describe the issue]\n\n` +
                         `Location:\n[Building/Floor/Room]\n\n` +
