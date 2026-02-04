@@ -20,19 +20,11 @@
             --teal-600: #0d9488;
             --teal-500: #14b8a6;
             --teal-400: #2dd4bf;
-            --amber-500: #f59e0b;
-            --amber-400: #fbbf24;
             --white: #ffffff;
-            --shadow-soft: 0 4px 24px -4px rgba(15, 23, 42, 0.12);
-            --shadow-medium: 0 8px 32px -8px rgba(15, 23, 42, 0.2);
             --shadow-strong: 0 16px 48px -12px rgba(15, 23, 42, 0.25);
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'DM Sans', sans-serif;
@@ -41,45 +33,19 @@
             color: var(--slate-800);
         }
 
-        /* Header */
         .header {
             background: linear-gradient(135deg, var(--slate-900) 0%, var(--slate-700) 100%);
             padding: 2.5rem 2rem 3.5rem;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .header::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: 
-                radial-gradient(ellipse 80% 50% at 20% 40%, rgba(20, 184, 166, 0.15) 0%, transparent 50%),
-                radial-gradient(ellipse 60% 40% at 80% 60%, rgba(245, 158, 11, 0.1) 0%, transparent 50%);
-            pointer-events: none;
-        }
-
-        .header-content {
-            max-width: 1000px;
-            margin: 0 auto;
             text-align: center;
-            position: relative;
-            z-index: 1;
         }
 
         .logo-badge {
             display: inline-flex;
             align-items: center;
-            gap: 0.5rem;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+            background: rgba(255,255,255,0.1);
             padding: 0.5rem 1rem;
             border-radius: 50px;
             margin-bottom: 1.25rem;
-            border: 1px solid rgba(255, 255, 255, 0.1);
         }
 
         .logo-badge span {
@@ -92,351 +58,27 @@
 
         h1 {
             font-family: 'Instrument Serif', serif;
-            font-size: clamp(2rem, 5vw, 3rem);
+            font-size: 2.5rem;
             font-weight: 400;
-            color: var(--white);
-            line-height: 1.1;
+            color: white;
             margin-bottom: 0.5rem;
         }
 
-        .subtitle {
-            font-size: 1rem;
-            color: var(--slate-400);
-        }
+        .subtitle { font-size: 1rem; color: var(--slate-400); }
 
-        /* Main Content */
         .main-content {
             max-width: 1000px;
             margin: -2rem auto 3rem;
             padding: 0 1.5rem;
-            position: relative;
-            z-index: 2;
         }
 
-        /* Card */
         .card {
-            background: var(--white);
+            background: white;
             border-radius: 20px;
             box-shadow: var(--shadow-strong);
-            overflow: hidden;
-            margin-bottom: 1.5rem;
-        }
-
-        .card-body {
             padding: 2rem;
         }
 
-        .card-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 1.5rem;
-            color: var(--slate-800);
-        }
-
-        /* Form Elements */
-        .form-group {
-            margin-bottom: 1.25rem;
-        }
-
-        .form-label {
-            display: block;
-            font-size: 0.8rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: var(--slate-500);
-            margin-bottom: 0.5rem;
-        }
-
-        .form-input {
-            width: 100%;
-            padding: 0.875rem 1rem;
-            border: 1px solid var(--slate-200);
-            border-radius: 10px;
-            font-family: inherit;
-            font-size: 0.95rem;
-            transition: all 0.2s ease;
-        }
-
-        .form-input:focus {
-            outline: none;
-            border-color: var(--teal-500);
-            box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
-        }
-
-        .form-input::placeholder {
-            color: var(--slate-400);
-        }
-
-        .form-hint {
-            font-size: 0.75rem;
-            color: var(--slate-400);
-            margin-top: 0.375rem;
-        }
-
-        /* Portal URL Display */
-        .portal-url-group {
-            background: var(--slate-50);
-            border-radius: 10px;
-            padding: 1rem;
-            margin-bottom: 1.25rem;
-        }
-
-        .portal-url-label {
-            font-size: 0.7rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: var(--slate-400);
-            margin-bottom: 0.375rem;
-        }
-
-        .portal-url-value {
-            font-size: 0.85rem;
-            color: var(--teal-600);
-            font-weight: 500;
-            word-break: break-all;
-        }
-
-        /* Generate Button */
-        .generate-btn {
-            display: block;
-            width: 100%;
-            padding: 1rem;
-            border: none;
-            border-radius: 12px;
-            background: linear-gradient(135deg, var(--teal-600) 0%, var(--teal-500) 100%);
-            color: var(--white);
-            font-family: inherit;
-            font-size: 1rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.25s ease;
-        }
-
-        .generate-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-medium);
-        }
-
-        .generate-btn:disabled {
-            opacity: 0.5;
-            cursor: not-allowed;
-            transform: none;
-        }
-
-        /* Output Section */
-        .output-section {
-            display: none;
-        }
-
-        .output-section.active {
-            display: block;
-        }
-
-        .qr-output {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 1.5rem;
-        }
-
-        @media (min-width: 640px) {
-            .qr-output {
-                flex-direction: row;
-                align-items: flex-start;
-            }
-        }
-
-        .qr-preview {
-            background: var(--white);
-            border: 1px solid var(--slate-200);
-            border-radius: 16px;
-            padding: 1.5rem;
-            text-align: center;
-            flex-shrink: 0;
-        }
-
-        .qr-preview canvas {
-            display: block;
-            margin: 0 auto;
-        }
-
-        .qr-asset-label {
-            margin-top: 1rem;
-            font-size: 1.1rem;
-            font-weight: 700;
-            color: var(--slate-800);
-            letter-spacing: 0.02em;
-        }
-
-        .qr-details {
-            flex: 1;
-            min-width: 0;
-        }
-
-        .qr-url-box {
-            background: var(--slate-50);
-            border-radius: 10px;
-            padding: 1rem;
-            margin-bottom: 1rem;
-        }
-
-        .qr-url-label {
-            font-size: 0.7rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-            color: var(--slate-400);
-            margin-bottom: 0.375rem;
-        }
-
-        .qr-url-value {
-            font-size: 0.8rem;
-            color: var(--slate-600);
-            word-break: break-all;
-            font-family: monospace;
-            line-height: 1.5;
-        }
-
-        .download-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.25rem;
-            border: none;
-            border-radius: 10px;
-            background: var(--slate-800);
-            color: var(--white);
-            font-family: inherit;
-            font-size: 0.9rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            margin-right: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .download-btn:hover {
-            background: var(--slate-700);
-        }
-
-        .download-btn svg {
-            width: 18px;
-            height: 18px;
-        }
-
-        .copy-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.25rem;
-            border: 1px solid var(--slate-200);
-            border-radius: 10px;
-            background: var(--white);
-            color: var(--slate-600);
-            font-family: inherit;
-            font-size: 0.9rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            margin-bottom: 0.5rem;
-        }
-
-        .copy-btn:hover {
-            background: var(--slate-50);
-            border-color: var(--slate-300);
-        }
-
-        .copy-btn svg {
-            width: 18px;
-            height: 18px;
-        }
-
-        /* Batch Mode */
-        .batch-section {
-            margin-top: 1.5rem;
-            padding-top: 1.5rem;
-            border-top: 1px dashed var(--slate-300);
-        }
-
-        .batch-title {
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-bottom: 0.75rem;
-            color: var(--slate-700);
-        }
-
-        .batch-textarea {
-            width: 100%;
-            min-height: 150px;
-            padding: 1rem;
-            border: 1px solid var(--slate-200);
-            border-radius: 10px;
-            font-family: monospace;
-            font-size: 0.85rem;
-            line-height: 1.6;
-            resize: vertical;
-        }
-
-        .batch-textarea:focus {
-            outline: none;
-            border-color: var(--teal-500);
-            box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
-        }
-
-        .batch-hint {
-            font-size: 0.75rem;
-            color: var(--slate-400);
-            margin-top: 0.5rem;
-            margin-bottom: 1rem;
-        }
-
-        .batch-results {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 1rem;
-            margin-top: 1.5rem;
-        }
-
-        .batch-item {
-            background: var(--white);
-            border: 1px solid var(--slate-200);
-            border-radius: 12px;
-            padding: 1rem;
-            text-align: center;
-        }
-
-        .batch-item canvas {
-            display: block;
-            margin: 0 auto;
-        }
-
-        .batch-item-label {
-            margin-top: 0.75rem;
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: var(--slate-700);
-        }
-
-        .batch-item-download {
-            margin-top: 0.5rem;
-            padding: 0.5rem 0.75rem;
-            border: none;
-            border-radius: 6px;
-            background: var(--slate-100);
-            color: var(--slate-600);
-            font-size: 0.75rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .batch-item-download:hover {
-            background: var(--slate-200);
-        }
-
-        /* Tabs */
         .tabs {
             display: flex;
             gap: 0.5rem;
@@ -447,34 +89,69 @@
             padding: 0.625rem 1.25rem;
             border: 1px solid var(--slate-200);
             border-radius: 8px;
-            background: var(--white);
-            color: var(--slate-600);
+            background: white;
+            cursor: pointer;
             font-family: inherit;
             font-size: 0.875rem;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.2s ease;
-        }
-
-        .tab:hover {
-            background: var(--slate-50);
         }
 
         .tab.active {
             background: var(--slate-800);
-            color: var(--white);
+            color: white;
             border-color: var(--slate-800);
         }
 
-        .tab-content {
-            display: none;
-        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
 
-        .tab-content.active {
+        .form-group { margin-bottom: 1.25rem; }
+
+        .form-label {
             display: block;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: var(--slate-500);
+            margin-bottom: 0.5rem;
         }
 
-        /* Import Section */
+        .form-input, .batch-textarea {
+            width: 100%;
+            padding: 0.875rem 1rem;
+            border: 1px solid var(--slate-200);
+            border-radius: 10px;
+            font-family: inherit;
+            font-size: 0.95rem;
+        }
+
+        .batch-textarea {
+            min-height: 150px;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+
+        .form-hint {
+            font-size: 0.75rem;
+            color: var(--slate-400);
+            margin-top: 0.375rem;
+        }
+
+        .generate-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            border: none;
+            border-radius: 12px;
+            background: linear-gradient(135deg, var(--teal-600), var(--teal-500));
+            color: white;
+            font-family: inherit;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .generate-btn:hover { opacity: 0.9; }
+
         .import-section {
             display: flex;
             gap: 0.75rem;
@@ -482,541 +159,501 @@
             flex-wrap: wrap;
         }
 
-        .import-btn {
+        .import-btn, .template-btn {
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
             padding: 0.75rem 1.25rem;
-            border: 2px dashed var(--teal-400);
             border-radius: 10px;
-            background: rgba(20, 184, 166, 0.05);
-            color: var(--teal-600);
             font-family: inherit;
             font-size: 0.9rem;
-            font-weight: 600;
             cursor: pointer;
-            transition: all 0.2s ease;
         }
 
-        .import-btn:hover {
-            background: rgba(20, 184, 166, 0.1);
-            border-color: var(--teal-500);
-        }
-
-        .import-btn svg {
-            width: 20px;
-            height: 20px;
+        .import-btn {
+            border: 2px dashed var(--teal-400);
+            background: rgba(20,184,166,0.05);
+            color: var(--teal-600);
+            font-weight: 600;
         }
 
         .template-btn {
+            border: 1px solid var(--slate-200);
+            background: white;
+            color: var(--slate-600);
+        }
+
+        .output-section {
+            display: none;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--slate-200);
+        }
+
+        .output-section.active { display: block; }
+
+        .qr-preview {
+            background: white;
+            border: 1px solid var(--slate-200);
+            border-radius: 16px;
+            padding: 1.5rem;
+            text-align: center;
+            display: inline-block;
+        }
+
+        .qr-asset-label {
+            margin-top: 1rem;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+        .batch-results {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .batch-item {
+            background: white;
+            border: 1px solid var(--slate-200);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .batch-item-label {
+            margin-top: 0.75rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .batch-item-download {
+            margin-top: 0.5rem;
+            padding: 0.5rem 0.75rem;
+            border: none;
+            border-radius: 6px;
+            background: var(--slate-100);
+            cursor: pointer;
+            font-size: 0.75rem;
+        }
+
+        .download-btn {
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
             padding: 0.75rem 1.25rem;
-            border: 1px solid var(--slate-200);
+            border: none;
             border-radius: 10px;
-            background: var(--white);
-            color: var(--slate-600);
+            background: var(--slate-800);
+            color: white;
             font-family: inherit;
-            font-size: 0.9rem;
-            font-weight: 500;
             cursor: pointer;
-            transition: all 0.2s ease;
+            margin-bottom: 1rem;
         }
 
-        .template-btn:hover {
-            background: var(--slate-50);
-            border-color: var(--slate-300);
-        }
-
-        .template-btn svg {
-            width: 18px;
-            height: 18px;
-        }
-
-        /* Footer */
         .footer {
             text-align: center;
             padding: 2rem;
             color: var(--slate-400);
             font-size: 0.8rem;
         }
+
+        .footer a { color: var(--slate-400); text-decoration: none; }
+
+        .debug-box {
+            background: #111;
+            color: #0f0;
+            padding: 1rem;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 0.7rem;
+            margin-top: 1rem;
+            max-height: 200px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+        }
     </style>
 </head>
 <body>
     <header class="header">
-        <div class="header-content">
-            <div class="logo-badge">
-                <span>🔧 Admin Tools</span>
-            </div>
-            <h1>QR Code Generator</h1>
-            <p class="subtitle">Generate asset QR codes for the Help Center portal</p>
-        </div>
+        <div class="logo-badge"><span>🔧 Admin Tools</span></div>
+        <h1>QR Code Generator</h1>
+        <p class="subtitle">Generate asset QR codes for the Help Center portal</p>
     </header>
 
     <main class="main-content">
         <div class="card">
-            <div class="card-body">
-                <!-- Tabs -->
-                <div class="tabs">
-                    <button class="tab active" onclick="switchTab('single')">Single QR Code</button>
-                    <button class="tab" onclick="switchTab('batch')">Batch Generate</button>
+            <div class="tabs">
+                <button class="tab active" onclick="switchTab('single')">Single QR Code</button>
+                <button class="tab" onclick="switchTab('batch')">Batch Generate</button>
+            </div>
+
+            <!-- Single Tab -->
+            <div id="single-tab" class="tab-content active">
+                <div class="form-group">
+                    <label class="form-label">Asset ID</label>
+                    <input type="text" id="asset-id" class="form-input" placeholder="e.g., CAM.E1879-A.01">
                 </div>
 
-                <!-- Single QR Tab -->
-                <div id="single-tab" class="tab-content active">
-                    <div class="portal-url-group">
-                        <div class="portal-url-label">Portal Base URL</div>
-                        <div class="portal-url-value">https://trombonepunk81.github.io/ABC-Healthcase-Portal/</div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="form-label">Asset ID</label>
-                        <input type="text" id="asset-id" class="form-input" placeholder="e.g., CAM.E1879-A.01">
-                        <div class="form-hint">The human-readable asset identifier</div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="form-label">Tandem URL</label>
-                        <input type="text" id="tandem-url" class="form-input" placeholder="https://tandem.autodesk.com/pages/facilities/...">
-                        <div class="form-hint">The full Autodesk Tandem URL for this asset</div>
-                    </div>
-
-                    <button class="generate-btn" onclick="generateSingleQR()">Generate QR Code</button>
-
-                    <!-- Output -->
-                    <div id="single-output" class="output-section">
-                        <hr style="border: none; border-top: 1px solid var(--slate-200); margin: 2rem 0;">
-                        
-                        <div class="qr-output">
-                            <div class="qr-preview">
-                                <canvas id="qr-canvas"></canvas>
-                                <div class="qr-asset-label" id="qr-asset-label"></div>
-                            </div>
-                            <div class="qr-details">
-                                <div class="qr-url-box">
-                                    <div class="qr-url-label">Full QR Code URL</div>
-                                    <div class="qr-url-value" id="qr-full-url"></div>
-                                </div>
-                                <button class="download-btn" onclick="downloadQR()">
-                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
-                                    </svg>
-                                    Download PNG
-                                </button>
-                                <button class="copy-btn" onclick="copyUrl()">
-                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/>
-                                    </svg>
-                                    Copy URL
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                <div class="form-group">
+                    <label class="form-label">Tandem URL</label>
+                    <input type="text" id="tandem-url" class="form-input" placeholder="https://tandem.autodesk.com/...">
                 </div>
 
-                <!-- Batch Tab -->
-                <div id="batch-tab" class="tab-content">
-                    <div class="portal-url-group">
-                        <div class="portal-url-label">Portal Base URL</div>
-                        <div class="portal-url-value">https://trombonepunk81.github.io/ABC-Healthcase-Portal/</div>
-                    </div>
+                <button class="generate-btn" onclick="generateSingleQR()">Generate QR Code</button>
 
-                    <!-- Import/Template Buttons -->
-                    <div class="import-section">
-                        <button class="import-btn" onclick="document.getElementById('excel-file').click()">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
-                            </svg>
-                            Import Excel
-                        </button>
-                        <input type="file" id="excel-file" accept=".xlsx,.xls" style="display: none;" onchange="importExcel(event)">
-                        
-                        <button class="template-btn" onclick="downloadTemplate()">
-                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
-                            </svg>
-                            Download Template
-                        </button>
+                <div id="single-output" class="output-section">
+                    <div class="qr-preview">
+                        <canvas id="qr-canvas"></canvas>
+                        <div class="qr-asset-label" id="qr-asset-label"></div>
                     </div>
-
-                    <div class="form-group">
-                        <label class="form-label">Asset Data (CSV Format)</label>
-                        <textarea id="batch-data" class="batch-textarea" placeholder="CAM.E1879-A.01, https://tandem.autodesk.com/pages/facilities/...
-CAM.E1879-A.02, https://tandem.autodesk.com/pages/facilities/...
-HVAC.B2201-C.05, https://tandem.autodesk.com/pages/facilities/..."></textarea>
-                        <div class="batch-hint">Enter one asset per line: Asset ID, Tandem URL (comma-separated) — or use Import Excel above</div>
-                    </div>
-
-                    <button class="generate-btn" onclick="generateBatchQR()">Generate All QR Codes</button>
-
-                    <div id="batch-output" class="output-section">
-                        <hr style="border: none; border-top: 1px solid var(--slate-200); margin: 2rem 0;">
-                        
-                        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
-                            <div class="card-title" style="margin-bottom: 0;">Generated QR Codes</div>
-                            <button class="download-btn" onclick="downloadAllQR()">
-                                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
-                                </svg>
-                                Download All (ZIP)
-                            </button>
-                        </div>
-                        
-                        <div id="batch-results" class="batch-results"></div>
-                    </div>
+                    <p style="margin-top:1rem; color: var(--slate-500);" id="qr-full-url"></p>
+                    <button class="download-btn" onclick="downloadSingleQR()">Download PNG</button>
                 </div>
+
+                <div id="debug-single" class="debug-box" style="display:none;"></div>
+            </div>
+
+            <!-- Batch Tab -->
+            <div id="batch-tab" class="tab-content">
+                <div class="import-section">
+                    <button class="import-btn" onclick="document.getElementById('excel-file').click()">
+                        📊 Import Excel
+                    </button>
+                    <input type="file" id="excel-file" accept=".xlsx,.xls" style="display:none" onchange="importExcel(event)">
+                    <button class="template-btn" onclick="downloadTemplate()">⬇️ Download Template</button>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Asset Data (one per line: AssetID, URL)</label>
+                    <textarea id="batch-data" class="batch-textarea" placeholder="CAM.E1879-A.01, https://tandem.autodesk.com/..."></textarea>
+                </div>
+
+                <button class="generate-btn" onclick="generateBatchQR()">Generate All QR Codes</button>
+
+                <div id="batch-output" class="output-section">
+                    <button class="download-btn" onclick="downloadAllZip()">Download All (ZIP)</button>
+                    <div id="batch-results" class="batch-results"></div>
+                </div>
+
+                <div id="debug-batch" class="debug-box" style="display:none;"></div>
             </div>
         </div>
     </main>
 
     <footer class="footer">
-        © 2025 ABC Healthcare · QR Code Generator v1.0
-        <br>
-        <a href="index.html" style="color: var(--slate-400); text-decoration: none; font-size: 0.75rem; margin-top: 0.5rem; display: inline-block;">← Back to Help Center Portal</a>
+        © 2025 ABC Healthcare · QR Code Generator
+        <br><a href="index.html">← Back to Help Center Portal</a>
     </footer>
 
-    <!-- QR Code Library -->
     <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
-    <!-- JSZip for batch download -->
     <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
-    <!-- SheetJS for Excel import/export -->
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
-    
+
     <script>
-        const PORTAL_BASE_URL = 'https://trombonepunk81.github.io/ABC-Healthcase-Portal/';
-        let currentQRData = null;
-        let batchQRData = [];
+        const PORTAL_URL = 'https://trombonepunk81.github.io/ABC-Healthcase-Portal/';
+        let currentQR = null;
+        let batchQRs = [];
 
-        // Tab switching
-        function switchTab(tab) {
+        function log(id, msg) {
+            const el = document.getElementById(id);
+            el.style.display = 'block';
+            el.textContent += msg + '\n';
+            console.log(msg);
+        }
+
+        function clearLog(id) {
+            const el = document.getElementById(id);
+            el.textContent = '';
+            el.style.display = 'none';
+        }
+
+        function switchTab(name) {
             document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+            document.getElementById(name + '-tab').classList.add('active');
+        }
+
+        function buildUrl(assetId, tandemUrl) {
+            return PORTAL_URL + '?asset=' + encodeURIComponent(assetId) + '&tandem=' + encodeURIComponent(tandemUrl);
+        }
+
+        async function generateSingleQR() {
+            clearLog('debug-single');
+            log('debug-single', '=== Starting Single QR Generation ===');
+
+            const assetId = document.getElementById('asset-id').value.trim();
+            const tandemUrl = document.getElementById('tandem-url').value.trim();
+
+            log('debug-single', 'Asset ID: ' + assetId);
+            log('debug-single', 'Tandem URL: ' + tandemUrl);
+
+            if (!assetId || !tandemUrl) {
+                alert('Please fill in both fields');
+                return;
+            }
+
+            const fullUrl = buildUrl(assetId, tandemUrl);
+            log('debug-single', 'Full URL length: ' + fullUrl.length);
+
+            try {
+                log('debug-single', 'QRCode library loaded: ' + (typeof QRCode !== 'undefined'));
+                
+                const canvas = document.getElementById('qr-canvas');
+                log('debug-single', 'Canvas found: ' + !!canvas);
+
+                log('debug-single', 'Generating QR code...');
+                
+                await QRCode.toCanvas(canvas, fullUrl, {
+                    width: 200,
+                    margin: 2,
+                    color: { dark: '#0f172a', light: '#ffffff' }
+                });
+
+                log('debug-single', 'QR code generated successfully!');
+
+                document.getElementById('qr-asset-label').textContent = assetId;
+                document.getElementById('qr-full-url').textContent = 'URL: ' + fullUrl.substring(0, 80) + '...';
+                document.getElementById('single-output').classList.add('active');
+
+                currentQR = { assetId, fullUrl, canvas };
+                log('debug-single', 'Done!');
+
+            } catch (err) {
+                log('debug-single', 'ERROR: ' + err.message);
+                log('debug-single', 'Stack: ' + err.stack);
+                alert('Error: ' + err.message);
+            }
+        }
+
+        function downloadSingleQR() {
+            if (!currentQR) return;
             
-            document.querySelector(`.tab[onclick="switchTab('${tab}')"]`).classList.add('active');
-            document.getElementById(`${tab}-tab`).classList.add('active');
+            const canvas = currentQR.canvas;
+            const newCanvas = document.createElement('canvas');
+            const ctx = newCanvas.getContext('2d');
+            
+            newCanvas.width = canvas.width + 40;
+            newCanvas.height = canvas.height + 60;
+            
+            ctx.fillStyle = '#fff';
+            ctx.fillRect(0, 0, newCanvas.width, newCanvas.height);
+            ctx.drawImage(canvas, 20, 20);
+            
+            ctx.fillStyle = '#000';
+            ctx.font = 'bold 14px sans-serif';
+            ctx.textAlign = 'center';
+            ctx.fillText(currentQR.assetId, newCanvas.width / 2, canvas.height + 45);
+
+            const link = document.createElement('a');
+            link.download = 'QR-' + currentQR.assetId + '.png';
+            link.href = newCanvas.toDataURL('image/png');
+            link.click();
         }
 
-        // Build the full portal URL with parameters
-        function buildPortalUrl(assetId, tandemUrl) {
-            const params = new URLSearchParams();
-            params.set('asset', assetId);
-            params.set('tandem', tandemUrl);
-            return PORTAL_BASE_URL + '?' + params.toString();
-        }
-
-        // Import Excel file
         function importExcel(event) {
             const file = event.target.files[0];
             if (!file) return;
+
+            clearLog('debug-batch');
+            log('debug-batch', 'Importing: ' + file.name);
 
             const reader = new FileReader();
             reader.onload = function(e) {
                 try {
                     const data = new Uint8Array(e.target.result);
                     const workbook = XLSX.read(data, { type: 'array' });
-                    
-                    // Get first sheet
-                    const sheetName = workbook.SheetNames[0];
-                    const sheet = workbook.Sheets[sheetName];
-                    
-                    // Convert to JSON (skip header row)
-                    const jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
-                    
-                    // Build CSV format for textarea (skip header row - row 0)
-                    const csvLines = [];
-                    for (let i = 1; i < jsonData.length; i++) {
-                        const row = jsonData[i];
-                        if (row[0] && row[1]) { // Asset ID in column A, Tandem URL in column B
-                            csvLines.push(`${row[0]}, ${row[1]}`);
+                    const sheet = workbook.Sheets[workbook.SheetNames[0]];
+                    const rows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+
+                    log('debug-batch', 'Rows found: ' + rows.length);
+
+                    const lines = [];
+                    for (let i = 1; i < rows.length; i++) {
+                        if (rows[i][0] && rows[i][1]) {
+                            lines.push(rows[i][0] + ', ' + rows[i][1]);
                         }
                     }
-                    
-                    // Populate textarea
-                    document.getElementById('batch-data').value = csvLines.join('\n');
-                    
-                    // Show success message
-                    alert(`Successfully imported ${csvLines.length} assets from Excel!`);
+
+                    document.getElementById('batch-data').value = lines.join('\n');
+                    log('debug-batch', 'Imported ' + lines.length + ' rows');
+                    alert('Imported ' + lines.length + ' assets!');
+
                 } catch (err) {
-                    console.error('Excel import error:', err);
-                    alert('Error reading Excel file. Please make sure it\'s a valid .xlsx or .xls file.');
+                    log('debug-batch', 'Error: ' + err.message);
+                    alert('Error reading file: ' + err.message);
                 }
             };
             reader.readAsArrayBuffer(file);
-            
-            // Reset file input so same file can be selected again
             event.target.value = '';
         }
 
-        // Download Excel template
         function downloadTemplate() {
-            // Create workbook and worksheet
             const wb = XLSX.utils.book_new();
-            
-            // Create data with headers and example rows
-            const data = [
+            const ws = XLSX.utils.aoa_to_sheet([
                 ['Asset ID', 'Tandem URL'],
-                ['CAM.E1879-A.01', 'https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:EXAMPLE?selection=EXAMPLE'],
-                ['HVAC.B2201-C.05', 'https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:EXAMPLE?selection=EXAMPLE'],
-                ['', '']  // Empty row for user to continue
-            ];
-            
-            const ws = XLSX.utils.aoa_to_sheet(data);
-            
-            // Set column widths
-            ws['!cols'] = [
-                { wch: 20 },  // Asset ID column
-                { wch: 80 }   // Tandem URL column
-            ];
-            
+                ['CAM.E1879-A.01', 'https://tandem.autodesk.com/pages/facilities/...'],
+                ['HVAC.B2201-C.05', 'https://tandem.autodesk.com/pages/facilities/...']
+            ]);
+            ws['!cols'] = [{ wch: 20 }, { wch: 60 }];
             XLSX.utils.book_append_sheet(wb, ws, 'Assets');
-            
-            // Download
-            XLSX.writeFile(wb, 'ABC-Healthcare-QR-Template.xlsx');
+            XLSX.writeFile(wb, 'QR-Template.xlsx');
         }
 
-        // Generate single QR code
-        async function generateSingleQR() {
-            const assetId = document.getElementById('asset-id').value.trim();
-            const tandemUrl = document.getElementById('tandem-url').value.trim();
-
-            if (!assetId || !tandemUrl) {
-                alert('Please enter both Asset ID and Tandem URL');
-                return;
-            }
-
-            const fullUrl = buildPortalUrl(assetId, tandemUrl);
-            currentQRData = { assetId, tandemUrl, fullUrl };
-
-            // Generate QR code
-            const canvas = document.getElementById('qr-canvas');
-            await QRCode.toCanvas(canvas, fullUrl, {
-                width: 200,
-                margin: 2,
-                color: {
-                    dark: '#0f172a',
-                    light: '#ffffff'
-                }
-            });
-
-            // Update UI
-            document.getElementById('qr-asset-label').textContent = assetId;
-            document.getElementById('qr-full-url').textContent = fullUrl;
-            document.getElementById('single-output').classList.add('active');
-        }
-
-        // Download single QR code
-        function downloadQR() {
-            if (!currentQRData) return;
-
-            const canvas = document.getElementById('qr-canvas');
-            
-            // Create a new canvas with label
-            const downloadCanvas = document.createElement('canvas');
-            const ctx = downloadCanvas.getContext('2d');
-            
-            const padding = 20;
-            const labelHeight = 40;
-            downloadCanvas.width = canvas.width + (padding * 2);
-            downloadCanvas.height = canvas.height + (padding * 2) + labelHeight;
-            
-            // White background
-            ctx.fillStyle = '#ffffff';
-            ctx.fillRect(0, 0, downloadCanvas.width, downloadCanvas.height);
-            
-            // Draw QR code
-            ctx.drawImage(canvas, padding, padding);
-            
-            // Draw label
-            ctx.fillStyle = '#0f172a';
-            ctx.font = 'bold 16px sans-serif';
-            ctx.textAlign = 'center';
-            ctx.fillText(currentQRData.assetId, downloadCanvas.width / 2, canvas.height + padding + 28);
-
-            // Download
-            const link = document.createElement('a');
-            link.download = `QR-${currentQRData.assetId}.png`;
-            link.href = downloadCanvas.toDataURL('image/png');
-            link.click();
-        }
-
-        // Copy URL to clipboard
-        async function copyUrl() {
-            if (!currentQRData) return;
-            
-            try {
-                await navigator.clipboard.writeText(currentQRData.fullUrl);
-                alert('URL copied to clipboard!');
-            } catch (err) {
-                // Fallback
-                const textArea = document.createElement('textarea');
-                textArea.value = currentQRData.fullUrl;
-                document.body.appendChild(textArea);
-                textArea.select();
-                document.execCommand('copy');
-                document.body.removeChild(textArea);
-                alert('URL copied to clipboard!');
-            }
-        }
-
-        // Generate batch QR codes
         async function generateBatchQR() {
-            const batchData = document.getElementById('batch-data').value.trim();
-            
-            if (!batchData) {
-                alert('Please enter asset data');
+            clearLog('debug-batch');
+            log('debug-batch', '=== Starting Batch Generation ===');
+
+            const text = document.getElementById('batch-data').value.trim();
+            if (!text) {
+                alert('Please enter data or import Excel');
                 return;
             }
 
-            const lines = batchData.split('\n').filter(line => line.trim());
-            
-            if (lines.length === 0) {
-                alert('No valid data found');
-                return;
-            }
-            
-            batchQRData = [];
-            
-            const resultsContainer = document.getElementById('batch-results');
-            resultsContainer.innerHTML = '';
-            
-            let successCount = 0;
+            log('debug-batch', 'Text length: ' + text.length);
 
-            for (const line of lines) {
-                // Handle both comma and tab delimiters (Excel sometimes uses tabs)
-                let parts;
-                if (line.includes('\t')) {
-                    parts = line.split('\t').map(p => p.trim());
-                } else {
-                    parts = line.split(',').map(p => p.trim());
+            let lines = text.split('\n').filter(l => l.trim());
+            log('debug-batch', 'Total lines: ' + lines.length);
+            
+            // Skip header row if present
+            if (lines.length > 0) {
+                const firstLine = lines[0].toLowerCase();
+                if (firstLine.includes('asset') && firstLine.includes('url')) {
+                    log('debug-batch', 'Skipping header row: ' + lines[0]);
+                    lines = lines.slice(1);
                 }
+            }
+            
+            log('debug-batch', 'Data lines to process: ' + lines.length);
+
+            batchQRs = [];
+            const container = document.getElementById('batch-results');
+            container.innerHTML = '';
+
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                log('debug-batch', '--- Processing line ' + (i+1) + ' ---');
+
+                // Split by comma or tab
+                let parts = line.includes('\t') ? line.split('\t') : line.split(',');
+                parts = parts.map(p => p.trim());
                 
-                // Skip if we don't have at least 2 parts
+                log('debug-batch', 'Parts found: ' + parts.length);
+                log('debug-batch', 'Asset: ' + (parts[0] || 'EMPTY'));
+
                 if (parts.length < 2 || !parts[0] || !parts[1]) {
-                    console.log('Skipping invalid line:', line);
+                    log('debug-batch', 'SKIP: missing asset or URL');
                     continue;
                 }
 
-                const assetId = parts[0].trim();
-                const tandemUrl = parts.slice(1).join(',').trim(); // In case URL has commas
+                const assetId = parts[0];
+                const tandemUrl = parts.slice(1).join(',').trim();
+                const fullUrl = buildUrl(assetId, tandemUrl);
                 
-                // Skip if either value is empty
-                if (!assetId || !tandemUrl) {
-                    console.log('Skipping empty values:', assetId, tandemUrl);
-                    continue;
-                }
-                
-                const fullUrl = buildPortalUrl(assetId, tandemUrl);
+                log('debug-batch', 'Full URL length: ' + fullUrl.length);
 
                 try {
-                    // Create container
-                    const item = document.createElement('div');
-                    item.className = 'batch-item';
+                    const div = document.createElement('div');
+                    div.className = 'batch-item';
 
-                    // Create canvas
                     const canvas = document.createElement('canvas');
+                    
                     await QRCode.toCanvas(canvas, fullUrl, {
                         width: 150,
                         margin: 2,
-                        color: {
-                            dark: '#0f172a',
-                            light: '#ffffff'
-                        }
+                        color: { dark: '#0f172a', light: '#ffffff' }
                     });
+                    
+                    log('debug-batch', 'QR generated OK');
 
-                    // Label
                     const label = document.createElement('div');
                     label.className = 'batch-item-label';
                     label.textContent = assetId;
 
-                    // Download button
-                    const downloadBtn = document.createElement('button');
-                    downloadBtn.className = 'batch-item-download';
-                    downloadBtn.textContent = 'Download';
-                    downloadBtn.onclick = () => downloadBatchItem(assetId, canvas);
+                    const btn = document.createElement('button');
+                    btn.className = 'batch-item-download';
+                    btn.textContent = 'Download';
+                    btn.onclick = () => downloadOne(assetId, canvas);
 
-                    item.appendChild(canvas);
-                    item.appendChild(label);
-                    item.appendChild(downloadBtn);
-                    resultsContainer.appendChild(item);
+                    div.appendChild(canvas);
+                    div.appendChild(label);
+                    div.appendChild(btn);
+                    container.appendChild(div);
 
-                    // Store for batch download
-                    batchQRData.push({ assetId, canvas, fullUrl });
-                    successCount++;
+                    batchQRs.push({ assetId, canvas });
+
                 } catch (err) {
-                    console.error('Error generating QR for:', assetId, err);
+                    log('debug-batch', 'ERROR: ' + err.message);
+                    console.error('QR Error for ' + assetId, err);
                 }
             }
 
-            if (successCount > 0) {
+            log('debug-batch', '=== Complete ===');
+            log('debug-batch', 'Generated: ' + batchQRs.length + ' QR codes');
+
+            if (batchQRs.length > 0) {
                 document.getElementById('batch-output').classList.add('active');
             } else {
                 alert('No QR codes could be generated. Please check your data format.\n\nExpected format:\nAssetID, TandemURL');
             }
         }
 
-        // Download single batch item
-        function downloadBatchItem(assetId, canvas) {
-            const downloadCanvas = document.createElement('canvas');
-            const ctx = downloadCanvas.getContext('2d');
-            
-            const padding = 15;
-            const labelHeight = 30;
-            downloadCanvas.width = canvas.width + (padding * 2);
-            downloadCanvas.height = canvas.height + (padding * 2) + labelHeight;
-            
-            ctx.fillStyle = '#ffffff';
-            ctx.fillRect(0, 0, downloadCanvas.width, downloadCanvas.height);
-            ctx.drawImage(canvas, padding, padding);
-            
-            ctx.fillStyle = '#0f172a';
-            ctx.font = 'bold 14px sans-serif';
+        function downloadOne(assetId, canvas) {
+            const newCanvas = document.createElement('canvas');
+            const ctx = newCanvas.getContext('2d');
+            newCanvas.width = canvas.width + 30;
+            newCanvas.height = canvas.height + 50;
+            ctx.fillStyle = '#fff';
+            ctx.fillRect(0, 0, newCanvas.width, newCanvas.height);
+            ctx.drawImage(canvas, 15, 15);
+            ctx.fillStyle = '#000';
+            ctx.font = 'bold 12px sans-serif';
             ctx.textAlign = 'center';
-            ctx.fillText(assetId, downloadCanvas.width / 2, canvas.height + padding + 22);
+            ctx.fillText(assetId, newCanvas.width / 2, canvas.height + 35);
 
             const link = document.createElement('a');
-            link.download = `QR-${assetId}.png`;
-            link.href = downloadCanvas.toDataURL('image/png');
+            link.download = 'QR-' + assetId + '.png';
+            link.href = newCanvas.toDataURL('image/png');
             link.click();
         }
 
-        // Download all as ZIP
-        async function downloadAllQR() {
-            if (batchQRData.length === 0) return;
+        async function downloadAllZip() {
+            if (!batchQRs.length) return;
 
             const zip = new JSZip();
 
-            for (const item of batchQRData) {
-                const downloadCanvas = document.createElement('canvas');
-                const ctx = downloadCanvas.getContext('2d');
-                
-                const padding = 15;
-                const labelHeight = 30;
-                downloadCanvas.width = item.canvas.width + (padding * 2);
-                downloadCanvas.height = item.canvas.height + (padding * 2) + labelHeight;
-                
-                ctx.fillStyle = '#ffffff';
-                ctx.fillRect(0, 0, downloadCanvas.width, downloadCanvas.height);
-                ctx.drawImage(item.canvas, padding, padding);
-                
-                ctx.fillStyle = '#0f172a';
-                ctx.font = 'bold 14px sans-serif';
+            for (const item of batchQRs) {
+                const newCanvas = document.createElement('canvas');
+                const ctx = newCanvas.getContext('2d');
+                newCanvas.width = item.canvas.width + 30;
+                newCanvas.height = item.canvas.height + 50;
+                ctx.fillStyle = '#fff';
+                ctx.fillRect(0, 0, newCanvas.width, newCanvas.height);
+                ctx.drawImage(item.canvas, 15, 15);
+                ctx.fillStyle = '#000';
+                ctx.font = 'bold 12px sans-serif';
                 ctx.textAlign = 'center';
-                ctx.fillText(item.assetId, downloadCanvas.width / 2, item.canvas.height + padding + 22);
+                ctx.fillText(item.assetId, newCanvas.width / 2, item.canvas.height + 35);
 
-                // Get image data
-                const dataUrl = downloadCanvas.toDataURL('image/png');
-                const base64Data = dataUrl.split(',')[1];
-                
-                zip.file(`QR-${item.assetId}.png`, base64Data, { base64: true });
+                const dataUrl = newCanvas.toDataURL('image/png');
+                zip.file('QR-' + item.assetId + '.png', dataUrl.split(',')[1], { base64: true });
             }
 
-            const content = await zip.generateAsync({ type: 'blob' });
+            const blob = await zip.generateAsync({ type: 'blob' });
             const link = document.createElement('a');
-            link.download = 'ABC-Healthcare-QR-Codes.zip';
-            link.href = URL.createObjectURL(content);
+            link.download = 'QR-Codes.zip';
+            link.href = URL.createObjectURL(blob);
             link.click();
         }
+
+        // Check libraries on load
+        window.onload = function() {
+            console.log('QRCode:', typeof QRCode);
+            console.log('XLSX:', typeof XLSX);
+            console.log('JSZip:', typeof JSZip);
+        };
     </script>
 </body>
 </html>
