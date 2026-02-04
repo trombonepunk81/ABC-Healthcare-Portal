@@ -392,17 +392,24 @@
     function drawQRToCanvas(canvas, text, pixelSize) {
         pixelSize = pixelSize || 4;
         var qr = null;
+        var lastError = null;
         
-        // Try different type numbers until one works
-        for (var typeNumber = 1; typeNumber <= 40; typeNumber++) {
+        // Try different type numbers until one works (1-40)
+        // Higher type numbers can hold more data
+        for (var typeNumber = 10; typeNumber <= 40; typeNumber++) {
             try {
-                qr = new QRCode(typeNumber, 'M');
+                qr = new QRCode(typeNumber, 'L'); // Use 'L' (Low) error correction for more data capacity
                 qr.addData(text);
                 qr.make();
-                break;
+                break; // Success!
             } catch (e) {
-                if (typeNumber === 40) throw e;
+                lastError = e;
+                qr = null;
             }
+        }
+        
+        if (!qr) {
+            throw lastError || new Error('Could not generate QR code');
         }
         
         var moduleCount = qr.getModuleCount();
