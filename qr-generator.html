@@ -141,7 +141,7 @@ var qrcode=function(){var qrcode=function(typeNumber,errorCorrectionLevel){var P
     </script>
 
     <script>
-        var PORTAL_URL = 'https://trombonepunk81.github.io/ABC-Healthcase-Portal/';
+        var PORTAL_URL = 'https://trombonepunk81.github.io/ABC-Healthcare-Portal/';
         var currentQR = null;
         var batchQRs = [];
 
@@ -181,7 +181,7 @@ var qrcode=function(){var qrcode=function(typeNumber,errorCorrectionLevel){var P
         }
 
         function createQRCanvas(text, cellSize) {
-            cellSize = cellSize || 4;
+            cellSize = cellSize || 5;  // Increased default size
             
             // Type 0 = auto-detect, 'L' = low error correction (max capacity)
             var qr = qrcode(0, 'L');
@@ -189,7 +189,8 @@ var qrcode=function(){var qrcode=function(typeNumber,errorCorrectionLevel){var P
             qr.make();
             
             var moduleCount = qr.getModuleCount();
-            var size = moduleCount * cellSize;
+            var margin = cellSize * 4;  // Add quiet zone (white margin)
+            var size = moduleCount * cellSize + margin * 2;
             
             var canvas = document.createElement('canvas');
             canvas.width = size;
@@ -198,12 +199,17 @@ var qrcode=function(){var qrcode=function(typeNumber,errorCorrectionLevel){var P
             var ctx = canvas.getContext('2d');
             ctx.fillStyle = '#ffffff';
             ctx.fillRect(0, 0, size, size);
-            ctx.fillStyle = '#0f172a';
+            ctx.fillStyle = '#000000';  // Pure black for better contrast
             
             for (var row = 0; row < moduleCount; row++) {
                 for (var col = 0; col < moduleCount; col++) {
                     if (qr.isDark(row, col)) {
-                        ctx.fillRect(col * cellSize, row * cellSize, cellSize, cellSize);
+                        ctx.fillRect(
+                            margin + col * cellSize, 
+                            margin + row * cellSize, 
+                            cellSize, 
+                            cellSize
+                        );
                     }
                 }
             }
@@ -380,7 +386,7 @@ var qrcode=function(){var qrcode=function(typeNumber,errorCorrectionLevel){var P
                     var div = document.createElement('div');
                     div.className = 'batch-item';
 
-                    var canvas = createQRCanvas(fullUrl, 3);
+                    var canvas = createQRCanvas(fullUrl, 4);  // Slightly smaller for grid but still readable
                     log('debug-batch', 'QR OK');
 
                     var label = document.createElement('div');
