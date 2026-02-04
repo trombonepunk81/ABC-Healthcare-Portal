@@ -474,6 +474,66 @@
             display: block;
         }
 
+        /* Import Section */
+        .import-section {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1.25rem;
+            flex-wrap: wrap;
+        }
+
+        .import-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            border: 2px dashed var(--teal-400);
+            border-radius: 10px;
+            background: rgba(20, 184, 166, 0.05);
+            color: var(--teal-600);
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .import-btn:hover {
+            background: rgba(20, 184, 166, 0.1);
+            border-color: var(--teal-500);
+        }
+
+        .import-btn svg {
+            width: 20px;
+            height: 20px;
+        }
+
+        .template-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem 1.25rem;
+            border: 1px solid var(--slate-200);
+            border-radius: 10px;
+            background: var(--white);
+            color: var(--slate-600);
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .template-btn:hover {
+            background: var(--slate-50);
+            border-color: var(--slate-300);
+        }
+
+        .template-btn svg {
+            width: 18px;
+            height: 18px;
+        }
+
         /* Footer */
         .footer {
             text-align: center;
@@ -562,12 +622,30 @@
                         <div class="portal-url-value">https://trombonepunk81.github.io/ABC-Healthcase-Portal/</div>
                     </div>
 
+                    <!-- Import/Template Buttons -->
+                    <div class="import-section">
+                        <button class="import-btn" onclick="document.getElementById('excel-file').click()">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                            </svg>
+                            Import Excel
+                        </button>
+                        <input type="file" id="excel-file" accept=".xlsx,.xls" style="display: none;" onchange="importExcel(event)">
+                        
+                        <button class="template-btn" onclick="downloadTemplate()">
+                            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                            </svg>
+                            Download Template
+                        </button>
+                    </div>
+
                     <div class="form-group">
                         <label class="form-label">Asset Data (CSV Format)</label>
                         <textarea id="batch-data" class="batch-textarea" placeholder="CAM.E1879-A.01, https://tandem.autodesk.com/pages/facilities/...
 CAM.E1879-A.02, https://tandem.autodesk.com/pages/facilities/...
 HVAC.B2201-C.05, https://tandem.autodesk.com/pages/facilities/..."></textarea>
-                        <div class="batch-hint">Enter one asset per line: Asset ID, Tandem URL (comma-separated)</div>
+                        <div class="batch-hint">Enter one asset per line: Asset ID, Tandem URL (comma-separated) — or use Import Excel above</div>
                     </div>
 
                     <button class="generate-btn" onclick="generateBatchQR()">Generate All QR Codes</button>
@@ -594,12 +672,16 @@ HVAC.B2201-C.05, https://tandem.autodesk.com/pages/facilities/..."></textarea>
 
     <footer class="footer">
         © 2025 ABC Healthcare · QR Code Generator v1.0
+        <br>
+        <a href="index.html" style="color: var(--slate-400); text-decoration: none; font-size: 0.75rem; margin-top: 0.5rem; display: inline-block;">← Back to Help Center Portal</a>
     </footer>
 
     <!-- QR Code Library -->
     <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
     <!-- JSZip for batch download -->
     <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+    <!-- SheetJS for Excel import/export -->
+    <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
     
     <script>
         const PORTAL_BASE_URL = 'https://trombonepunk81.github.io/ABC-Healthcase-Portal/';
@@ -621,6 +703,76 @@ HVAC.B2201-C.05, https://tandem.autodesk.com/pages/facilities/..."></textarea>
             params.set('asset', assetId);
             params.set('tandem', tandemUrl);
             return PORTAL_BASE_URL + '?' + params.toString();
+        }
+
+        // Import Excel file
+        function importExcel(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = new Uint8Array(e.target.result);
+                    const workbook = XLSX.read(data, { type: 'array' });
+                    
+                    // Get first sheet
+                    const sheetName = workbook.SheetNames[0];
+                    const sheet = workbook.Sheets[sheetName];
+                    
+                    // Convert to JSON (skip header row)
+                    const jsonData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+                    
+                    // Build CSV format for textarea (skip header row - row 0)
+                    const csvLines = [];
+                    for (let i = 1; i < jsonData.length; i++) {
+                        const row = jsonData[i];
+                        if (row[0] && row[1]) { // Asset ID in column A, Tandem URL in column B
+                            csvLines.push(`${row[0]}, ${row[1]}`);
+                        }
+                    }
+                    
+                    // Populate textarea
+                    document.getElementById('batch-data').value = csvLines.join('\n');
+                    
+                    // Show success message
+                    alert(`Successfully imported ${csvLines.length} assets from Excel!`);
+                } catch (err) {
+                    console.error('Excel import error:', err);
+                    alert('Error reading Excel file. Please make sure it\'s a valid .xlsx or .xls file.');
+                }
+            };
+            reader.readAsArrayBuffer(file);
+            
+            // Reset file input so same file can be selected again
+            event.target.value = '';
+        }
+
+        // Download Excel template
+        function downloadTemplate() {
+            // Create workbook and worksheet
+            const wb = XLSX.utils.book_new();
+            
+            // Create data with headers and example rows
+            const data = [
+                ['Asset ID', 'Tandem URL'],
+                ['CAM.E1879-A.01', 'https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:EXAMPLE?selection=EXAMPLE'],
+                ['HVAC.B2201-C.05', 'https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:EXAMPLE?selection=EXAMPLE'],
+                ['', '']  // Empty row for user to continue
+            ];
+            
+            const ws = XLSX.utils.aoa_to_sheet(data);
+            
+            // Set column widths
+            ws['!cols'] = [
+                { wch: 20 },  // Asset ID column
+                { wch: 80 }   // Tandem URL column
+            ];
+            
+            XLSX.utils.book_append_sheet(wb, ws, 'Assets');
+            
+            // Download
+            XLSX.writeFile(wb, 'ABC-Healthcare-QR-Template.xlsx');
         }
 
         // Generate single QR code
