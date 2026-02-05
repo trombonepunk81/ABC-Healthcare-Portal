@@ -86,6 +86,10 @@
         .loading-spinner { display: inline-block; width: 20px; height: 20px; border: 3px solid var(--slate-200); border-top-color: var(--teal-500); border-radius: 50%; animation: spin 0.8s linear infinite; }
         @keyframes spin { to { transform: rotate(360deg); } }
         .info-banner { background: rgba(20, 184, 166, 0.05); border-left: 3px solid var(--teal-500); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem; color: var(--slate-700); font-size: 0.9rem; }
+        .debug-console { background: #1e293b; color: #10b981; padding: 1rem; border-radius: 10px; font-family: monospace; font-size: 0.75rem; margin-top: 1rem; max-height: 300px; overflow-y: auto; white-space: pre-wrap; word-break: break-all; }
+        .debug-console .error { color: #ef4444; }
+        .debug-console .success { color: #10b981; }
+        .debug-console .info { color: #3b82f6; }
     </style>
 </head>
 <body>
@@ -155,6 +159,8 @@
                         <span id="connect-btn-icon">🔌</span>
                         <span id="connect-btn-text">Connect to Tandem</span>
                     </button>
+                    
+                    <div id="tandem-debug" class="debug-console" style="display: none;"></div>
                 </div>
 
                 <div id="tandem-assets-section" style="display: none;">
@@ -534,11 +540,31 @@ uaBumsSrT2VW0LrtXF/BQ8hwY0szfrmyJi5BAkoA7SWtk4zYwltxmIUuLjDWErhr
         }
 
         // ==================== TANDEM CONNECT ====================
+        function debugLog(message, type = 'info') {
+            var debugConsole = document.getElementById('tandem-debug');
+            debugConsole.style.display = 'block';
+            
+            var timestamp = new Date().toLocaleTimeString();
+            var className = type === 'error' ? 'error' : (type === 'success' ? 'success' : 'info');
+            var prefix = type === 'error' ? '❌' : (type === 'success' ? '✓' : '→');
+            
+            var line = document.createElement('div');
+            line.className = className;
+            line.textContent = `[${timestamp}] ${prefix} ${message}`;
+            debugConsole.appendChild(line);
+            debugConsole.scrollTop = debugConsole.scrollHeight;
+            
+            console.log(`[Tandem] ${message}`);
+        }
+
         async function connectToTandem() {
             var btn = document.getElementById('connect-btn');
             var icon = document.getElementById('connect-btn-icon');
             var text = document.getElementById('connect-btn-text');
             var status = document.getElementById('status-bar');
+            
+            // Clear previous debug logs
+            document.getElementById('tandem-debug').innerHTML = '';
             
             btn.disabled = true;
             icon.innerHTML = '<span class="loading-spinner"></span>';
@@ -546,17 +572,25 @@ uaBumsSrT2VW0LrtXF/BQ8hwY0szfrmyJi5BAkoA7SWtk4zYwltxmIUuLjDWErhr
             status.textContent = 'Connecting to Tandem...';
             status.className = 'status-bar loading';
 
+            debugLog('=== STARTING TANDEM CONNECTION ===');
+            debugLog('Client ID: ' + TANDEM_CONFIG.clientId.substring(0, 20) + '...');
+            debugLog('Facility ID: ' + TANDEM_CONFIG.facilityId);
+
             try {
                 // Step 1: Get Access Token
+                debugLog('Step 1: Requesting OAuth token...');
                 tandemAccessToken = await getTandemAccessToken();
-                console.log('✓ Authentication successful');
+                debugLog('Authentication successful! Token received.', 'success');
+                debugLog('Token (first 20 chars): ' + tandemAccessToken.substring(0, 20) + '...');
 
                 // Step 2: Fetch Assets
                 status.textContent = 'Fetching assets from facility...';
+                debugLog('Step 2: Fetching assets from facility...');
                 tandemAssets = await getTandemAssets();
-                console.log('✓ Found', tandemAssets.length, 'assets');
+                debugLog('Found ' + tandemAssets.length + ' assets', 'success');
 
                 // Step 3: Display Assets
+                debugLog('Step 3: Displaying assets...');
                 displayAssets(tandemAssets);
                 
                 // Update UI
@@ -564,9 +598,13 @@ uaBumsSrT2VW0LrtXF/BQ8hwY0szfrmyJi5BAkoA7SWtk4zYwltxmIUuLjDWErhr
                 status.className = 'status-bar success';
                 document.getElementById('tandem-connect-section').style.display = 'none';
                 document.getElementById('tandem-assets-section').style.display = 'block';
+                debugLog('=== CONNECTION COMPLETE ===', 'success');
 
             } catch (error) {
+                debugLog('CONNECTION FAILED: ' + error.message, 'error');
+                debugLog('Error details: ' + JSON.stringify(error), 'error');
                 console.error('Tandem connection error:', error);
+                
                 status.textContent = '✗ Connection failed: ' + error.message;
                 status.className = 'status-bar error';
                 btn.disabled = false;
@@ -576,16 +614,22 @@ uaBumsSrT2VW0LrtXF/BQ8hwY0szfrmyJi5BAkoA7SWtk4zYwltxmIUuLjDWErhr
         }
 
         async function getTandemAccessToken() {
+            debugLog('Preparing OAuth request...');
+            
             // Using 2-legged OAuth (Client Credentials)
             var tokenUrl = 'https://developer.api.autodesk.com/authentication/v2/token';
+            debugLog('Token URL: ' + tokenUrl);
             
             var body = new URLSearchParams({
                 grant_type: 'client_credentials',
                 scope: 'data:read'
             });
+            debugLog('Grant type: client_credentials, Scope: data:read');
 
             var credentials = btoa(TANDEM_CONFIG.clientId + ':' + TANDEM_CONFIG.clientSecret);
+            debugLog('Credentials encoded (Base64)');
 
+            debugLog('Sending POST request to Autodesk...');
             var response = await fetch(tokenUrl, {
                 method: 'POST',
                 headers: {
@@ -595,21 +639,31 @@ uaBumsSrT2VW0LrtXF/BQ8hwY0szfrmyJi5BAkoA7SWtk4zYwltxmIUuLjDWErhr
                 body: body
             });
 
+            debugLog('Response status: ' + response.status + ' ' + response.statusText);
+
             if (!response.ok) {
-                throw new Error('Authentication failed: ' + response.statusText);
+                var errorText = await response.text();
+                debugLog('Error response body: ' + errorText, 'error');
+                throw new Error('Authentication failed: ' + response.statusText + ' - ' + errorText);
             }
 
             var data = await response.json();
+            debugLog('Token response received successfully', 'success');
             return data.access_token;
         }
 
         async function getTandemAssets() {
+            debugLog('Preparing asset fetch request...');
+            
             // Tandem API endpoint to get facility elements
             var facilityUrn = TANDEM_CONFIG.facilityId;
+            debugLog('Facility URN: ' + facilityUrn);
             
             // We'll query the Tandem API for elements in the facility
             var apiUrl = 'https://developer.api.autodesk.com/tandem/v1/twins/' + encodeURIComponent(facilityUrn) + '/elements';
+            debugLog('API URL: ' + apiUrl);
 
+            debugLog('Sending GET request for assets...');
             var response = await fetch(apiUrl, {
                 method: 'GET',
                 headers: {
@@ -618,17 +672,24 @@ uaBumsSrT2VW0LrtXF/BQ8hwY0szfrmyJi5BAkoA7SWtk4zYwltxmIUuLjDWErhr
                 }
             });
 
+            debugLog('Response status: ' + response.status + ' ' + response.statusText);
+
             if (!response.ok) {
-                throw new Error('Failed to fetch assets: ' + response.statusText);
+                var errorText = await response.text();
+                debugLog('Error response body: ' + errorText, 'error');
+                throw new Error('Failed to fetch assets: ' + response.statusText + ' - ' + errorText);
             }
 
             var data = await response.json();
+            debugLog('Asset data received, parsing...');
+            debugLog('Response keys: ' + Object.keys(data).join(', '));
             
             // Process the response to extract asset information
             // The actual structure depends on Tandem's API response
             var assets = [];
             
             if (data.results && Array.isArray(data.results)) {
+                debugLog('Found results array with ' + data.results.length + ' items');
                 assets = data.results.map(function(element, index) {
                     // Extract relevant properties
                     var elementId = element.e || element.id || ('element-' + index);
@@ -651,6 +712,10 @@ uaBumsSrT2VW0LrtXF/BQ8hwY0szfrmyJi5BAkoA7SWtk4zYwltxmIUuLjDWErhr
                         properties: properties
                     };
                 });
+                debugLog('Processed ' + assets.length + ' assets', 'success');
+            } else {
+                debugLog('No results array found in response', 'error');
+                debugLog('Data structure: ' + JSON.stringify(data).substring(0, 500), 'error');
             }
 
             return assets;
