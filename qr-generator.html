@@ -23,8 +23,10 @@
         }
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'DM Sans', sans-serif; background: var(--slate-100); min-height: 100vh; }
-        .header { background: linear-gradient(135deg, var(--slate-900), var(--slate-700)); padding: 2.5rem 2rem 3.5rem; text-align: center; }
-        .logo-badge { display: inline-block; background: rgba(255,255,255,0.1); padding: 0.5rem 1rem; border-radius: 50px; margin-bottom: 1rem; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal-400); }
+        .header { background: linear-gradient(135deg, var(--slate-900), var(--slate-700)); padding: 2.5rem 2rem 3.5rem; text-align: center; position: relative; overflow: hidden; }
+        .header::before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: radial-gradient(ellipse 80% 50% at 20% 40%, rgba(20, 184, 166, 0.15) 0%, transparent 50%), radial-gradient(ellipse 60% 40% at 80% 60%, rgba(245, 158, 11, 0.1) 0%, transparent 50%); pointer-events: none; }
+        .header > * { position: relative; z-index: 1; }
+        .logo-badge { display: inline-block; background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 0.5rem 1rem; border-radius: 50px; margin-bottom: 1rem; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal-400); border: 1px solid rgba(255, 255, 255, 0.1); }
         h1 { font-family: 'Instrument Serif', serif; font-size: 2.5rem; color: white; margin-bottom: 0.5rem; }
         .subtitle { color: var(--slate-400); }
         .main-content { max-width: 1000px; margin: -2rem auto 3rem; padding: 0 1.5rem; }
@@ -33,21 +35,25 @@
         .status-bar.success { background: #dcfce7; color: #166534; }
         .status-bar.error { background: #fef2f2; color: #dc2626; }
         .status-bar.loading { background: #fef3c7; color: #92400e; }
-        .tabs { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; }
-        .tab { padding: 0.625rem 1.25rem; border: 1px solid var(--slate-200); border-radius: 8px; background: white; cursor: pointer; font-family: inherit; }
+        .tabs { display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+        .tab { padding: 0.625rem 1.25rem; border: 1px solid var(--slate-200); border-radius: 8px; background: white; cursor: pointer; font-family: inherit; font-size: 0.9rem; transition: all 0.2s; }
         .tab.active { background: var(--slate-800); color: white; border-color: var(--slate-800); }
         .tab-content { display: none; }
-        .tab-content.active { display: block; }
+        .tab-content.active { display: block; animation: fadeIn 0.3s ease; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
         .form-group { margin-bottom: 1.25rem; }
-        .form-label { display: block; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; color: var(--slate-500); margin-bottom: 0.5rem; }
-        .form-input, .batch-textarea { width: 100%; padding: 0.875rem 1rem; border: 1px solid var(--slate-200); border-radius: 10px; font-family: inherit; font-size: 0.95rem; }
+        .form-label { display: block; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; color: var(--slate-600); margin-bottom: 0.5rem; letter-spacing: 0.05em; }
+        .form-input, .batch-textarea { width: 100%; padding: 0.875rem 1rem; border: 1px solid var(--slate-200); border-radius: 10px; font-family: inherit; font-size: 0.95rem; transition: border 0.2s; }
+        .form-input:focus, .batch-textarea:focus { outline: none; border-color: var(--teal-400); }
         .batch-textarea { min-height: 150px; font-family: monospace; font-size: 0.85rem; }
-        .generate-btn { display: block; width: 100%; padding: 1rem; border: none; border-radius: 12px; background: linear-gradient(135deg, var(--teal-600), var(--teal-500)); color: white; font-size: 1rem; font-weight: 600; cursor: pointer; }
-        .generate-btn:hover { opacity: 0.9; }
-        .generate-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .generate-btn { display: block; width: 100%; padding: 1rem; border: none; border-radius: 12px; background: linear-gradient(135deg, var(--teal-600), var(--teal-500)); color: white; font-size: 1rem; font-weight: 600; cursor: pointer; transition: transform 0.2s; }
+        .generate-btn:hover { transform: translateY(-1px); }
+        .generate-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
         .import-section { display: flex; gap: 0.75rem; margin-bottom: 1.25rem; flex-wrap: wrap; }
-        .import-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem; border: 2px dashed var(--teal-400); border-radius: 10px; background: rgba(20,184,166,0.05); color: var(--teal-600); font-weight: 600; cursor: pointer; }
-        .template-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem; border: 1px solid var(--slate-200); border-radius: 10px; background: white; color: var(--slate-600); cursor: pointer; }
+        .import-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem; border: 2px dashed var(--teal-400); border-radius: 10px; background: rgba(20,184,166,0.05); color: var(--teal-600); font-weight: 600; cursor: pointer; transition: all 0.2s; }
+        .import-btn:hover { background: rgba(20,184,166,0.1); }
+        .template-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem; border: 1px solid var(--slate-200); border-radius: 10px; background: white; color: var(--slate-600); cursor: pointer; transition: all 0.2s; }
+        .template-btn:hover { background: var(--slate-100); }
         .output-section { display: none; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--slate-200); }
         .output-section.active { display: block; }
         .qr-preview { background: white; border: 1px solid var(--slate-200); border-radius: 16px; padding: 1.5rem; text-align: center; display: inline-block; }
@@ -58,10 +64,28 @@
         .batch-item canvas { display: block; margin: 0 auto; }
         .batch-item-label { margin-top: 0.75rem; font-size: 0.85rem; font-weight: 600; }
         .batch-item-download { margin-top: 0.5rem; padding: 0.5rem 0.75rem; border: none; border-radius: 6px; background: var(--slate-100); cursor: pointer; font-size: 0.75rem; }
-        .download-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem; border: none; border-radius: 10px; background: var(--slate-800); color: white; cursor: pointer; margin-bottom: 1rem; }
+        .download-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.25rem; border: none; border-radius: 10px; background: var(--slate-800); color: white; cursor: pointer; margin-bottom: 1rem; transition: all 0.2s; }
+        .download-btn:hover { background: var(--slate-700); }
         .footer { text-align: center; padding: 2rem; color: var(--slate-400); font-size: 0.8rem; }
-        .footer a { color: var(--slate-400); }
-        .debug-box { background: #111; color: #0f0; padding: 1rem; border-radius: 8px; font-family: monospace; font-size: 0.7rem; margin-top: 1rem; max-height: 200px; overflow-y: auto; white-space: pre-wrap; display: none; }
+        .footer a { color: var(--slate-400); text-decoration: none; }
+        .footer a:hover { color: var(--teal-400); }
+        
+        /* Tandem Connect Styles */
+        .connect-btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.875rem 1.5rem; border: none; border-radius: 10px; background: linear-gradient(135deg, var(--teal-600), var(--teal-500)); color: white; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+        .connect-btn:hover { transform: translateY(-1px); }
+        .connect-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .asset-search { width: 100%; padding: 0.875rem 1rem; border: 1px solid var(--slate-200); border-radius: 10px; font-size: 0.95rem; margin-bottom: 1rem; }
+        .asset-list { max-height: 400px; overflow-y: auto; border: 1px solid var(--slate-200); border-radius: 10px; margin-bottom: 1rem; }
+        .asset-item { padding: 1rem; border-bottom: 1px solid var(--slate-200); cursor: pointer; transition: background 0.2s; }
+        .asset-item:hover { background: var(--slate-100); }
+        .asset-item:last-child { border-bottom: none; }
+        .asset-item.selected { background: rgba(20, 184, 166, 0.1); border-left: 3px solid var(--teal-500); }
+        .asset-item-name { font-weight: 600; color: var(--slate-800); margin-bottom: 0.25rem; }
+        .asset-item-id { font-size: 0.85rem; color: var(--slate-600); font-family: monospace; }
+        .selected-count { display: inline-block; background: var(--teal-500); color: white; padding: 0.25rem 0.75rem; border-radius: 12px; font-size: 0.85rem; font-weight: 600; margin-bottom: 1rem; }
+        .loading-spinner { display: inline-block; width: 20px; height: 20px; border: 3px solid var(--slate-200); border-top-color: var(--teal-500); border-radius: 50%; animation: spin 0.8s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .info-banner { background: rgba(20, 184, 166, 0.05); border-left: 3px solid var(--teal-500); padding: 1rem; border-radius: 8px; margin-bottom: 1.5rem; color: var(--slate-700); font-size: 0.9rem; }
     </style>
 </head>
 <body>
@@ -78,8 +102,10 @@
             <div class="tabs">
                 <button class="tab active" onclick="switchTab('single')">Single QR Code</button>
                 <button class="tab" onclick="switchTab('batch')">Batch Generate</button>
+                <button class="tab" onclick="switchTab('tandem')">🔗 Tandem Connect</button>
             </div>
 
+            <!-- SINGLE QR TAB -->
             <div id="single-tab" class="tab-content active">
                 <div class="form-group">
                     <label class="form-label">Asset ID</label>
@@ -98,9 +124,9 @@
                     <p style="margin-top:1rem; color: var(--slate-500); word-break: break-all; font-size: 0.8rem;" id="qr-full-url"></p>
                     <button class="download-btn" onclick="downloadSingleQR()">Download PNG</button>
                 </div>
-                <div id="debug-single" class="debug-box"></div>
             </div>
 
+            <!-- BATCH QR TAB -->
             <div id="batch-tab" class="tab-content">
                 <div class="import-section">
                     <button class="import-btn" onclick="document.getElementById('excel-file').click()">📊 Import Excel</button>
@@ -109,14 +135,49 @@
                 </div>
                 <div class="form-group">
                     <label class="form-label">Asset Data (one per line: AssetID, TandemURL)</label>
-                    <textarea id="batch-data" class="batch-textarea" placeholder="CAM.E1879-A.01, https://tandem.autodesk.com/..."></textarea>
+                    <textarea id="batch-data" class="batch-textarea" placeholder="CAM.E1879-A.01, https://tandem.autodesk.com/...&#10;AHU.B2301-C.05, https://tandem.autodesk.com/..."></textarea>
                 </div>
                 <button class="generate-btn" id="batch-gen-btn" onclick="generateBatchQR()" disabled>Generate All QR Codes</button>
                 <div id="batch-output" class="output-section">
                     <button class="download-btn" onclick="downloadAllZip()">Download All (ZIP)</button>
                     <div id="batch-results" class="batch-results"></div>
                 </div>
-                <div id="debug-batch" class="debug-box"></div>
+            </div>
+
+            <!-- TANDEM CONNECT TAB -->
+            <div id="tandem-tab" class="tab-content">
+                <div class="info-banner">
+                    💡 Connect to your Tandem facility to browse and select assets, then generate QR codes with their Tandem URLs automatically.
+                </div>
+                
+                <div id="tandem-connect-section">
+                    <button class="connect-btn" id="connect-btn" onclick="connectToTandem()">
+                        <span id="connect-btn-icon">🔌</span>
+                        <span id="connect-btn-text">Connect to Tandem</span>
+                    </button>
+                </div>
+
+                <div id="tandem-assets-section" style="display: none;">
+                    <div class="form-group">
+                        <label class="form-label">Search Assets</label>
+                        <input type="text" id="asset-search" class="asset-search" placeholder="Search by Asset ID or name..." oninput="filterAssets()">
+                    </div>
+
+                    <div id="selected-count-display" style="display: none;">
+                        <span class="selected-count"><span id="selected-count">0</span> assets selected</span>
+                    </div>
+
+                    <div id="asset-list" class="asset-list">
+                        <!-- Assets will be populated here -->
+                    </div>
+
+                    <button class="generate-btn" id="tandem-gen-btn" onclick="generateFromTandem()" disabled>Generate QR Codes for Selected Assets</button>
+
+                    <div id="tandem-output" class="output-section">
+                        <button class="download-btn" onclick="downloadAllZip()">Download All (ZIP)</button>
+                        <div id="tandem-results" class="batch-results"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -129,7 +190,6 @@
     <!-- Libraries from CDN -->
     <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
-    <!-- QRCode.js - widely used, reliable library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
 
     <script>
@@ -137,6 +197,45 @@
         var currentQR = null;
         var batchQRs = [];
         var qrLibraryLoaded = false;
+
+        // Tandem API Configuration
+        var TANDEM_CONFIG = {
+            clientId: 'Fmc6YKO9VQhtAh4fY2EcnUc4baqeAzMwf3c98rvzoATyN9WM',
+            clientSecret: 'nzQcRS9bA2hTO7HwJRyRvvG9rLlB9XCWHfBIHHGsnXPtHZI2pZ7G2ypYXkgZ6vpb',
+            keyId: 'ba3aa278-2075-4d97-92ca-bd776627256e',
+            facilityId: 'urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw',
+            privateKey: `-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAzbbXLNp8KxaPUC0dvkd0EHV5mcaQfymq++OXUpRkEsDjgV7n
+KYPWRbmKQ97TFDg6DXOKb7XzcDcKIKaXn6GA9S9EF304ijpqYupkiUe+C1ANyOSh
+El0TKxXX2GtR+UL4RUjhP94nNaXXXctszurDGK8eih+8HjsvZw1sKlauT6gnLJzY
+l/ctzGRg83Ao2oGfUmBGgcRC+ZDxTYkguMlPjIh3cGJTdLJtmOMXS6meAWdvr3+Z
+smF5BHpWNwSLEbHKltjzCmANDnGzZIBlYntzE+OBanuVZ6u8WR3Z/KBLvtYpiLgx
+iKRdkI5hFEjYUMDMCVIHsr8U5j8+JTlMMycaAwIDAQABAoIBAEpljTU6APz+SC85
+Wc/mfIm1Sph8EOcEVUOKoD/rzbNgkgbIITbI6LXHr8Ly84iU+x3BQvg6qANVzHJZ
+fW1sVbyWbvxFu6x2CuKiHWDuksL5nTqhwMTo51VGLY0l5vwMJci83kWgXLLQuu4/
+cyb0DUHAl31hk8GlKvQMjSlUtu60XaU8vN3bS6Pagwst69yaw5rO9E3uycZLDXN6
+e/uEb1pydT/5jODXEpcL3SVO5EoaJKTh2nR08TM8u/laPUvVf/VQaH+4W+FOyBT/
+aLNyt4ESydgrw3DE4uyJxcxxh/3UzcJGvAdeDtABJzgDmbwSFAawds1GRzxhZvz6
+LfxUa6UCgYEA9sfy7qSxHikQIRCBSEoUgHlpQYoGCIahwoHR8B5y9XLxnrWSZLzq
+6ixVWbelx8HXojvnSN40PRWZDRLWQmzTjAR3/Qvhgh7emb+YgjVAVEHu2mV+btAC
+5fsgeeF7Fa8W0wtK+uyJaXZRCVXBeSIUhVH2P0QHLuMDx6kt238Oh4cCgYEA1WYn
+0Iz7I9Qw8pTkDd0BBvXXPHmu/cM8ekBRisJDnRVqrHvxFnd+B40q9Te7Fe+81a0d
+omDh6sGY9x4Y92SF+xmU7pVPbXrNnwc0slSnzla2isk98HqiOZ5Ovx1fSJINjWbB
+YHkvSNMsvp3aMPPBaEhqhsKC/VoU55gOJtXYQKUCgYBZk/jVsUhth0BIkEItaF6K
+yAdx99T60Uv0W8VF4PefquqTzprmIEExYYhVubjeirloNVBd/fJ+XdGhkj3d/LzJ
+bXHUk7R21Be/PXHxibzhGNHHyuGa/byfmImQVE2mcFjboJTGAohalM0Tk2JYQwup
+3TeCfYIR/euIVRvFOhifDwKBgCfNph+ALFfCfF7C5savMkHaGQtupvUuNVmYJZ18
+HqBuHjeN5qoKH7fI3PpgKsUsskwovh5Lc9gVxDJTqtR6K4Nqghz+PJJvFWtULMAW
+ijYydlnsr2DrftbAcG+1StB+bYiyYd9cuzUaLn5fcxMuZCTPXQ9FuKkI5F1OP1V/
+DZcBAoGBALcBwnxMHxtNemmoI7D8L34Yi5hFMLFwE7GcXkHTE3dg+r0kofYRyiLJ
+uaBumsSrT2VW0LrtXF/BQ8hwY0szfrmyJi5BAkoA7SWtk4zYwltxmIUuLjDWErhr
+7awNNEXgEk6Xs3UCQ8XLhwUTVVysLOdV1+3tRk+BFnVPSJYNETsH
+-----END RSA PRIVATE KEY-----`
+        };
+
+        var tandemAccessToken = null;
+        var tandemAssets = [];
+        var selectedAssets = new Set();
 
         // Check if QRCode library loaded
         window.addEventListener('DOMContentLoaded', function() {
@@ -152,49 +251,50 @@
                 status.textContent = '✗ QR Code library failed to load. Check network/firewall.';
                 status.className = 'status-bar error';
             }
-            
-            console.log('QRCode library:', typeof QRCode);
-            console.log('XLSX library:', typeof XLSX);
-            console.log('JSZip library:', typeof JSZip);
         });
 
-        function switchTab(name) {
-            document.querySelectorAll('.tab').forEach(function(t) { t.classList.remove('active'); });
-            document.querySelectorAll('.tab-content').forEach(function(t) { t.classList.remove('active'); });
-            event.target.classList.add('active');
-            document.getElementById(name + '-tab').classList.add('active');
-        }
-
-        function buildUrl(assetId, tandemUrl) {
-            // Don't encode the tandem URL - pass it as-is for cleaner QR codes
-            return PORTAL_URL + '?asset=' + encodeURIComponent(assetId) + '&tandem=' + tandemUrl;
-        }
-
-        function generateSingleQR() {
-            if (!qrLibraryLoaded) {
-                alert('QR library not loaded');
-                return;
+        // Tab switching
+        function switchTab(tabName) {
+            var tabs = document.querySelectorAll('.tab');
+            var contents = document.querySelectorAll('.tab-content');
+            
+            tabs.forEach(function(tab) { tab.classList.remove('active'); });
+            contents.forEach(function(content) { content.classList.remove('active'); });
+            
+            if (tabName === 'single') {
+                tabs[0].classList.add('active');
+                document.getElementById('single-tab').classList.add('active');
+            } else if (tabName === 'batch') {
+                tabs[1].classList.add('active');
+                document.getElementById('batch-tab').classList.add('active');
+            } else if (tabName === 'tandem') {
+                tabs[2].classList.add('active');
+                document.getElementById('tandem-tab').classList.add('active');
             }
+        }
 
+        // Build portal URL
+        function buildUrl(assetId, tandemUrl) {
+            return PORTAL_URL + '?asset=' + encodeURIComponent(assetId) + '&tandem=' + encodeURIComponent(tandemUrl);
+        }
+
+        // ==================== SINGLE QR CODE ====================
+        function generateSingleQR() {
             var assetId = document.getElementById('asset-id').value.trim();
             var tandemUrl = document.getElementById('tandem-url').value.trim();
 
             if (!assetId || !tandemUrl) {
-                alert('Please fill in both fields');
+                alert('Please enter both Asset ID and Tandem URL');
                 return;
             }
 
-            var fullUrl = buildUrl(assetId, tandemUrl);
-            console.log('Generating QR for:', fullUrl);
-            console.log('URL length:', fullUrl.length);
-
-            // Clear previous QR
             var container = document.getElementById('qr-container');
             container.innerHTML = '';
 
+            var fullUrl = buildUrl(assetId, tandemUrl);
+            
             try {
-                // Create QR code using QRCode.js library
-                var qr = new QRCode(container, {
+                currentQR = new QRCode(container, {
                     text: fullUrl,
                     width: 256,
                     height: 256,
@@ -204,155 +304,109 @@
                 });
 
                 document.getElementById('qr-asset-label').textContent = assetId;
-                document.getElementById('qr-full-url').textContent = fullUrl;
+                document.getElementById('qr-full-url').textContent = 'Portal URL: ' + fullUrl;
                 document.getElementById('single-output').classList.add('active');
-
-                // Store for download (need to wait for image to generate)
-                setTimeout(function() {
-                    var img = container.querySelector('img');
-                    var canvas = container.querySelector('canvas');
-                    currentQR = { 
-                        assetId: assetId, 
-                        fullUrl: fullUrl, 
-                        element: img || canvas 
-                    };
-                }, 100);
-
             } catch (err) {
-                console.error('QR generation error:', err);
                 alert('Error generating QR code: ' + err.message);
             }
         }
 
         function downloadSingleQR() {
-            if (!currentQR || !currentQR.element) {
-                alert('Please generate a QR code first');
+            var container = document.getElementById('qr-container');
+            var img = container.querySelector('img');
+            var canvas = container.querySelector('canvas');
+            var element = img || canvas;
+
+            if (!element) {
+                alert('No QR code to download');
                 return;
             }
 
-            var element = currentQR.element;
-            var canvas = document.createElement('canvas');
-            var ctx = canvas.getContext('2d');
+            var assetId = document.getElementById('asset-id').value.trim();
+            var exportCanvas = document.createElement('canvas');
+            var ctx = exportCanvas.getContext('2d');
 
-            // Add padding and label
             var padding = 20;
             var labelHeight = 40;
-            canvas.width = element.width + padding * 2;
-            canvas.height = element.height + padding * 2 + labelHeight;
+            exportCanvas.width = element.width + padding * 2;
+            exportCanvas.height = element.height + padding * 2 + labelHeight;
 
-            // White background
             ctx.fillStyle = '#ffffff';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-            // Draw QR code
+            ctx.fillRect(0, 0, exportCanvas.width, exportCanvas.height);
             ctx.drawImage(element, padding, padding);
 
-            // Add label
             ctx.fillStyle = '#000000';
-            ctx.font = 'bold 16px sans-serif';
+            ctx.font = 'bold 18px sans-serif';
             ctx.textAlign = 'center';
-            ctx.fillText(currentQR.assetId, canvas.width / 2, element.height + padding + 28);
+            ctx.fillText(assetId, exportCanvas.width / 2, element.height + padding + 28);
 
-            // Download
             var link = document.createElement('a');
-            link.download = 'QR-' + currentQR.assetId + '.png';
-            link.href = canvas.toDataURL('image/png');
+            link.download = 'QR-' + assetId + '.png';
+            link.href = exportCanvas.toDataURL('image/png');
             link.click();
         }
 
+        // ==================== BATCH GENERATION ====================
         function importExcel(event) {
             var file = event.target.files[0];
             if (!file) return;
-
-            if (typeof XLSX === 'undefined') {
-                alert('Excel library not loaded');
-                return;
-            }
 
             var reader = new FileReader();
             reader.onload = function(e) {
                 try {
                     var data = new Uint8Array(e.target.result);
                     var workbook = XLSX.read(data, { type: 'array' });
-                    var sheet = workbook.Sheets[workbook.SheetNames[0]];
-                    var rows = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+                    var firstSheet = workbook.Sheets[workbook.SheetNames[0]];
+                    var json = XLSX.utils.sheet_to_json(firstSheet, { header: 1 });
 
                     var lines = [];
-                    for (var i = 1; i < rows.length; i++) {
-                        if (rows[i][0] && rows[i][1]) {
-                            lines.push(rows[i][0] + ', ' + rows[i][1]);
+                    json.forEach(function(row) {
+                        if (row.length >= 2 && row[0] && row[1]) {
+                            lines.push(row[0] + ', ' + row[1]);
                         }
-                    }
+                    });
 
                     document.getElementById('batch-data').value = lines.join('\n');
-                    alert('Imported ' + lines.length + ' assets');
                 } catch (err) {
-                    alert('Error reading file: ' + err.message);
+                    alert('Error reading Excel file: ' + err.message);
                 }
             };
             reader.readAsArrayBuffer(file);
-            event.target.value = '';
         }
 
         function downloadTemplate() {
-            if (typeof XLSX === 'undefined') {
-                alert('Excel library not loaded');
-                return;
-            }
-            var wb = XLSX.utils.book_new();
-            var ws = XLSX.utils.aoa_to_sheet([
-                ['Asset ID', 'Tandem URL'],
-                ['CAM.E1879-A.01', 'https://tandem.autodesk.com/pages/facilities/...'],
-                ['HVAC.B2201-C.05', 'https://tandem.autodesk.com/pages/facilities/...']
-            ]);
-            ws['!cols'] = [{ wch: 20 }, { wch: 60 }];
-            XLSX.utils.book_append_sheet(wb, ws, 'Assets');
-            XLSX.writeFile(wb, 'QR-Template.xlsx');
+            var template = 'AssetID,TandemURL\nCAM.E1879-A.01,https://tandem.autodesk.com/pages/facilities?selection=urn:adsk.dtt:...\nAHU.B2301-C.05,https://tandem.autodesk.com/pages/facilities?selection=urn:adsk.dtt:...';
+            var blob = new Blob([template], { type: 'text/csv' });
+            var link = document.createElement('a');
+            link.download = 'ABC-Healthcare-QR-Template.csv';
+            link.href = URL.createObjectURL(blob);
+            link.click();
         }
 
         function generateBatchQR() {
-            if (!qrLibraryLoaded) {
-                alert('QR library not loaded');
+            var data = document.getElementById('batch-data').value.trim();
+            if (!data) {
+                alert('Please enter asset data');
                 return;
             }
 
-            var text = document.getElementById('batch-data').value.trim();
-            if (!text) {
-                alert('Please enter data or import Excel');
-                return;
-            }
-
-            var lines = text.split('\n').filter(function(l) { return l.trim(); });
-
-            // Skip header if present
-            if (lines.length > 0 && lines[0].toLowerCase().indexOf('asset') >= 0) {
-                lines = lines.slice(1);
-            }
-
-            batchQRs = [];
+            var lines = data.split('\n').filter(function(line) { return line.trim(); });
             var container = document.getElementById('batch-results');
             container.innerHTML = '';
-
-            var processed = 0;
-            var total = lines.length;
+            batchQRs = [];
 
             lines.forEach(function(line, index) {
                 var parts = line.indexOf('\t') >= 0 ? line.split('\t') : line.split(',');
                 parts = parts.map(function(p) { return p.trim(); });
 
-                if (parts.length < 2 || !parts[0] || !parts[1]) {
-                    processed++;
-                    return;
-                }
+                if (parts.length < 2 || !parts[0] || !parts[1]) return;
 
                 var assetId = parts[0];
                 var tandemUrl = parts.slice(1).join(',').trim();
                 var fullUrl = buildUrl(assetId, tandemUrl);
 
-                // Create container for this QR
                 var div = document.createElement('div');
                 div.className = 'batch-item';
-                div.id = 'batch-qr-' + index;
 
                 var qrDiv = document.createElement('div');
                 qrDiv.id = 'qr-' + index;
@@ -368,14 +422,12 @@
                 btn.textContent = 'Download';
                 btn.setAttribute('data-index', index);
                 btn.onclick = function() {
-                    var idx = this.getAttribute('data-index');
-                    downloadBatchItem(idx);
+                    downloadBatchItem(this.getAttribute('data-index'));
                 };
                 div.appendChild(btn);
 
                 container.appendChild(div);
 
-                // Generate QR code
                 try {
                     new QRCode(qrDiv, {
                         text: fullUrl,
@@ -386,7 +438,6 @@
                         correctLevel: QRCode.CorrectLevel.L
                     });
 
-                    // Store reference
                     setTimeout(function() {
                         var img = qrDiv.querySelector('img');
                         var canvas = qrDiv.querySelector('canvas');
@@ -400,11 +451,8 @@
                     console.error('Error generating QR for', assetId, err);
                     qrDiv.textContent = 'Error';
                 }
-
-                processed++;
             });
 
-            // Show results
             setTimeout(function() {
                 if (batchQRs.filter(Boolean).length > 0) {
                     document.getElementById('batch-output').classList.add('active');
@@ -483,6 +531,288 @@
                 link.href = URL.createObjectURL(blob);
                 link.click();
             });
+        }
+
+        // ==================== TANDEM CONNECT ====================
+        async function connectToTandem() {
+            var btn = document.getElementById('connect-btn');
+            var icon = document.getElementById('connect-btn-icon');
+            var text = document.getElementById('connect-btn-text');
+            var status = document.getElementById('status-bar');
+            
+            btn.disabled = true;
+            icon.innerHTML = '<span class="loading-spinner"></span>';
+            text.textContent = 'Connecting...';
+            status.textContent = 'Connecting to Tandem...';
+            status.className = 'status-bar loading';
+
+            try {
+                // Step 1: Get Access Token
+                tandemAccessToken = await getTandemAccessToken();
+                console.log('✓ Authentication successful');
+
+                // Step 2: Fetch Assets
+                status.textContent = 'Fetching assets from facility...';
+                tandemAssets = await getTandemAssets();
+                console.log('✓ Found', tandemAssets.length, 'assets');
+
+                // Step 3: Display Assets
+                displayAssets(tandemAssets);
+                
+                // Update UI
+                status.textContent = '✓ Connected! Found ' + tandemAssets.length + ' assets';
+                status.className = 'status-bar success';
+                document.getElementById('tandem-connect-section').style.display = 'none';
+                document.getElementById('tandem-assets-section').style.display = 'block';
+
+            } catch (error) {
+                console.error('Tandem connection error:', error);
+                status.textContent = '✗ Connection failed: ' + error.message;
+                status.className = 'status-bar error';
+                btn.disabled = false;
+                icon.textContent = '🔌';
+                text.textContent = 'Retry Connection';
+            }
+        }
+
+        async function getTandemAccessToken() {
+            // Using 2-legged OAuth (Client Credentials)
+            var tokenUrl = 'https://developer.api.autodesk.com/authentication/v2/token';
+            
+            var body = new URLSearchParams({
+                grant_type: 'client_credentials',
+                scope: 'data:read'
+            });
+
+            var credentials = btoa(TANDEM_CONFIG.clientId + ':' + TANDEM_CONFIG.clientSecret);
+
+            var response = await fetch(tokenUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    'Authorization': 'Basic ' + credentials
+                },
+                body: body
+            });
+
+            if (!response.ok) {
+                throw new Error('Authentication failed: ' + response.statusText);
+            }
+
+            var data = await response.json();
+            return data.access_token;
+        }
+
+        async function getTandemAssets() {
+            // Tandem API endpoint to get facility elements
+            var facilityUrn = TANDEM_CONFIG.facilityId;
+            
+            // We'll query the Tandem API for elements in the facility
+            var apiUrl = 'https://developer.api.autodesk.com/tandem/v1/twins/' + encodeURIComponent(facilityUrn) + '/elements';
+
+            var response = await fetch(apiUrl, {
+                method: 'GET',
+                headers: {
+                    'Authorization': 'Bearer ' + tandemAccessToken,
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to fetch assets: ' + response.statusText);
+            }
+
+            var data = await response.json();
+            
+            // Process the response to extract asset information
+            // The actual structure depends on Tandem's API response
+            var assets = [];
+            
+            if (data.results && Array.isArray(data.results)) {
+                assets = data.results.map(function(element, index) {
+                    // Extract relevant properties
+                    var elementId = element.e || element.id || ('element-' + index);
+                    var properties = element.p || {};
+                    
+                    // Try to find asset ID from properties
+                    var assetId = properties['Asset ID'] || 
+                                  properties['Tag'] || 
+                                  properties['Name'] || 
+                                  elementId;
+                    
+                    // Build Tandem URL for this element
+                    var tandemUrl = buildTandemUrl(facilityUrn, elementId);
+                    
+                    return {
+                        id: elementId,
+                        assetId: assetId,
+                        name: properties['Name'] || properties['Type'] || 'Unnamed Asset',
+                        tandemUrl: tandemUrl,
+                        properties: properties
+                    };
+                });
+            }
+
+            return assets;
+        }
+
+        function buildTandemUrl(facilityUrn, elementId) {
+            // Build the proper Tandem URL format
+            var baseUrl = 'https://tandem.autodesk.com/pages/facilities';
+            var params = new URLSearchParams({
+                selection: facilityUrn + ':' + elementId,
+                selectionIndex: '0'
+            });
+            return baseUrl + '?' + params.toString();
+        }
+
+        function displayAssets(assets) {
+            var list = document.getElementById('asset-list');
+            list.innerHTML = '';
+
+            if (assets.length === 0) {
+                list.innerHTML = '<div style="padding: 2rem; text-align: center; color: var(--slate-400);">No assets found</div>';
+                return;
+            }
+
+            assets.forEach(function(asset, index) {
+                var item = document.createElement('div');
+                item.className = 'asset-item';
+                item.setAttribute('data-index', index);
+                item.onclick = function() {
+                    toggleAssetSelection(index);
+                };
+
+                var name = document.createElement('div');
+                name.className = 'asset-item-name';
+                name.textContent = asset.name;
+                item.appendChild(name);
+
+                var id = document.createElement('div');
+                id.className = 'asset-item-id';
+                id.textContent = asset.assetId;
+                item.appendChild(id);
+
+                list.appendChild(item);
+            });
+        }
+
+        function toggleAssetSelection(index) {
+            var item = document.querySelectorAll('.asset-item')[index];
+            
+            if (selectedAssets.has(index)) {
+                selectedAssets.delete(index);
+                item.classList.remove('selected');
+            } else {
+                selectedAssets.add(index);
+                item.classList.add('selected');
+            }
+
+            updateSelectedCount();
+        }
+
+        function updateSelectedCount() {
+            var count = selectedAssets.size;
+            var countDisplay = document.getElementById('selected-count-display');
+            var countText = document.getElementById('selected-count');
+            var genBtn = document.getElementById('tandem-gen-btn');
+
+            countText.textContent = count;
+            
+            if (count > 0) {
+                countDisplay.style.display = 'block';
+                genBtn.disabled = false;
+            } else {
+                countDisplay.style.display = 'none';
+                genBtn.disabled = true;
+            }
+        }
+
+        function filterAssets() {
+            var search = document.getElementById('asset-search').value.toLowerCase();
+            var items = document.querySelectorAll('.asset-item');
+
+            items.forEach(function(item, index) {
+                var asset = tandemAssets[index];
+                var searchText = (asset.assetId + ' ' + asset.name).toLowerCase();
+                
+                if (searchText.includes(search)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+
+        function generateFromTandem() {
+            if (selectedAssets.size === 0) {
+                alert('Please select at least one asset');
+                return;
+            }
+
+            var container = document.getElementById('tandem-results');
+            container.innerHTML = '';
+            batchQRs = [];
+
+            var selectedArray = Array.from(selectedAssets);
+            
+            selectedArray.forEach(function(assetIndex, qrIndex) {
+                var asset = tandemAssets[assetIndex];
+                var fullUrl = buildUrl(asset.assetId, asset.tandemUrl);
+
+                var div = document.createElement('div');
+                div.className = 'batch-item';
+
+                var qrDiv = document.createElement('div');
+                qrDiv.id = 'tandem-qr-' + qrIndex;
+                div.appendChild(qrDiv);
+
+                var label = document.createElement('div');
+                label.className = 'batch-item-label';
+                label.textContent = asset.assetId;
+                div.appendChild(label);
+
+                var btn = document.createElement('button');
+                btn.className = 'batch-item-download';
+                btn.textContent = 'Download';
+                btn.setAttribute('data-index', qrIndex);
+                btn.onclick = function() {
+                    downloadBatchItem(this.getAttribute('data-index'));
+                };
+                div.appendChild(btn);
+
+                container.appendChild(div);
+
+                try {
+                    new QRCode(qrDiv, {
+                        text: fullUrl,
+                        width: 180,
+                        height: 180,
+                        colorDark: '#000000',
+                        colorLight: '#ffffff',
+                        correctLevel: QRCode.CorrectLevel.L
+                    });
+
+                    setTimeout(function() {
+                        var img = qrDiv.querySelector('img');
+                        var canvas = qrDiv.querySelector('canvas');
+                        batchQRs[qrIndex] = {
+                            assetId: asset.assetId,
+                            element: img || canvas
+                        };
+                    }, 50);
+
+                } catch (err) {
+                    console.error('Error generating QR for', asset.assetId, err);
+                    qrDiv.textContent = 'Error';
+                }
+            });
+
+            setTimeout(function() {
+                if (batchQRs.filter(Boolean).length > 0) {
+                    document.getElementById('tandem-output').classList.add('active');
+                }
+            }, 200);
         }
     </script>
 </body>
