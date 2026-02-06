@@ -106,7 +106,7 @@
             <div class="tabs">
                 <button class="tab active" onclick="switchTab('single')">Single QR Code</button>
                 <button class="tab" onclick="switchTab('batch')">Batch Generate</button>
-                <button class="tab disabled" id="tandem-tab" title="Sign in with Tandem to enable">🔗 Tandem Connect</button>
+                <button class="tab" onclick="switchTab('tandem')">🔗 Tandem Connect</button>
             </div>
 
             <!-- SINGLE QR TAB -->
@@ -150,13 +150,41 @@
 
             <!-- TANDEM CONNECT TAB -->
             <div id="tandem-tab-content" class="tab-content">
-                <div class="warning-banner">
-                    ⚠️ <strong>Tandem Connect is currently disabled.</strong> This feature requires server-side authentication for security. Please use the manual entry or batch generate options instead.
+                <div class="info-banner">
+                    🔗 Load assets directly from Tandem Connect pipeline data
                 </div>
                 
-                <div class="info-banner">
-                    💡 <strong>Why is this disabled?</strong><br>
-                    To protect your Tandem credentials, we cannot authenticate directly from the browser. Contact your administrator to set up a secure backend proxy if you need this feature.
+                <button class="connect-btn" id="load-tandem-btn" onclick="loadTandemAssets()">
+                    <span class="loading-spinner" style="display:none;" id="tandem-spinner"></span>
+                    <span id="tandem-btn-text">Load Assets from Tandem</span>
+                </button>
+                
+                <div id="tandem-status" style="margin-top: 1rem; display: none;"></div>
+                
+                <div id="tandem-loaded" style="display:none;">
+                    <div class="selected-count" id="tandem-asset-count"></div>
+                    
+                    <input type="text" 
+                           id="tandem-search" 
+                           class="asset-search" 
+                           placeholder="Search assets by ID..."
+                           onkeyup="filterTandemAssets()">
+                    
+                    <div style="margin-bottom: 1rem;">
+                        <button class="template-btn" onclick="selectAllTandemAssets()">Select All</button>
+                        <button class="template-btn" onclick="deselectAllTandemAssets()">Deselect All</button>
+                    </div>
+                    
+                    <div class="asset-list" id="tandem-asset-list"></div>
+                    
+                    <button class="generate-btn" onclick="generateTandemQRs()">
+                        Generate QR Codes for Selected Assets
+                    </button>
+                    
+                    <div id="tandem-output" class="output-section">
+                        <button class="download-btn" onclick="downloadAllZip()">Download All as ZIP</button>
+                        <div id="tandem-results" class="batch-results"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -472,6 +500,189 @@
                 link.href = URL.createObjectURL(blob);
                 link.click();
             });
+        }
+
+        // ==================== TANDEM CONNECT ====================
+        var tandemAssets = [];
+        var selectedAssets = new Set();
+
+        async function loadTandemAssets() {
+            var btn = document.getElementById('load-tandem-btn');
+            var btnText = document.getElementById('tandem-btn-text');
+            var spinner = document.getElementById('tandem-spinner');
+            var status = document.getElementById('tandem-status');
+            
+            btn.disabled = true;
+            spinner.style.display = 'inline-block';
+            btnText.textContent = 'Loading...';
+            status.style.display = 'block';
+            status.className = 'status-bar loading';
+            status.textContent = 'Fetching assets from Tandem...';
+            
+            try {
+                // Fetch the merged asset data from GitHub
+                var response = await fetch('/data/tandem-assets.json');
+                
+                if (!response.ok) {
+                    throw new Error('Failed to load assets. Make sure you\'ve run the pipeline and pushed data to GitHub.');
+                }
+                
+                var data = await response.json();
+                tandemAssets = data.assets || [];
+                
+                if (tandemAssets.length === 0) {
+                    throw new Error('No assets found in data file');
+                }
+                
+                // Select all by default
+                selectedAssets = new Set(tandemAssets.map(function(a) { return a.assetId; }));
+                
+                // Show success
+                status.className = 'status-bar success';
+                status.textContent = '✅ Loaded ' + tandemAssets.length + ' assets from ' + data.facilityName + ' (Updated: ' + new Date(data.lastUpdated).toLocaleString() + ')';
+                
+                // Display assets
+                displayTandemAssets();
+                
+                document.getElementById('tandem-loaded').style.display = 'block';
+                btn.style.display = 'none';
+                
+            } catch (error) {
+                status.className = 'status-bar error';
+                status.textContent = '❌ Error: ' + error.message;
+                btn.disabled = false;
+                spinner.style.display = 'none';
+                btnText.textContent = 'Load Assets from Tandem';
+            }
+        }
+
+        function displayTandemAssets() {
+            var container = document.getElementById('tandem-asset-list');
+            var countEl = document.getElementById('tandem-asset-count');
+            
+            container.innerHTML = '';
+            
+            tandemAssets.forEach(function(asset) {
+                var div = document.createElement('div');
+                div.className = 'asset-item' + (selectedAssets.has(asset.assetId) ? ' selected' : '');
+                div.setAttribute('data-asset-id', asset.assetId);
+                div.onclick = function() { toggleAssetSelection(asset.assetId); };
+                
+                div.innerHTML = '<div class="asset-item-name">' + asset.assetId + '</div>' +
+                    '<div class="asset-item-id" style="font-size:0.75rem; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">' +
+                    asset.assetUrl + '</div>';
+                
+                container.appendChild(div);
+            });
+            
+            updateSelectedCount();
+        }
+
+        function toggleAssetSelection(assetId) {
+            if (selectedAssets.has(assetId)) {
+                selectedAssets.delete(assetId);
+            } else {
+                selectedAssets.add(assetId);
+            }
+            
+            displayTandemAssets();
+        }
+
+        function selectAllTandemAssets() {
+            selectedAssets = new Set(tandemAssets.map(function(a) { return a.assetId; }));
+            displayTandemAssets();
+        }
+
+        function deselectAllTandemAssets() {
+            selectedAssets.clear();
+            displayTandemAssets();
+        }
+
+        function updateSelectedCount() {
+            var countEl = document.getElementById('tandem-asset-count');
+            countEl.textContent = selectedAssets.size + ' assets selected';
+        }
+
+        function filterTandemAssets() {
+            var search = document.getElementById('tandem-search').value.toLowerCase();
+            var items = document.querySelectorAll('#tandem-asset-list .asset-item');
+            
+            items.forEach(function(item) {
+                var text = item.textContent.toLowerCase();
+                item.style.display = text.includes(search) ? 'block' : 'none';
+            });
+        }
+
+        function generateTandemQRs() {
+            if (selectedAssets.size === 0) {
+                alert('Please select at least one asset');
+                return;
+            }
+            
+            var container = document.getElementById('tandem-results');
+            container.innerHTML = '';
+            batchQRs = [];
+            
+            var selectedAssetData = tandemAssets.filter(function(a) { 
+                return selectedAssets.has(a.assetId); 
+            });
+            
+            selectedAssetData.forEach(function(asset, index) {
+                var fullUrl = buildUrl(asset.assetId, asset.assetUrl);
+                
+                var div = document.createElement('div');
+                div.className = 'batch-item';
+                
+                var qrDiv = document.createElement('div');
+                qrDiv.id = 'qr-tandem-' + index;
+                div.appendChild(qrDiv);
+                
+                var label = document.createElement('div');
+                label.className = 'batch-item-label';
+                label.textContent = asset.assetId;
+                div.appendChild(label);
+                
+                var btn = document.createElement('button');
+                btn.className = 'batch-item-download';
+                btn.textContent = 'Download';
+                btn.setAttribute('data-index', index);
+                btn.onclick = function() {
+                    downloadBatchItem(this.getAttribute('data-index'));
+                };
+                div.appendChild(btn);
+                
+                container.appendChild(div);
+                
+                try {
+                    new QRCode(qrDiv, {
+                        text: fullUrl,
+                        width: 180,
+                        height: 180,
+                        colorDark: '#000000',
+                        colorLight: '#ffffff',
+                        correctLevel: QRCode.CorrectLevel.L
+                    });
+                    
+                    setTimeout(function() {
+                        var img = qrDiv.querySelector('img');
+                        var canvas = qrDiv.querySelector('canvas');
+                        batchQRs[index] = {
+                            assetId: asset.assetId,
+                            element: img || canvas
+                        };
+                    }, 50);
+                    
+                } catch (err) {
+                    console.error('Error generating QR for', asset.assetId, err);
+                    qrDiv.textContent = 'Error';
+                }
+            });
+            
+            setTimeout(function() {
+                if (batchQRs.filter(Boolean).length > 0) {
+                    document.getElementById('tandem-output').classList.add('active');
+                }
+            }, 200);
         }
     </script>
 </body>
