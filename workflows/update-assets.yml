@@ -1,17 +1,9 @@
 name: Update Assets from Tandem Connect
 
-# This workflow is triggered by a repository_dispatch event from Tandem Connect
 on:
   repository_dispatch:
     types: [update-assets]
-  
-  # Also allow manual triggering for testing
   workflow_dispatch:
-    inputs:
-      sample_data:
-        description: 'Use sample data for testing'
-        required: false
-        default: 'false'
 
 jobs:
   update-assets:
@@ -20,58 +12,18 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Create data directory if it doesn't exist
+      - name: Create data directory
         run: mkdir -p data
       
-      - name: Process webhook data and update assets.json
+      - name: Save asset data
         run: |
-          echo "Processing asset data from Tandem Connect..."
-          
-          # The webhook payload comes in as github.event.client_payload
-          # We'll create the assets.json file from this data
-          
-          cat > data/assets.json << 'EOF'
-          {
-            "lastUpdated": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
-            "facility": "Abbott MRI D",
-            "source": "Tandem Connect Pipeline",
-            "assets": ${{ toJSON(github.event.client_payload.assets) }}
-          }
-          EOF
-          
-          echo "✅ Assets file updated"
-          echo "Total assets: $(cat data/assets.json | grep -o '"assetId"' | wc -l)"
+          echo '${{ toJSON(github.event.client_payload) }}' > data/assets.json
       
-      - name: Validate JSON format
+      - name: Commit changes
         run: |
-          if ! python3 -m json.tool data/assets.json > /dev/null 2>&1; then
-            echo "❌ Invalid JSON format"
-            exit 1
-          fi
-          echo "✅ JSON format is valid"
-      
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/assets.json
-          
-          # Only commit if there are changes
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "🤖 Auto-update assets from Tandem Connect - $(date +%Y-%m-%d)"
-            git push
-            echo "✅ Changes pushed to repository"
-          fi
-      
-      - name: Summary
-        run: |
-          echo "## Update Summary" >> $GITHUB_STEP_SUMMARY
-          echo "- Timestamp: $(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> $GITHUB_STEP_SUMMARY
-          echo "- Total Assets: $(cat data/assets.json | grep -o '"assetId"' | wc -l)" >> $GITHUB_STEP_SUMMARY
-          echo "- Status: ✅ Success" >> $GITHUB_STEP_SUMMARY
+          git diff --staged --quiet || git commit -m "Update assets from Tandem Connect"
+          git push
