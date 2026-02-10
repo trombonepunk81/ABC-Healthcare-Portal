@@ -1,1 +1,9 @@
-null
+{
+  "assets": [
+    {
+      "assetId": "TEST-001",
+      "name": "Hello World!",
+      "timestamp": "2026-02-10T16:20:41.437Z"
+    }
+  ]
+}
