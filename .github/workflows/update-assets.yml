@@ -10,128 +10,85 @@ permissions:
 jobs:
   update-assets:
     runs-on: ubuntu-latest
-    concurrency:
-      group: update-assets
-      cancel-in-progress: false
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0
 
-      - name: Pull latest and merge asset data
-        run: |
-          # Pull latest first
-          git pull origin main
-          
-          # Read existing assets (or create empty structure)
-          if [ -f data/assets.json ]; then
-            EXISTING=$(cat data/assets.json)
-          else
-            EXISTING='{"assets":[]}'
-          fi
-          
-          # Export for Node
-          export EXISTING
-          
-          # Merge using Node.js
-          node << 'EOF'
-          const fs = require('fs');
-          
-          const incoming = JSON.parse(process.env.INCOMING || '{}');
-          let existing;
-          try {
-            existing = JSON.parse(process.env.EXISTING || '{"assets":[]}');
-          } catch {
-            existing = {"assets":[]};
-          }
-          
-          const newAssets = incoming.assets || [];
-          const existingAssets = existing.assets || [];
-          
-          const assetMap = new Map();
-          existingAssets.forEach(a => assetMap.set(a.assetId, a));
-          newAssets.forEach(a => assetMap.set(a.assetId, a));
-          
-          const mergedAssets = Array.from(assetMap.values())
-            .sort((a, b) => a.assetId.localeCompare(b.assetId));
-          
-          const output = {
-            lastUpdated: new Date().toISOString(),
-            totalAssets: mergedAssets.length,
-            assets: mergedAssets
-          };
-          
-          fs.mkdirSync('data', { recursive: true });
-          fs.writeFileSync('data/assets.json', JSON.stringify(output, null, 2));
-          
-          console.log(`Merged ${newAssets.length} incoming assets`);
-          console.log(`Total assets now: ${mergedAssets.length}`);
-          EOF
-        env:
-          INCOMING: ${{ toJson(github.event.client_payload) }}
-
-      - name: Commit and push with retry
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Retry loop
-          for i in 1 2 3 4 5; do
-            echo "Attempt $i..."
-            
-            git add data/assets.json
-            
-            # Check if there are changes to commit
-            if git diff --staged --quiet; then
-              echo "No changes to commit"
-              exit 0
-            fi
-            
-            git commit -m "Update assets from Tandem Connect (batch)"
-            
-            if git push; then
-              echo "Push succeeded!"
-              exit 0
-            fi
-            
-            echo "Push failed, pulling latest and re-merging..."
-            git reset --soft HEAD~1  # Undo commit but keep changes
-            git checkout -- data/assets.json  # Discard our changes
-            git pull origin main  # Get latest
-            
-            # Re-run merge with latest data
-            if [ -f data/assets.json ]; then
-              EXISTING=$(cat data/assets.json)
-            else
-              EXISTING='{"assets":[]}'
-            fi
-            
-            export EXISTING
-            
-            node << 'EOF'
+      - name: Update assets
+        uses: actions/github-script@v7
+        with:
+          script: |
             const fs = require('fs');
-            const incoming = JSON.parse(process.env.INCOMING || '{}');
-            let existing;
-            try {
-              existing = JSON.parse(process.env.EXISTING || '{"assets":[]}');
-            } catch {
-              existing = {"assets":[]};
+            const { execSync } = require('child_process');
+            
+            const incoming = ${{ toJson(github.event.client_payload) }};
+            const maxRetries = 5;
+            
+            for (let attempt = 1; attempt <= maxRetries; attempt++) {
+              console.log(`Attempt ${attempt}...`);
+              
+              try {
+                // Pull latest
+                execSync('git pull origin main', { stdio: 'inherit' });
+                
+                // Read existing
+                let existing = { assets: [] };
+                try {
+                  if (fs.existsSync('data/assets.json')) {
+                    existing = JSON.parse(fs.readFileSync('data/assets.json', 'utf8'));
+                  }
+                } catch (e) {
+                  console.log('No existing file or parse error, starting fresh');
+                }
+                
+                // Merge
+                const assetMap = new Map();
+                (existing.assets || []).forEach(a => assetMap.set(a.assetId, a));
+                (incoming.assets || []).forEach(a => assetMap.set(a.assetId, a));
+                
+                const merged = Array.from(assetMap.values())
+                  .sort((a, b) => a.assetId.localeCompare(b.assetId));
+                
+                const output = {
+                  lastUpdated: new Date().toISOString(),
+                  totalAssets: merged.length,
+                  assets: merged
+                };
+                
+                // Write
+                fs.mkdirSync('data', { recursive: true });
+                fs.writeFileSync('data/assets.json', JSON.stringify(output, null, 2));
+                
+                console.log(`Merged ${incoming.assets?.length || 0} incoming, total now: ${merged.length}`);
+                
+                // Commit and push
+                execSync('git config user.name "github-actions[bot]"');
+                execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
+                execSync('git add data/assets.json');
+                
+                try {
+                  execSync('git diff --staged --quiet');
+                  console.log('No changes to commit');
+                  return;
+                } catch (e) {
+                  // There are changes, continue
+                }
+                
+                execSync('git commit -m "Update assets from Tandem Connect"');
+                execSync('git push', { stdio: 'inherit' });
+                
+                console.log('Success!');
+                return;
+                
+              } catch (error) {
+                console.log(`Attempt ${attempt} failed: ${error.message}`);
+                if (attempt < maxRetries) {
+                  execSync('git reset --hard origin/main');
+                  await new Promise(r => setTimeout(r, 2000 + Math.random() * 3000));
+                }
+              }
             }
-            const newAssets = incoming.assets || [];
-            const existingAssets = existing.assets || [];
-            const assetMap = new Map();
-            existingAssets.forEach(a => assetMap.set(a.assetId, a));
-            newAssets.forEach(a => assetMap.set(a.assetId, a));
-            const mergedAssets = Array.from(assetMap.values())
-              .sort((a, b) => a.assetId.localeCompare(b.assetId));
-            const output = {
-              lastUpdated: new Date().toISOString(),
-              totalAssets: mergedAssets.length,
-              assets: mergedAssets
-            };
-            fs.mkdirSync('data', { recursive: true });
-            fs.writeFileSync('data/assets.json', JSON.stringify(output, null, 2));
-            console.log(`Re-merged: Total assets now: ${mergedAssets.length}`);
-            EOF
+            
+            throw new Error('Failed after max retries');
