@@ -1,9 +1,12 @@
 {
   "assets": [
     {
-      "assetId": "TEST-001",
-      "name": "Hello World!",
-      "timestamp": "2026-02-10T16:20:41.437Z"
+      "assetId": "ME-VAV 35-106",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=o7W79rDUSMm7DOS11uGiFwEAAAD5DjLN7BtDwYOIOCO-PGY2AGa2BA"
     }
-  ]
+  ],
+  "batch": 2,
+  "count": 1,
+  "model": "urn:adsk.dtm:o7W79rDUSMm7DOS11uGiFw",
+  "timestamp": "2026-02-10T16:35:02.216Z"
 }
