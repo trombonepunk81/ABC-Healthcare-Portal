@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-10T17:08:54.451Z",
-  "totalAssets": 55,
+  "lastUpdated": "2026-02-10T17:08:58.655Z",
+  "totalAssets": 63,
   "assets": [
     {
       "assetId": "15778",
@@ -49,6 +49,14 @@
     {
       "assetId": "1927",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=o7W79rDUSMm7DOS11uGiFwEAAACPnykD_IVHg499uK652N4EAGgHHg"
+    },
+    {
+      "assetId": "1EQDPHA",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=2M5Dn0XwTFGKCQdejFg29QEAAAAQMC2D5bFOcKfiJr0GdC6KAGXUhw"
+    },
+    {
+      "assetId": "1EQLA",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=2M5Dn0XwTFGKCQdejFg29QEAAAD8Hg3v96BNzpRK3CLctZU9AGXlIg"
     },
     {
       "assetId": "37",
@@ -131,6 +139,18 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=dO_bXyHVT2ysEQvApnZufAEAAAA3j7q98UpL4L0tjaoXfpeXAFgKJg"
     },
     {
+      "assetId": "ELP-1EDP1",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=2M5Dn0XwTFGKCQdejFg29QEAAAD2Xc4nCR9MMYgWlLOFWSQLAGXZww"
+    },
+    {
+      "assetId": "ELP-1EDP2",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=2M5Dn0XwTFGKCQdejFg29QEAAAD2Xc4nCR9MMYgWlLOFWSQLAGXYgg"
+    },
+    {
+      "assetId": "H4",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=2M5Dn0XwTFGKCQdejFg29QEAAACE2TpGSW9BlJJKP99mE2QlAGXbBQ"
+    },
+    {
       "assetId": "HH-EF BR-201",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=o7W79rDUSMm7DOS11uGiFwEAAABRiQvuPU9HZYKyE6K-iI54AGdHXQ"
     },
@@ -141,6 +161,14 @@
     {
       "assetId": "IC.E1903-A",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=hqW9Py4MQHSBIGZ5WuoWIgEAAACH6IavaO1GNqv6amdnX9j-ACetcg"
+    },
+    {
+      "assetId": "LN1-1A3A",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=2M5Dn0XwTFGKCQdejFg29QEAAAAXD0cNCXBGC4T3wYN7d1Y9AGVakg"
+    },
+    {
+      "assetId": "LN1-1A3B",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=2M5Dn0XwTFGKCQdejFg29QEAAAAXD0cNCXBGC4T3wYN7d1Y9AGVaSQ"
     },
     {
       "assetId": "ME-AHU MRI-S35",
@@ -213,6 +241,10 @@
     {
       "assetId": "PB.W1658C",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=hqW9Py4MQHSBIGZ5WuoWIgEAAACH6IavaO1GNqv6amdnX9j-ACetcA"
+    },
+    {
+      "assetId": "T1EQLA",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=2M5Dn0XwTFGKCQdejFg29QEAAADldAl6Mn9EWaYA4Xjcwwm1AGXq2w"
     },
     {
       "assetId": "VAV 0Q",
