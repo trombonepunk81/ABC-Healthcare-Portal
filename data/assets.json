@@ -1,12 +1,30 @@
 {
+  "lastUpdated": "2026-02-10T16:55:43.255Z",
+  "totalAssets": 6,
   "assets": [
+    {
+      "assetId": "Door-1",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=dO_bXyHVT2ysEQvApnZufAEAAAAlt7hE3c5KFaVQUU0xdeeKAGYHeA"
+    },
+    {
+      "assetId": "Door-2",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=dO_bXyHVT2ysEQvApnZufAEAAAA3j7q98UpL4L0tjaoXfpeXAFgZSA"
+    },
+    {
+      "assetId": "Door-3",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=dO_bXyHVT2ysEQvApnZufAEAAAC1Cb3NFU9OdK_tx1TaJof8AF0ksw"
+    },
+    {
+      "assetId": "Door-4",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=dO_bXyHVT2ysEQvApnZufAEAAAA3j7q98UpL4L0tjaoXfpeXAFgKDQ"
+    },
+    {
+      "assetId": "Door-5",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=dO_bXyHVT2ysEQvApnZufAEAAAA3j7q98UpL4L0tjaoXfpeXAFgKJg"
+    },
     {
       "assetId": "ME-VAV 35-106",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=o7W79rDUSMm7DOS11uGiFwEAAAD5DjLN7BtDwYOIOCO-PGY2AGa2BA"
     }
-  ],
-  "batch": 2,
-  "count": 1,
-  "model": "urn:adsk.dtm:o7W79rDUSMm7DOS11uGiFw",
-  "timestamp": "2026-02-10T16:35:02.216Z"
+  ]
 }
