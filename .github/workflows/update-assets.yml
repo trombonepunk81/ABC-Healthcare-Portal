@@ -20,17 +20,20 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Pull latest changes
-        run: git pull origin main
-
-      - name: Merge asset data
+      - name: Pull latest and merge asset data
         run: |
+          # Pull latest first
+          git pull origin main
+          
           # Read existing assets (or create empty structure)
           if [ -f data/assets.json ]; then
             EXISTING=$(cat data/assets.json)
           else
             EXISTING='{"assets":[]}'
           fi
+          
+          # Export for Node
+          export EXISTING
           
           # Merge using Node.js
           node << 'EOF'
@@ -44,18 +47,13 @@ jobs:
             existing = {"assets":[]};
           }
           
-          // Get incoming assets
           const newAssets = incoming.assets || [];
           const existingAssets = existing.assets || [];
           
-          // Create a map of existing assets by assetId
           const assetMap = new Map();
           existingAssets.forEach(a => assetMap.set(a.assetId, a));
-          
-          // Add/update with new assets
           newAssets.forEach(a => assetMap.set(a.assetId, a));
           
-          // Convert back to array and sort
           const mergedAssets = Array.from(assetMap.values())
             .sort((a, b) => a.assetId.localeCompare(b.assetId));
           
@@ -73,12 +71,67 @@ jobs:
           EOF
         env:
           INCOMING: ${{ toJson(github.event.client_payload) }}
-          EXISTING: ${{ env.EXISTING }}
 
-      - name: Commit and push changes
+      - name: Commit and push with retry
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/assets.json
-          git diff --staged --quiet || git commit -m "Update assets from Tandem Connect"
-          git push
+          
+          # Retry loop
+          for i in 1 2 3 4 5; do
+            echo "Attempt $i..."
+            
+            git add data/assets.json
+            
+            # Check if there are changes to commit
+            if git diff --staged --quiet; then
+              echo "No changes to commit"
+              exit 0
+            fi
+            
+            git commit -m "Update assets from Tandem Connect (batch)"
+            
+            if git push; then
+              echo "Push succeeded!"
+              exit 0
+            fi
+            
+            echo "Push failed, pulling latest and re-merging..."
+            git reset --soft HEAD~1  # Undo commit but keep changes
+            git checkout -- data/assets.json  # Discard our changes
+            git pull origin main  # Get latest
+            
+            # Re-run merge with latest data
+            if [ -f data/assets.json ]; then
+              EXISTING=$(cat data/assets.json)
+            else
+              EXISTING='{"assets":[]}'
+            fi
+            
+            export EXISTING
+            
+            node << 'EOF'
+            const fs = require('fs');
+            const incoming = JSON.parse(process.env.INCOMING || '{}');
+            let existing;
+            try {
+              existing = JSON.parse(process.env.EXISTING || '{"assets":[]}');
+            } catch {
+              existing = {"assets":[]};
+            }
+            const newAssets = incoming.assets || [];
+            const existingAssets = existing.assets || [];
+            const assetMap = new Map();
+            existingAssets.forEach(a => assetMap.set(a.assetId, a));
+            newAssets.forEach(a => assetMap.set(a.assetId, a));
+            const mergedAssets = Array.from(assetMap.values())
+              .sort((a, b) => a.assetId.localeCompare(b.assetId));
+            const output = {
+              lastUpdated: new Date().toISOString(),
+              totalAssets: mergedAssets.length,
+              assets: mergedAssets
+            };
+            fs.mkdirSync('data', { recursive: true });
+            fs.writeFileSync('data/assets.json', JSON.stringify(output, null, 2));
+            console.log(`Re-merged: Total assets now: ${mergedAssets.length}`);
+            EOF
