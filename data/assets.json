@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-10T17:41:51.836Z",
+  "lastUpdated": "2026-02-10T17:41:59.679Z",
   "totalAssets": 63,
   "assets": [
     {
@@ -346,7 +346,10 @@
     },
     {
       "assetId": "ME-VAV 35-106",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=o7W79rDUSMm7DOS11uGiFwEAAAD5DjLN7BtDwYOIOCO-PGY2AGa2BA"
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw?selection=o7W79rDUSMm7DOS11uGiFwEAAAD5DjLN7BtDwYOIOCO-PGY2AGa2BA",
+      "category": "M.Eq",
+      "level": "FIRST FLOOR",
+      "room": ""
     },
     {
       "assetId": "NVR.L01A",
