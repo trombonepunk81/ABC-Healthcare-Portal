@@ -4,5 +4,5 @@
   "defaultFacilityUrn": "urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw",
   "portalUrl": "../index.html",
   "assetsJson": "../data/assets.json",
-  "tokenUrl": "https://abc-healthcare-portal.vercel.app/api/token"
+  "tokenUrl": "https://abc-healthcare-portal-lawc-git-main-emory-burchs-projects.vercel.app/api/token"
 }
