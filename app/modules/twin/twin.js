@@ -1,58 +1,140 @@
-const VIEWER_JS = 'https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.min.js';
-const VIEWER_CSS = 'https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/style.min.css';
+/**
+ * Twin Module – Tandem Facility Viewer (iframe embed)
+ *
+ * Embeds the Autodesk Tandem web viewer in an iframe.
+ * This avoids the complexity of the Model Derivative viewer SDK
+ * (which can't render Tandem facilities anyway) and gives us
+ * the full 3D experience with zero SDK dependencies.
+ *
+ * Auth: the user authenticates through Tandem's own login flow
+ * inside the iframe — no 2-legged token needed for viewing.
+ *
+ * Deep-link: if ?asset=...&tandem=... params are present (from a
+ * QR scan), we can append them to the Tandem URL to jump to a
+ * specific element. This is wired for future integration.
+ */
 
-let viewer = null;
+const TANDEM_BASE = 'https://tandem.autodesk.com/pages/facilities';
 
-export async function render(root, cfg){
-  root.innerHTML = await (await fetch('./modules/twin/twin.html', {cache:'no-store'})).text();
+export async function render(root, cfg) {
+  // Load the HTML template
+  root.innerHTML = await (await fetch('./modules/twin/twin.html', { cache: 'no-store' })).text();
 
-  const status = root.querySelector('#status');
+  const status    = root.querySelector('#status');
   const viewerDiv = root.querySelector('#tandem-viewer');
-  const loadDefaultBtn = root.querySelector('#load-default');
-  loadDefaultBtn.style.display = cfg.defaultFacilityUrn ? 'inline-block' : 'none';
+  const loadBtn   = root.querySelector('#load-default');
 
-  await loadCss(VIEWER_CSS); await loadScript(VIEWER_JS);
+  // Only show button if a facility URN is configured
+  loadBtn.style.display = cfg.defaultFacilityUrn ? 'inline-block' : 'none';
 
-  loadDefaultBtn.onclick = async () => {
-    status.textContent = 'Loading default facility...';
-    await initViewer(viewerDiv, cfg.tokenUrl);
-    await loadFacilityWithSdk(cfg.defaultFacilityUrn);  // (wired in follow-up)
-    await tryDeepLinkSelect();                          // deep-link select from QR (follow-up)
-    status.textContent = '';
-  };
+  loadBtn.onclick = () => loadFacility(cfg.defaultFacilityUrn);
 
-  if (cfg.defaultFacilityUrn) loadDefaultBtn.click();
+  // Auto-load if configured
+  if (cfg.defaultFacilityUrn) loadBtn.click();
 
-  async function initViewer(container, tokenUrl){
-    if (viewer) return;
-    const opts = {
-      env: 'AutodeskProduction',
-      api: 'derivativeV2',
-      // APS Viewer pattern: provide 2‑legged token via callback from your Vercel function
-      getAccessToken: async (cb) => {
-        const r = await fetch(tokenUrl, { cache: 'no-store' });
-        const { access_token, expires_in } = await r.json();
-        cb(access_token, expires_in);
-      }
+  /**
+   * Extract the facility ID from a Tandem URN
+   * Format: urn:adsk.dtt:<facilityId>
+   */
+  function parseFacilityId(urn) {
+    if (!urn) return null;
+    const parts = urn.split(':');
+    return parts[parts.length - 1] || null;
+  }
+
+  /**
+   * Build the Tandem embed URL, optionally with deep-link params
+   */
+  function buildTandemUrl(facilityId) {
+    let url = `${TANDEM_BASE}/${facilityId}`;
+
+    // Check for QR deep-link params
+    const params = new URLSearchParams(window.location.search);
+    const assetId   = params.get('asset');
+    const tandemLink = params.get('tandem');
+
+    // If we have a direct Tandem link from a QR scan, prefer that
+    if (tandemLink) return tandemLink;
+
+    // Future: append element selection params for deep-link zoom
+    // e.g. url += `?elementId=${assetId}` when Tandem supports it
+
+    return url;
+  }
+
+  /**
+   * Load the Tandem facility into an iframe
+   */
+  function loadFacility(urn) {
+    const facilityId = parseFacilityId(urn);
+    if (!facilityId) {
+      status.textContent = '⚠ No facility URN configured';
+      return;
+    }
+
+    status.textContent = 'Loading Tandem viewer…';
+    viewerDiv.innerHTML = '';
+
+    const iframe = document.createElement('iframe');
+    iframe.src             = buildTandemUrl(facilityId);
+    iframe.style.width     = '100%';
+    iframe.style.height    = '100%';
+    iframe.style.border    = 'none';
+    iframe.style.borderRadius = '0 0 16px 16px';
+    iframe.allow           = 'fullscreen';
+    iframe.title           = 'Autodesk Tandem – Facility Viewer';
+
+    iframe.onload = () => {
+      status.textContent = '';
+      loadBtn.textContent = '↻ Reload Facility';
     };
-    await Autodesk.Viewing.Initializer(opts, () => {
-      viewer = new Autodesk.Viewing.GuiViewer3D(container);
-      viewer.start();
-    });
+
+    iframe.onerror = () => {
+      status.textContent = '⚠ Could not load Tandem viewer';
+      showFallback(facilityId);
+    };
+
+    viewerDiv.appendChild(iframe);
+
+    // Fallback timeout — if Tandem blocks the iframe (X-Frame-Options),
+    // the onerror won't always fire, so we check after a delay
+    setTimeout(() => {
+      try {
+        // Cross-origin access will throw — that's expected and fine.
+        // If the iframe has NO content at all, offer the fallback.
+        const doc = iframe.contentDocument;
+        if (doc && doc.body && doc.body.innerHTML === '') {
+          showFallback(facilityId);
+        }
+      } catch (e) {
+        // Cross-origin block = iframe loaded Tandem successfully
+        status.textContent = '';
+      }
+    }, 5000);
   }
 
-  // TODO: Tandem SDK: resolve facility view & load into viewer (next commit)
-  async function loadFacilityWithSdk(twinUrn){ /* implemented in follow-up */ }
-
-  // TODO: Tandem SDK: select & zoom element from deep-link (next commit)
-  async function tryDeepLinkSelect(){
-    const u = new URL(location.href);
-    const assetId = u.searchParams.get('asset');
-    const link = u.searchParams.get('tandem');
-    if (!assetId || !link) return;
+  /**
+   * If iframe embedding is blocked, offer a direct link
+   */
+  function showFallback(facilityId) {
+    const url = `${TANDEM_BASE}/${facilityId}`;
+    viewerDiv.innerHTML = `
+      <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;
+                  height:100%;gap:1rem;color:#64748b;text-align:center;padding:2rem">
+        <p style="font-size:1.1rem">
+          Tandem's viewer couldn't be embedded directly.<br/>
+          This can happen due to browser security policies.
+        </p>
+        <a href="${url}" target="_blank" rel="noopener"
+           style="padding:.75rem 1.5rem;background:linear-gradient(135deg,#0f172a,#334155);
+                  color:#2dd4bf;border-radius:10px;text-decoration:none;font-weight:600">
+          Open Tandem in New Tab ↗
+        </a>
+        <p style="font-size:.85rem;max-width:400px">
+          Tip: You can keep this platform open alongside the Tandem tab
+          for a side-by-side workflow.
+        </p>
+      </div>`;
+    status.textContent = '';
   }
-
-  function loadCss(href){ const l=document.createElement('link'); l.rel='stylesheet'; l.href=href; document.head.appendChild(l); }
-  function loadScript(src){ return new Promise(r=>{ const s=document.createElement('script'); s.src=src; s.onload=r; document.head.appendChild(s); }); }
 }
-``
