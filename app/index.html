@@ -1,65 +1,14 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  <title>Aptitude Building Platform</title>
-  <!-- fonts (preconnects are fine to omit if you like) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;600;700&display=swap" rel="stylesheet"/>
-  <style>
-    :root{--line:#e2e8f0}
-    *{box-sizing:border-box}
-    body{margin:0;font-family:"DM Sans",system-ui;background:#f8fafc;color:#0f172a}
-    .layout{display:grid;grid-template-columns:260px 1fr;min-height:100vh}
-    .sidebar{background:linear-gradient(135deg,#0f172a,#334155);color:#e2e8f0;padding:20px}
-    .brand{display:flex;gap:.5rem;font-weight:700;color:#2dd4bf;margin-bottom:16px}
-    .nav a{display:block;padding:.6rem .75rem;border-radius:10px;color:#e2e8f0;text-decoration:none}
-    .nav a.active,.nav a:hover{background:rgba(255,255,255,.08)}
-    .main{padding:20px}
-    .card{background:#fff;border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 40px -12px rgba(15,23,42,.15)}
-  </style>
-</head>
-<body>
-  <div class="layout">
-    <aside class="sidebar">
-      <div class="brand">aptitude • Building Platform</div>
-      <nav class="nav">
-        <a href="#/twin">🧭 Twin (3D)</a>
-        <a href="#/qr">🔎 QR Portal</a>
-        <a href="#/qr-admin">🔧 QR Admin</a>
-      </nav>
-    </aside>
-    <main class="main"><div id="view-root" class="card" style="padding:0;"></div></main>
-  </div>
-
-  <script type="module">
-    async function getConfig(){
-      return (await fetch('./config/client.json', { cache:'no-store' })).json();
-    }
-    const routes = {
-      '/twin': async (root,cfg)=> (await import('./modules/twin/twin.js')).render(root,cfg),
-      '/qr': async (root,cfg)=> (await import('./modules/qr/portal.js')).render(root,cfg),
-      '/qr-admin': async (root,cfg)=> (await import('./modules/qr-admin/admin.js')).render(root,cfg)
-    };
-    function setActive(r){
-      document.querySelectorAll('.nav a')
-        .forEach(a=>a.classList.toggle('active', a.getAttribute('href')==='#'+r));
-    }
-    async function navigate(){
-      const cfg = await getConfig();
-      const route = (location.hash||'#/twin').replace('#','');
-      setActive(route);
-      const root = document.getElementById('view-root');
-      if (routes[route]) {
-        await routes[route](root, cfg);
-      } else {
-        location.hash = '#/twin';
-      }
-    }
-    window.addEventListener('hashchange', navigate);
-    navigate();
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/app/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aptitude Building Platform</title>
+    <script type="module" crossorigin src="/app/assets/index-DIodeCcu.js"></script>
+    <link rel="stylesheet" crossorigin href="/app/assets/index-J13nlH0b.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
 </html>
