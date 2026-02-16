@@ -3,16 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
-  <title>Help Center</title>
-
-  <!-- Fonts -->
+  <title>ABC Healthcare Portal</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
-    rel="stylesheet"
-  />
-
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  
   <style>
     :root {
       --slate-900: #0f172a;
@@ -36,15 +31,10 @@
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'DM Sans', sans-serif; background: var(--slate-100); min-height: 100vh; color: var(--slate-800); overflow-x: hidden; }
 
-    /* Header */
     .header { background: linear-gradient(135deg, var(--slate-900) 0%, var(--slate-700) 100%); padding: 3rem 2rem 4rem; position: relative; overflow: hidden; }
-    .header::before { content: ''; position: absolute; inset: 0;
-      background:
-        radial-gradient(ellipse 80% 50% at 20% 40%, rgba(20, 184, 166, 0.15) 0%, transparent 50%),
-        radial-gradient(ellipse 60% 40% at 80% 60%, rgba(245, 158, 11, 0.1) 0%, transparent 50%); }
+    .header::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse 80% 50% at 20% 40%, rgba(20, 184, 166, 0.15) 0%, transparent 50%), radial-gradient(ellipse 60% 40% at 80% 60%, rgba(245, 158, 11, 0.1) 0%, transparent 50%); }
     .header-content { max-width: 800px; margin: 0 auto; text-align: center; position: relative; z-index: 1; }
-    .logo-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);
-      padding: 0.5rem 1rem; border-radius: 50px; margin-bottom: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.1); }
+    .logo-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 0.5rem 1rem; border-radius: 50px; margin-bottom: 1.5rem; border: 1px solid rgba(255, 255, 255, 0.1); }
     .logo-badge svg { width: 20px; height: 20px; }
     .logo-badge span { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--teal-400); }
     h1 { font-family: 'Instrument Serif', serif; font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 400; color: var(--white); line-height: 1.1; margin-bottom: 0.75rem; }
@@ -64,8 +54,7 @@
 
     .section-title { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--slate-400); margin-bottom: 1rem; }
 
-    .action-btn { display: flex; align-items: center; width: 100%; padding: 1.25rem 1.5rem; border: none; border-radius: 14px; font-family: inherit; font-size: 1rem; font-weight: 500;
-      cursor: pointer; transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); text-align: left; gap: 1rem; margin-bottom: 1rem; position: relative; overflow: hidden; text-decoration: none; }
+    .action-btn { display: flex; align-items: center; width: 100%; padding: 1.25rem 1.5rem; border: none; border-radius: 14px; font-family: inherit; font-size: 1rem; font-weight: 500; cursor: pointer; transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1); text-align: left; gap: 1rem; margin-bottom: 1rem; position: relative; overflow: hidden; text-decoration: none; }
     .action-btn:last-child { margin-bottom: 0; }
     .action-btn::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,255,255,0.2) 0%, transparent 50%); opacity: 0; transition: opacity 0.25s ease; }
     .action-btn:hover::before { opacity: 1; }
@@ -82,10 +71,8 @@
 
     .btn-maintenance { background: linear-gradient(135deg, var(--teal-600) 0%, var(--teal-500) 100%); color: var(--white); }
     .btn-maintenance .btn-icon { background: rgba(255, 255, 255, 0.2); }
-
     .btn-portal { background: linear-gradient(135deg, var(--slate-700) 0%, var(--slate-600) 100%); color: var(--white); }
     .btn-portal .btn-icon { background: rgba(255, 255, 255, 0.15); }
-
     .btn-service { background: linear-gradient(135deg, var(--amber-500) 0%, var(--amber-400) 100%); color: var(--slate-900); }
     .btn-service .btn-icon { background: rgba(0, 0, 0, 0.1); }
 
@@ -94,8 +81,7 @@
     .no-asset-icon svg { width: 32px; height: 32px; color: var(--slate-400); }
     .no-asset-title { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--slate-800); }
     .no-asset-desc { color: var(--slate-500); font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem; }
-
-    .no-asset-steps { background: var(--slate-50); border-radius: 12px; padding: 1.25rem; text-align: left; }
+    .no-asset-steps { background: var(--slate-50); border-radius: 12px; padding: 1.25rem; text-align: left; margin-bottom: 1.5rem; }
     .no-asset-steps-title { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--slate-400); margin-bottom: 0.75rem; }
     .step { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.75rem; }
     .step:last-child { margin-bottom: 0; }
@@ -113,7 +99,7 @@
         </svg>
         <span>Facility Services</span>
       </div>
-      <h1>Help Center</h1>
+      <h1>ABC Healthcare Portal</h1>
       <p class="subtitle">Asset management & maintenance support</p>
     </div>
   </header>
@@ -121,67 +107,144 @@
   <main class="main-content">
     <!-- View 1: Asset Loaded -->
     <div id="options-view" class="view">
-      <div class="card"><div class="card-body">
-        <div class="asset-banner">
-          <div class="asset-banner-label">Asset Identified</div>
-          <div class="asset-banner-id" id="display-asset-id">—</div>
-          <span class="asset-banner-link" id="display-tandem-link">—</span>
+      <div class="card">
+        <div class="card-body">
+          <div class="asset-banner">
+            <div class="asset-banner-label">Asset Identified</div>
+            <div class="asset-banner-id" id="display-asset-id">—</div>
+            <span class="asset-banner-link" id="display-tandem-link">—</span>
+          </div>
+
+          <div class="section-title">What would you like to do?</div>
+
+          <a href="#" id="btn-maintenance" class="action-btn btn-maintenance">
+            <div class="btn-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+            </div>
+            <div class="btn-content">
+              <span class="btn-title">Send Issue to Maintenance</span>
+              <span class="btn-desc">Report a problem via email</span>
+            </div>
+            <svg class="btn-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
+
+          <a href="#" id="btn-portal" class="action-btn btn-portal" target="_blank">
+            <div class="btn-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 00-2-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/>
+              </svg>
+            </div>
+            <div class="btn-content">
+              <span class="btn-title">Maintenance Portal</span>
+              <span class="btn-desc">View in Autodesk Tandem</span>
+            </div>
+            <svg class="btn-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
+
+          <a href="#" id="btn-service" class="action-btn btn-service" target="_blank">
+            <div class="btn-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+              </svg>
+            </div>
+            <div class="btn-content">
+              <span class="btn-title">Service Platform</span>
+              <span class="btn-desc">Access CMMS system</span>
+            </div>
+            <svg class="btn-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
         </div>
+      </div>
+    </div>
 
-        <div class="section-title">What would you like to do?</div>
+    <!-- View 2: No Asset -->
+    <div id="no-asset-view" class="view">
+      <div class="card">
+        <div class="card-body">
+          <div class="no-asset-message">
+            <div class="no-asset-icon">
+              <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"/>
+              </svg>
+            </div>
+            <h2 class="no-asset-title">Scan an Asset QR Code</h2>
+            <p class="no-asset-desc">Use your camera to scan a QR code attached to a building asset to access maintenance options.</p>
+            
+            <div class="no-asset-steps">
+              <div class="no-asset-steps-title">How to Use</div>
+              <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-text">Find a QR code on any building asset (HVAC, elevator, etc.)</div>
+              </div>
+              <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-text">Open your camera app and point it at the QR code</div>
+              </div>
+              <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-text">Tap the notification to open the link</div>
+              </div>
+              <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-text">Choose your action: Report issue, view in Tandem, or access CMMS</div>
+              </div>
+            </div>
 
-        <!-- Existing buttons -->
-        <a href="#" id="btn-maintenance" class="action-btn btn-maintenance">
-          <div class="btn-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-            </svg>
+            <a href="/ABC-Healthcare-Portal/app/" class="action-btn btn-portal">
+              <div class="btn-icon">
+                <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v1m6 11h2m-6 0h-2v4m0-11v3m0 0h.01M12 12h4.01M16 20h4M4 12h4m12 0h.01M5 8h2a1 1 0 001-1V5a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1zm12 0h2a1 1 0 001-1V5a1 1 0 00-1-1h-2a1 1 0 00-1 1v2a1 1 0 001 1zM5 20h2a1 1 0 001-1v-2a1 1 0 00-1-1H5a1 1 0 00-1 1v2a1 1 0 001 1z"/>
+                </svg>
+              </div>
+              <div class="btn-content">
+                <span class="btn-title">Generate QR Codes</span>
+                <span class="btn-desc">Access the platform to create new asset QR codes</span>
+              </div>
+              <svg class="btn-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </a>
           </div>
-          <div class="btn-content">
-            <span class="btn-title">Send Issue to Building Maintenance</span>
-            <span class="btn-desc">Report a problem via email with asset details</span>
-          </div>
-          <svg class="btn-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-          </svg>
-        </a>
+        </div>
+      </div>
+    </div>
+  </main>
 
-        <a href="#" id="btn-portal" class="action-btn btn-portal" target="_blank">
-          <div class="btn-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M9 17V7m0 10a2 2 0 01-2 2H5a2 2 0 01-2-2V7a2 2 0 00-2-2h2a2 2 0 012 2m0 10a2 2 0 002 2h2a2 2 0 002-2M9 7a2 2 0 012-2h2a2 2 0 012 2m0 10V7m0 10a2 2 0 002 2h2a2 2 0 002-2V7a2 2 0 00-2-2h-2a2 2 0 00-2 2"/>
-            </svg>
-          </div>
-          <div class="btn-content">
-            <span class="btn-title">Maintenance Portal</span>
-            <span class="btn-desc">View asset directly in Autodesk Tandem</span>
-          </div>
-          <svg class="btn-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-          </svg>
-        </a>
+  <script>
+    // Get URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const assetId = urlParams.get('asset');
+    const tandemUrl = urlParams.get('tandem');
 
-        <a href="#" id="btn-service" class="action-btn btn-service" target="_blank">
-          <div class="btn-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/>
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
-            </svg>
-          </div>
-          <div class="btn-content">
-            <span class="btn-title">Service Platform</span>
-            <span class="btn-desc">Access asset in CMMS (Tririga/Maximo)</span>
-          </div>
-          <svg class="btn-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-          </svg>
-        </a>
-
-        <!-- NEW: Open in Twin (3D) -->
-        <a href="#" id="btn-twin" class="action-btn btn-portal" target="_blank">
-          <div class="btn-icon">
-            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+    if (assetId) {
+      // Show asset options view
+      document.getElementById('options-view').classList.add('active');
+      document.getElementById('display-asset-id').textContent = assetId;
+      
+      if (tandemUrl) {
+        document.getElementById('display-tandem-link').textContent = decodeURIComponent(tandemUrl);
+        
+        // Set button URLs
+        document.getElementById('btn-portal').href = decodeURIComponent(tandemUrl);
+        
+        const maintenanceEmail = `mailto:maintenance@abchealthcare.com?subject=Issue Report: Asset ${assetId}&body=Asset ID: ${assetId}%0D%0ATandem Link: ${tandemUrl}%0D%0A%0D%0APlease describe the issue:%0D%0A`;
+        document.getElementById('btn-maintenance').href = maintenanceEmail;
+        
+        document.getElementById('btn-service').href = `https://your-cmms-system.com/asset/${assetId}`;
+      }
+    } else {
+      // Show no-asset view
+      document.getElementById('no-asset-view').classList.add('active');
+    }
+  </script>
+</body>
+</html>
