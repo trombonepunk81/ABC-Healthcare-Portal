@@ -21,8 +21,8 @@ jobs:
             const incoming = ${{ toJson(github.event.client_payload) }};
 
             const urnToProject = {
-              'urn:adsk.dtt:66d8Z0HpQGy12u7I8XWfFw': 'abbott-mri-d',
-              'urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q': 'je-dunn-atlanta-office',
+              'urn:adsk.dtm:o7W79rDUSMm7DOS11uGiFw': 'abbott-mri-d',
+              'urn:adsk.dtm:o1yVV15jRhyxTB5CUsSd1A': 'je-dunn-atlanta-office',
             };
 
             const modelUrn = incoming.model || '';
