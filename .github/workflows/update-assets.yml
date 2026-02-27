@@ -77,7 +77,7 @@ jobs:
                 fs.writeFileSync(filePath, JSON.stringify(output, null, 2));
                 console.log(`Merged ${incoming.assets?.length || 0} incoming, total now: ${merged.length}`);
 
-                // Update Firestore assetCount
+                // Update Firestore assetCount by querying on the id field
                 try {
                   const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
                   const admin = require('./node_modules/firebase-admin');
@@ -87,10 +87,13 @@ jobs:
                     });
                   }
                   const db = admin.firestore();
-                  await db.collection('projects').doc(projectId).update({
-                    assetCount: merged.length
-                  });
-                  console.log(`Updated Firestore assetCount to ${merged.length} for ${projectId}`);
+                  const snapshot = await db.collection('projects').where('id', '==', projectId).get();
+                  if (!snapshot.empty) {
+                    await snapshot.docs[0].ref.update({ assetCount: merged.length });
+                    console.log(`Updated Firestore assetCount to ${merged.length} for ${projectId}`);
+                  } else {
+                    console.log(`No Firestore document found for project id: ${projectId}`);
+                  }
                 } catch (fbError) {
                   console.log(`Firestore update failed: ${fbError.message}`);
                 }
