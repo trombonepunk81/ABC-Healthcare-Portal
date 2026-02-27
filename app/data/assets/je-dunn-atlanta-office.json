@@ -1,13 +1,90 @@
 {
-  "lastUpdated": "2026-02-27T23:16:29.286Z",
-  "totalAssets": 375,
+  "lastUpdated": "2026-02-27T23:16:31.361Z",
+  "totalAssets": 425,
   "assets": [
+    {
+      "assetId": "AS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABG3rg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "DEEP DIVE 036"
+    },
+    {
+      "assetId": "AS-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHFiQ",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "AS-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHGaA",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "IN THE BALLPARK 035"
+    },
+    {
+      "assetId": "AS-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHHVg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": ""
+    },
+    {
+      "assetId": "AS-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABh413cDdlLDqmEhin9XBxUABJcAA",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "FITNESS 015"
+    },
+    {
+      "assetId": "AS-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHHIg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": ""
+    },
+    {
+      "assetId": "AS-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABh413cDdlLDqmEhin9XBxUABJWFw",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "PULL PLANNING 016"
+    },
+    {
+      "assetId": "AS-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHHBQ",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "AS-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHHeg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "ROACH COACH 022"
+    },
+    {
+      "assetId": "AS-10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHIMw",
+      "category": "Q.CD",
+      "level": "v81mtnpFSD66St9c_UfPrQAKqpI",
+      "room": "WALKWAY 1.01 W1.01"
+    },
     {
       "assetId": "AS-11",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHIvw",
       "category": "Q.CD",
       "level": "v81mtnpFSD66St9c_UfPrQAKqpI",
       "room": "WIN WIN 103"
+    },
+    {
+      "assetId": "AS-12",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHIlw",
+      "category": "Q.CD",
+      "level": "v81mtnpFSD66St9c_UfPrQAKqpI",
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "AS-13",
@@ -50,6 +127,13 @@
       "category": "Q.CD",
       "level": "v81mtnpFSD66St9c_UfPrQAKqpI",
       "room": "WALKWAY 1.05 W1.05"
+    },
+    {
+      "assetId": "AS-19",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHF-Q",
+      "category": "Q.CD",
+      "level": "v81mtnpFSD66St9c_UfPrQAKqpI",
+      "room": "CAFE 127"
     },
     {
       "assetId": "AS-20",
@@ -269,6 +353,34 @@
       "room": "CARLA BOWRON 001.7"
     },
     {
+      "assetId": "DS07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF20A",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "BRAD STOLZ 001.8"
+    },
+    {
+      "assetId": "DS08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2zw",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "MIKE ADAMS 001.9"
+    },
+    {
+      "assetId": "DS09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF20Q",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "TERESA KIMBRO 001.10"
+    },
+    {
+      "assetId": "DS10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF24A",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "TIARA CHAMBLISS 001.11"
+    },
+    {
       "assetId": "DS100",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABG0Rw",
       "category": "Q.CD",
@@ -337,6 +449,13 @@
       "category": "Q.CD",
       "level": "v81mtnpFSD66St9c_UfPrQAKqpI",
       "room": "KATHY GRAHAM 113.6"
+    },
+    {
+      "assetId": "DS11",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF23g",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "HOTEL 001.12"
     },
     {
       "assetId": "DS110",
@@ -409,6 +528,13 @@
       "room": "KAREN GARNER 113.16"
     },
     {
+      "assetId": "DS12",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF23w",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "JENNIFER YOUNG 001.13"
+    },
+    {
       "assetId": "DS120",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACI8x6PdYdNBqxXXA2bVF5GABG02g",
       "category": "Q.CD",
@@ -479,6 +605,13 @@
       "room": "MICHAEL ALDRICH 003.10"
     },
     {
+      "assetId": "DS13",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF28A",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "BRENT STRENGTH 002.2"
+    },
+    {
       "assetId": "DS130",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLxQ",
       "category": "Q.CD",
@@ -519,6 +652,188 @@
       "category": "Q.CD",
       "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
       "room": "DAVID YOUNG 003.2"
+    },
+    {
+      "assetId": "DS14",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF27w",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "RYAN WILSON 002.3"
+    },
+    {
+      "assetId": "DS15",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF28Q",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "TAMMI HILL 002.4"
+    },
+    {
+      "assetId": "DS16",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2_w",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "SCOTT BODDEN 002.5"
+    },
+    {
+      "assetId": "DS17",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2_g",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "HOTEL 002.6"
+    },
+    {
+      "assetId": "DS18",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3AA",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "ERIK MAGSAMEN 002.7"
+    },
+    {
+      "assetId": "DS19",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Dg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "STEVE HAGLUND 002.8"
+    },
+    {
+      "assetId": "DS20",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3DQ",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "STEPHEN OEHRIG 002.9"
+    },
+    {
+      "assetId": "DS21",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Dw",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WILL CALLIER 002.10"
+    },
+    {
+      "assetId": "DS22",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3HQ",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "BENJAMIN SZUBSKI 002.11"
+    },
+    {
+      "assetId": "DS23",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3HA",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "PATRICK REDMAN 002.12"
+    },
+    {
+      "assetId": "DS24",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Hg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "NANCY COVE 002.13"
+    },
+    {
+      "assetId": "DS25",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Lg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "CHRIS HARM 002.14"
+    },
+    {
+      "assetId": "DS26",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3LQ",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "MICHAEL MORGAN 002.15"
+    },
+    {
+      "assetId": "DS27",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Lw",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "TODD STUART 002.16"
+    },
+    {
+      "assetId": "DS28",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Pw",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "IANA TASSADA 026.2"
+    },
+    {
+      "assetId": "DS29",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Pg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "ALEX VIDARTI 026.3"
+    },
+    {
+      "assetId": "DS30",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3QA",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "MICHELLE FREEMAN ROD 026.4"
+    },
+    {
+      "assetId": "DS31",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Tw",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "CATHY KASHIUS 026.5"
+    },
+    {
+      "assetId": "DS32",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3TQ",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "HOTEL 026.6"
+    },
+    {
+      "assetId": "DS33",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Tg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "SAYAN SMITH 026.7"
+    },
+    {
+      "assetId": "DS34",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Xw",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "PETER STEPHENSON 026.8"
+    },
+    {
+      "assetId": "DS35",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Xg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "JERMAINE SHEFFIELD 026.9"
+    },
+    {
+      "assetId": "DS36",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3YA",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "HOTEL 026.10"
+    },
+    {
+      "assetId": "DS37",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3bw",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "HIAWATHA HILL 026.11"
+    },
+    {
+      "assetId": "DS38",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3bQ",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "MARQUES LOWE 026.12"
+    },
+    {
+      "assetId": "DS39",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3bg",
+      "category": "Q.CD",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "REGGIE POPE 026.13"
     },
     {
       "assetId": "DS40",
@@ -871,6 +1186,20 @@
       "room": "WILL ETHEREDGE 006.13"
     },
     {
+      "assetId": "DS90",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA8W3BplUJPn4yxDTPc4EWpABGzqA",
+      "category": "Q.CD",
+      "level": "v81mtnpFSD66St9c_UfPrQAKqpI",
+      "room": "JENNIFER BROWN 109.11"
+    },
+    {
+      "assetId": "DS92",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA8W3BplUJPn4yxDTPc4EWpABGzsg",
+      "category": "Q.CD",
+      "level": "v81mtnpFSD66St9c_UfPrQAKqpI",
+      "room": "HANK JENNINGS 109.13"
+    },
+    {
       "assetId": "DS93",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABGz7w",
       "category": "Q.CD",
@@ -1009,6 +1338,20 @@
       "category": "E.Eq",
       "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
       "room": "PRINT 033"
+    },
+    {
+      "assetId": "LP",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACBq1ZkzmhCh5gnWIjA8jpnAApC-Q",
+      "category": "E.Eq",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "COPY 021"
+    },
+    {
+      "assetId": "MDP",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABhwf_w6bJKJKrDVPudz46xAAoxAQ",
+      "category": "E.Eq",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "PIU-1-1",
@@ -2612,6 +2955,13 @@
       "category": "E.Eq",
       "level": "v81mtnpFSD66St9c_UfPrQAKqpA",
       "room": ""
+    },
+    {
+      "assetId": "T-LDP",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABRubzUYvFBI7JeNC-lqGDeAAn_Tw",
+      "category": "E.Eq",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "VAV-LL-2",
