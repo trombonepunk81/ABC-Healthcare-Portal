@@ -23,6 +23,8 @@ jobs:
             const urnToProject = {
               'urn:adsk.dtm:o7W79rDUSMm7DOS11uGiFw': 'abbott-mri-d',
               'urn:adsk.dtm:o1yVV15jRhyxTB5CUsSd1A': 'je-dunn-atlanta-office',
+              'urn:adsk.dtm:HIEG_rRmQaWdIfPybILB_Q': 'je-dunn-atlanta-office',
+              'urn:adsk.dtm:I8zS7A4ISR655jb8_Z32BA': 'je-dunn-atlanta-office',
             };
 
             const modelUrn = incoming.model || '';
