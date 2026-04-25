@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-25T01:06:19.627Z",
-  "totalAssets": 150,
+  "lastUpdated": "2026-04-25T01:06:21.879Z",
+  "totalAssets": 155,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -726,6 +726,41 @@
     {
       "assetId": "RM.001.16",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADO_Evdmn1Arps0OpgqmENdACSp8w",
+      "category": "L.Rm",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": ""
+    },
+    {
+      "assetId": "RM.003.05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUqg",
+      "category": "L.Rm",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": ""
+    },
+    {
+      "assetId": "RM.003.06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUrA",
+      "category": "L.Rm",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": ""
+    },
+    {
+      "assetId": "RM.003.3",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUpg",
+      "category": "L.Rm",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": ""
+    },
+    {
+      "assetId": "RM.003.4",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUqA",
+      "category": "L.Rm",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": ""
+    },
+    {
+      "assetId": "RM.003.7",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUrg",
       "category": "L.Rm",
       "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
       "room": ""
