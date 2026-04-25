@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-25T01:06:21.879Z",
-  "totalAssets": 155,
+  "lastUpdated": "2026-04-25T01:06:24.129Z",
+  "totalAssets": 205,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -22,6 +22,90 @@
       "category": "Q.CD",
       "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
       "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-14",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2KtA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "TIARA CHAMBLISS 001.11"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-15",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2Ktg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "BRENT STRENGTH 002.2"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-16",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NPQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "IANA TASSADA 026.2"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-17",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NPg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "GARRICK SMITH 026.16"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-18",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NPw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "CHRIS HARM 002.14"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-19",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NQA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-20",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NQQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "STEVE HAGLUND 002.8"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-21",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NQg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "SCOTT BODDEN 002.5"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-22",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NTg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "CATHY KASHIUS 026.5"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-23",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NTw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "PETER STEPHENSON 026.8"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-LP-24",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NUA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "HIAWATHA HILL 026.11"
+    },
+    {
+      "assetId": "JD4021-LF-002.1-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2KtQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "COLLABORATION 002.1"
     },
     {
       "assetId": "JD4021-LF-005-26ELE-EP-01",
@@ -374,6 +458,55 @@
       "room": "STAIR 027"
     },
     {
+      "assetId": "JD4021-LF-027-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_kg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_yg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_zQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_4A",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_4w",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_5g",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA27RA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-032-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAJf0ZYYEhKwqL56AeQmzwRABjABg",
       "category": "E.LF",
@@ -395,6 +528,174 @@
       "room": "PRINT 033"
     },
     {
+      "assetId": "JD4021-LF-035-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2Ncg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "IN THE BALLPARK 035"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25dw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25eA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-RF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25eQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-RF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25eg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25ew",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25fA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-RF-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25fQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-RF-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25fg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-RF-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25fw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2tQQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA22QA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA22Wg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA22bQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA22fw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA22mw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA22rQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA22vw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA222Q",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA24tA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-11",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25jQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-RF-12",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25nw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2l0A",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_6Q",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
       "assetId": "JD4021-LF-W0.06-26ELE-RF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4MDw",
       "category": "E.LF",
@@ -414,6 +715,55 @@
       "category": "E.LF",
       "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
       "room": "ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA26Gw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2-OA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2--w",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_Uw",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_Vg",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_WQ",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA2_XA",
+      "category": "E.LF",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-MF-106.10-25INT-DS-01",
