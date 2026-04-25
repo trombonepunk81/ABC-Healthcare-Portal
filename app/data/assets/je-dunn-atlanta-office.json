@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-25T01:06:38.657Z",
-  "totalAssets": 600,
+  "lastUpdated": "2026-04-25T01:06:40.222Z",
+  "totalAssets": 629,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -2425,6 +2425,181 @@
       "room": ""
     },
     {
+      "assetId": "PIU-1-1",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABgz3A",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACulJG6KZRAOYNXUtAmPLKHAB20fA",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-11",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAAB7EQkWgEdIxrP7ar6EtqrpAB2EsQ",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-12",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg00Q",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-13",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg0Sw",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-14",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADCshb-1edARbb3GBm_d5WNAB4Fig",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-15",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACICDQgzrRJPI9vvJ7lppnXAB3ZYw",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-16",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACWsX8DeVtIXJMhr5HVrYZzAB3xYQ",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-17",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACulJG6KZRAOYNXUtAmPLKHAB2zIg",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-18",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACulJG6KZRAOYNXUtAmPLKHAB257g",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-2",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABgyoA",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-3",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABgxtw",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-4",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg1LQ",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-5",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg1iQ",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-6",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADCshb-1edARbb3GBm_d5WNAB4CTw",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-7",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADE6dNv4y1DN7hDig20yCnvAB31mw",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-8",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABN2NmFqvlLiZLIbNaO1IHSAB3nAQ",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-1-9",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABimvbHkYdDZIIdVFgExEdDAB3jRg",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_w",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-LL-1",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADKCbgbDqlJAYIe8AO8J1JGABxZTw",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_o",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-LL-3",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABrhYPNeelG_YRmgcn-cfy3AB0Rww",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_o",
+      "room": "STORAGE 017"
+    },
+    {
+      "assetId": "PIU-LL-4",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACChl2KddtLpq7g8foIZIrrAB0aqA",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_o",
+      "room": "STORAGE 017"
+    },
+    {
+      "assetId": "PIU-LL-5",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADgYANZpL9BqLXrAcefOfwTAB0n1g",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_o",
+      "room": "OFFICE 023"
+    },
+    {
+      "assetId": "PIU-LL-6",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADKCbgbDqlJAYIe8AO8J1JGABxaDw",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_o",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "PIU-LL-7",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABrhYPNeelG_YRmgcn-cfy3AB0Hkw",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_o",
+      "room": "OFFICE 023"
+    },
+    {
+      "assetId": "PIU-LL-8",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABmWd4v_N1H57Do-vLLCd2pABz2PQ",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_o",
+      "room": "OUTSIDE THE BOX 024"
+    },
+    {
       "assetId": "RM.001.10",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAB9VxIjnBVP7Z9l7nrzz3MMACEjYA",
       "category": "L.Rm",
@@ -4026,6 +4201,34 @@
       "category": "L.Rm",
       "level": "ePYtFrKORKyMnXWih6XF5wAPz10",
       "room": ""
+    },
+    {
+      "assetId": "RTU-1",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAAARvLBs60ZG3b7R0yJFNsmmABk54A",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_s",
+      "room": ""
+    },
+    {
+      "assetId": "RTU-2",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAAARvLBs60ZG3b7R0yJFNsmmABk3oA",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_s",
+      "room": ""
+    },
+    {
+      "assetId": "VAV-LL-2",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADril6Q3IFKK5FG5asN1J2CABzh0A",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_o",
+      "room": "@ THE END OF THE DAY 025"
+    },
+    {
+      "assetId": "VAV-LL-3",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACUL72mMtdM4b0ZTHQUBJUhABzJYQ",
+      "category": "M.Eq",
+      "level": "vKIsgRhNSQyLJB6EGDe4pAAXe_o",
+      "room": "HOTEL 113.11"
     },
     {
       "assetId": "WD.001A.01",
