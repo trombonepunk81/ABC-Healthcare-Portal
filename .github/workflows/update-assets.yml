@@ -46,11 +46,14 @@ jobs:
             const filePath = `app/data/assets/${projectId}.json`;
             console.log(`Writing to ${filePath} for model ${modelUrn}`);
 
-            const maxRetries = 5;
+            // Stagger start to reduce simultaneous push collisions across batches
+            await new Promise(r => setTimeout(r, Math.random() * 5000));
+
+            const maxRetries = 10;
             for (let attempt = 1; attempt <= maxRetries; attempt++) {
               console.log(`Attempt ${attempt}...`);
               try {
-                execSync('git pull origin main', { stdio: 'inherit' });
+                execSync('git pull --rebase origin main', { stdio: 'inherit' });
 
                 let existing = { assets: [] };
                 try {
@@ -77,7 +80,7 @@ jobs:
                 fs.writeFileSync(filePath, JSON.stringify(output, null, 2));
                 console.log(`Merged ${incoming.assets?.length || 0} incoming, total now: ${merged.length}`);
 
-                // Update Firestore assetCount by querying on the id field
+                // Update Firestore assetCount
                 try {
                   const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
                   const admin = require('./node_modules/firebase-admin');
@@ -113,8 +116,9 @@ jobs:
               } catch (error) {
                 console.log(`Attempt ${attempt} failed: ${error.message}`);
                 if (attempt < maxRetries) {
-                  execSync('git reset --hard origin/main');
-                  await new Promise(r => setTimeout(r, 2000 + Math.random() * 3000));
+                  execSync('git rebase --abort 2>/dev/null || true', { stdio: 'inherit' });
+                  execSync('git reset --hard origin/main', { stdio: 'inherit' });
+                  await new Promise(r => setTimeout(r, 3000 + Math.random() * 5000));
                 }
               }
             }
