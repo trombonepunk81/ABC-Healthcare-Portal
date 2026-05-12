@@ -647,13 +647,6 @@
       "room": "ELECTRICAL 005"
     },
     {
-      "assetId": "JD4021-LF-005-26ELE-SW-01-TEST",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABhwf_w6bJKJKrDVPudz46xAAoxAQ",
-      "category": "E.Eq",
-      "level": "LOWER FLOOR",
-      "room": "ELECTRICAL 005"
-    },
-    {
       "assetId": "JD4021-LF-005A-26ELE-SL-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADS7V4tyEJPiqNXSRFpjKg5AAr54w",
       "category": "E.LF",
