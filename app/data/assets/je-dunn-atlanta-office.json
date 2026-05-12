@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T22:47:08.252Z",
+  "lastUpdated": "2026-05-12T22:47:11.044Z",
   "totalAssets": 684,
   "assets": [
     {
@@ -528,7 +528,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -538,7 +538,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -718,7 +718,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "MICHAEL ALDRICH 003.10"
     },
@@ -728,7 +728,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "MITCH PURVIS 003.11"
     },
@@ -738,7 +738,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "ARTHUR HINSHAW 003.12"
     },
@@ -748,7 +748,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "CHRIS ANDREWS 003.13"
     },
@@ -758,7 +758,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "DAVID YOUNG 003.2"
     },
@@ -768,7 +768,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "CHAD MEADOWS 003.3"
     },
@@ -778,7 +778,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "MATTHEW HAGAN 003.4"
     },
@@ -788,7 +788,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "REESE MOORE 003.5"
     },
@@ -798,7 +798,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "BRIAN HOLMES 003.6"
     },
@@ -808,7 +808,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "DARREN ICE 003.7"
     },
@@ -818,7 +818,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "SAM HOLT 003.8"
     },
@@ -828,7 +828,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "JACOB MARKFORT 003.9"
     },
@@ -988,7 +988,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "EZRA RUSSEL-HOWLAND 006.2"
     },
@@ -998,7 +998,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "EMORY BURCH 006.3"
     },
@@ -1008,7 +1008,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "HOTEL 006.4"
     },
@@ -1128,7 +1128,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1138,7 +1138,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1148,7 +1148,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1158,7 +1158,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1168,7 +1168,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1178,7 +1178,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1188,7 +1188,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1198,7 +1198,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1208,7 +1208,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1218,7 +1218,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1228,7 +1228,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1238,7 +1238,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1248,7 +1248,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1258,7 +1258,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "FITNESS 015"
     },
@@ -1778,7 +1778,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OFFICE 023"
     },
@@ -1788,7 +1788,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OFFICE 023"
     },
@@ -1798,7 +1798,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OFFICE 023"
     },
@@ -1808,7 +1808,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
@@ -1818,7 +1818,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
@@ -1828,7 +1828,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
@@ -1838,7 +1838,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
@@ -1848,7 +1848,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
@@ -1858,7 +1858,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
@@ -1868,7 +1868,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "@ THE END OF THE DAY 025"
     },
@@ -1878,7 +1878,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "@ THE END OF THE DAY 025"
     },
@@ -1888,7 +1888,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "@ THE END OF THE DAY 025"
     },
@@ -1898,7 +1898,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "@ THE END OF THE DAY 025"
     },
@@ -2138,7 +2138,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "EAT THE ELEPHANT 028"
     },
@@ -2148,7 +2148,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -2158,7 +2158,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -2288,7 +2288,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -2298,7 +2298,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -2308,7 +2308,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
