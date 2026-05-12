@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T22:47:26.236Z",
+  "lastUpdated": "2026-05-12T22:47:29.106Z",
   "totalAssets": 684,
   "assets": [
     {
@@ -508,7 +508,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
       "room": "IT 001A"
     },
@@ -518,7 +518,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
       "room": "IT 001A"
     },
@@ -878,7 +878,7 @@
       "category": "E.Eq",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Electrical Panel",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -898,7 +898,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -908,7 +908,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -928,7 +928,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
       "room": "RISER ROOM 005A"
     },
@@ -1468,7 +1468,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
@@ -1478,7 +1478,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
@@ -1488,7 +1488,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
@@ -1498,7 +1498,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
@@ -1508,7 +1508,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
@@ -1518,7 +1518,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
@@ -1528,7 +1528,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
@@ -1568,7 +1568,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "STORAGE 020"
     },
@@ -1588,7 +1588,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "COPY 021"
     },
@@ -1768,7 +1768,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "OFFICE 023"
     },
@@ -2408,7 +2408,7 @@
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
       "room": "JANITOR J01"
     },
@@ -2948,7 +2948,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -2958,7 +2958,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.10 W1.10"
     },
@@ -2968,7 +2968,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.05 W1.05"
     },
@@ -2978,7 +2978,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "BOTTOM LINE 102"
     },
@@ -2988,7 +2988,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WIN WIN 103"
     },
@@ -3118,7 +3118,7 @@
       "category": "E.Eq",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Electrical Panel",
       "level": "MAIN FLOOR",
       "room": "WORKROOM 107"
     },
@@ -3248,7 +3248,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "GATHERING 111"
     },
@@ -3258,7 +3258,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "BEST IN FINAL 112"
     },
@@ -3558,7 +3558,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "CHRISTOPHER HUGHES 129.10"
     },
@@ -3568,7 +3568,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "TOM RANEY 129.12"
     },
@@ -3578,7 +3578,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "ERIN GRABLE 129.13"
     },
@@ -3588,7 +3588,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "PATRICK FLEMING 129.14"
     },
@@ -3658,7 +3658,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "ED VON ROEMER 129.9"
     },
@@ -3668,7 +3668,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "HARRIS MOSELEY 133.10"
     },
@@ -3678,7 +3678,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "DAVID MOODY 133.2"
     },
@@ -3688,7 +3688,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "HOTEL 133.3"
     },
@@ -3698,7 +3698,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "STEPHEN McKINNEY 133.4"
     },
@@ -3708,7 +3708,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "HOTEL 133.5"
     },
@@ -3718,7 +3718,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "CRAIG KLIESRATH 133.6"
     },
@@ -3728,7 +3728,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "ANDY MARTINDILL 133.7"
     },
@@ -3738,7 +3738,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "KYLE HINGST 133.8"
     },
@@ -3748,7 +3748,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "ALEX BAKER 133.9"
     },
@@ -3798,7 +3798,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "HOTEL 133J"
     },
@@ -3938,7 +3938,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.08 W1.08"
     },
