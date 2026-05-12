@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T22:51:16.525Z",
+  "lastUpdated": "2026-05-12T22:51:18.345Z",
   "totalAssets": 685,
   "assets": [
     {
@@ -716,8 +716,8 @@
       "assetId": "JD4021-LF-003.10-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLpw",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS129",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "MICHAEL ALDRICH 003.10"
@@ -726,8 +726,8 @@
       "assetId": "JD4021-LF-003.11-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLZA",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS126",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "MITCH PURVIS 003.11"
@@ -736,8 +736,8 @@
       "assetId": "JD4021-LF-003.12-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLhw",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS125",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "ARTHUR HINSHAW 003.12"
@@ -746,8 +746,8 @@
       "assetId": "JD4021-LF-003.13-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLjw",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS124",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "CHRIS ANDREWS 003.13"
@@ -756,8 +756,8 @@
       "assetId": "JD4021-LF-003.2-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHL7Q",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "QUALITY AND SCHED",
+      "entityName": "DS135",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "DAVID YOUNG 003.2"
@@ -766,8 +766,8 @@
       "assetId": "JD4021-LF-003.3-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHL4w",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "QUALITY AND SCHED",
+      "entityName": "DS134",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "CHAD MEADOWS 003.3"
@@ -776,8 +776,8 @@
       "assetId": "JD4021-LF-003.4-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHL2w",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "QUALITY AND SCHED",
+      "entityName": "DS133",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "MATTHEW HAGAN 003.4"
@@ -786,8 +786,8 @@
       "assetId": "JD4021-LF-003.5-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLvQ",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS132",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "REESE MOORE 003.5"
@@ -796,8 +796,8 @@
       "assetId": "JD4021-LF-003.6-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLsw",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS131",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "BRIAN HOLMES 003.6"
@@ -806,8 +806,8 @@
       "assetId": "JD4021-LF-003.7-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLxQ",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "QUALITY AND SCHED",
+      "entityName": "DS130",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "DARREN ICE 003.7"
@@ -816,8 +816,8 @@
       "assetId": "JD4021-LF-003.8-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLlw",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS127",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "SAM HOLT 003.8"
@@ -826,8 +826,8 @@
       "assetId": "JD4021-LF-003.9-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLnw",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS128",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "JACOB MARKFORT 003.9"
@@ -986,8 +986,8 @@
       "assetId": "JD4021-LF-006.2-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLWg",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS123",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "EZRA RUSSEL-HOWLAND 006.2"
@@ -996,8 +996,8 @@
       "assetId": "JD4021-LF-006.3-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLSQ",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "APTITUDE",
+      "entityName": "DS122",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "EMORY BURCH 006.3"
@@ -1006,8 +1006,8 @@
       "assetId": "JD4021-LF-006.4-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLLg",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "SELF PREFORM",
+      "entityName": "DS121",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "HOTEL 006.4"
