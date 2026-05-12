@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T22:47:06.365Z",
+  "lastUpdated": "2026-05-12T22:47:08.252Z",
   "totalAssets": 684,
   "assets": [
     {
@@ -28,7 +28,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -38,7 +38,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -48,7 +48,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -58,7 +58,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -68,7 +68,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -78,7 +78,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -88,7 +88,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -98,7 +98,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -108,7 +108,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -358,7 +358,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "TERESA KIMBRO 001.10"
     },
@@ -368,7 +368,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "TIARA CHAMBLISS 001.11"
     },
@@ -378,7 +378,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "HOTEL 001.12"
     },
@@ -388,7 +388,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "JENNIFER YOUNG 001.13"
     },
@@ -428,7 +428,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "KYLE WOOD 001.2"
     },
@@ -438,7 +438,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "LINDSEY VARRA 001.3"
     },
@@ -448,7 +448,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "ANDY GREEN 001.4"
     },
@@ -458,7 +458,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "TYLER ELDER 001.5"
     },
@@ -468,7 +468,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "ROBERT FULLERTON 001.6"
     },
@@ -478,7 +478,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "CARLA BOWRON 001.7"
     },
@@ -488,7 +488,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "BRAD STOLZ 001.8"
     },
@@ -498,7 +498,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "MIKE ADAMS 001.9"
     },
@@ -638,7 +638,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "BRENT STRENGTH 002.2"
     },
@@ -648,7 +648,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "RYAN WILSON 002.3"
     },
@@ -658,7 +658,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "TAMMI HILL 002.4"
     },
@@ -668,7 +668,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "SCOTT BODDEN 002.5"
     },
@@ -678,7 +678,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "HOTEL 002.6"
     },
@@ -688,7 +688,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "ERIK MAGSAMEN 002.7"
     },
@@ -698,7 +698,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "STEVE HAGLUND 002.8"
     },
@@ -708,7 +708,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "STEPHEN OEHRIG 002.9"
     },
@@ -2388,7 +2388,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -2398,7 +2398,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
     },
@@ -3758,7 +3758,7 @@
       "category": "E.Eq",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Electrical Panel",
       "level": "MAIN FLOOR",
       "room": "LOUNGE 008"
     },
@@ -3768,7 +3768,7 @@
       "category": "E.Eq",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Electrical Panel",
       "level": "MAIN FLOOR",
       "room": "LOUNGE 008"
     },
@@ -3778,7 +3778,7 @@
       "category": "E.Eq",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Electrical Panel",
       "level": "MAIN FLOOR",
       "room": "LOUNGE 008"
     },
@@ -3788,7 +3788,7 @@
       "category": "E.Eq",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Electrical Panel",
       "level": "MAIN FLOOR",
       "room": "LOUNGE 008"
     },
@@ -3818,7 +3818,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3828,7 +3828,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3838,7 +3838,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3848,7 +3848,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3858,7 +3858,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3868,7 +3868,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3878,7 +3878,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3888,7 +3888,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3898,7 +3898,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3908,7 +3908,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3918,7 +3918,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -3928,7 +3928,7 @@
       "category": "Q.CD",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
     },
