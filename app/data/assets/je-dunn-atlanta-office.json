@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T17:49:51.033Z",
+  "lastUpdated": "2026-05-12T17:49:54.965Z",
   "totalAssets": 685,
   "assets": [
     {
@@ -2771,14 +2771,14 @@
       "assetId": "JD4021-RF-??-48EPG-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACQIUEdE-1N7KbEa6XAJh8CABfopw",
       "category": "E.Eq",
-      "level": "ROOF",
+      "level": "LOWER FLOOR",
       "room": ""
     },
     {
       "assetId": "JD4021-RF-??-48EPG-SP-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACw_MYEbSdMaa5a-oguw_olABf5Cw",
       "category": "E.Eq",
-      "level": "ROOF",
+      "level": "LOWER FLOOR",
       "room": ""
     },
     {
