@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-12T17:49:49.268Z",
-  "totalAssets": 684,
+  "lastUpdated": "2026-05-12T17:49:51.033Z",
+  "totalAssets": 685,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -2939,49 +2939,56 @@
       "assetId": "PIU-LL-1",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADKCbgbDqlJAYIe8AO8J1JGABxZTw",
       "category": "M.Eq",
-      "level": "LOWER LEVEL",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "PIU-LL-2",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABCMrFrnCZJRoCB4ZKOL5H-AB7OyQ",
+      "category": "M.Eq",
+      "level": "LOWER FLOOR",
       "room": ""
     },
     {
       "assetId": "PIU-LL-3",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABrhYPNeelG_YRmgcn-cfy3AB0Rww",
       "category": "M.Eq",
-      "level": "LOWER LEVEL",
+      "level": "LOWER FLOOR",
       "room": "STORAGE 017"
     },
     {
       "assetId": "PIU-LL-4",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACChl2KddtLpq7g8foIZIrrAB0aqA",
       "category": "M.Eq",
-      "level": "LOWER LEVEL",
+      "level": "LOWER FLOOR",
       "room": "STORAGE 017"
     },
     {
       "assetId": "PIU-LL-5",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADgYANZpL9BqLXrAcefOfwTAB0n1g",
       "category": "M.Eq",
-      "level": "LOWER LEVEL",
+      "level": "LOWER FLOOR",
       "room": "OFFICE 023"
     },
     {
       "assetId": "PIU-LL-6",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADKCbgbDqlJAYIe8AO8J1JGABxaDw",
       "category": "M.Eq",
-      "level": "LOWER LEVEL",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "PIU-LL-7",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABrhYPNeelG_YRmgcn-cfy3AB0Hkw",
       "category": "M.Eq",
-      "level": "LOWER LEVEL",
+      "level": "LOWER FLOOR",
       "room": "OFFICE 023"
     },
     {
       "assetId": "PIU-LL-8",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABmWd4v_N1H57Do-vLLCd2pABz2PQ",
       "category": "M.Eq",
-      "level": "LOWER LEVEL",
+      "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
     {
@@ -4605,14 +4612,14 @@
       "assetId": "VAV-LL-2",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADril6Q3IFKK5FG5asN1J2CABzh0A",
       "category": "M.Eq",
-      "level": "LOWER LEVEL",
+      "level": "LOWER FLOOR",
       "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "VAV-LL-3",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACUL72mMtdM4b0ZTHQUBJUhABzJYQ",
       "category": "M.Eq",
-      "level": "LOWER LEVEL",
+      "level": "LOWER FLOOR",
       "room": "HOTEL 113.11"
     },
     {
