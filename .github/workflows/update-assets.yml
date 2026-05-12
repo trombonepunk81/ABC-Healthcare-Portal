@@ -67,9 +67,16 @@ jobs:
                 const assetMap = new Map();
                 (existing.assets || []).forEach(a => assetMap.set(a.assetId, a));
                 (incoming.assets || []).forEach(a => assetMap.set(a.assetId, a));
-                const merged = Array.from(assetMap.values())
+                
+                // Deduplicate by assetUrl - if two entries point to the same Tandem element,
+                // keep the one from incoming (most recent), dropping stale renamed entries
+                const urlMap = new Map();
+                for (const asset of assetMap.values()) {
+                  urlMap.set(asset.assetUrl, asset);
+                }
+                
+                const merged = Array.from(urlMap.values())
                   .sort((a, b) => a.assetId.localeCompare(b.assetId));
-
                 const output = {
                   lastUpdated: new Date().toISOString(),
                   totalAssets: merged.length,
