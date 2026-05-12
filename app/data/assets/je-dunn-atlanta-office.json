@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T22:51:02.475Z",
+  "lastUpdated": "2026-05-12T22:51:05.210Z",
   "totalAssets": 685,
   "assets": [
     {
@@ -16,8 +16,8 @@
       "assetId": "JD4021-LF-??-26ELE-CT-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGHeQ",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "ELECTRICAL",
+      "entityName": "CT01",
       "generalName": "Current Transformer",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
@@ -837,7 +837,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAsbSlRM7NGz5KBl09raUECAAnLAA",
       "category": "E.Eq",
       "department": "",
-      "entityName": "",
+      "entityName": "LDP",
       "generalName": "Electrical Panel",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
@@ -847,7 +847,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAsbSlRM7NGz5KBl09raUECAAnLVQ",
       "category": "E.Eq",
       "department": "",
-      "entityName": "",
+      "entityName": "HM1",
       "generalName": "Electrical Panel",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
@@ -857,7 +857,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAsbSlRM7NGz5KBl09raUECAAnMCw",
       "category": "E.Eq",
       "department": "",
-      "entityName": "",
+      "entityName": "LCP-B",
       "generalName": "Electrical Panel",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
@@ -867,7 +867,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAsbSlRM7NGz5KBl09raUECAAnMMQ",
       "category": "E.Eq",
       "department": "",
-      "entityName": "",
+      "entityName": "HL1",
       "generalName": "Electrical Panel",
       "level": "LOWER FLOOR",
       "room": "ELECTRICAL 005"
@@ -2996,8 +2996,8 @@
       "assetId": "JD4021-MF-106.10-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABGz_g",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "MARKETING",
+      "entityName": "DS96",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "ALYSSA CHAPLIN 106.10"
@@ -3006,8 +3006,8 @@
       "assetId": "JD4021-MF-106.11-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABGz-Q",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "MARKETING",
+      "entityName": "DS95",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "HOTEL 106.11"
@@ -3016,8 +3016,8 @@
       "assetId": "JD4021-MF-106.12-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABGz9A",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "MARKETING",
+      "entityName": "DS94",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "VICKI SARRIS 106.12"
@@ -3026,8 +3026,8 @@
       "assetId": "JD4021-MF-106.13-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABGz7w",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "Precon",
+      "entityName": "DS93",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "CHISTINE KADI 106.13"
@@ -3036,8 +3036,8 @@
       "assetId": "JD4021-MF-106.2-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABG0Ww",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "EXECUTIVE",
+      "entityName": "DS102",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "DAN KAUFMAN 106.2"
@@ -3046,8 +3046,8 @@
       "assetId": "JD4021-MF-106.3-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABG0Vg",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "EXECUTIVE",
+      "entityName": "DS103",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "BRIA WEISS 106.3"
@@ -3056,8 +3056,8 @@
       "assetId": "JD4021-MF-106.4-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABG0UQ",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "EXECUTIVE",
+      "entityName": "DS104",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "PAMELA JOHNSON 106.4"
@@ -3066,8 +3066,8 @@
       "assetId": "JD4021-MF-106.5-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABG0TA",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "EXECUTIVE",
+      "entityName": "DS99",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "JOSH ARNOLD 106.5"
@@ -3076,8 +3076,8 @@
       "assetId": "JD4021-MF-106.6-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABG0Rw",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "EXECUTIVE",
+      "entityName": "DS100",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "JAKE BOWRON 106.6"
@@ -3086,8 +3086,8 @@
       "assetId": "JD4021-MF-106.7-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABG0Qg",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "EXECUTIVE",
+      "entityName": "DS101",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "MIKE BARTLETT 106.7"
@@ -3096,8 +3096,8 @@
       "assetId": "JD4021-MF-106.8-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABG0CA",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "EXECUTIVE",
+      "entityName": "DS98",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "CINDY ROBERTS 106.8"
@@ -3106,8 +3106,8 @@
       "assetId": "JD4021-MF-106.9-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABG0Aw",
       "category": "Q.CD",
-      "department": "",
-      "entityName": "",
+      "department": "MARKETING",
+      "entityName": "DS97",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "AMY BLANCO 106.9"
@@ -3967,7 +3967,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAVQ8H2VKdPdKCcYXHLCU1BABgJgA",
       "category": "E.Eq",
       "department": "",
-      "entityName": "",
+      "entityName": "SP-C",
       "generalName": "Solar Panel",
       "level": "LOWER FLOOR",
       "room": ""
