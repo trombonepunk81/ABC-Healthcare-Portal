@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-12T14:47:48.296Z",
-  "totalAssets": 679,
+  "lastUpdated": "2026-05-12T14:47:50.720Z",
+  "totalAssets": 680,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -641,6 +641,13 @@
     },
     {
       "assetId": "JD4021-LF-005-26ELE-SW-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABhwf_w6bJKJKrDVPudz46xAAoxAQ",
+      "category": "E.Eq",
+      "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-SW-01-TEST",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABhwf_w6bJKJKrDVPudz46xAAoxAQ",
       "category": "E.Eq",
       "level": "kzxKBpO4EdOA-ADAT478MgAAAB4",
