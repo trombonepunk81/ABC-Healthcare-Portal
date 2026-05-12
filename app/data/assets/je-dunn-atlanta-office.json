@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T19:41:43.907Z",
+  "lastUpdated": "2026-05-12T19:41:46.564Z",
   "totalAssets": 684,
   "assets": [
     {
@@ -3570,6 +3570,9 @@
       "assetId": "RM.003.05",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUqg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -3577,6 +3580,9 @@
       "assetId": "RM.003.06",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUrA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -3619,6 +3625,9 @@
       "assetId": "RM.003.3",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUpg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -3626,6 +3635,9 @@
       "assetId": "RM.003.4",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUqA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -3633,6 +3645,9 @@
       "assetId": "RM.003.7",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUrg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
