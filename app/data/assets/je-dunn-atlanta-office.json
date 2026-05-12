@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-12T14:48:14.539Z",
-  "totalAssets": 680,
+  "lastUpdated": "2026-05-12T14:48:22.222Z",
+  "totalAssets": 684,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -2779,6 +2779,34 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACw_MYEbSdMaa5a-oguw_olABf5Cw",
       "category": "E.Eq",
       "level": "v81mtnpFSD66St9c_UfPrQAKqpA",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL-26ELE-PL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheUQ",
+      "category": "E.LF",
+      "level": "19j395tRT36sSlB6SmTPmwAYQNU",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL-26ELE-PL-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheYQ",
+      "category": "E.LF",
+      "level": "19j395tRT36sSlB6SmTPmwAYQNU",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL-26ELE-PL-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheuQ",
+      "category": "E.LF",
+      "level": "19j395tRT36sSlB6SmTPmwAYQNU",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL-26ELE-PL-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABhdiQ",
+      "category": "E.LF",
+      "level": "19j395tRT36sSlB6SmTPmwAYQNU",
       "room": ""
     },
     {
