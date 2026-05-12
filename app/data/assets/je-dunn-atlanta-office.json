@@ -1,11 +1,14 @@
 {
-  "lastUpdated": "2026-05-12T19:41:58.077Z",
+  "lastUpdated": "2026-05-12T19:42:00.335Z",
   "totalAssets": 684,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACTVY0xJb5B0YBnrQBytww9ACSXOg",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -3775,6 +3778,9 @@
       "assetId": "RM.001.14",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADO_Evdmn1Arps0OpgqmENdACSp7Q",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -3782,6 +3788,9 @@
       "assetId": "RM.001.15",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADO_Evdmn1Arps0OpgqmENdACSp8A",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -3789,6 +3798,9 @@
       "assetId": "RM.001.16",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADO_Evdmn1Arps0OpgqmENdACSp8w",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -4696,6 +4708,9 @@
       "assetId": "RM.104",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACKYHq5NV5IFbWsEhWGTOJxACKCeA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -4703,6 +4718,9 @@
       "assetId": "RM.105",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACKYHq5NV5IFbWsEhWGTOJxACKCeg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5151,6 +5169,9 @@
       "assetId": "RM.116",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACKYHq5NV5IFbWsEhWGTOJxACKCgA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5158,6 +5179,9 @@
       "assetId": "RM.117",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACKYHq5NV5IFbWsEhWGTOJxACKCfg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5193,6 +5217,9 @@
       "assetId": "RM.122,10",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3-g",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5210,6 +5237,9 @@
       "assetId": "RM.122.11",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3_A",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5217,6 +5247,9 @@
       "assetId": "RM.122.12",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL39g",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5224,6 +5257,9 @@
       "assetId": "RM.122.13",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3-A",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5291,6 +5327,9 @@
       "assetId": "RM.122.7",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL4Ag",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5298,6 +5337,9 @@
       "assetId": "RM.122.8",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3_g",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5305,6 +5347,9 @@
       "assetId": "RM.122.9",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL4AA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5329,6 +5374,9 @@
       "assetId": "RM.126",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACKYHq5NV5IFbWsEhWGTOJxACKCbQ",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5353,6 +5401,9 @@
       "assetId": "RM.129.1",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3nQ",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5360,6 +5411,9 @@
       "assetId": "RM.129.10",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3VA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5367,6 +5421,9 @@
       "assetId": "RM.129.12",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3UA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5374,6 +5431,9 @@
       "assetId": "RM.129.13",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3Tg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5381,6 +5441,9 @@
       "assetId": "RM.129.14",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3TA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5388,6 +5451,9 @@
       "assetId": "RM.129.2",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL38g",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5395,6 +5461,9 @@
       "assetId": "RM.129.3",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3ow",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5402,6 +5471,9 @@
       "assetId": "RM.129.4",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3oQ",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5409,6 +5481,9 @@
       "assetId": "RM.129.5",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3nw",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5416,6 +5491,9 @@
       "assetId": "RM.129.6",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3WA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5423,6 +5501,9 @@
       "assetId": "RM.129.7",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3Wg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5430,6 +5511,9 @@
       "assetId": "RM.129.8",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3XA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5437,6 +5521,9 @@
       "assetId": "RM.129.9",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3Vg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5444,6 +5531,9 @@
       "assetId": "RM.131",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACKYHq5NV5IFbWsEhWGTOJxACKCkg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5451,6 +5541,9 @@
       "assetId": "RM.132",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACKYHq5NV5IFbWsEhWGTOJxACKClA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5468,6 +5561,9 @@
       "assetId": "RM.133.10",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3Rg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5475,6 +5571,9 @@
       "assetId": "RM.133.2",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACktzxk4M5ODIwQlYncD8EwACKt5g",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5482,6 +5581,9 @@
       "assetId": "RM.133.3",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACktzxk4M5ODIwQlYncD8EwACKt5A",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5489,6 +5591,9 @@
       "assetId": "RM.133.4",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACktzxk4M5ODIwQlYncD8EwACKt2g",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5496,6 +5601,9 @@
       "assetId": "RM.133.5",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACktzxk4M5ODIwQlYncD8EwACKt3g",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5503,6 +5611,9 @@
       "assetId": "RM.133.6",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACktzxk4M5ODIwQlYncD8EwACKt4A",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5510,6 +5621,9 @@
       "assetId": "RM.133.7",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACktzxk4M5ODIwQlYncD8EwACKt4g",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5517,6 +5631,9 @@
       "assetId": "RM.133.8",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3Sg",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5524,6 +5641,9 @@
       "assetId": "RM.133.9",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3SA",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5545,6 +5665,9 @@
       "assetId": "RM.133J",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAADWEJJk6BpJGLhzXUpAdid_ACL3Ug",
       "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5824,6 +5947,9 @@
       "assetId": "WD.004.01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACPgRuMEhhPOZO8ifnUaPY2ABJ_Vw",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -5831,6 +5957,9 @@
       "assetId": "WD.004.02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACPgRuMEhhPOZO8ifnUaPY2ABJ_cA",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -5855,6 +5984,9 @@
       "assetId": "WD.005A.01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACW5imK-m5PRLdVobtt7d0CABv7Fw",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -5862,6 +5994,9 @@
       "assetId": "WD.007.01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACPgRuMEhhPOZO8ifnUaPY2ABJ_WQ",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -5869,6 +6004,9 @@
       "assetId": "WD.007.02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACPgRuMEhhPOZO8ifnUaPY2ABJ_gA",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -5876,6 +6014,9 @@
       "assetId": "WD.007.03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACPgRuMEhhPOZO8ifnUaPY2ABJ_gQ",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -5883,6 +6024,9 @@
       "assetId": "WD.007.04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACPgRuMEhhPOZO8ifnUaPY2ABJ_fQ",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -5982,6 +6126,9 @@
       "assetId": "WD.020.01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACU52nftbtGqZWQW5ruX0T0ABT4EQ",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -5989,6 +6136,9 @@
       "assetId": "WD.030.01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAACW5imK-m5PRLdVobtt7d0CABv7bw",
       "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
     },
