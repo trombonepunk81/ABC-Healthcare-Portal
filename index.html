@@ -10,12 +10,9 @@
   
   <style>
     :root {
-      /* Aptitude Brand Colors */
       --aptitude-navy: #0a1628;
       --aptitude-cyan: #00d4ff;
       --aptitude-cyan-dark: #0098b8;
-      
-      /* Grayscale */
       --gray-900: #111827;
       --gray-800: #1f2937;
       --gray-700: #374151;
@@ -27,8 +24,6 @@
       --gray-100: #f3f4f6;
       --gray-50: #f9fafb;
       --white: #ffffff;
-      
-      /* Shadows */
       --shadow-soft: 0 4px 24px -4px rgba(10, 22, 40, 0.12);
       --shadow-medium: 0 8px 32px -8px rgba(10, 22, 40, 0.2);
       --shadow-strong: 0 16px 48px -12px rgba(10, 22, 40, 0.25);
@@ -50,7 +45,6 @@
       position: relative;
       overflow: hidden;
     }
-    
     .header::before {
       content: '';
       position: absolute;
@@ -58,7 +52,6 @@
       background: radial-gradient(ellipse 80% 50% at 20% 40%, rgba(0, 212, 255, 0.15) 0%, transparent 50%),
                   radial-gradient(ellipse 60% 40% at 80% 60%, rgba(0, 212, 255, 0.1) 0%, transparent 50%);
     }
-    
     .header-content {
       max-width: 800px;
       margin: 0 auto;
@@ -66,7 +59,6 @@
       position: relative;
       z-index: 1;
     }
-    
     .logo-badge {
       display: inline-flex;
       align-items: center;
@@ -78,12 +70,7 @@
       margin-bottom: 1.5rem;
       border: 1px solid rgba(0, 212, 255, 0.2);
     }
-    
-    .logo-badge svg {
-      width: 20px;
-      height: 20px;
-    }
-    
+    .logo-badge svg { width: 20px; height: 20px; }
     .logo-badge span {
       font-size: 0.75rem;
       font-weight: 600;
@@ -91,7 +78,6 @@
       text-transform: uppercase;
       color: var(--aptitude-cyan);
     }
-    
     h1 {
       font-family: 'Instrument Serif', serif;
       font-size: clamp(2.5rem, 6vw, 4rem);
@@ -100,12 +86,7 @@
       line-height: 1.1;
       margin-bottom: 0.75rem;
     }
-    
-    .subtitle {
-      font-size: 1.1rem;
-      color: var(--gray-400);
-      font-weight: 400;
-    }
+    .subtitle { font-size: 1.1rem; color: var(--gray-400); font-weight: 400; }
 
     .main-content {
       max-width: 600px;
@@ -114,40 +95,23 @@
       position: relative;
       z-index: 2;
     }
-    
-    .view {
-      display: none;
-      animation: fadeIn 0.4s ease;
-    }
-    
-    .view.active {
-      display: block;
-    }
-    
+    .view { display: none; animation: fadeIn 0.4s ease; }
+    .view.active { display: block; }
     @keyframes fadeIn {
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
     }
-    
-    .card {
-      background: var(--white);
-      border-radius: 20px;
-      box-shadow: var(--shadow-strong);
-      overflow: hidden;
-    }
-    
-    .card-body {
-      padding: 2rem;
-    }
+    .card { background: var(--white); border-radius: 20px; box-shadow: var(--shadow-strong); overflow: hidden; }
+    .card-body { padding: 2rem; }
 
+    /* Asset Banner */
     .asset-banner {
       background: linear-gradient(135deg, var(--aptitude-navy) 0%, #0d1f38 100%);
       border-radius: 14px;
       padding: 1.25rem 1.5rem;
-      margin-bottom: 1.5rem;
+      margin-bottom: 1rem;
       color: var(--white);
     }
-    
     .asset-banner-label {
       font-size: 0.7rem;
       font-weight: 600;
@@ -156,13 +120,7 @@
       color: var(--aptitude-cyan);
       margin-bottom: 0.5rem;
     }
-    
-    .asset-banner-id {
-      font-size: 1.35rem;
-      font-weight: 600;
-      letter-spacing: 0.02em;
-    }
-    
+    .asset-banner-id { font-size: 1.35rem; font-weight: 600; letter-spacing: 0.02em; }
     .asset-banner-link {
       font-size: 0.75rem;
       color: var(--gray-400);
@@ -170,6 +128,30 @@
       word-break: break-all;
       display: block;
     }
+
+    /* Asset Info Grid */
+    .asset-info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.625rem;
+      margin-bottom: 1.5rem;
+    }
+    .asset-info-item {
+      background: var(--gray-50);
+      border: 1px solid var(--gray-200);
+      border-radius: 10px;
+      padding: 0.75rem 1rem;
+    }
+    .asset-info-label {
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gray-500);
+      margin-bottom: 0.3rem;
+    }
+    .asset-info-value { font-size: 0.9rem; font-weight: 500; color: var(--gray-800); }
+    .asset-info-value.empty { color: var(--gray-400); font-style: italic; font-weight: 400; }
 
     .section-title {
       font-size: 0.75rem;
@@ -180,6 +162,7 @@
       margin-bottom: 1rem;
     }
 
+    /* Action Buttons */
     .action-btn {
       display: flex;
       align-items: center;
@@ -199,11 +182,7 @@
       overflow: hidden;
       text-decoration: none;
     }
-    
-    .action-btn:last-child {
-      margin-bottom: 0;
-    }
-    
+    .action-btn:last-child { margin-bottom: 0; }
     .action-btn::before {
       content: '';
       position: absolute;
@@ -212,178 +191,68 @@
       opacity: 0;
       transition: opacity 0.25s ease;
     }
-    
-    .action-btn:hover::before {
-      opacity: 1;
-    }
-    
-    .action-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: var(--shadow-medium);
-    }
-    
-    .action-btn:active {
-      transform: translateY(0);
-    }
-
+    .action-btn:hover::before { opacity: 1; }
+    .action-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-medium); }
+    .action-btn:active { transform: translateY(0); }
     .btn-icon {
-      width: 44px;
-      height: 44px;
+      width: 44px; height: 44px;
       border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: flex; align-items: center; justify-content: center;
       flex-shrink: 0;
     }
-    
-    .btn-icon svg {
-      width: 22px;
-      height: 22px;
-    }
-    
-    .btn-content {
-      flex: 1;
-    }
-    
-    .btn-title {
-      display: block;
-      font-weight: 600;
-      margin-bottom: 0.25rem;
-    }
-    
-    .btn-desc {
-      display: block;
-      font-size: 0.8rem;
-      opacity: 0.8;
-      font-weight: 400;
-    }
-    
+    .btn-icon svg { width: 22px; height: 22px; }
+    .btn-content { flex: 1; }
+    .btn-title { display: block; font-weight: 600; margin-bottom: 0.25rem; }
+    .btn-desc { display: block; font-size: 0.8rem; opacity: 0.8; font-weight: 400; }
     .btn-arrow {
-      width: 24px;
-      height: 24px;
+      width: 24px; height: 24px;
       opacity: 0.6;
       transition: transform 0.25s ease, opacity 0.25s ease;
     }
-    
-    .action-btn:hover .btn-arrow {
-      transform: translateX(4px);
-      opacity: 1;
-    }
+    .action-btn:hover .btn-arrow { transform: translateX(4px); opacity: 1; }
 
-    /* Aptitude Cyan Primary Button */
     .btn-maintenance {
       background: linear-gradient(135deg, var(--aptitude-cyan) 0%, #00b8d4 100%);
       color: var(--aptitude-navy);
     }
-    
-    .btn-maintenance .btn-icon {
-      background: rgba(10, 22, 40, 0.15);
-    }
-    
-    /* Navy Secondary Button */
+    .btn-maintenance .btn-icon { background: rgba(10, 22, 40, 0.15); }
     .btn-portal {
       background: linear-gradient(135deg, var(--aptitude-navy) 0%, #0d1f38 100%);
       color: var(--white);
     }
-    
-    .btn-portal .btn-icon {
-      background: rgba(0, 212, 255, 0.2);
-    }
-    
-    /* Gray Tertiary Button */
+    .btn-portal .btn-icon { background: rgba(0, 212, 255, 0.2); }
     .btn-service {
       background: linear-gradient(135deg, var(--gray-700) 0%, var(--gray-600) 100%);
       color: var(--white);
     }
-    
-    .btn-service .btn-icon {
-      background: rgba(255, 255, 255, 0.15);
-    }
+    .btn-service .btn-icon { background: rgba(255, 255, 255, 0.15); }
 
-    .no-asset-message {
-      text-align: center;
-      padding: 2rem 1rem;
-    }
-    
+    /* No Asset View */
+    .no-asset-message { text-align: center; padding: 2rem 1rem; }
     .no-asset-icon {
-      width: 64px;
-      height: 64px;
+      width: 64px; height: 64px;
       background: var(--gray-100);
       border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: flex; align-items: center; justify-content: center;
       margin: 0 auto 1.25rem;
     }
-    
-    .no-asset-icon svg {
-      width: 32px;
-      height: 32px;
-      color: var(--gray-400);
-    }
-    
-    .no-asset-title {
-      font-size: 1.25rem;
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-      color: var(--gray-900);
-    }
-    
-    .no-asset-desc {
-      color: var(--gray-600);
-      font-size: 0.95rem;
-      line-height: 1.5;
-      margin-bottom: 1.5rem;
-    }
-    
-    .no-asset-steps {
-      background: var(--gray-50);
-      border-radius: 12px;
-      padding: 1.25rem;
-      text-align: left;
-      margin-bottom: 1.5rem;
-    }
-    
-    .no-asset-steps-title {
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      color: var(--gray-500);
-      margin-bottom: 0.75rem;
-    }
-    
-    .step {
-      display: flex;
-      align-items: flex-start;
-      gap: 0.75rem;
-      margin-bottom: 0.75rem;
-    }
-    
-    .step:last-child {
-      margin-bottom: 0;
-    }
-    
+    .no-asset-icon svg { width: 32px; height: 32px; color: var(--gray-400); }
+    .no-asset-title { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--gray-900); }
+    .no-asset-desc { color: var(--gray-600); font-size: 0.95rem; line-height: 1.5; margin-bottom: 1.5rem; }
+    .no-asset-steps { background: var(--gray-50); border-radius: 12px; padding: 1.25rem; text-align: left; margin-bottom: 1.5rem; }
+    .no-asset-steps-title { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; color: var(--gray-500); margin-bottom: 0.75rem; }
+    .step { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.75rem; }
+    .step:last-child { margin-bottom: 0; }
     .step-number {
-      width: 24px;
-      height: 24px;
+      width: 24px; height: 24px;
       background: var(--aptitude-cyan);
       color: var(--aptitude-navy);
       border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 0.75rem;
-      font-weight: 700;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; font-weight: 700;
       flex-shrink: 0;
     }
-    
-    .step-text {
-      font-size: 0.9rem;
-      color: var(--gray-700);
-      line-height: 1.4;
-      padding-top: 2px;
-    }
+    .step-text { font-size: 0.9rem; color: var(--gray-700); line-height: 1.4; padding-top: 2px; }
   </style>
 </head>
 
@@ -391,9 +260,7 @@
   <!-- AUTH PLACEHOLDER MODAL -->
   <div id="auth-overlay" style="position:fixed;inset:0;background:rgba(10,22,40,0.75);z-index:9999;display:flex;align-items:center;justify-content:center;padding:1rem;backdrop-filter:blur(4px);">
     <div style="background:#fff;border-radius:16px;padding:2rem 2rem 1.75rem;max-width:360px;width:100%;position:relative;overflow:hidden;">
-      
       <div style="position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#00d4ff,#0098b8);"></div>
-      
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:1.25rem;">
         <div style="width:36px;height:36px;border-radius:8px;background:#0a1628;display:flex;align-items:center;justify-content:center;flex-shrink:0;">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#00d4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
@@ -403,21 +270,17 @@
           <p style="font-size:15px;font-weight:600;color:#0a1628;margin:0;">Authentication Required</p>
         </div>
       </div>
-      
       <div style="background:#f5f7fa;border-radius:10px;padding:1rem 1.1rem;margin-bottom:1.25rem;border-left:3px solid #00d4ff;">
         <p style="font-size:13.5px;color:#374151;line-height:1.6;margin:0;">This asset portal will be protected by an authentication layer in production. Only authorized building staff will have access to asset information and actions.</p>
       </div>
-      
       <p style="font-size:12px;color:#9ca3af;line-height:1.5;margin-bottom:1.25rem;text-align:center;">You are viewing this in <strong style="color:#6b7280;">development mode</strong> — click below to proceed.</p>
-      
       <button onclick="document.getElementById('auth-overlay').style.display='none';" style="width:100%;padding:0.75rem;background:#0a1628;color:#fff;border:none;border-radius:10px;font-size:14px;font-weight:600;cursor:pointer;">
         Acknowledge &amp; Continue
       </button>
-      
       <p style="font-size:11px;color:#d1d5db;text-align:center;margin-top:0.75rem;margin-bottom:0;">Production authentication via Firebase Auth</p>
     </div>
   </div>
-  <!-- END AUTH PLACEHOLDER -->
+
   <header class="header">
     <div class="header-content">
       <div class="logo-badge">
@@ -432,14 +295,36 @@
   </header>
 
   <main class="main-content">
+
     <!-- View 1: Asset Loaded -->
     <div id="options-view" class="view">
       <div class="card">
         <div class="card-body">
+
           <div class="asset-banner">
             <div class="asset-banner-label">Asset Identified</div>
             <div class="asset-banner-id" id="display-asset-id">—</div>
             <span class="asset-banner-link" id="display-tandem-link">—</span>
+          </div>
+
+          <!-- NEW: Asset info grid -->
+          <div class="asset-info-grid" id="asset-info-grid">
+            <div class="asset-info-item">
+              <div class="asset-info-label">General Name</div>
+              <div class="asset-info-value" id="info-general-name">—</div>
+            </div>
+            <div class="asset-info-item">
+              <div class="asset-info-label">Department</div>
+              <div class="asset-info-value" id="info-department">—</div>
+            </div>
+            <div class="asset-info-item">
+              <div class="asset-info-label">Entity Name</div>
+              <div class="asset-info-value" id="info-entity-name">—</div>
+            </div>
+            <div class="asset-info-item">
+              <div class="asset-info-label">Location</div>
+              <div class="asset-info-value" id="info-location">—</div>
+            </div>
           </div>
 
           <div class="section-title">What would you like to do?</div>
@@ -489,6 +374,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
             </svg>
           </a>
+
         </div>
       </div>
     </div>
@@ -505,27 +391,13 @@
             </div>
             <h2 class="no-asset-title">Scan an Asset QR Code</h2>
             <p class="no-asset-desc">Use your camera to scan a QR code attached to a building asset to access maintenance options.</p>
-            
             <div class="no-asset-steps">
               <div class="no-asset-steps-title">How to Use</div>
-              <div class="step">
-                <div class="step-number">1</div>
-                <div class="step-text">Find a QR code on any building asset (HVAC, elevator, etc.)</div>
-              </div>
-              <div class="step">
-                <div class="step-number">2</div>
-                <div class="step-text">Open your camera app and point it at the QR code</div>
-              </div>
-              <div class="step">
-                <div class="step-number">3</div>
-                <div class="step-text">Tap the notification to open the link</div>
-              </div>
-              <div class="step">
-                <div class="step-number">4</div>
-                <div class="step-text">Choose your action: Report issue, view in Tandem, or access CMMS</div>
-              </div>
+              <div class="step"><div class="step-number">1</div><div class="step-text">Find a QR code on any building asset (HVAC, elevator, etc.)</div></div>
+              <div class="step"><div class="step-number">2</div><div class="step-text">Open your camera app and point it at the QR code</div></div>
+              <div class="step"><div class="step-number">3</div><div class="step-text">Tap the notification to open the link</div></div>
+              <div class="step"><div class="step-number">4</div><div class="step-text">Choose your action: Report issue, view in Tandem, or access CMMS</div></div>
             </div>
-
             <a href="/ABC-Healthcare-Portal/app/" class="action-btn btn-portal">
               <div class="btn-icon">
                 <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -547,29 +419,55 @@
   </main>
 
   <script>
-    // Get URL parameters
-    const urlParams = new URLSearchParams(window.location.search);
-    const assetId = urlParams.get('asset');
-    const tandemUrl = urlParams.get('tandem');
+    const urlParams   = new URLSearchParams(window.location.search);
+    const assetId     = urlParams.get('asset');
+    const tandemUrl   = urlParams.get('tandem');
+    const generalName = urlParams.get('generalName') || '';
+    const department  = urlParams.get('department')  || '';
+    const entityName  = urlParams.get('entityName')  || '';
+    const level       = urlParams.get('level')       || '';
+    const room        = urlParams.get('room')        || '';
+
+    function setInfoValue(id, value) {
+      var el = document.getElementById(id);
+      if (value && value.trim()) {
+        el.textContent = value;
+        el.classList.remove('empty');
+      } else {
+        el.textContent = '—';
+        el.classList.add('empty');
+      }
+    }
 
     if (assetId) {
-      // Show asset options view
       document.getElementById('options-view').classList.add('active');
       document.getElementById('display-asset-id').textContent = assetId;
-      
+
       if (tandemUrl) {
         document.getElementById('display-tandem-link').textContent = decodeURIComponent(tandemUrl);
-        
-        // Set button URLs
         document.getElementById('btn-portal').href = decodeURIComponent(tandemUrl);
-        
+
         const maintenanceEmail = `mailto:derek.seitz@aptitudeii.com?subject=Issue Report: Asset ${assetId}&body=Asset ID: ${assetId}%0D%0ATandem Link: ${tandemUrl}%0D%0A%0D%0APlease describe the issue:%0D%0A`;
         document.getElementById('btn-maintenance').href = maintenanceEmail;
-        
-        document.getElementById('btn-service').href = `https://www.ibm.com/products/maximo`;
+        document.getElementById('btn-service').href = 'https://www.ibm.com/products/maximo';
       }
+
+      // Populate info fields
+      setInfoValue('info-general-name', generalName);
+      setInfoValue('info-department', department);
+      setInfoValue('info-entity-name', entityName);
+
+      // Combine level + room into a single Location field
+      var locationParts = [level, room].filter(function(v) { return v && v.trim(); });
+      setInfoValue('info-location', locationParts.join(' · '));
+
+      // Hide the grid entirely if none of the fields have data
+      var hasInfo = generalName || department || entityName || level || room;
+      if (!hasInfo) {
+        document.getElementById('asset-info-grid').style.display = 'none';
+      }
+
     } else {
-      // Show no-asset view
       document.getElementById('no-asset-view').classList.add('active');
     }
   </script>
