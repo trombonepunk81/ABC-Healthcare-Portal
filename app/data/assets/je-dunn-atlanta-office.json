@@ -1,7 +1,97 @@
 {
-  "lastUpdated": "2026-05-13T15:55:06.333Z",
-  "totalAssets": 430,
+  "lastUpdated": "2026-05-13T15:55:08.646Z",
+  "totalAssets": 480,
   "assets": [
+    {
+      "assetId": "JD4021-LF-??-26ELE-CT-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJYw",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT02",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-CT-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJZg",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT03",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-CT-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJaQ",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT04",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-CT-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJbA",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT07",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-CT-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJbw",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT08",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-CT-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJcg",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT09",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-CT-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJdQ",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT10",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-CT-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJeA",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT11",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-??-26ELE-CT-10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJew",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT12",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
     {
       "assetId": "JD4021-LF-??-26ELE-LP-13",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2Ksw",
@@ -123,6 +213,46 @@
       "room": "HIAWATHA HILL 026.11"
     },
     {
+      "assetId": "JD4021-LF-001.10-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF20Q",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS09",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "TERESA KIMBRO 001.10"
+    },
+    {
+      "assetId": "JD4021-LF-001.11-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF24A",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS10",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "TIARA CHAMBLISS 001.11"
+    },
+    {
+      "assetId": "JD4021-LF-001.12-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF23g",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS11",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "HOTEL 001.12"
+    },
+    {
+      "assetId": "JD4021-LF-001.13-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF23w",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS12",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "JENNIFER YOUNG 001.13"
+    },
+    {
       "assetId": "JD4021-LF-001.14-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADsA5P-AgJD64J2lc4BL-FiABJf1g",
       "category": "Q.CD",
@@ -151,6 +281,86 @@
       "generalName": "",
       "level": "LOWER FLOOR",
       "room": "JASON SPELLER 001.16"
+    },
+    {
+      "assetId": "JD4021-LF-001.2-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2hg",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS01",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "KYLE WOOD 001.2"
+    },
+    {
+      "assetId": "JD4021-LF-001.3-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2Ug",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS02",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "LINDSEY VARRA 001.3"
+    },
+    {
+      "assetId": "JD4021-LF-001.4-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2mQ",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS03",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "ANDY GREEN 001.4"
+    },
+    {
+      "assetId": "JD4021-LF-001.5-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2xA",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS04",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "TYLER ELDER 001.5"
+    },
+    {
+      "assetId": "JD4021-LF-001.6-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2wQ",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS05",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "ROBERT FULLERTON 001.6"
+    },
+    {
+      "assetId": "JD4021-LF-001.7-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2wg",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS06",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "CARLA BOWRON 001.7"
+    },
+    {
+      "assetId": "JD4021-LF-001.8-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF20A",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS07",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "BRAD STOLZ 001.8"
+    },
+    {
+      "assetId": "JD4021-LF-001.9-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2zw",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "DS08",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "MIKE ADAMS 001.9"
     },
     {
       "assetId": "JD4021-LF-001A-26ELE-SL-01",
@@ -191,6 +401,86 @@
       "generalName": "Air Quality Sensor",
       "level": "LOWER FLOOR",
       "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.2-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF28A",
+      "category": "Q.CD",
+      "department": "Industrial",
+      "entityName": "DS13",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "BRENT STRENGTH 002.2"
+    },
+    {
+      "assetId": "JD4021-LF-002.3-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF27w",
+      "category": "Q.CD",
+      "department": "Industrial",
+      "entityName": "DS14",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "RYAN WILSON 002.3"
+    },
+    {
+      "assetId": "JD4021-LF-002.4-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF28Q",
+      "category": "Q.CD",
+      "department": "Industrial",
+      "entityName": "DS15",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "TAMMI HILL 002.4"
+    },
+    {
+      "assetId": "JD4021-LF-002.5-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2_w",
+      "category": "Q.CD",
+      "department": "Industrial",
+      "entityName": "DS16",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "SCOTT BODDEN 002.5"
+    },
+    {
+      "assetId": "JD4021-LF-002.6-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF2_g",
+      "category": "Q.CD",
+      "department": "Industrial",
+      "entityName": "DS17",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "HOTEL 002.6"
+    },
+    {
+      "assetId": "JD4021-LF-002.7-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3AA",
+      "category": "Q.CD",
+      "department": "Industrial",
+      "entityName": "DS18",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "ERIK MAGSAMEN 002.7"
+    },
+    {
+      "assetId": "JD4021-LF-002.8-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3Dg",
+      "category": "Q.CD",
+      "department": "Industrial",
+      "entityName": "DS19",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "STEVE HAGLUND 002.8"
+    },
+    {
+      "assetId": "JD4021-LF-002.9-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA7A890-LNBn5jeRKTD0dT0ABF3DQ",
+      "category": "Q.CD",
+      "department": "Industrial",
+      "entityName": "DS20",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": "STEPHEN OEHRIG 002.9"
     },
     {
       "assetId": "JD4021-LF-005-26ELE-EP-05",
@@ -563,6 +853,36 @@
       "room": "OFFICE 023"
     },
     {
+      "assetId": "JD4021-LF-026.14-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA63r6gnhxPyLQhXl5alcehABJhPw",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": "PHILLIP NGUYEN 026.14"
+    },
+    {
+      "assetId": "JD4021-LF-026.15-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA63r6gnhxPyLQhXl5alcehABJhPg",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": "BOBBY FLOWERS 026.15"
+    },
+    {
+      "assetId": "JD4021-LF-026.16-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA63r6gnhxPyLQhXl5alcehABJhQA",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": "GARRICK SMITH 026.16"
+    },
+    {
       "assetId": "JD4021-LF-026.5-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHHIg",
       "category": "Q.CD",
@@ -791,6 +1111,26 @@
       "generalName": "Air Quality Sensor",
       "level": "LOWER FLOOR",
       "room": "DEEP DIVE 036"
+    },
+    {
+      "assetId": "JD4021-LF-HL-1-26ELE-CT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJfg",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT06",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
+    },
+    {
+      "assetId": "JD4021-LF-HM-1-26ELE-CT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGJgQ",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT05",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "JD4021-LF-J01-26ELE-SL-01",
@@ -1913,6 +2253,46 @@
       "room": "ALEX BAKER 133.9"
     },
     {
+      "assetId": "JD4021-MF-133C-26ELE-EP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA3Vk17WYNKEYBe305a7EegAAnONw",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "HL2",
+      "generalName": "Electrical Panel",
+      "level": "MAIN FLOOR",
+      "room": "LOUNGE 008"
+    },
+    {
+      "assetId": "JD4021-MF-133C-26ELE-EP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA3Vk17WYNKEYBe305a7EegAAnOTA",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "L2B",
+      "generalName": "Electrical Panel",
+      "level": "MAIN FLOOR",
+      "room": "LOUNGE 008"
+    },
+    {
+      "assetId": "JD4021-MF-133C-26ELE-EP-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA3Vk17WYNKEYBe305a7EegAAnO2Q",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "LCP-A",
+      "generalName": "Electrical Panel",
+      "level": "MAIN FLOOR",
+      "room": "LOUNGE 008"
+    },
+    {
+      "assetId": "JD4021-MF-133C-26ELE-EP-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA3Vk17WYNKEYBe305a7EegAAnQIg",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "HM2",
+      "generalName": "Electrical Panel",
+      "level": "MAIN FLOOR",
+      "room": "LOUNGE 008"
+    },
+    {
       "assetId": "JD4021-MF-133J-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-oQ",
       "category": "Q.CD",
@@ -1931,6 +2311,126 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "CHARTAVIA STEPHENS 133LL"
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGTmg",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "CT14",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGTnQ",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT15",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGTog",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT16",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGTzQ",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT17",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGT0A",
+      "category": "Q.CD",
+      "department": "GATHERING",
+      "entityName": "CT18",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGT0w",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT13",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGT2Q",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT19",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGT3A",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT20",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGT3w",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "CT21",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGT4g",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT22",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-11",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGT5Q",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "CT23",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-L2-A-26ELE-CT-12",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGT6A",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "CT24",
+      "generalName": "Current Transformer",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-W1.08-44POL-AQ-01",
