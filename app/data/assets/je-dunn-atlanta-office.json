@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-13T16:21:51.111Z",
-  "totalAssets": 630,
+  "lastUpdated": "2026-05-13T16:21:53.613Z",
+  "totalAssets": 635,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -4483,6 +4483,26 @@
       "room": ""
     },
     {
+      "assetId": "RM.003.05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUqg",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.003.06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUrA",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "RM.003.10",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACETuA",
       "category": "L.Rm",
@@ -4525,6 +4545,36 @@
     {
       "assetId": "RM.003.2",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUog",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.003.3",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUpg",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.003.4",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUqA",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.003.7",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAEAAAD8L5PzuQtG6L29aQVoECojACEUrg",
       "category": "L.Rm",
       "department": "",
       "entityName": "",
