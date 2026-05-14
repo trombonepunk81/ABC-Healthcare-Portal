@@ -1,5 +1,13 @@
 {
-  "lastUpdated": "2026-05-14T00:00:00.000Z",
-  "totalAssets": 0,
-  "assets": []
+  "lastUpdated": "2026-05-14T19:37:11.745Z",
+  "totalAssets": 1,
+  "assets": [
+    {
+      "assetId": "OM01.21C02.28ESS.CAM.01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABY-uyAm5lH1L_d0SKhi0jgAPAmJQ",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    }
+  ]
 }
