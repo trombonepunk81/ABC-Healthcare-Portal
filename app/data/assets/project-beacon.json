@@ -1,7 +1,98 @@
 {
-  "lastUpdated": "2026-05-14T19:37:11.745Z",
-  "totalAssets": 1,
+  "lastUpdated": "2026-05-15T15:11:29.635Z",
+  "totalAssets": 14,
   "assets": [
+    {
+      "assetId": "C-L21-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABQPg4V8SVMHL4uSUQWlX3EAP-hqQ",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "C-L21-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACEy4W7JDJBAJ2r4RGvDr5_AQlr6g",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "C-L21-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAAosmkn_h9CsrD_dj2OPS7VAK5e6g",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": ""
+    },
+    {
+      "assetId": "C-L21-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABQPg4V8SVMHL4uSUQWlX3EAP-fyA",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "C-L21-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABQPg4V8SVMHL4uSUQWlX3EAP-gSQ",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "C-L21-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACRON2DyFxKKJ7PpDtlUVCFASH0aQ",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "CR 21C02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACRON2DyFxKKJ7PpDtlUVCFASHztw",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "CR 21C05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAAosmkn_h9CsrD_dj2OPS7VAK5e-g",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "CR 21C06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAD300NEdIdMhYwwWIBQf-pMAMPXmA",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "CR 21C08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAD300NEdIdMhYwwWIBQf-pMAMPUXA",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "CR 21N04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACFOQ6usc1BnZYjNsyZwHYiANYPAw",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "CR 21N10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABC4OuzPv1CD6gf01IaWXgzAO12ow",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "CR 21S07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACFOQ6usc1BnZYjNsyZwHYiANYPOA",
+      "category": "Q.SD",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
     {
       "assetId": "OM01.21C02.28ESS.CAM.01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABY-uyAm5lH1L_d0SKhi0jgAPAmJQ",
