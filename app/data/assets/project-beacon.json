@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-15T15:11:29.635Z",
-  "totalAssets": 14,
+  "lastUpdated": "2026-05-15T15:27:14.932Z",
+  "totalAssets": 16,
   "assets": [
     {
       "assetId": "C-L21-01",
@@ -14,6 +14,20 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACEy4W7JDJBAJ2r4RGvDr5_AQlr6g",
       "category": "Q.SD",
       "level": "zNMkcp4uTea70ATCMU8anwCUdR8",
+      "room": "OFFICE 6"
+    },
+    {
+      "assetId": "C-L21-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAD300NEdIdMhYwwWIBQf-pMAMPX1Q",
+      "category": "Q.SD",
+      "level": "1RGCLA3mS_ewsFlO4u58sAAcnek",
+      "room": ""
+    },
+    {
+      "assetId": "C-L21-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABge1DI8sBEwrYIe6qtC-E0AOZFfw",
+      "category": "Q.SD",
+      "level": "1RGCLA3mS_ewsFlO4u58sAAcnek",
       "room": "OFFICE 6"
     },
     {
