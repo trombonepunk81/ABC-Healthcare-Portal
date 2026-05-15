@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-15T19:27:06.834Z",
-  "totalAssets": 16,
+  "lastUpdated": "2026-05-15T20:27:04.509Z",
+  "totalAssets": 17,
   "assets": [
     {
       "assetId": "C-L21-01",
@@ -9,7 +9,7 @@
       "entityName": "C-L21-01",
       "generalName": "Wall Camera",
       "level": "LEVEL 21",
-      "room": "OFFICE 6"
+      "room": "CIRC 21N11B"
     },
     {
       "assetId": "C-L21-02",
@@ -136,6 +136,15 @@
       "generalName": "Card Reader",
       "level": "LEVEL 21",
       "room": "OFFICE 6"
+    },
+    {
+      "assetId": "OM.20N03.28ESS.EQ.01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAADnI09izblBwIxdu5-MJ36kARjdaQ",
+      "category": "28ESS.EQ",
+      "entityName": "ACP-20N03",
+      "generalName": "Access Control Panel",
+      "level": "zNMkcp4uTea70ATCMU8anwCUdR4",
+      "room": ""
     },
     {
       "assetId": "OM01.21C02.28ESS.CAM.01",
