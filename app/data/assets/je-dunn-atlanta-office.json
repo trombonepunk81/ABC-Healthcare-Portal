@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T04:23:17.059Z",
+  "lastUpdated": "2026-05-21T05:22:43.323Z",
   "totalAssets": 685,
   "assets": [
     {
@@ -231,126 +231,6 @@
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "TYLER ELDER 001.5"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-13",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2Ksw",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.01 W0.01"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-14",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2KtA",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "TIARA CHAMBLISS 001.11"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-15",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2Ktg",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "BRENT STRENGTH 002.2"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-16",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NPQ",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "IANA TASSADA 026.2"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-17",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NPg",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "GARRICK SMITH 026.16"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-18",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NPw",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "CHRIS HARM 002.14"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-19",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NQA",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-20",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NQQ",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "STEVE HAGLUND 002.8"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-21",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NQg",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "SCOTT BODDEN 002.5"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-22",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NTg",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "CATHY KASHIUS 026.5"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-23",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NTw",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "PETER STEPHENSON 026.8"
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-LP-24",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NUA",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "Light Fixture - Linear Pendant",
-      "level": "LOWER FLOOR",
-      "room": "HIAWATHA HILL 026.11"
     },
     {
       "assetId": "JD4021-LF-001.10-25INT-DS-01",
@@ -2413,6 +2293,26 @@
       "room": "JANITOR J01"
     },
     {
+      "assetId": "JD4021-LF-W0.01-26ELE-LP-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2Ksw",
+      "category": "E.LF",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-LP-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2KtA",
+      "category": "E.LF",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "TIARA CHAMBLISS 001.11"
+    },
+    {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB9tWeJuKdCkLeHgtuDFEJLAA25dw",
       "category": "E.LF",
@@ -2684,13 +2584,53 @@
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-LP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2l0A",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2Ktg",
       "category": "E.LF",
-      "department": "",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "BRENT STRENGTH 002.2"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NPw",
+      "category": "E.LF",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "CHRIS HARM 002.14"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-LP-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NQA",
+      "category": "E.LF",
+      "department": "INDUSTRIAL",
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-LP-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NQQ",
+      "category": "E.LF",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "STEVE HAGLUND 002.8"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-LP-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NQg",
+      "category": "E.LF",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "SCOTT BODDEN 002.5"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-RF-01",
@@ -2759,6 +2699,66 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Exit Sign",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NPQ",
+      "category": "E.LF",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "IANA TASSADA 026.2"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NPg",
+      "category": "E.LF",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GARRICK SMITH 026.16"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-LP-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NTg",
+      "category": "E.LF",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "CATHY KASHIUS 026.5"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-LP-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NTw",
+      "category": "E.LF",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "PETER STEPHENSON 026.8"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-LP-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2NUA",
+      "category": "E.LF",
+      "department": "SAFETY",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "HIAWATHA HILL 026.11"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-LP-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2l0A",
+      "category": "E.LF",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "WALKWAY 0.04 W0.04"
     },
