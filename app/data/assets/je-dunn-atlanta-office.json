@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T05:22:43.323Z",
+  "lastUpdated": "2026-05-21T05:22:46.759Z",
   "totalAssets": 685,
   "assets": [
     {
@@ -11,16 +11,6 @@
       "generalName": "",
       "level": "LOWER FLOOR",
       "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-??-26ELE-CT-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGHeQ",
-      "category": "Q.CD",
-      "department": "ELECTRICAL",
-      "entityName": "CT01",
-      "generalName": "Current Transformer",
-      "level": "LOWER FLOOR",
-      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "JD4021-LF-??-26ELE-CT-02",
@@ -711,6 +701,16 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "JACOB MARKFORT 003.9"
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA02grY1_pPpIA9gRtu9F68ABGHeQ",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT01",
+      "generalName": "Current Transformer",
+      "level": "LOWER FLOOR",
+      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "JD4021-LF-005-26ELE-EP-01",
@@ -3026,7 +3026,7 @@
       "assetId": "JD4021-MF-106.13-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABGz7w",
       "category": "Q.CD",
-      "department": "Precon",
+      "department": "PRECON",
       "entityName": "DS93",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
@@ -3963,7 +3963,7 @@
       "room": ""
     },
     {
-      "assetId": "JD4021-RF-??-48EPG-SP-03",
+      "assetId": "JD4021-RF-RF.01-48EPG-SP-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAVQ8H2VKdPdKCcYXHLCU1BABgJgA",
       "category": "E.Eq",
       "department": "",
