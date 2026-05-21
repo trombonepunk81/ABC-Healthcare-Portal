@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T05:22:50.699Z",
+  "lastUpdated": "2026-05-21T05:22:52.533Z",
   "totalAssets": 685,
   "assets": [
     {
@@ -1896,7 +1896,7 @@
       "assetId": "JD4021-LF-026.5-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHHIg",
       "category": "Q.CD",
-      "department": "Aviation",
+      "department": "AVIATION",
       "entityName": "AS-06",
       "generalName": "Air Quality Sensor",
       "level": "LOWER FLOOR",
@@ -2163,6 +2163,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-033-26ELE-EP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACIkHt0iQhNIoV4ghzVhfnkABGhNA",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "LL1",
+      "generalName": "Electrical Panel",
+      "level": "LOWER FLOOR",
+      "room": "PRINT 033"
+    },
+    {
       "assetId": "JD4021-LF-033-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA306A",
       "category": "E.LF",
@@ -2198,16 +2208,6 @@
       "category": "E.Eq",
       "department": "",
       "entityName": "L1A",
-      "generalName": "Electrical Panel",
-      "level": "LOWER FLOOR",
-      "room": "PRINT 033"
-    },
-    {
-      "assetId": "JD4021-LF-035-26ELE-EP-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACIkHt0iQhNIoV4ghzVhfnkABGhNA",
-      "category": "E.Eq",
-      "department": "",
-      "entityName": "LL1",
       "generalName": "Electrical Panel",
       "level": "LOWER FLOOR",
       "room": "PRINT 033"
@@ -2933,16 +2933,6 @@
       "room": "WALKWAY 0.07 W0.07"
     },
     {
-      "assetId": "JD4021-MF-??-44POL-AQ-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHIMw",
-      "category": "Q.CD",
-      "department": "Precon",
-      "entityName": "AS-10",
-      "generalName": "Air Quality Sensor",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.01 W1.01"
-    },
-    {
       "assetId": "JD4021-MF-??-44POL-AQ-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJWg",
       "category": "Q.CD",
@@ -3436,7 +3426,7 @@
       "assetId": "JD4021-MF-122.13-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACI8x6PdYdNBqxXXA2bVF5GABG02g",
       "category": "Q.CD",
-      "department": "Education",
+      "department": "EDUCATION",
       "entityName": "DS120",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
@@ -3931,6 +3921,16 @@
       "generalName": "Current Transformer",
       "level": "MAIN FLOOR",
       "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHIMw",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "AS-10",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.01 W1.01"
     },
     {
       "assetId": "JD4021-MF-W1.08-44POL-AQ-01",
