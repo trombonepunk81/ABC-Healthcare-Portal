@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T05:23:14.460Z",
+  "lastUpdated": "2026-05-21T05:23:17.533Z",
   "totalAssets": 685,
   "assets": [
     {
@@ -2933,36 +2933,6 @@
       "room": "WALKWAY 0.07 W0.07"
     },
     {
-      "assetId": "JD4021-MF-??-44POL-AQ-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJWg",
-      "category": "Q.CD",
-      "department": "LEAN",
-      "entityName": "AS-15",
-      "generalName": "Air Quality Sensor",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-??-44POL-AQ-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJ-g",
-      "category": "Q.CD",
-      "department": "Commercial",
-      "entityName": "AS-17",
-      "generalName": "Air Quality Sensor",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.10 W1.10"
-    },
-    {
-      "assetId": "JD4021-MF-??-44POL-AQ-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHKEg",
-      "category": "Q.CD",
-      "department": "Education",
-      "entityName": "AS-18",
-      "generalName": "Air Quality Sensor",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.05 W1.05"
-    },
-    {
       "assetId": "JD4021-MF-102-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHI6A",
       "category": "Q.CD",
@@ -3666,7 +3636,7 @@
       "assetId": "JD4021-MF-129.10-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-oA",
       "category": "Q.CD",
-      "department": "Commercial",
+      "department": "COMMERCIAL",
       "entityName": "DS58",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
@@ -3676,7 +3646,7 @@
       "assetId": "JD4021-MF-129.12-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-qQ",
       "category": "Q.CD",
-      "department": "Commercial",
+      "department": "COMMERCIAL",
       "entityName": "DS60",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
@@ -3686,7 +3656,7 @@
       "assetId": "JD4021-MF-129.13-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-qg",
       "category": "Q.CD",
-      "department": "Commercial",
+      "department": "COMMERCIAL",
       "entityName": "DS61",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
@@ -3696,7 +3666,7 @@
       "assetId": "JD4021-MF-129.14-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-qw",
       "category": "Q.CD",
-      "department": "Commercial",
+      "department": "COMMERCIAL",
       "entityName": "DS62",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
@@ -3766,7 +3736,7 @@
       "assetId": "JD4021-MF-129.9-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-nw",
       "category": "Q.CD",
-      "department": "Commercial",
+      "department": "COMMERCIAL",
       "entityName": "DS57",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
@@ -3906,7 +3876,7 @@
       "assetId": "JD4021-MF-133J-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-oQ",
       "category": "Q.CD",
-      "department": "Commercial",
+      "department": "COMMERCIAL",
       "entityName": "DS59",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
@@ -3933,6 +3903,26 @@
       "room": "WALKWAY 1.01 W1.01"
     },
     {
+      "assetId": "JD4021-MF-W1.04-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJWg",
+      "category": "Q.CD",
+      "department": "LEAN",
+      "entityName": "AS-15",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHKEg",
+      "category": "Q.CD",
+      "department": "Education",
+      "entityName": "AS-18",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.05 W1.05"
+    },
+    {
       "assetId": "JD4021-MF-W1.08-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJuA",
       "category": "Q.CD",
@@ -3941,6 +3931,16 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.08 W1.08"
+    },
+    {
+      "assetId": "JD4021-MF-W1.10-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJ-g",
+      "category": "Q.CD",
+      "department": "Commercial",
+      "entityName": "AS-17",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.10 W1.10"
     },
     {
       "assetId": "JD4021-RF-RF.01-48EPG-SP-01",
@@ -3973,42 +3973,42 @@
       "room": ""
     },
     {
-      "assetId": "JD4021-ST-PL-26ELE-PL-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheUQ",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "SITE",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-ST-PL-26ELE-PL-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheYQ",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "SITE",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-ST-PL-26ELE-PL-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheuQ",
-      "category": "E.LF",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "SITE",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-ST-PL-26ELE-PL-04",
+      "assetId": "JD4021-ST-PL.01-26ELE-PL-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABhdiQ",
       "category": "E.LF",
       "department": "",
       "entityName": "",
-      "generalName": "",
+      "generalName": "Light Fixture - Pole Light",
+      "level": "SITE",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL.01-26ELE-PL-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheUQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pole Light",
+      "level": "SITE",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL.01-26ELE-PL-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheYQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pole Light",
+      "level": "SITE",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL.01-26ELE-PL-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheuQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pole Light",
       "level": "SITE",
       "room": ""
     },
