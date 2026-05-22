@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-22T23:22:55.338Z",
-  "totalAssets": 685,
+  "lastUpdated": "2026-05-22T23:22:57.956Z",
+  "totalAssets": 686,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -4271,6 +4271,16 @@
       "generalName": "",
       "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
+    },
+    {
+      "assetId": "PIU-LL-9",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABCMrFrnCZJRoCB4ZKOL5H-AB7Oyg",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
     },
     {
       "assetId": "RM.001.10",
