@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-23T07:22:48.330Z",
-  "totalAssets": 706,
+  "lastUpdated": "2026-05-23T07:22:50.334Z",
+  "totalAssets": 735,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -2603,6 +2603,16 @@
       "room": "WALKWAY 0.02 W0.02"
     },
     {
+      "assetId": "JD4021-LF-W0.02-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACZOMFxyf9DO7ity-1D0y-wAA-OQw",
+      "category": "Q.CD",
+      "department": "APTITUDE",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
       "assetId": "JD4021-LF-W0.02-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHFiQ",
       "category": "Q.CD",
@@ -2993,6 +3003,26 @@
       "room": "WIN WIN 103"
     },
     {
+      "assetId": "JD4021-MF-106.1-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4DJg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-106.1-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4DKQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-106.10-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAAdZXsMLdKS7Mw0J3amckaABGz_g",
       "category": "Q.CD",
@@ -3373,6 +3403,16 @@
       "room": "RICHARD WILLIAMS 109.9"
     },
     {
+      "assetId": "JD4021-MF-111-26ELE-FL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACjprAqotdOD4FOxeRzBBe5AA4u-Q",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "GATHERING 111"
+    },
+    {
       "assetId": "JD4021-MF-111-26ELE-XS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC1Gg",
       "category": "E.LF",
@@ -3389,6 +3429,16 @@
       "department": "",
       "entityName": "",
       "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "GATHERING 111"
+    },
+    {
+      "assetId": "JD4021-MF-111-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACUqJy7lYFL1onzmE-2d1xAAA-NOw",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
       "level": "MAIN FLOOR",
       "room": "GATHERING 111"
     },
@@ -3451,6 +3501,26 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "BEST IN FINAL 112"
+    },
+    {
+      "assetId": "JD4021-MF-113.1-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EgQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-113.1-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4Egg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-113.10-25INT-DS-01",
@@ -3593,6 +3663,16 @@
       "room": "SHAY LINDA 113.9"
     },
     {
+      "assetId": "JD4021-MF-122.1-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EEA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-122.1-26ELE-XS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4Zg",
       "category": "E.LF",
@@ -3641,6 +3721,16 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "BRYAN STEED 122.13"
+    },
+    {
+      "assetId": "JD4021-MF-122.14-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EQw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.07 W1.07"
     },
     {
       "assetId": "JD4021-MF-122.2-25INT-DS-01",
@@ -4013,6 +4103,16 @@
       "room": "CHARTAVIA STEPHENS 133LL"
     },
     {
+      "assetId": "JD4021-MF-135-26ELE-SL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACtbRXKCWpGXpa3l47-rEkUAAryRQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-P1.02-26ELE-XS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4jw",
       "category": "E.LF",
@@ -4021,6 +4121,26 @@
       "generalName": "",
       "level": "MAIN FLOOR",
       "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4Dpg",
+      "category": "E.LF",
+      "department": "PRECON",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.01 W1.01"
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4D8w",
+      "category": "E.LF",
+      "department": "PRECON",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.01 W1.01"
     },
     {
       "assetId": "JD4021-MF-W1.01-44POL-AQ-01",
@@ -4033,6 +4153,46 @@
       "room": "WALKWAY 1.01 W1.01"
     },
     {
+      "assetId": "JD4021-MF-W1.02-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4B5w",
+      "category": "E.LF",
+      "department": "MARKETING",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4DAg",
+      "category": "E.LF",
+      "department": "MARKETING",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-26ELE-LP-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4DLA",
+      "category": "E.LF",
+      "department": "EXECUTIVE",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-26ELE-LP-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4DLw",
+      "category": "E.LF",
+      "department": "EXECUTIVE",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02"
+    },
+    {
       "assetId": "JD4021-MF-W1.02-26ELE-XS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC3Aw",
       "category": "E.LF",
@@ -4041,6 +4201,16 @@
       "generalName": "",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.02 W1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACUqJy7lYFL1onzmE-2d1xAAA-MNw",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-XS-01",
@@ -4053,12 +4223,82 @@
       "room": "WALKWAY 1.01 W1.01"
     },
     {
+      "assetId": "JD4021-MF-W1.04-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EhA",
+      "category": "E.LF",
+      "department": "LEAN",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EhQ",
+      "category": "E.LF",
+      "department": "LEAN",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-W1.04-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJWg",
       "category": "Q.CD",
       "department": "LEAN",
       "entityName": "AS-15",
       "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EHg",
+      "category": "E.LF",
+      "department": "EDUCATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4ENw",
+      "category": "E.LF",
+      "department": "EDUCATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-26ELE-LP-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4Efw",
+      "category": "E.LF",
+      "department": "HR",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-26ELE-LP-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EgA",
+      "category": "E.LF",
+      "department": "HR",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-26ELE-LP-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4Egw",
+      "category": "E.LF",
+      "department": "DIVERSITY",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -4091,6 +4331,46 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.05 W1.05"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EOg",
+      "category": "E.LF",
+      "department": "EDUCATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.07 W1.07"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EPQ",
+      "category": "E.LF",
+      "department": "EDUCATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.07 W1.07"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-26ELE-LP-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EQA",
+      "category": "E.LF",
+      "department": "EDUCATION",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.07 W1.07"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACUqJy7lYFL1onzmE-2d1xAAA-TEw",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.07 W1.07"
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-XS-01",
@@ -4131,6 +4411,16 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.08 W1.08"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACUqJy7lYFL1onzmE-2d1xAAA-VMw",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-W1.10-44POL-AQ-01",
