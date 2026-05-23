@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-23T07:22:52.576Z",
-  "totalAssets": 773,
+  "lastUpdated": "2026-05-23T07:22:53.762Z",
+  "totalAssets": 787,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -1263,6 +1263,16 @@
       "room": "PULL PLANNING 016"
     },
     {
+      "assetId": "JD4021-LF-016-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAACLRcZQ6NMiKD7LZSUZhrYAA-s9A",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "LOWER FLOOR",
+      "room": "PULL PLANNING 016"
+    },
+    {
       "assetId": "JD4021-LF-016-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABh413cDdlLDqmEhin9XBxUABJWFw",
       "category": "Q.CD",
@@ -1389,6 +1399,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Exit Sign",
+      "level": "LOWER FLOOR",
+      "room": "BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "JD4021-LF-018-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAACLRcZQ6NMiKD7LZSUZhrYAA-sWg",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
@@ -2721,6 +2741,16 @@
       "generalName": "Air Quality Sensor",
       "level": "LOWER FLOOR",
       "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.03-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAACLRcZQ6NMiKD7LZSUZhrYAA-oiw",
+      "category": "Q.CD",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-LP-01",
@@ -4083,6 +4113,96 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-125-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4K0w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-125-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4K1A",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-125-26ELE-LI-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4K1Q",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-125-26ELE-LI-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4K1g",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4I3A",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4Khw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-LI-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4Kwg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-LI-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4Kyg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-127-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4KQQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "CAFE 127"
+    },
+    {
       "assetId": "JD4021-MF-127-28ESS-LD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADCPUWBLT9PRYbigwLAI46GABJIEg",
       "category": "Q.CD",
@@ -4101,6 +4221,26 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "CAFE 127"
+    },
+    {
+      "assetId": "JD4021-MF-128-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4KBw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-128-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4K3g",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-129.10-25INT-DS-01",
