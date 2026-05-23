@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-23T07:23:17.456Z",
-  "totalAssets": 904,
+  "lastUpdated": "2026-05-23T07:23:20.965Z",
+  "totalAssets": 921,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -223,6 +223,26 @@
       "room": "IT 001A"
     },
     {
+      "assetId": "JD4021-LF-001A-28ESS-AC-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABdrNQ",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Access Control Panel",
+      "level": "LOWER FLOOR",
+      "room": "IT 001A"
+    },
+    {
+      "assetId": "JD4021-LF-001A-28ESS-AC-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABdsCA",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Access Control Panel",
+      "level": "LOWER FLOOR",
+      "room": "IT 001A"
+    },
+    {
       "assetId": "JD4021-LF-001B-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30-A",
       "category": "E.LF",
@@ -251,6 +271,16 @@
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "COLLABORATION 002.1"
+    },
+    {
+      "assetId": "JD4021-LF-002.1-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC_Dx5mPalK4bjHln14VJGpAA-Luw",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-002.1-44POL-AQ-01",
@@ -2233,6 +2263,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-033-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABdqqA",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": "PRINT 033"
+    },
+    {
       "assetId": "JD4021-LF-034-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA308A",
       "category": "E.LF",
@@ -3343,6 +3383,26 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-101-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABdsSQ",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-28ESS-IK-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABdskw",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Intrusion Keypad",
+      "level": "MAIN FLOOR",
+      "room": "RECEPTION 101"
+    },
+    {
       "assetId": "JD4021-MF-102-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB_u4szevhF87wf1k9PGviwAA4eEA",
       "category": "E.LF",
@@ -4093,6 +4153,16 @@
       "room": "GATHERING 111"
     },
     {
+      "assetId": "JD4021-MF-111-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACwk3SMF8JDKrBfop1_HWoAAA4gGw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": "GATHERING 111"
+    },
+    {
       "assetId": "JD4021-MF-111-26ELE-XS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC1Gg",
       "category": "E.LF",
@@ -4663,6 +4733,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-122.1-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABduEg",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-122.10-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-fQ",
       "category": "Q.CD",
@@ -4811,6 +4891,16 @@
       "generalName": "Electrical Panel",
       "level": "MAIN FLOOR",
       "room": "STORAGE 020"
+    },
+    {
+      "assetId": "JD4021-MF-124-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACwk3SMF8JDKrBfop1_HWoAAA4gOg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-124-26ELE-RF-02",
@@ -5203,6 +5293,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-133.1-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABdtGA",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 133.1"
+    },
+    {
       "assetId": "JD4021-MF-133.10-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-tw",
       "category": "Q.CD",
@@ -5523,12 +5623,62 @@
       "room": "PRINT ROOM 1.02 P1.02"
     },
     {
+      "assetId": "JD4021-MF-P1.02-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACwk3SMF8JDKrBfop1_HWoAAA4gMQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
+      "assetId": "JD4021-MF-P1.02-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACwk3SMF8JDKrBfop1_HWoAAA4gNA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
+      "assetId": "JD4021-MF-P1.02-26ELE-RF-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACwk3SMF8JDKrBfop1_HWoAAA4gNw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
       "assetId": "JD4021-MF-P1.02-26ELE-XS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4jw",
       "category": "E.LF",
       "department": "",
       "entityName": "",
       "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
+      "assetId": "JD4021-MF-P1.02-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABduQA",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
+      "assetId": "JD4021-MF-P1.02-28ESS-CR-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABdufA",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
       "level": "MAIN FLOOR",
       "room": "PRINT ROOM 1.02 P1.02"
     },
@@ -5863,6 +6013,16 @@
       "room": "WALKWAY 1.05 W1.05"
     },
     {
+      "assetId": "JD4021-MF-W1.06-28ESS-IK-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC6YMshJChGp7kDjX1gxUmuABdtzQ",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Intrusion Keypad",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.06 W1.06"
+    },
+    {
       "assetId": "JD4021-MF-W1.07-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EOg",
       "category": "E.LF",
@@ -5969,6 +6129,16 @@
       "department": "",
       "entityName": "",
       "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.08 W1.08"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACwk3SMF8JDKrBfop1_HWoAAA4gHg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.08 W1.08"
     },
