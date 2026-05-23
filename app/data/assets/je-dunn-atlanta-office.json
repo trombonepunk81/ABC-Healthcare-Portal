@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-23T07:22:46.610Z",
-  "totalAssets": 690,
+  "lastUpdated": "2026-05-23T07:22:48.330Z",
+  "totalAssets": 706,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -179,6 +179,26 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": "IT 001A"
+    },
+    {
+      "assetId": "JD4021-LF-001A-27COM-RAC-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABLElbhlrJMuoGWaBG3jvPYABASyg",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Rack",
+      "level": "LOWER FLOOR",
+      "room": "IT 001A"
+    },
+    {
+      "assetId": "JD4021-LF-001A-27COM-RAC-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABLElbhlrJMuoGWaBG3jvPYABAS1Q",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Rack",
       "level": "LOWER FLOOR",
       "room": "IT 001A"
     },
@@ -899,6 +919,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": "STORAGE 013"
+    },
+    {
+      "assetId": "JD4021-LF-013-33UTI-WF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtBZoxyTVCSqux1TzHUaxVABI53g",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "LOWER FLOOR",
       "room": "STORAGE 013"
     },
@@ -2933,6 +2963,16 @@
       "room": "WALKWAY 0.07 W0.07"
     },
     {
+      "assetId": "JD4021-MF-101-26ELE-XS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC0zQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Exit Sign",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-102-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHI6A",
       "category": "Q.CD",
@@ -3233,6 +3273,16 @@
       "room": "JENNIFER BROWN 109.11"
     },
     {
+      "assetId": "JD4021-MF-109.12-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA8W3BplUJPn4yxDTPc4EWpABGzrQ",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS91\r\nDS91\r\nDS91",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "LAURA McCREE 109.12"
+    },
+    {
       "assetId": "JD4021-MF-109.13-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAA8W3BplUJPn4yxDTPc4EWpABGzsg",
       "category": "Q.CD",
@@ -3321,6 +3371,26 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "RICHARD WILLIAMS 109.9"
+    },
+    {
+      "assetId": "JD4021-MF-111-26ELE-XS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC1Gg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-111-26ELE-XS-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4JA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-44POL-AQ-01",
@@ -3521,6 +3591,16 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "SHAY LINDA 113.9"
+    },
+    {
+      "assetId": "JD4021-MF-122.1-26ELE-XS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4Zg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Exit Sign",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-122.10-25INT-DS-01",
@@ -3933,12 +4013,42 @@
       "room": "CHARTAVIA STEPHENS 133LL"
     },
     {
+      "assetId": "JD4021-MF-P1.02-26ELE-XS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4jw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
       "assetId": "JD4021-MF-W1.01-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB92ErOx-ZD16DjE94zxh-9ABHIMw",
       "category": "Q.CD",
       "department": "Precon",
       "entityName": "AS-10",
       "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.01 W1.01"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-26ELE-XS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC3Aw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.03-26ELE-XS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC3KA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.01 W1.01"
     },
@@ -3953,6 +4063,26 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-W1.05-26ELE-XS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4Nw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-26ELE-XS-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4Yw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.05 W1.05"
+    },
+    {
       "assetId": "JD4021-MF-W1.05-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHKEg",
       "category": "Q.CD",
@@ -3961,6 +4091,36 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.05 W1.05"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-26ELE-XS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4hg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.08 W1.08"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-26ELE-XS-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4kg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.08 W1.08"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-26ELE-XS-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABMO_PZvaZCtqUcOOGx9YbhABC4mA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-W1.08-44POL-AQ-01",
