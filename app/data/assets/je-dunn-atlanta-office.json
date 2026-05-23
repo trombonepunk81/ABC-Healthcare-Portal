@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-23T07:23:05.903Z",
-  "totalAssets": 865,
+  "lastUpdated": "2026-05-23T07:23:09.269Z",
+  "totalAssets": 870,
   "assets": [
     {
       "assetId": "GARAGED.022.01",
@@ -933,6 +933,16 @@
       "room": "RR 012"
     },
     {
+      "assetId": "JD4021-LF-013-25INT-GW-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADLzAHz8JJD87OoUMZtG87DABeFhA",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Gateway",
+      "level": "LOWER FLOOR",
+      "room": "STORAGE 013"
+    },
+    {
       "assetId": "JD4021-LF-013-26ELE-SL-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAC_zWa2ekVIPrpK31z9R8-tAAqujg",
       "category": "E.LF",
@@ -1599,6 +1609,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Exit Sign",
+      "level": "LOWER FLOOR",
+      "room": "ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-LF-022-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADcJ-rj8B9K0oI183_O0WYbAA-n9A",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
       "level": "LOWER FLOOR",
       "room": "ROACH COACH 022"
     },
@@ -2271,6 +2291,16 @@
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
       "room": "JANITOR J01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-25INT-GW-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADLzAHz8JJD87OoUMZtG87DABeBHg",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "PG01",
+      "generalName": "Gateway",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-LP-01",
@@ -3673,6 +3703,16 @@
       "room": "RICHARD WILLIAMS 109.9"
     },
     {
+      "assetId": "JD4021-MF-110A-26ELE-SL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZwIGV6B9Gl6JYs4Zxnr_GAAsdwg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-111-26ELE-FL-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACjprAqotdOD4FOxeRzBBe5AA4u-Q",
       "category": "E.LF",
@@ -4379,6 +4419,16 @@
       "department": "EDUCATION",
       "entityName": "DS42",
       "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 122.4"
+    },
+    {
+      "assetId": "JD4021-MF-122.4-25INT-GW-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADLzAHz8JJD87OoUMZtG87DABeMwA",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "PG02",
+      "generalName": "Gateway",
       "level": "MAIN FLOOR",
       "room": "HOTEL 122.4"
     },
