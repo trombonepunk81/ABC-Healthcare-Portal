@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T11:22:48.215Z",
+  "lastUpdated": "2026-05-27T11:22:50.276Z",
   "totalAssets": 921,
   "assets": [
     {
@@ -2789,7 +2789,7 @@
       "department": "",
       "entityName": "",
       "generalName": "Card Reader",
-      "level": "",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.02 W0.02"
     },
     {
@@ -2799,7 +2799,7 @@
       "department": "",
       "entityName": "",
       "generalName": "Card Reader",
-      "level": "",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.02 W0.02"
     },
     {
@@ -2949,7 +2949,7 @@
       "department": "",
       "entityName": "",
       "generalName": "Card Reader",
-      "level": "",
+      "level": "LOWER FLOOR",
       "room": ""
     },
     {
@@ -2959,7 +2959,7 @@
       "department": "",
       "entityName": "",
       "generalName": "Intrusion Keypad",
-      "level": "",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.04 W0.04"
     },
     {
