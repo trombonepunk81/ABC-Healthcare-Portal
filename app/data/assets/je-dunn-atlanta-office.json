@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T18:22:55.455Z",
+  "lastUpdated": "2026-05-27T18:22:57.280Z",
   "totalAssets": 921,
   "assets": [
     {
@@ -6550,7 +6550,7 @@
       "entityName": "",
       "generalName": "",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DEEP DIVE 036"
     },
     {
       "assetId": "PIU-LL-2",
