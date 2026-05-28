@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T19:06:43.560Z",
+  "lastUpdated": "2026-05-28T19:06:46.129Z",
   "totalAssets": 921,
   "assets": [
     {
@@ -1353,6 +1353,46 @@
       "room": "STORAGE 017"
     },
     {
+      "assetId": "JD4021-LF-018-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADril6Q3IFKK5FG5asN1J2CABzh0A",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "VAV-LL-2",
+      "generalName": "Variable Air Volume Unit",
+      "level": "LOWER FLOOR",
+      "room": "@ THE END OF THE DAY 025"
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABmWd4v_N1H57Do-vLLCd2pABz2PQ",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-8",
+      "generalName": "Powered Induction Unit",
+      "level": "LOWER FLOOR",
+      "room": "OUTSIDE THE BOX 024"
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABrhYPNeelG_YRmgcn-cfy3AB0Hkw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-7",
+      "generalName": "Powered Induction Unit",
+      "level": "LOWER FLOOR",
+      "room": "OFFICE 023"
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABrhYPNeelG_YRmgcn-cfy3AB0Rww",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-3",
+      "generalName": "Powered Induction Unit",
+      "level": "LOWER FLOOR",
+      "room": "STORAGE 017"
+    },
+    {
       "assetId": "JD4021-LF-018-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3jBQ",
       "category": "E.LF",
@@ -1491,6 +1531,26 @@
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "COPY 021"
+    },
+    {
+      "assetId": "JD4021-LF-022-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACChl2KddtLpq7g8foIZIrrAB0aqA",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-4",
+      "generalName": "Powered Induction Unit",
+      "level": "LOWER FLOOR",
+      "room": "STORAGE 017"
+    },
+    {
+      "assetId": "JD4021-LF-022-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADgYANZpL9BqLXrAcefOfwTAB0n1g",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-5",
+      "generalName": "Powered Induction Unit",
+      "level": "LOWER FLOOR",
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-PD-01",
@@ -2523,6 +2583,16 @@
       "room": "WALKWAY 0.01 W0.01"
     },
     {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADKCbgbDqlJAYIe8AO8J1JGABxZTw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-1",
+      "generalName": "Powered Induction Unit",
+      "level": "LOWER FLOOR",
+      "room": "DEEP DIVE 036"
+    },
+    {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2HJg",
       "category": "E.LF",
@@ -2823,6 +2893,16 @@
       "room": "WALKWAY 0.04 W0.04"
     },
     {
+      "assetId": "JD4021-LF-W0.04-23HVA-WG-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADKCbgbDqlJAYIe8AO8J1JGABxaDw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-6",
+      "generalName": "Powered Induction Unit",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
       "assetId": "JD4021-LF-W0.04-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAABtNkHrgPJIT5K3HYQmRzXjAA2Ktg",
       "category": "E.LF",
@@ -2961,6 +3041,16 @@
       "generalName": "Intrusion Keypad",
       "level": "LOWER FLOOR",
       "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACUL72mMtdM4b0ZTHQUBJUhABzJYQ",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "VAV-LL-3",
+      "generalName": "Variable Air Volume Unit",
+      "level": "LOWER FLOOR",
+      "room": "HOTEL 113.11"
     },
     {
       "assetId": "JD4021-LF-W0.05-26ELE-LP-01",
@@ -3403,6 +3493,16 @@
       "room": "RECEPTION 101"
     },
     {
+      "assetId": "JD4021-MF-102-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABgyoA",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-2",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "BOTTOM LINE 102"
+    },
+    {
       "assetId": "JD4021-MF-102-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB_u4szevhF87wf1k9PGviwAA4eEA",
       "category": "E.LF",
@@ -3471,6 +3571,26 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "BOTTOM LINE 102"
+    },
+    {
+      "assetId": "JD4021-MF-103-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABgz3A",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-1",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "WIN WIN 103"
+    },
+    {
+      "assetId": "JD4021-MF-103-23HVA-PIU-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg0Sw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-13",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-26ELE-LP-01",
@@ -3563,6 +3683,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-105-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABgxtw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-3",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "CIRCLE BACK 105"
+    },
+    {
       "assetId": "JD4021-MF-105-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAB_u4szevhF87wf1k9PGviwAA4dNg",
       "category": "E.LF",
@@ -3581,6 +3711,16 @@
       "generalName": "Light Fixture - Lay-in",
       "level": "MAIN FLOOR",
       "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-106.1-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACulJG6KZRAOYNXUtAmPLKHAB20fA",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-10",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "BAM 132"
     },
     {
       "assetId": "JD4021-MF-106.1-26ELE-LP-01",
@@ -3721,6 +3861,56 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "AMY BLANCO 106.9"
+    },
+    {
+      "assetId": "JD4021-MF-107-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg00Q",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-12",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-107-23HVA-PIU-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg1LQ",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-4",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-107-23HVA-PIU-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg1iQ",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-5",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-107-23HVA-RG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAAARvLBs60ZG3b7R0yJFNsmmABk3oA",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "RTU-2",
+      "generalName": "Roof Top Unit",
+      "level": "ROOF",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-23HVA-RG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAAARvLBs60ZG3b7R0yJFNsmmABk54A",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "RTU-1",
+      "generalName": "Roof Top Unit",
+      "level": "ROOF",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-107-26ELE-CT-01",
@@ -4363,6 +4553,26 @@
       "room": "BEST IN FINAL 112"
     },
     {
+      "assetId": "JD4021-MF-113.1-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADCshb-1edARbb3GBm_d5WNAB4CTw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-6",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "PARKING LOT 117"
+    },
+    {
+      "assetId": "JD4021-MF-113.1-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADCshb-1edARbb3GBm_d5WNAB4Fig",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-14",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "IN THE LOOP 116"
+    },
+    {
       "assetId": "JD4021-MF-113.1-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4EgQ",
       "category": "E.LF",
@@ -4991,6 +5201,16 @@
       "generalName": "Light Fixture - Lay-in",
       "level": "MAIN FLOOR",
       "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-127-23HVA-CD-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAAB7EQkWgEdIxrP7ar6EtqrpAB2EsQ",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-11",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-127-26ELE-LP-01",
@@ -5683,6 +5903,16 @@
       "room": "PRINT ROOM 1.02 P1.02"
     },
     {
+      "assetId": "JD4021-MF-W1.01-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACICDQgzrRJPI9vvJ7lppnXAB3ZYw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-15",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 119"
+    },
+    {
       "assetId": "JD4021-MF-W1.01-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAACmVE1ep8pBLYdeeJ71B15hAA4Dpg",
       "category": "E.LF",
@@ -5711,6 +5941,26 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.01 W1.01"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACulJG6KZRAOYNXUtAmPLKHAB2zIg",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-17",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "SHORE THE CORE 131"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACulJG6KZRAOYNXUtAmPLKHAB257g",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-18",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 118"
     },
     {
       "assetId": "JD4021-MF-W1.02-26ELE-LP-01",
@@ -5831,6 +6081,46 @@
       "generalName": "",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.01 W1.01"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABimvbHkYdDZIIdVFgExEdDAB3jRg",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-9",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "SYNERGY 126"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABN2NmFqvlLiZLIbNaO1IHSAB3nAQ",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-8",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "LEVERAGE 125"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACWsX8DeVtIXJMhr5HVrYZzAB3xYQ",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-16",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 121"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADE6dNv4y1DN7hDig20yCnvAB31mw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-7",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02"
     },
     {
       "assetId": "JD4021-MF-W1.04-26ELE-LP-01",
@@ -6363,196 +6653,6 @@
       "room": ""
     },
     {
-      "assetId": "PIU-1-1",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABgz3A",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-10",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACulJG6KZRAOYNXUtAmPLKHAB20fA",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-11",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAAB7EQkWgEdIxrP7ar6EtqrpAB2EsQ",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-12",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg00Q",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-13",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg0Sw",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-14",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADCshb-1edARbb3GBm_d5WNAB4Fig",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-15",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACICDQgzrRJPI9vvJ7lppnXAB3ZYw",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-16",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACWsX8DeVtIXJMhr5HVrYZzAB3xYQ",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-17",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACulJG6KZRAOYNXUtAmPLKHAB2zIg",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-18",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACulJG6KZRAOYNXUtAmPLKHAB257g",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-2",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABgyoA",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-3",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABgxtw",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-4",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg1LQ",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-5",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADP1w85xmhJ-YVyr9VZJZGTABg1iQ",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-6",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADCshb-1edARbb3GBm_d5WNAB4CTw",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-7",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADE6dNv4y1DN7hDig20yCnvAB31mw",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-8",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABN2NmFqvlLiZLIbNaO1IHSAB3nAQ",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-1-9",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABimvbHkYdDZIIdVFgExEdDAB3jRg",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-LL-1",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADKCbgbDqlJAYIe8AO8J1JGABxZTw",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "LOWER FLOOR",
-      "room": "DEEP DIVE 036"
-    },
-    {
       "assetId": "PIU-LL-2",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABCMrFrnCZJRoCB4ZKOL5H-AB7OyQ",
       "category": "M.Eq",
@@ -6560,77 +6660,17 @@
       "entityName": "",
       "generalName": "",
       "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "PIU-LL-3",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABrhYPNeelG_YRmgcn-cfy3AB0Rww",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "LOWER FLOOR",
-      "room": "STORAGE 017"
-    },
-    {
-      "assetId": "PIU-LL-4",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACChl2KddtLpq7g8foIZIrrAB0aqA",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "LOWER FLOOR",
-      "room": "STORAGE 017"
-    },
-    {
-      "assetId": "PIU-LL-5",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADgYANZpL9BqLXrAcefOfwTAB0n1g",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "LOWER FLOOR",
-      "room": "OFFICE 023"
-    },
-    {
-      "assetId": "PIU-LL-6",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADKCbgbDqlJAYIe8AO8J1JGABxaDw",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
-    },
-    {
-      "assetId": "PIU-LL-7",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABrhYPNeelG_YRmgcn-cfy3AB0Hkw",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "LOWER FLOOR",
-      "room": "OFFICE 023"
-    },
-    {
-      "assetId": "PIU-LL-8",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABmWd4v_N1H57Do-vLLCd2pABz2PQ",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "LOWER FLOOR",
-      "room": "OUTSIDE THE BOX 024"
+      "room": "STORAGE 034"
     },
     {
       "assetId": "PIU-LL-9",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAABCMrFrnCZJRoCB4ZKOL5H-AB7Oyg",
       "category": "M.Eq",
       "department": "",
-      "entityName": "",
-      "generalName": "",
+      "entityName": "PIU-LL-9",
+      "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "RM.001.10",
@@ -8921,46 +8961,6 @@
       "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
-    },
-    {
-      "assetId": "RTU-1",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAAARvLBs60ZG3b7R0yJFNsmmABk54A",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "ROOF",
-      "room": ""
-    },
-    {
-      "assetId": "RTU-2",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAAARvLBs60ZG3b7R0yJFNsmmABk3oA",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "ROOF",
-      "room": ""
-    },
-    {
-      "assetId": "VAV-LL-2",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAADril6Q3IFKK5FG5asN1J2CABzh0A",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "LOWER FLOOR",
-      "room": "@ THE END OF THE DAY 025"
-    },
-    {
-      "assetId": "VAV-LL-3",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=HIEG_rRmQaWdIfPybILB_QEAAACUL72mMtdM4b0ZTHQUBJUhABzJYQ",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "",
-      "generalName": "",
-      "level": "LOWER FLOOR",
-      "room": "HOTEL 113.11"
     },
     {
       "assetId": "WD.001A.01",
