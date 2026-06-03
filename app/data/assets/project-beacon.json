@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T14:27:10.718Z",
+  "lastUpdated": "2026-06-03T21:54:42.974Z",
   "totalAssets": 17,
   "assets": [
     {
@@ -18,7 +18,7 @@
       "entityName": "C-L21-02",
       "generalName": "Wall Camera",
       "level": "LEVEL 21",
-      "room": "CONF_LG 21N21"
+      "room": "CIRC 21W08B"
     },
     {
       "assetId": "C-L21-03",
@@ -63,7 +63,7 @@
       "entityName": "C-L21-07",
       "generalName": "Wall Camera",
       "level": "LEVEL 21",
-      "room": "CONF_LG 21N23"
+      "room": "CIRC 21S11B"
     },
     {
       "assetId": "C-L21-08",
