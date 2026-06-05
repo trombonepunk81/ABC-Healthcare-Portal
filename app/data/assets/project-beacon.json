@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-05T19:47:50.287Z",
-  "totalAssets": 17,
+  "lastUpdated": "2026-06-05T20:07:12.357Z",
+  "totalAssets": 92,
   "assets": [
     {
       "assetId": "C-L21-01",
@@ -138,6 +138,24 @@
       "room": "WELL 21S07"
     },
     {
+      "assetId": "OH01-21E07-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA_iA4Mm8tKNIcOTYbnKdbcADJb0g",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OH01-21S06-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsO1A",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Scheduling Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
       "assetId": "OM.20N03.28ESS.EQ.01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAADnI09izblBwIxdu5-MJ36kARjdaQ",
       "category": "28ESS.EQ",
@@ -145,6 +163,663 @@
       "generalName": "Access Control Panel",
       "level": "LEVEL 20",
       "room": ""
+    },
+    {
+      "assetId": "OM01-21E01-27COM-DIS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABMbqvdvvdNhYizByPU1IMfADBTAA",
+      "category": "27COM.DS",
+      "entityName": "",
+      "generalName": "Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_SM 21E01"
+    },
+    {
+      "assetId": "OM01-21E01-27COM-DIS-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAC-tCFnRV1Fcbxs3apKgWrgACPBpw",
+      "category": "27COM.DS",
+      "entityName": "",
+      "generalName": "Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_SM 21E01"
+    },
+    {
+      "assetId": "OM01-21E01-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsHog",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_SM 21E01"
+    },
+    {
+      "assetId": "OM01-21E01-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABQylvIJ11DsZHQjP4qCIECAD_bZg",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21E02-27COM-DIS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA3DdxNzQRM2I7ivnYOS08iAEkt8Q",
+      "category": "27COM.DS",
+      "entityName": "",
+      "generalName": "Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-DM-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TGQ",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Display Mount",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-HR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TGA",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "HDMI Receiver",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-HR-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TGw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "HDMI Receiver",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-ID-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA1YVqZ6hVBErL36fApf87MACq2iA",
+      "category": "27COM.DS",
+      "entityName": "",
+      "generalName": "Interactive Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA8Fb3tBqtK25jjPYCNXCuIAEnbBA",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21E02-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TFQ",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-TP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TFw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-TP-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TIQ",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-TPM-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0THQ",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Table Module",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-TRA-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TGg",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "AV Transmitter",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-TRA-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0THw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "AV Transmitter",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABtlyON7XhA9onKZClfiIvjAEnYtw",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E02-27COM-VSB-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TFg",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_LG 21E02"
+    },
+    {
+      "assetId": "OM01-21E03-27COM-ID-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADmzfF5HipCWLzcybgcR6X2ADTnEQ",
+      "category": "27COM.ID",
+      "entityName": "",
+      "generalName": "Interactive Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21E03"
+    },
+    {
+      "assetId": "OM01-21E03-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADrVo3ral9EhIFy0vi1b-aRADrfxA",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21E03-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0Ttw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21E03"
+    },
+    {
+      "assetId": "OM01-21E03-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TuA",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21E03"
+    },
+    {
+      "assetId": "OM01-21E04B-27COM-DSP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACcCyZhH19NTZsZ0gIGhgPXADbsaA",
+      "category": "27COM.ID",
+      "entityName": "",
+      "generalName": "Digital Signage",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CIRC 21E04B"
+    },
+    {
+      "assetId": "OM01-21E04B-27COM-MP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0Urg",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Expanded Media Player",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CIRC 21E04B"
+    },
+    {
+      "assetId": "OM01-21E09-27COM-DM-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABiNOvBs0dL4IBwkYre_eT7AE1Esw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Display Mount",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "INNOVATION HUB 21E09"
+    },
+    {
+      "assetId": "OM01-21E09-27COM-ID-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAIQDJ2udhHUIIjem-OZHy8ACxZ3g",
+      "category": "27COM.ID",
+      "entityName": "",
+      "generalName": "Interactive Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "INNOVATION HUB 21E09"
+    },
+    {
+      "assetId": "OM01-21E09-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0UGQ",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "INNOVATION HUB 21E09"
+    },
+    {
+      "assetId": "OM01-21E09-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABslUtK9G1Kz6D9PcSRTGOZAEITwA",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "INNOVATION HUB 21E09"
+    },
+    {
+      "assetId": "OM01-21N03-27COM-DIS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABIlUR-xotKkJel2s2nDN3aACPY5g",
+      "category": "27COM.DS",
+      "entityName": "",
+      "generalName": "Wall Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_MED 21N03"
+    },
+    {
+      "assetId": "OM01-21N03-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsH9Q",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21N03-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0UZQ",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_MED 21N03"
+    },
+    {
+      "assetId": "OM01-21N03-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACq-JH8QBNFWoqapP_ZI5bgADMCEQ",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_MED 21N03"
+    },
+    {
+      "assetId": "OM01-21N04-27COM-NS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABU1lNxtx9ObaUTUzopEaplAEzjRQ",
+      "category": "27COM",
+      "entityName": "SW-21N04-01",
+      "generalName": "Network Switch",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "IDF 21N04"
+    },
+    {
+      "assetId": "OM01-21N04-27COM-NS-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADn9MekBCFFwLLZ7Rw2zLfhAE04JQ",
+      "category": "27COM",
+      "entityName": "SW-21N04-02",
+      "generalName": "Network Switch",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "IDF 21N04"
+    },
+    {
+      "assetId": "OM01-21N04-27COM-NS-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADn9MekBCFFwLLZ7Rw2zLfhAE04LQ",
+      "category": "27COM",
+      "entityName": "SW-21N04-03",
+      "generalName": "Network Switch",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "IDF 21N04"
+    },
+    {
+      "assetId": "OM01-21N04-27COM-NS-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADn9MekBCFFwLLZ7Rw2zLfhAE037Q",
+      "category": "28ESS.EQ",
+      "entityName": "SECSW-21N04-01",
+      "generalName": "SEC Network Switch",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "IDF 21N04"
+    },
+    {
+      "assetId": "OM01-21N05-27COM-DSP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACkzwhHEnJGqLMM0WTeGSuWAE0zLw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Digital Signage",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CORR 21N05"
+    },
+    {
+      "assetId": "OM01-21N05-27COM-MP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UsQ",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Expanded Media Player",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CORR 21N05"
+    },
+    {
+      "assetId": "OM01-21N06-27COM-ID-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABm4_2BaiNCiKdurNJJDDrQADYGwA",
+      "category": "27COM.ID",
+      "entityName": "",
+      "generalName": "Interactive Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_SM 21N06"
+    },
+    {
+      "assetId": "OM01-21N06-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABUi8uAJg5MH4oNQGYHYnZ-ADbJaQ",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21N06-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0Ubg",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_SM 21N06"
+    },
+    {
+      "assetId": "OM01-21N06-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABEPv84EhVAT7Tt7wZmR6J5AEVIiQ",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_SM 21N06"
+    },
+    {
+      "assetId": "OM01-21N10-27COM-ID-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADz5hi3Uu5B_7VcmAK1KVz1AEkz3g",
+      "category": "27COM.ID",
+      "entityName": "",
+      "generalName": "Interactive Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_MED 21N10"
+    },
+    {
+      "assetId": "OM01-21N10-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADz5hi3Uu5B_7VcmAK1KVz1AEkz5Q",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21N10-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0Udw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_MED 21N10"
+    },
+    {
+      "assetId": "OM01-21N10-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADFwz6xjFVF0bfP8gKib5OyAEmnwg",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_MED 21N10"
+    },
+    {
+      "assetId": "OM01-21S01-27COM-ID-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAB3KOEc73VM4YlpjaGO5n1rAECfAg",
+      "category": "27COM.ID",
+      "entityName": "",
+      "generalName": "Interactive Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_MED 21S01"
+    },
+    {
+      "assetId": "OM01-21S01-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADASNDsEb1BEZ6wm7Q876QVAC8-mg",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21S01-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0UeA",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_MED 21S01"
+    },
+    {
+      "assetId": "OM01-21S01-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAiwQNfjkJCcLuD37GFSRtMADMJSA",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "PROJ RM_MED 21S01"
+    },
+    {
+      "assetId": "OM01-21S04-27COM-DSP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAOWRsQveZEUYeonWQv6lhjAEyWDA",
+      "category": "27COM.ID",
+      "entityName": "",
+      "generalName": "Digital Signage",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CORR 21S04"
+    },
+    {
+      "assetId": "OM01-21S04-27COM-MP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0Urw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Expanded Media Player",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CORR 21S04"
+    },
+    {
+      "assetId": "OM01-21S05-27COM-ID-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAzughY_HxPLbSBrwHpF1CsADXD4w",
+      "category": "27COM.ID",
+      "entityName": "",
+      "generalName": "Interactive Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21S05"
+    },
+    {
+      "assetId": "OM01-21S05-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAzughY_HxPLbSBrwHpF1CsADXD3g",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CIRC 21S11B"
+    },
+    {
+      "assetId": "OM01-21S05-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0UgQ",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21S05"
+    },
+    {
+      "assetId": "OM01-21S05-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0Ugg",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21S05"
+    },
+    {
+      "assetId": "OM01-21S06-27COM-ID-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADf1hGYGgpMrZA_aaqjYardADUw0g",
+      "category": "27COM.DS",
+      "entityName": "",
+      "generalName": "Interactive Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21S06"
+    },
+    {
+      "assetId": "OM01-21S06-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UoA",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21S06"
+    },
+    {
+      "assetId": "OM01-21W03-27COM-DIS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABIlUR-xotKkJel2s2nDN3aACPb7g",
+      "category": "27COM.DS",
+      "entityName": "",
+      "generalName": "Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21W03"
+    },
+    {
+      "assetId": "OM01-21W03-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsNlQ",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21W03-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0Ukw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21W03"
+    },
+    {
+      "assetId": "OM01-21W03-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAD7isMHWI9K-JzQ_6zLAsMZADRRFw",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21W03"
+    },
+    {
+      "assetId": "OM01-21W04-27COM-DIS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADZGb9PMvJETrFKAKZ1CZY5ACPHTg",
+      "category": "27COM.DS",
+      "entityName": "",
+      "generalName": "Wall Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_SM 21W04"
+    },
+    {
+      "assetId": "OM01-21W04-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0Ung",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_SM 21W05"
+    },
+    {
+      "assetId": "OM01-21W04-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADwN1RLNTBKHY5qJ3a2-dgiACwayw",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CONF_SM 21W04"
+    },
+    {
+      "assetId": "OM01-21W05-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsWMQ",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21W05-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAD7isMHWI9K-JzQ_6zLAsMZADRQlg",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "OFFICE 21W06"
+    },
+    {
+      "assetId": "OM01-21W07-27COM-ID-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADz5hi3Uu5B_7VcmAK1KVz1AEkz2w",
+      "category": "27COM.ID",
+      "entityName": "",
+      "generalName": "Interactive Display",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21W07"
+    },
+    {
+      "assetId": "OM01-21W07-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABHopBuG4BD_5m2xo479xfRAEmzWA",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21W07-27COM-TP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0Unw",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Touch Panel",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21W07"
+    },
+    {
+      "assetId": "OM01-21W07-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADFwz6xjFVF0bfP8gKib5OyAEmnWQ",
+      "category": "27COM.AD",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "HUDDLE 21W07"
+    },
+    {
+      "assetId": "OM01-21W08A-27COM-DSP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAya-SaWhNG36wtZKQwuuz6AEnjkA",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Digital Signage",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CIRC 21W08A"
+    },
+    {
+      "assetId": "OM01-21W08A-27COM-MP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UsA",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Expanded Media Player",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CIRC 21W08A"
     },
     {
       "assetId": "OM01.21C02.28ESS.CAM.01",
