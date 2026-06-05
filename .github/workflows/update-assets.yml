@@ -34,6 +34,7 @@ jobs:
               'urn:adsk.dtm:HIEG_rRmQaWdIfPybILB_Q': 'je-dunn-atlanta-office',
               'urn:adsk.dtm:I8zS7A4ISR655jb8_Z32BA': 'je-dunn-atlanta-office',
               'urn:adsk.dtm:i4SuEcbORDqdMuAIoyh31Q': 'project-beacon',
+              'urn:adsk.dtm:YKcdg6DJT9OjX-MaEaBjEg': 'project-beacon',
             };
 
             const modelUrn = incoming.model || '';
