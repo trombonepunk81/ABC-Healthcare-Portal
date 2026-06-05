@@ -64,10 +64,6 @@ jobs:
                 } catch (e) {
                   console.log('No existing file or parse error, starting fresh');
                 }
-
-                const assetMap = new Map();
-                (existing.assets || []).forEach(a => assetMap.set(a.assetId, a));
-                (incoming.assets || []).forEach(a => assetMap.set(a.assetId, a));
                 
                 const assetMap = new Map();
                 (existing.assets || []).forEach(a => assetMap.set(a.assetId, a));
