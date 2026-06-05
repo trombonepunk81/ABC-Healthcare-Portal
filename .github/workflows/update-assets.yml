@@ -48,7 +48,8 @@ jobs:
             console.log(`Writing to ${filePath} for model ${modelUrn}`);
 
             // Stagger start to reduce simultaneous push collisions across batches
-            await new Promise(r => setTimeout(r, Math.random() * 5000));
+            const batchDelay = (incoming.assets?.length < 50) ? 15000 : 2000;
+            await new Promise(r => setTimeout(r, batchDelay + Math.random() * 3000));
 
             const maxRetries = 10;
             for (let attempt = 1; attempt <= maxRetries; attempt++) {
