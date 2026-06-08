@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-05T20:07:28.982Z",
-  "totalAssets": 92,
+  "lastUpdated": "2026-06-08T21:21:38.099Z",
+  "totalAssets": 94,
   "assets": [
     {
       "assetId": "C-L21-01",
@@ -151,7 +151,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsO1A",
       "category": "27COM.RS",
       "entityName": "",
-      "generalName": "Logitech Scheduling Panel",
+      "generalName": "Scheduling Panel",
       "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
       "room": ""
     },
@@ -367,7 +367,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACcCyZhH19NTZsZ0gIGhgPXADbsaA",
       "category": "27COM.ID",
       "entityName": "",
-      "generalName": "Digital Signage",
+      "generalName": "Interactive Display",
       "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
       "room": "CIRC 21E04B"
     },
@@ -379,6 +379,15 @@
       "generalName": "Expanded Media Player",
       "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
       "room": "CIRC 21E04B"
+    },
+    {
+      "assetId": "OM01-21E07-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA_iA4Mm8tKNIcOTYbnKdbcADJb0g",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": ""
     },
     {
       "assetId": "OM01-21E09-27COM-DM-01",
@@ -732,6 +741,15 @@
       "room": "CONF_SM 21W04"
     },
     {
+      "assetId": "OM01-21W04-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABiNOvBs0dL4IBwkYre_eT7AE1AXw",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
+      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "room": "CIRC 21W08B"
+    },
+    {
       "assetId": "OM01-21W04-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0Ung",
       "category": "27COM",
@@ -808,7 +826,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAya-SaWhNG36wtZKQwuuz6AEnjkA",
       "category": "27COM",
       "entityName": "",
-      "generalName": "Digital Signage",
+      "generalName": "Wall Display",
       "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
       "room": "CIRC 21W08A"
     },
