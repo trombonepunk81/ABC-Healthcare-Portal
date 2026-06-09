@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T21:21:53.623Z",
+  "lastUpdated": "2026-06-09T14:59:19.279Z",
   "totalAssets": 94,
   "assets": [
     {
@@ -152,7 +152,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Scheduling Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -170,7 +170,7 @@
       "category": "27COM.DS",
       "entityName": "",
       "generalName": "Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_SM 21E01"
     },
     {
@@ -179,7 +179,7 @@
       "category": "27COM.DS",
       "entityName": "",
       "generalName": "Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_SM 21E01"
     },
     {
@@ -188,7 +188,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_SM 21E01"
     },
     {
@@ -197,7 +197,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -206,7 +206,7 @@
       "category": "27COM.DS",
       "entityName": "",
       "generalName": "Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -215,7 +215,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Display Mount",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -224,7 +224,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "HDMI Receiver",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -233,7 +233,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "HDMI Receiver",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -242,7 +242,7 @@
       "category": "27COM.DS",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -251,7 +251,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -260,7 +260,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -269,7 +269,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -278,7 +278,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -287,7 +287,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Table Module",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -296,7 +296,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "AV Transmitter",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -305,7 +305,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "AV Transmitter",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -314,7 +314,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -323,7 +323,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_LG 21E02"
     },
     {
@@ -332,7 +332,7 @@
       "category": "27COM.ID",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21E03"
     },
     {
@@ -341,7 +341,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -350,7 +350,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21E03"
     },
     {
@@ -359,7 +359,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21E03"
     },
     {
@@ -368,7 +368,7 @@
       "category": "27COM.ID",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CIRC 21E04B"
     },
     {
@@ -377,7 +377,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Expanded Media Player",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CIRC 21E04B"
     },
     {
@@ -386,7 +386,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -395,7 +395,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Display Mount",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "INNOVATION HUB 21E09"
     },
     {
@@ -404,7 +404,7 @@
       "category": "27COM.ID",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "INNOVATION HUB 21E09"
     },
     {
@@ -413,7 +413,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "INNOVATION HUB 21E09"
     },
     {
@@ -422,7 +422,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "INNOVATION HUB 21E09"
     },
     {
@@ -431,7 +431,7 @@
       "category": "27COM.DS",
       "entityName": "",
       "generalName": "Wall Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_MED 21N03"
     },
     {
@@ -440,7 +440,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -449,7 +449,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_MED 21N03"
     },
     {
@@ -458,7 +458,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_MED 21N03"
     },
     {
@@ -467,7 +467,7 @@
       "category": "27COM",
       "entityName": "SW-21N04-01",
       "generalName": "Network Switch",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "IDF 21N04"
     },
     {
@@ -476,7 +476,7 @@
       "category": "27COM",
       "entityName": "SW-21N04-02",
       "generalName": "Network Switch",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "IDF 21N04"
     },
     {
@@ -485,7 +485,7 @@
       "category": "27COM",
       "entityName": "SW-21N04-03",
       "generalName": "Network Switch",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "IDF 21N04"
     },
     {
@@ -494,7 +494,7 @@
       "category": "28ESS.EQ",
       "entityName": "SECSW-21N04-01",
       "generalName": "SEC Network Switch",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "IDF 21N04"
     },
     {
@@ -503,7 +503,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Digital Signage",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CORR 21N05"
     },
     {
@@ -512,7 +512,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Expanded Media Player",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CORR 21N05"
     },
     {
@@ -521,7 +521,7 @@
       "category": "27COM.ID",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_SM 21N06"
     },
     {
@@ -530,7 +530,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -539,7 +539,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_SM 21N06"
     },
     {
@@ -548,7 +548,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_SM 21N06"
     },
     {
@@ -557,7 +557,7 @@
       "category": "27COM.ID",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_MED 21N10"
     },
     {
@@ -566,7 +566,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -575,7 +575,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_MED 21N10"
     },
     {
@@ -584,7 +584,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_MED 21N10"
     },
     {
@@ -593,7 +593,7 @@
       "category": "27COM.ID",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_MED 21S01"
     },
     {
@@ -602,7 +602,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -611,7 +611,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_MED 21S01"
     },
     {
@@ -620,7 +620,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "PROJ RM_MED 21S01"
     },
     {
@@ -629,7 +629,7 @@
       "category": "27COM.ID",
       "entityName": "",
       "generalName": "Digital Signage",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CORR 21S04"
     },
     {
@@ -638,7 +638,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Expanded Media Player",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CORR 21S04"
     },
     {
@@ -647,7 +647,7 @@
       "category": "27COM.ID",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21S05"
     },
     {
@@ -656,7 +656,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CIRC 21S11B"
     },
     {
@@ -665,7 +665,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21S05"
     },
     {
@@ -674,7 +674,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21S05"
     },
     {
@@ -683,7 +683,7 @@
       "category": "27COM.DS",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21S06"
     },
     {
@@ -692,7 +692,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21S06"
     },
     {
@@ -701,7 +701,7 @@
       "category": "27COM.DS",
       "entityName": "",
       "generalName": "Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21W03"
     },
     {
@@ -710,7 +710,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -719,7 +719,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21W03"
     },
     {
@@ -728,7 +728,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21W03"
     },
     {
@@ -737,7 +737,7 @@
       "category": "27COM.DS",
       "entityName": "",
       "generalName": "Wall Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_SM 21W04"
     },
     {
@@ -746,7 +746,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CIRC 21W08B"
     },
     {
@@ -755,7 +755,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_SM 21W05"
     },
     {
@@ -764,7 +764,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CONF_SM 21W04"
     },
     {
@@ -773,7 +773,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -791,7 +791,7 @@
       "category": "27COM.ID",
       "entityName": "",
       "generalName": "Interactive Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21W07"
     },
     {
@@ -800,7 +800,7 @@
       "category": "27COM.RS",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -809,7 +809,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Touch Panel",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21W07"
     },
     {
@@ -818,7 +818,7 @@
       "category": "27COM.AD",
       "entityName": "",
       "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "HUDDLE 21W07"
     },
     {
@@ -827,7 +827,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Wall Display",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CIRC 21W08A"
     },
     {
@@ -836,7 +836,7 @@
       "category": "27COM",
       "entityName": "",
       "generalName": "Expanded Media Player",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
+      "level": "LEVEL 21",
       "room": "CIRC 21W08A"
     },
     {
