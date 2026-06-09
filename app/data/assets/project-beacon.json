@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T15:08:26.656Z",
+  "lastUpdated": "2026-06-09T15:40:05.741Z",
   "totalAssets": 94,
   "assets": [
     {
@@ -151,7 +151,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsO1A",
       "category": "27COM.RS",
       "entityName": "",
-      "generalName": "Scheduling Panel",
+      "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
       "room": ""
     },
@@ -657,7 +657,7 @@
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
-      "room": "CIRC 21S11B"
+      "room": "CIRC 21S11B, HUDDLE 21S05"
     },
     {
       "assetId": "OM01-21S05-27COM-TP-01",
@@ -747,7 +747,7 @@
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
-      "room": "CIRC 21W08B"
+      "room": "CIRC 21W08B, CONF_SM 21W04"
     },
     {
       "assetId": "OM01-21W04-27COM-TP-01",
