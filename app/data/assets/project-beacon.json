@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T15:40:05.741Z",
+  "lastUpdated": "2026-06-09T15:40:18.813Z",
   "totalAssets": 94,
   "assets": [
     {
@@ -81,7 +81,7 @@
       "entityName": "CR 21C02",
       "generalName": "Card Reader",
       "level": "LEVEL 21",
-      "room": "COPY / PRINT / FILE 21C02"
+      "room": "COPY / PRINT / FILE 21C02, CORR 21C03"
     },
     {
       "assetId": "CR 21C05",
