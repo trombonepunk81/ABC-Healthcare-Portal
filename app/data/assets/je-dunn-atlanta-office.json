@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T19:07:24.005Z",
+  "lastUpdated": "2026-06-10T12:44:39.864Z",
   "totalAssets": 1138,
   "assets": [
     {
@@ -54,7 +54,7 @@
     },
     {
       "assetId": "JD4021-LF-001.14-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADsA5P-AgJD64J2lc4BL-FiABJf1g",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
@@ -64,7 +64,7 @@
     },
     {
       "assetId": "JD4021-LF-001.15-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADsA5P-AgJD64J2lc4BL-FiABJf1Q",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
@@ -74,7 +74,7 @@
     },
     {
       "assetId": "JD4021-LF-001.16-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADsA5P-AgJD64J2lc4BL-FiABJf1w",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
@@ -164,7 +164,7 @@
     },
     {
       "assetId": "JD4021-LF-001A-26ELE-SL-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADS7V4tyEJPiqNXSRFpjKg5AAr50w",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -174,7 +174,7 @@
     },
     {
       "assetId": "JD4021-LF-001A-26ELE-SL-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADS7V4tyEJPiqNXSRFpjKg5AAr54A",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -244,7 +244,7 @@
     },
     {
       "assetId": "JD4021-LF-001B-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30-A",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -254,7 +254,7 @@
     },
     {
       "assetId": "JD4021-LF-001B-26ELE-LI-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA31Cg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -474,7 +474,7 @@
     },
     {
       "assetId": "JD4021-LF-003.10-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLpw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS129",
@@ -484,7 +484,7 @@
     },
     {
       "assetId": "JD4021-LF-003.11-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLZA",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS126",
@@ -494,7 +494,7 @@
     },
     {
       "assetId": "JD4021-LF-003.12-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLhw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS125",
@@ -504,7 +504,7 @@
     },
     {
       "assetId": "JD4021-LF-003.13-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLjw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS124",
@@ -514,7 +514,7 @@
     },
     {
       "assetId": "JD4021-LF-003.2-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHL7Q",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "QUALITY AND SCHED",
       "entityName": "DS135",
@@ -524,7 +524,7 @@
     },
     {
       "assetId": "JD4021-LF-003.3-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHL4w",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "QUALITY AND SCHED",
       "entityName": "DS134",
@@ -534,7 +534,7 @@
     },
     {
       "assetId": "JD4021-LF-003.4-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHL2w",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "QUALITY AND SCHED",
       "entityName": "DS133",
@@ -544,7 +544,7 @@
     },
     {
       "assetId": "JD4021-LF-003.5-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLvQ",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS132",
@@ -554,7 +554,7 @@
     },
     {
       "assetId": "JD4021-LF-003.6-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLsw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS131",
@@ -564,7 +564,7 @@
     },
     {
       "assetId": "JD4021-LF-003.7-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLxQ",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "QUALITY AND SCHED",
       "entityName": "DS130",
@@ -574,7 +574,7 @@
     },
     {
       "assetId": "JD4021-LF-003.8-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLlw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS127",
@@ -584,7 +584,7 @@
     },
     {
       "assetId": "JD4021-LF-003.9-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLnw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS128",
@@ -774,7 +774,7 @@
     },
     {
       "assetId": "JD4021-LF-005-26ELE-EP-05",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADwcN-PZoNA55uZzvfroEorABEVTg",
+      "assetUrl": "",
       "category": "E.Eq",
       "department": "",
       "entityName": "L1B",
@@ -794,7 +794,7 @@
     },
     {
       "assetId": "JD4021-LF-005-26ELE-SL-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADS7V4tyEJPiqNXSRFpjKg5AAr57Q",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -804,7 +804,7 @@
     },
     {
       "assetId": "JD4021-LF-005-26ELE-SL-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADS7V4tyEJPiqNXSRFpjKg5AAr58A",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -824,7 +824,7 @@
     },
     {
       "assetId": "JD4021-LF-005A-26ELE-SL-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADS7V4tyEJPiqNXSRFpjKg5AAr54w",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -924,7 +924,7 @@
     },
     {
       "assetId": "JD4021-LF-006.2-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLWg",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS123",
@@ -934,7 +934,7 @@
     },
     {
       "assetId": "JD4021-LF-006.3-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLSQ",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "APTITUDE",
       "entityName": "DS122",
@@ -944,7 +944,7 @@
     },
     {
       "assetId": "JD4021-LF-006.4-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD-XfPJjClHY6urBnqmiEGnABHLLg",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "SELF PERFORM",
       "entityName": "DS121",
@@ -1144,7 +1144,7 @@
     },
     {
       "assetId": "JD4021-LF-013-25INT-GW-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADLzAHz8JJD87OoUMZtG87DABeFhA",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
@@ -1174,7 +1174,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA34mw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1184,7 +1184,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA353A",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1194,7 +1194,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36gw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1204,7 +1204,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36hA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1214,7 +1214,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-05",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36tw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1224,7 +1224,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-06",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36uA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1234,7 +1234,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-07",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36uw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1244,7 +1244,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-08",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36vA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1254,7 +1254,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-09",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36vw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1264,7 +1264,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-10",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36wA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1274,7 +1274,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-11",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36ww",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1284,7 +1284,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-12",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA36xA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1294,7 +1294,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-13",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA37YA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1304,7 +1304,7 @@
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-14",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA37YQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1684,7 +1684,7 @@
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3jBQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1694,7 +1694,7 @@
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3kYw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1704,7 +1704,7 @@
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3kmw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1714,7 +1714,7 @@
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3koQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1724,7 +1724,7 @@
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-05",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3kpw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1734,7 +1734,7 @@
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-06",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3krQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1744,7 +1744,7 @@
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-07",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3ksw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1794,7 +1794,7 @@
     },
     {
       "assetId": "JD4021-LF-020-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3uLw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -1824,7 +1824,7 @@
     },
     {
       "assetId": "JD4021-LF-021-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3uyA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2054,7 +2054,7 @@
     },
     {
       "assetId": "JD4021-LF-022-27COM-AN-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADcJ-rj8B9K0oI183_O0WYbAA-n9A",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
@@ -2084,7 +2084,7 @@
     },
     {
       "assetId": "JD4021-LF-022-28ESS-LD-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADCPUWBLT9PRYbigwLAI46GABJAow",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
@@ -2144,7 +2144,7 @@
     },
     {
       "assetId": "JD4021-LF-023-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3yXw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2154,7 +2154,7 @@
     },
     {
       "assetId": "JD4021-LF-023-26ELE-LI-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3ymg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2164,7 +2164,7 @@
     },
     {
       "assetId": "JD4021-LF-023-26ELE-LI-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3yxA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2174,7 +2174,7 @@
     },
     {
       "assetId": "JD4021-LF-023-26ELE-LI-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3y1g",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2214,7 +2214,7 @@
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3yzA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2224,7 +2224,7 @@
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3z5w",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2234,7 +2234,7 @@
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA3z7w",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2244,7 +2244,7 @@
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30ew",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2254,7 +2254,7 @@
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-05",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30fA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2264,7 +2264,7 @@
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-06",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30fQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2304,7 +2304,7 @@
     },
     {
       "assetId": "JD4021-LF-025-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30kw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2314,7 +2314,7 @@
     },
     {
       "assetId": "JD4021-LF-025-26ELE-LI-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30lA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2324,7 +2324,7 @@
     },
     {
       "assetId": "JD4021-LF-025-26ELE-LI-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30lg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2334,7 +2334,7 @@
     },
     {
       "assetId": "JD4021-LF-025-26ELE-LI-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30lw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2584,7 +2584,7 @@
     },
     {
       "assetId": "JD4021-LF-028-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA30zA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2594,7 +2594,7 @@
     },
     {
       "assetId": "JD4021-LF-028-26ELE-LI-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA301A",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2604,7 +2604,7 @@
     },
     {
       "assetId": "JD4021-LF-029-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA303A",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2794,7 +2794,7 @@
     },
     {
       "assetId": "JD4021-LF-033-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA306A",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2804,7 +2804,7 @@
     },
     {
       "assetId": "JD4021-LF-033-26ELE-LI-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA31HA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2834,7 +2834,7 @@
     },
     {
       "assetId": "JD4021-LF-034-26ELE-LI-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD06xD-HuVMyYEpnrpi1yaSAA308A",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -2974,7 +2974,7 @@
     },
     {
       "assetId": "JD4021-LF-J01-26ELE-SL-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADS7V4tyEJPiqNXSRFpjKg5AAr5Cg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -3084,7 +3084,7 @@
     },
     {
       "assetId": "JD4021-LF-W0.01-25INT-GW-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADLzAHz8JJD87OoUMZtG87DABeBHg",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "",
       "entityName": "PG01",
@@ -4644,7 +4644,7 @@
     },
     {
       "assetId": "JD4021-MF-102-44POL-AQ-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHI6A",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "CONFERENCE ROOM",
       "entityName": "AS-13",
@@ -4774,7 +4774,7 @@
     },
     {
       "assetId": "JD4021-MF-103-44POL-AQ-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHIvw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "CONFERENCE ROOM",
       "entityName": "AS-11",
@@ -5204,7 +5204,7 @@
     },
     {
       "assetId": "JD4021-MF-107-26ELE-EP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADwXG496NlD1IZLP6gJjspTAApinA",
+      "assetUrl": "",
       "category": "E.Eq",
       "department": "",
       "entityName": "L2A",
@@ -5404,7 +5404,7 @@
     },
     {
       "assetId": "JD4021-MF-110A-26ELE-SL-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZwIGV6B9Gl6JYs4Zxnr_GAAsdwg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5424,7 +5424,7 @@
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Guw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5434,7 +5434,7 @@
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GvA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5444,7 +5444,7 @@
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GvQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5454,7 +5454,7 @@
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Gvw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5464,7 +5464,7 @@
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-05",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GwA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5474,7 +5474,7 @@
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-06",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GwQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5484,7 +5484,7 @@
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-07",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Gww",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5494,7 +5494,7 @@
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-08",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GxA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5504,7 +5504,7 @@
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-09",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GxQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -5554,7 +5554,7 @@
     },
     {
       "assetId": "JD4021-MF-111-44POL-AQ-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJfQ",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "GATHERING",
       "entityName": "AS-14",
@@ -5724,7 +5724,7 @@
     },
     {
       "assetId": "JD4021-MF-112-44POL-AQ-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJEw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "CONFERENCE ROOM",
       "entityName": "AS-20",
@@ -6414,7 +6414,7 @@
     },
     {
       "assetId": "JD4021-MF-122.4-25INT-GW-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADLzAHz8JJD87OoUMZtG87DABeMwA",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "EDUCATION",
       "entityName": "PG02",
@@ -6724,7 +6724,7 @@
     },
     {
       "assetId": "JD4021-MF-127-28ESS-LD-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADCPUWBLT9PRYbigwLAI46GABJIEg",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
@@ -6794,7 +6794,7 @@
     },
     {
       "assetId": "JD4021-MF-129.1-26ELE-LP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4FjQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -6814,7 +6814,7 @@
     },
     {
       "assetId": "JD4021-MF-129.12-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-qQ",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "COMMERCIAL",
       "entityName": "DS60",
@@ -6824,7 +6824,7 @@
     },
     {
       "assetId": "JD4021-MF-129.13-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-qg",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "COMMERCIAL",
       "entityName": "DS61",
@@ -6834,7 +6834,7 @@
     },
     {
       "assetId": "JD4021-MF-129.14-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-qw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "COMMERCIAL",
       "entityName": "DS62",
@@ -6864,7 +6864,7 @@
     },
     {
       "assetId": "JD4021-MF-129.2-26ELE-LP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Fjw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -7114,7 +7114,7 @@
     },
     {
       "assetId": "JD4021-MF-133.1-26ELE-LP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GGw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -7134,7 +7134,7 @@
     },
     {
       "assetId": "JD4021-MF-133.10-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-tw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "DS71",
@@ -7144,7 +7144,7 @@
     },
     {
       "assetId": "JD4021-MF-133.2-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-yw",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "DS63",
@@ -7154,7 +7154,7 @@
     },
     {
       "assetId": "JD4021-MF-133.3-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-zA",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "DS64",
@@ -7164,7 +7164,7 @@
     },
     {
       "assetId": "JD4021-MF-133.4-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-zQ",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "DS65",
@@ -7174,7 +7174,7 @@
     },
     {
       "assetId": "JD4021-MF-133.5-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-ww",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "DS66",
@@ -7184,7 +7184,7 @@
     },
     {
       "assetId": "JD4021-MF-133.6-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-wg",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "DS67",
@@ -7194,7 +7194,7 @@
     },
     {
       "assetId": "JD4021-MF-133.7-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-wQ",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "DS68",
@@ -7204,7 +7204,7 @@
     },
     {
       "assetId": "JD4021-MF-133.8-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-tQ",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "DS69",
@@ -7214,7 +7214,7 @@
     },
     {
       "assetId": "JD4021-MF-133.9-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-tg",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "DS70",
@@ -7264,7 +7264,7 @@
     },
     {
       "assetId": "JD4021-MF-133J-25INT-DS-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADB4UYGT0tEwYMVfBLv5HOjABF-oQ",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "COMMERCIAL",
       "entityName": "DS59",
@@ -7844,7 +7844,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Hjg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -7854,7 +7854,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4HoA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -7864,7 +7864,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Hsw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -7874,7 +7874,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Htg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -7884,7 +7884,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-05",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4HuQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -7984,7 +7984,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.04-44POL-AQ-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJWg",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "LEAN",
       "entityName": "AS-15",
@@ -8164,7 +8164,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.05-44POL-AQ-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHKEg",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "Education",
       "entityName": "AS-18",
@@ -8354,7 +8354,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-LP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Fjg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "COMMERCIAL",
       "entityName": "",
@@ -8364,7 +8364,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4IVg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -8374,7 +8374,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4IbA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -8384,7 +8384,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4IdA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -8394,7 +8394,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Ifg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -8404,7 +8404,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-05",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Iig",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -8414,7 +8414,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-06",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4IpA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -8464,7 +8464,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.08-44POL-AQ-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJuA",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "VDC",
       "entityName": "AS-16",
@@ -8574,7 +8574,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.09-26ELE-LP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GFw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "VDC",
       "entityName": "",
@@ -8584,7 +8584,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.09-26ELE-LP-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GGA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "VDC",
       "entityName": "",
@@ -8594,7 +8594,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.09-26ELE-LP-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GGQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "VDC",
       "entityName": "",
@@ -8604,7 +8604,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.09-26ELE-LP-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4GGg",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "VDC",
       "entityName": "",
@@ -8694,7 +8694,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.10-26ELE-LP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4FiQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "COMMERCIAL",
       "entityName": "",
@@ -8704,7 +8704,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.10-26ELE-LP-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Fig",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "COMMERCIAL",
       "entityName": "",
@@ -8714,7 +8714,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.10-26ELE-LP-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4Fiw",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "COMMERCIAL",
       "entityName": "",
@@ -8724,7 +8724,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.10-26ELE-LP-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAAD_bSMF9J5PsoGUCUM74l6HAA4FjA",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "COMMERCIAL",
       "entityName": "",
@@ -8734,7 +8734,7 @@
     },
     {
       "assetId": "JD4021-MF-W1.10-44POL-AQ-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADZ_172FcRJc4cmUeOjIP4tABHJ-g",
+      "assetUrl": "",
       "category": "Q.CD",
       "department": "Commercial",
       "entityName": "AS-17",
@@ -8794,7 +8794,7 @@
     },
     {
       "assetId": "JD4021-ST-PL.01-26ELE-PL-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABhdiQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -8804,7 +8804,7 @@
     },
     {
       "assetId": "JD4021-ST-PL.01-26ELE-PL-02",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheUQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -8814,7 +8814,7 @@
     },
     {
       "assetId": "JD4021-ST-PL.01-26ELE-PL-03",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheYQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -8824,7 +8824,7 @@
     },
     {
       "assetId": "JD4021-ST-PL.01-26ELE-PL-04",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AEAAADX2Pf3m1FPfqxKUHpKZM-bABheuQ",
+      "assetUrl": "",
       "category": "E.LF",
       "department": "",
       "entityName": "",
