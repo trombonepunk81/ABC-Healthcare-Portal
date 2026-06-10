@@ -116,16 +116,10 @@ jobs:
                   const allComplete = allModelUrns.every(urn => {
                     const key = urn.replace(/[^a-zA-Z0-9_-]/g, '_');
                     const path = `${stagingDir}/${projectId}.${key}.staging.json`;
+                  
+                    // Missing = not yet arrived, block finalization
+                    if (!fs.existsSync(path)) return false;
                     
-                    // If no staging file exists, check if this model already
-                    // contributed to the current production file (i.e. it ran
-                    // earlier and finalized). If so, treat it as implicitly complete.
-                    if (!fs.existsSync(path)) {
-                      // Missing staging file — either it hasn't run yet, or it
-                      // already completed in a prior run. We can't distinguish
-                      // these cases, so skip requirement for missing models.
-                      return true;
-                    }
                     try {
                       return JSON.parse(fs.readFileSync(path, 'utf8')).complete === true;
                     } catch (e) {
