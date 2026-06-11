@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "modelUrn": "urn:adsk.dtm:YKcdg6DJT9OjX-MaEaBjEg",
-  "totalBatches": null,
+  "totalBatches": 1,
   "batchesReceived": [
     1
   ],
@@ -817,6 +817,6 @@
       "room": ""
     }
   ],
-  "complete": false,
-  "updatedAt": "2026-06-11T19:25:28.427Z"
+  "complete": true,
+  "updatedAt": "2026-06-11T19:33:44.885Z"
 }
