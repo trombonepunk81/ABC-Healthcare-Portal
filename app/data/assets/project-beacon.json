@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-09T15:40:18.813Z",
-  "totalAssets": 94,
+  "lastUpdated": "2026-06-11T19:33:53.172Z",
+  "totalAssets": 106,
   "assets": [
     {
       "assetId": "C-L21-01",
@@ -138,20 +138,47 @@
       "room": "WELL 21S07"
     },
     {
-      "assetId": "OH01-21E07-27COM-SP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA_iA4Mm8tKNIcOTYbnKdbcADJb0g",
-      "category": "27COM.RS",
+      "assetId": "DS_21E04B",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACcCyZhH19NTZsZ0gIGhgPXADbsaA",
+      "category": "27COM.ID",
       "entityName": "",
-      "generalName": "Logitech Tap Scheduler",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
-      "room": ""
+      "generalName": "Interactive Display",
+      "level": "LEVEL 21",
+      "room": "CIRC 21E04B"
+    },
+    {
+      "assetId": "DS_21W08A",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAya-SaWhNG36wtZKQwuuz6AEnjkA",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Wall Display",
+      "level": "LEVEL 21",
+      "room": "CIRC 21W08A"
+    },
+    {
+      "assetId": "MP_21E04B",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0Urg",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Expanded Media Player",
+      "level": "LEVEL 21",
+      "room": "CIRC 21E04B"
+    },
+    {
+      "assetId": "MP_21W08A",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UsA",
+      "category": "27COM",
+      "entityName": "",
+      "generalName": "Expanded Media Player",
+      "level": "LEVEL 21",
+      "room": "CIRC 21W08A"
     },
     {
       "assetId": "OH01-21S06-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsO1A",
       "category": "27COM.RS",
       "entityName": "",
-      "generalName": "Logitech Tap Scheduler",
+      "generalName": "Scheduling Panel",
       "level": "LEVEL 21",
       "room": ""
     },
@@ -162,6 +189,33 @@
       "entityName": "ACP-20N03",
       "generalName": "Access Control Panel",
       "level": "LEVEL 20",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21C01-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETITQ",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21C04-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcog",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21C07-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIcQ",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
       "room": ""
     },
     {
@@ -363,29 +417,29 @@
       "room": "HUDDLE 21E03"
     },
     {
-      "assetId": "OM01-21E04B-27COM-DSP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACcCyZhH19NTZsZ0gIGhgPXADbsaA",
-      "category": "27COM.ID",
+      "assetId": "OM01-21E04A-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcqw",
+      "category": "27COM.WAP",
       "entityName": "",
-      "generalName": "Interactive Display",
+      "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": "CIRC 21E04B"
+      "room": ""
     },
     {
-      "assetId": "OM01-21E04B-27COM-MP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0Urg",
-      "category": "27COM",
+      "assetId": "OM01-21E07-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIVg",
+      "category": "27COM.WAP",
       "entityName": "",
-      "generalName": "Expanded Media Player",
+      "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": "CIRC 21E04B"
+      "room": ""
     },
     {
-      "assetId": "OM01-21E07-27COM-SP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA_iA4Mm8tKNIcOTYbnKdbcADJb0g",
-      "category": "27COM.RS",
+      "assetId": "OM01-21E08-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcmQ",
+      "category": "27COM.WAP",
       "entityName": "",
-      "generalName": "Logitech Tap Scheduler",
+      "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
       "room": ""
     },
@@ -552,6 +606,15 @@
       "room": "CONF_SM 21N06"
     },
     {
+      "assetId": "OM01-21N06-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpctA",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": "CONF_SM 21N06"
+    },
+    {
       "assetId": "OM01-21N10-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADz5hi3Uu5B_7VcmAK1KVz1AEkz3g",
       "category": "27COM.ID",
@@ -586,6 +649,33 @@
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
       "room": "CONF_MED 21N10"
+    },
+    {
+      "assetId": "OM01-21N10-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcXA",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": "CONF_MED 21N10"
+    },
+    {
+      "assetId": "OM01-21N14-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcvQ",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21N19-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIXw",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": ""
     },
     {
       "assetId": "OM01-21S01-27COM-ID-01",
@@ -696,6 +786,33 @@
       "room": "HUDDLE 21S06"
     },
     {
+      "assetId": "OM01-21S08-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpchQ",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21S11C-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpckA",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": ""
+    },
+    {
+      "assetId": "OM01-21S12-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIeg",
+      "category": "27COM.WAP",
+      "entityName": "",
+      "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": ""
+    },
+    {
       "assetId": "OM01-21W03-27COM-DIS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABIlUR-xotKkJel2s2nDN3aACPb7g",
       "category": "27COM.DS",
@@ -777,15 +894,6 @@
       "room": ""
     },
     {
-      "assetId": "OM01-21W05-27COM-VSB-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAD7isMHWI9K-JzQ_6zLAsMZADRQlg",
-      "category": "27COM.AD",
-      "entityName": "",
-      "generalName": "Video Sound Bar",
-      "level": "ObsVOveaSfm7v9aVCbecsAAcQxQ",
-      "room": "OFFICE 21W06"
-    },
-    {
       "assetId": "OM01-21W07-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADz5hi3Uu5B_7VcmAK1KVz1AEkz2w",
       "category": "27COM.ID",
@@ -822,31 +930,31 @@
       "room": "HUDDLE 21W07"
     },
     {
-      "assetId": "OM01-21W08A-27COM-DSP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAya-SaWhNG36wtZKQwuuz6AEnjkA",
-      "category": "27COM",
+      "assetId": "OM01-21W10-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIaA",
+      "category": "27COM.WAP",
       "entityName": "",
-      "generalName": "Wall Display",
+      "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": "CIRC 21W08A"
+      "room": "WORKSTATION 21W10"
     },
     {
-      "assetId": "OM01-21W08A-27COM-MP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UsA",
-      "category": "27COM",
+      "assetId": "OM01-21W13-27COM-WAP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcfA",
+      "category": "27COM.WAP",
       "entityName": "",
-      "generalName": "Expanded Media Player",
+      "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": "CIRC 21W08A"
+      "room": ""
     },
     {
-      "assetId": "OM01.21C02.28ESS.CAM.01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABY-uyAm5lH1L_d0SKhi0jgAPAmJQ",
-      "category": "",
-      "entityName": "C-L21-01",
-      "generalName": "Security Camera",
+      "assetId": "SP_21E07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA_iA4Mm8tKNIcOTYbnKdbcADJb0g",
+      "category": "27COM.RS",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
-      "room": "OFFICE 6"
+      "room": ""
     }
   ]
 }
