@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 2,
+  "modelUrn": "urn:adsk.dtm:0PxA7yNrTgy7_W-02ognsw",
+  "totalBatches": 1,
+  "batchesReceived": [
+    1
+  ],
+  "assets": [
+    {
+      "assetId": "JD4021-ST-PL.01-10SPE-RS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/_lwoURKuTxSGdg77fmC7iQ?selection=0PxA7yNrTgy7_W-02ognswAAAAAx1jLykhpOsJTmNOCU7IsAAAZBww",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Road Sign",
+      "level": "SITE",
+      "room": ""
+    }
+  ],
+  "complete": true,
+  "updatedAt": "2026-06-11T19:04:09.054Z"
+}
