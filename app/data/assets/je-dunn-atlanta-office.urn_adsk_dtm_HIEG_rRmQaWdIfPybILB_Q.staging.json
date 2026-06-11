@@ -3,7 +3,8 @@
   "modelUrn": "urn:adsk.dtm:HIEG_rRmQaWdIfPybILB_Q",
   "totalBatches": 3,
   "batchesReceived": [
-    1
+    1,
+    2
   ],
   "assets": [
     {
@@ -25,6 +26,36 @@
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": "MEN 004"
+    },
+    {
+      "assetId": "JD4021-LF-006.1-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZUw",
+      "category": "M.Du.Te",
+      "department": "SELF PERFORM",
+      "entityName": "PIU-LL-10.AT.04",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "COLLABORATION 006.1"
+    },
+    {
+      "assetId": "JD4021-LF-006.1-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZWg",
+      "category": "M.Du.Te",
+      "department": "SELF PERFORM",
+      "entityName": "VAV-LL-1.AT.03",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "COLLABORATION 006.1"
+    },
+    {
+      "assetId": "JD4021-LF-006.1-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZXg",
+      "category": "M.Du.Te",
+      "department": "SELF PERFORM",
+      "entityName": "VAV-LL-1.AT.07",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "COLLABORATION 006.1"
     },
     {
       "assetId": "JD4021-LF-007-23HVA-SG-01",
@@ -182,6 +213,16 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-4.AT.03",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADGv2K1hnRNVbv7SdWMh4WwAB6Exw",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-4.AT.01",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
@@ -447,6 +488,16 @@
       "room": "IN THE BALLPARK 035"
     },
     {
+      "assetId": "JD4021-LF-036-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZTw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-1",
+      "generalName": "Powered Induction Unit",
+      "level": "LOWER FLOOR",
+      "room": "DEEP DIVE 036"
+    },
+    {
       "assetId": "JD4021-LF-J01-23HVA-EG-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAAAEndmZ-DlGgK0xHkv03UBNAB2okg",
       "category": "M.Du.Te",
@@ -467,6 +518,126 @@
       "room": "ADAM ALLISON 001.14"
     },
     {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZUA",
+      "category": "M.Du.Te",
+      "department": "APTITUDE",
+      "entityName": "PIU-LL-10.AT.01",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "MITCH PURVIS 003.11"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZUQ",
+      "category": "M.Du.Te",
+      "department": "APTITUDE",
+      "entityName": "PIU-LL-10.AT.02",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "EZRA RUSSEL-HOWLAND 006.2"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZUg",
+      "category": "M.Du.Te",
+      "department": "SELF PERFORM",
+      "entityName": "PIU-LL-10.AT.03",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "DEAN NICKELL 006.7"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZVA",
+      "category": "M.Du.Te",
+      "department": "SELF PERFORM",
+      "entityName": "PIU-LL-10.AT.05",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "WILL ETHEREDGE 006.13"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZVQ",
+      "category": "M.Du.Te",
+      "department": "APTITUDE",
+      "entityName": "PIU-LL-1.AT.01",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "SAM HOLT 003.8"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZVg",
+      "category": "M.Du.Te",
+      "department": "QUALITY AND SCHED",
+      "entityName": "PIU-LL-1.AT.02",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZVw",
+      "category": "M.Du.Te",
+      "department": "QUALITY AND SCHED",
+      "entityName": "PIU-LL-1.AT.03",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "MATTHEW HAGAN 003.4"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZWA",
+      "category": "M.Du.Te",
+      "department": "APTITUDE",
+      "entityName": "VAV-LL-1.AT.01",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "MICHAEL ALDRICH 003.10"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZWQ",
+      "category": "M.Du.Te",
+      "department": "SELF PERFORM",
+      "entityName": "VAV-LL-1.AT.02",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "ANDREW MILLER 006.5"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZWw",
+      "category": "M.Du.Te",
+      "department": "SELF PERFORM",
+      "entityName": "VAV-LL-1.AT.04",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "ELIZABETH MARIN 006.11"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-11",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZXA",
+      "category": "M.Du.Te",
+      "department": "APTITUDE",
+      "entityName": "VAV-LL-1.AT.05",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-23HVA-WG-12",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAADKCbgbDqlJAYIe8AO8J1JGABxZXQ",
+      "category": "M.Du.Te",
+      "department": "SELF PERFORM",
+      "entityName": "VAV-LL-1.AT.06",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "ANDREW MILLER 006.5"
+    },
+    {
       "assetId": "JD4021-LF-W0.04-23HVA-VAV-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAACUL72mMtdM4b0ZTHQUBJUhABzJYQ",
       "category": "M.Eq",
@@ -475,6 +646,86 @@
       "generalName": "Variable Air Volume Unit",
       "level": "LOWER FLOOR",
       "room": "HOTEL 113.11"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAAC9u6ExHtJM36pWJJLgeGLQABzWJg",
+      "category": "M.Du.Te",
+      "department": "AVIATION",
+      "entityName": "PIU-LL-6.AT.02",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "PHILLIP NGUYEN 026.14"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAAC9u6ExHtJM36pWJJLgeGLQABzWgg",
+      "category": "M.Du.Te",
+      "department": "AVIATION",
+      "entityName": "PIU-LL-6.AT.03",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "IANA TASSADA 026.2"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAAC9u6ExHtJM36pWJJLgeGLQABzW7w",
+      "category": "M.Du.Te",
+      "department": "AVIATION",
+      "entityName": "PIU-LL-6.AT.04",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "SAYAN SMITH 026.7"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-23HVA-WG-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAAC9u6ExHtJM36pWJJLgeGLQABzXEg",
+      "category": "M.Du.Te",
+      "department": "AVIATION",
+      "entityName": "PIU-LL-6.AT.05",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "PETER STEPHENSON 026.8"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-23HVA-WG-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAAC9u6ExHtJM36pWJJLgeGLQABzXKA",
+      "category": "M.Du.Te",
+      "department": "SAFETY",
+      "entityName": "PIU-LL-6.AT.06",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "REGGIE POPE 026.13"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAAC9u6ExHtJM36pWJJLgeGLQABzhdg",
+      "category": "M.Du.Te",
+      "department": "AVIATION",
+      "entityName": "VAV-LL-3.AT.01",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "GARRICK SMITH 026.16"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-23HVA-WG-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAAC9u6ExHtJM36pWJJLgeGLQABzhnA",
+      "category": "M.Du.Te",
+      "department": "AVIATION",
+      "entityName": "VAV-LL-3.AT.02",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "CATHY KASHIUS 026.5"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-23HVA-WG-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=HIEG_rRmQaWdIfPybILB_QAAAAC9u6ExHtJM36pWJJLgeGLQABzhrg",
+      "category": "M.Du.Te",
+      "department": "SAFETY",
+      "entityName": "VAV-LL-3.AT.03",
+      "generalName": "Wall Grill",
+      "level": "LOWER FLOOR",
+      "room": "HIAWATHA HILL 026.11"
     },
     {
       "assetId": "JD4021-MF-101-23HVA-SG-01",
@@ -577,6 +828,26 @@
       "room": "CIRCLE BACK 105"
     },
     {
+      "assetId": "JD4021-MF-106.1-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACqGK-VW61E9Iu8rJWvIOvAAB4udw",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-3.AT.05",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 106.1"
+    },
+    {
+      "assetId": "JD4021-MF-106.1-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACqGK-VW61E9Iu8rJWvIOvAAB4ugQ",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-3.AT.06",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 106.1"
+    },
+    {
       "assetId": "JD4021-MF-106.1-23HVA-WG-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAA9ur4Kd5NIXqk-eDEnlEYmAB4-uQ",
       "category": "M.Du.Te",
@@ -627,6 +898,66 @@
       "room": "BEST IN FINAL 112"
     },
     {
+      "assetId": "JD4021-MF-113.1-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4yiQ",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-6.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 113.1"
+    },
+    {
+      "assetId": "JD4021-MF-113.1-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4zPQ",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-14.AT.05",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 113.1"
+    },
+    {
+      "assetId": "JD4021-MF-113.1-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4zPg",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-14.AT.06",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 113.1"
+    },
+    {
+      "assetId": "JD4021-MF-113.1-23HVA-WG-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4zSA",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-14.AT.07",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 113.1"
+    },
+    {
+      "assetId": "JD4021-MF-113.1-23HVA-WG-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAADGv2K1hnRNVbv7SdWMh4WwAB6Hsw",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-6.AT.05",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 113.1"
+    },
+    {
+      "assetId": "JD4021-MF-116-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAADCshb-1edARbb3GBm_d5WNAB4Fig",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-14",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "IN THE LOOP 116"
+    },
+    {
       "assetId": "JD4021-MF-116-23HVA-SG-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACc7Gi1jy9EVKicjMHUWXkSABk-XQ",
       "category": "M.Du.Te",
@@ -637,6 +968,16 @@
       "room": "IN THE LOOP 116"
     },
     {
+      "assetId": "JD4021-MF-117-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAADCshb-1edARbb3GBm_d5WNAB4CTw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-6",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "PARKING LOT 117"
+    },
+    {
       "assetId": "JD4021-MF-117-23HVA-SG-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACc7Gi1jy9EVKicjMHUWXkSABk-Zw",
       "category": "M.Du.Te",
@@ -645,6 +986,16 @@
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": "PARKING LOT 117"
+    },
+    {
+      "assetId": "JD4021-MF-118-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACulJG6KZRAOYNXUtAmPLKHAB257g",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-18",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 118"
     },
     {
       "assetId": "JD4021-MF-118-23HVA-RG-01",
@@ -747,6 +1098,26 @@
       "room": "OFFICE 121"
     },
     {
+      "assetId": "JD4021-MF-122.1-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAADGv2K1hnRNVbv7SdWMh4WwAB6I1g",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-7.AT.08",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 122.1"
+    },
+    {
+      "assetId": "JD4021-MF-122.14-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB46_Q",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-7.AT.06",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WORK AREA 122.14"
+    },
+    {
       "assetId": "JD4021-MF-125-23HVA-PIU-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAABN2NmFqvlLiZLIbNaO1IHSAB3nAQ",
       "category": "M.Eq",
@@ -847,6 +1218,66 @@
       "room": "CAFE 127"
     },
     {
+      "assetId": "JD4021-MF-129.1-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB41bA",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-9.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 129.8"
+    },
+    {
+      "assetId": "JD4021-MF-129.1-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB45Ew",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-17.AT.05",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 129.1"
+    },
+    {
+      "assetId": "JD4021-MF-129.1-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB45FA",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-17.AT.06",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 129.1"
+    },
+    {
+      "assetId": "JD4021-MF-129.2-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB42DA",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-9.AT.06",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WORK AREA 129.2"
+    },
+    {
+      "assetId": "JD4021-MF-129.2-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB44bg",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-9.AT.07",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WORK AREA 129.2"
+    },
+    {
+      "assetId": "JD4021-MF-131-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACulJG6KZRAOYNXUtAmPLKHAB2zIg",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-17",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "SHORE THE CORE 131"
+    },
+    {
       "assetId": "JD4021-MF-131-23HVA-RG-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACc7Gi1jy9EVKicjMHUWXkSABk9RA",
       "category": "M.Du.Te",
@@ -865,6 +1296,16 @@
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": "SHORE THE CORE 131"
+    },
+    {
+      "assetId": "JD4021-MF-132-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACulJG6KZRAOYNXUtAmPLKHAB20fA",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-10",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "BAM 132"
     },
     {
       "assetId": "JD4021-MF-132-23HVA-RG-01",
@@ -887,6 +1328,56 @@
       "room": "BAM 132"
     },
     {
+      "assetId": "JD4021-MF-133.1-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4zwQ",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-18.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 133.1"
+    },
+    {
+      "assetId": "JD4021-MF-133.1-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB40RA",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-18.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 133.1"
+    },
+    {
+      "assetId": "JD4021-MF-133.1-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB40xg",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-10.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 133.1"
+    },
+    {
+      "assetId": "JD4021-MF-134-23HVA-SG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAADInKGsNzFI85Q69pK03-4WAB2-lg",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-18.AT.01",
+      "generalName": "Supply Grill",
+      "level": "MAIN FLOOR",
+      "room": "WOMEN 134"
+    },
+    {
+      "assetId": "JD4021-MF-134-23HVA-SG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAADCshb-1edARbb3GBm_d5WNAB4H4A",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.134.01",
+      "generalName": "Supply Grill",
+      "level": "MAIN FLOOR",
+      "room": "WOMEN 134"
+    },
+    {
       "assetId": "JD4021-MF-136-23HVA-SG-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAAvlnQAN7hEhqKkFZwI4WQDAB4PRw",
       "category": "M.Du.Te",
@@ -907,6 +1398,16 @@
       "room": "MEN 136"
     },
     {
+      "assetId": "JD4021-MF-P1.02-23HVA-PIU-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAADE6dNv4y1DN7hDig20yCnvAB31mw",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-7",
+      "generalName": "Powered Induction Unit",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
       "assetId": "JD4021-MF-P1.02-23HVA-SG-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACc7Gi1jy9EVKicjMHUWXkSABk-MQ",
       "category": "M.Du.Te",
@@ -915,6 +1416,36 @@
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACqGK-VW61E9Iu8rJWvIOvAAB4s1g",
+      "category": "M.Du.Te",
+      "department": "PRECON",
+      "entityName": "PIU-1-4.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HANK JENNINGS 109.13"
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACqGK-VW61E9Iu8rJWvIOvAAB4tuw",
+      "category": "M.Du.Te",
+      "department": "PRECON",
+      "entityName": "PIU-1-3.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.01 W1.01"
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACqGK-VW61E9Iu8rJWvIOvAAB4uXQ",
+      "category": "M.Du.Te",
+      "department": "PRECON",
+      "entityName": "PIU-1-3.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.01 W1.01"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-04",
@@ -967,6 +1498,86 @@
       "room": "BARBARA OLIVEIRA SPITZER 109.4"
     },
     {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACqGK-VW61E9Iu8rJWvIOvAAB4uZw",
+      "category": "M.Du.Te",
+      "department": "MARKETING",
+      "entityName": "PIU-1-3.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 106.11"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACqGK-VW61E9Iu8rJWvIOvAAB4ubw",
+      "category": "M.Du.Te",
+      "department": "MARKETING",
+      "entityName": "PIU-1-3.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "ALYSSA CHAPLIN 106.10"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAACqGK-VW61E9Iu8rJWvIOvAAB4ujQ",
+      "category": "M.Du.Te",
+      "department": "EXECUTIVE",
+      "entityName": "PIU-1-3.AT.07",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "JOSH ARNOLD 106.5"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC2-Ifl821I0I-xiY54zkWmAB49WQ",
+      "category": "M.Du.Te",
+      "department": "EXECUTIVE",
+      "entityName": "PIU-1-2.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC2-Ifl821I0I-xiY54zkWmAB490Q",
+      "category": "M.Du.Te",
+      "department": "EXECUTIVE",
+      "entityName": "PIU-1-2.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC2-Ifl821I0I-xiY54zkWmAB492w",
+      "category": "M.Du.Te",
+      "department": "EXECUTIVE",
+      "entityName": "PIU-1-2.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC2-Ifl821I0I-xiY54zkWmAB495Q",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-2.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC2-Ifl821I0I-xiY54zkWmAB4-PQ",
+      "category": "M.Du.Te",
+      "department": "EXECUTIVE",
+      "entityName": "PIU-1-12.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "MIKE BARTLETT 106.7"
+    },
+    {
       "assetId": "JD4021-MF-W1.02-23HVA-WG-09",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAA9ur4Kd5NIXqk-eDEnlEYmAB4-wQ",
       "category": "M.Du.Te",
@@ -985,6 +1596,396 @@
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.02 W1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4xeg",
+      "category": "M.Du.Te",
+      "department": "LEAN",
+      "entityName": "PIU-1-6.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.04 W1.04"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4yfw",
+      "category": "M.Du.Te",
+      "department": "LEAN",
+      "entityName": "PIU-1-6.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "PATTY ADAMS 113.7"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4zCA",
+      "category": "M.Du.Te",
+      "department": "LEAN",
+      "entityName": "PIU-1-14.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.04 W1.04"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4zEg",
+      "category": "M.Du.Te",
+      "department": "LEAN",
+      "entityName": "PIU-1-14.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.04 W1.04"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4zMg",
+      "category": "M.Du.Te",
+      "department": "LEAN",
+      "entityName": "PIU-1-14.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "MATT FRANKEL 113.5"
+    },
+    {
+      "assetId": "JD4021-MF-W1.04-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4zMw",
+      "category": "M.Du.Te",
+      "department": "LEAN",
+      "entityName": "PIU-1-14.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "MATT FRANKEL 113.5"
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB46Bw",
+      "category": "M.Du.Te",
+      "department": "EDUCATION",
+      "entityName": "PIU-1-7.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "LEE JARBOE 122.2"
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB46XQ",
+      "category": "M.Du.Te",
+      "department": "EDUCATION",
+      "entityName": "PIU-1-7.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "FRED TULL 122.5"
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB48qw",
+      "category": "M.Du.Te",
+      "department": "EDUCATION",
+      "entityName": "PIU-1-16.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 122.4"
+    },
+    {
+      "assetId": "JD4021-MF-W1.06-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4ykQ",
+      "category": "M.Du.Te",
+      "department": "HR",
+      "entityName": "PIU-1-6.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "DONNA BENDIK 113.14"
+    },
+    {
+      "assetId": "JD4021-MF-W1.06-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB4zcA",
+      "category": "M.Du.Te",
+      "department": "HR",
+      "entityName": "PIU-1-14.AT.08",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "KAREN GARNER 113.16"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB46aw",
+      "category": "M.Du.Te",
+      "department": "EDUCATION",
+      "entityName": "PIU-1-7.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 122.8"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB46cw",
+      "category": "M.Du.Te",
+      "department": "EDUCATION",
+      "entityName": "PIU-1-7.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 122.10"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB46fQ",
+      "category": "M.Du.Te",
+      "department": "EDUCATION",
+      "entityName": "PIU-1-7.AT.05",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "PAT ARRINGTON 122.12"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-23HVA-WG-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB47YQ",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-7.AT.07",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.07 W1.07"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-23HVA-WG-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB48BQ",
+      "category": "M.Du.Te",
+      "department": "EDUCATION",
+      "entityName": "PIU-1-16.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.07 W1.07"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB48sw",
+      "category": "M.Du.Te",
+      "department": "EDUCATION",
+      "entityName": "PIU-1-16.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "NIKKI COATES 122.11"
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-23HVA-WG-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB48uw",
+      "category": "M.Du.Te",
+      "department": "EDUCATION",
+      "entityName": "PIU-1-16.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "BRYAN STEED 122.13"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB41dg",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-9.AT.05",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "STUART BRUENING 129.3"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB44dg",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-9.AT.08",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.08 W1.08"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB45Lg",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-17.AT.07",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "ALISON CHAFFEE 129.5"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-23HVA-WG-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB45Lw",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-17.AT.08",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "ALISON CHAFFEE 129.5"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB40ZA",
+      "category": "M.Du.Te",
+      "department": "VDC",
+      "entityName": "PIU-1-18.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "STEPHEN McKINNEY 133.4"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB40ZQ",
+      "category": "M.Du.Te",
+      "department": "VDC",
+      "entityName": "PIU-1-18.AT.05",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "STEPHEN McKINNEY 133.4"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB40cQ",
+      "category": "M.Du.Te",
+      "department": "VDC",
+      "entityName": "PIU-1-18.AT.06",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 133.5"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB40cg",
+      "category": "M.Du.Te",
+      "department": "VDC",
+      "entityName": "PIU-1-18.AT.07",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 133.5"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB40fA",
+      "category": "M.Du.Te",
+      "department": "VDC",
+      "entityName": "PIU-1-18.AT.08",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HARRIS MOSELEY 133.10"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB40fQ",
+      "category": "M.Du.Te",
+      "department": "VDC",
+      "entityName": "PIU-1-18.AT.09",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HARRIS MOSELEY 133.10"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB406Q",
+      "category": "M.Du.Te",
+      "department": "VDC",
+      "entityName": "PIU-1-10.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "DAVID MOODY 133.2"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB408Q",
+      "category": "M.Du.Te",
+      "department": "VDC",
+      "entityName": "PIU-1-10.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "PATTY ADAMS 113.7"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB40-w",
+      "category": "M.Du.Te",
+      "department": "VDC",
+      "entityName": "PIU-1-10.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "KYLE HINGST 133.8"
+    },
+    {
+      "assetId": "JD4021-MF-W1.09-23HVA-WG-10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB41Aw",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-10.AT.05",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.09 W1.09"
+    },
+    {
+      "assetId": "JD4021-MF-W1.10-23HVA-WG-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB41PQ",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-9.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.10 W1.10"
+    },
+    {
+      "assetId": "JD4021-MF-W1.10-23HVA-WG-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB41XA",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-9.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "KAREN AVERY 129.6"
+    },
+    {
+      "assetId": "JD4021-MF-W1.10-23HVA-WG-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB41ZA",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-9.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "ED VON ROEMER 129.9"
+    },
+    {
+      "assetId": "JD4021-MF-W1.10-23HVA-WG-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB44vw",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-17.AT.01",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "PATRICK FLEMING 129.14"
+    },
+    {
+      "assetId": "JD4021-MF-W1.10-23HVA-WG-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB448w",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-17.AT.02",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "PATRICK FLEMING 129.14"
+    },
+    {
+      "assetId": "JD4021-MF-W1.10-23HVA-WG-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB45Cg",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-17.AT.03",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 133J"
+    },
+    {
+      "assetId": "JD4021-MF-W1.10-23HVA-WG-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAC92xO6JstJu5F60557-UcqAB45Cw",
+      "category": "M.Du.Te",
+      "department": "COMMERCIAL",
+      "entityName": "PIU-1-17.AT.04",
+      "generalName": "Wall Grill",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 133J"
     },
     {
       "assetId": "JD4021-RF-RF.01-23HVA-RTU-01",
@@ -1008,5 +2009,5 @@
     }
   ],
   "complete": false,
-  "updatedAt": "2026-06-11T19:13:36.879Z"
+  "updatedAt": "2026-06-11T19:13:43.569Z"
 }
