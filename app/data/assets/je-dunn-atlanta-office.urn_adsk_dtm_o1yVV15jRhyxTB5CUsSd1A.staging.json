@@ -4,7 +4,8 @@
   "totalBatches": 7,
   "batchesReceived": [
     2,
-    4
+    4,
+    6
   ],
   "assets": [
     {
@@ -3359,5 +3360,5 @@
     }
   ],
   "complete": false,
-  "updatedAt": "2026-06-11T19:13:38.464Z"
+  "updatedAt": "2026-06-11T19:13:41.524Z"
 }
