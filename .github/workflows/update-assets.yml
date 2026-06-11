@@ -38,7 +38,7 @@ jobs:
               'urn:adsk.dtm:YKcdg6DJT9OjX-MaEaBjEg': 'project-beacon',
             };
 
-            // Invert map: projectId -> Set of model URNs
+            // Invert map: projectId -> array of model URNs
             const projectModels = {};
             for (const [urn, proj] of Object.entries(urnToProject)) {
               if (!projectModels[proj]) projectModels[proj] = [];
@@ -53,97 +53,88 @@ jobs:
               return;
             }
 
-            // Sanitize URN for use in filename
-            const modelKey = modelUrn.replace(/[^a-zA-Z0-9_-]/g, '_');
-            const stagingDir = `app/data/assets`;
-            const modelStagingPath = `${stagingDir}/${projectId}.${modelKey}.staging.json`;
+            const keyOf = urn => urn.replace(/[^a-zA-Z0-9_-]/g, '_');
+            const stagingDir = 'app/data/assets';
+            const stagingPathOf = urn => `${stagingDir}/${projectId}.${keyOf(urn)}.staging.json`;
+            const modelStagingPath = stagingPathOf(modelUrn);
             const productionPath = `${stagingDir}/${projectId}.json`;
 
-            console.log(`Processing batch ${incoming.batch}/${incoming.totalBatches} for model ${modelUrn}`);
+            const SCHEMA_VERSION = 2;
+            const STALE_MS = 30 * 60 * 1000; // in-progress staging older than 30 min = abandoned sync
 
+            const batchNum = Number(incoming.batch) || 1;
+            const totalBatchesIn = incoming.totalBatches != null ? Number(incoming.totalBatches) : null;
+
+            console.log(`Processing batch ${batchNum}/${totalBatchesIn} for model ${modelUrn} (${projectId})`);
+
+            let finalized = false;
+            let finalCount = 0;
             const maxRetries = 10;
+
             for (let attempt = 1; attempt <= maxRetries; attempt++) {
               console.log(`Attempt ${attempt}...`);
+              finalized = false;
               try {
                 execSync('git pull --rebase origin main', { stdio: 'inherit' });
-
                 fs.mkdirSync(stagingDir, { recursive: true });
 
-                // Read existing staging for this model (unless first batch)
-                let modelAssets = [];
-                if (incoming.batch > 1 && fs.existsSync(modelStagingPath)) {
-                  try {
-                    modelAssets = JSON.parse(fs.readFileSync(modelStagingPath, 'utf8')).assets || [];
-                  } catch (e) {
-                    console.log('Could not read model staging, starting fresh for this model');
-                  }
+                // ---- 1. Load this model's staging; reset if it belongs to a previous/abandoned sync ----
+                let staging = null;
+                if (fs.existsSync(modelStagingPath)) {
+                  try { staging = JSON.parse(fs.readFileSync(modelStagingPath, 'utf8')); }
+                  catch (e) { staging = null; }
+                }
+                const isStale = s =>
+                  !s
+                  || s.schemaVersion !== SCHEMA_VERSION
+                  || s.complete === true   // last sync finished; an arriving batch means a NEW sync starts now
+                  || !s.updatedAt
+                  || (Date.now() - Date.parse(s.updatedAt)) > STALE_MS;
+
+                if (isStale(staging)) {
+                  if (staging) console.log('Existing staging is from a previous or abandoned sync — starting fresh for this model');
+                  staging = { schemaVersion: SCHEMA_VERSION, modelUrn, totalBatches: null, batchesReceived: [], assets: [] };
                 }
 
-                // Merge this batch into this model's staging
+                // ---- 2. Merge this batch in (order-independent) ----
+                if (totalBatchesIn != null) staging.totalBatches = totalBatchesIn;
+                if (!staging.batchesReceived.includes(batchNum)) staging.batchesReceived.push(batchNum);
+                staging.batchesReceived.sort((a, b) => a - b);
+
                 const assetMap = new Map();
-                modelAssets.forEach(a => assetMap.set(a.assetId, a));
+                (staging.assets || []).forEach(a => assetMap.set(a.assetId, a));
                 (incoming.assets || []).forEach(a => assetMap.set(a.assetId, a));
-                const mergedModelAssets = Array.from(assetMap.values())
+                staging.assets = Array.from(assetMap.values())
                   .sort((a, b) => a.assetId.localeCompare(b.assetId));
 
-                const isModelComplete = incoming.totalBatches !== null
-                  && incoming.batch >= incoming.totalBatches;
+                staging.complete = staging.totalBatches != null
+                  && staging.batchesReceived.length >= staging.totalBatches;
+                staging.updatedAt = new Date().toISOString();
 
-                if (!isModelComplete) {
-                  // Write intermediate staging for this model only
-                  fs.writeFileSync(modelStagingPath, JSON.stringify({
-                    modelUrn,
-                    lastBatch: incoming.batch,
-                    totalBatches: incoming.totalBatches,
-                    complete: false,
-                    assets: mergedModelAssets
-                  }, null, 2));
-                  console.log(`Staged batch ${incoming.batch}/${incoming.totalBatches} for ${modelUrn}: ${mergedModelAssets.length} assets so far`);
-                } else {
-                  // This model is complete — write its final staging
-                  fs.writeFileSync(modelStagingPath, JSON.stringify({
-                    modelUrn,
-                    lastBatch: incoming.batch,
-                    totalBatches: incoming.totalBatches,
-                    complete: true,
-                    assets: mergedModelAssets
-                  }, null, 2));
-                  console.log(`Model ${modelUrn} complete: ${mergedModelAssets.length} assets`);
+                fs.writeFileSync(modelStagingPath, JSON.stringify(staging, null, 2));
+                execSync(`git add "${modelStagingPath}"`);
+                console.log(`Staged batches [${staging.batchesReceived.join(',')}] of ${staging.totalBatches} for ${modelUrn}: ${staging.assets.length} assets, complete=${staging.complete}`);
 
-                  // Check if ALL models for this project are now complete
-                  const allModelUrns = projectModels[projectId];
-                  // Replace the allComplete check with this:
-                  const allComplete = allModelUrns.every(urn => {
-                    const key = urn.replace(/[^a-zA-Z0-9_-]/g, '_');
-                    const path = `${stagingDir}/${projectId}.${key}.staging.json`;
-                  
-                    // Missing = not yet arrived, block finalization
-                    if (!fs.existsSync(path)) return false;
-                    
-                    try {
-                      return JSON.parse(fs.readFileSync(path, 'utf8')).complete === true;
-                    } catch (e) {
-                      return false;
-                    }
+                // ---- 3. If this model just completed, rebuild production when ALL models are complete ----
+                // Staging files are never deleted; they persist as each model's last-known-good
+                // asset set. After the first full sync, finalization can no longer deadlock.
+                if (staging.complete) {
+                  const peers = projectModels[projectId].map(urn => {
+                    if (urn === modelUrn) return { urn, data: staging };
+                    const p = stagingPathOf(urn);
+                    if (!fs.existsSync(p)) return { urn, data: null };
+                    try { return { urn, data: JSON.parse(fs.readFileSync(p, 'utf8')) }; }
+                    catch (e) { return { urn, data: null }; }
                   });
 
-                  if (allComplete) {
-                    console.log(`All models complete for ${projectId} — finalizing production file`);
-
-                    // Merge all model staging files into one production file
-                    const allAssetMap = new Map();
-                    for (const urn of allModelUrns) {
-                      const key = urn.replace(/[^a-zA-Z0-9_-]/g, '_');
-                      const path = `${stagingDir}/${projectId}.${key}.staging.json`;
-                      try {
-                        const data = JSON.parse(fs.readFileSync(path, 'utf8'));
-                        (data.assets || []).forEach(a => allAssetMap.set(a.assetId, a));
-                      } catch (e) {
-                        console.log(`Warning: could not read staging for ${urn}`);
-                      }
+                  const waiting = peers.filter(p => !p.data || p.data.complete !== true);
+                  if (waiting.length === 0) {
+                    console.log(`All models complete for ${projectId} — rebuilding production file`);
+                    const allMap = new Map();
+                    for (const p of peers) {
+                      (p.data.assets || []).forEach(a => allMap.set(a.assetId, a));
                     }
-
-                    const finalAssets = Array.from(allAssetMap.values())
+                    const finalAssets = Array.from(allMap.values())
                       .sort((a, b) => a.assetId.localeCompare(b.assetId));
 
                     fs.writeFileSync(productionPath, JSON.stringify({
@@ -151,63 +142,63 @@ jobs:
                       totalAssets: finalAssets.length,
                       assets: finalAssets
                     }, null, 2));
-
-                    // Delete all staging files for this project
-                    for (const urn of allModelUrns) {
-                      const key = urn.replace(/[^a-zA-Z0-9_-]/g, '_');
-                      const path = `${stagingDir}/${projectId}.${key}.staging.json`;
-                      if (fs.existsSync(path)) fs.unlinkSync(path);
-                    }
-
-                    console.log(`Production file written: ${finalAssets.length} total assets for ${projectId}`);
-
-                    // Update Firestore
-                    try {
-                      const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
-                      const admin = require('./node_modules/firebase-admin');
-                      if (!admin.apps.length) {
-                        admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
-                      }
-                      const db = admin.firestore();
-                      const snapshot = await db.collection('projects').where('id', '==', projectId).get();
-                      if (!snapshot.empty) {
-                        await snapshot.docs[0].ref.update({ assetCount: finalAssets.length });
-                        console.log(`Updated Firestore assetCount to ${finalAssets.length} for ${projectId}`);
-                      } else {
-                        console.log(`No Firestore document found for project id: ${projectId}`);
-                      }
-                    } catch (fbError) {
-                      console.log(`Firestore update failed: ${fbError.message}`);
-                    }
-
-                    execSync(`git add ${productionPath}`);
-                    execSync(`git add -A ${stagingDir}/`);
+                    execSync(`git add "${productionPath}"`);
+                    finalized = true;
+                    finalCount = finalAssets.length;
+                    console.log(`Production file written: ${finalCount} total assets for ${projectId}`);
                   } else {
-                    // Not all models done yet — just stage this model's completion
-                    console.log(`Model ${modelUrn} done, waiting on other models for ${projectId}`);
-                    execSync(`git add ${modelStagingPath}`);
+                    console.log(`Model ${modelUrn} done; waiting on: ${waiting.map(p => p.urn).join(', ')}`);
                   }
                 }
 
+                // ---- 4. Commit & push ----
                 execSync('git config user.name "github-actions[bot]"');
                 execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
-                try {
-                  execSync('git diff --staged --quiet');
+                let hasChanges = true;
+                try { execSync('git diff --staged --quiet'); hasChanges = false; } catch (e) {}
+
+                if (hasChanges) {
+                  execSync(`git commit -m "Assets: ${projectId} (${modelUrn} batch ${batchNum}/${staging.totalBatches})${finalized ? ' + production rebuild' : ''}"`);
+                  execSync('git push origin main', { stdio: 'inherit' });
+                  console.log('Pushed successfully');
+                } else {
                   console.log('No changes to commit');
-                  return;
-                } catch (e) {}
-                execSync(`git commit -m "Update assets for ${projectId} (model ${modelUrn} batch ${incoming.batch}/${incoming.totalBatches})"`);
-                execSync('git push', { stdio: 'inherit' });
-                console.log('Success!');
-                return;
+                }
+                break; // success — leave the retry loop
 
               } catch (error) {
                 console.log(`Attempt ${attempt} failed: ${error.message}`);
-                if (attempt < maxRetries) {
-                  execSync('git rebase --abort 2>/dev/null || true', { stdio: 'inherit' });
-                  execSync('git reset --hard origin/main', { stdio: 'inherit' });
-                  await new Promise(r => setTimeout(r, 3000 + Math.random() * 5000));
+                finalized = false;
+                if (attempt >= maxRetries) {
+                  throw new Error('Failed after max retries');
                 }
+                // Recover to a clean slate. reset --hard does NOT remove untracked files,
+                // so also clean leftover staging files — otherwise the next pull --rebase
+                // can fail forever on "untracked working tree files would be overwritten".
+                execSync('git rebase --abort || true', { stdio: 'inherit' });
+                execSync('git reset --hard origin/main', { stdio: 'inherit' });
+                execSync(`git clean -fd "${stagingDir}" || true`, { stdio: 'inherit' });
+                await new Promise(r => setTimeout(r, 2000 + Math.random() * 6000));
               }
             }
-            throw new Error('Failed after max retries');
+
+            // ---- 5. Firestore — only after the production rebuild has actually been pushed ----
+            if (finalized) {
+              try {
+                const serviceAccount = JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+                const admin = require(`${process.cwd()}/node_modules/firebase-admin`);
+                if (!admin.apps.length) {
+                  admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
+                }
+                const db = admin.firestore();
+                const snapshot = await db.collection('projects').where('id', '==', projectId).get();
+                if (!snapshot.empty) {
+                  await snapshot.docs[0].ref.update({ assetCount: finalCount });
+                  console.log(`Updated Firestore assetCount to ${finalCount} for ${projectId}`);
+                } else {
+                  console.log(`No Firestore document found for project id: ${projectId}`);
+                }
+              } catch (fbError) {
+                console.log(`Firestore update failed: ${fbError.message}`);
+              }
+            }
