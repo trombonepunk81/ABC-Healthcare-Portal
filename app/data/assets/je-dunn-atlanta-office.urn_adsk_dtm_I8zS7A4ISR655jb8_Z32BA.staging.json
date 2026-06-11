@@ -7,12 +7,23 @@
     2,
     3,
     4,
+    5,
     6
   ],
   "assets": [
     {
       "assetId": "JD4021-LF-0.01-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA-K_tWuyRB77MGsHf_Pr9YAB1Ghw",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "Glass Doors",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-0.04-08OPE-GD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADQz7u1IvBB66hVptamYO1QABMimg",
       "category": "B.Do",
       "department": "",
       "entityName": "",
@@ -571,6 +582,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-022-08OPE-GD-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADMRZ2RY89B1qJJbw6biv4MACUwvw",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "Glass Doors",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-022-11EQU-GRE-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACBW5DrdvVHiLqMFUw1i91LABHJeQ",
       "category": "Q",
@@ -613,6 +634,16 @@
     {
       "assetId": "JD4021-LF-022-11EQU-KA-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABLEaiz7KhHeYXD8DI2QPrYACAgTQ",
+      "category": "Q",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-11EQU-KA-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADVsVfhp9NId6Mz5fP_ns_dACQcyw",
       "category": "Q",
       "department": "",
       "entityName": "",
@@ -667,6 +698,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Hotel Table",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-08OPE-GD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADXkCRVJARJG7M6wIj6WFbeAB5x_g",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -831,6 +872,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-033-11EQU-KA-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADZMQSoOglPaZbia9V7q8qFAB2sLQ",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-033-11EQU-OE-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABFlIK3oItBe5gRp_Kn9X-gAB0-4g",
       "category": "Q",
@@ -951,6 +1002,46 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-1.1-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADLjDuEGsBFCrPTRq4ls_AmAB0yfA",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-1.11-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADLjDuEGsBFCrPTRq4ls_AmAB0yyA",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-1.12-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADLjDuEGsBFCrPTRq4ls_AmAB0ywA",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-1.13-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADLjDuEGsBFCrPTRq4ls_AmAB0yuA",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-1.14-12FUR-OD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACem_VmL-1B8a3Jq-gIgmHDACQxdA",
       "category": "Q.Fu.Fu",
@@ -1003,6 +1094,56 @@
     {
       "assetId": "JD4021-LF-1.4-12FUR-OD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cdQ",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-1.5-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADLjDuEGsBFCrPTRq4ls_AmAB0yYg",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-1.6-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADLjDuEGsBFCrPTRq4ls_AmAB0yWg",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-1.7-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADLjDuEGsBFCrPTRq4ls_AmAB0yUg",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-1.8-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADLjDuEGsBFCrPTRq4ls_AmAB0ybA",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-1.9-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADLjDuEGsBFCrPTRq4ls_AmAB0ydA",
       "category": "Q.Fu.Fu",
       "department": "HEALTHCARE",
       "entityName": "",
@@ -1921,12 +2062,32 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-107-11EQU-OE-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADLWV4BIOtInrbDmIqKTPk7ACGeww",
+      "category": "Q",
+      "department": "",
+      "entityName": "",
+      "generalName": "Office Equipment",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-107-11EQU-OE-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADDizORpLpD8JhFl_p3yWfzACGkew",
       "category": "Q",
       "department": "",
       "entityName": "",
       "generalName": "Office Equipment",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-22PLU-WF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADRIxAGcw9IPpWslKaUNm_0ACGXEQ",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Water Fountain",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -2541,6 +2702,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-124-08OPE-WD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADUJ0ba2htMKrYO8jaN9hjlACGxhg",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "",
+      "generalName": "Wood Doors",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-125-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAvjDnFXWBFc76z9RNZwfZMABg8rA",
       "category": "B.Do",
@@ -2551,12 +2722,32 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-125-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADW290raqVJB6rfgEx4zm-2ACG1pg",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-126-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAvjDnFXWBFc76z9RNZwfZMABg8lQ",
       "category": "B.Do",
       "department": "",
       "entityName": "",
       "generalName": "Glass Doors",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADW290raqVJB6rfgEx4zm-2ACG2CQ",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -2593,6 +2784,16 @@
     {
       "assetId": "JD4021-MF-127-11EQU-KA-04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAYQEIoF1JDiIVZVtQm12FtACfwSQ",
+      "category": "Q",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-127-11EQU-KA-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADVsVfhp9NId6Mz5fP_ns_dACQgsA",
       "category": "Q",
       "department": "",
       "entityName": "",
@@ -3161,6 +3362,26 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-136-10SPE-PF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADREGAFz0xErbKyWNw5yL_wABGU4A",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Plumbing Fixtures",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-136-10SPE-PF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADREGAFz0xErbKyWNw5yL_wABGU4Q",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Plumbing Fixtures",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-136-10SPE-PF-05",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADwLpeAMJZF14dw9v2tUn7PABJp1g",
       "category": "P.Fi",
@@ -3242,6 +3463,36 @@
     },
     {
       "assetId": "RM.001.13",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.001.14",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.001.15",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.001.16",
       "assetUrl": "",
       "category": "L.Rm",
       "department": "",
@@ -4121,7 +4372,37 @@
       "room": ""
     },
     {
+      "assetId": "RM.028",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.029",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "RM.030",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.031",
       "assetUrl": "",
       "category": "L.Rm",
       "department": "",
@@ -4231,7 +4512,267 @@
       "room": ""
     },
     {
+      "assetId": "RM.106.1",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.10",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.11",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.12",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.13",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.2",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.3",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.4",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.5",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.6",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.7",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.8",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.106.9",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "RM.107",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.1",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.10",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.11",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.12",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.13",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.2",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.3",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.4",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.5",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.6",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.7",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.8",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.109.9",
       "assetUrl": "",
       "category": "L.Rm",
       "department": "",
@@ -4262,6 +4803,156 @@
     },
     {
       "assetId": "RM.112",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.1",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.10",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.11",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.13",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.14",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.15",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.16",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.2",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.3",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.4",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.5",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.6",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.7",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.8",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.113.9",
       "assetUrl": "",
       "category": "L.Rm",
       "department": "",
@@ -4331,7 +5022,137 @@
       "room": ""
     },
     {
+      "assetId": "RM.122,10",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.1",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.11",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.12",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.13",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "RM.122.14",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.2",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.3",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.4",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.5",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.6",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.7",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.8",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.122.9",
       "assetUrl": "",
       "category": "L.Rm",
       "department": "",
@@ -4391,6 +5212,136 @@
       "room": ""
     },
     {
+      "assetId": "RM.129.1",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.10",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.12",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.13",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.14",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.2",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.3",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.4",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.5",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.6",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.7",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.8",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.129.9",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "RM.131",
       "assetUrl": "",
       "category": "L.Rm",
@@ -4412,6 +5363,16 @@
     },
     {
       "assetId": "RM.133.1",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.133.10",
       "assetUrl": "",
       "category": "L.Rm",
       "department": "",
@@ -4481,6 +5442,26 @@
       "room": ""
     },
     {
+      "assetId": "RM.133.8",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.133.9",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "RM.133B",
       "assetUrl": "",
       "category": "L.Rm",
@@ -4492,6 +5473,26 @@
     },
     {
       "assetId": "RM.133C",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.133J",
+      "assetUrl": "",
+      "category": "L.Rm",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "RM.133LL",
       "assetUrl": "",
       "category": "L.Rm",
       "department": "",
@@ -4721,6 +5722,6 @@
       "room": ""
     }
   ],
-  "complete": false,
-  "updatedAt": "2026-06-11T19:13:54.889Z"
+  "complete": true,
+  "updatedAt": "2026-06-11T19:14:03.589Z"
 }
