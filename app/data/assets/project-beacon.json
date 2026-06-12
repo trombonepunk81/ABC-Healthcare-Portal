@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-12T15:51:49.978Z",
-  "totalAssets": 105,
+  "lastUpdated": "2026-06-12T21:03:00.690Z",
+  "totalAssets": 106,
   "assets": [
     {
       "assetId": "C-L21-01",
@@ -138,42 +138,6 @@
       "room": "WELL 21S07"
     },
     {
-      "assetId": "DS_21E04B",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACcCyZhH19NTZsZ0gIGhgPXADbsaA",
-      "category": "27COM.ID - Interactive Displays",
-      "entityName": "",
-      "generalName": "Interactive Display",
-      "level": "LEVEL 21",
-      "room": "CIRC 21E04B"
-    },
-    {
-      "assetId": "DS_21W08A",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAya-SaWhNG36wtZKQwuuz6AEnjkA",
-      "category": "27COM.DS - Display Screens",
-      "entityName": "",
-      "generalName": "Wall Display",
-      "level": "LEVEL 21",
-      "room": "CIRC 21W08A"
-    },
-    {
-      "assetId": "MP_21E04B",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0Urg",
-      "category": "27COM.MP - Media Player",
-      "entityName": "",
-      "generalName": "Expanded Media Player",
-      "level": "LEVEL 21",
-      "room": "CIRC 21E04B"
-    },
-    {
-      "assetId": "MP_21W08A",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UsA",
-      "category": "27COM.MP - Media Player",
-      "entityName": "",
-      "generalName": "Expanded Media Player",
-      "level": "LEVEL 21",
-      "room": "CIRC 21W08A"
-    },
-    {
       "assetId": "OM.20N03.28ESS.EQ.01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAADnI09izblBwIxdu5-MJ36kARjdaQ",
       "category": "28ESS.EQ",
@@ -189,7 +153,7 @@
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": ""
+      "room": "ELEVATOR LOBBY 21C01"
     },
     {
       "assetId": "OM01-21C04-27COM-WAP-01",
@@ -198,7 +162,7 @@
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": ""
+      "room": "CORR 21C04"
     },
     {
       "assetId": "OM01-21C07-27COM-WAP-01",
@@ -207,7 +171,7 @@
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": ""
+      "room": "FSAE LOBBY 21C07"
     },
     {
       "assetId": "OM01-21E01-27COM-DIS-01",
@@ -413,6 +377,33 @@
       "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
+      "level": "LEVEL 21",
+      "room": "CIRC 21E04A"
+    },
+    {
+      "assetId": "OM01-21E04B-27COM-DSP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACcCyZhH19NTZsZ0gIGhgPXADbsaA",
+      "category": "27COM.ID - Interactive Displays",
+      "entityName": "",
+      "generalName": "Digital Signage",
+      "level": "LEVEL 21",
+      "room": "CIRC 21E04B"
+    },
+    {
+      "assetId": "OM01-21E04B-27COM-MP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0Urg",
+      "category": "27COM.MP - Media Player",
+      "entityName": "",
+      "generalName": "Expanded Media Player",
+      "level": "LEVEL 21",
+      "room": "CIRC 21E04B"
+    },
+    {
+      "assetId": "OM01-21E07-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA_iA4Mm8tKNIcOTYbnKdbcADJb0g",
+      "category": "27COM.RS - Room Schedulers",
+      "entityName": "",
+      "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
       "room": ""
     },
@@ -633,6 +624,15 @@
       "room": "CONF_MED 21N10"
     },
     {
+      "assetId": "OM01-21N10-27COM-VSB-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADFwz6xjFVF0bfP8gKib5OyAEmnwg",
+      "category": "27COM.DM - Display Mount",
+      "entityName": "",
+      "generalName": "Video Sound Bar",
+      "level": "LEVEL 21",
+      "room": "CONF_MED 21N10"
+    },
+    {
       "assetId": "OM01-21N10-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcXA",
       "category": "27COM.WAP - Wireless Access Points",
@@ -648,7 +648,7 @@
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": ""
+      "room": "WORKSTATION 21N14"
     },
     {
       "assetId": "OM01-21N19-27COM-WAP-01",
@@ -657,7 +657,7 @@
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": ""
+      "room": "WORKSTATION 21N19"
     },
     {
       "assetId": "OM01-21S01-27COM-ID-01",
@@ -783,7 +783,7 @@
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": ""
+      "room": "CORR 21S08"
     },
     {
       "assetId": "OM01-21S11C-27COM-WAP-01",
@@ -792,7 +792,7 @@
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": ""
+      "room": "CIRC 21S11C"
     },
     {
       "assetId": "OM01-21S12-27COM-WAP-01",
@@ -801,7 +801,7 @@
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": ""
+      "room": "WORKSTATION 21S12"
     },
     {
       "assetId": "OM01-21W03-27COM-DIS-01",
@@ -913,12 +913,30 @@
     },
     {
       "assetId": "OM01-21W07-27COM-VSB-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADFwz6xjFVF0bfP8gKib5OyAEmnwg",
-      "category": "27COM.DM - Display Mount",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADFwz6xjFVF0bfP8gKib5OyAEmnWQ",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
-      "generalName": "Display Mount",
+      "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
-      "room": "CONF_MED 21N10"
+      "room": "HUDDLE 21W07"
+    },
+    {
+      "assetId": "OM01-21W08A-27COM-DSP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAya-SaWhNG36wtZKQwuuz6AEnjkA",
+      "category": "27COM.DS - Display Screens",
+      "entityName": "",
+      "generalName": "Digital Signage",
+      "level": "LEVEL 21",
+      "room": "CIRC 21W08A"
+    },
+    {
+      "assetId": "OM01-21W08A-27COM-MP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UsA",
+      "category": "27COM.MP - Media Player",
+      "entityName": "",
+      "generalName": "Expanded Media Player",
+      "level": "LEVEL 21",
+      "room": "CIRC 21W08A"
     },
     {
       "assetId": "OM01-21W10-27COM-WAP-01",
@@ -936,16 +954,7 @@
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
-      "room": ""
-    },
-    {
-      "assetId": "SP_21E07",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA_iA4Mm8tKNIcOTYbnKdbcADJb0g",
-      "category": "27COM.RS - Room Schedulers",
-      "entityName": "",
-      "generalName": "Logitech Tap Scheduler",
-      "level": "LEVEL 21",
-      "room": ""
+      "room": "WORKSTATION 21W13"
     }
   ]
 }
