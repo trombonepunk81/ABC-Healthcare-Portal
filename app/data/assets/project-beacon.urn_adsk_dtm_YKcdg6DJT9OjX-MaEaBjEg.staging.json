@@ -9,7 +9,7 @@
     {
       "assetId": "DS_21E04B",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACcCyZhH19NTZsZ0gIGhgPXADbsaA",
-      "category": "27COM.ID",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
@@ -18,7 +18,7 @@
     {
       "assetId": "DS_21W08A",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAya-SaWhNG36wtZKQwuuz6AEnjkA",
-      "category": "27COM",
+      "category": "27COM.DS - Display Screens",
       "entityName": "",
       "generalName": "Wall Display",
       "level": "LEVEL 21",
@@ -27,7 +27,7 @@
     {
       "assetId": "MP_21E04B",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0Urg",
-      "category": "27COM",
+      "category": "27COM.MP - Media Player",
       "entityName": "",
       "generalName": "Expanded Media Player",
       "level": "LEVEL 21",
@@ -36,25 +36,16 @@
     {
       "assetId": "MP_21W08A",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UsA",
-      "category": "27COM",
+      "category": "27COM.MP - Media Player",
       "entityName": "",
       "generalName": "Expanded Media Player",
       "level": "LEVEL 21",
       "room": "CIRC 21W08A"
     },
     {
-      "assetId": "OH01-21S06-27COM-SP-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsO1A",
-      "category": "27COM.RS",
-      "entityName": "",
-      "generalName": "Scheduling Panel",
-      "level": "LEVEL 21",
-      "room": ""
-    },
-    {
       "assetId": "OM01-21C01-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETITQ",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -63,7 +54,7 @@
     {
       "assetId": "OM01-21C04-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcog",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -72,7 +63,7 @@
     {
       "assetId": "OM01-21C07-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIcQ",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -81,7 +72,7 @@
     {
       "assetId": "OM01-21E01-27COM-DIS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABMbqvdvvdNhYizByPU1IMfADBTAA",
-      "category": "27COM.DS",
+      "category": "27COM.DS - Display Screens",
       "entityName": "",
       "generalName": "Display",
       "level": "LEVEL 21",
@@ -90,7 +81,7 @@
     {
       "assetId": "OM01-21E01-27COM-DIS-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAC-tCFnRV1Fcbxs3apKgWrgACPBpw",
-      "category": "27COM.DS",
+      "category": "27COM.DS - Display Screens",
       "entityName": "",
       "generalName": "Display",
       "level": "LEVEL 21",
@@ -99,7 +90,7 @@
     {
       "assetId": "OM01-21E01-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsHog",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -108,7 +99,7 @@
     {
       "assetId": "OM01-21E01-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABQylvIJ11DsZHQjP4qCIECAD_bZg",
-      "category": "27COM.AD",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -117,7 +108,7 @@
     {
       "assetId": "OM01-21E02-27COM-DIS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA3DdxNzQRM2I7ivnYOS08iAEkt8Q",
-      "category": "27COM.DS",
+      "category": "27COM.DS - Display Screens",
       "entityName": "",
       "generalName": "Display",
       "level": "LEVEL 21",
@@ -126,7 +117,7 @@
     {
       "assetId": "OM01-21E02-27COM-DM-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TGQ",
-      "category": "27COM",
+      "category": "27COM.DM - Display Mount",
       "entityName": "",
       "generalName": "Display Mount",
       "level": "LEVEL 21",
@@ -135,7 +126,7 @@
     {
       "assetId": "OM01-21E02-27COM-HR-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TGA",
-      "category": "27COM",
+      "category": "27COM.HR - HDMI Receiver",
       "entityName": "",
       "generalName": "HDMI Receiver",
       "level": "LEVEL 21",
@@ -144,7 +135,7 @@
     {
       "assetId": "OM01-21E02-27COM-HR-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TGw",
-      "category": "27COM",
+      "category": "27COM.HR - HDMI Receiver",
       "entityName": "",
       "generalName": "HDMI Receiver",
       "level": "LEVEL 21",
@@ -153,7 +144,7 @@
     {
       "assetId": "OM01-21E02-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA1YVqZ6hVBErL36fApf87MACq2iA",
-      "category": "27COM.DS",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
@@ -162,7 +153,7 @@
     {
       "assetId": "OM01-21E02-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA8Fb3tBqtK25jjPYCNXCuIAEnbBA",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -171,7 +162,7 @@
     {
       "assetId": "OM01-21E02-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TFQ",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -180,7 +171,7 @@
     {
       "assetId": "OM01-21E02-27COM-TP-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TFw",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -189,7 +180,7 @@
     {
       "assetId": "OM01-21E02-27COM-TP-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TIQ",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -198,7 +189,7 @@
     {
       "assetId": "OM01-21E02-27COM-TPM-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0THQ",
-      "category": "27COM",
+      "category": "27COM.TPM - Table Module",
       "entityName": "",
       "generalName": "Table Module",
       "level": "LEVEL 21",
@@ -207,7 +198,7 @@
     {
       "assetId": "OM01-21E02-27COM-TRA-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TGg",
-      "category": "27COM",
+      "category": "27COM.TRA - AV Transmitter",
       "entityName": "",
       "generalName": "AV Transmitter",
       "level": "LEVEL 21",
@@ -216,7 +207,7 @@
     {
       "assetId": "OM01-21E02-27COM-TRA-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0THw",
-      "category": "27COM",
+      "category": "27COM.TRA - AV Transmitter",
       "entityName": "",
       "generalName": "AV Transmitter",
       "level": "LEVEL 21",
@@ -225,7 +216,7 @@
     {
       "assetId": "OM01-21E02-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABtlyON7XhA9onKZClfiIvjAEnYtw",
-      "category": "27COM.AD",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -234,7 +225,7 @@
     {
       "assetId": "OM01-21E02-27COM-VSB-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TFg",
-      "category": "27COM",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -243,7 +234,7 @@
     {
       "assetId": "OM01-21E03-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADmzfF5HipCWLzcybgcR6X2ADTnEQ",
-      "category": "27COM.ID",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
@@ -252,7 +243,7 @@
     {
       "assetId": "OM01-21E03-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADrVo3ral9EhIFy0vi1b-aRADrfxA",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -261,7 +252,7 @@
     {
       "assetId": "OM01-21E03-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0Ttw",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -270,7 +261,7 @@
     {
       "assetId": "OM01-21E03-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0TuA",
-      "category": "27COM",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -279,7 +270,7 @@
     {
       "assetId": "OM01-21E04A-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcqw",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -288,7 +279,7 @@
     {
       "assetId": "OM01-21E07-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIVg",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -297,7 +288,7 @@
     {
       "assetId": "OM01-21E08-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcmQ",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -306,7 +297,7 @@
     {
       "assetId": "OM01-21E09-27COM-DM-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABiNOvBs0dL4IBwkYre_eT7AE1Esw",
-      "category": "27COM",
+      "category": "27COM.DM - Display Mount",
       "entityName": "",
       "generalName": "Display Mount",
       "level": "LEVEL 21",
@@ -315,7 +306,7 @@
     {
       "assetId": "OM01-21E09-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAIQDJ2udhHUIIjem-OZHy8ACxZ3g",
-      "category": "27COM.ID",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
@@ -324,7 +315,7 @@
     {
       "assetId": "OM01-21E09-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0UGQ",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -333,7 +324,7 @@
     {
       "assetId": "OM01-21E09-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABslUtK9G1Kz6D9PcSRTGOZAEITwA",
-      "category": "27COM.AD",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -342,7 +333,7 @@
     {
       "assetId": "OM01-21N03-27COM-DIS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABIlUR-xotKkJel2s2nDN3aACPY5g",
-      "category": "27COM.DS",
+      "category": "27COM.DS - Display Screens",
       "entityName": "",
       "generalName": "Wall Display",
       "level": "LEVEL 21",
@@ -351,7 +342,7 @@
     {
       "assetId": "OM01-21N03-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsH9Q",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -360,7 +351,7 @@
     {
       "assetId": "OM01-21N03-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0UZQ",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -369,7 +360,7 @@
     {
       "assetId": "OM01-21N03-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACq-JH8QBNFWoqapP_ZI5bgADMCEQ",
-      "category": "27COM.AD",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -378,7 +369,7 @@
     {
       "assetId": "OM01-21N04-27COM-NS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABU1lNxtx9ObaUTUzopEaplAEzjRQ",
-      "category": "27COM",
+      "category": "27COM.NS - Network Switch",
       "entityName": "SW-21N04-01",
       "generalName": "Network Switch",
       "level": "LEVEL 21",
@@ -387,7 +378,7 @@
     {
       "assetId": "OM01-21N04-27COM-NS-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADn9MekBCFFwLLZ7Rw2zLfhAE04JQ",
-      "category": "27COM",
+      "category": "27COM.NS - Network Switch",
       "entityName": "SW-21N04-02",
       "generalName": "Network Switch",
       "level": "LEVEL 21",
@@ -396,7 +387,7 @@
     {
       "assetId": "OM01-21N04-27COM-NS-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADn9MekBCFFwLLZ7Rw2zLfhAE04LQ",
-      "category": "27COM",
+      "category": "27COM.NS - Network Switch",
       "entityName": "SW-21N04-03",
       "generalName": "Network Switch",
       "level": "LEVEL 21",
@@ -405,7 +396,7 @@
     {
       "assetId": "OM01-21N04-27COM-NS-04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADn9MekBCFFwLLZ7Rw2zLfhAE037Q",
-      "category": "28ESS.EQ",
+      "category": "28ESS.NS - SEC Network Switch",
       "entityName": "SECSW-21N04-01",
       "generalName": "SEC Network Switch",
       "level": "LEVEL 21",
@@ -414,7 +405,7 @@
     {
       "assetId": "OM01-21N05-27COM-DSP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACkzwhHEnJGqLMM0WTeGSuWAE0zLw",
-      "category": "27COM",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Digital Signage",
       "level": "LEVEL 21",
@@ -423,7 +414,7 @@
     {
       "assetId": "OM01-21N05-27COM-MP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UsQ",
-      "category": "27COM",
+      "category": "27COM.MP - Media Player",
       "entityName": "",
       "generalName": "Expanded Media Player",
       "level": "LEVEL 21",
@@ -432,7 +423,7 @@
     {
       "assetId": "OM01-21N06-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABm4_2BaiNCiKdurNJJDDrQADYGwA",
-      "category": "27COM.ID",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
@@ -441,7 +432,7 @@
     {
       "assetId": "OM01-21N06-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABUi8uAJg5MH4oNQGYHYnZ-ADbJaQ",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -450,7 +441,7 @@
     {
       "assetId": "OM01-21N06-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0Ubg",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -459,7 +450,7 @@
     {
       "assetId": "OM01-21N06-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABEPv84EhVAT7Tt7wZmR6J5AEVIiQ",
-      "category": "27COM.AD",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -468,7 +459,7 @@
     {
       "assetId": "OM01-21N06-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpctA",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -477,7 +468,7 @@
     {
       "assetId": "OM01-21N10-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADz5hi3Uu5B_7VcmAK1KVz1AEkz3g",
-      "category": "27COM.ID",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
@@ -486,7 +477,7 @@
     {
       "assetId": "OM01-21N10-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADz5hi3Uu5B_7VcmAK1KVz1AEkz5Q",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -495,25 +486,16 @@
     {
       "assetId": "OM01-21N10-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAKywoTUDhBHoil5_CJMvcXAE0Udw",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
       "room": "CONF_MED 21N10"
     },
     {
-      "assetId": "OM01-21N10-27COM-VSB-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADFwz6xjFVF0bfP8gKib5OyAEmnwg",
-      "category": "27COM.AD",
-      "entityName": "",
-      "generalName": "Video Sound Bar",
-      "level": "LEVEL 21",
-      "room": "CONF_MED 21N10"
-    },
-    {
       "assetId": "OM01-21N10-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcXA",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -522,7 +504,7 @@
     {
       "assetId": "OM01-21N14-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcvQ",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -531,7 +513,7 @@
     {
       "assetId": "OM01-21N19-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIXw",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -540,7 +522,7 @@
     {
       "assetId": "OM01-21S01-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAB3KOEc73VM4YlpjaGO5n1rAECfAg",
-      "category": "27COM.ID",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
@@ -549,7 +531,7 @@
     {
       "assetId": "OM01-21S01-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADASNDsEb1BEZ6wm7Q876QVAC8-mg",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -558,7 +540,7 @@
     {
       "assetId": "OM01-21S01-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0UeA",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -567,7 +549,7 @@
     {
       "assetId": "OM01-21S01-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAiwQNfjkJCcLuD37GFSRtMADMJSA",
-      "category": "27COM.AD",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -576,7 +558,7 @@
     {
       "assetId": "OM01-21S04-27COM-DSP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAOWRsQveZEUYeonWQv6lhjAEyWDA",
-      "category": "27COM.ID",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Digital Signage",
       "level": "LEVEL 21",
@@ -585,7 +567,7 @@
     {
       "assetId": "OM01-21S04-27COM-MP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0Urw",
-      "category": "27COM",
+      "category": "27COM.MP - Media Player",
       "entityName": "",
       "generalName": "Expanded Media Player",
       "level": "LEVEL 21",
@@ -594,7 +576,7 @@
     {
       "assetId": "OM01-21S05-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAzughY_HxPLbSBrwHpF1CsADXD4w",
-      "category": "27COM.ID",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
@@ -603,7 +585,7 @@
     {
       "assetId": "OM01-21S05-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAAzughY_HxPLbSBrwHpF1CsADXD3g",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -612,7 +594,7 @@
     {
       "assetId": "OM01-21S05-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0UgQ",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -621,7 +603,7 @@
     {
       "assetId": "OM01-21S05-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0Ugg",
-      "category": "27COM",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -630,16 +612,25 @@
     {
       "assetId": "OM01-21S06-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADf1hGYGgpMrZA_aaqjYardADUw0g",
-      "category": "27COM.DS",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
       "room": "HUDDLE 21S06"
     },
     {
+      "assetId": "OM01-21S06-27COM-SP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsO1A",
+      "category": "27COM.RS - Room Schedulers",
+      "entityName": "",
+      "generalName": "Scheduling Panel",
+      "level": "LEVEL 21",
+      "room": ""
+    },
+    {
       "assetId": "OM01-21S06-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADTAmonEjxOoIDsAIVSoRT-AE0UoA",
-      "category": "27COM",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -648,7 +639,7 @@
     {
       "assetId": "OM01-21S08-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpchQ",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -657,7 +648,7 @@
     {
       "assetId": "OM01-21S11C-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpckA",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -666,7 +657,7 @@
     {
       "assetId": "OM01-21S12-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIeg",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -675,7 +666,7 @@
     {
       "assetId": "OM01-21W03-27COM-DIS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABIlUR-xotKkJel2s2nDN3aACPb7g",
-      "category": "27COM.DS",
+      "category": "27COM.DS - Display Screens",
       "entityName": "",
       "generalName": "Display",
       "level": "LEVEL 21",
@@ -684,7 +675,7 @@
     {
       "assetId": "OM01-21W03-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsNlQ",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -693,7 +684,7 @@
     {
       "assetId": "OM01-21W03-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0Ukw",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -702,7 +693,7 @@
     {
       "assetId": "OM01-21W03-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAD7isMHWI9K-JzQ_6zLAsMZADRRFw",
-      "category": "27COM.AD",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -711,7 +702,7 @@
     {
       "assetId": "OM01-21W04-27COM-DIS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADZGb9PMvJETrFKAKZ1CZY5ACPHTg",
-      "category": "27COM.DS",
+      "category": "27COM.DS - Display Screens",
       "entityName": "",
       "generalName": "Wall Display",
       "level": "LEVEL 21",
@@ -720,7 +711,7 @@
     {
       "assetId": "OM01-21W04-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABiNOvBs0dL4IBwkYre_eT7AE1AXw",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -729,7 +720,7 @@
     {
       "assetId": "OM01-21W04-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0Ung",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -738,7 +729,7 @@
     {
       "assetId": "OM01-21W04-27COM-VSB-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADwN1RLNTBKHY5qJ3a2-dgiACwayw",
-      "category": "27COM.AD",
+      "category": "27COM.AD - Audio Devices",
       "entityName": "",
       "generalName": "Video Sound Bar",
       "level": "LEVEL 21",
@@ -747,7 +738,7 @@
     {
       "assetId": "OM01-21W05-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADWT-mRlhRP0LCb6oQq8NyCACsWMQ",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -756,7 +747,7 @@
     {
       "assetId": "OM01-21W07-27COM-ID-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADz5hi3Uu5B_7VcmAK1KVz1AEkz2w",
-      "category": "27COM.ID",
+      "category": "27COM.ID - Interactive Displays",
       "entityName": "",
       "generalName": "Interactive Display",
       "level": "LEVEL 21",
@@ -765,7 +756,7 @@
     {
       "assetId": "OM01-21W07-27COM-SP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABHopBuG4BD_5m2xo479xfRAEmzWA",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -774,7 +765,7 @@
     {
       "assetId": "OM01-21W07-27COM-TP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAACKOE1erlNIAZJzuaWsA40dAE0Unw",
-      "category": "27COM",
+      "category": "27COM.TP - Touch Panel",
       "entityName": "",
       "generalName": "Touch Panel",
       "level": "LEVEL 21",
@@ -782,17 +773,17 @@
     },
     {
       "assetId": "OM01-21W07-27COM-VSB-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADFwz6xjFVF0bfP8gKib5OyAEmnWQ",
-      "category": "27COM.AD",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADFwz6xjFVF0bfP8gKib5OyAEmnwg",
+      "category": "27COM.DM - Display Mount",
       "entityName": "",
-      "generalName": "Video Sound Bar",
+      "generalName": "Display Mount",
       "level": "LEVEL 21",
-      "room": "HUDDLE 21W07"
+      "room": "CONF_MED 21N10"
     },
     {
       "assetId": "OM01-21W10-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADKWGLcP7VN8q20uV1mksj2AETIaA",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -801,7 +792,7 @@
     {
       "assetId": "OM01-21W13-27COM-WAP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAABnVTrgLh5Jg4VW9Q2j-culADpcfA",
-      "category": "27COM.WAP",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "",
       "generalName": "Wireless Access Point",
       "level": "LEVEL 21",
@@ -810,7 +801,7 @@
     {
       "assetId": "SP_21E07",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAAA_iA4Mm8tKNIcOTYbnKdbcADJb0g",
-      "category": "27COM.RS",
+      "category": "27COM.RS - Room Schedulers",
       "entityName": "",
       "generalName": "Logitech Tap Scheduler",
       "level": "LEVEL 21",
@@ -818,5 +809,5 @@
     }
   ],
   "complete": true,
-  "updatedAt": "2026-06-11T19:33:44.885Z"
+  "updatedAt": "2026-06-12T15:40:33.867Z"
 }
