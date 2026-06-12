@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-12T15:40:33.873Z",
+  "lastUpdated": "2026-06-12T15:40:42.318Z",
   "totalAssets": 105,
   "assets": [
     {
       "assetId": "C-L21-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABQPg4V8SVMHL4uSUQWlX3EAP-hqQ",
-      "category": "28ESS.CAM",
+      "category": "28ESS.CAM - Security Cameras",
       "entityName": "C-L21-01",
       "generalName": "Wall Camera",
       "level": "LEVEL 21",
@@ -14,7 +14,7 @@
     {
       "assetId": "C-L21-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACEy4W7JDJBAJ2r4RGvDr5_AQlr6g",
-      "category": "28ESS.CAM",
+      "category": "28ESS.CAM - Security Cameras",
       "entityName": "C-L21-02",
       "generalName": "Wall Camera",
       "level": "LEVEL 21",
@@ -23,7 +23,7 @@
     {
       "assetId": "C-L21-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAD300NEdIdMhYwwWIBQf-pMAMPX1Q",
-      "category": "28ESS.CAM",
+      "category": "28ESS.CAM - Security Cameras",
       "entityName": "C-L21-03",
       "generalName": "Ceiling Camera",
       "level": "LEVEL 21",
@@ -32,7 +32,7 @@
     {
       "assetId": "C-L21-04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABge1DI8sBEwrYIe6qtC-E0AOZFfw",
-      "category": "28ESS.CAM",
+      "category": "28ESS.CAM - Security Cameras",
       "entityName": "C-L21-04",
       "generalName": "Ceiling Camera",
       "level": "LEVEL 21",
@@ -41,7 +41,7 @@
     {
       "assetId": "C-L21-05",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAAosmkn_h9CsrD_dj2OPS7VAK5e6g",
-      "category": "28ESS.CAM",
+      "category": "28ESS.CAM - Security Cameras",
       "entityName": "C-L21-05",
       "generalName": "Ceiling Camera",
       "level": "LEVEL 21",
@@ -50,7 +50,7 @@
     {
       "assetId": "C-L21-06",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABQPg4V8SVMHL4uSUQWlX3EAP-fyA",
-      "category": "28ESS.CAM",
+      "category": "27COM.WAP - Wireless Access Points",
       "entityName": "C-L21-06",
       "generalName": "Wall Camera",
       "level": "LEVEL 21",
@@ -59,7 +59,7 @@
     {
       "assetId": "C-L21-07",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABQPg4V8SVMHL4uSUQWlX3EAP-gSQ",
-      "category": "28ESS.CAM",
+      "category": "28ESS.CAM - Security Cameras",
       "entityName": "C-L21-07",
       "generalName": "Wall Camera",
       "level": "LEVEL 21",
@@ -68,7 +68,7 @@
     {
       "assetId": "C-L21-08",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACRON2DyFxKKJ7PpDtlUVCFASH0aQ",
-      "category": "28ESS.CAM",
+      "category": "28ESS.CAM - Security Cameras",
       "entityName": "C-L21-08",
       "generalName": "Ceiling Camera",
       "level": "LEVEL 21",
@@ -77,7 +77,7 @@
     {
       "assetId": "CR 21C02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACRON2DyFxKKJ7PpDtlUVCFASHztw",
-      "category": "28ESS.CR",
+      "category": "28ESS.CR - Card Readers",
       "entityName": "CR 21C02",
       "generalName": "Card Reader",
       "level": "LEVEL 21",
@@ -86,7 +86,7 @@
     {
       "assetId": "CR 21C05",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAAosmkn_h9CsrD_dj2OPS7VAK5e-g",
-      "category": "28ESS.CR",
+      "category": "28ESS.CR - Card Readers",
       "entityName": "CR 21C05",
       "generalName": "Card Reader",
       "level": "LEVEL 21",
@@ -95,7 +95,7 @@
     {
       "assetId": "CR 21C06",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAD300NEdIdMhYwwWIBQf-pMAMPXmA",
-      "category": "28ESS.CR",
+      "category": "28ESS.CR - Card Readers",
       "entityName": "CR 21C06",
       "generalName": "Card Reader",
       "level": "LEVEL 21",
@@ -104,7 +104,7 @@
     {
       "assetId": "CR 21C08",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAAD300NEdIdMhYwwWIBQf-pMAMPUXA",
-      "category": "28ESS.CR",
+      "category": "28ESS.CR - Card Readers",
       "entityName": "CR 21C08",
       "generalName": "Card Reader",
       "level": "LEVEL 21",
@@ -113,7 +113,7 @@
     {
       "assetId": "CR 21N04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACFOQ6usc1BnZYjNsyZwHYiANYPAw",
-      "category": "28ESS.CR",
+      "category": "28ESS.CR - Card Readers",
       "entityName": "CR 21N04",
       "generalName": "Card Reader",
       "level": "LEVEL 21",
@@ -122,7 +122,7 @@
     {
       "assetId": "CR 21N10",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAABC4OuzPv1CD6gf01IaWXgzAO12ow",
-      "category": "28ESS.CR",
+      "category": "28ESS.CR - Card Readers",
       "entityName": "CR 21N10",
       "generalName": "Card Reader",
       "level": "LEVEL 21",
@@ -131,7 +131,7 @@
     {
       "assetId": "CR 21S07",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=i4SuEcbORDqdMuAIoyh31QEAAACFOQ6usc1BnZYjNsyZwHYiANYPOA",
-      "category": "28ESS.CR",
+      "category": "28ESS.CR - Card Readers",
       "entityName": "CR 21S07",
       "generalName": "Card Reader",
       "level": "LEVEL 21",
