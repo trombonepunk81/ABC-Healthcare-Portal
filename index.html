@@ -152,6 +152,8 @@
     }
     .asset-info-value { font-size: 0.9rem; font-weight: 500; color: var(--gray-800); }
     .asset-info-value.empty { color: var(--gray-400); font-style: italic; font-weight: 400; }
+    .doc-link { color: var(--aptitude-cyan); font-weight: 600; text-decoration: none; }
+    .doc-link:hover { text-decoration: underline; }
 
     .section-title {
       font-size: 0.75rem;
@@ -314,16 +316,30 @@
               <div class="asset-info-value" id="info-general-name">—</div>
             </div>
             <div class="asset-info-item">
-              <div class="asset-info-label">Department</div>
-              <div class="asset-info-value" id="info-department">—</div>
-            </div>
-            <div class="asset-info-item">
               <div class="asset-info-label">Entity Name</div>
               <div class="asset-info-value" id="info-entity-name">—</div>
             </div>
             <div class="asset-info-item">
+              <div class="asset-info-label">Department</div>
+              <div class="asset-info-value" id="info-department">—</div>
+            </div>
+            <div class="asset-info-item">
+              <div class="asset-info-label">Manufacturer</div>
+              <div class="asset-info-value" id="info-manufacturer">—</div>
+            </div>
+            <div class="asset-info-item">
+              <div class="asset-info-label">Model Number</div>
+              <div class="asset-info-value" id="info-model-number">—</div>
+            </div>
+            <div class="asset-info-item">
               <div class="asset-info-label">Location</div>
               <div class="asset-info-value" id="info-location">—</div>
+            </div>
+            <div class="asset-info-item" id="item-documentation">
+              <div class="asset-info-label">Documentation</div>
+              <div class="asset-info-value">
+                <a id="info-documentation-link" class="doc-link" href="#" target="_blank" rel="noopener noreferrer" referrerpolicy="no-referrer">DOCS</a>
+              </div>
             </div>
           </div>
 
@@ -419,23 +435,50 @@
   </main>
 
   <script>
-    const urlParams   = new URLSearchParams(window.location.search);
-    const assetId     = urlParams.get('asset');
-    const tandemUrl   = urlParams.get('tandem');
-    const generalName = urlParams.get('generalName') || '';
-    const department  = urlParams.get('department')  || '';
-    const entityName  = urlParams.get('entityName')  || '';
-    const level       = urlParams.get('level')       || '';
-    const room        = urlParams.get('room')        || '';
+    const DOC_BASE = 'https://tandem.autodesk.com/api/v1/twins/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg/documents/';
 
+    const urlParams     = new URLSearchParams(window.location.search);
+    const assetId       = urlParams.get('asset');
+    const tandemUrl     = urlParams.get('tandem');
+    const generalName   = urlParams.get('generalName')   || '';
+    const department    = urlParams.get('department')    || '';
+    const entityName    = urlParams.get('entityName')    || '';
+    const manufacturer  = urlParams.get('manufacturer')  || '';
+    const modelNumber   = urlParams.get('modelNumber')   || '';
+    const documentation = urlParams.get('documentation') || '';
+    const docUrl        = urlParams.get('docUrl')         || '';
+    const level         = urlParams.get('level')          || '';
+    const room          = urlParams.get('room')           || '';
+
+    // Sets a tile's value; hides the whole tile when there's no value.
     function setInfoValue(id, value) {
       var el = document.getElementById(id);
+      var item = el.closest('.asset-info-item');
       if (value && value.trim()) {
         el.textContent = value;
         el.classList.remove('empty');
+        if (item) item.style.display = '';
+      } else if (item) {
+        item.style.display = 'none';
+      }
+    }
+
+    // Builds the DOCS link; hides the tile when there's no document.
+    function setDocLink() {
+      var item = document.getElementById('item-documentation');
+      var link = document.getElementById('info-documentation-link');
+      var href = '';
+      if (docUrl && docUrl.trim()) {
+        href = docUrl.trim();
+      } else if (documentation && documentation.trim()) {
+        var d = documentation.trim();
+        href = /^https?:\/\//i.test(d) ? d : (DOC_BASE + d + '/content');
+      }
+      if (href) {
+        link.href = href;
+        item.style.display = '';
       } else {
-        el.textContent = '—';
-        el.classList.add('empty');
+        item.style.display = 'none';
       }
     }
 
@@ -452,20 +495,27 @@
         document.getElementById('btn-service').href = 'https://www.ibm.com/products/maximo';
       }
 
-      // Populate info fields
+      // Populate info fields (each tile hides itself if empty)
       setInfoValue('info-general-name', generalName);
-      setInfoValue('info-department', department);
       setInfoValue('info-entity-name', entityName);
+      setInfoValue('info-department', department);
+      setInfoValue('info-manufacturer', manufacturer);
+      setInfoValue('info-model-number', modelNumber);
 
       // Combine level + room into a single Location field
       var locationParts = [level, room].filter(function(v) { return v && v.trim(); });
       setInfoValue('info-location', locationParts.join(' · '));
 
-      // Hide the grid entirely if none of the fields have data
-      var hasInfo = generalName || department || entityName || level || room;
-      if (!hasInfo) {
-        document.getElementById('asset-info-grid').style.display = 'none';
-      }
+      // Documentation DOCS link
+      setDocLink();
+
+      // Hide the grid entirely if no tiles ended up visible
+      var grid = document.getElementById('asset-info-grid');
+      var anyVisible = Array.prototype.some.call(
+        grid.querySelectorAll('.asset-info-item'),
+        function (it) { return it.style.display !== 'none'; }
+      );
+      if (!anyVisible) grid.style.display = 'none';
 
     } else {
       document.getElementById('no-asset-view').classList.add('active');
