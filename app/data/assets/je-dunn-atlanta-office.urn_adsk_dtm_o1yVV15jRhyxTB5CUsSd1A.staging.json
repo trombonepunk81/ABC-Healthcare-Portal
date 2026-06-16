@@ -5,6 +5,7 @@
   "batchesReceived": [
     1,
     3,
+    4,
     5,
     6,
     7
@@ -139,6 +140,16 @@
       "generalName": "SD Access Node",
       "level": "LOWER FLOOR",
       "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-002.1-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABHHVg",
+      "category": "Q.CD",
+      "department": "Healthcare",
+      "entityName": "AS-04",
+      "generalName": "Air Quality Sensor",
+      "level": "LOWER FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-LF-002.11-25INT-DS-01",
@@ -991,6 +1002,16 @@
       "room": "BOOTS ON THE GROUND 018"
     },
     {
+      "assetId": "JD4021-LF-018-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABHHBQ",
+      "category": "Q.CD",
+      "department": "CONFERENCE ROOM",
+      "entityName": "AS-08",
+      "generalName": "Air Quality Sensor",
+      "level": "LOWER FLOOR",
+      "room": "BOOTS ON THE GROUND 018"
+    },
+    {
       "assetId": "JD4021-LF-020-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3uLw",
       "category": "E.LF",
@@ -999,6 +1020,16 @@
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": "STORAGE 020"
+    },
+    {
+      "assetId": "JD4021-LF-021-26ELE-EP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAACBq1ZkzmhCh5gnWIjA8jpnAApC-Q",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "LP",
+      "generalName": "Electrical Panel",
+      "level": "LOWER FLOOR",
+      "room": "COPY 021"
     },
     {
       "assetId": "JD4021-LF-021-26ELE-LI-01",
@@ -1177,6 +1208,16 @@
       "department": "",
       "entityName": "",
       "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": "ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-LF-022-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABHHeg",
+      "category": "Q.CD",
+      "department": "GATHERING",
+      "entityName": "AS-09",
+      "generalName": "Air Quality Sensor",
       "level": "LOWER FLOOR",
       "room": "ROACH COACH 022"
     },
@@ -1401,6 +1442,16 @@
       "room": "CATHY KASHIUS 026.5"
     },
     {
+      "assetId": "JD4021-LF-026.5-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABHHIg",
+      "category": "Q.CD",
+      "department": "AVIATION",
+      "entityName": "AS-06",
+      "generalName": "Air Quality Sensor",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-026.6-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAA7A890-LNBn5jeRKTD0dT0ABF3TQ",
       "category": "Q.CD",
@@ -1451,6 +1502,66 @@
       "room": "STAIR 027"
     },
     {
+      "assetId": "JD4021-LF-027-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_kg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_yg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_zQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_4A",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_4w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "STAIR 027"
+    },
+    {
+      "assetId": "JD4021-LF-027-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_5g",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "STAIR 027"
+    },
+    {
       "assetId": "JD4021-LF-028-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA30zA",
       "category": "E.LF",
@@ -1481,6 +1592,106 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-031-26ELE-PD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3XDw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GATHERING 031"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-PD-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3Xhg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GATHERING 031"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-PD-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3XiQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GATHERING 031"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-PD-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3Xvw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GATHERING 031"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-PD-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3XwA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GATHERING 031"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-PD-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3XwQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GATHERING 031"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-PD-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3X1Q",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GATHERING 031"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-PD-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3X1g",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GATHERING 031"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-PD-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3X1w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pendant",
+      "level": "LOWER FLOOR",
+      "room": "GATHERING 031"
+    },
+    {
+      "assetId": "JD4021-LF-031-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA27RA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-032-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAJf0ZYYEhKwqL56AeQmzwRABjABg",
       "category": "E.LF",
@@ -1506,6 +1717,16 @@
       "category": "E.Eq",
       "department": "",
       "entityName": "L1A",
+      "generalName": "Electrical Panel",
+      "level": "LOWER FLOOR",
+      "room": "PRINT 033"
+    },
+    {
+      "assetId": "JD4021-LF-033-26ELE-EP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAACIkHt0iQhNIoV4ghzVhfnkABGhNA",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "LL1",
       "generalName": "Electrical Panel",
       "level": "LOWER FLOOR",
       "room": "PRINT 033"
@@ -1561,12 +1782,32 @@
       "room": "IN THE BALLPARK 035"
     },
     {
+      "assetId": "JD4021-LF-035-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABHGaA",
+      "category": "Q.CD",
+      "department": "CONFERENCE ROOM",
+      "entityName": "AS-03",
+      "generalName": "Air Quality Sensor",
+      "level": "LOWER FLOOR",
+      "room": "IN THE BALLPARK 035"
+    },
+    {
       "assetId": "JD4021-LF-036-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAABtNkHrgPJIT5K3HYQmRzXjAA2Edg",
       "category": "E.LF",
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "DEEP DIVE 036"
+    },
+    {
+      "assetId": "JD4021-LF-036-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABG3rg",
+      "category": "Q.CD",
+      "department": "CONFERENCE ROOM",
+      "entityName": "AS-01",
+      "generalName": "Air Quality Sensor",
       "level": "LOWER FLOOR",
       "room": "DEEP DIVE 036"
     },
@@ -2001,6 +2242,16 @@
       "room": "WALKWAY 0.02 W0.02"
     },
     {
+      "assetId": "JD4021-LF-W0.02-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABHFiQ",
+      "category": "Q.CD",
+      "department": "APTITUDE",
+      "entityName": "AS-02",
+      "generalName": "Air Quality Sensor",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
       "assetId": "JD4021-LF-W0.03-27COM-AN-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAACLRcZQ6NMiKD7LZSUZhrYAA-oiw",
       "category": "Q.CD",
@@ -2059,6 +2310,66 @@
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": "SCOTT BODDEN 002.5"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_6Q",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3BWQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-RF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3BWg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-RF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3BWw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3BXA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3BXQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-XS-01",
@@ -2131,6 +2442,76 @@
       "room": "WALKWAY 0.04 W0.04"
     },
     {
+      "assetId": "JD4021-LF-W0.05-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3Bkg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3Bkw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-RF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3BlA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-RF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3BlQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3Blg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3Blw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-26ELE-RF-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA3Bow",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
       "assetId": "JD4021-LF-W0.06-26ELE-RF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4MDw",
       "category": "E.LF",
@@ -2161,6 +2542,236 @@
       "room": "ROACH COACH 022"
     },
     {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA26Gw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2-OA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2--w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_Uw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_Vg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_WQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-26ELE-RF-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB9tWeJuKdCkLeHgtuDFEJLAA2_XA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4eRg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4e6w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4e8w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4e-w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fBQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fDw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fFw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fIQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fKQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-10",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fNQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-11",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fOg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-12",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fPw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-13",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fRA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-14",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fSQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-15",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fTg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-LP-16",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4fUw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-101-26ELE-XS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAABMO_PZvaZCtqUcOOGx9YbhABC0zQ",
       "category": "E.LF",
@@ -2189,6 +2800,16 @@
       "generalName": "Intrusion Keypad",
       "level": "MAIN FLOOR",
       "room": "RECEPTION 101"
+    },
+    {
+      "assetId": "JD4021-MF-102-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4eEA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-26ELE-RF-01",
@@ -2251,6 +2872,16 @@
       "room": "BOTTOM LINE 102"
     },
     {
+      "assetId": "JD4021-MF-103-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4dbA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WIN WIN 103"
+    },
+    {
       "assetId": "JD4021-MF-103-26ELE-RF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4Xzg",
       "category": "E.LF",
@@ -2309,6 +2940,46 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WIN WIN 103"
+    },
+    {
+      "assetId": "JD4021-MF-104-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4dHQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-104-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4dLg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-105-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4dNg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-105-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4dQA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-106.1-26ELE-LP-01",
@@ -2457,6 +3128,76 @@
       "department": "",
       "entityName": "L2A",
       "generalName": "Electrical Panel",
+      "level": "MAIN FLOOR",
+      "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4afA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4c9g",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-LI-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4dEQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-LI-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4dGQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-LI-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4dGg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-LI-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4dGw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABHIlw",
+      "category": "Q.CD",
+      "department": "EXECUTIVE",
+      "entityName": "AS-12",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WORKROOM 107"
     },
@@ -2741,6 +3482,86 @@
       "room": "GATHERING 111"
     },
     {
+      "assetId": "JD4021-MF-112-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4Zxg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-26ELE-RF-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4Z1g",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-26ELE-RF-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4Z2Q",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-26ELE-RF-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4aGw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4aHA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-26ELE-RF-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4aHQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-26ELE-RF-08",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4aHg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-26ELE-RF-09",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4aLA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-112-44POL-AQ-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAADZ_172FcRJc4cmUeOjIP4tABHJEw",
       "category": "Q.CD",
@@ -2771,6 +3592,36 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-113.10-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0rQ",
+      "category": "Q.CD",
+      "department": "DIVERSITY",
+      "entityName": "DS113",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "CAL TODD 113.10"
+    },
+    {
+      "assetId": "JD4021-MF-113.11-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0xg",
+      "category": "Q.CD",
+      "department": "HR",
+      "entityName": "DS116",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 113.11"
+    },
+    {
+      "assetId": "JD4021-MF-113.13-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0vA",
+      "category": "Q.CD",
+      "department": "HR",
+      "entityName": "DS114",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "SHANNON CHAPMAN 113.13"
+    },
+    {
       "assetId": "JD4021-MF-113.14-25INT-DS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG01Q",
       "category": "Q.CD",
@@ -2779,6 +3630,106 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "DONNA BENDIK 113.14"
+    },
+    {
+      "assetId": "JD4021-MF-113.15-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG00A",
+      "category": "Q.CD",
+      "department": "HR",
+      "entityName": "DS118",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "KEISHA McCALMAN 113.15"
+    },
+    {
+      "assetId": "JD4021-MF-113.16-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0yw",
+      "category": "Q.CD",
+      "department": "HR",
+      "entityName": "DS119",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "KAREN GARNER 113.16"
+    },
+    {
+      "assetId": "JD4021-MF-113.2-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0mQ",
+      "category": "Q.CD",
+      "department": "LEAN",
+      "entityName": "DS105",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "ELIZABETH TAYLOR 113.2"
+    },
+    {
+      "assetId": "JD4021-MF-113.3-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0lA",
+      "category": "Q.CD",
+      "department": "LEAN",
+      "entityName": "DS106",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "JEREMIAH SUGARMAN 113.3"
+    },
+    {
+      "assetId": "JD4021-MF-113.4-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0jw",
+      "category": "Q.CD",
+      "department": "LEAN",
+      "entityName": "DS107",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "SAKEENA PENNINGTON 113.4"
+    },
+    {
+      "assetId": "JD4021-MF-113.5-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0qA",
+      "category": "Q.CD",
+      "department": "LEAN",
+      "entityName": "DS108",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "MATT FRANKEL 113.5"
+    },
+    {
+      "assetId": "JD4021-MF-113.6-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0ow",
+      "category": "Q.CD",
+      "department": "LEAN",
+      "entityName": "DS109",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "KATHY GRAHAM 113.6"
+    },
+    {
+      "assetId": "JD4021-MF-113.7-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0ng",
+      "category": "Q.CD",
+      "department": "LEAN",
+      "entityName": "DS110",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "PATTY ADAMS 113.7"
+    },
+    {
+      "assetId": "JD4021-MF-113.8-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0tw",
+      "category": "Q.CD",
+      "department": "DIVERSITY",
+      "entityName": "DS111",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "MISHAUNE SAWYER 113.8"
+    },
+    {
+      "assetId": "JD4021-MF-113.9-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0sg",
+      "category": "Q.CD",
+      "department": "DIVERSITY",
+      "entityName": "DS112",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "SHAY LINDA 113.9"
     },
     {
       "assetId": "JD4021-MF-118-26ELE-LI-01",
@@ -3251,6 +4202,16 @@
       "room": "BOOTS ON THE GROUND 018"
     },
     {
+      "assetId": "JD4021-MF-127-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABHF-Q",
+      "category": "Q.CD",
+      "department": "GATHERING",
+      "entityName": "AS-19",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": "CAFE 127"
+    },
+    {
       "assetId": "JD4021-MF-128-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4KBw",
       "category": "E.LF",
@@ -3521,6 +4482,16 @@
       "room": "HOTEL 133J"
     },
     {
+      "assetId": "JD4021-MF-133LL-25INT-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACI8x6PdYdNBqxXXA2bVF5GABG0wQ",
+      "category": "Q.CD",
+      "department": "HR",
+      "entityName": "DS115",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "CHARTAVIA STEPHENS 133LL"
+    },
+    {
       "assetId": "JD4021-MF-134-26ELE-RF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4YnA",
       "category": "E.LF",
@@ -3593,6 +4564,26 @@
     {
       "assetId": "JD4021-MF-136-26ELE-RF-05",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4YmQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-136-26ELE-RF-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4gEQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-136-26ELE-RF-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB_u4szevhF87wf1k9PGviwAA4gFA",
       "category": "E.LF",
       "department": "",
       "entityName": "",
@@ -3717,6 +4708,16 @@
       "department": "PRECON",
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.01 W1.01"
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-44POL-AQ-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB92ErOx-ZD16DjE94zxh-9ABHIMw",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "AS-10",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.01 W1.01"
     },
@@ -4362,5 +5363,5 @@
     }
   ],
   "complete": false,
-  "updatedAt": "2026-06-16T04:09:44.792Z"
+  "updatedAt": "2026-06-16T04:09:49.110Z"
 }
