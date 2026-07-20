@@ -3,6 +3,7 @@
   "modelUrn": "urn:adsk.dtm:HIEG_rRmQaWdIfPybILB_Q",
   "totalBatches": 3,
   "batchesReceived": [
+    1,
     2,
     3
   ],
@@ -34,6 +35,26 @@
       "department": "",
       "entityName": "PIU-LL-11.AT.10",
       "generalName": "PIU-LL-11.AT.10",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-004-23HVA-SG-01",
+      "assetUrl": "MAT.004.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.004.01",
+      "generalName": "MAT.004.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-004-23HVA-SG-02",
+      "assetUrl": "MAT.004.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.004.02",
+      "generalName": "MAT.004.02",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -74,6 +95,26 @@
       "department": "SELF PERFORM",
       "entityName": "PIU-LL-10.AT.09",
       "generalName": "PIU-LL-10.AT.09",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-007-23HVA-SG-01",
+      "assetUrl": "MAT.007.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.007.01",
+      "generalName": "MAT.007.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-007-23HVA-SG-02",
+      "assetUrl": "MAT.007.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.007.02",
+      "generalName": "MAT.007.02",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -148,12 +189,242 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-016-23HVA-CD-01",
+      "assetUrl": "VAV-LL-2.AT.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "VAV-LL-2.AT.01",
+      "generalName": "VAV-LL-2.AT.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-016-23HVA-CD-02",
+      "assetUrl": "VAV-LL-2.AT.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "VAV-LL-2.AT.02",
+      "generalName": "VAV-LL-2.AT.02",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-016-23HVA-CD-03",
+      "assetUrl": "VAV-LL-2.AT.03",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "VAV-LL-2.AT.03",
+      "generalName": "VAV-LL-2.AT.03",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-017-23HVA-PIU-01",
+      "assetUrl": "PIU-LL-3",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-3",
+      "generalName": "PIU-LL-3",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-017-23HVA-PIU-02",
+      "assetUrl": "PIU-LL-4",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-4",
+      "generalName": "PIU-LL-4",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-01",
+      "assetUrl": "PIU-LL-7.AT.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-7.AT.01",
+      "generalName": "PIU-LL-7.AT.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-02",
+      "assetUrl": "PIU-LL-7.AT.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-7.AT.02",
+      "generalName": "PIU-LL-7.AT.02",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-03",
+      "assetUrl": "PIU-LL-7.AT.03",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-7.AT.03",
+      "generalName": "PIU-LL-7.AT.03",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-04",
+      "assetUrl": "PIU-LL-7.AT.04",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-7.AT.04",
+      "generalName": "PIU-LL-7.AT.04",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-05",
+      "assetUrl": "PIU-LL-4.AT.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-4.AT.02",
+      "generalName": "PIU-LL-4.AT.02",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-06",
+      "assetUrl": "PIU-LL-4.AT.03",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-4.AT.03",
+      "generalName": "PIU-LL-4.AT.03",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-07",
+      "assetUrl": "PIU-LL-4.AT.04",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-4.AT.04",
+      "generalName": "PIU-LL-4.AT.04",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-08",
+      "assetUrl": "PIU-LL-4.AT.05",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-4.AT.05",
+      "generalName": "PIU-LL-4.AT.05",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-23HVA-WG-09",
+      "assetUrl": "PIU-LL-4.AT.03",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-4.AT.03",
+      "generalName": "PIU-LL-4.AT.03",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-018-23HVA-WG-10",
       "assetUrl": "PIU-LL-4.AT.01",
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-4.AT.01",
       "generalName": "PIU-LL-4.AT.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-021-23HVA-SG-01",
+      "assetUrl": "PIU-LL-8.AT.04",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-8.AT.04",
+      "generalName": "PIU-LL-8.AT.04",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-23HVA-SG-01",
+      "assetUrl": "PIU-LL-5.AT.07",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-5.AT.07",
+      "generalName": "PIU-LL-5.AT.07",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-23HVA-WG-01",
+      "assetUrl": "PIU-LL-5.AT.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-5.AT.01",
+      "generalName": "PIU-LL-5.AT.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-23HVA-WG-02",
+      "assetUrl": "PIU-LL-5.AT.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-5.AT.02",
+      "generalName": "PIU-LL-5.AT.02",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-23HVA-WG-03",
+      "assetUrl": "PIU-LL-5.AT.03",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-5.AT.03",
+      "generalName": "PIU-LL-5.AT.03",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-23HVA-WG-04",
+      "assetUrl": "PIU-LL-5.AT.04",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-5.AT.04",
+      "generalName": "PIU-LL-5.AT.04",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-23HVA-WG-05",
+      "assetUrl": "PIU-LL-5.AT.05",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-5.AT.05",
+      "generalName": "PIU-LL-5.AT.05",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-23HVA-WG-06",
+      "assetUrl": "PIU-LL-5.AT.06",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-5.AT.06",
+      "generalName": "PIU-LL-5.AT.06",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-023-23HVA-PIU-01",
+      "assetUrl": "PIU-LL-7",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-7",
+      "generalName": "PIU-LL-7",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -168,12 +439,182 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-023-23HVA-RG-01",
+      "assetUrl": "MAT.023.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.023.01",
+      "generalName": "MAT.023.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-023-23HVA-SG-01",
+      "assetUrl": "PIU-LL-8.AT.03",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-8.AT.03",
+      "generalName": "PIU-LL-8.AT.03",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-23HVA-PIU-01",
+      "assetUrl": "PIU-LL-8",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-8",
+      "generalName": "PIU-LL-8",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-23HVA-RG-01",
+      "assetUrl": "MAT.024.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.024.01",
+      "generalName": "MAT.024.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-23HVA-SG-01",
+      "assetUrl": "PIU-LL-8.AT.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-8.AT.02",
+      "generalName": "PIU-LL-8.AT.02",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-025-23HVA-RG-01",
+      "assetUrl": "MAT.025.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.025.01",
+      "generalName": "MAT.025.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-025-23HVA-SG-01",
+      "assetUrl": "PIU-LL-8.AT.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-LL-8.AT.01",
+      "generalName": "PIU-LL-8.AT.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-025-23HVA-VAV-01",
       "assetUrl": "VAV-LL-2",
       "category": "M.Eq",
       "department": "",
       "entityName": "VAV-LL-2",
       "generalName": "VAV-LL-2",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-027-23HVA-SG-01",
+      "assetUrl": "VAV-LL-2.AT.04",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "VAV-LL-2.AT.04",
+      "generalName": "VAV-LL-2.AT.04",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-030-23HVA-SG-01",
+      "assetUrl": "CD-1-1.2",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-1.2",
+      "generalName": "CD-1-1.2",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-032-23HVA-CD-01",
+      "assetUrl": "MAT.032.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.032.01",
+      "generalName": "MAT.032.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-033-23HVA-CD-01",
+      "assetUrl": "MAT.033.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.033.01",
+      "generalName": "MAT.033.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-034-23HVA-PIU-01",
+      "assetUrl": "PIU-LL-2",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-2",
+      "generalName": "PIU-LL-2",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-035-23HVA-CD-01",
+      "assetUrl": "MAT.035.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.035.02",
+      "generalName": "MAT.035.02",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-035-23HVA-CD-02",
+      "assetUrl": "MAT.035.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.035.01",
+      "generalName": "MAT.035.01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-035-23HVA-PIU-01",
+      "assetUrl": "PIU-LL-9",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-9",
+      "generalName": "PIU-LL-9",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-035-23HVA-PIU-02",
+      "assetUrl": "PIU-LL-10",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-10",
+      "generalName": "PIU-LL-10",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-035-23HVA-PIU-03",
+      "assetUrl": "PIU-LL-11",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-LL-11",
+      "generalName": "PIU-LL-11",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -204,6 +645,16 @@
       "department": "",
       "entityName": "PIU-LL-1",
       "generalName": "PIU-LL-1",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-J01-23HVA-EG-01",
+      "assetUrl": "MAT.J01.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.J01.01",
+      "generalName": "MAT.J01.01",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -294,6 +745,16 @@
       "department": "SAFETY",
       "entityName": "PIU-LL-1.AT.06",
       "generalName": "PIU-LL-1.AT.06",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-23HVA-WG-10",
+      "assetUrl": "PIU-LL-9.AT.04",
+      "category": "M.Du.Te",
+      "department": "SAFETY",
+      "entityName": "PIU-LL-9.AT.04",
+      "generalName": "PIU-LL-9.AT.04",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -508,6 +969,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-W0.04-23HVA-VAV-01",
+      "assetUrl": "VAV-LL-3",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "VAV-LL-3",
+      "generalName": "VAV-LL-3",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-W0.04-23HVA-WG-01",
       "assetUrl": "PIU-LL-11.AT.01",
       "category": "M.Du.Te",
@@ -668,12 +1139,52 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-101-23HVA-SG-01",
+      "assetUrl": "PIU-1-1.AT.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-1.AT.02",
+      "generalName": "PIU-1-1.AT.02",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-102-23HVA-PIU-01",
       "assetUrl": "PIU-1-2",
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-2",
       "generalName": "PIU-1-2",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-102-23HVA-RG-01",
+      "assetUrl": "CD-1-2.8",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.8",
+      "generalName": "CD-1-2.8",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-102-23HVA-RG-02",
+      "assetUrl": "CD-1-2.7",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.7",
+      "generalName": "CD-1-2.7",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-102-23HVA-RG-03",
+      "assetUrl": "CR-3-2.3",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.3",
+      "generalName": "CR-3-2.3",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -698,12 +1209,72 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-103-23HVA-PIU-03",
+      "assetUrl": "PIU-1-11",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-11",
+      "generalName": "PIU-1-11",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-103-23HVA-RG-01",
+      "assetUrl": "CD-1-2.5",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.5",
+      "generalName": "CD-1-2.5",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-103-23HVA-RG-02",
+      "assetUrl": "CR-3-2.2",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.2",
+      "generalName": "CR-3-2.2",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-103-23HVA-SG-01",
+      "assetUrl": "CD-1-2.4",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.4",
+      "generalName": "CD-1-2.4",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-104-23HVA-RG-01",
+      "assetUrl": "CD-1-2.3",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.3",
+      "generalName": "CD-1-2.3",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-105-23HVA-PIU-01",
       "assetUrl": "PIU-1-3",
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-3",
       "generalName": "PIU-1-3",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-105-23HVA-RG-01",
+      "assetUrl": "CD-1-2.6",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.6",
+      "generalName": "CD-1-2.6",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -724,6 +1295,16 @@
       "department": "",
       "entityName": "PIU-1-3.AT.06",
       "generalName": "PIU-1-3.AT.06",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-106.1-23HVA-WG-03",
+      "assetUrl": "PIU-1-12.AT.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-12.AT.02",
+      "generalName": "PIU-1-12.AT.02",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -754,6 +1335,46 @@
       "department": "",
       "entityName": "PIU-1-5",
       "generalName": "PIU-1-5",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-23HVA-RG-01",
+      "assetUrl": "CR-3-2.1",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.1",
+      "generalName": "CR-3-2.1",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-23HVA-RG-02",
+      "assetUrl": "CD-1-2.1",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.1",
+      "generalName": "CD-1-2.1",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-23HVA-RG-03",
+      "assetUrl": "CD-1-2.2",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.2",
+      "generalName": "CD-1-2.2",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-23HVA-RG-01",
+      "assetUrl": "CR-3-2.4",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.4",
+      "generalName": "CR-3-2.4",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -818,6 +1439,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-116-23HVA-SG-01",
+      "assetUrl": "CD-1-2.10",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.10",
+      "generalName": "CD-1-2.10",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-117-23HVA-PIU-01",
       "assetUrl": "PIU-1-6",
       "category": "M.Eq",
@@ -828,12 +1459,122 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-117-23HVA-SG-01",
+      "assetUrl": "CD-1-2.9",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.9",
+      "generalName": "CD-1-2.9",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-118-23HVA-PIU-01",
       "assetUrl": "PIU-1-18",
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-18",
       "generalName": "PIU-1-18",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-118-23HVA-RG-01",
+      "assetUrl": "CR-3-2.5",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.5",
+      "generalName": "CR-3-2.5",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-118-23HVA-SG-01",
+      "assetUrl": "CD-1-2.11",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.11",
+      "generalName": "CD-1-2.11",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-119-23HVA-PIU-01",
+      "assetUrl": "PIU-1-15",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-15",
+      "generalName": "PIU-1-15",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-119-23HVA-RG-01",
+      "assetUrl": "CR-3-2.6",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.6",
+      "generalName": "CR-3-2.6",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-119-23HVA-SG-01",
+      "assetUrl": "CD-1-2.12",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.12",
+      "generalName": "CD-1-2.12",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-120-23HVA-RG-01",
+      "assetUrl": "CR-3-2.7",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.7",
+      "generalName": "CR-3-2.7",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-120-23HVA-SG-01",
+      "assetUrl": "CD-1-2.13",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.13",
+      "generalName": "CD-1-2.13",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-121-23HVA-PIU-01",
+      "assetUrl": "PIU-1-16",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-16",
+      "generalName": "PIU-1-16",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-121-23HVA-RG-01",
+      "assetUrl": "CR-3-2.8",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.8",
+      "generalName": "CR-3-2.8",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-121-23HVA-SG-01",
+      "assetUrl": "CD-1-2.14",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.14",
+      "generalName": "CD-1-2.14",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -854,6 +1595,106 @@
       "department": "",
       "entityName": "PIU-1-7.AT.06",
       "generalName": "PIU-1-7.AT.06",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-125-23HVA-PIU-01",
+      "assetUrl": "PIU-1-8",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-8",
+      "generalName": "PIU-1-8",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-125-23HVA-RG-01",
+      "assetUrl": "CR-3-2.9",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.9",
+      "generalName": "CR-3-2.9",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-125-23HVA-SG-01",
+      "assetUrl": "CD-1-2.16",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.16",
+      "generalName": "CD-1-2.16",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-23HVA-PIU-01",
+      "assetUrl": "PIU-1-9",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "PIU-1-9",
+      "generalName": "PIU-1-9",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-23HVA-RG-01",
+      "assetUrl": "CR-3-2.10",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.10",
+      "generalName": "CR-3-2.10",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-23HVA-SG-01",
+      "assetUrl": "CD-1-2.17",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.17",
+      "generalName": "CD-1-2.17",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-127-23HVA-CD-01",
+      "assetUrl": "PIU-1-8.AT.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-8.AT.01",
+      "generalName": "PIU-1-8.AT.01",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-127-23HVA-CD-02",
+      "assetUrl": "PIU-1-8.AT.02",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-8.AT.02",
+      "generalName": "PIU-1-8.AT.02",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-127-23HVA-CD-03",
+      "assetUrl": "PIU-1-8.AT.03",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-8.AT.03",
+      "generalName": "PIU-1-8.AT.03",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-127-23HVA-CD-04",
+      "assetUrl": "PIU-1-8.AT.04",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-8.AT.04",
+      "generalName": "PIU-1-8.AT.04",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -918,12 +1759,52 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-131-23HVA-RG-01",
+      "assetUrl": "CR-3-2.11",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.11",
+      "generalName": "CR-3-2.11",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-131-23HVA-SG-01",
+      "assetUrl": "CD-1-2.18",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.18",
+      "generalName": "CD-1-2.18",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-132-23HVA-PIU-01",
       "assetUrl": "PIU-1-10",
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-10",
       "generalName": "PIU-1-10",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-132-23HVA-RG-01",
+      "assetUrl": "CR-3-2.12",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CR-3-2.12",
+      "generalName": "CR-3-2.12",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-132-23HVA-SG-01",
+      "assetUrl": "CD-1-2.19",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.19",
+      "generalName": "CD-1-2.19",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -978,12 +1859,42 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-136-23HVA-SG-01",
+      "assetUrl": "MAT.136.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "MAT.136.01",
+      "generalName": "MAT.136.01",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-136-23HVA-SG-02",
+      "assetUrl": "PIU-1-1.AT.01",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-1.AT.01",
+      "generalName": "PIU-1-1.AT.01",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-P1.02-23HVA-PIU-01",
       "assetUrl": "PIU-1-7",
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-7",
       "generalName": "PIU-1-7",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-P1.02-23HVA-SG-01",
+      "assetUrl": "CD-1-2.15",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "CD-1-2.15",
+      "generalName": "CD-1-2.15",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1014,6 +1925,56 @@
       "department": "PRECON",
       "entityName": "PIU-1-3.AT.02",
       "generalName": "PIU-1-3.AT.02",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-23HVA-WG-04",
+      "assetUrl": "PIU-1-4.AT.02",
+      "category": "M.Du.Te",
+      "department": "PRECON",
+      "entityName": "PIU-1-4.AT.02",
+      "generalName": "PIU-1-4.AT.02",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-23HVA-WG-05",
+      "assetUrl": "PIU-1-4.AT.03",
+      "category": "M.Du.Te",
+      "department": "PRECON",
+      "entityName": "PIU-1-4.AT.03",
+      "generalName": "PIU-1-4.AT.03",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-23HVA-WG-06",
+      "assetUrl": "PIU-1-4.AT.04",
+      "category": "M.Du.Te",
+      "department": "PRECON",
+      "entityName": "PIU-1-4.AT.04",
+      "generalName": "PIU-1-4.AT.04",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-23HVA-WG-07",
+      "assetUrl": "PIU-1-12.AT.04",
+      "category": "M.Du.Te",
+      "department": "PRECON",
+      "entityName": "PIU-1-12.AT.04",
+      "generalName": "PIU-1-12.AT.04",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.01-23HVA-WG-08",
+      "assetUrl": "PIU-1-12.AT.05",
+      "category": "M.Du.Te",
+      "department": "PRECON",
+      "entityName": "PIU-1-12.AT.05",
+      "generalName": "PIU-1-12.AT.05",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1094,6 +2055,26 @@
       "department": "EXECUTIVE",
       "entityName": "PIU-1-12.AT.01",
       "generalName": "PIU-1-12.AT.01",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-09",
+      "assetUrl": "PIU-1-12.AT.03",
+      "category": "M.Du.Te",
+      "department": "EXECUTIVE",
+      "entityName": "PIU-1-12.AT.03",
+      "generalName": "PIU-1-12.AT.03",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-23HVA-WG-10",
+      "assetUrl": "PIU-1-12.AT.06",
+      "category": "M.Du.Te",
+      "department": "",
+      "entityName": "PIU-1-12.AT.06",
+      "generalName": "PIU-1-12.AT.06",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1486,8 +2467,28 @@
       "generalName": "PIU-1-17.AT.04",
       "level": "MAIN FLOOR",
       "room": ""
+    },
+    {
+      "assetId": "JD4021-RF-??-23HVA-RTU-01",
+      "assetUrl": "RTU-2",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "RTU-2",
+      "generalName": "RTU-2",
+      "level": "ROOF",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-RF-??-23HVA-RTU-02",
+      "assetUrl": "RTU-1",
+      "category": "M.Eq",
+      "department": "",
+      "entityName": "RTU-1",
+      "generalName": "RTU-1",
+      "level": "ROOF",
+      "room": ""
     }
   ],
-  "complete": false,
-  "updatedAt": "2026-07-20T19:47:11.665Z"
+  "complete": true,
+  "updatedAt": "2026-07-20T19:47:41.813Z"
 }
