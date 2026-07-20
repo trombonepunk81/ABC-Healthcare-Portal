@@ -3,9 +3,980 @@
   "modelUrn": "urn:adsk.dtm:o1yVV15jRhyxTB5CUsSd1A",
   "totalBatches": 10,
   "batchesReceived": [
+    3,
     10
   ],
   "assets": [
+    {
+      "assetId": "JD4021-LF-001.10-25INT-DS-01",
+      "assetUrl": "DS09",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS09",
+      "generalName": "DS09",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.11-25INT-DS-01",
+      "assetUrl": "DS10",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS10",
+      "generalName": "DS10",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.12-25INT-DS-01",
+      "assetUrl": "DS11",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS11",
+      "generalName": "DS11",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.13-25INT-DS-01",
+      "assetUrl": "DS12",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS12",
+      "generalName": "DS12",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.2-25INT-DS-01",
+      "assetUrl": "DS01",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS01",
+      "generalName": "DS01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.3-25INT-DS-01",
+      "assetUrl": "DS02",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS02",
+      "generalName": "DS02",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.4-25INT-DS-01",
+      "assetUrl": "DS03",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS03",
+      "generalName": "DS03",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.5-25INT-DS-01",
+      "assetUrl": "DS04",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS04",
+      "generalName": "DS04",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.6-25INT-DS-01",
+      "assetUrl": "DS05",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS05",
+      "generalName": "DS05",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.7-25INT-DS-01",
+      "assetUrl": "DS06",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS06",
+      "generalName": "DS06",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.8-25INT-DS-01",
+      "assetUrl": "DS07",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS07",
+      "generalName": "DS07",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.9-25INT-DS-01",
+      "assetUrl": "DS08",
+      "category": "Q.CD",
+      "department": "HEALTHCARE",
+      "entityName": "DS08",
+      "generalName": "DS08",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001A-27COM-DR-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAiSr07ihZJSJYcnX-51nPcABBXpg",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Rack",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001A-27COM-RAC-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAw_n_G1ZRGapj-3S5Xu_3AABAuTQ",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Rack",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.10-25INT-DS-01",
+      "assetUrl": "DS21",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS21",
+      "generalName": "DS21",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.11-25INT-DS-01",
+      "assetUrl": "DS22",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS22",
+      "generalName": "DS22",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.12-25INT-DS-01",
+      "assetUrl": "DS23",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS23",
+      "generalName": "DS23",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.13-25INT-DS-01",
+      "assetUrl": "DS24",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS24",
+      "generalName": "DS24",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.15-25INT-DS-01",
+      "assetUrl": "DS26",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS26",
+      "generalName": "DS26",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.2-25INT-DS-01",
+      "assetUrl": "DS13",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS13",
+      "generalName": "DS13",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.3-25INT-DS-01",
+      "assetUrl": "DS14",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS14",
+      "generalName": "DS14",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.4-25INT-DS-01",
+      "assetUrl": "DS15",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS15",
+      "generalName": "DS15",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.5-25INT-DS-01",
+      "assetUrl": "DS16",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS16",
+      "generalName": "DS16",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.6-25INT-DS-01",
+      "assetUrl": "DS17",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS17",
+      "generalName": "DS17",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.7-25INT-DS-01",
+      "assetUrl": "DS18",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS18",
+      "generalName": "DS18",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.8-25INT-DS-01",
+      "assetUrl": "DS19",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS19",
+      "generalName": "DS19",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.9-25INT-DS-01",
+      "assetUrl": "DS20",
+      "category": "Q.CD",
+      "department": "INDUSTRIAL",
+      "entityName": "DS20",
+      "generalName": "DS20",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-01",
+      "assetUrl": "CT01",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT01",
+      "generalName": "CT01",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-02",
+      "assetUrl": "CT02",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT02",
+      "generalName": "CT02",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-03",
+      "assetUrl": "CT03",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT03",
+      "generalName": "CT03",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-04",
+      "assetUrl": "CT04",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT04",
+      "generalName": "CT04",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-05",
+      "assetUrl": "CT07",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT07",
+      "generalName": "CT07",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-06",
+      "assetUrl": "CT08",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT08",
+      "generalName": "CT08",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-07",
+      "assetUrl": "CT09",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT09",
+      "generalName": "CT09",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-08",
+      "assetUrl": "CT10",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT10",
+      "generalName": "CT10",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-09",
+      "assetUrl": "CT11",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT11",
+      "generalName": "CT11",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-10",
+      "assetUrl": "CT12",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT12",
+      "generalName": "CT12",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-11",
+      "assetUrl": "CT06",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT06",
+      "generalName": "CT06",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-CT-12",
+      "assetUrl": "CT05",
+      "category": "Q.CD",
+      "department": "ELECTRICAL",
+      "entityName": "CT05",
+      "generalName": "CT05",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-EP-01",
+      "assetUrl": "LDP",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "LDP",
+      "generalName": "LDP",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-EP-02",
+      "assetUrl": "HM1",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "HM1",
+      "generalName": "HM1",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-EP-03",
+      "assetUrl": "LCP-B",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "LCP-B",
+      "generalName": "LCP-B",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-EP-04",
+      "assetUrl": "HL1",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "HL1",
+      "generalName": "HL1",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-008-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAxKq95VPpEZ62OtP6impVdAAm9vQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-008-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAApPidf2KhKB7JF2MYy52oEAA4g6w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-008-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAApPidf2KhKB7JF2MYy52oEAA4g7g",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-010-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAApPidf2KhKB7JF2MYy52oEAA4gsA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-011-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAApPidf2KhKB7JF2MYy52oEAA4g5Q",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-012-26ELE-RF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAApPidf2KhKB7JF2MYy52oEAA4g6A",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-013-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAxKq95VPpEZ62OtP6impVdAAm-FQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-021-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAxKq95VPpEZ62OtP6impVdAAm-Ag",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdopQ",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-28ESS-IK-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdoRQ",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Intrusion Keypad",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-026.14-25INT-DS-01",
+      "assetUrl": "DS139",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "DS139",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-026.15-25INT-DS-01",
+      "assetUrl": "DS140",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "DS140",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-026.16-25INT-DS-01",
+      "assetUrl": "DS141",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "DS141",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-031-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdpsQ",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-032-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAxKq95VPpEZ62OtP6impVdAAm9TA",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-26.16-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAgWTPsRM9JgI4-MCL1PawUAAo_iQ",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-26.5-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAgWTPsRM9JgI4-MCL1PawUAAo_0Q",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-26.6-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAgWTPsRM9JgI4-MCL1PawUAAo_7w",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABZjXQ",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-28ESS-IK-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABZi7g",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Intrusion Keypad",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdp8w",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-28ESS-CR-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdqVg",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-28ESS-CR-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdqdw",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdnpg",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.04-28ESS-IK-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdnpA",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Intrusion Keypad",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.06-28ESS-CR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdpNg",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.07-28ESS-IK-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdn-g",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Intrusion Keypad",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-106.10-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAmBglCNJVKTY3KR5aAbkPEABEgyg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-106.11-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAmBglCNJVKTY3KR5aAbkPEABEefg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-106.12-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAmBglCNJVKTY3KR5aAbkPEABEdeA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-106.13-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAmBglCNJVKTY3KR5aAbkPEABEdOA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-106.8-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAmBglCNJVKTY3KR5aAbkPEABEgAQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-106.9-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAmBglCNJVKTY3KR5aAbkPEABEgvw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-01",
+      "assetUrl": "CT14",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "CT14",
+      "generalName": "CT14",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-02",
+      "assetUrl": "CT15",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT15",
+      "generalName": "CT15",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-03",
+      "assetUrl": "CT16",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT16",
+      "generalName": "CT16",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-04",
+      "assetUrl": "CT17",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT17",
+      "generalName": "CT17",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-05",
+      "assetUrl": "CT18",
+      "category": "Q.CD",
+      "department": "GATHERING",
+      "entityName": "CT18",
+      "generalName": "CT18",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-06",
+      "assetUrl": "CT13",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT13",
+      "generalName": "CT13",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-07",
+      "assetUrl": "CT19",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT19",
+      "generalName": "CT19",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-08",
+      "assetUrl": "CT20",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT20",
+      "generalName": "CT20",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-09",
+      "assetUrl": "CT21",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "CT21",
+      "generalName": "CT21",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-10",
+      "assetUrl": "CT22",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "CT22",
+      "generalName": "CT22",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-11",
+      "assetUrl": "CT23",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "CT23",
+      "generalName": "CT23",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-CT-12",
+      "assetUrl": "CT24",
+      "category": "Q.CD",
+      "department": "Precon",
+      "entityName": "CT24",
+      "generalName": "CT24",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-121-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAj2KGZIx5H_79s7Uqo5OE1AA4hhw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-121-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAj2KGZIx5H_79s7Uqo5OE1AA4hiA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-121-26ELE-LI-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAj2KGZIx5H_79s7Uqo5OE1AA4hiQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-121-26ELE-LI-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAj2KGZIx5H_79s7Uqo5OE1AA4hig",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-124-26ELE-RF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAj2KGZIx5H_79s7Uqo5OE1AA4hng",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-133C-26ELE-EP-01",
+      "assetUrl": "HL2",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "HL2",
+      "generalName": "HL2",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-133C-26ELE-EP-02",
+      "assetUrl": "L2B",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "L2B",
+      "generalName": "L2B",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-133C-26ELE-EP-03",
+      "assetUrl": "LCP-A",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "LCP-A",
+      "generalName": "LCP-A",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-133C-26ELE-EP-04",
+      "assetUrl": "HM2",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "HM2",
+      "generalName": "HM2",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD_bSMF9J5PsoGUCUM74l6HAA4HoA",
@@ -43,6 +1014,36 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.07-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAxnZeJQstAhaKoguh-WgfOAApgaQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-26ELE-ER-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAxnZeJQstAhaKoguh-WgfOAApfew",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-26ELE-ER-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAxnZeJQstAhaKoguh-WgfOAApfgw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -108,5 +1109,5 @@
     }
   ],
   "complete": false,
-  "updatedAt": "2026-07-20T19:46:58.608Z"
+  "updatedAt": "2026-07-20T19:47:00.568Z"
 }
