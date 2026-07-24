@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T21:03:06.611Z",
+  "lastUpdated": "2026-07-24T21:25:28.248Z",
   "totalAssets": 1732,
   "assets": [
     {
@@ -70,7 +70,7 @@
       "entityName": "DS136",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ADAM ALLISON 001.14"
     },
     {
       "assetId": "JD4021-LF-001.15-25INT-DS-01",
@@ -80,7 +80,7 @@
       "entityName": "DS137",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "JERMAINE SHEFFIELD 001.15"
     },
     {
       "assetId": "JD4021-LF-001.16-25INT-DS-01",
@@ -90,7 +90,7 @@
       "entityName": "DS138",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "JASON SPELLER 001.16"
     },
     {
       "assetId": "JD4021-LF-001.2-25INT-DS-01",
@@ -190,7 +190,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IT 001A"
     },
     {
       "assetId": "JD4021-LF-001A-26ELE-ER-02",
@@ -200,7 +200,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IT 001A"
     },
     {
       "assetId": "JD4021-LF-001A-26ELE-ER-03",
@@ -210,7 +210,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IT 001A"
     },
     {
       "assetId": "JD4021-LF-001A-26ELE-ER-04",
@@ -220,7 +220,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IT 001A"
     },
     {
       "assetId": "JD4021-LF-001A-26ELE-SL-01",
@@ -230,7 +230,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IT 001A"
     },
     {
       "assetId": "JD4021-LF-001A-26ELE-SL-02",
@@ -240,7 +240,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IT 001A"
     },
     {
       "assetId": "JD4021-LF-001A-27COM-DR-03",
@@ -380,7 +380,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COLLABORATION 002.1"
     },
     {
       "assetId": "JD4021-LF-002.1-27COM-AN-01",
@@ -390,7 +390,7 @@
       "entityName": "",
       "generalName": "SD Access Node",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-002.1-27COM-DS-01",
@@ -570,7 +570,7 @@
       "entityName": "DS129",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MICHAEL ALDRICH 003.10"
     },
     {
       "assetId": "JD4021-LF-003.11-25INT-DS-01",
@@ -580,7 +580,7 @@
       "entityName": "DS126",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MITCH PURVIS 003.11"
     },
     {
       "assetId": "JD4021-LF-003.12-25INT-DS-01",
@@ -590,7 +590,7 @@
       "entityName": "DS125",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ARTHUR HINSHAW 003.12"
     },
     {
       "assetId": "JD4021-LF-003.13-25INT-DS-01",
@@ -600,7 +600,7 @@
       "entityName": "DS124",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "CHRIS ANDREWS 003.13"
     },
     {
       "assetId": "JD4021-LF-003.2-25INT-DS-01",
@@ -610,7 +610,7 @@
       "entityName": "DS135",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DAVID YOUNG 003.2"
     },
     {
       "assetId": "JD4021-LF-003.3-25INT-DS-01",
@@ -620,7 +620,7 @@
       "entityName": "DS134",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "CHAD MEADOWS 003.3"
     },
     {
       "assetId": "JD4021-LF-003.4-25INT-DS-01",
@@ -630,7 +630,7 @@
       "entityName": "DS133",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MATTHEW HAGAN 003.4"
     },
     {
       "assetId": "JD4021-LF-003.5-25INT-DS-01",
@@ -640,7 +640,7 @@
       "entityName": "DS132",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "REESE MOORE 003.5"
     },
     {
       "assetId": "JD4021-LF-003.6-25INT-DS-01",
@@ -650,7 +650,7 @@
       "entityName": "DS131",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BRIAN HOLMES 003.6"
     },
     {
       "assetId": "JD4021-LF-003.7-25INT-DS-01",
@@ -660,7 +660,7 @@
       "entityName": "DS130",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DARREN ICE 003.7"
     },
     {
       "assetId": "JD4021-LF-003.8-25INT-DS-01",
@@ -670,7 +670,7 @@
       "entityName": "DS127",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "SAM HOLT 003.8"
     },
     {
       "assetId": "JD4021-LF-003.9-25INT-DS-01",
@@ -680,7 +680,7 @@
       "entityName": "DS128",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "JACOB MARKFORT 003.9"
     },
     {
       "assetId": "JD4021-LF-004-08OPE-MIR-01",
@@ -780,7 +780,7 @@
       "entityName": "MAT.004.01",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-23HVA-SG-02",
@@ -790,7 +790,7 @@
       "entityName": "MAT.004.02",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-005-08OPE-WD-01",
@@ -970,7 +970,7 @@
       "entityName": "L1B",
       "generalName": "Electrical Panel",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "JD4021-LF-005-26ELE-ER-01",
@@ -980,7 +980,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "JD4021-LF-005-26ELE-ET-01",
@@ -1000,7 +1000,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "JD4021-LF-005-26ELE-SL-02",
@@ -1010,7 +1010,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "JD4021-LF-005-26ELE-SW-01",
@@ -1040,7 +1040,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RISER ROOM 005A"
     },
     {
       "assetId": "JD4021-LF-005A-26ELE-SL-01",
@@ -1050,7 +1050,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RISER ROOM 005A"
     },
     {
       "assetId": "JD4021-LF-005A-27COM-DF-01",
@@ -1130,7 +1130,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COLLABORATION 006.1"
     },
     {
       "assetId": "JD4021-LF-006.1-27COM-DS-01",
@@ -1190,7 +1190,7 @@
       "entityName": "DS123",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "EZRA RUSSEL-HOWLAND 006.2"
     },
     {
       "assetId": "JD4021-LF-006.3-25INT-DS-01",
@@ -1200,7 +1200,7 @@
       "entityName": "DS122",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "EMORY BURCH 006.3"
     },
     {
       "assetId": "JD4021-LF-006.4-25INT-DS-01",
@@ -1210,7 +1210,7 @@
       "entityName": "DS121",
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "HOTEL 006.4"
     },
     {
       "assetId": "JD4021-LF-006.5-25INT-DS-01",
@@ -1380,7 +1380,7 @@
       "entityName": "MAT.007.01",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-23HVA-SG-02",
@@ -1390,7 +1390,7 @@
       "entityName": "MAT.007.02",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-008-08OPE-WD-01",
@@ -1680,7 +1680,7 @@
       "entityName": "",
       "generalName": "Gateway",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 013"
     },
     {
       "assetId": "JD4021-LF-013-26ELE-ER-01",
@@ -1700,7 +1700,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 013"
     },
     {
       "assetId": "JD4021-LF-013-33UTI-WF-01",
@@ -1710,7 +1710,7 @@
       "entityName": "",
       "generalName": "Waterflow Meter",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 013"
     },
     {
       "assetId": "JD4021-LF-015-08OPE-WD-01",
@@ -1740,7 +1740,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-ER-02",
@@ -1750,7 +1750,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-ER-03",
@@ -1760,7 +1760,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-ER-04",
@@ -1770,7 +1770,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-ER-05",
@@ -1780,7 +1780,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-ER-06",
@@ -1790,7 +1790,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-ER-07",
@@ -1800,7 +1800,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-ER-08",
@@ -1810,7 +1810,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-ER-09",
@@ -1820,7 +1820,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-01",
@@ -1830,7 +1830,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-02",
@@ -1840,7 +1840,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-03",
@@ -1850,7 +1850,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-04",
@@ -1860,7 +1860,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-05",
@@ -1870,7 +1870,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-06",
@@ -1880,7 +1880,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-07",
@@ -1890,7 +1890,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-08",
@@ -1900,7 +1900,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-09",
@@ -1910,7 +1910,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-LI-10",
@@ -1920,7 +1920,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-XS-01",
@@ -1970,7 +1970,7 @@
       "entityName": "VAV-LL-2.AT.01",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-LF-016-23HVA-CD-02",
@@ -1980,7 +1980,7 @@
       "entityName": "VAV-LL-2.AT.02",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-LF-016-23HVA-CD-03",
@@ -1990,7 +1990,7 @@
       "entityName": "VAV-LL-2.AT.03",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-LF-016-26ELE-ER-01",
@@ -2010,7 +2010,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-LF-016-26ELE-PD-01",
@@ -2180,7 +2180,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-LF-016-44POL-AQ-01",
@@ -2220,7 +2220,7 @@
       "entityName": "PIU-LL-3",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017"
     },
     {
       "assetId": "JD4021-LF-017-23HVA-PIU-02",
@@ -2230,7 +2230,7 @@
       "entityName": "PIU-LL-4",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017"
     },
     {
       "assetId": "JD4021-LF-017-26ELE-ER-01",
@@ -2240,7 +2240,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017"
     },
     {
       "assetId": "JD4021-LF-017-26ELE-SL-01",
@@ -2250,7 +2250,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017"
     },
     {
       "assetId": "JD4021-LF-017-26ELE-SL-02",
@@ -2260,7 +2260,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017"
     },
     {
       "assetId": "JD4021-LF-017-26ELE-SL-03",
@@ -2270,7 +2270,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017"
     },
     {
       "assetId": "JD4021-LF-018-08OPE-WD-01",
@@ -2290,7 +2290,7 @@
       "entityName": "PIU-LL-7.AT.01",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-02",
@@ -2300,7 +2300,7 @@
       "entityName": "PIU-LL-7.AT.02",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-03",
@@ -2310,7 +2310,7 @@
       "entityName": "PIU-LL-7.AT.03",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-04",
@@ -2320,7 +2320,7 @@
       "entityName": "PIU-LL-7.AT.04",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-05",
@@ -2330,7 +2330,7 @@
       "entityName": "PIU-LL-4.AT.02",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-06",
@@ -2340,7 +2340,7 @@
       "entityName": "PIU-LL-4.AT.03",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-07",
@@ -2350,7 +2350,7 @@
       "entityName": "PIU-LL-4.AT.04",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-08",
@@ -2360,7 +2360,7 @@
       "entityName": "PIU-LL-4.AT.05",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-09",
@@ -2370,7 +2370,7 @@
       "entityName": "PIU-LL-4.AT.03",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-10",
@@ -2390,7 +2390,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-ER-05",
@@ -2430,7 +2430,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-ER-09",
@@ -2440,7 +2440,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-01",
@@ -2450,7 +2450,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-02",
@@ -2460,7 +2460,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-03",
@@ -2470,7 +2470,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-04",
@@ -2480,7 +2480,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-05",
@@ -2490,7 +2490,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-06",
@@ -2500,7 +2500,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-LP-07",
@@ -2510,7 +2510,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-26ELE-XS-01",
@@ -2560,7 +2560,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-27COM-DF-06",
@@ -2610,7 +2610,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 020"
     },
     {
       "assetId": "JD4021-LF-020-26ELE-ER-02",
@@ -2620,7 +2620,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 020"
     },
     {
       "assetId": "JD4021-LF-020-26ELE-LI-01",
@@ -2630,7 +2630,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 020"
     },
     {
       "assetId": "JD4021-LF-020-27COM-DF-01",
@@ -2660,7 +2660,7 @@
       "entityName": "PIU-LL-8.AT.04",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COPY 021"
     },
     {
       "assetId": "JD4021-LF-021-26ELE-EP-01",
@@ -2690,7 +2690,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COPY 021"
     },
     {
       "assetId": "JD4021-LF-022-08OPE-AD-01",
@@ -2830,7 +2830,7 @@
       "entityName": "PIU-LL-5.AT.07",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-01",
@@ -2840,7 +2840,7 @@
       "entityName": "PIU-LL-5.AT.01",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-02",
@@ -2850,7 +2850,7 @@
       "entityName": "PIU-LL-5.AT.02",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-03",
@@ -2860,7 +2860,7 @@
       "entityName": "PIU-LL-5.AT.03",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-04",
@@ -2870,7 +2870,7 @@
       "entityName": "PIU-LL-5.AT.04",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-05",
@@ -2880,7 +2880,7 @@
       "entityName": "PIU-LL-5.AT.05",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-06",
@@ -2890,7 +2890,7 @@
       "entityName": "PIU-LL-5.AT.06",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-01",
@@ -2920,7 +2920,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-04",
@@ -2930,7 +2930,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-05",
@@ -2940,7 +2940,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-06",
@@ -2950,7 +2950,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-07",
@@ -2960,7 +2960,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-08",
@@ -2970,7 +2970,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-09",
@@ -2980,7 +2980,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-10",
@@ -2990,7 +2990,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-11",
@@ -3000,7 +3000,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-12",
@@ -3010,7 +3010,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-26ELE-PD-01",
@@ -3170,7 +3170,7 @@
       "entityName": "",
       "generalName": "SD Access Node",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-27COM-DS-01",
@@ -3210,7 +3210,7 @@
       "entityName": "LEAK DETECTOR 01",
       "generalName": "Leak Detector",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-44POL-AQ-01",
@@ -3240,7 +3240,7 @@
       "entityName": "PIU-LL-7",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-23HVA-PIU-02",
@@ -3260,7 +3260,7 @@
       "entityName": "MAT.023.01",
       "generalName": "Return Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-23HVA-SG-01",
@@ -3270,7 +3270,7 @@
       "entityName": "PIU-LL-8.AT.03",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-26ELE-ER-01",
@@ -3280,7 +3280,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-26ELE-ER-02",
@@ -3290,7 +3290,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-26ELE-LI-01",
@@ -3300,7 +3300,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-26ELE-LI-02",
@@ -3310,7 +3310,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-26ELE-LI-03",
@@ -3320,7 +3320,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-26ELE-LI-04",
@@ -3330,7 +3330,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-27COM-DF-01",
@@ -3370,7 +3370,7 @@
       "entityName": "PIU-LL-8",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-23HVA-RG-01",
@@ -3380,7 +3380,7 @@
       "entityName": "MAT.024.01",
       "generalName": "Return Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-23HVA-SG-01",
@@ -3390,7 +3390,7 @@
       "entityName": "PIU-LL-8.AT.02",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-26ELE-ER-01",
@@ -3400,7 +3400,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-26ELE-ER-02",
@@ -3410,7 +3410,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-26ELE-ER-03",
@@ -3420,7 +3420,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-01",
@@ -3430,7 +3430,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-02",
@@ -3440,7 +3440,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-03",
@@ -3450,7 +3450,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-04",
@@ -3460,7 +3460,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-05",
@@ -3470,7 +3470,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-26ELE-LI-06",
@@ -3480,7 +3480,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-27COM-DF-01",
@@ -3530,7 +3530,7 @@
       "entityName": "MAT.025.01",
       "generalName": "Return Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-23HVA-SG-01",
@@ -3540,7 +3540,7 @@
       "entityName": "PIU-LL-8.AT.01",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-23HVA-VAV-01",
@@ -3560,7 +3560,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-26ELE-LI-01",
@@ -3570,7 +3570,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-26ELE-LI-02",
@@ -3580,7 +3580,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-26ELE-LI-03",
@@ -3590,7 +3590,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-26ELE-LI-04",
@@ -3600,7 +3600,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-27COM-DF-01",
@@ -3800,7 +3800,7 @@
       "entityName": "VAV-LL-2.AT.04",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-26ELE-ER-01",
@@ -3810,7 +3810,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-26ELE-ER-02",
@@ -3820,7 +3820,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-26ELE-FL-01",
@@ -3840,7 +3840,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-26ELE-RF-02",
@@ -3850,7 +3850,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-26ELE-RF-03",
@@ -3860,7 +3860,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-26ELE-RF-04",
@@ -3870,7 +3870,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-26ELE-RF-05",
@@ -3880,7 +3880,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-26ELE-RF-06",
@@ -3890,7 +3890,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-27COM-DS-01",
@@ -3940,7 +3940,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "EAT THE ELEPHANT 028"
     },
     {
       "assetId": "JD4021-LF-028-26ELE-LI-02",
@@ -4000,7 +4000,7 @@
       "entityName": "CD-1-1.2",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 030"
     },
     {
       "assetId": "JD4021-LF-031-12FUR-WT-01",
@@ -4160,7 +4160,7 @@
       "entityName": "MAT.032.01",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BEST IN CLASS 032"
     },
     {
       "assetId": "JD4021-LF-032-26ELE-ER-01",
@@ -4170,7 +4170,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BEST IN CLASS 032"
     },
     {
       "assetId": "JD4021-LF-032-26ELE-ER-02",
@@ -4260,7 +4260,7 @@
       "entityName": "MAT.033.01",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PRINT 033"
     },
     {
       "assetId": "JD4021-LF-033-26ELE-EP-01",
@@ -4290,7 +4290,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PRINT 033"
     },
     {
       "assetId": "JD4021-LF-033-26ELE-ER-02",
@@ -4300,7 +4300,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PRINT 033"
     },
     {
       "assetId": "JD4021-LF-033-26ELE-LI-01",
@@ -4350,7 +4350,7 @@
       "entityName": "PIU-LL-2",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 034"
     },
     {
       "assetId": "JD4021-LF-034-26ELE-LI-01",
@@ -4400,7 +4400,7 @@
       "entityName": "MAT.035.02",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-CD-02",
@@ -4410,7 +4410,7 @@
       "entityName": "MAT.035.01",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-PIU-01",
@@ -4420,7 +4420,7 @@
       "entityName": "PIU-LL-9",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-PIU-02",
@@ -4430,7 +4430,7 @@
       "entityName": "PIU-LL-10",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-PIU-03",
@@ -4440,7 +4440,7 @@
       "entityName": "PIU-LL-11",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-26ELE-ER-01",
@@ -4490,7 +4490,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-27COM-DS-01",
@@ -4584,13 +4584,13 @@
     },
     {
       "assetId": "JD4021-LF-036-26ELE-ER-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB67PbmmUxF55mDQrVRMybCAAj8gw",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAACUg_lCYZZHS4c8FlaOiyPMABkVTw",
       "category": "E.Fi",
       "department": "",
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DEEP DIVE 036"
     },
     {
       "assetId": "JD4021-LF-036-26ELE-ER-02",
@@ -4630,7 +4630,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DEEP DIVE 036"
     },
     {
       "assetId": "JD4021-LF-036-27COM-DF-01",
@@ -5530,7 +5530,7 @@
       "entityName": "MAT.J01.01",
       "generalName": "Exhaust Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "JANITOR J01"
     },
     {
       "assetId": "JD4021-LF-J01-26ELE-SL-01",
@@ -5540,7 +5540,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "JANITOR J01"
     },
     {
       "assetId": "JD4021-LF-W0.01-23HVA-WG-01",
@@ -5640,7 +5640,7 @@
       "entityName": "PIU-LL-9.AT.04",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ADAM ALLISON 001.14"
     },
     {
       "assetId": "JD4021-LF-W0.01-25INT-GW-01",
@@ -5650,7 +5650,7 @@
       "entityName": "PG01",
       "generalName": "Gateway",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-ER-01",
@@ -5670,7 +5670,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-LP-01",
@@ -5680,7 +5680,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ADAM ALLISON 001.14, JASON SPELLER 001.16"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-LP-02",
@@ -5690,7 +5690,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "KYLE WOOD 001.2, ANDY GREEN 001.4"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-LP-03",
@@ -5700,7 +5700,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "TYLER ELDER 001.5, CARLA BOWRON 001.7"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-LP-04",
@@ -5710,7 +5710,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-LP-05",
@@ -5720,7 +5720,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "TIARA CHAMBLISS 001.11, JENNIFER YOUNG 001.13"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-01",
@@ -5730,7 +5730,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-02",
@@ -5740,7 +5740,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-03",
@@ -5750,7 +5750,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-04",
@@ -5760,7 +5760,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-05",
@@ -5770,7 +5770,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-06",
@@ -5780,7 +5780,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-07",
@@ -5790,7 +5790,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-08",
@@ -5800,7 +5800,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-RF-09",
@@ -5810,7 +5810,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-XS-01",
@@ -6080,7 +6080,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-01",
@@ -6090,7 +6090,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02, SAM HOLT 003.8, CHRIS ANDREWS 003.13"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-02",
@@ -6100,7 +6100,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02, MICHAEL ALDRICH 003.10, MITCH PURVIS 003.11"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-03",
@@ -6110,7 +6110,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "EZRA RUSSEL-HOWLAND 006.2, HOTEL 006.4"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-04",
@@ -6120,7 +6120,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ANDREW MILLER 006.5, DEAN NICKELL 006.7"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-05",
@@ -6130,7 +6130,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "TODD RIGGAN 006.8, MICHAEL OLIVER 006.10"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-06",
@@ -6140,7 +6140,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ELIZABETH MARIN 006.11, WILL ETHEREDGE 006.13"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-07",
@@ -6150,7 +6150,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BRIAN HOLMES 003.6, DARREN ICE 003.7"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-08",
@@ -6160,7 +6160,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-09",
@@ -6170,7 +6170,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DAVID YOUNG 003.2, CHAD MEADOWS 003.3"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-01",
@@ -6180,7 +6180,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-02",
@@ -6190,7 +6190,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-03",
@@ -6200,7 +6200,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-04",
@@ -6210,7 +6210,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-05",
@@ -6220,7 +6220,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-06",
@@ -6230,7 +6230,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-07",
@@ -6240,7 +6240,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-08",
@@ -6250,7 +6250,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-09",
@@ -6260,7 +6260,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-10",
@@ -6270,7 +6270,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-11",
@@ -6280,7 +6280,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-RF-12",
@@ -6290,7 +6290,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-XS-01",
@@ -6400,7 +6400,7 @@
       "entityName": "VAV-LL-3",
       "generalName": "Variable Air Volume Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "HOTEL 113.11, COLLABORATION 113.1"
     },
     {
       "assetId": "JD4021-LF-W0.04-23HVA-WG-01",
@@ -6490,7 +6490,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BRENT STRENGTH 002.2, TAMMI HILL 002.4"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-LP-02",
@@ -6500,7 +6500,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "CHRIS HARM 002.14, TODD STUART 002.16"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-LP-03",
@@ -6510,7 +6510,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-LP-04",
@@ -6520,7 +6520,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STEVE HAGLUND 002.8, WILL CALLIER 002.10"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-LP-05",
@@ -6530,7 +6530,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "SCOTT BODDEN 002.5, ERIK MAGSAMEN 002.7, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-RF-01",
@@ -6540,7 +6540,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-RF-02",
@@ -6550,7 +6550,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-RF-03",
@@ -6560,7 +6560,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-RF-04",
@@ -6570,7 +6570,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-RF-05",
@@ -6580,7 +6580,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.04-26ELE-RF-06",
@@ -6700,7 +6700,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.05-26ELE-LP-01",
@@ -6710,7 +6710,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IANA TASSADA 026.2, MICHELLE FREEMAN ROD 026.4"
     },
     {
       "assetId": "JD4021-LF-W0.05-26ELE-LP-02",
@@ -6720,7 +6720,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "GARRICK SMITH 026.16, PHILLIP NGUYEN 026.14, COLLABORATION 026.1"
     },
     {
       "assetId": "JD4021-LF-W0.05-26ELE-LP-03",
@@ -6730,7 +6730,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "CATHY KASHIUS 026.5, SAYAN SMITH 026.7"
     },
     {
       "assetId": "JD4021-LF-W0.05-26ELE-LP-04",
@@ -6740,7 +6740,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PETER STEPHENSON 026.8, HOTEL 026.10"
     },
     {
       "assetId": "JD4021-LF-W0.05-26ELE-LP-05",
@@ -6750,7 +6750,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "HIAWATHA HILL 026.11, REGGIE POPE 026.13"
     },
     {
       "assetId": "JD4021-LF-W0.05-26ELE-LP-06",
@@ -6760,7 +6760,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-W0.05-26ELE-RF-01",
@@ -6900,7 +6900,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-LF-W0.07-26ELE-RF-01",
@@ -6910,7 +6910,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-LF-W0.07-26ELE-RF-02",
@@ -6920,7 +6920,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-LF-W0.07-26ELE-RF-03",
@@ -6930,7 +6930,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-LF-W0.07-26ELE-RF-04",
@@ -6940,7 +6940,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-LF-W0.07-26ELE-RF-05",
@@ -6950,7 +6950,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-LF-W0.07-26ELE-RF-06",
@@ -6960,7 +6960,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-LF-W0.07-26ELE-RF-07",
@@ -6970,7 +6970,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-LF-W0.07-28ESS-IK-01",
@@ -7060,7 +7060,7 @@
       "entityName": "PIU-1-1.AT.02",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "RECEPTION 101"
     },
     {
       "assetId": "JD4021-MF-101-26ELE-ER-03",
@@ -7360,7 +7360,7 @@
       "entityName": "CD-1-2.8",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-23HVA-RG-02",
@@ -7370,7 +7370,7 @@
       "entityName": "CD-1-2.7",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-23HVA-RG-03",
@@ -7380,7 +7380,7 @@
       "entityName": "CR-3-2.3",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-26ELE-ER-01",
@@ -7500,7 +7500,7 @@
       "entityName": "AS-13",
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-103-08OPE-GD-01",
@@ -7580,7 +7580,7 @@
       "entityName": "PIU-1-11",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-23HVA-RG-01",
@@ -7590,7 +7590,7 @@
       "entityName": "CD-1-2.5",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-23HVA-RG-02",
@@ -7600,7 +7600,7 @@
       "entityName": "CR-3-2.2",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-23HVA-SG-01",
@@ -7610,7 +7610,7 @@
       "entityName": "CD-1-2.4",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-26ELE-ER-01",
@@ -7720,7 +7720,7 @@
       "entityName": "AS-11",
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-104-08OPE-GD-01",
@@ -7740,7 +7740,7 @@
       "entityName": "CD-1-2.3",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "THE SILO 104"
     },
     {
       "assetId": "JD4021-MF-104-26ELE-ER-01",
@@ -7820,7 +7820,7 @@
       "entityName": "CD-1-2.6",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CIRCLE BACK 105"
     },
     {
       "assetId": "JD4021-MF-105-26ELE-ER-01",
@@ -7940,7 +7940,7 @@
       "entityName": "PIU-1-12.AT.02",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 106.1"
     },
     {
       "assetId": "JD4021-MF-106.1-26ELE-LP-01",
@@ -8460,7 +8460,7 @@
       "entityName": "CR-3-2.1",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-23HVA-RG-02",
@@ -8470,7 +8470,7 @@
       "entityName": "CD-1-2.1",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-23HVA-RG-03",
@@ -8480,7 +8480,7 @@
       "entityName": "CD-1-2.2",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-26ELE-CT-01",
@@ -8610,7 +8610,7 @@
       "entityName": "L2A",
       "generalName": "Electrical Panel",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-26ELE-ER-01",
@@ -8730,7 +8730,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-27COM-DF-02",
@@ -8740,7 +8740,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-27COM-DF-03",
@@ -8750,7 +8750,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-44POL-AQ-01",
@@ -8820,7 +8820,7 @@
       "entityName": "DS80",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 109.10"
     },
     {
       "assetId": "JD4021-MF-109.10-26ELE-ER-01",
@@ -8970,7 +8970,7 @@
       "entityName": "DS72",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HANNAH BYRD 109.2"
     },
     {
       "assetId": "JD4021-MF-109.2-27COM-DF-01",
@@ -9000,7 +9000,7 @@
       "entityName": "DS73",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SARA HENDLER 109.3"
     },
     {
       "assetId": "JD4021-MF-109.3-27COM-DF-01",
@@ -9030,7 +9030,7 @@
       "entityName": "DS74",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BARBARA OLIVEIRA SPITZER 109.4"
     },
     {
       "assetId": "JD4021-MF-109.4-27COM-DF-01",
@@ -9060,7 +9060,7 @@
       "entityName": "DS75",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHLOE SCOTT 109.5"
     },
     {
       "assetId": "JD4021-MF-109.5-27COM-DF-01",
@@ -9090,7 +9090,7 @@
       "entityName": "DS76",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CILE HAULBROOK 109.6"
     },
     {
       "assetId": "JD4021-MF-109.6-27COM-DF-01",
@@ -9120,7 +9120,7 @@
       "entityName": "DS77",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JOSH GORUM 109.7"
     },
     {
       "assetId": "JD4021-MF-109.7-27COM-DF-01",
@@ -9150,7 +9150,7 @@
       "entityName": "DS78",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CORY HINZ 109.8"
     },
     {
       "assetId": "JD4021-MF-109.8-26ELE-ER-01",
@@ -9190,7 +9190,7 @@
       "entityName": "DS79",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "RICHARD WILLIAMS 109.9"
     },
     {
       "assetId": "JD4021-MF-109.9-26ELE-ER-01",
@@ -9250,7 +9250,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-02",
@@ -9260,7 +9260,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-03",
@@ -9270,7 +9270,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-04",
@@ -9280,7 +9280,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-05",
@@ -9290,7 +9290,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-06",
@@ -9300,7 +9300,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-07",
@@ -9310,7 +9310,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-08",
@@ -9320,7 +9320,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-26ELE-PD-09",
@@ -9330,7 +9330,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-111-26ELE-RF-01",
@@ -9380,7 +9380,7 @@
       "entityName": "AS-14",
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-112-08OPE-GD-01",
@@ -9400,7 +9400,7 @@
       "entityName": "CR-3-2.4",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BEST IN FINAL 112"
     },
     {
       "assetId": "JD4021-MF-112-26ELE-ER-01",
@@ -9610,7 +9610,7 @@
       "entityName": "AS-20",
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BEST IN FINAL 112"
     },
     {
       "assetId": "JD4021-MF-113.1-12FUR-OD-01",
@@ -10190,7 +10190,7 @@
       "entityName": "CD-1-2.10",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "IN THE LOOP 116"
     },
     {
       "assetId": "JD4021-MF-116-26ELE-ER-01",
@@ -10260,7 +10260,7 @@
       "entityName": "CD-1-2.9",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PARKING LOT 117"
     },
     {
       "assetId": "JD4021-MF-117-26ELE-ER-01",
@@ -10350,7 +10350,7 @@
       "entityName": "CR-3-2.5",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 118"
     },
     {
       "assetId": "JD4021-MF-118-23HVA-SG-01",
@@ -10360,7 +10360,7 @@
       "entityName": "CD-1-2.11",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 118"
     },
     {
       "assetId": "JD4021-MF-118-26ELE-ER-01",
@@ -10470,7 +10470,7 @@
       "entityName": "PIU-1-15",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 119"
     },
     {
       "assetId": "JD4021-MF-119-23HVA-RG-01",
@@ -10480,7 +10480,7 @@
       "entityName": "CR-3-2.6",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 119"
     },
     {
       "assetId": "JD4021-MF-119-23HVA-SG-01",
@@ -10490,7 +10490,7 @@
       "entityName": "CD-1-2.12",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 119"
     },
     {
       "assetId": "JD4021-MF-119-26ELE-ER-01",
@@ -10590,7 +10590,7 @@
       "entityName": "CR-3-2.7",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 120"
     },
     {
       "assetId": "JD4021-MF-120-23HVA-SG-01",
@@ -10600,7 +10600,7 @@
       "entityName": "CD-1-2.13",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 120"
     },
     {
       "assetId": "JD4021-MF-120-26ELE-ER-01",
@@ -10700,7 +10700,7 @@
       "entityName": "PIU-1-16",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 121"
     },
     {
       "assetId": "JD4021-MF-121-23HVA-RG-01",
@@ -10710,7 +10710,7 @@
       "entityName": "CR-3-2.8",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 121"
     },
     {
       "assetId": "JD4021-MF-121-23HVA-SG-01",
@@ -10720,7 +10720,7 @@
       "entityName": "CD-1-2.14",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 121"
     },
     {
       "assetId": "JD4021-MF-121-26ELE-ER-01",
@@ -10900,7 +10900,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.1-27COM-DS-01",
@@ -10930,7 +10930,7 @@
       "entityName": "DS48",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 122.10, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.11-12FUR-OD-01",
@@ -10950,7 +10950,7 @@
       "entityName": "DS49",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "NIKKI COATES 122.11, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.11-27COM-DF-01",
@@ -10960,7 +10960,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.12-12FUR-OD-01",
@@ -10980,7 +10980,7 @@
       "entityName": "DS50",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PAT ARRINGTON 122.12, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.12-27COM-DF-01",
@@ -10990,7 +10990,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.13-12FUR-OD-01",
@@ -11020,7 +11020,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.14-23HVA-WG-01",
@@ -11050,7 +11050,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORK AREA 122.14, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.14-27COM-DF-02",
@@ -11060,7 +11060,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.14-27COM-DF-03",
@@ -11070,7 +11070,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORK AREA 122.14, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.2-12FUR-OD-01",
@@ -11090,7 +11090,7 @@
       "entityName": "DS40",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LEE JARBOE 122.2"
     },
     {
       "assetId": "JD4021-MF-122.3-12FUR-OD-01",
@@ -11110,7 +11110,7 @@
       "entityName": "DS41",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "STACY SCOPANO 122.3"
     },
     {
       "assetId": "JD4021-MF-122.3-27COM-DF-01",
@@ -11140,7 +11140,7 @@
       "entityName": "DS42",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 122.4"
     },
     {
       "assetId": "JD4021-MF-122.4-25INT-GW-01",
@@ -11150,7 +11150,7 @@
       "entityName": "PG02",
       "generalName": "Gateway",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 122.4"
     },
     {
       "assetId": "JD4021-MF-122.4-27COM-DF-01",
@@ -11180,7 +11180,7 @@
       "entityName": "DS43",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "FRED TULL 122.5"
     },
     {
       "assetId": "JD4021-MF-122.6-12FUR-OD-01",
@@ -11200,7 +11200,7 @@
       "entityName": "DS44",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHRISTOPHE RAMPTON 122.6"
     },
     {
       "assetId": "JD4021-MF-122.6-27COM-DF-01",
@@ -11210,7 +11210,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHRISTOPHE RAMPTON 122.6"
     },
     {
       "assetId": "JD4021-MF-122.7-12FUR-OD-01",
@@ -11230,7 +11230,7 @@
       "entityName": "DS45",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CRISTINA STANCU WILSON 122.7"
     },
     {
       "assetId": "JD4021-MF-122.7-27COM-DF-01",
@@ -11260,7 +11260,7 @@
       "entityName": "DS46",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 122.8, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.8-27COM-DF-01",
@@ -11270,7 +11270,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.9-12FUR-OD-01",
@@ -11290,7 +11290,7 @@
       "entityName": "DS47",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JO TATUM 122.9, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-122.9-27COM-DF-01",
@@ -11300,7 +11300,7 @@
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-124-08OPE-WD-01",
@@ -11380,7 +11380,7 @@
       "entityName": "PIU-1-8",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LEVERAGE 125"
     },
     {
       "assetId": "JD4021-MF-125-23HVA-RG-01",
@@ -11390,7 +11390,7 @@
       "entityName": "CR-3-2.9",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LEVERAGE 125"
     },
     {
       "assetId": "JD4021-MF-125-23HVA-SG-01",
@@ -11400,7 +11400,7 @@
       "entityName": "CD-1-2.16",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LEVERAGE 125"
     },
     {
       "assetId": "JD4021-MF-125-26ELE-ER-01",
@@ -11500,7 +11500,7 @@
       "entityName": "PIU-1-9",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SYNERGY 126"
     },
     {
       "assetId": "JD4021-MF-126-23HVA-RG-01",
@@ -11510,7 +11510,7 @@
       "entityName": "CR-3-2.10",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SYNERGY 126"
     },
     {
       "assetId": "JD4021-MF-126-23HVA-SG-01",
@@ -11520,7 +11520,7 @@
       "entityName": "CD-1-2.17",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SYNERGY 126"
     },
     {
       "assetId": "JD4021-MF-126-26ELE-ER-01",
@@ -11690,7 +11690,7 @@
       "entityName": "PIU-1-8.AT.01",
       "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-23HVA-CD-02",
@@ -11700,7 +11700,7 @@
       "entityName": "PIU-1-8.AT.02",
       "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-23HVA-CD-03",
@@ -11710,7 +11710,7 @@
       "entityName": "PIU-1-8.AT.03",
       "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-23HVA-CD-04",
@@ -11720,7 +11720,7 @@
       "entityName": "PIU-1-8.AT.04",
       "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-26ELE-ER-01",
@@ -11820,7 +11820,7 @@
       "entityName": "LEAK DETECTOR 02",
       "generalName": "Leak Detector",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018, CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-44POL-AQ-01",
@@ -11970,7 +11970,7 @@
       "entityName": "DS58",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHRISTOPHER HUGHES 129.10, STORAGE 017"
     },
     {
       "assetId": "JD4021-MF-129.12-12FUR-OD-01",
@@ -11990,7 +11990,7 @@
       "entityName": "DS60",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "TOM RANEY 129.12, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-129.12-27COM-DF-01",
@@ -12020,7 +12020,7 @@
       "entityName": "DS61",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ERIN GRABLE 129.13, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-129.13-27COM-DF-01",
@@ -12050,7 +12050,7 @@
       "entityName": "DS62",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PATRICK FLEMING 129.14, PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-MF-129.14-27COM-DF-01",
@@ -12150,7 +12150,7 @@
       "entityName": "DS51",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "STUART BRUENING 129.3, BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-MF-129.3-27COM-DF-01",
@@ -12180,7 +12180,7 @@
       "entityName": "DS52",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LORI GERTSCH 129.4, BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-MF-129.4-27COM-DF-01",
@@ -12210,7 +12210,7 @@
       "entityName": "DS53",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ALISON CHAFFEE 129.5, BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-MF-129.5-27COM-DF-01",
@@ -12240,7 +12240,7 @@
       "entityName": "DS54",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "KAREN AVERY 129.6, BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-MF-129.6-26ELE-ER-01",
@@ -12280,7 +12280,7 @@
       "entityName": "DS55",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 129.7, BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-MF-129.7-27COM-DF-01",
@@ -12310,7 +12310,7 @@
       "entityName": "DS56",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 129.8, BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-MF-129.9-12FUR-OD-01",
@@ -12330,7 +12330,7 @@
       "entityName": "DS57",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ED VON ROEMER 129.9, STORAGE 017"
     },
     {
       "assetId": "JD4021-MF-131-08OPE-GD-01",
@@ -12360,7 +12360,7 @@
       "entityName": "CR-3-2.11",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SHORE THE CORE 131"
     },
     {
       "assetId": "JD4021-MF-131-23HVA-SG-01",
@@ -12370,7 +12370,7 @@
       "entityName": "CD-1-2.18",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SHORE THE CORE 131"
     },
     {
       "assetId": "JD4021-MF-131-26ELE-ER-01",
@@ -12470,7 +12470,7 @@
       "entityName": "CR-3-2.12",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BAM 132"
     },
     {
       "assetId": "JD4021-MF-132-23HVA-SG-01",
@@ -12480,7 +12480,7 @@
       "entityName": "CD-1-2.19",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BAM 132"
     },
     {
       "assetId": "JD4021-MF-132-26ELE-ER-01",
@@ -12650,7 +12650,7 @@
       "entityName": "DS71",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HARRIS MOSELEY 133.10, PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-MF-133.2-12FUR-OD-01",
@@ -12670,7 +12670,7 @@
       "entityName": "DS63",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "DAVID MOODY 133.2, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-133.2-27COM-DF-01",
@@ -12700,7 +12700,7 @@
       "entityName": "DS64",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 133.3, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-133.3-27COM-DF-01",
@@ -12730,7 +12730,7 @@
       "entityName": "DS65",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "STEPHEN McKINNEY 133.4, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-133.4-27COM-DF-01",
@@ -12760,7 +12760,7 @@
       "entityName": "DS66",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 133.5"
     },
     {
       "assetId": "JD4021-MF-133.6-12FUR-OD-01",
@@ -12780,7 +12780,7 @@
       "entityName": "DS67",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CRAIG KLIESRATH 133.6, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-133.6-27COM-DF-01",
@@ -12810,7 +12810,7 @@
       "entityName": "DS68",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ANDY MARTINDILL 133.7, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-133.7-27COM-DF-01",
@@ -12840,7 +12840,7 @@
       "entityName": "DS69",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "KYLE HINGST 133.8, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-133.8-27COM-DF-01",
@@ -12880,7 +12880,7 @@
       "entityName": "DS70",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ALEX BAKER 133.9, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-133.9-27COM-DF-01",
@@ -12990,7 +12990,7 @@
       "entityName": "",
       "generalName": "Electrical Receptacle",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LOUNGE 008, ELECTRICAL 133C"
     },
     {
       "assetId": "JD4021-MF-133J-12FUR-OD-01",
@@ -13010,7 +13010,7 @@
       "entityName": "DS59",
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 133J, PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-MF-133J-27COM-DF-01",
@@ -13390,7 +13390,7 @@
       "entityName": "MAT.136.01",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-23HVA-SG-02",
@@ -13400,7 +13400,7 @@
       "entityName": "PIU-1-1.AT.01",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-26ELE-RF-01",
@@ -13510,7 +13510,7 @@
       "entityName": "CD-1-2.15",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PRINT ROOM 1.02 P1.02"
     },
     {
       "assetId": "JD4021-MF-P1.02-26ELE-ER-01",
@@ -13650,7 +13650,7 @@
       "entityName": "",
       "generalName": "Card Reader",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PRINT ROOM 1.02 P1.02"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-01",
@@ -13690,7 +13690,7 @@
       "entityName": "PIU-1-4.AT.02",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.01 W1.01"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-05",
@@ -13700,7 +13700,7 @@
       "entityName": "PIU-1-4.AT.03",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JOSH GORUM 109.7"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-06",
@@ -13710,7 +13710,7 @@
       "entityName": "PIU-1-4.AT.04",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HANNAH BYRD 109.2"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-07",
@@ -13720,7 +13720,7 @@
       "entityName": "PIU-1-12.AT.04",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHLOE SCOTT 109.5"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-08",
@@ -13730,7 +13730,7 @@
       "entityName": "PIU-1-12.AT.05",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BARBARA OLIVEIRA SPITZER 109.4"
     },
     {
       "assetId": "JD4021-MF-W1.01-26ELE-LP-01",
@@ -13850,7 +13850,7 @@
       "entityName": "PIU-1-12.AT.03",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CINDY ROBERTS 106.8"
     },
     {
       "assetId": "JD4021-MF-W1.02-23HVA-WG-10",
@@ -13860,7 +13860,7 @@
       "entityName": "PIU-1-12.AT.06",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.02 W1.02"
     },
     {
       "assetId": "JD4021-MF-W1.02-26ELE-ER-01",
@@ -13940,7 +13940,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.03 W1.03"
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-02",
@@ -13950,7 +13950,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.03 W1.03"
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-03",
@@ -13960,7 +13960,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.03 W1.03"
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-04",
@@ -13970,7 +13970,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.03 W1.03"
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-05",
@@ -13980,7 +13980,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.03 W1.03"
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-XS-01",
@@ -14270,7 +14270,7 @@
       "entityName": "AS-18",
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.05 W1.05"
     },
     {
       "assetId": "JD4021-MF-W1.06-23HVA-WG-01",
@@ -14520,7 +14520,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-02",
@@ -14530,7 +14530,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-03",
@@ -14540,7 +14540,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-04",
@@ -14550,7 +14550,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-05",
@@ -14560,7 +14560,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-PD-06",
@@ -14570,7 +14570,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-RF-01",
@@ -14620,7 +14620,7 @@
       "entityName": "AS-16",
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-W1.09-23HVA-WG-01",
@@ -14730,7 +14730,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.09 W1.09"
     },
     {
       "assetId": "JD4021-MF-W1.09-26ELE-LP-02",
@@ -14740,7 +14740,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.09 W1.09"
     },
     {
       "assetId": "JD4021-MF-W1.09-26ELE-LP-03",
@@ -14850,7 +14850,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.10 W1.10"
     },
     {
       "assetId": "JD4021-MF-W1.10-26ELE-LP-02",
@@ -14860,7 +14860,7 @@
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.10 W1.10"
     },
     {
       "assetId": "JD4021-MF-W1.10-26ELE-LP-03",
@@ -14920,7 +14920,7 @@
       "entityName": "AS-17",
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.10 W1.10"
     },
     {
       "assetId": "JD4021-RF-RF.01-23HVA-RTU-01",
