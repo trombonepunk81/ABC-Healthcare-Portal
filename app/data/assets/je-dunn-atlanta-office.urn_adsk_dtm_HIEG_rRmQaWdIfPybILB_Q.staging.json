@@ -3,48 +3,16 @@
   "modelUrn": "urn:adsk.dtm:HIEG_rRmQaWdIfPybILB_Q",
   "totalBatches": 3,
   "batchesReceived": [
-    1,
-    2,
-    3
+    1
   ],
   "assets": [
-    {
-      "assetId": "JD4021-LF-002.1-23HVA-WG-01",
-      "assetUrl": "PIU-LL-11.AT.04",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.04",
-      "generalName": "PIU-LL-11.AT.04",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-002.1-23HVA-WG-02",
-      "assetUrl": "PIU-LL-11.AT.09",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-11.AT.09",
-      "generalName": "PIU-LL-11.AT.09",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-002.1-23HVA-WG-03",
-      "assetUrl": "PIU-LL-11.AT.10",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-11.AT.10",
-      "generalName": "PIU-LL-11.AT.10",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
     {
       "assetId": "JD4021-LF-004-23HVA-SG-01",
       "assetUrl": "MAT.004.01",
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.004.01",
-      "generalName": "MAT.004.01",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -54,47 +22,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.004.02",
-      "generalName": "MAT.004.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-006.1-23HVA-WG-01",
-      "assetUrl": "PIU-LL-10.AT.04",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.04",
-      "generalName": "PIU-LL-10.AT.04",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-006.1-23HVA-WG-02",
-      "assetUrl": "VAV-LL-1.AT.03",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.03",
-      "generalName": "VAV-LL-1.AT.03",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-006.1-23HVA-WG-03",
-      "assetUrl": "VAV-LL-1.AT.07",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.07",
-      "generalName": "VAV-LL-1.AT.07",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-006.1-23HVA-WG-04",
-      "assetUrl": "PIU-LL-10.AT.09",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.09",
-      "generalName": "PIU-LL-10.AT.09",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -104,7 +32,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.007.01",
-      "generalName": "MAT.007.01",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -114,77 +42,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.007.02",
-      "generalName": "MAT.007.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-008-23HVA-EG-01",
-      "assetUrl": "PIU-LL-3.AT.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-3.AT.01",
-      "generalName": "PIU-LL-3.AT.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-010-23HVA-EG-01",
-      "assetUrl": "CD-2-1.4",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CD-2-1.4",
-      "generalName": "CD-2-1.4",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-010-23HVA-EG-02",
-      "assetUrl": "CR-2-1.3",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CR-2-1.3",
-      "generalName": "CR-2-1.3",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-011-23HVA-EG-01",
-      "assetUrl": "CD-2-1.3",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CD-2-1.3",
-      "generalName": "CD-2-1.3",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-011-23HVA-EG-02",
-      "assetUrl": "CR-2-1.2",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CR-2-1.2",
-      "generalName": "CR-2-1.2",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-012-23HVA-EG-01",
-      "assetUrl": "PIU-LL-3.AT.02",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-3.AT.02",
-      "generalName": "PIU-LL-3.AT.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-012-23HVA-EG-02",
-      "assetUrl": "CR-2-1.1",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CR-2-1.1",
-      "generalName": "CR-2-1.1",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -194,7 +52,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "VAV-LL-2.AT.01",
-      "generalName": "VAV-LL-2.AT.01",
+      "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -204,7 +62,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "VAV-LL-2.AT.02",
-      "generalName": "VAV-LL-2.AT.02",
+      "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -214,7 +72,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "VAV-LL-2.AT.03",
-      "generalName": "VAV-LL-2.AT.03",
+      "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -224,7 +82,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-LL-3",
-      "generalName": "PIU-LL-3",
+      "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -234,7 +92,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-LL-4",
-      "generalName": "PIU-LL-4",
+      "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -244,7 +102,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-7.AT.01",
-      "generalName": "PIU-LL-7.AT.01",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -254,7 +112,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-7.AT.02",
-      "generalName": "PIU-LL-7.AT.02",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -264,7 +122,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-7.AT.03",
-      "generalName": "PIU-LL-7.AT.03",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -274,7 +132,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-7.AT.04",
-      "generalName": "PIU-LL-7.AT.04",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -284,7 +142,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-4.AT.02",
-      "generalName": "PIU-LL-4.AT.02",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -294,7 +152,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-4.AT.03",
-      "generalName": "PIU-LL-4.AT.03",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -304,7 +162,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-4.AT.04",
-      "generalName": "PIU-LL-4.AT.04",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -314,7 +172,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-4.AT.05",
-      "generalName": "PIU-LL-4.AT.05",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -324,17 +182,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-4.AT.03",
-      "generalName": "PIU-LL-4.AT.03",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-018-23HVA-WG-10",
-      "assetUrl": "PIU-LL-4.AT.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-4.AT.01",
-      "generalName": "PIU-LL-4.AT.01",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -344,7 +192,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-8.AT.04",
-      "generalName": "PIU-LL-8.AT.04",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -354,7 +202,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-5.AT.07",
-      "generalName": "PIU-LL-5.AT.07",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -364,7 +212,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-5.AT.01",
-      "generalName": "PIU-LL-5.AT.01",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -374,7 +222,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-5.AT.02",
-      "generalName": "PIU-LL-5.AT.02",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -384,7 +232,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-5.AT.03",
-      "generalName": "PIU-LL-5.AT.03",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -394,7 +242,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-5.AT.04",
-      "generalName": "PIU-LL-5.AT.04",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -404,7 +252,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-5.AT.05",
-      "generalName": "PIU-LL-5.AT.05",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -414,7 +262,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-5.AT.06",
-      "generalName": "PIU-LL-5.AT.06",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -424,17 +272,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-LL-7",
-      "generalName": "PIU-LL-7",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-023-23HVA-PIU-02",
-      "assetUrl": "PIU-LL-5",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-LL-5",
-      "generalName": "PIU-LL-5",
+      "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -444,7 +282,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.023.01",
-      "generalName": "MAT.023.01",
+      "generalName": "Return Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -454,7 +292,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-8.AT.03",
-      "generalName": "PIU-LL-8.AT.03",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -464,7 +302,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-LL-8",
-      "generalName": "PIU-LL-8",
+      "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -474,7 +312,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.024.01",
-      "generalName": "MAT.024.01",
+      "generalName": "Return Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -484,7 +322,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-8.AT.02",
-      "generalName": "PIU-LL-8.AT.02",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -494,7 +332,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.025.01",
-      "generalName": "MAT.025.01",
+      "generalName": "Return Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -504,17 +342,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-8.AT.01",
-      "generalName": "PIU-LL-8.AT.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-025-23HVA-VAV-01",
-      "assetUrl": "VAV-LL-2",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "VAV-LL-2",
-      "generalName": "VAV-LL-2",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -524,7 +352,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "VAV-LL-2.AT.04",
-      "generalName": "VAV-LL-2.AT.04",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -534,7 +362,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-1.2",
-      "generalName": "CD-1-1.2",
+      "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -544,7 +372,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.032.01",
-      "generalName": "MAT.032.01",
+      "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -554,7 +382,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.033.01",
-      "generalName": "MAT.033.01",
+      "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -564,7 +392,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-LL-2",
-      "generalName": "PIU-LL-2",
+      "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -574,7 +402,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.035.02",
-      "generalName": "MAT.035.02",
+      "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -584,7 +412,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.035.01",
-      "generalName": "MAT.035.01",
+      "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -594,7 +422,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-LL-9",
-      "generalName": "PIU-LL-9",
+      "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -604,7 +432,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-LL-10",
-      "generalName": "PIU-LL-10",
+      "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -614,37 +442,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-LL-11",
-      "generalName": "PIU-LL-11",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-036-23HVA-CD-01",
-      "assetUrl": "MAT.036.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "MAT.036.01",
-      "generalName": "MAT.036.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-036-23HVA-CD-02",
-      "assetUrl": "MAT.036.02",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "MAT.036.02",
-      "generalName": "MAT.036.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-036-23HVA-PIU-01",
-      "assetUrl": "PIU-LL-1",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-LL-1",
-      "generalName": "PIU-LL-1",
+      "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -654,97 +452,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.J01.01",
-      "generalName": "MAT.J01.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-01",
-      "assetUrl": "PIU-LL-11.AT.08",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-11.AT.08",
-      "generalName": "PIU-LL-11.AT.08",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-02",
-      "assetUrl": "PIU-LL-9.AT.01",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.01",
-      "generalName": "PIU-LL-9.AT.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-03",
-      "assetUrl": "PIU-LL-9.AT.02",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.02",
-      "generalName": "PIU-LL-9.AT.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-04",
-      "assetUrl": "PIU-LL-9.AT.03",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.03",
-      "generalName": "PIU-LL-9.AT.03",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-05",
-      "assetUrl": "PIU-LL-9.AT.07",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "PIU-LL-9.AT.07",
-      "generalName": "PIU-LL-9.AT.07",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-06",
-      "assetUrl": "PIU-LL-9.AT.05",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.05",
-      "generalName": "PIU-LL-9.AT.05",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-07",
-      "assetUrl": "PIU-LL-9.AT.06",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.06",
-      "generalName": "PIU-LL-9.AT.06",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-08",
-      "assetUrl": "PIU-LL-1.AT.04",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "PIU-LL-1.AT.04",
-      "generalName": "PIU-LL-1.AT.04",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-09",
-      "assetUrl": "PIU-LL-1.AT.06",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "PIU-LL-1.AT.06",
-      "generalName": "PIU-LL-1.AT.06",
+      "generalName": "Exhaust Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -754,217 +462,7 @@
       "category": "M.Du.Te",
       "department": "SAFETY",
       "entityName": "PIU-LL-9.AT.04",
-      "generalName": "PIU-LL-9.AT.04",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-01",
-      "assetUrl": "PIU-LL-10.AT.01",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-10.AT.01",
-      "generalName": "PIU-LL-10.AT.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-02",
-      "assetUrl": "PIU-LL-10.AT.02",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-10.AT.02",
-      "generalName": "PIU-LL-10.AT.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-03",
-      "assetUrl": "PIU-LL-10.AT.03",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.03",
-      "generalName": "PIU-LL-10.AT.03",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-04",
-      "assetUrl": "PIU-LL-10.AT.05",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.05",
-      "generalName": "PIU-LL-10.AT.05",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-05",
-      "assetUrl": "PIU-LL-1.AT.01",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-1.AT.01",
-      "generalName": "PIU-LL-1.AT.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-06",
-      "assetUrl": "PIU-LL-1.AT.02",
-      "category": "M.Du.Te",
-      "department": "QUALITY AND SCHED",
-      "entityName": "PIU-LL-1.AT.02",
-      "generalName": "PIU-LL-1.AT.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-07",
-      "assetUrl": "PIU-LL-1.AT.03",
-      "category": "M.Du.Te",
-      "department": "QUALITY AND SCHED",
-      "entityName": "PIU-LL-1.AT.03",
-      "generalName": "PIU-LL-1.AT.03",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-08",
-      "assetUrl": "VAV-LL-1.AT.01",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "VAV-LL-1.AT.01",
-      "generalName": "VAV-LL-1.AT.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-09",
-      "assetUrl": "VAV-LL-1.AT.02",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.02",
-      "generalName": "VAV-LL-1.AT.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-10",
-      "assetUrl": "VAV-LL-1.AT.04",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.04",
-      "generalName": "VAV-LL-1.AT.04",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-11",
-      "assetUrl": "VAV-LL-1.AT.05",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "VAV-LL-1.AT.05",
-      "generalName": "VAV-LL-1.AT.05",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-12",
-      "assetUrl": "VAV-LL-1.AT.06",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.06",
-      "generalName": "VAV-LL-1.AT.06",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-13",
-      "assetUrl": "VAV-LL-1.AT.08",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.08",
-      "generalName": "VAV-LL-1.AT.08",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-14",
-      "assetUrl": "PIU-LL-1.AT.05",
-      "category": "M.Du.Te",
-      "department": "QUALITY AND SCHED",
-      "entityName": "PIU-LL-1.AT.05",
-      "generalName": "PIU-LL-1.AT.05",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-15",
-      "assetUrl": "PIU-LL-1.AT.07",
-      "category": "M.Du.Te",
-      "department": "QUALITY AND SCHED",
-      "entityName": "PIU-LL-1.AT.07",
-      "generalName": "PIU-LL-1.AT.07",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-16",
-      "assetUrl": "PIU-LL-1.AT.08",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-1.AT.08",
-      "generalName": "PIU-LL-1.AT.08",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-17",
-      "assetUrl": "PIU-LL-10.AT.06",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-10.AT.06",
-      "generalName": "PIU-LL-10.AT.06",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-18",
-      "assetUrl": "PIU-LL-10.AT.07",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-10.AT.07",
-      "generalName": "PIU-LL-10.AT.07",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-19",
-      "assetUrl": "PIU-LL-10.AT.08",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.08",
-      "generalName": "PIU-LL-10.AT.08",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-20",
-      "assetUrl": "PIU-LL-10.AT.10",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.10",
-      "generalName": "PIU-LL-10.AT.10",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-PIU-01",
-      "assetUrl": "PIU-LL-6",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-LL-6",
-      "generalName": "PIU-LL-6",
+      "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -974,167 +472,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "VAV-LL-3",
-      "generalName": "VAV-LL-3",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-01",
-      "assetUrl": "PIU-LL-11.AT.01",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.01",
-      "generalName": "PIU-LL-11.AT.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-02",
-      "assetUrl": "PIU-LL-11.AT.02",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.02",
-      "generalName": "PIU-LL-11.AT.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-03",
-      "assetUrl": "PIU-LL-11.AT.03",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.03",
-      "generalName": "PIU-LL-11.AT.03",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-04",
-      "assetUrl": "PIU-LL-11.AT.05",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.05",
-      "generalName": "PIU-LL-11.AT.05",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-05",
-      "assetUrl": "PIU-LL-11.AT.06",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.06",
-      "generalName": "PIU-LL-11.AT.06",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-06",
-      "assetUrl": "PIU-LL-11.AT.07",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.07",
-      "generalName": "PIU-LL-11.AT.07",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-07",
-      "assetUrl": "PIU-LL-6.AT.01",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-6.AT.01",
-      "generalName": "PIU-LL-6.AT.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-08",
-      "assetUrl": "VAV-LL-3.AT.04",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "VAV-LL-3.AT.04",
-      "generalName": "VAV-LL-3.AT.04",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-01",
-      "assetUrl": "PIU-LL-6.AT.02",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "PIU-LL-6.AT.02",
-      "generalName": "PIU-LL-6.AT.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-02",
-      "assetUrl": "PIU-LL-6.AT.03",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "PIU-LL-6.AT.03",
-      "generalName": "PIU-LL-6.AT.03",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-03",
-      "assetUrl": "PIU-LL-6.AT.04",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "PIU-LL-6.AT.04",
-      "generalName": "PIU-LL-6.AT.04",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-04",
-      "assetUrl": "PIU-LL-6.AT.05",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "PIU-LL-6.AT.05",
-      "generalName": "PIU-LL-6.AT.05",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-05",
-      "assetUrl": "PIU-LL-6.AT.06",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "PIU-LL-6.AT.06",
-      "generalName": "PIU-LL-6.AT.06",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-06",
-      "assetUrl": "VAV-LL-3.AT.01",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "VAV-LL-3.AT.01",
-      "generalName": "VAV-LL-3.AT.01",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-07",
-      "assetUrl": "VAV-LL-3.AT.02",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "VAV-LL-3.AT.02",
-      "generalName": "VAV-LL-3.AT.02",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-08",
-      "assetUrl": "VAV-LL-3.AT.03",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "VAV-LL-3.AT.03",
-      "generalName": "VAV-LL-3.AT.03",
+      "generalName": "Variable Air Volume Unit",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -1144,17 +482,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-1-1.AT.02",
-      "generalName": "PIU-1-1.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-102-23HVA-PIU-01",
-      "assetUrl": "PIU-1-2",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-2",
-      "generalName": "PIU-1-2",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1164,7 +492,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.8",
-      "generalName": "CD-1-2.8",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1174,7 +502,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.7",
-      "generalName": "CD-1-2.7",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1184,27 +512,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.3",
-      "generalName": "CR-3-2.3",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-103-23HVA-PIU-01",
-      "assetUrl": "PIU-1-1",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-1",
-      "generalName": "PIU-1-1",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-103-23HVA-PIU-02",
-      "assetUrl": "PIU-1-13",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-13",
-      "generalName": "PIU-1-13",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1214,7 +522,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-11",
-      "generalName": "PIU-1-11",
+      "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1224,7 +532,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.5",
-      "generalName": "CD-1-2.5",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1234,7 +542,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.2",
-      "generalName": "CR-3-2.2",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1244,7 +552,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.4",
-      "generalName": "CD-1-2.4",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1254,17 +562,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.3",
-      "generalName": "CD-1-2.3",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-105-23HVA-PIU-01",
-      "assetUrl": "PIU-1-3",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-3",
-      "generalName": "PIU-1-3",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1274,27 +572,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.6",
-      "generalName": "CD-1-2.6",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-106.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-3.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-3.AT.05",
-      "generalName": "PIU-1-3.AT.05",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-106.1-23HVA-WG-02",
-      "assetUrl": "PIU-1-3.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-3.AT.06",
-      "generalName": "PIU-1-3.AT.06",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1304,37 +582,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-1-12.AT.02",
-      "generalName": "PIU-1-12.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-107-23HVA-PIU-01",
-      "assetUrl": "PIU-1-12",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-12",
-      "generalName": "PIU-1-12",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-107-23HVA-PIU-02",
-      "assetUrl": "PIU-1-4",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-4",
-      "generalName": "PIU-1-4",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-107-23HVA-PIU-03",
-      "assetUrl": "PIU-1-5",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-5",
-      "generalName": "PIU-1-5",
+      "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1344,7 +592,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.1",
-      "generalName": "CR-3-2.1",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1354,7 +602,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.1",
-      "generalName": "CD-1-2.1",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1364,7 +612,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.2",
-      "generalName": "CD-1-2.2",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1374,67 +622,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.4",
-      "generalName": "CR-3-2.4",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-6.AT.03",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-6.AT.03",
-      "generalName": "PIU-1-6.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-02",
-      "assetUrl": "PIU-1-14.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-14.AT.05",
-      "generalName": "PIU-1-14.AT.05",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-03",
-      "assetUrl": "PIU-1-14.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-14.AT.06",
-      "generalName": "PIU-1-14.AT.06",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-04",
-      "assetUrl": "PIU-1-14.AT.07",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-14.AT.07",
-      "generalName": "PIU-1-14.AT.07",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-05",
-      "assetUrl": "PIU-1-6.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-6.AT.05",
-      "generalName": "PIU-1-6.AT.05",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-116-23HVA-PIU-01",
-      "assetUrl": "PIU-1-14",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-14",
-      "generalName": "PIU-1-14",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1444,17 +632,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.10",
-      "generalName": "CD-1-2.10",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-117-23HVA-PIU-01",
-      "assetUrl": "PIU-1-6",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-6",
-      "generalName": "PIU-1-6",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1464,17 +642,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.9",
-      "generalName": "CD-1-2.9",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-118-23HVA-PIU-01",
-      "assetUrl": "PIU-1-18",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-18",
-      "generalName": "PIU-1-18",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1484,7 +652,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.5",
-      "generalName": "CR-3-2.5",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1494,7 +662,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.11",
-      "generalName": "CD-1-2.11",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1504,7 +672,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-15",
-      "generalName": "PIU-1-15",
+      "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1514,7 +682,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.6",
-      "generalName": "CR-3-2.6",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1524,7 +692,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.12",
-      "generalName": "CD-1-2.12",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1534,7 +702,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.7",
-      "generalName": "CR-3-2.7",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1544,7 +712,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.13",
-      "generalName": "CD-1-2.13",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1554,7 +722,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-16",
-      "generalName": "PIU-1-16",
+      "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1564,7 +732,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.8",
-      "generalName": "CR-3-2.8",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1574,27 +742,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.14",
-      "generalName": "CD-1-2.14",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-122.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-7.AT.08",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-7.AT.08",
-      "generalName": "PIU-1-7.AT.08",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-122.14-23HVA-WG-01",
-      "assetUrl": "PIU-1-7.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-7.AT.06",
-      "generalName": "PIU-1-7.AT.06",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1604,7 +752,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-8",
-      "generalName": "PIU-1-8",
+      "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1614,7 +762,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.9",
-      "generalName": "CR-3-2.9",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1624,7 +772,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.16",
-      "generalName": "CD-1-2.16",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1634,7 +782,7 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-9",
-      "generalName": "PIU-1-9",
+      "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1644,7 +792,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.10",
-      "generalName": "CR-3-2.10",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1654,7 +802,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.17",
-      "generalName": "CD-1-2.17",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1664,7 +812,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-1-8.AT.01",
-      "generalName": "PIU-1-8.AT.01",
+      "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1674,7 +822,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-1-8.AT.02",
-      "generalName": "PIU-1-8.AT.02",
+      "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1684,7 +832,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-1-8.AT.03",
-      "generalName": "PIU-1-8.AT.03",
+      "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1694,67 +842,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-1-8.AT.04",
-      "generalName": "PIU-1-8.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-129.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-9.AT.04",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-9.AT.04",
-      "generalName": "PIU-1-9.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-129.1-23HVA-WG-02",
-      "assetUrl": "PIU-1-17.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-17.AT.05",
-      "generalName": "PIU-1-17.AT.05",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-129.1-23HVA-WG-03",
-      "assetUrl": "PIU-1-17.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-17.AT.06",
-      "generalName": "PIU-1-17.AT.06",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-129.2-23HVA-WG-01",
-      "assetUrl": "PIU-1-9.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-9.AT.06",
-      "generalName": "PIU-1-9.AT.06",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-129.2-23HVA-WG-02",
-      "assetUrl": "PIU-1-9.AT.07",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-9.AT.07",
-      "generalName": "PIU-1-9.AT.07",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-131-23HVA-PIU-01",
-      "assetUrl": "PIU-1-17",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-17",
-      "generalName": "PIU-1-17",
+      "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1764,7 +852,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.11",
-      "generalName": "CR-3-2.11",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1774,17 +862,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.18",
-      "generalName": "CD-1-2.18",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-132-23HVA-PIU-01",
-      "assetUrl": "PIU-1-10",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-10",
-      "generalName": "PIU-1-10",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1794,7 +872,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CR-3-2.12",
-      "generalName": "CR-3-2.12",
+      "generalName": "Return Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1804,57 +882,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.19",
-      "generalName": "CD-1-2.19",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-133.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-18.AT.02",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-18.AT.02",
-      "generalName": "PIU-1-18.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-133.1-23HVA-WG-02",
-      "assetUrl": "PIU-1-18.AT.03",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-18.AT.03",
-      "generalName": "PIU-1-18.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-133.1-23HVA-WG-03",
-      "assetUrl": "PIU-1-10.AT.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-10.AT.01",
-      "generalName": "PIU-1-10.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-134-23HVA-SG-01",
-      "assetUrl": "PIU-1-18.AT.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-18.AT.01",
-      "generalName": "PIU-1-18.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-134-23HVA-SG-02",
-      "assetUrl": "MAT.134.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "MAT.134.01",
-      "generalName": "MAT.134.01",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1864,7 +892,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "MAT.136.01",
-      "generalName": "MAT.136.01",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1874,17 +902,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-1-1.AT.01",
-      "generalName": "PIU-1-1.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-P1.02-23HVA-PIU-01",
-      "assetUrl": "PIU-1-7",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-7",
-      "generalName": "PIU-1-7",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1894,37 +912,7 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "CD-1-2.15",
-      "generalName": "CD-1-2.15",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.01-23HVA-WG-01",
-      "assetUrl": "PIU-1-4.AT.01",
-      "category": "M.Du.Te",
-      "department": "PRECON",
-      "entityName": "PIU-1-4.AT.01",
-      "generalName": "PIU-1-4.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.01-23HVA-WG-02",
-      "assetUrl": "PIU-1-3.AT.01",
-      "category": "M.Du.Te",
-      "department": "PRECON",
-      "entityName": "PIU-1-3.AT.01",
-      "generalName": "PIU-1-3.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.01-23HVA-WG-03",
-      "assetUrl": "PIU-1-3.AT.02",
-      "category": "M.Du.Te",
-      "department": "PRECON",
-      "entityName": "PIU-1-3.AT.02",
-      "generalName": "PIU-1-3.AT.02",
+      "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1934,7 +922,7 @@
       "category": "M.Du.Te",
       "department": "PRECON",
       "entityName": "PIU-1-4.AT.02",
-      "generalName": "PIU-1-4.AT.02",
+      "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1944,7 +932,7 @@
       "category": "M.Du.Te",
       "department": "PRECON",
       "entityName": "PIU-1-4.AT.03",
-      "generalName": "PIU-1-4.AT.03",
+      "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1954,7 +942,7 @@
       "category": "M.Du.Te",
       "department": "PRECON",
       "entityName": "PIU-1-4.AT.04",
-      "generalName": "PIU-1-4.AT.04",
+      "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1964,7 +952,7 @@
       "category": "M.Du.Te",
       "department": "PRECON",
       "entityName": "PIU-1-12.AT.04",
-      "generalName": "PIU-1-12.AT.04",
+      "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -1974,87 +962,7 @@
       "category": "M.Du.Te",
       "department": "PRECON",
       "entityName": "PIU-1-12.AT.05",
-      "generalName": "PIU-1-12.AT.05",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-01",
-      "assetUrl": "PIU-1-3.AT.03",
-      "category": "M.Du.Te",
-      "department": "MARKETING",
-      "entityName": "PIU-1-3.AT.03",
-      "generalName": "PIU-1-3.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-02",
-      "assetUrl": "PIU-1-3.AT.04",
-      "category": "M.Du.Te",
-      "department": "MARKETING",
-      "entityName": "PIU-1-3.AT.04",
-      "generalName": "PIU-1-3.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-03",
-      "assetUrl": "PIU-1-3.AT.07",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-3.AT.07",
-      "generalName": "PIU-1-3.AT.07",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-04",
-      "assetUrl": "PIU-1-2.AT.01",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-2.AT.01",
-      "generalName": "PIU-1-2.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-05",
-      "assetUrl": "PIU-1-2.AT.02",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-2.AT.02",
-      "generalName": "PIU-1-2.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-06",
-      "assetUrl": "PIU-1-2.AT.03",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-2.AT.03",
-      "generalName": "PIU-1-2.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-07",
-      "assetUrl": "PIU-1-2.AT.04",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-2.AT.04",
-      "generalName": "PIU-1-2.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-08",
-      "assetUrl": "PIU-1-12.AT.01",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-12.AT.01",
-      "generalName": "PIU-1-12.AT.01",
+      "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -2064,7 +972,7 @@
       "category": "M.Du.Te",
       "department": "EXECUTIVE",
       "entityName": "PIU-1-12.AT.03",
-      "generalName": "PIU-1-12.AT.03",
+      "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -2074,421 +982,31 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-1-12.AT.06",
-      "generalName": "PIU-1-12.AT.06",
+      "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
       "room": ""
     },
     {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-01",
-      "assetUrl": "PIU-1-6.AT.01",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-6.AT.01",
-      "generalName": "PIU-1-6.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-02",
-      "assetUrl": "PIU-1-6.AT.02",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-6.AT.02",
-      "generalName": "PIU-1-6.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-03",
-      "assetUrl": "PIU-1-14.AT.01",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-14.AT.01",
-      "generalName": "PIU-1-14.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-04",
-      "assetUrl": "PIU-1-14.AT.02",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-14.AT.02",
-      "generalName": "PIU-1-14.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-05",
-      "assetUrl": "PIU-1-14.AT.03",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-14.AT.03",
-      "generalName": "PIU-1-14.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-06",
-      "assetUrl": "PIU-1-14.AT.04",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-14.AT.04",
-      "generalName": "PIU-1-14.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.05-23HVA-WG-01",
-      "assetUrl": "PIU-1-7.AT.01",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.01",
-      "generalName": "PIU-1-7.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.05-23HVA-WG-02",
-      "assetUrl": "PIU-1-7.AT.02",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.02",
-      "generalName": "PIU-1-7.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.05-23HVA-WG-03",
-      "assetUrl": "PIU-1-16.AT.02",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-16.AT.02",
-      "generalName": "PIU-1-16.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.06-23HVA-WG-01",
-      "assetUrl": "PIU-1-6.AT.04",
-      "category": "M.Du.Te",
-      "department": "HR",
-      "entityName": "PIU-1-6.AT.04",
-      "generalName": "PIU-1-6.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.06-23HVA-WG-02",
-      "assetUrl": "PIU-1-14.AT.08",
-      "category": "M.Du.Te",
-      "department": "HR",
-      "entityName": "PIU-1-14.AT.08",
-      "generalName": "PIU-1-14.AT.08",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-01",
-      "assetUrl": "PIU-1-7.AT.03",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.03",
-      "generalName": "PIU-1-7.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-02",
-      "assetUrl": "PIU-1-7.AT.04",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.04",
-      "generalName": "PIU-1-7.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-03",
-      "assetUrl": "PIU-1-7.AT.05",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.05",
-      "generalName": "PIU-1-7.AT.05",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-04",
-      "assetUrl": "PIU-1-7.AT.07",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-7.AT.07",
-      "generalName": "PIU-1-7.AT.07",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-05",
-      "assetUrl": "PIU-1-16.AT.01",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-16.AT.01",
-      "generalName": "PIU-1-16.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-06",
-      "assetUrl": "PIU-1-16.AT.03",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-16.AT.03",
-      "generalName": "PIU-1-16.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-07",
-      "assetUrl": "PIU-1-16.AT.04",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-16.AT.04",
-      "generalName": "PIU-1-16.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.08-23HVA-WG-01",
-      "assetUrl": "PIU-1-9.AT.05",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-9.AT.05",
-      "generalName": "PIU-1-9.AT.05",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.08-23HVA-WG-02",
-      "assetUrl": "PIU-1-9.AT.08",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-9.AT.08",
-      "generalName": "PIU-1-9.AT.08",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.08-23HVA-WG-03",
-      "assetUrl": "PIU-1-17.AT.07",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.07",
-      "generalName": "PIU-1-17.AT.07",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.08-23HVA-WG-04",
-      "assetUrl": "PIU-1-17.AT.08",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.08",
-      "generalName": "PIU-1-17.AT.08",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-01",
-      "assetUrl": "PIU-1-18.AT.04",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.04",
-      "generalName": "PIU-1-18.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-02",
-      "assetUrl": "PIU-1-18.AT.05",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.05",
-      "generalName": "PIU-1-18.AT.05",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-03",
-      "assetUrl": "PIU-1-18.AT.06",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.06",
-      "generalName": "PIU-1-18.AT.06",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-04",
-      "assetUrl": "PIU-1-18.AT.07",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.07",
-      "generalName": "PIU-1-18.AT.07",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-05",
-      "assetUrl": "PIU-1-18.AT.08",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.08",
-      "generalName": "PIU-1-18.AT.08",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-06",
-      "assetUrl": "PIU-1-18.AT.09",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.09",
-      "generalName": "PIU-1-18.AT.09",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-07",
-      "assetUrl": "PIU-1-10.AT.02",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-10.AT.02",
-      "generalName": "PIU-1-10.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-08",
-      "assetUrl": "PIU-1-10.AT.03",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-10.AT.03",
-      "generalName": "PIU-1-10.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-09",
-      "assetUrl": "PIU-1-10.AT.04",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-10.AT.04",
-      "generalName": "PIU-1-10.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-10",
-      "assetUrl": "PIU-1-10.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-10.AT.05",
-      "generalName": "PIU-1-10.AT.05",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-01",
-      "assetUrl": "PIU-1-9.AT.01",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-9.AT.01",
-      "generalName": "PIU-1-9.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-02",
-      "assetUrl": "PIU-1-9.AT.02",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-9.AT.02",
-      "generalName": "PIU-1-9.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-03",
-      "assetUrl": "PIU-1-9.AT.03",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-9.AT.03",
-      "generalName": "PIU-1-9.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-04",
-      "assetUrl": "PIU-1-17.AT.01",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.01",
-      "generalName": "PIU-1-17.AT.01",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-05",
-      "assetUrl": "PIU-1-17.AT.02",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.02",
-      "generalName": "PIU-1-17.AT.02",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-06",
-      "assetUrl": "PIU-1-17.AT.03",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.03",
-      "generalName": "PIU-1-17.AT.03",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-07",
-      "assetUrl": "PIU-1-17.AT.04",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.04",
-      "generalName": "PIU-1-17.AT.04",
-      "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-RF-??-23HVA-RTU-01",
+      "assetId": "JD4021-RF-RF.01-23HVA-RTU-01",
       "assetUrl": "RTU-2",
       "category": "M.Eq",
       "department": "",
       "entityName": "RTU-2",
-      "generalName": "RTU-2",
+      "generalName": "Roof Top Unit",
       "level": "ROOF",
       "room": ""
     },
     {
-      "assetId": "JD4021-RF-??-23HVA-RTU-02",
+      "assetId": "JD4021-RF-RF.01-23HVA-RTU-02",
       "assetUrl": "RTU-1",
       "category": "M.Eq",
       "department": "",
       "entityName": "RTU-1",
-      "generalName": "RTU-1",
+      "generalName": "Roof Top Unit",
       "level": "ROOF",
       "room": ""
     }
   ],
-  "complete": true,
-  "updatedAt": "2026-07-20T19:47:41.813Z"
+  "complete": false,
+  "updatedAt": "2026-07-24T20:07:09.300Z"
 }
