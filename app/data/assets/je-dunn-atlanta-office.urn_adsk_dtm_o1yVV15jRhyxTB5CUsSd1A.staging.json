@@ -10,6 +10,7 @@
     5,
     6,
     7,
+    8,
     9,
     10
   ],
@@ -53,6 +54,36 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "LOWER FLOOR",
       "room": "JENNIFER YOUNG 001.13"
+    },
+    {
+      "assetId": "JD4021-LF-001.14-25INT-DS-01",
+      "assetUrl": "DS136",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "DS136",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.15-25INT-DS-01",
+      "assetUrl": "DS137",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "DS137",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001.16-25INT-DS-01",
+      "assetUrl": "DS138",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "DS138",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "LOWER FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-LF-001.2-25INT-DS-01",
@@ -175,6 +206,26 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-001A-26ELE-SL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADS7V4tyEJPiqNXSRFpjKg5AAr50w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-001A-26ELE-SL-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADS7V4tyEJPiqNXSRFpjKg5AAr54A",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-001A-27COM-DR-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAiSr07ihZJSJYcnX-51nPcABBXpg",
       "category": "Q.CD",
@@ -271,6 +322,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-002.1-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAC_Dx5mPalK4bjHln14VJGpAA-Luw",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -715,6 +776,16 @@
       "room": "ELECTRICAL 005"
     },
     {
+      "assetId": "JD4021-LF-005-26ELE-EP-05",
+      "assetUrl": "L1B",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "L1B",
+      "generalName": "Electrical Panel",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-005-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD5uXKQSAhGorvRdN2I49PRAAjojA",
       "category": "E.Fi",
@@ -735,6 +806,26 @@
       "room": "ELECTRICAL 005"
     },
     {
+      "assetId": "JD4021-LF-005-26ELE-SL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADS7V4tyEJPiqNXSRFpjKg5AAr57Q",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005-26ELE-SL-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADS7V4tyEJPiqNXSRFpjKg5AAr58A",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-005-26ELE-SW-01",
       "assetUrl": "MDP",
       "category": "E.Eq",
@@ -751,6 +842,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-005A-26ELE-SL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADS7V4tyEJPiqNXSRFpjKg5AAr54w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -955,6 +1056,16 @@
       "room": "RR 012"
     },
     {
+      "assetId": "JD4021-LF-013-25INT-GW-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADLzAHz8JJD87OoUMZtG87DABeFhA",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Gateway",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-013-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAxKq95VPpEZ62OtP6impVdAAm-FQ",
       "category": "E.Fi",
@@ -963,6 +1074,16 @@
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
       "room": "STORAGE 013"
+    },
+    {
+      "assetId": "JD4021-LF-013-26ELE-SL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAC_zWa2ekVIPrpK31z9R8-tAAqujg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-LF-013-33UTI-WF-01",
@@ -1415,6 +1536,36 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-017-26ELE-SL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAC_zWa2ekVIPrpK31z9R8-tAAquYQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-017-26ELE-SL-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAC_zWa2ekVIPrpK31z9R8-tAAquYg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-017-26ELE-SL-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAC_zWa2ekVIPrpK31z9R8-tAAquYw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-018-26ELE-ER-04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD5uXKQSAhGorvRdN2I49PRAAjuEA",
       "category": "E.Fi",
@@ -1471,6 +1622,76 @@
       "department": "",
       "entityName": "",
       "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3jBQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-26ELE-LP-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3kYw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-26ELE-LP-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3kmw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-26ELE-LP-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3koQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-26ELE-LP-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3kpw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-26ELE-LP-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3krQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-018-26ELE-LP-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3ksw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -1565,6 +1786,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-020-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3uLw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-020-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAABVjNDFzGFLoqXpwDWTwAKSAAmkKQ",
       "category": "Q.CD",
@@ -1593,6 +1824,16 @@
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
       "room": "COPY 021"
+    },
+    {
+      "assetId": "JD4021-LF-021-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3uyA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-LF-022-26ELE-ER-01",
@@ -1865,12 +2106,32 @@
       "room": "ROACH COACH 022"
     },
     {
+      "assetId": "JD4021-LF-022-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADcJ-rj8B9K0oI183_O0WYbAA-n9A",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-022-28ESS-CR-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAq3ZPxbRhOUrA1b2fZKZLZABdopQ",
       "category": "Q.SD",
       "department": "",
       "entityName": "",
       "generalName": "Card Reader",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-022-28ESS-LD-01",
+      "assetUrl": "LEAK DETECTOR 01",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "LEAK DETECTOR 01",
+      "generalName": "Leak Detector",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -1901,6 +2162,46 @@
       "department": "",
       "entityName": "",
       "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-023-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3yXw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-023-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3ymg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-023-26ELE-LI-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3yxA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-023-26ELE-LI-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3y1g",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -1941,6 +2242,66 @@
       "department": "",
       "entityName": "",
       "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3yzA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3z5w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-26ELE-LI-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA3z7w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-26ELE-LI-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA30ew",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-26ELE-LI-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA30fA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-024-26ELE-LI-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA30fQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -2495,6 +2856,26 @@
       "room": "PRINT 033"
     },
     {
+      "assetId": "JD4021-LF-033-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADBPTh13MtF-54V8ceRj5hOABkYjA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-033-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADBPTh13MtF-54V8ceRj5hOABkYyg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-033-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA306A",
       "category": "E.LF",
@@ -2825,6 +3206,26 @@
       "room": "JERMAINE SHEFFIELD 026.9"
     },
     {
+      "assetId": "JD4021-LF-J01-26ELE-SL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADS7V4tyEJPiqNXSRFpjKg5AAr5Cg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-25INT-GW-01",
+      "assetUrl": "PG01",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "PG01",
+      "generalName": "Gateway",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-LF-W0.01-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAACUg_lCYZZHS4c8FlaOiyPMABkXig",
       "category": "E.Fi",
@@ -2833,6 +3234,16 @@
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
       "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-W0.01-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADBPTh13MtF-54V8ceRj5hOABkZFg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-LF-W0.01-26ELE-LP-01",
@@ -3033,6 +3444,16 @@
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
       "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-W0.02-26ELE-ER-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADBPTh13MtF-54V8ceRj5hOABkZNw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-LF-W0.02-26ELE-LP-01",
@@ -4065,6 +4486,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-102-44POL-AQ-01",
+      "assetUrl": "AS-13",
+      "category": "Q.CD",
+      "department": "CONFERENCE ROOM",
+      "entityName": "AS-13",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-103-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjayQ",
       "category": "E.Fi",
@@ -4151,6 +4582,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-103-44POL-AQ-01",
+      "assetUrl": "AS-11",
+      "category": "Q.CD",
+      "department": "CONFERENCE ROOM",
+      "entityName": "AS-11",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -4685,6 +5126,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-107-26ELE-EP-01",
+      "assetUrl": "L2A",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "L2A",
+      "generalName": "Electrical Panel",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-107-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjC6g",
       "category": "E.Fi",
@@ -4855,6 +5306,16 @@
       "room": "HOTEL 109.10"
     },
     {
+      "assetId": "JD4021-MF-109.10-25INT-DS-01",
+      "assetUrl": "DS80",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS80",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-109.10-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAA8UajJkFVHsIorwIFzSjUCABFU_A",
       "category": "E.Fi",
@@ -4955,12 +5416,32 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-109.2-25INT-DS-01",
+      "assetUrl": "DS72",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS72",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-109.2-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACQ_iWNgO5Ku4rgHOPx0mDvAApoXA",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-109.3-25INT-DS-01",
+      "assetUrl": "DS73",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS73",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -4975,12 +5456,32 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-109.4-25INT-DS-01",
+      "assetUrl": "DS74",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS74",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-109.4-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACQ_iWNgO5Ku4rgHOPx0mDvAApoGA",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-109.5-25INT-DS-01",
+      "assetUrl": "DS75",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS75",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -4995,6 +5496,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-109.6-25INT-DS-01",
+      "assetUrl": "DS76",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS76",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-109.6-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACQ_iWNgO5Ku4rgHOPx0mDvAApoVA",
       "category": "Q.CD",
@@ -5005,12 +5516,32 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-109.7-25INT-DS-01",
+      "assetUrl": "DS77",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS77",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-109.7-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACQ_iWNgO5Ku4rgHOPx0mDvAApoXQ",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-109.8-25INT-DS-01",
+      "assetUrl": "DS78",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS78",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -5035,6 +5566,16 @@
       "room": "CORY HINZ 109.8"
     },
     {
+      "assetId": "JD4021-MF-109.9-25INT-DS-01",
+      "assetUrl": "DS79",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS79",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-109.9-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAA8UajJkFVHsIorwIFzSjUCABFU-w",
       "category": "E.Fi",
@@ -5053,6 +5594,16 @@
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "RICHARD WILLIAMS 109.9"
+    },
+    {
+      "assetId": "JD4021-MF-110A-26ELE-SL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAADZwIGV6B9Gl6JYs4Zxnr_GAAsdwg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Shop Light",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-111-26ELE-ER-01",
@@ -5203,6 +5754,16 @@
       "generalName": "SD Access Node",
       "level": "MAIN FLOOR",
       "room": "GATHERING 111"
+    },
+    {
+      "assetId": "JD4021-MF-111-44POL-AQ-01",
+      "assetUrl": "AS-14",
+      "category": "Q.CD",
+      "department": "GATHERING",
+      "entityName": "AS-14",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-112-26ELE-ER-01",
@@ -5381,6 +5942,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Recessed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-44POL-AQ-01",
+      "assetUrl": "AS-20",
+      "category": "Q.CD",
+      "department": "CONFERENCE ROOM",
+      "entityName": "AS-20",
+      "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -6155,12 +6726,42 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-122.10-25INT-DS-01",
+      "assetUrl": "DS48",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS48",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-122.11-25INT-DS-01",
+      "assetUrl": "DS49",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS49",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-122.11-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB0goxervxG9pktAb6sqAbZAApptg",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-122.12-25INT-DS-01",
+      "assetUrl": "DS50",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS50",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -6235,12 +6836,52 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-122.2-25INT-DS-01",
+      "assetUrl": "DS40",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS40",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-122.3-25INT-DS-01",
+      "assetUrl": "DS41",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS41",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-122.3-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB0goxervxG9pktAb6sqAbZAApprQ",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-122.4-25INT-DS-01",
+      "assetUrl": "DS42",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS42",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-122.4-25INT-GW-01",
+      "assetUrl": "PG02",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "PG02",
+      "generalName": "Gateway",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -6255,12 +6896,42 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-122.5-25INT-DS-01",
+      "assetUrl": "DS43",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS43",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-122.6-25INT-DS-01",
+      "assetUrl": "DS44",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS44",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-122.6-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB0goxervxG9pktAb6sqAbZAAppqw",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-122.7-25INT-DS-01",
+      "assetUrl": "DS45",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS45",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -6275,12 +6946,32 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-122.8-25INT-DS-01",
+      "assetUrl": "DS46",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS46",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-122.8-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB0goxervxG9pktAb6sqAbZAApqKQ",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-122.9-25INT-DS-01",
+      "assetUrl": "DS47",
+      "category": "Q.CD",
+      "department": "EDUCATION",
+      "entityName": "DS47",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -6565,6 +7256,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-127-28ESS-LD-01",
+      "assetUrl": "LEAK DETECTOR 02",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "LEAK DETECTOR 02",
+      "generalName": "Leak Detector",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-127-44POL-AQ-01",
       "assetUrl": "AS-19",
       "category": "Q.CD",
@@ -6625,6 +7326,26 @@
       "room": "CHRISTOPHER HUGHES 129.10, STORAGE 017"
     },
     {
+      "assetId": "JD4021-MF-129.10-25INT-DS-01",
+      "assetUrl": "DS58",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS58",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-129.12-25INT-DS-01",
+      "assetUrl": "DS60",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS60",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-129.12-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApgpw",
       "category": "Q.CD",
@@ -6635,6 +7356,16 @@
       "room": "TOM RANEY 129.12, FITNESS 015"
     },
     {
+      "assetId": "JD4021-MF-129.13-25INT-DS-01",
+      "assetUrl": "DS61",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS61",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-129.13-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApgtQ",
       "category": "Q.CD",
@@ -6643,6 +7374,16 @@
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "ERIN GRABLE 129.13, FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-MF-129.14-25INT-DS-01",
+      "assetUrl": "DS62",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS62",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-129.14-27COM-DF-01",
@@ -6705,6 +7446,16 @@
       "room": "WORK AREA 129.2, BOOTS ON THE GROUND 018"
     },
     {
+      "assetId": "JD4021-MF-129.3-25INT-DS-01",
+      "assetUrl": "DS51",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS51",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-129.3-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAAphEA",
       "category": "Q.CD",
@@ -6713,6 +7464,16 @@
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "STUART BRUENING 129.3, BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "JD4021-MF-129.4-25INT-DS-01",
+      "assetUrl": "DS52",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS52",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-129.4-27COM-DF-01",
@@ -6725,6 +7486,16 @@
       "room": "LORI GERTSCH 129.4, BOOTS ON THE GROUND 018"
     },
     {
+      "assetId": "JD4021-MF-129.5-25INT-DS-01",
+      "assetUrl": "DS53",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS53",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-129.5-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApg7Q",
       "category": "Q.CD",
@@ -6733,6 +7504,16 @@
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "ALISON CHAFFEE 129.5, BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "JD4021-MF-129.6-25INT-DS-01",
+      "assetUrl": "DS54",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS54",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-129.6-26ELE-ER-01",
@@ -6755,6 +7536,16 @@
       "room": "KAREN AVERY 129.6"
     },
     {
+      "assetId": "JD4021-MF-129.7-25INT-DS-01",
+      "assetUrl": "DS55",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS55",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-129.7-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApg5w",
       "category": "Q.CD",
@@ -6763,6 +7554,26 @@
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "HOTEL 129.7, STORAGE 017"
+    },
+    {
+      "assetId": "JD4021-MF-129.8-25INT-DS-01",
+      "assetUrl": "DS56",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS56",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-129.9-25INT-DS-01",
+      "assetUrl": "DS57",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS57",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-131-26ELE-ER-01",
@@ -6925,6 +7736,26 @@
       "room": "COLLABORATION 133.1"
     },
     {
+      "assetId": "JD4021-MF-133.10-25INT-DS-01",
+      "assetUrl": "DS71",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "DS71",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-133.2-25INT-DS-01",
+      "assetUrl": "DS63",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "DS63",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-133.2-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAABbsiMpWvBHN5KuLCSsS2iTAApoyQ",
       "category": "Q.CD",
@@ -6933,6 +7764,16 @@
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-MF-133.3-25INT-DS-01",
+      "assetUrl": "DS64",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "DS64",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-133.3-27COM-DF-01",
@@ -6945,12 +7786,42 @@
       "room": "FITNESS 015"
     },
     {
+      "assetId": "JD4021-MF-133.4-25INT-DS-01",
+      "assetUrl": "DS65",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "DS65",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-133.4-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAABbsiMpWvBHN5KuLCSsS2iTAApotA",
       "category": "Q.CD",
       "department": "",
       "entityName": "",
       "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-133.5-25INT-DS-01",
+      "assetUrl": "DS66",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "DS66",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-133.6-25INT-DS-01",
+      "assetUrl": "DS67",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "DS67",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -6965,6 +7836,16 @@
       "room": "CRAIG KLIESRATH 133.6, FITNESS 015"
     },
     {
+      "assetId": "JD4021-MF-133.7-25INT-DS-01",
+      "assetUrl": "DS68",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "DS68",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-133.7-27COM-DF-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAABbsiMpWvBHN5KuLCSsS2iTAApoyA",
       "category": "Q.CD",
@@ -6973,6 +7854,16 @@
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "ANDY MARTINDILL 133.7, FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-MF-133.8-25INT-DS-01",
+      "assetUrl": "DS69",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "DS69",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-133.8-27COM-DF-01",
@@ -6993,6 +7884,16 @@
       "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-MF-133.9-25INT-DS-01",
+      "assetUrl": "DS70",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "DS70",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-133.9-27COM-DF-01",
@@ -7081,6 +7982,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-133J-25INT-DS-01",
+      "assetUrl": "DS59",
+      "category": "Q.CD",
+      "department": "COMMERCIAL",
+      "entityName": "DS59",
+      "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": ""
     },
@@ -7385,6 +8296,16 @@
       "room": "PRINT ROOM 1.02 P1.02"
     },
     {
+      "assetId": "JD4021-MF-P1.02-28ESS-CR-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAC6YMshJChGp7kDjX1gxUmuABdufA",
+      "category": "Q.SD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Card Reader",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-W1.01-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAACmVE1ep8pBLYdeeJ71B15hAA4Dpg",
       "category": "E.LF",
@@ -7565,6 +8486,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-W1.04-44POL-AQ-01",
+      "assetUrl": "AS-15",
+      "category": "Q.CD",
+      "department": "LEAN",
+      "entityName": "AS-15",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-W1.05-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjIbQ",
       "category": "E.Fi",
@@ -7713,6 +8644,16 @@
       "generalName": "Light Fixture - Exit Sign",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.05 W1.05"
+    },
+    {
+      "assetId": "JD4021-MF-W1.05-44POL-AQ-01",
+      "assetUrl": "AS-18",
+      "category": "Q.CD",
+      "department": "Education",
+      "entityName": "AS-18",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-W1.06-28ESS-IK-01",
@@ -7925,6 +8866,16 @@
       "room": "WALKWAY 1.08 W1.08"
     },
     {
+      "assetId": "JD4021-MF-W1.08-44POL-AQ-01",
+      "assetUrl": "AS-16",
+      "category": "Q.CD",
+      "department": "VDC",
+      "entityName": "AS-16",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-W1.09-26ELE-LP-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD_bSMF9J5PsoGUCUM74l6HAA4GFw",
       "category": "E.LF",
@@ -8045,6 +8996,16 @@
       "room": "WALKWAY 1.10 W1.10, FITNESS 015"
     },
     {
+      "assetId": "JD4021-MF-W1.10-44POL-AQ-01",
+      "assetUrl": "AS-17",
+      "category": "Q.CD",
+      "department": "Commercial",
+      "entityName": "AS-17",
+      "generalName": "Air Quality Sensor",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-RF-RF.01-48EPG-SP-01",
       "assetUrl": "SP-B",
       "category": "E.Eq",
@@ -8075,6 +9036,46 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-ST-PL.01-26ELE-PL-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AAAAADX2Pf3m1FPfqxKUHpKZM-bABhdiQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pole Light",
+      "level": "SITE",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL.01-26ELE-PL-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AAAAADX2Pf3m1FPfqxKUHpKZM-bABheUQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pole Light",
+      "level": "SITE",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL.01-26ELE-PL-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AAAAADX2Pf3m1FPfqxKUHpKZM-bABheYQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pole Light",
+      "level": "SITE",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-ST-PL.01-26ELE-PL-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AAAAADX2Pf3m1FPfqxKUHpKZM-bABheuQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Pole Light",
+      "level": "SITE",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-ST-PL.01-33UTI-UT-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAc3zFYAWVDiY5QpjcsA9usABhjXw",
       "category": "E.Eq",
@@ -8085,6 +9086,6 @@
       "room": ""
     }
   ],
-  "complete": false,
-  "updatedAt": "2026-07-24T21:03:00.221Z"
+  "complete": true,
+  "updatedAt": "2026-07-24T21:03:04.765Z"
 }
