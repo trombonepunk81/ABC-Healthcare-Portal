@@ -3,41 +3,9 @@
   "modelUrn": "urn:adsk.dtm:HIEG_rRmQaWdIfPybILB_Q",
   "totalBatches": 3,
   "batchesReceived": [
-    1,
-    2,
-    3
+    1
   ],
   "assets": [
-    {
-      "assetId": "JD4021-LF-002.1-23HVA-WG-01",
-      "assetUrl": "PIU-LL-11.AT.04",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.04",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "BRENT STRENGTH 002.2"
-    },
-    {
-      "assetId": "JD4021-LF-002.1-23HVA-WG-02",
-      "assetUrl": "PIU-LL-11.AT.09",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-11.AT.09",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "COLLABORATION 002.1"
-    },
-    {
-      "assetId": "JD4021-LF-002.1-23HVA-WG-03",
-      "assetUrl": "PIU-LL-11.AT.10",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-11.AT.10",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "COLLABORATION 002.1"
-    },
     {
       "assetId": "JD4021-LF-004-23HVA-SG-01",
       "assetUrl": "MAT.004.01",
@@ -46,7 +14,7 @@
       "entityName": "MAT.004.01",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-23HVA-SG-02",
@@ -56,47 +24,7 @@
       "entityName": "MAT.004.02",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-006.1-23HVA-WG-01",
-      "assetUrl": "PIU-LL-10.AT.04",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.04",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "COLLABORATION 006.1"
-    },
-    {
-      "assetId": "JD4021-LF-006.1-23HVA-WG-02",
-      "assetUrl": "VAV-LL-1.AT.03",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.03",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "COLLABORATION 006.1"
-    },
-    {
-      "assetId": "JD4021-LF-006.1-23HVA-WG-03",
-      "assetUrl": "VAV-LL-1.AT.07",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.07",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "COLLABORATION 006.1"
-    },
-    {
-      "assetId": "JD4021-LF-006.1-23HVA-WG-04",
-      "assetUrl": "PIU-LL-10.AT.09",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.09",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "COLLABORATION 006.1"
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-007-23HVA-SG-01",
@@ -106,7 +34,7 @@
       "entityName": "MAT.007.01",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-23HVA-SG-02",
@@ -116,77 +44,7 @@
       "entityName": "MAT.007.02",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-008-23HVA-EG-01",
-      "assetUrl": "PIU-LL-3.AT.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-3.AT.01",
-      "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR",
-      "room": "LOUNGE 008"
-    },
-    {
-      "assetId": "JD4021-LF-010-23HVA-EG-01",
-      "assetUrl": "CD-2-1.4",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CD-2-1.4",
-      "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR",
-      "room": "RR 010"
-    },
-    {
-      "assetId": "JD4021-LF-010-23HVA-EG-02",
-      "assetUrl": "CR-2-1.3",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CR-2-1.3",
-      "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR",
-      "room": "RR 010"
-    },
-    {
-      "assetId": "JD4021-LF-011-23HVA-EG-01",
-      "assetUrl": "CD-2-1.3",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CD-2-1.3",
-      "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR",
-      "room": "RR 011"
-    },
-    {
-      "assetId": "JD4021-LF-011-23HVA-EG-02",
-      "assetUrl": "CR-2-1.2",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CR-2-1.2",
-      "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR",
-      "room": "RR 011"
-    },
-    {
-      "assetId": "JD4021-LF-012-23HVA-EG-01",
-      "assetUrl": "PIU-LL-3.AT.02",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-3.AT.02",
-      "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR",
-      "room": "RR 012"
-    },
-    {
-      "assetId": "JD4021-LF-012-23HVA-EG-02",
-      "assetUrl": "CR-2-1.1",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "CR-2-1.1",
-      "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR",
-      "room": "RR 012"
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-016-23HVA-CD-01",
@@ -196,7 +54,7 @@
       "entityName": "VAV-LL-2.AT.01",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-LF-016-23HVA-CD-02",
@@ -206,7 +64,7 @@
       "entityName": "VAV-LL-2.AT.02",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-LF-016-23HVA-CD-03",
@@ -216,7 +74,7 @@
       "entityName": "VAV-LL-2.AT.03",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-LF-017-23HVA-PIU-01",
@@ -226,7 +84,7 @@
       "entityName": "PIU-LL-3",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017"
     },
     {
       "assetId": "JD4021-LF-017-23HVA-PIU-02",
@@ -236,7 +94,7 @@
       "entityName": "PIU-LL-4",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-01",
@@ -246,7 +104,7 @@
       "entityName": "PIU-LL-7.AT.01",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-02",
@@ -256,7 +114,7 @@
       "entityName": "PIU-LL-7.AT.02",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-03",
@@ -266,7 +124,7 @@
       "entityName": "PIU-LL-7.AT.03",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-04",
@@ -276,7 +134,7 @@
       "entityName": "PIU-LL-7.AT.04",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-05",
@@ -286,7 +144,7 @@
       "entityName": "PIU-LL-4.AT.02",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-06",
@@ -296,7 +154,7 @@
       "entityName": "PIU-LL-4.AT.03",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-07",
@@ -306,7 +164,7 @@
       "entityName": "PIU-LL-4.AT.04",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-08",
@@ -316,7 +174,7 @@
       "entityName": "PIU-LL-4.AT.05",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-09",
@@ -324,16 +182,6 @@
       "category": "M.Du.Te",
       "department": "",
       "entityName": "PIU-LL-4.AT.03",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-018-23HVA-WG-10",
-      "assetUrl": "PIU-LL-4.AT.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-LL-4.AT.01",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
@@ -346,7 +194,7 @@
       "entityName": "PIU-LL-8.AT.04",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COPY 021"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-SG-01",
@@ -356,7 +204,7 @@
       "entityName": "PIU-LL-5.AT.07",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-01",
@@ -366,7 +214,7 @@
       "entityName": "PIU-LL-5.AT.01",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-02",
@@ -376,7 +224,7 @@
       "entityName": "PIU-LL-5.AT.02",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-03",
@@ -386,7 +234,7 @@
       "entityName": "PIU-LL-5.AT.03",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-04",
@@ -396,7 +244,7 @@
       "entityName": "PIU-LL-5.AT.04",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-05",
@@ -406,7 +254,7 @@
       "entityName": "PIU-LL-5.AT.05",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-WG-06",
@@ -416,7 +264,7 @@
       "entityName": "PIU-LL-5.AT.06",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-023-23HVA-PIU-01",
@@ -424,16 +272,6 @@
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-LL-7",
-      "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-023-23HVA-PIU-02",
-      "assetUrl": "PIU-LL-5",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-LL-5",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
       "room": "OFFICE 023"
@@ -446,7 +284,7 @@
       "entityName": "MAT.023.01",
       "generalName": "Return Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-23HVA-SG-01",
@@ -456,7 +294,7 @@
       "entityName": "PIU-LL-8.AT.03",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-024-23HVA-PIU-01",
@@ -466,7 +304,7 @@
       "entityName": "PIU-LL-8",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-23HVA-RG-01",
@@ -476,7 +314,7 @@
       "entityName": "MAT.024.01",
       "generalName": "Return Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-23HVA-SG-01",
@@ -486,7 +324,7 @@
       "entityName": "PIU-LL-8.AT.02",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-025-23HVA-RG-01",
@@ -496,7 +334,7 @@
       "entityName": "MAT.025.01",
       "generalName": "Return Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-23HVA-SG-01",
@@ -505,16 +343,6 @@
       "department": "",
       "entityName": "PIU-LL-8.AT.01",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-025-23HVA-VAV-01",
-      "assetUrl": "VAV-LL-2",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "VAV-LL-2",
-      "generalName": "Variable Air Volume Unit",
       "level": "LOWER FLOOR",
       "room": "@ THE END OF THE DAY 025"
     },
@@ -526,7 +354,7 @@
       "entityName": "VAV-LL-2.AT.04",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-030-23HVA-SG-01",
@@ -536,7 +364,7 @@
       "entityName": "CD-1-1.2",
       "generalName": "Supply Grill",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 030"
     },
     {
       "assetId": "JD4021-LF-032-23HVA-CD-01",
@@ -546,7 +374,7 @@
       "entityName": "MAT.032.01",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BEST IN CLASS 032"
     },
     {
       "assetId": "JD4021-LF-033-23HVA-CD-01",
@@ -556,7 +384,7 @@
       "entityName": "MAT.033.01",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PRINT 033"
     },
     {
       "assetId": "JD4021-LF-034-23HVA-PIU-01",
@@ -566,7 +394,7 @@
       "entityName": "PIU-LL-2",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 034"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-CD-01",
@@ -576,7 +404,7 @@
       "entityName": "MAT.035.02",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-CD-02",
@@ -586,7 +414,7 @@
       "entityName": "MAT.035.01",
       "generalName": "Ceiling Diffuser",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-PIU-01",
@@ -596,7 +424,7 @@
       "entityName": "PIU-LL-9",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-PIU-02",
@@ -606,7 +434,7 @@
       "entityName": "PIU-LL-10",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-PIU-03",
@@ -616,37 +444,7 @@
       "entityName": "PIU-LL-11",
       "generalName": "Powered Induction Unit",
       "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-036-23HVA-CD-01",
-      "assetUrl": "MAT.036.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "MAT.036.01",
-      "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR",
-      "room": "DEEP DIVE 036"
-    },
-    {
-      "assetId": "JD4021-LF-036-23HVA-CD-02",
-      "assetUrl": "MAT.036.02",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "MAT.036.02",
-      "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR",
-      "room": "DEEP DIVE 036"
-    },
-    {
-      "assetId": "JD4021-LF-036-23HVA-PIU-01",
-      "assetUrl": "PIU-LL-1",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-LL-1",
-      "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR",
-      "room": "DEEP DIVE 036"
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-J01-23HVA-EG-01",
@@ -656,97 +454,7 @@
       "entityName": "MAT.J01.01",
       "generalName": "Exhaust Grill",
       "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-01",
-      "assetUrl": "PIU-LL-11.AT.08",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-11.AT.08",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "JENNIFER YOUNG 001.13"
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-02",
-      "assetUrl": "PIU-LL-9.AT.01",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.01",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.01 W0.01"
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-03",
-      "assetUrl": "PIU-LL-9.AT.02",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.02",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "ROBERT FULLERTON 001.6"
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-04",
-      "assetUrl": "PIU-LL-9.AT.03",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.03",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "LINDSEY VARRA 001.3"
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-05",
-      "assetUrl": "PIU-LL-9.AT.07",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "PIU-LL-9.AT.07",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "ADAM ALLISON 001.14"
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-06",
-      "assetUrl": "PIU-LL-9.AT.05",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.05",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "KYLE WOOD 001.2"
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-07",
-      "assetUrl": "PIU-LL-9.AT.06",
-      "category": "M.Du.Te",
-      "department": "HEALTHCARE",
-      "entityName": "PIU-LL-9.AT.06",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "CARLA BOWRON 001.7"
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-08",
-      "assetUrl": "PIU-LL-1.AT.04",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "PIU-LL-1.AT.04",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.01 W0.01"
-    },
-    {
-      "assetId": "JD4021-LF-W0.01-23HVA-WG-09",
-      "assetUrl": "PIU-LL-1.AT.06",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "PIU-LL-1.AT.06",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.01 W0.01"
+      "room": "JANITOR J01"
     },
     {
       "assetId": "JD4021-LF-W0.01-23HVA-WG-10",
@@ -756,217 +464,7 @@
       "entityName": "PIU-LL-9.AT.04",
       "generalName": "Wall Grill",
       "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-01",
-      "assetUrl": "PIU-LL-10.AT.01",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-10.AT.01",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "MITCH PURVIS 003.11"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-02",
-      "assetUrl": "PIU-LL-10.AT.02",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-10.AT.02",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "EZRA RUSSEL-HOWLAND 006.2"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-03",
-      "assetUrl": "PIU-LL-10.AT.03",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.03",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "DEAN NICKELL 006.7"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-04",
-      "assetUrl": "PIU-LL-10.AT.05",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.05",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "WILL ETHEREDGE 006.13"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-05",
-      "assetUrl": "PIU-LL-1.AT.01",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-1.AT.01",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "SAM HOLT 003.8"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-06",
-      "assetUrl": "PIU-LL-1.AT.02",
-      "category": "M.Du.Te",
-      "department": "QUALITY AND SCHED",
-      "entityName": "PIU-LL-1.AT.02",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-07",
-      "assetUrl": "PIU-LL-1.AT.03",
-      "category": "M.Du.Te",
-      "department": "QUALITY AND SCHED",
-      "entityName": "PIU-LL-1.AT.03",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "MATTHEW HAGAN 003.4"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-08",
-      "assetUrl": "VAV-LL-1.AT.01",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "VAV-LL-1.AT.01",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "MICHAEL ALDRICH 003.10"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-09",
-      "assetUrl": "VAV-LL-1.AT.02",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.02",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "ANDREW MILLER 006.5"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-10",
-      "assetUrl": "VAV-LL-1.AT.04",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.04",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "ELIZABETH MARIN 006.11"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-11",
-      "assetUrl": "VAV-LL-1.AT.05",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "VAV-LL-1.AT.05",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-12",
-      "assetUrl": "VAV-LL-1.AT.06",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.06",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "ANDREW MILLER 006.5"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-13",
-      "assetUrl": "VAV-LL-1.AT.08",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "VAV-LL-1.AT.08",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "ELIZABETH MARIN 006.11"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-14",
-      "assetUrl": "PIU-LL-1.AT.05",
-      "category": "M.Du.Te",
-      "department": "QUALITY AND SCHED",
-      "entityName": "PIU-LL-1.AT.05",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "CHAD MEADOWS 003.3"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-15",
-      "assetUrl": "PIU-LL-1.AT.07",
-      "category": "M.Du.Te",
-      "department": "QUALITY AND SCHED",
-      "entityName": "PIU-LL-1.AT.07",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "BRIAN HOLMES 003.6"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-16",
-      "assetUrl": "PIU-LL-1.AT.08",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-1.AT.08",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "JACOB MARKFORT 003.9"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-17",
-      "assetUrl": "PIU-LL-10.AT.06",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-10.AT.06",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "MITCH PURVIS 003.11"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-18",
-      "assetUrl": "PIU-LL-10.AT.07",
-      "category": "M.Du.Te",
-      "department": "APTITUDE",
-      "entityName": "PIU-LL-10.AT.07",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "EMORY BURCH 006.3"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-19",
-      "assetUrl": "PIU-LL-10.AT.08",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.08",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "SCOTT TUCKER 006.6"
-    },
-    {
-      "assetId": "JD4021-LF-W0.02-23HVA-WG-20",
-      "assetUrl": "PIU-LL-10.AT.10",
-      "category": "M.Du.Te",
-      "department": "SELF PERFORM",
-      "entityName": "PIU-LL-10.AT.10",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "ADI BRKIC 006.12"
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-PIU-01",
-      "assetUrl": "PIU-LL-6",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-LL-6",
-      "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "ADAM ALLISON 001.14"
     },
     {
       "assetId": "JD4021-LF-W0.04-23HVA-VAV-01",
@@ -976,167 +474,7 @@
       "entityName": "VAV-LL-3",
       "generalName": "Variable Air Volume Unit",
       "level": "LOWER FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-01",
-      "assetUrl": "PIU-LL-11.AT.01",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.01",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "BRENT STRENGTH 002.2"
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-02",
-      "assetUrl": "PIU-LL-11.AT.02",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.02",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-03",
-      "assetUrl": "PIU-LL-11.AT.03",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.03",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "BENJAMIN SZUBSKI 002.11"
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-04",
-      "assetUrl": "PIU-LL-11.AT.05",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.05",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "SCOTT BODDEN 002.5"
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-05",
-      "assetUrl": "PIU-LL-11.AT.06",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.06",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "STEVE HAGLUND 002.8"
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-06",
-      "assetUrl": "PIU-LL-11.AT.07",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-11.AT.07",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-07",
-      "assetUrl": "PIU-LL-6.AT.01",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "PIU-LL-6.AT.01",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "CHRIS HARM 002.14"
-    },
-    {
-      "assetId": "JD4021-LF-W0.04-23HVA-WG-08",
-      "assetUrl": "VAV-LL-3.AT.04",
-      "category": "M.Du.Te",
-      "department": "INDUSTRIAL",
-      "entityName": "VAV-LL-3.AT.04",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "TODD STUART 002.16"
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-01",
-      "assetUrl": "PIU-LL-6.AT.02",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "PIU-LL-6.AT.02",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "PHILLIP NGUYEN 026.14"
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-02",
-      "assetUrl": "PIU-LL-6.AT.03",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "PIU-LL-6.AT.03",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "IANA TASSADA 026.2"
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-03",
-      "assetUrl": "PIU-LL-6.AT.04",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "PIU-LL-6.AT.04",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "SAYAN SMITH 026.7"
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-04",
-      "assetUrl": "PIU-LL-6.AT.05",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "PIU-LL-6.AT.05",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "PETER STEPHENSON 026.8"
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-05",
-      "assetUrl": "PIU-LL-6.AT.06",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "PIU-LL-6.AT.06",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "REGGIE POPE 026.13"
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-06",
-      "assetUrl": "VAV-LL-3.AT.01",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "VAV-LL-3.AT.01",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "GARRICK SMITH 026.16"
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-07",
-      "assetUrl": "VAV-LL-3.AT.02",
-      "category": "M.Du.Te",
-      "department": "AVIATION",
-      "entityName": "VAV-LL-3.AT.02",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "CATHY KASHIUS 026.5"
-    },
-    {
-      "assetId": "JD4021-LF-W0.05-23HVA-WG-08",
-      "assetUrl": "VAV-LL-3.AT.03",
-      "category": "M.Du.Te",
-      "department": "SAFETY",
-      "entityName": "VAV-LL-3.AT.03",
-      "generalName": "Wall Grill",
-      "level": "LOWER FLOOR",
-      "room": "HIAWATHA HILL 026.11"
+      "room": "HOTEL 113.11, COLLABORATION 113.1"
     },
     {
       "assetId": "JD4021-MF-101-23HVA-SG-01",
@@ -1146,17 +484,7 @@
       "entityName": "PIU-1-1.AT.02",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-102-23HVA-PIU-01",
-      "assetUrl": "PIU-1-2",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-2",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "BOTTOM LINE 102"
+      "room": "RECEPTION 101"
     },
     {
       "assetId": "JD4021-MF-102-23HVA-RG-01",
@@ -1166,7 +494,7 @@
       "entityName": "CD-1-2.8",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-23HVA-RG-02",
@@ -1176,7 +504,7 @@
       "entityName": "CD-1-2.7",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-23HVA-RG-03",
@@ -1186,27 +514,7 @@
       "entityName": "CR-3-2.3",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-103-23HVA-PIU-01",
-      "assetUrl": "PIU-1-1",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-1",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "WIN WIN 103"
-    },
-    {
-      "assetId": "JD4021-MF-103-23HVA-PIU-02",
-      "assetUrl": "PIU-1-13",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-13",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "WIN WIN 103"
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-103-23HVA-PIU-03",
@@ -1216,7 +524,7 @@
       "entityName": "PIU-1-11",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-23HVA-RG-01",
@@ -1226,7 +534,7 @@
       "entityName": "CD-1-2.5",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-23HVA-RG-02",
@@ -1236,7 +544,7 @@
       "entityName": "CR-3-2.2",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-23HVA-SG-01",
@@ -1246,7 +554,7 @@
       "entityName": "CD-1-2.4",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-104-23HVA-RG-01",
@@ -1256,17 +564,7 @@
       "entityName": "CD-1-2.3",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-105-23HVA-PIU-01",
-      "assetUrl": "PIU-1-3",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-3",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "CIRCLE BACK 105"
+      "room": "THE SILO 104"
     },
     {
       "assetId": "JD4021-MF-105-23HVA-RG-01",
@@ -1276,27 +574,7 @@
       "entityName": "CD-1-2.6",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-106.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-3.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-3.AT.05",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 106.1"
-    },
-    {
-      "assetId": "JD4021-MF-106.1-23HVA-WG-02",
-      "assetUrl": "PIU-1-3.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-3.AT.06",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 106.1"
+      "room": "CIRCLE BACK 105"
     },
     {
       "assetId": "JD4021-MF-106.1-23HVA-WG-03",
@@ -1306,37 +584,7 @@
       "entityName": "PIU-1-12.AT.02",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-107-23HVA-PIU-01",
-      "assetUrl": "PIU-1-12",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-12",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "WORKROOM 107"
-    },
-    {
-      "assetId": "JD4021-MF-107-23HVA-PIU-02",
-      "assetUrl": "PIU-1-4",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-4",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "WORKROOM 107"
-    },
-    {
-      "assetId": "JD4021-MF-107-23HVA-PIU-03",
-      "assetUrl": "PIU-1-5",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-5",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "WORKROOM 107"
+      "room": "COLLABORATION 106.1"
     },
     {
       "assetId": "JD4021-MF-107-23HVA-RG-01",
@@ -1346,7 +594,7 @@
       "entityName": "CR-3-2.1",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-23HVA-RG-02",
@@ -1356,7 +604,7 @@
       "entityName": "CD-1-2.1",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-23HVA-RG-03",
@@ -1366,7 +614,7 @@
       "entityName": "CD-1-2.2",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-112-23HVA-RG-01",
@@ -1376,67 +624,7 @@
       "entityName": "CR-3-2.4",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-6.AT.03",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-6.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 113.1"
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-02",
-      "assetUrl": "PIU-1-14.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-14.AT.05",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 113.1"
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-03",
-      "assetUrl": "PIU-1-14.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-14.AT.06",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 113.1"
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-04",
-      "assetUrl": "PIU-1-14.AT.07",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-14.AT.07",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 113.1"
-    },
-    {
-      "assetId": "JD4021-MF-113.1-23HVA-WG-05",
-      "assetUrl": "PIU-1-6.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-6.AT.05",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 113.1"
-    },
-    {
-      "assetId": "JD4021-MF-116-23HVA-PIU-01",
-      "assetUrl": "PIU-1-14",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-14",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "IN THE LOOP 116"
+      "room": "BEST IN FINAL 112"
     },
     {
       "assetId": "JD4021-MF-116-23HVA-SG-01",
@@ -1446,17 +634,7 @@
       "entityName": "CD-1-2.10",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-117-23HVA-PIU-01",
-      "assetUrl": "PIU-1-6",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-6",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "PARKING LOT 117"
+      "room": "IN THE LOOP 116"
     },
     {
       "assetId": "JD4021-MF-117-23HVA-SG-01",
@@ -1466,17 +644,7 @@
       "entityName": "CD-1-2.9",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-118-23HVA-PIU-01",
-      "assetUrl": "PIU-1-18",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-18",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "OFFICE 118"
+      "room": "PARKING LOT 117"
     },
     {
       "assetId": "JD4021-MF-118-23HVA-RG-01",
@@ -1486,7 +654,7 @@
       "entityName": "CR-3-2.5",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 118"
     },
     {
       "assetId": "JD4021-MF-118-23HVA-SG-01",
@@ -1496,7 +664,7 @@
       "entityName": "CD-1-2.11",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 118"
     },
     {
       "assetId": "JD4021-MF-119-23HVA-PIU-01",
@@ -1506,7 +674,7 @@
       "entityName": "PIU-1-15",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 119"
     },
     {
       "assetId": "JD4021-MF-119-23HVA-RG-01",
@@ -1516,7 +684,7 @@
       "entityName": "CR-3-2.6",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 119"
     },
     {
       "assetId": "JD4021-MF-119-23HVA-SG-01",
@@ -1526,7 +694,7 @@
       "entityName": "CD-1-2.12",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 119"
     },
     {
       "assetId": "JD4021-MF-120-23HVA-RG-01",
@@ -1536,7 +704,7 @@
       "entityName": "CR-3-2.7",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 120"
     },
     {
       "assetId": "JD4021-MF-120-23HVA-SG-01",
@@ -1546,7 +714,7 @@
       "entityName": "CD-1-2.13",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 120"
     },
     {
       "assetId": "JD4021-MF-121-23HVA-PIU-01",
@@ -1556,7 +724,7 @@
       "entityName": "PIU-1-16",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 121"
     },
     {
       "assetId": "JD4021-MF-121-23HVA-RG-01",
@@ -1566,7 +734,7 @@
       "entityName": "CR-3-2.8",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 121"
     },
     {
       "assetId": "JD4021-MF-121-23HVA-SG-01",
@@ -1576,27 +744,7 @@
       "entityName": "CD-1-2.14",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-122.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-7.AT.08",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-7.AT.08",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 122.1"
-    },
-    {
-      "assetId": "JD4021-MF-122.14-23HVA-WG-01",
-      "assetUrl": "PIU-1-7.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-7.AT.06",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WORK AREA 122.14"
+      "room": "OFFICE 121"
     },
     {
       "assetId": "JD4021-MF-125-23HVA-PIU-01",
@@ -1606,7 +754,7 @@
       "entityName": "PIU-1-8",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LEVERAGE 125"
     },
     {
       "assetId": "JD4021-MF-125-23HVA-RG-01",
@@ -1616,7 +764,7 @@
       "entityName": "CR-3-2.9",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LEVERAGE 125"
     },
     {
       "assetId": "JD4021-MF-125-23HVA-SG-01",
@@ -1626,7 +774,7 @@
       "entityName": "CD-1-2.16",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LEVERAGE 125"
     },
     {
       "assetId": "JD4021-MF-126-23HVA-PIU-01",
@@ -1636,7 +784,7 @@
       "entityName": "PIU-1-9",
       "generalName": "Powered Induction Unit",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SYNERGY 126"
     },
     {
       "assetId": "JD4021-MF-126-23HVA-RG-01",
@@ -1646,7 +794,7 @@
       "entityName": "CR-3-2.10",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SYNERGY 126"
     },
     {
       "assetId": "JD4021-MF-126-23HVA-SG-01",
@@ -1656,7 +804,7 @@
       "entityName": "CD-1-2.17",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SYNERGY 126"
     },
     {
       "assetId": "JD4021-MF-127-23HVA-CD-01",
@@ -1666,7 +814,7 @@
       "entityName": "PIU-1-8.AT.01",
       "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-23HVA-CD-02",
@@ -1676,7 +824,7 @@
       "entityName": "PIU-1-8.AT.02",
       "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-23HVA-CD-03",
@@ -1686,7 +834,7 @@
       "entityName": "PIU-1-8.AT.03",
       "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-23HVA-CD-04",
@@ -1696,67 +844,7 @@
       "entityName": "PIU-1-8.AT.04",
       "generalName": "Ceiling Diffuser",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-129.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-9.AT.04",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-9.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HOTEL 129.8, COLLABORATION 129.1"
-    },
-    {
-      "assetId": "JD4021-MF-129.1-23HVA-WG-02",
-      "assetUrl": "PIU-1-17.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-17.AT.05",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 129.1"
-    },
-    {
-      "assetId": "JD4021-MF-129.1-23HVA-WG-03",
-      "assetUrl": "PIU-1-17.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-17.AT.06",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 129.1"
-    },
-    {
-      "assetId": "JD4021-MF-129.2-23HVA-WG-01",
-      "assetUrl": "PIU-1-9.AT.06",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-9.AT.06",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WORK AREA 129.2"
-    },
-    {
-      "assetId": "JD4021-MF-129.2-23HVA-WG-02",
-      "assetUrl": "PIU-1-9.AT.07",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-9.AT.07",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WORK AREA 129.2"
-    },
-    {
-      "assetId": "JD4021-MF-131-23HVA-PIU-01",
-      "assetUrl": "PIU-1-17",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-17",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "SHORE THE CORE 131"
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-131-23HVA-RG-01",
@@ -1766,7 +854,7 @@
       "entityName": "CR-3-2.11",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SHORE THE CORE 131"
     },
     {
       "assetId": "JD4021-MF-131-23HVA-SG-01",
@@ -1776,17 +864,7 @@
       "entityName": "CD-1-2.18",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-132-23HVA-PIU-01",
-      "assetUrl": "PIU-1-10",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-10",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "BAM 132"
+      "room": "SHORE THE CORE 131"
     },
     {
       "assetId": "JD4021-MF-132-23HVA-RG-01",
@@ -1796,7 +874,7 @@
       "entityName": "CR-3-2.12",
       "generalName": "Return Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BAM 132"
     },
     {
       "assetId": "JD4021-MF-132-23HVA-SG-01",
@@ -1806,57 +884,7 @@
       "entityName": "CD-1-2.19",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-133.1-23HVA-WG-01",
-      "assetUrl": "PIU-1-18.AT.02",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-18.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 133.1"
-    },
-    {
-      "assetId": "JD4021-MF-133.1-23HVA-WG-02",
-      "assetUrl": "PIU-1-18.AT.03",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-18.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 133.1"
-    },
-    {
-      "assetId": "JD4021-MF-133.1-23HVA-WG-03",
-      "assetUrl": "PIU-1-10.AT.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-10.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "COLLABORATION 133.1"
-    },
-    {
-      "assetId": "JD4021-MF-134-23HVA-SG-01",
-      "assetUrl": "PIU-1-18.AT.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-18.AT.01",
-      "generalName": "Supply Grill",
-      "level": "MAIN FLOOR",
-      "room": "WOMEN 134"
-    },
-    {
-      "assetId": "JD4021-MF-134-23HVA-SG-02",
-      "assetUrl": "MAT.134.01",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "MAT.134.01",
-      "generalName": "Supply Grill",
-      "level": "MAIN FLOOR",
-      "room": "WOMEN 134"
+      "room": "BAM 132"
     },
     {
       "assetId": "JD4021-MF-136-23HVA-SG-01",
@@ -1866,7 +894,7 @@
       "entityName": "MAT.136.01",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-23HVA-SG-02",
@@ -1876,17 +904,7 @@
       "entityName": "PIU-1-1.AT.01",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-P1.02-23HVA-PIU-01",
-      "assetUrl": "PIU-1-7",
-      "category": "M.Eq",
-      "department": "",
-      "entityName": "PIU-1-7",
-      "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR",
-      "room": "PRINT ROOM 1.02 P1.02"
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-P1.02-23HVA-SG-01",
@@ -1896,37 +914,7 @@
       "entityName": "CD-1-2.15",
       "generalName": "Supply Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.01-23HVA-WG-01",
-      "assetUrl": "PIU-1-4.AT.01",
-      "category": "M.Du.Te",
-      "department": "PRECON",
-      "entityName": "PIU-1-4.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HANK JENNINGS 109.13"
-    },
-    {
-      "assetId": "JD4021-MF-W1.01-23HVA-WG-02",
-      "assetUrl": "PIU-1-3.AT.01",
-      "category": "M.Du.Te",
-      "department": "PRECON",
-      "entityName": "PIU-1-3.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.01 W1.01"
-    },
-    {
-      "assetId": "JD4021-MF-W1.01-23HVA-WG-03",
-      "assetUrl": "PIU-1-3.AT.02",
-      "category": "M.Du.Te",
-      "department": "PRECON",
-      "entityName": "PIU-1-3.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.01 W1.01"
+      "room": "PRINT ROOM 1.02 P1.02"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-04",
@@ -1936,7 +924,7 @@
       "entityName": "PIU-1-4.AT.02",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.01 W1.01"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-05",
@@ -1946,7 +934,7 @@
       "entityName": "PIU-1-4.AT.03",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JOSH GORUM 109.7"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-06",
@@ -1956,7 +944,7 @@
       "entityName": "PIU-1-4.AT.04",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HANNAH BYRD 109.2"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-07",
@@ -1966,7 +954,7 @@
       "entityName": "PIU-1-12.AT.04",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHLOE SCOTT 109.5"
     },
     {
       "assetId": "JD4021-MF-W1.01-23HVA-WG-08",
@@ -1976,87 +964,7 @@
       "entityName": "PIU-1-12.AT.05",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-01",
-      "assetUrl": "PIU-1-3.AT.03",
-      "category": "M.Du.Te",
-      "department": "MARKETING",
-      "entityName": "PIU-1-3.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HOTEL 106.11"
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-02",
-      "assetUrl": "PIU-1-3.AT.04",
-      "category": "M.Du.Te",
-      "department": "MARKETING",
-      "entityName": "PIU-1-3.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "ALYSSA CHAPLIN 106.10"
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-03",
-      "assetUrl": "PIU-1-3.AT.07",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-3.AT.07",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "JOSH ARNOLD 106.5"
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-04",
-      "assetUrl": "PIU-1-2.AT.01",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-2.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.02 W1.02"
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-05",
-      "assetUrl": "PIU-1-2.AT.02",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-2.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.02 W1.02"
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-06",
-      "assetUrl": "PIU-1-2.AT.03",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-2.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.02 W1.02"
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-07",
-      "assetUrl": "PIU-1-2.AT.04",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-2.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.02 W1.02"
-    },
-    {
-      "assetId": "JD4021-MF-W1.02-23HVA-WG-08",
-      "assetUrl": "PIU-1-12.AT.01",
-      "category": "M.Du.Te",
-      "department": "EXECUTIVE",
-      "entityName": "PIU-1-12.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "MIKE BARTLETT 106.7"
+      "room": "BARBARA OLIVEIRA SPITZER 109.4"
     },
     {
       "assetId": "JD4021-MF-W1.02-23HVA-WG-09",
@@ -2066,7 +974,7 @@
       "entityName": "PIU-1-12.AT.03",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CINDY ROBERTS 106.8"
     },
     {
       "assetId": "JD4021-MF-W1.02-23HVA-WG-10",
@@ -2076,397 +984,7 @@
       "entityName": "PIU-1-12.AT.06",
       "generalName": "Wall Grill",
       "level": "MAIN FLOOR",
-      "room": ""
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-01",
-      "assetUrl": "PIU-1-6.AT.01",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-6.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.04 W1.04"
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-02",
-      "assetUrl": "PIU-1-6.AT.02",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-6.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "PATTY ADAMS 113.7"
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-03",
-      "assetUrl": "PIU-1-14.AT.01",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-14.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.04 W1.04"
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-04",
-      "assetUrl": "PIU-1-14.AT.02",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-14.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.04 W1.04"
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-05",
-      "assetUrl": "PIU-1-14.AT.03",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-14.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "MATT FRANKEL 113.5"
-    },
-    {
-      "assetId": "JD4021-MF-W1.04-23HVA-WG-06",
-      "assetUrl": "PIU-1-14.AT.04",
-      "category": "M.Du.Te",
-      "department": "LEAN",
-      "entityName": "PIU-1-14.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "MATT FRANKEL 113.5"
-    },
-    {
-      "assetId": "JD4021-MF-W1.05-23HVA-WG-01",
-      "assetUrl": "PIU-1-7.AT.01",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "LEE JARBOE 122.2"
-    },
-    {
-      "assetId": "JD4021-MF-W1.05-23HVA-WG-02",
-      "assetUrl": "PIU-1-7.AT.02",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "FRED TULL 122.5"
-    },
-    {
-      "assetId": "JD4021-MF-W1.05-23HVA-WG-03",
-      "assetUrl": "PIU-1-16.AT.02",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-16.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HOTEL 122.4"
-    },
-    {
-      "assetId": "JD4021-MF-W1.06-23HVA-WG-01",
-      "assetUrl": "PIU-1-6.AT.04",
-      "category": "M.Du.Te",
-      "department": "HR",
-      "entityName": "PIU-1-6.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "DONNA BENDIK 113.14"
-    },
-    {
-      "assetId": "JD4021-MF-W1.06-23HVA-WG-02",
-      "assetUrl": "PIU-1-14.AT.08",
-      "category": "M.Du.Te",
-      "department": "HR",
-      "entityName": "PIU-1-14.AT.08",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "KAREN GARNER 113.16"
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-01",
-      "assetUrl": "PIU-1-7.AT.03",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HOTEL 122.8"
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-02",
-      "assetUrl": "PIU-1-7.AT.04",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HOTEL 122.10"
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-03",
-      "assetUrl": "PIU-1-7.AT.05",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-7.AT.05",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "PAT ARRINGTON 122.12"
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-04",
-      "assetUrl": "PIU-1-7.AT.07",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-7.AT.07",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.07 W1.07"
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-05",
-      "assetUrl": "PIU-1-16.AT.01",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-16.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.07 W1.07"
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-06",
-      "assetUrl": "PIU-1-16.AT.03",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-16.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "NIKKI COATES 122.11"
-    },
-    {
-      "assetId": "JD4021-MF-W1.07-23HVA-WG-07",
-      "assetUrl": "PIU-1-16.AT.04",
-      "category": "M.Du.Te",
-      "department": "EDUCATION",
-      "entityName": "PIU-1-16.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "BRYAN STEED 122.13"
-    },
-    {
-      "assetId": "JD4021-MF-W1.08-23HVA-WG-01",
-      "assetUrl": "PIU-1-9.AT.05",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-9.AT.05",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "STUART BRUENING 129.3"
-    },
-    {
-      "assetId": "JD4021-MF-W1.08-23HVA-WG-02",
-      "assetUrl": "PIU-1-9.AT.08",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-9.AT.08",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.08 W1.08"
-    },
-    {
-      "assetId": "JD4021-MF-W1.08-23HVA-WG-03",
-      "assetUrl": "PIU-1-17.AT.07",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.07",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "ALISON CHAFFEE 129.5"
-    },
-    {
-      "assetId": "JD4021-MF-W1.08-23HVA-WG-04",
-      "assetUrl": "PIU-1-17.AT.08",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.08",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "ALISON CHAFFEE 129.5"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-01",
-      "assetUrl": "PIU-1-18.AT.04",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "STEPHEN McKINNEY 133.4"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-02",
-      "assetUrl": "PIU-1-18.AT.05",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.05",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "STEPHEN McKINNEY 133.4"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-03",
-      "assetUrl": "PIU-1-18.AT.06",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.06",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HOTEL 133.5"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-04",
-      "assetUrl": "PIU-1-18.AT.07",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.07",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HOTEL 133.5"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-05",
-      "assetUrl": "PIU-1-18.AT.08",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.08",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HARRIS MOSELEY 133.10"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-06",
-      "assetUrl": "PIU-1-18.AT.09",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-18.AT.09",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HARRIS MOSELEY 133.10"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-07",
-      "assetUrl": "PIU-1-10.AT.02",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-10.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "DAVID MOODY 133.2"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-08",
-      "assetUrl": "PIU-1-10.AT.03",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-10.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "PATTY ADAMS 113.7"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-09",
-      "assetUrl": "PIU-1-10.AT.04",
-      "category": "M.Du.Te",
-      "department": "VDC",
-      "entityName": "PIU-1-10.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "KYLE HINGST 133.8"
-    },
-    {
-      "assetId": "JD4021-MF-W1.09-23HVA-WG-10",
-      "assetUrl": "PIU-1-10.AT.05",
-      "category": "M.Du.Te",
-      "department": "",
-      "entityName": "PIU-1-10.AT.05",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.09 W1.09"
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-01",
-      "assetUrl": "PIU-1-9.AT.01",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-9.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "WALKWAY 1.10 W1.10"
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-02",
-      "assetUrl": "PIU-1-9.AT.02",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-9.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "KAREN AVERY 129.6"
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-03",
-      "assetUrl": "PIU-1-9.AT.03",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-9.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "ED VON ROEMER 129.9, HOTEL 129.8"
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-04",
-      "assetUrl": "PIU-1-17.AT.01",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.01",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "PATRICK FLEMING 129.14"
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-05",
-      "assetUrl": "PIU-1-17.AT.02",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.02",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "PATRICK FLEMING 129.14"
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-06",
-      "assetUrl": "PIU-1-17.AT.03",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.03",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HOTEL 133J"
-    },
-    {
-      "assetId": "JD4021-MF-W1.10-23HVA-WG-07",
-      "assetUrl": "PIU-1-17.AT.04",
-      "category": "M.Du.Te",
-      "department": "COMMERCIAL",
-      "entityName": "PIU-1-17.AT.04",
-      "generalName": "Wall Grill",
-      "level": "MAIN FLOOR",
-      "room": "HOTEL 133J"
+      "room": "WALKWAY 1.02 W1.02"
     },
     {
       "assetId": "JD4021-RF-RF.01-23HVA-RTU-01",
@@ -2489,6 +1007,6 @@
       "room": ""
     }
   ],
-  "complete": true,
-  "updatedAt": "2026-07-24T21:03:01.473Z"
+  "complete": false,
+  "updatedAt": "2026-07-24T21:25:05.078Z"
 }
