@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T20:06:45.521Z",
+  "lastUpdated": "2026-07-24T20:06:48.088Z",
   "totalAssets": 105,
   "assets": [
     {
@@ -36,7 +36,7 @@
       "level": "LEVEL 21",
       "manufacturer": "AXIS",
       "modelNumber": "M4328-P",
-      "room": "ELEVATOR LOBBY 21C01"
+      "room": ""
     },
     {
       "assetId": "OM01-21C02-28ESS-CR-01",
@@ -48,7 +48,7 @@
       "level": "LEVEL 21",
       "manufacturer": "HID",
       "modelNumber": "",
-      "room": "COPY / PRINT / FILE 21C02, CORR 21C03"
+      "room": ""
     },
     {
       "assetId": "OM01-21C03-28ESS-CAM-01",
@@ -60,7 +60,7 @@
       "level": "LEVEL 21",
       "manufacturer": "AXIS",
       "modelNumber": "P4707-PVLE",
-      "room": "CORR 21C03"
+      "room": ""
     },
     {
       "assetId": "OM01-21C04-27COM-WAP-01",
@@ -84,7 +84,7 @@
       "level": "LEVEL 21",
       "manufacturer": "HID",
       "modelNumber": "",
-      "room": "TELECOM 21C05"
+      "room": ""
     },
     {
       "assetId": "OM01-21C06-28ESS-CR-01",
@@ -96,7 +96,7 @@
       "level": "LEVEL 21",
       "manufacturer": "HID",
       "modelNumber": "",
-      "room": "MECHANICAL 21C06"
+      "room": ""
     },
     {
       "assetId": "OM01-21C07-27COM-WAP-01",
@@ -120,7 +120,7 @@
       "level": "LEVEL 21",
       "manufacturer": "AXIS",
       "modelNumber": "M4328-P",
-      "room": "FSAE LOBBY 21C07"
+      "room": ""
     },
     {
       "assetId": "OM01-21C08-28ESS-CR-01",
@@ -132,7 +132,7 @@
       "level": "LEVEL 21",
       "manufacturer": "HID",
       "modelNumber": "",
-      "room": "MECHANICAL 21C08"
+      "room": ""
     },
     {
       "assetId": "OM01-21E01-27COM-DIS-01",
@@ -408,7 +408,7 @@
       "level": "LEVEL 21",
       "manufacturer": "AXIS",
       "modelNumber": "P3827-PVE",
-      "room": "CIRC 21E04A"
+      "room": ""
     },
     {
       "assetId": "OM01-21E04B-27COM-DSP-01",
@@ -624,7 +624,7 @@
       "level": "LEVEL 21",
       "manufacturer": "HID",
       "modelNumber": "",
-      "room": "IDF 21N04"
+      "room": ""
     },
     {
       "assetId": "OM01-21N05-27COM-DSP-01",
@@ -720,7 +720,7 @@
       "level": "LEVEL 21",
       "manufacturer": "AXIS",
       "modelNumber": "P3265-LV",
-      "room": "CORR 21N08"
+      "room": ""
     },
     {
       "assetId": "OM01-21N10-27COM-ID-01",
@@ -792,7 +792,7 @@
       "level": "LEVEL 21",
       "manufacturer": "HID",
       "modelNumber": "",
-      "room": "CONF_MED 21N10"
+      "room": ""
     },
     {
       "assetId": "OM01-21N11B-28ESS-CAM-01",
@@ -804,7 +804,7 @@
       "level": "LEVEL 21",
       "manufacturer": "AXIS",
       "modelNumber": "P4707-PVLE",
-      "room": "CIRC 21N11B"
+      "room": ""
     },
     {
       "assetId": "OM01-21N14-27COM-WAP-01",
@@ -996,7 +996,7 @@
       "level": "LEVEL 21",
       "manufacturer": "HID",
       "modelNumber": "",
-      "room": "WELL 21S07"
+      "room": ""
     },
     {
       "assetId": "OM01-21S08-27COM-WAP-01",
@@ -1020,7 +1020,7 @@
       "level": "LEVEL 21",
       "manufacturer": "AXIS",
       "modelNumber": "P4707-PVLE",
-      "room": "CIRC 21S11B"
+      "room": ""
     },
     {
       "assetId": "OM01-21S11C-27COM-WAP-01",
@@ -1236,7 +1236,7 @@
       "level": "LEVEL 21",
       "manufacturer": "AXIS",
       "modelNumber": "P4707-PVLE",
-      "room": "CIRC 21W08B"
+      "room": ""
     },
     {
       "assetId": "OM01-21W10-27COM-WAP-01",
