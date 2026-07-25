@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T00:18:12.236Z",
+  "lastUpdated": "2026-07-25T00:23:03.665Z",
   "totalAssets": 1503,
   "assets": [
     {
@@ -349,7 +349,7 @@
       "department": "INDUSTRIAL",
       "entityName": "PIU-LL-11.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BRENT STRENGTH 002.2"
     },
     {
@@ -359,7 +359,7 @@
       "department": "",
       "entityName": "PIU-LL-11.AT.09",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "COLLABORATION 002.1"
     },
     {
@@ -369,7 +369,7 @@
       "department": "",
       "entityName": "PIU-LL-11.AT.10",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "COLLABORATION 002.1"
     },
     {
@@ -779,7 +779,7 @@
       "department": "",
       "entityName": "MAT.004.01",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "MEN 004"
     },
     {
@@ -789,7 +789,7 @@
       "department": "",
       "entityName": "MAT.004.02",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "MEN 004"
     },
     {
@@ -1089,7 +1089,7 @@
       "department": "SELF PERFORM",
       "entityName": "PIU-LL-10.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "COLLABORATION 006.1"
     },
     {
@@ -1099,7 +1099,7 @@
       "department": "SELF PERFORM",
       "entityName": "VAV-LL-1.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "COLLABORATION 006.1"
     },
     {
@@ -1109,7 +1109,7 @@
       "department": "SELF PERFORM",
       "entityName": "VAV-LL-1.AT.07",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "COLLABORATION 006.1"
     },
     {
@@ -1119,7 +1119,7 @@
       "department": "SELF PERFORM",
       "entityName": "PIU-LL-10.AT.09",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "COLLABORATION 006.1"
     },
     {
@@ -1379,7 +1379,7 @@
       "department": "",
       "entityName": "MAT.007.01",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WOMEN 007"
     },
     {
@@ -1389,7 +1389,7 @@
       "department": "",
       "entityName": "MAT.007.02",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WOMEN 007"
     },
     {
@@ -1409,7 +1409,7 @@
       "department": "",
       "entityName": "PIU-LL-3.AT.01",
       "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "LOUNGE 008"
     },
     {
@@ -1489,7 +1489,7 @@
       "department": "",
       "entityName": "CD-2-1.4",
       "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "RR 010"
     },
     {
@@ -1499,7 +1499,7 @@
       "department": "",
       "entityName": "CR-2-1.3",
       "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "RR 010"
     },
     {
@@ -1559,7 +1559,7 @@
       "department": "",
       "entityName": "CD-2-1.3",
       "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "RR 011"
     },
     {
@@ -1569,7 +1569,7 @@
       "department": "",
       "entityName": "CR-2-1.2",
       "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "RR 011"
     },
     {
@@ -1639,7 +1639,7 @@
       "department": "",
       "entityName": "PIU-LL-3.AT.02",
       "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "RR 012"
     },
     {
@@ -1649,7 +1649,7 @@
       "department": "",
       "entityName": "CR-2-1.1",
       "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "RR 012"
     },
     {
@@ -1969,7 +1969,7 @@
       "department": "",
       "entityName": "VAV-LL-2.AT.01",
       "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "PULL PLANNING 016"
     },
     {
@@ -1979,7 +1979,7 @@
       "department": "",
       "entityName": "VAV-LL-2.AT.02",
       "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "PULL PLANNING 016"
     },
     {
@@ -1989,7 +1989,7 @@
       "department": "",
       "entityName": "VAV-LL-2.AT.03",
       "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "PULL PLANNING 016"
     },
     {
@@ -2219,7 +2219,7 @@
       "department": "",
       "entityName": "PIU-LL-3",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "STORAGE 017"
     },
     {
@@ -2229,7 +2229,7 @@
       "department": "",
       "entityName": "PIU-LL-4",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "STORAGE 017"
     },
     {
@@ -2289,7 +2289,7 @@
       "department": "",
       "entityName": "PIU-LL-7.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2299,7 +2299,7 @@
       "department": "",
       "entityName": "PIU-LL-7.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2309,7 +2309,7 @@
       "department": "",
       "entityName": "PIU-LL-7.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2319,7 +2319,7 @@
       "department": "",
       "entityName": "PIU-LL-7.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2329,7 +2329,7 @@
       "department": "",
       "entityName": "PIU-LL-4.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2339,7 +2339,7 @@
       "department": "",
       "entityName": "PIU-LL-4.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2349,7 +2349,7 @@
       "department": "",
       "entityName": "PIU-LL-4.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2359,7 +2359,7 @@
       "department": "",
       "entityName": "PIU-LL-4.AT.05",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2369,7 +2369,7 @@
       "department": "",
       "entityName": "PIU-LL-4.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2379,7 +2379,7 @@
       "department": "",
       "entityName": "PIU-LL-4.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
     {
@@ -2659,7 +2659,7 @@
       "department": "",
       "entityName": "PIU-LL-8.AT.04",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "COPY 021"
     },
     {
@@ -2839,7 +2839,7 @@
       "department": "",
       "entityName": "PIU-LL-5.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ROACH COACH 022"
     },
     {
@@ -2849,7 +2849,7 @@
       "department": "",
       "entityName": "PIU-LL-5.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ROACH COACH 022"
     },
     {
@@ -2859,7 +2859,7 @@
       "department": "",
       "entityName": "PIU-LL-5.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ROACH COACH 022"
     },
     {
@@ -2869,7 +2869,7 @@
       "department": "",
       "entityName": "PIU-LL-5.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ROACH COACH 022"
     },
     {
@@ -2879,7 +2879,7 @@
       "department": "",
       "entityName": "PIU-LL-5.AT.05",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ROACH COACH 022"
     },
     {
@@ -2889,7 +2889,7 @@
       "department": "",
       "entityName": "PIU-LL-5.AT.06",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ROACH COACH 022"
     },
     {
@@ -3239,7 +3239,7 @@
       "department": "",
       "entityName": "PIU-LL-7",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "OFFICE 023"
     },
     {
@@ -3249,7 +3249,7 @@
       "department": "",
       "entityName": "PIU-LL-5",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "OFFICE 023"
     },
     {
@@ -3269,7 +3269,7 @@
       "department": "",
       "entityName": "PIU-LL-8.AT.03",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "OFFICE 023"
     },
     {
@@ -3369,7 +3369,7 @@
       "department": "",
       "entityName": "PIU-LL-8",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
     {
@@ -3379,7 +3379,7 @@
       "department": "",
       "entityName": "MAT.024.01",
       "generalName": "Return Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
     {
@@ -3389,7 +3389,7 @@
       "department": "",
       "entityName": "PIU-LL-8.AT.02",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "OUTSIDE THE BOX 024"
     },
     {
@@ -3529,7 +3529,7 @@
       "department": "",
       "entityName": "MAT.025.01",
       "generalName": "Return Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "@ THE END OF THE DAY 025"
     },
     {
@@ -3539,7 +3539,7 @@
       "department": "",
       "entityName": "PIU-LL-8.AT.01",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "@ THE END OF THE DAY 025"
     },
     {
@@ -3549,7 +3549,7 @@
       "department": "",
       "entityName": "VAV-LL-2",
       "generalName": "Variable Air Volume Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "@ THE END OF THE DAY 025"
     },
     {
@@ -3799,7 +3799,7 @@
       "department": "",
       "entityName": "VAV-LL-2.AT.04",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "STAIR 027"
     },
     {
@@ -3999,7 +3999,7 @@
       "department": "",
       "entityName": "CD-1-1.2",
       "generalName": "Supply Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "STORAGE 030"
     },
     {
@@ -4159,7 +4159,7 @@
       "department": "",
       "entityName": "MAT.032.01",
       "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BEST IN CLASS 032"
     },
     {
@@ -4259,7 +4259,7 @@
       "department": "",
       "entityName": "MAT.033.01",
       "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "PRINT 033"
     },
     {
@@ -4349,7 +4349,7 @@
       "department": "",
       "entityName": "PIU-LL-2",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "STORAGE 034"
     },
     {
@@ -4399,7 +4399,7 @@
       "department": "",
       "entityName": "MAT.035.02",
       "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "IN THE BALLPARK 035"
     },
     {
@@ -4409,7 +4409,7 @@
       "department": "",
       "entityName": "MAT.035.01",
       "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "IN THE BALLPARK 035"
     },
     {
@@ -4419,7 +4419,7 @@
       "department": "",
       "entityName": "PIU-LL-9",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "IN THE BALLPARK 035"
     },
     {
@@ -4429,7 +4429,7 @@
       "department": "",
       "entityName": "PIU-LL-10",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "IN THE BALLPARK 035"
     },
     {
@@ -4439,7 +4439,7 @@
       "department": "",
       "entityName": "PIU-LL-11",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "IN THE BALLPARK 035"
     },
     {
@@ -4559,7 +4559,7 @@
       "department": "",
       "entityName": "MAT.036.01",
       "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "DEEP DIVE 036"
     },
     {
@@ -4569,7 +4569,7 @@
       "department": "",
       "entityName": "MAT.036.02",
       "generalName": "Ceiling Diffuser",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "DEEP DIVE 036"
     },
     {
@@ -4579,12 +4579,12 @@
       "department": "",
       "entityName": "PIU-LL-1",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "DEEP DIVE 036"
     },
     {
       "assetId": "JD4021-LF-036-26ELE-ER-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAACUg_lCYZZHS4c8FlaOiyPMABkVTw",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB67PbmmUxF55mDQrVRMybCAAj8gw",
       "category": "E.Fi",
       "department": "",
       "entityName": "",
@@ -5529,7 +5529,7 @@
       "department": "",
       "entityName": "MAT.J01.01",
       "generalName": "Exhaust Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "JANITOR J01"
     },
     {
@@ -5549,7 +5549,7 @@
       "department": "HEALTHCARE",
       "entityName": "PIU-LL-11.AT.08",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "JENNIFER YOUNG 001.13"
     },
     {
@@ -5559,7 +5559,7 @@
       "department": "HEALTHCARE",
       "entityName": "PIU-LL-9.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.01 W0.01"
     },
     {
@@ -5569,7 +5569,7 @@
       "department": "HEALTHCARE",
       "entityName": "PIU-LL-9.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ROBERT FULLERTON 001.6"
     },
     {
@@ -5579,7 +5579,7 @@
       "department": "HEALTHCARE",
       "entityName": "PIU-LL-9.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "LINDSEY VARRA 001.3"
     },
     {
@@ -5589,7 +5589,7 @@
       "department": "SAFETY",
       "entityName": "PIU-LL-9.AT.07",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ADAM ALLISON 001.14"
     },
     {
@@ -5599,7 +5599,7 @@
       "department": "HEALTHCARE",
       "entityName": "PIU-LL-9.AT.05",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "KYLE WOOD 001.2"
     },
     {
@@ -5609,7 +5609,7 @@
       "department": "HEALTHCARE",
       "entityName": "PIU-LL-9.AT.06",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "CARLA BOWRON 001.7"
     },
     {
@@ -5619,7 +5619,7 @@
       "department": "SAFETY",
       "entityName": "PIU-LL-1.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.01 W0.01"
     },
     {
@@ -5629,7 +5629,7 @@
       "department": "SAFETY",
       "entityName": "PIU-LL-1.AT.06",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.01 W0.01"
     },
     {
@@ -5639,7 +5639,7 @@
       "department": "SAFETY",
       "entityName": "PIU-LL-9.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ADAM ALLISON 001.14"
     },
     {
@@ -5859,7 +5859,7 @@
       "department": "APTITUDE",
       "entityName": "PIU-LL-10.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "MITCH PURVIS 003.11"
     },
     {
@@ -5869,7 +5869,7 @@
       "department": "APTITUDE",
       "entityName": "PIU-LL-10.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "EZRA RUSSEL-HOWLAND 006.2"
     },
     {
@@ -5879,7 +5879,7 @@
       "department": "SELF PERFORM",
       "entityName": "PIU-LL-10.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "DEAN NICKELL 006.7"
     },
     {
@@ -5889,7 +5889,7 @@
       "department": "SELF PERFORM",
       "entityName": "PIU-LL-10.AT.05",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WILL ETHEREDGE 006.13"
     },
     {
@@ -5899,7 +5899,7 @@
       "department": "APTITUDE",
       "entityName": "PIU-LL-1.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "SAM HOLT 003.8"
     },
     {
@@ -5909,7 +5909,7 @@
       "department": "QUALITY AND SCHED",
       "entityName": "PIU-LL-1.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.02 W0.02"
     },
     {
@@ -5919,7 +5919,7 @@
       "department": "QUALITY AND SCHED",
       "entityName": "PIU-LL-1.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "MATTHEW HAGAN 003.4"
     },
     {
@@ -5929,7 +5929,7 @@
       "department": "APTITUDE",
       "entityName": "VAV-LL-1.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "MICHAEL ALDRICH 003.10"
     },
     {
@@ -5939,7 +5939,7 @@
       "department": "SELF PERFORM",
       "entityName": "VAV-LL-1.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ANDREW MILLER 006.5"
     },
     {
@@ -5949,7 +5949,7 @@
       "department": "SELF PERFORM",
       "entityName": "VAV-LL-1.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ELIZABETH MARIN 006.11"
     },
     {
@@ -5959,7 +5959,7 @@
       "department": "APTITUDE",
       "entityName": "VAV-LL-1.AT.05",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.02 W0.02"
     },
     {
@@ -5969,7 +5969,7 @@
       "department": "SELF PERFORM",
       "entityName": "VAV-LL-1.AT.06",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ANDREW MILLER 006.5"
     },
     {
@@ -5979,7 +5979,7 @@
       "department": "SELF PERFORM",
       "entityName": "VAV-LL-1.AT.08",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ELIZABETH MARIN 006.11"
     },
     {
@@ -5989,7 +5989,7 @@
       "department": "QUALITY AND SCHED",
       "entityName": "PIU-LL-1.AT.05",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "CHAD MEADOWS 003.3"
     },
     {
@@ -5999,7 +5999,7 @@
       "department": "QUALITY AND SCHED",
       "entityName": "PIU-LL-1.AT.07",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BRIAN HOLMES 003.6"
     },
     {
@@ -6009,7 +6009,7 @@
       "department": "APTITUDE",
       "entityName": "PIU-LL-1.AT.08",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "JACOB MARKFORT 003.9"
     },
     {
@@ -6019,7 +6019,7 @@
       "department": "APTITUDE",
       "entityName": "PIU-LL-10.AT.06",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "MITCH PURVIS 003.11"
     },
     {
@@ -6029,7 +6029,7 @@
       "department": "APTITUDE",
       "entityName": "PIU-LL-10.AT.07",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "EMORY BURCH 006.3"
     },
     {
@@ -6039,7 +6039,7 @@
       "department": "SELF PERFORM",
       "entityName": "PIU-LL-10.AT.08",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "SCOTT TUCKER 006.6"
     },
     {
@@ -6049,7 +6049,7 @@
       "department": "SELF PERFORM",
       "entityName": "PIU-LL-10.AT.10",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "ADI BRKIC 006.12"
     },
     {
@@ -6389,7 +6389,7 @@
       "department": "",
       "entityName": "PIU-LL-6",
       "generalName": "Powered Induction Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.04 W0.04"
     },
     {
@@ -6399,7 +6399,7 @@
       "department": "",
       "entityName": "VAV-LL-3",
       "generalName": "Variable Air Volume Unit",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "HOTEL 113.11, COLLABORATION 113.1"
     },
     {
@@ -6409,7 +6409,7 @@
       "department": "INDUSTRIAL",
       "entityName": "PIU-LL-11.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BRENT STRENGTH 002.2"
     },
     {
@@ -6419,7 +6419,7 @@
       "department": "INDUSTRIAL",
       "entityName": "PIU-LL-11.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.04 W0.04"
     },
     {
@@ -6429,7 +6429,7 @@
       "department": "INDUSTRIAL",
       "entityName": "PIU-LL-11.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "BENJAMIN SZUBSKI 002.11"
     },
     {
@@ -6439,7 +6439,7 @@
       "department": "INDUSTRIAL",
       "entityName": "PIU-LL-11.AT.05",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "SCOTT BODDEN 002.5"
     },
     {
@@ -6449,7 +6449,7 @@
       "department": "INDUSTRIAL",
       "entityName": "PIU-LL-11.AT.06",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "STEVE HAGLUND 002.8"
     },
     {
@@ -6459,7 +6459,7 @@
       "department": "INDUSTRIAL",
       "entityName": "PIU-LL-11.AT.07",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "WALKWAY 0.04 W0.04"
     },
     {
@@ -6469,7 +6469,7 @@
       "department": "INDUSTRIAL",
       "entityName": "PIU-LL-6.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "CHRIS HARM 002.14"
     },
     {
@@ -6479,7 +6479,7 @@
       "department": "INDUSTRIAL",
       "entityName": "VAV-LL-3.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "TODD STUART 002.16"
     },
     {
@@ -6619,7 +6619,7 @@
       "department": "AVIATION",
       "entityName": "PIU-LL-6.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "PHILLIP NGUYEN 026.14"
     },
     {
@@ -6629,7 +6629,7 @@
       "department": "AVIATION",
       "entityName": "PIU-LL-6.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "IANA TASSADA 026.2"
     },
     {
@@ -6639,7 +6639,7 @@
       "department": "AVIATION",
       "entityName": "PIU-LL-6.AT.04",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "SAYAN SMITH 026.7"
     },
     {
@@ -6649,7 +6649,7 @@
       "department": "AVIATION",
       "entityName": "PIU-LL-6.AT.05",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "PETER STEPHENSON 026.8"
     },
     {
@@ -6659,7 +6659,7 @@
       "department": "SAFETY",
       "entityName": "PIU-LL-6.AT.06",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "REGGIE POPE 026.13"
     },
     {
@@ -6669,7 +6669,7 @@
       "department": "AVIATION",
       "entityName": "VAV-LL-3.AT.01",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "GARRICK SMITH 026.16"
     },
     {
@@ -6679,7 +6679,7 @@
       "department": "AVIATION",
       "entityName": "VAV-LL-3.AT.02",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "CATHY KASHIUS 026.5"
     },
     {
@@ -6689,7 +6689,7 @@
       "department": "SAFETY",
       "entityName": "VAV-LL-3.AT.03",
       "generalName": "Wall Grill",
-      "level": "LOWER FLOOR (LOWER FLOOR)",
+      "level": "LOWER FLOOR",
       "room": "HIAWATHA HILL 026.11"
     },
     {
@@ -7059,7 +7059,7 @@
       "department": "",
       "entityName": "PIU-1-1.AT.02",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "RECEPTION 101"
     },
     {
@@ -7349,7 +7349,7 @@
       "department": "",
       "entityName": "PIU-1-2",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BOTTOM LINE 102"
     },
     {
@@ -7359,7 +7359,7 @@
       "department": "",
       "entityName": "CD-1-2.8",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BOTTOM LINE 102"
     },
     {
@@ -7369,7 +7369,7 @@
       "department": "",
       "entityName": "CD-1-2.7",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BOTTOM LINE 102"
     },
     {
@@ -7379,7 +7379,7 @@
       "department": "",
       "entityName": "CR-3-2.3",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BOTTOM LINE 102"
     },
     {
@@ -7559,7 +7559,7 @@
       "department": "",
       "entityName": "PIU-1-1",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WIN WIN 103"
     },
     {
@@ -7569,7 +7569,7 @@
       "department": "",
       "entityName": "PIU-1-13",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WIN WIN 103"
     },
     {
@@ -7579,7 +7579,7 @@
       "department": "",
       "entityName": "PIU-1-11",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WIN WIN 103"
     },
     {
@@ -7589,7 +7589,7 @@
       "department": "",
       "entityName": "CD-1-2.5",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WIN WIN 103"
     },
     {
@@ -7599,7 +7599,7 @@
       "department": "",
       "entityName": "CR-3-2.2",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WIN WIN 103"
     },
     {
@@ -7609,7 +7609,7 @@
       "department": "",
       "entityName": "CD-1-2.4",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WIN WIN 103"
     },
     {
@@ -7739,7 +7739,7 @@
       "department": "",
       "entityName": "CD-1-2.3",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "THE SILO 104"
     },
     {
@@ -7809,7 +7809,7 @@
       "department": "",
       "entityName": "PIU-1-3",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "CIRCLE BACK 105"
     },
     {
@@ -7819,7 +7819,7 @@
       "department": "",
       "entityName": "CD-1-2.6",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "CIRCLE BACK 105"
     },
     {
@@ -7919,7 +7919,7 @@
       "department": "",
       "entityName": "PIU-1-3.AT.05",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 106.1"
     },
     {
@@ -7929,7 +7929,7 @@
       "department": "",
       "entityName": "PIU-1-3.AT.06",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 106.1"
     },
     {
@@ -7939,7 +7939,7 @@
       "department": "",
       "entityName": "PIU-1-12.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 106.1"
     },
     {
@@ -8429,7 +8429,7 @@
       "department": "",
       "entityName": "PIU-1-12",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WORKROOM 107"
     },
     {
@@ -8439,7 +8439,7 @@
       "department": "",
       "entityName": "PIU-1-4",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WORKROOM 107"
     },
     {
@@ -8449,7 +8449,7 @@
       "department": "",
       "entityName": "PIU-1-5",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WORKROOM 107"
     },
     {
@@ -8459,7 +8459,7 @@
       "department": "",
       "entityName": "CR-3-2.1",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WORKROOM 107"
     },
     {
@@ -8469,7 +8469,7 @@
       "department": "",
       "entityName": "CD-1-2.1",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WORKROOM 107"
     },
     {
@@ -8479,7 +8479,7 @@
       "department": "",
       "entityName": "CD-1-2.2",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WORKROOM 107"
     },
     {
@@ -9399,7 +9399,7 @@
       "department": "",
       "entityName": "CR-3-2.4",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BEST IN FINAL 112"
     },
     {
@@ -9649,7 +9649,7 @@
       "department": "",
       "entityName": "PIU-1-6.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 113.1"
     },
     {
@@ -9659,7 +9659,7 @@
       "department": "",
       "entityName": "PIU-1-14.AT.05",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 113.1"
     },
     {
@@ -9669,7 +9669,7 @@
       "department": "",
       "entityName": "PIU-1-14.AT.06",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 113.1"
     },
     {
@@ -9679,7 +9679,7 @@
       "department": "",
       "entityName": "PIU-1-14.AT.07",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 113.1"
     },
     {
@@ -9689,7 +9689,7 @@
       "department": "",
       "entityName": "PIU-1-6.AT.05",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 113.1"
     },
     {
@@ -10179,7 +10179,7 @@
       "department": "",
       "entityName": "PIU-1-14",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "IN THE LOOP 116"
     },
     {
@@ -10189,7 +10189,7 @@
       "department": "",
       "entityName": "CD-1-2.10",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "IN THE LOOP 116"
     },
     {
@@ -10249,7 +10249,7 @@
       "department": "",
       "entityName": "PIU-1-6",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "PARKING LOT 117"
     },
     {
@@ -10259,7 +10259,7 @@
       "department": "",
       "entityName": "CD-1-2.9",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "PARKING LOT 117"
     },
     {
@@ -10339,7 +10339,7 @@
       "department": "",
       "entityName": "PIU-1-18",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 118"
     },
     {
@@ -10349,7 +10349,7 @@
       "department": "",
       "entityName": "CR-3-2.5",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 118"
     },
     {
@@ -10359,7 +10359,7 @@
       "department": "",
       "entityName": "CD-1-2.11",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 118"
     },
     {
@@ -10469,7 +10469,7 @@
       "department": "",
       "entityName": "PIU-1-15",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 119"
     },
     {
@@ -10479,7 +10479,7 @@
       "department": "",
       "entityName": "CR-3-2.6",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 119"
     },
     {
@@ -10489,7 +10489,7 @@
       "department": "",
       "entityName": "CD-1-2.12",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 119"
     },
     {
@@ -10589,7 +10589,7 @@
       "department": "",
       "entityName": "CR-3-2.7",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 120"
     },
     {
@@ -10599,7 +10599,7 @@
       "department": "",
       "entityName": "CD-1-2.13",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 120"
     },
     {
@@ -10699,7 +10699,7 @@
       "department": "",
       "entityName": "PIU-1-16",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 121"
     },
     {
@@ -10709,7 +10709,7 @@
       "department": "",
       "entityName": "CR-3-2.8",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 121"
     },
     {
@@ -10719,7 +10719,7 @@
       "department": "",
       "entityName": "CD-1-2.14",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "OFFICE 121"
     },
     {
@@ -10839,7 +10839,7 @@
       "department": "",
       "entityName": "PIU-1-7.AT.08",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 122.1"
     },
     {
@@ -11029,7 +11029,7 @@
       "department": "",
       "entityName": "PIU-1-7.AT.06",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WORK AREA 122.14"
     },
     {
@@ -11379,7 +11379,7 @@
       "department": "",
       "entityName": "PIU-1-8",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "LEVERAGE 125"
     },
     {
@@ -11389,7 +11389,7 @@
       "department": "",
       "entityName": "CR-3-2.9",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "LEVERAGE 125"
     },
     {
@@ -11399,7 +11399,7 @@
       "department": "",
       "entityName": "CD-1-2.16",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "LEVERAGE 125"
     },
     {
@@ -11499,7 +11499,7 @@
       "department": "",
       "entityName": "PIU-1-9",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "SYNERGY 126"
     },
     {
@@ -11509,7 +11509,7 @@
       "department": "",
       "entityName": "CR-3-2.10",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "SYNERGY 126"
     },
     {
@@ -11519,7 +11519,7 @@
       "department": "",
       "entityName": "CD-1-2.17",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "SYNERGY 126"
     },
     {
@@ -11689,7 +11689,7 @@
       "department": "",
       "entityName": "PIU-1-8.AT.01",
       "generalName": "Ceiling Diffuser",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "CAFE 127"
     },
     {
@@ -11699,7 +11699,7 @@
       "department": "",
       "entityName": "PIU-1-8.AT.02",
       "generalName": "Ceiling Diffuser",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "CAFE 127"
     },
     {
@@ -11709,7 +11709,7 @@
       "department": "",
       "entityName": "PIU-1-8.AT.03",
       "generalName": "Ceiling Diffuser",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "CAFE 127"
     },
     {
@@ -11719,7 +11719,7 @@
       "department": "",
       "entityName": "PIU-1-8.AT.04",
       "generalName": "Ceiling Diffuser",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "CAFE 127"
     },
     {
@@ -11909,7 +11909,7 @@
       "department": "",
       "entityName": "PIU-1-9.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HOTEL 129.8, COLLABORATION 129.1"
     },
     {
@@ -11919,7 +11919,7 @@
       "department": "",
       "entityName": "PIU-1-17.AT.05",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 129.1"
     },
     {
@@ -11929,7 +11929,7 @@
       "department": "",
       "entityName": "PIU-1-17.AT.06",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 129.1"
     },
     {
@@ -12069,7 +12069,7 @@
       "department": "",
       "entityName": "PIU-1-9.AT.06",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WORK AREA 129.2"
     },
     {
@@ -12079,7 +12079,7 @@
       "department": "",
       "entityName": "PIU-1-9.AT.07",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WORK AREA 129.2"
     },
     {
@@ -12349,7 +12349,7 @@
       "department": "",
       "entityName": "PIU-1-17",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "SHORE THE CORE 131"
     },
     {
@@ -12359,7 +12359,7 @@
       "department": "",
       "entityName": "CR-3-2.11",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "SHORE THE CORE 131"
     },
     {
@@ -12369,7 +12369,7 @@
       "department": "",
       "entityName": "CD-1-2.18",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "SHORE THE CORE 131"
     },
     {
@@ -12459,7 +12459,7 @@
       "department": "",
       "entityName": "PIU-1-10",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BAM 132"
     },
     {
@@ -12469,7 +12469,7 @@
       "department": "",
       "entityName": "CR-3-2.12",
       "generalName": "Return Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BAM 132"
     },
     {
@@ -12479,7 +12479,7 @@
       "department": "",
       "entityName": "CD-1-2.19",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BAM 132"
     },
     {
@@ -12579,7 +12579,7 @@
       "department": "",
       "entityName": "PIU-1-18.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 133.1"
     },
     {
@@ -12589,7 +12589,7 @@
       "department": "",
       "entityName": "PIU-1-18.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 133.1"
     },
     {
@@ -12599,7 +12599,7 @@
       "department": "",
       "entityName": "PIU-1-10.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "COLLABORATION 133.1"
     },
     {
@@ -13159,7 +13159,7 @@
       "department": "",
       "entityName": "PIU-1-18.AT.01",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WOMEN 134"
     },
     {
@@ -13169,7 +13169,7 @@
       "department": "",
       "entityName": "MAT.134.01",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WOMEN 134"
     },
     {
@@ -13389,7 +13389,7 @@
       "department": "",
       "entityName": "MAT.136.01",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "MEN 136"
     },
     {
@@ -13399,7 +13399,7 @@
       "department": "",
       "entityName": "PIU-1-1.AT.01",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "MEN 136"
     },
     {
@@ -13499,7 +13499,7 @@
       "department": "",
       "entityName": "PIU-1-7",
       "generalName": "Powered Induction Unit",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "PRINT ROOM 1.02 P1.02"
     },
     {
@@ -13509,7 +13509,7 @@
       "department": "",
       "entityName": "CD-1-2.15",
       "generalName": "Supply Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "PRINT ROOM 1.02 P1.02"
     },
     {
@@ -13659,7 +13659,7 @@
       "department": "PRECON",
       "entityName": "PIU-1-4.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HANK JENNINGS 109.13"
     },
     {
@@ -13669,7 +13669,7 @@
       "department": "PRECON",
       "entityName": "PIU-1-3.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.01 W1.01"
     },
     {
@@ -13679,7 +13679,7 @@
       "department": "PRECON",
       "entityName": "PIU-1-3.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.01 W1.01"
     },
     {
@@ -13689,7 +13689,7 @@
       "department": "PRECON",
       "entityName": "PIU-1-4.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.01 W1.01"
     },
     {
@@ -13699,7 +13699,7 @@
       "department": "PRECON",
       "entityName": "PIU-1-4.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "JOSH GORUM 109.7"
     },
     {
@@ -13709,7 +13709,7 @@
       "department": "PRECON",
       "entityName": "PIU-1-4.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HANNAH BYRD 109.2"
     },
     {
@@ -13719,7 +13719,7 @@
       "department": "PRECON",
       "entityName": "PIU-1-12.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "CHLOE SCOTT 109.5"
     },
     {
@@ -13729,7 +13729,7 @@
       "department": "PRECON",
       "entityName": "PIU-1-12.AT.05",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BARBARA OLIVEIRA SPITZER 109.4"
     },
     {
@@ -13769,7 +13769,7 @@
       "department": "MARKETING",
       "entityName": "PIU-1-3.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HOTEL 106.11"
     },
     {
@@ -13779,7 +13779,7 @@
       "department": "MARKETING",
       "entityName": "PIU-1-3.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "ALYSSA CHAPLIN 106.10"
     },
     {
@@ -13789,7 +13789,7 @@
       "department": "EXECUTIVE",
       "entityName": "PIU-1-3.AT.07",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "JOSH ARNOLD 106.5"
     },
     {
@@ -13799,7 +13799,7 @@
       "department": "EXECUTIVE",
       "entityName": "PIU-1-2.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.02 W1.02"
     },
     {
@@ -13809,7 +13809,7 @@
       "department": "EXECUTIVE",
       "entityName": "PIU-1-2.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.02 W1.02"
     },
     {
@@ -13819,7 +13819,7 @@
       "department": "EXECUTIVE",
       "entityName": "PIU-1-2.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.02 W1.02"
     },
     {
@@ -13829,7 +13829,7 @@
       "department": "",
       "entityName": "PIU-1-2.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.02 W1.02"
     },
     {
@@ -13839,7 +13839,7 @@
       "department": "EXECUTIVE",
       "entityName": "PIU-1-12.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "MIKE BARTLETT 106.7"
     },
     {
@@ -13849,7 +13849,7 @@
       "department": "EXECUTIVE",
       "entityName": "PIU-1-12.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "CINDY ROBERTS 106.8"
     },
     {
@@ -13859,7 +13859,7 @@
       "department": "",
       "entityName": "PIU-1-12.AT.06",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.02 W1.02"
     },
     {
@@ -13999,7 +13999,7 @@
       "department": "LEAN",
       "entityName": "PIU-1-6.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.04 W1.04"
     },
     {
@@ -14009,7 +14009,7 @@
       "department": "LEAN",
       "entityName": "PIU-1-6.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "PATTY ADAMS 113.7"
     },
     {
@@ -14019,7 +14019,7 @@
       "department": "LEAN",
       "entityName": "PIU-1-14.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.04 W1.04"
     },
     {
@@ -14029,7 +14029,7 @@
       "department": "LEAN",
       "entityName": "PIU-1-14.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.04 W1.04"
     },
     {
@@ -14039,7 +14039,7 @@
       "department": "LEAN",
       "entityName": "PIU-1-14.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "MATT FRANKEL 113.5"
     },
     {
@@ -14049,7 +14049,7 @@
       "department": "LEAN",
       "entityName": "PIU-1-14.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "MATT FRANKEL 113.5"
     },
     {
@@ -14089,7 +14089,7 @@
       "department": "EDUCATION",
       "entityName": "PIU-1-7.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "LEE JARBOE 122.2"
     },
     {
@@ -14099,7 +14099,7 @@
       "department": "EDUCATION",
       "entityName": "PIU-1-7.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "FRED TULL 122.5"
     },
     {
@@ -14109,7 +14109,7 @@
       "department": "EDUCATION",
       "entityName": "PIU-1-16.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HOTEL 122.4"
     },
     {
@@ -14279,7 +14279,7 @@
       "department": "HR",
       "entityName": "PIU-1-6.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "DONNA BENDIK 113.14"
     },
     {
@@ -14289,7 +14289,7 @@
       "department": "HR",
       "entityName": "PIU-1-14.AT.08",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "KAREN GARNER 113.16"
     },
     {
@@ -14309,7 +14309,7 @@
       "department": "EDUCATION",
       "entityName": "PIU-1-7.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HOTEL 122.8"
     },
     {
@@ -14319,7 +14319,7 @@
       "department": "EDUCATION",
       "entityName": "PIU-1-7.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HOTEL 122.10"
     },
     {
@@ -14329,7 +14329,7 @@
       "department": "EDUCATION",
       "entityName": "PIU-1-7.AT.05",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "PAT ARRINGTON 122.12"
     },
     {
@@ -14339,7 +14339,7 @@
       "department": "",
       "entityName": "PIU-1-7.AT.07",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.07 W1.07"
     },
     {
@@ -14349,7 +14349,7 @@
       "department": "EDUCATION",
       "entityName": "PIU-1-16.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.07 W1.07"
     },
     {
@@ -14359,7 +14359,7 @@
       "department": "EDUCATION",
       "entityName": "PIU-1-16.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "NIKKI COATES 122.11"
     },
     {
@@ -14369,7 +14369,7 @@
       "department": "EDUCATION",
       "entityName": "PIU-1-16.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "BRYAN STEED 122.13"
     },
     {
@@ -14429,7 +14429,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-9.AT.05",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "STUART BRUENING 129.3"
     },
     {
@@ -14439,7 +14439,7 @@
       "department": "",
       "entityName": "PIU-1-9.AT.08",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.08 W1.08"
     },
     {
@@ -14449,7 +14449,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-17.AT.07",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "ALISON CHAFFEE 129.5"
     },
     {
@@ -14459,7 +14459,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-17.AT.08",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "ALISON CHAFFEE 129.5"
     },
     {
@@ -14629,7 +14629,7 @@
       "department": "VDC",
       "entityName": "PIU-1-18.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "STEPHEN McKINNEY 133.4"
     },
     {
@@ -14639,7 +14639,7 @@
       "department": "VDC",
       "entityName": "PIU-1-18.AT.05",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "STEPHEN McKINNEY 133.4"
     },
     {
@@ -14649,7 +14649,7 @@
       "department": "VDC",
       "entityName": "PIU-1-18.AT.06",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HOTEL 133.5"
     },
     {
@@ -14659,7 +14659,7 @@
       "department": "VDC",
       "entityName": "PIU-1-18.AT.07",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HOTEL 133.5"
     },
     {
@@ -14669,7 +14669,7 @@
       "department": "VDC",
       "entityName": "PIU-1-18.AT.08",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HARRIS MOSELEY 133.10"
     },
     {
@@ -14679,7 +14679,7 @@
       "department": "VDC",
       "entityName": "PIU-1-18.AT.09",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HARRIS MOSELEY 133.10"
     },
     {
@@ -14689,7 +14689,7 @@
       "department": "VDC",
       "entityName": "PIU-1-10.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "DAVID MOODY 133.2"
     },
     {
@@ -14699,7 +14699,7 @@
       "department": "VDC",
       "entityName": "PIU-1-10.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "PATTY ADAMS 113.7"
     },
     {
@@ -14709,7 +14709,7 @@
       "department": "VDC",
       "entityName": "PIU-1-10.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "KYLE HINGST 133.8"
     },
     {
@@ -14719,7 +14719,7 @@
       "department": "",
       "entityName": "PIU-1-10.AT.05",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.09 W1.09"
     },
     {
@@ -14779,7 +14779,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-9.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "WALKWAY 1.10 W1.10"
     },
     {
@@ -14789,7 +14789,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-9.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "KAREN AVERY 129.6"
     },
     {
@@ -14799,7 +14799,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-9.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "ED VON ROEMER 129.9, HOTEL 129.8"
     },
     {
@@ -14809,7 +14809,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-17.AT.01",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "PATRICK FLEMING 129.14"
     },
     {
@@ -14819,7 +14819,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-17.AT.02",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "PATRICK FLEMING 129.14"
     },
     {
@@ -14829,7 +14829,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-17.AT.03",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HOTEL 133J"
     },
     {
@@ -14839,7 +14839,7 @@
       "department": "COMMERCIAL",
       "entityName": "PIU-1-17.AT.04",
       "generalName": "Wall Grill",
-      "level": "MAIN FLOOR (MAIN FLOOR)",
+      "level": "MAIN FLOOR",
       "room": "HOTEL 133J"
     },
     {
@@ -14949,7 +14949,7 @@
       "department": "",
       "entityName": "SP-B",
       "generalName": "Solar Panel",
-      "level": "ROOF (ROOF)",
+      "level": "LOWER FLOOR",
       "room": ""
     },
     {
@@ -14959,7 +14959,7 @@
       "department": "",
       "entityName": "SP-A",
       "generalName": "Solar Panel",
-      "level": "ROOF (ROOF)",
+      "level": "LOWER FLOOR",
       "room": ""
     },
     {
@@ -14969,7 +14969,7 @@
       "department": "",
       "entityName": "SP-C",
       "generalName": "Solar Panel",
-      "level": "ROOF (ROOF)",
+      "level": "LOWER FLOOR",
       "room": ""
     },
     {
