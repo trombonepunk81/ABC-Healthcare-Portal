@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T00:46:39.803Z",
+  "lastUpdated": "2026-07-30T15:57:21.120Z",
   "totalAssets": 1503,
   "assets": [
     {
@@ -7,20 +7,20 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA-K_tWuyRB77MGsHf_Pr9YAB1Ghw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "137",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-0.04-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADQz7u1IvBB66hVptamYO1QABMimg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "50",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-001.10-25INT-DS-01",
@@ -177,10 +177,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAiLYItxqhF0qdkFNeXJxfjABjM1Q",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "93",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IT 001A, WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-001A-26ELE-ER-01",
@@ -340,7 +340,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COLLABORATION 002.1"
     },
     {
       "assetId": "JD4021-LF-002.1-23HVA-WG-01",
@@ -400,7 +400,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COLLABORATION 002.1"
     },
     {
       "assetId": "JD4021-LF-002.1-44POL-AQ-01",
@@ -690,37 +690,37 @@
       "entityName": "",
       "generalName": "Mirros",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-08OPE-WD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ_Vw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "32",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-08OPE-WD-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ_cA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "36",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-08OPE-WD-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABGWHpwmWxOxYOZNqW66JpyABKCSA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "47",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-10SPE-PF-01",
@@ -730,7 +730,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-10SPE-PF-02",
@@ -740,7 +740,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-10SPE-PF-03",
@@ -750,7 +750,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-10SPE-PF-04",
@@ -760,7 +760,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-22PLU-PF-01",
@@ -770,7 +770,7 @@
       "entityName": "",
       "generalName": "Plumbing fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MEN 004"
     },
     {
       "assetId": "JD4021-LF-004-23HVA-SG-01",
@@ -797,10 +797,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADk9QScKAxA64UdbS--Y8ybABCuHQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "6",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ELECTRICAL 005"
     },
     {
       "assetId": "JD4021-LF-005-26ELE-CT-01",
@@ -1027,10 +1027,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACW5imK-m5PRLdVobtt7d0CABv7Fw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "101",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RISER ROOM 005A"
     },
     {
       "assetId": "JD4021-LF-005A-26ELE-ER-01",
@@ -1070,7 +1070,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COLLABORATION 006.1"
     },
     {
       "assetId": "JD4021-LF-006.1-12FUR-WT-02",
@@ -1080,7 +1080,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COLLABORATION 006.1"
     },
     {
       "assetId": "JD4021-LF-006.1-23HVA-WG-01",
@@ -1140,7 +1140,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COLLABORATION 006.1"
     },
     {
       "assetId": "JD4021-LF-006.10-25INT-DS-01",
@@ -1270,57 +1270,57 @@
       "entityName": "",
       "generalName": "Mirros",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-08OPE-WD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ_WQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "33",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007, WALKWAY 0.07 W0.07"
     },
     {
       "assetId": "JD4021-LF-007-08OPE-WD-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ_fQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "39",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-08OPE-WD-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ_gA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "42",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-08OPE-WD-04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ_gQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "43",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-08OPE-WD-05",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABGWHpwmWxOxYOZNqW66JpyABKBXg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "45",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-10SPE-PF-01",
@@ -1330,7 +1330,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-10SPE-PF-02",
@@ -1340,7 +1340,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-10SPE-PF-03",
@@ -1350,7 +1350,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-10SPE-PF-04",
@@ -1360,7 +1360,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-22PLU-BS-01",
@@ -1370,7 +1370,7 @@
       "entityName": "",
       "generalName": "Bathroom Sink",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-23HVA-SG-01",
@@ -1397,10 +1397,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABGWHpwmWxOxYOZNqW66JpyABKByA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "46",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WOMEN 007, LOUNGE 008"
     },
     {
       "assetId": "JD4021-LF-008-23HVA-EG-01",
@@ -1447,10 +1447,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABU1VQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "70",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-010-10SPE-PF-01",
@@ -1460,7 +1460,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 010"
     },
     {
       "assetId": "JD4021-LF-010-22PLU-PF-01",
@@ -1470,7 +1470,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 010"
     },
     {
       "assetId": "JD4021-LF-010-22PLU-PF-02",
@@ -1480,7 +1480,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 010"
     },
     {
       "assetId": "JD4021-LF-010-23HVA-EG-01",
@@ -1517,10 +1517,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADk9QScKAxA64UdbS--Y8ybABCq-w",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "1",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 011, FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-011-10SPE-PF-01",
@@ -1530,7 +1530,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 011"
     },
     {
       "assetId": "JD4021-LF-011-22PLU-PF-01",
@@ -1540,7 +1540,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 011"
     },
     {
       "assetId": "JD4021-LF-011-22PLU-PF-02",
@@ -1550,7 +1550,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 011"
     },
     {
       "assetId": "JD4021-LF-011-23HVA-EG-01",
@@ -1587,20 +1587,20 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABtd0NXaRxM-7Zdfpv_aVZIACEXcQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "226",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "EQUIPMENT ROOM 001B"
     },
     {
       "assetId": "JD4021-LF-012-08OPE-WD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADk9QScKAxA64UdbS--Y8ybABCrRg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "2",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 012"
     },
     {
       "assetId": "JD4021-LF-012-10SPE-PF-01",
@@ -1610,7 +1610,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 012"
     },
     {
       "assetId": "JD4021-LF-012-22PLU-PF-01",
@@ -1620,7 +1620,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 012"
     },
     {
       "assetId": "JD4021-LF-012-22PLU-PF-02",
@@ -1630,7 +1630,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "RR 012"
     },
     {
       "assetId": "JD4021-LF-012-23HVA-EG-01",
@@ -1667,10 +1667,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABU3fw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "75",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 013, FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-013-25INT-GW-01",
@@ -1717,20 +1717,20 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADk9QScKAxA64UdbS--Y8ybABCrfA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "3",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-08OPE-WD-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABU3PQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "74",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.07 W0.07, FITNESS 015"
     },
     {
       "assetId": "JD4021-LF-015-26ELE-ER-01",
@@ -2197,20 +2197,20 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADk9QScKAxA64UdbS--Y8ybABCrtA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "4",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017"
     },
     {
       "assetId": "JD4021-LF-017-08OPE-WD-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADk9QScKAxA64UdbS--Y8ybABCsPA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "5",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 017, BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-017-23HVA-PIU-01",
@@ -2277,10 +2277,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADk9QScKAxA64UdbS--Y8ybABCr9A",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "339",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PULL PLANNING 016, BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-23HVA-WG-01",
@@ -2580,7 +2580,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-LF-018-44POL-AQ-01",
@@ -2597,10 +2597,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACU52nftbtGqZWQW5ruX0T0ABT4EQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "58",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 020"
     },
     {
       "assetId": "JD4021-LF-020-26ELE-ER-01",
@@ -2650,7 +2650,7 @@
       "entityName": "",
       "generalName": "Office Equipment",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COPY 021"
     },
     {
       "assetId": "JD4021-LF-021-23HVA-SG-01",
@@ -2697,50 +2697,50 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACTVY0xJb5B0YBnrQBytww9ACSXOg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "312",
       "generalName": "Aluminum Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUPpA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "61",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-08OPE-GD-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUUyQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "62",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BOOTS ON THE GROUND 018, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-08OPE-GD-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABX2lklNOlG_56IA_UjVXnfABfNag",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "88",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-08OPE-GD-04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADMRZ2RY89B1qJJbw6biv4MACUwvw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "317",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-11EQU-GRE-01",
@@ -2750,7 +2750,7 @@
       "entityName": "",
       "generalName": "Game Room Equipment",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-11EQU-GRE-02",
@@ -2760,7 +2760,7 @@
       "entityName": "",
       "generalName": "Game Room Equipment",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-11EQU-KA-01",
@@ -2770,7 +2770,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-11EQU-KA-02",
@@ -2780,7 +2780,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-11EQU-KA-03",
@@ -2790,7 +2790,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-11EQU-KA-04",
@@ -2800,7 +2800,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-11EQU-KA-05",
@@ -2810,7 +2810,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-11EQU-KA-06",
@@ -2820,7 +2820,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-23HVA-SG-01",
@@ -3180,7 +3180,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-27COM-DS-02",
@@ -3190,7 +3190,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-28ESS-CR-01",
@@ -3230,7 +3230,7 @@
       "entityName": "",
       "generalName": "Hotel Table",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04, OFFICE 023"
     },
     {
       "assetId": "JD4021-LF-023-23HVA-PIU-01",
@@ -3347,10 +3347,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADXkCRVJARJG7M6wIj6WFbeAB5x_g",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "190",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04, OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-12FUR-WT-01",
@@ -3360,7 +3360,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-024-23HVA-PIU-01",
@@ -3500,17 +3500,17 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-025-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABh2V6_C2xL4LOP2FEFM8sRAB5pPA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "189",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04, @ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-12FUR-WT-01",
@@ -3520,7 +3520,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-23HVA-RG-01",
@@ -3620,7 +3620,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-025-27COM-DS-02",
@@ -3630,7 +3630,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "@ THE END OF THE DAY 025"
     },
     {
       "assetId": "JD4021-LF-026.10-25INT-DS-01",
@@ -3900,7 +3900,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-027-27COM-DS-02",
@@ -3910,17 +3910,17 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STAIR 027"
     },
     {
       "assetId": "JD4021-LF-028-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADKi1TGzYRM04Ovxog-NKxAAB4TlQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "169",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "EAT THE ELEPHANT 028"
     },
     {
       "assetId": "JD4021-LF-028-26ELE-ER-01",
@@ -3960,17 +3960,17 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "EAT THE ELEPHANT 028"
     },
     {
       "assetId": "JD4021-LF-029-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAADKi1TGzYRM04Ovxog-NKxAAB4V_A",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "170",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PHONE 029"
     },
     {
       "assetId": "JD4021-LF-029-26ELE-LI-01",
@@ -3987,10 +3987,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACW5imK-m5PRLdVobtt7d0CABv7bw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "102",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 030, WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-030-23HVA-SG-01",
@@ -4010,7 +4010,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "GATHERING 031"
     },
     {
       "assetId": "JD4021-LF-031-26ELE-ER-01",
@@ -4130,7 +4130,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "GATHERING 031"
     },
     {
       "assetId": "JD4021-LF-031-28ESS-CR-01",
@@ -4147,10 +4147,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAACi4m1eBURJQ5NXK9oVLJprAB03Kg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "133",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BEST IN CLASS 032, WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-032-23HVA-CD-01",
@@ -4220,7 +4220,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BEST IN CLASS 032"
     },
     {
       "assetId": "JD4021-LF-033-11EQU-KA-01",
@@ -4230,7 +4230,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PRINT 033"
     },
     {
       "assetId": "JD4021-LF-033-11EQU-OE-01",
@@ -4240,7 +4240,7 @@
       "entityName": "",
       "generalName": "Office Equipment",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PRINT 033"
     },
     {
       "assetId": "JD4021-LF-033-22PLU-WF-01",
@@ -4250,7 +4250,7 @@
       "entityName": "",
       "generalName": "Water Fountain",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PRINT 033"
     },
     {
       "assetId": "JD4021-LF-033-23HVA-CD-01",
@@ -4337,10 +4337,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABFlIK3oItBe5gRp_Kn9X-gAB09Mg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "134",
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STORAGE 034"
     },
     {
       "assetId": "JD4021-LF-034-23HVA-PIU-01",
@@ -4367,10 +4367,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABlSkY6mE5AG7iEfkNudW-KAB0UgQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "117",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035, WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-035-11EQU-KA-01",
@@ -4380,7 +4380,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-12FUR-WT-01",
@@ -4390,7 +4390,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-23HVA-CD-01",
@@ -4500,7 +4500,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-27COM-DS-02",
@@ -4510,7 +4510,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IN THE BALLPARK 035"
     },
     {
       "assetId": "JD4021-LF-035-44POL-AQ-01",
@@ -4527,20 +4527,20 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABqaYi95dBEWoN-z1Egmb4aAB0ALw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "116",
       "generalName": "Glass Doors",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DEEP DIVE 036, WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-036-11EQU-KA-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA-K_tWuyRB77MGsHf_Pr9YAB1jBw",
-      "category": "Q.Fu.Fu",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAB9YAv5NvFEEbkNy9FtPxFiAB1rEw",
+      "category": "E.Eq",
       "department": "",
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DEEP DIVE 036"
     },
     {
       "assetId": "JD4021-LF-036-12FUR-WT-01",
@@ -4550,7 +4550,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DEEP DIVE 036"
     },
     {
       "assetId": "JD4021-LF-036-23HVA-CD-01",
@@ -4584,7 +4584,7 @@
     },
     {
       "assetId": "JD4021-LF-036-26ELE-ER-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB67PbmmUxF55mDQrVRMybCAAj8gw",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAACUg_lCYZZHS4c8FlaOiyPMABkVTw",
       "category": "E.Fi",
       "department": "",
       "entityName": "",
@@ -4650,7 +4650,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DEEP DIVE 036"
     },
     {
       "assetId": "JD4021-LF-036-27COM-DS-02",
@@ -4660,7 +4660,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DEEP DIVE 036"
     },
     {
       "assetId": "JD4021-LF-036-44POL-AQ-01",
@@ -4680,7 +4680,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-1.11-12FUR-OD-01",
@@ -4690,7 +4690,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-1.12-12FUR-OD-01",
@@ -4700,7 +4700,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "TIARA CHAMBLISS 001.11"
     },
     {
       "assetId": "JD4021-LF-1.13-12FUR-OD-01",
@@ -4710,7 +4710,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "HOTEL 001.12, JENNIFER YOUNG 001.13"
     },
     {
       "assetId": "JD4021-LF-1.14-12FUR-OD-01",
@@ -4720,7 +4720,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ADAM ALLISON 001.14, JERMAINE SHEFFIELD 001.15"
     },
     {
       "assetId": "JD4021-LF-1.15-12FUR-OD-01",
@@ -4730,7 +4730,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "JASON SPELLER 001.16"
     },
     {
       "assetId": "JD4021-LF-1.16-12FUR-OD-01",
@@ -4740,7 +4740,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-1.2-12FUR-OD-01",
@@ -4750,7 +4750,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "KYLE WOOD 001.2, LINDSEY VARRA 001.3"
     },
     {
       "assetId": "JD4021-LF-1.3-12FUR-OD-01",
@@ -4760,7 +4760,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ANDY GREEN 001.4"
     },
     {
       "assetId": "JD4021-LF-1.4-12FUR-OD-01",
@@ -4770,7 +4770,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-1.5-12FUR-OD-01",
@@ -4780,7 +4780,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-1.6-12FUR-OD-01",
@@ -4790,7 +4790,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "TYLER ELDER 001.5"
     },
     {
       "assetId": "JD4021-LF-1.7-12FUR-OD-01",
@@ -4800,7 +4800,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ROBERT FULLERTON 001.6, CARLA BOWRON 001.7"
     },
     {
       "assetId": "JD4021-LF-1.8-12FUR-OD-01",
@@ -4810,7 +4810,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BRAD STOLZ 001.8, MIKE ADAMS 001.9"
     },
     {
       "assetId": "JD4021-LF-1.9-12FUR-OD-01",
@@ -4820,7 +4820,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "TERESA KIMBRO 001.10"
     },
     {
       "assetId": "JD4021-LF-2.1-12FUR-OD-01",
@@ -4830,7 +4830,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.1-27COM-DF-01",
@@ -4850,7 +4850,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BENJAMIN SZUBSKI 002.11, PATRICK REDMAN 002.12"
     },
     {
       "assetId": "JD4021-LF-2.12-12FUR-OD-01",
@@ -4860,7 +4860,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "NANCY COVE 002.13"
     },
     {
       "assetId": "JD4021-LF-2.13-12FUR-OD-01",
@@ -4870,7 +4870,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.14-12FUR-OD-01",
@@ -4880,7 +4880,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "CHRIS HARM 002.14, MICHAEL MORGAN 002.15"
     },
     {
       "assetId": "JD4021-LF-2.14-27COM-DF-01",
@@ -4900,7 +4900,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "TODD STUART 002.16"
     },
     {
       "assetId": "JD4021-LF-2.15-27COM-DF-01",
@@ -4920,7 +4920,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.16-27COM-DF-01",
@@ -4940,7 +4940,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BRENT STRENGTH 002.2, RYAN WILSON 002.3"
     },
     {
       "assetId": "JD4021-LF-2.3-12FUR-OD-01",
@@ -4950,7 +4950,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "TAMMI HILL 002.4"
     },
     {
       "assetId": "JD4021-LF-2.4-12FUR-OD-01",
@@ -4960,7 +4960,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.5-12FUR-OD-01",
@@ -4970,7 +4970,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "SCOTT BODDEN 002.5, HOTEL 002.6"
     },
     {
       "assetId": "JD4021-LF-2.6-12FUR-OD-01",
@@ -4980,7 +4980,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ERIK MAGSAMEN 002.7"
     },
     {
       "assetId": "JD4021-LF-2.7-12FUR-OD-01",
@@ -4990,7 +4990,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.8-12FUR-OD-01",
@@ -5000,7 +5000,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "STEVE HAGLUND 002.8, STEPHEN OEHRIG 002.9"
     },
     {
       "assetId": "JD4021-LF-2.8-27COM-DF-01",
@@ -5020,7 +5020,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WILL CALLIER 002.10"
     },
     {
       "assetId": "JD4021-LF-2.9-27COM-DF-01",
@@ -5040,7 +5040,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.1-27COM-DF-01",
@@ -5070,7 +5070,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.12-12FUR-OD-01",
@@ -5080,7 +5080,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "HIAWATHA HILL 026.11"
     },
     {
       "assetId": "JD4021-LF-26.13-12FUR-OD-01",
@@ -5090,7 +5090,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MARQUES LOWE 026.12, REGGIE POPE 026.13"
     },
     {
       "assetId": "JD4021-LF-26.14-12FUR-OD-01",
@@ -5100,7 +5100,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PHILLIP NGUYEN 026.14"
     },
     {
       "assetId": "JD4021-LF-26.15-12FUR-OD-01",
@@ -5110,7 +5110,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "COLLABORATION 026.1"
     },
     {
       "assetId": "JD4021-LF-26.15-27COM-DF-01",
@@ -5130,7 +5130,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.16-27COM-DF-01",
@@ -5150,7 +5150,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "IANA TASSADA 026.2, ALEX VIDARTI 026.3"
     },
     {
       "assetId": "JD4021-LF-26.3-12FUR-OD-01",
@@ -5160,7 +5160,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MICHELLE FREEMAN ROD 026.4"
     },
     {
       "assetId": "JD4021-LF-26.4-12FUR-OD-01",
@@ -5170,7 +5170,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.5-12FUR-OD-01",
@@ -5180,7 +5180,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.5-27COM-DF-01",
@@ -5210,7 +5210,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "CATHY KASHIUS 026.5"
     },
     {
       "assetId": "JD4021-LF-26.6-27COM-DF-01",
@@ -5240,7 +5240,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "HOTEL 026.6, SAYAN SMITH 026.7"
     },
     {
       "assetId": "JD4021-LF-26.8-12FUR-OD-01",
@@ -5250,7 +5250,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "PETER STEPHENSON 026.8, JERMAINE SHEFFIELD 026.9"
     },
     {
       "assetId": "JD4021-LF-26.9-12FUR-OD-01",
@@ -5260,7 +5260,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "HOTEL 026.10"
     },
     {
       "assetId": "JD4021-LF-26.9-27COM-DF-01",
@@ -5290,7 +5290,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-3.11-12FUR-OD-01",
@@ -5300,7 +5300,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-3.12-12FUR-OD-01",
@@ -5310,7 +5310,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MITCH PURVIS 003.11"
     },
     {
       "assetId": "JD4021-LF-3.13-12FUR-OD-01",
@@ -5320,7 +5320,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ARTHUR HINSHAW 003.12, CHRIS ANDREWS 003.13"
     },
     {
       "assetId": "JD4021-LF-3.2-12FUR-OD-01",
@@ -5330,7 +5330,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-3.3-12FUR-OD-01",
@@ -5340,7 +5340,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "DAVID YOUNG 003.2"
     },
     {
       "assetId": "JD4021-LF-3.4-12FUR-OD-01",
@@ -5350,7 +5350,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "REESE MOORE 003.5"
     },
     {
       "assetId": "JD4021-LF-3.5-12FUR-OD-01",
@@ -5360,7 +5360,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-3.6-12FUR-OD-01",
@@ -5370,7 +5370,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-3.7-12FUR-OD-01",
@@ -5380,7 +5380,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "BRIAN HOLMES 003.6"
     },
     {
       "assetId": "JD4021-LF-3.8-12FUR-OD-01",
@@ -5390,7 +5390,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "SAM HOLT 003.8, JACOB MARKFORT 003.9"
     },
     {
       "assetId": "JD4021-LF-3.9-12FUR-OD-01",
@@ -5400,7 +5400,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MICHAEL ALDRICH 003.10"
     },
     {
       "assetId": "JD4021-LF-6.1-12FUR-OD-01",
@@ -5410,7 +5410,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-6.11-12FUR-OD-01",
@@ -5420,7 +5420,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-6.12-12FUR-OD-01",
@@ -5430,7 +5430,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ELIZABETH MARIN 006.11"
     },
     {
       "assetId": "JD4021-LF-6.13-12FUR-OD-01",
@@ -5440,7 +5440,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ADI BRKIC 006.12, WILL ETHEREDGE 006.13"
     },
     {
       "assetId": "JD4021-LF-6.2-12FUR-OD-01",
@@ -5450,7 +5450,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "EMORY BURCH 006.3"
     },
     {
       "assetId": "JD4021-LF-6.3-12FUR-OD-01",
@@ -5460,7 +5460,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "HOTEL 006.4"
     },
     {
       "assetId": "JD4021-LF-6.4-12FUR-OD-01",
@@ -5470,7 +5470,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-6.5-12FUR-OD-01",
@@ -5480,7 +5480,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-6.6-12FUR-OD-01",
@@ -5490,7 +5490,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "ANDREW MILLER 006.5"
     },
     {
       "assetId": "JD4021-LF-6.7-12FUR-OD-01",
@@ -5500,7 +5500,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "SCOTT TUCKER 006.6"
     },
     {
       "assetId": "JD4021-LF-6.8-12FUR-OD-01",
@@ -5510,7 +5510,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "HARSAL PATEL 006.9"
     },
     {
       "assetId": "JD4021-LF-6.9-12FUR-OD-01",
@@ -5520,7 +5520,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": ""
+      "room": "MICHAEL OLIVER 006.10"
     },
     {
       "assetId": "JD4021-LF-J01-23HVA-EG-01",
@@ -6997,10 +6997,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABcQtaKBXpG7JkL2vJWSHxiACG0GA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "234",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PRINT ROOM 1.02 P1.02"
     },
     {
       "assetId": "JD4021-MF-1.02-11EQU-OE-01",
@@ -7010,7 +7010,7 @@
       "entityName": "",
       "generalName": "Office Equipment",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PRINT ROOM 1.02 P1.02"
     },
     {
       "assetId": "JD4021-MF-1.08-27COM-DS-01",
@@ -7020,7 +7020,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-1.08-27COM-DS-02",
@@ -7030,7 +7030,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-1.08-27COM-DS-03",
@@ -7040,17 +7040,17 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08"
     },
     {
       "assetId": "JD4021-MF-101-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABHKp6YNN5BT7-vajxPoETcABKHFg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "49",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "RECEPTION 101"
     },
     {
       "assetId": "JD4021-MF-101-23HVA-SG-01",
@@ -7260,7 +7260,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "RECEPTION 101"
     },
     {
       "assetId": "JD4021-MF-101-27COM-DS-02",
@@ -7270,7 +7270,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "RECEPTION 101"
     },
     {
       "assetId": "JD4021-MF-101-28ESS-CR-01",
@@ -7297,20 +7297,20 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAC3DFrNGmlP_rxIqTekPD0vABbirg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "83",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102, RECEPTION 101"
     },
     {
       "assetId": "JD4021-MF-102-08OPE-GD-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABH4h0BDRlHzIUVejrlkFkIACK6rA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "246",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.02 W1.02, BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-11EQU-KA-01",
@@ -7320,7 +7320,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-11EQU-KA-02",
@@ -7330,7 +7330,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-12FUR-WT-01",
@@ -7340,7 +7340,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-23HVA-PIU-01",
@@ -7480,7 +7480,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-27COM-DS-02",
@@ -7490,7 +7490,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-44POL-AQ-01",
@@ -7507,20 +7507,20 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAC3DFrNGmlP_rxIqTekPD0vABbiQw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "82",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "RECEPTION 101"
     },
     {
       "assetId": "JD4021-MF-103-08OPE-GD-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABH4h0BDRlHzIUVejrlkFkIACK45w",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "245",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.02 W1.02, WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-11EQU-KA-01",
@@ -7530,7 +7530,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-11EQU-KA-02",
@@ -7540,7 +7540,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-12FUR-WT-01",
@@ -7550,7 +7550,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-23HVA-PIU-01",
@@ -7710,7 +7710,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WIN WIN 103"
     },
     {
       "assetId": "JD4021-MF-103-44POL-AQ-01",
@@ -7727,10 +7727,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAKCHrEHhhKtIKPqICn8zf8ABEuvg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "10",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.02 W1.02, THE SILO 104"
     },
     {
       "assetId": "JD4021-MF-104-23HVA-RG-01",
@@ -7790,17 +7790,17 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "THE SILO 104"
     },
     {
       "assetId": "JD4021-MF-105-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAKCHrEHhhKtIKPqICn8zf8ABEvBQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "11",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.02 W1.02, CIRCLE BACK 105"
     },
     {
       "assetId": "JD4021-MF-105-23HVA-PIU-01",
@@ -7880,7 +7880,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CIRCLE BACK 105"
     },
     {
       "assetId": "JD4021-MF-106.1-12FUR-OD-01",
@@ -7890,7 +7890,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ALYSSA CHAPLIN 106.10"
     },
     {
       "assetId": "JD4021-MF-106.1-12FUR-WT-01",
@@ -7900,7 +7900,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 106.1"
     },
     {
       "assetId": "JD4021-MF-106.1-12FUR-WT-02",
@@ -7910,7 +7910,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 106.1"
     },
     {
       "assetId": "JD4021-MF-106.1-23HVA-WG-01",
@@ -7980,7 +7980,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 106.1"
     },
     {
       "assetId": "JD4021-MF-106.10-25INT-DS-01",
@@ -8010,7 +8010,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 106.11"
     },
     {
       "assetId": "JD4021-MF-106.11-25INT-DS-01",
@@ -8050,7 +8050,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "VICKI SARRIS 106.12"
     },
     {
       "assetId": "JD4021-MF-106.12-25INT-DS-01",
@@ -8090,7 +8090,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHISTINE KADI 106.13"
     },
     {
       "assetId": "JD4021-MF-106.13-25INT-DS-01",
@@ -8130,7 +8130,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "DAN KAUFMAN 106.2"
     },
     {
       "assetId": "JD4021-MF-106.2-25INT-DS-01",
@@ -8160,7 +8160,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BRIA WEISS 106.3"
     },
     {
       "assetId": "JD4021-MF-106.3-25INT-DS-01",
@@ -8190,7 +8190,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PAMELA JOHNSON 106.4"
     },
     {
       "assetId": "JD4021-MF-106.4-25INT-DS-01",
@@ -8220,7 +8220,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JOSH ARNOLD 106.5"
     },
     {
       "assetId": "JD4021-MF-106.5-25INT-DS-01",
@@ -8250,7 +8250,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JAKE BOWRON 106.6"
     },
     {
       "assetId": "JD4021-MF-106.6-25INT-DS-01",
@@ -8280,7 +8280,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MIKE BARTLETT 106.7"
     },
     {
       "assetId": "JD4021-MF-106.7-25INT-DS-01",
@@ -8310,7 +8310,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CINDY ROBERTS 106.8"
     },
     {
       "assetId": "JD4021-MF-106.8-25INT-DS-01",
@@ -8350,7 +8350,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "AMY BLANCO 106.9"
     },
     {
       "assetId": "JD4021-MF-106.9-25INT-DS-01",
@@ -8390,7 +8390,7 @@
       "entityName": "",
       "generalName": "Office Equipment",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-11EQU-OE-02",
@@ -8400,7 +8400,7 @@
       "entityName": "",
       "generalName": "Office Equipment",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-11EQU-OE-03",
@@ -8410,7 +8410,7 @@
       "entityName": "",
       "generalName": "Office Equipment",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-22PLU-WF-01",
@@ -8420,7 +8420,7 @@
       "entityName": "",
       "generalName": "",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WORKROOM 107"
     },
     {
       "assetId": "JD4021-MF-107-23HVA-PIU-01",
@@ -8770,7 +8770,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 109.10"
     },
     {
       "assetId": "JD4021-MF-109.1-12FUR-WT-01",
@@ -8780,7 +8780,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 109.1"
     },
     {
       "assetId": "JD4021-MF-109.1-26ELE-ER-01",
@@ -8810,7 +8810,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 109.1"
     },
     {
       "assetId": "JD4021-MF-109.10-25INT-DS-01",
@@ -8840,7 +8840,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JENNIFER BROWN 109.11"
     },
     {
       "assetId": "JD4021-MF-109.11-25INT-DS-01",
@@ -8880,7 +8880,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LAURA McCREE 109.12"
     },
     {
       "assetId": "JD4021-MF-109.12-25INT-DS-01",
@@ -8920,7 +8920,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HANK JENNINGS 109.13"
     },
     {
       "assetId": "JD4021-MF-109.13-25INT-DS-01",
@@ -8960,7 +8960,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HANNAH BYRD 109.2"
     },
     {
       "assetId": "JD4021-MF-109.2-25INT-DS-01",
@@ -8990,7 +8990,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SARA HENDLER 109.3"
     },
     {
       "assetId": "JD4021-MF-109.3-25INT-DS-01",
@@ -9020,7 +9020,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BARBARA OLIVEIRA SPITZER 109.4"
     },
     {
       "assetId": "JD4021-MF-109.4-25INT-DS-01",
@@ -9050,7 +9050,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHLOE SCOTT 109.5"
     },
     {
       "assetId": "JD4021-MF-109.5-25INT-DS-01",
@@ -9080,7 +9080,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CILE HAULBROOK 109.6"
     },
     {
       "assetId": "JD4021-MF-109.6-25INT-DS-01",
@@ -9110,7 +9110,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JOSH GORUM 109.7"
     },
     {
       "assetId": "JD4021-MF-109.7-25INT-DS-01",
@@ -9140,7 +9140,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CORY HINZ 109.8"
     },
     {
       "assetId": "JD4021-MF-109.8-25INT-DS-01",
@@ -9180,7 +9180,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "RICHARD WILLIAMS 109.9"
     },
     {
       "assetId": "JD4021-MF-109.9-25INT-DS-01",
@@ -9387,10 +9387,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABvtINox5dO9LGCGVa8bNN0ABOJLw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "54",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BEST IN FINAL 112, GATHERING 111"
     },
     {
       "assetId": "JD4021-MF-112-23HVA-RG-01",
@@ -9590,7 +9590,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BEST IN FINAL 112"
     },
     {
       "assetId": "JD4021-MF-112-27COM-DS-02",
@@ -9600,7 +9600,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BEST IN FINAL 112"
     },
     {
       "assetId": "JD4021-MF-112-44POL-AQ-01",
@@ -9620,7 +9620,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAL TODD 113.10"
     },
     {
       "assetId": "JD4021-MF-113.1-12FUR-WT-01",
@@ -9630,7 +9630,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 113.1"
     },
     {
       "assetId": "JD4021-MF-113.1-12FUR-WT-02",
@@ -9640,7 +9640,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 113.1"
     },
     {
       "assetId": "JD4021-MF-113.1-23HVA-WG-01",
@@ -9730,7 +9730,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 113.1"
     },
     {
       "assetId": "JD4021-MF-113.10-25INT-DS-01",
@@ -9750,7 +9750,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 113.11"
     },
     {
       "assetId": "JD4021-MF-113.11-25INT-DS-01",
@@ -9780,7 +9780,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SHANNON CHAPMAN 113.13"
     },
     {
       "assetId": "JD4021-MF-113.13-25INT-DS-01",
@@ -9810,7 +9810,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "DONNA BENDIK 113.14"
     },
     {
       "assetId": "JD4021-MF-113.14-25INT-DS-01",
@@ -9840,7 +9840,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "KEISHA McCALMAN 113.15"
     },
     {
       "assetId": "JD4021-MF-113.15-25INT-DS-01",
@@ -9870,7 +9870,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "KAREN GARNER 113.16"
     },
     {
       "assetId": "JD4021-MF-113.16-25INT-DS-01",
@@ -9900,7 +9900,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ELIZABETH TAYLOR 113.2"
     },
     {
       "assetId": "JD4021-MF-113.2-25INT-DS-01",
@@ -9940,7 +9940,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JEREMIAH SUGARMAN 113.3"
     },
     {
       "assetId": "JD4021-MF-113.3-25INT-DS-01",
@@ -9980,7 +9980,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SAKEENA PENNINGTON 113.4"
     },
     {
       "assetId": "JD4021-MF-113.4-25INT-DS-01",
@@ -10020,7 +10020,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MATT FRANKEL 113.5"
     },
     {
       "assetId": "JD4021-MF-113.5-25INT-DS-01",
@@ -10050,7 +10050,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "KATHY GRAHAM 113.6"
     },
     {
       "assetId": "JD4021-MF-113.6-25INT-DS-01",
@@ -10080,7 +10080,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PATTY ADAMS 113.7"
     },
     {
       "assetId": "JD4021-MF-113.7-25INT-DS-01",
@@ -10110,7 +10110,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MISHAUNE SAWYER 113.8"
     },
     {
       "assetId": "JD4021-MF-113.8-25INT-DS-01",
@@ -10140,7 +10140,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SHAY LINDA 113.9"
     },
     {
       "assetId": "JD4021-MF-113.9-25INT-DS-01",
@@ -10167,10 +10167,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABm4YlsioBKP4CoQuCIQ98rABhCRQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "92",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "IN THE LOOP 116, COLLABORATION 122.1"
     },
     {
       "assetId": "JD4021-MF-116-23HVA-PIU-01",
@@ -10230,17 +10230,17 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "IN THE LOOP 116"
     },
     {
       "assetId": "JD4021-MF-117-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABm4YlsioBKP4CoQuCIQ98rABhB-g",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "91",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.06 W1.06, PARKING LOT 117"
     },
     {
       "assetId": "JD4021-MF-117-23HVA-PIU-01",
@@ -10310,17 +10310,17 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PARKING LOT 117"
     },
     {
       "assetId": "JD4021-MF-118-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADk7o00EGFEU4V-7kUYIVI0ABdQXQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "87",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.05 W1.05, @ THE END OF THE DAY 025, OFFICE 118"
     },
     {
       "assetId": "JD4021-MF-118-12FUR-ED-01",
@@ -10330,7 +10330,7 @@
       "entityName": "",
       "generalName": "Executive Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 118"
     },
     {
       "assetId": "JD4021-MF-118-23HVA-PIU-01",
@@ -10460,7 +10460,7 @@
       "entityName": "",
       "generalName": "Executive Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 119"
     },
     {
       "assetId": "JD4021-MF-119-23HVA-PIU-01",
@@ -10567,10 +10567,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADk7o00EGFEU4V-7kUYIVI0ABdPjw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "86",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.05 W1.05, OUTSIDE THE BOX 024, OFFICE 120"
     },
     {
       "assetId": "JD4021-MF-120-12FUR-ED-01",
@@ -10580,7 +10580,7 @@
       "entityName": "",
       "generalName": "Executive Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 120"
     },
     {
       "assetId": "JD4021-MF-120-23HVA-RG-01",
@@ -10677,10 +10677,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADk7o00EGFEU4V-7kUYIVI0ABdOsw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "85",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.05 W1.05, OUTSIDE THE BOX 024, OFFICE 023, OFFICE 121"
     },
     {
       "assetId": "JD4021-MF-121-12FUR-ED-01",
@@ -10690,7 +10690,7 @@
       "entityName": "",
       "generalName": "Executive Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "OFFICE 121"
     },
     {
       "assetId": "JD4021-MF-121-23HVA-PIU-01",
@@ -10797,10 +10797,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAKCHrEHhhKtIKPqICn8zf8ABE2Hg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "12",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 122.1"
     },
     {
       "assetId": "JD4021-MF-122.1-12FUR-OD-01",
@@ -10810,7 +10810,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 122.10"
     },
     {
       "assetId": "JD4021-MF-122.1-12FUR-WT-01",
@@ -10820,7 +10820,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 122.1"
     },
     {
       "assetId": "JD4021-MF-122.1-12FUR-WT-02",
@@ -10830,7 +10830,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 122.1"
     },
     {
       "assetId": "JD4021-MF-122.1-23HVA-WG-01",
@@ -10910,7 +10910,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 122.1"
     },
     {
       "assetId": "JD4021-MF-122.1-28ESS-CR-01",
@@ -10940,7 +10940,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "NIKKI COATES 122.11"
     },
     {
       "assetId": "JD4021-MF-122.11-25INT-DS-01",
@@ -10970,7 +10970,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PAT ARRINGTON 122.12"
     },
     {
       "assetId": "JD4021-MF-122.12-25INT-DS-01",
@@ -11000,7 +11000,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "BRYAN STEED 122.13"
     },
     {
       "assetId": "JD4021-MF-122.13-25INT-DS-01",
@@ -11080,7 +11080,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LEE JARBOE 122.2"
     },
     {
       "assetId": "JD4021-MF-122.2-25INT-DS-01",
@@ -11100,7 +11100,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "STACY SCOPANO 122.3"
     },
     {
       "assetId": "JD4021-MF-122.3-25INT-DS-01",
@@ -11130,7 +11130,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 122.4"
     },
     {
       "assetId": "JD4021-MF-122.4-25INT-DS-01",
@@ -11170,7 +11170,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "FRED TULL 122.5"
     },
     {
       "assetId": "JD4021-MF-122.5-25INT-DS-01",
@@ -11190,7 +11190,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHRISTOPHE RAMPTON 122.6"
     },
     {
       "assetId": "JD4021-MF-122.6-25INT-DS-01",
@@ -11220,7 +11220,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CRISTINA STANCU WILSON 122.7"
     },
     {
       "assetId": "JD4021-MF-122.7-25INT-DS-01",
@@ -11250,7 +11250,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 122.8"
     },
     {
       "assetId": "JD4021-MF-122.8-25INT-DS-01",
@@ -11280,7 +11280,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "JO TATUM 122.9"
     },
     {
       "assetId": "JD4021-MF-122.9-25INT-DS-01",
@@ -11307,10 +11307,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADUJ0ba2htMKrYO8jaN9hjlACGxhg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "233",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "STORAGE 124"
     },
     {
       "assetId": "JD4021-MF-124-26ELE-EP-01",
@@ -11367,10 +11367,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAvjDnFXWBFc76z9RNZwfZMABg8rA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "90",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PRINT ROOM 1.02 P1.02, LEVERAGE 125, BOOTS ON THE GROUND 018, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-MF-125-23HVA-PIU-01",
@@ -11480,17 +11480,17 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LEVERAGE 125"
     },
     {
       "assetId": "JD4021-MF-126-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAvjDnFXWBFc76z9RNZwfZMABg8lQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "89",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PRINT ROOM 1.02 P1.02, SYNERGY 126, BOOTS ON THE GROUND 018"
     },
     {
       "assetId": "JD4021-MF-126-23HVA-PIU-01",
@@ -11600,7 +11600,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "SYNERGY 126"
     },
     {
       "assetId": "JD4021-MF-127-11EQU-KA-01",
@@ -11610,7 +11610,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-11EQU-KA-02",
@@ -11620,7 +11620,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ROACH COACH 022, CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-11EQU-KA-03",
@@ -11630,7 +11630,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-11EQU-KA-04",
@@ -11640,7 +11640,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-11EQU-KA-05",
@@ -11650,7 +11650,7 @@
       "entityName": "",
       "generalName": "Kitchen Appliances",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-12FUR-WT-01",
@@ -11660,7 +11660,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-22PLU-KS-01",
@@ -11670,7 +11670,7 @@
       "entityName": "",
       "generalName": "Kitchen Sink",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-22PLU-PF-01",
@@ -11680,7 +11680,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-23HVA-CD-01",
@@ -11810,7 +11810,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CAFE 127"
     },
     {
       "assetId": "JD4021-MF-127-28ESS-LD-01",
@@ -11837,10 +11837,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABiPpXD1iFIabKID51baVBdACHgHw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "240",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08, PULL PLANNING 016"
     },
     {
       "assetId": "JD4021-MF-128-26ELE-ER-01",
@@ -11880,7 +11880,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHRISTOPHER HUGHES 129.10"
     },
     {
       "assetId": "JD4021-MF-129.1-12FUR-WT-01",
@@ -11890,7 +11890,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 129.1"
     },
     {
       "assetId": "JD4021-MF-129.1-12FUR-WT-02",
@@ -11900,7 +11900,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 129.1"
     },
     {
       "assetId": "JD4021-MF-129.1-23HVA-WG-01",
@@ -11960,7 +11960,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 129.1"
     },
     {
       "assetId": "JD4021-MF-129.10-25INT-DS-01",
@@ -11980,7 +11980,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "TOM RANEY 129.12"
     },
     {
       "assetId": "JD4021-MF-129.12-25INT-DS-01",
@@ -12010,7 +12010,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ERIN GRABLE 129.13"
     },
     {
       "assetId": "JD4021-MF-129.13-25INT-DS-01",
@@ -12040,7 +12040,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "PATRICK FLEMING 129.14"
     },
     {
       "assetId": "JD4021-MF-129.14-25INT-DS-01",
@@ -12140,7 +12140,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "STUART BRUENING 129.3"
     },
     {
       "assetId": "JD4021-MF-129.3-25INT-DS-01",
@@ -12170,7 +12170,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "LORI GERTSCH 129.4"
     },
     {
       "assetId": "JD4021-MF-129.4-25INT-DS-01",
@@ -12200,7 +12200,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ALISON CHAFFEE 129.5"
     },
     {
       "assetId": "JD4021-MF-129.5-25INT-DS-01",
@@ -12230,7 +12230,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "KAREN AVERY 129.6"
     },
     {
       "assetId": "JD4021-MF-129.6-25INT-DS-01",
@@ -12270,7 +12270,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 129.7"
     },
     {
       "assetId": "JD4021-MF-129.7-25INT-DS-01",
@@ -12300,7 +12300,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 129.8"
     },
     {
       "assetId": "JD4021-MF-129.8-25INT-DS-01",
@@ -12320,7 +12320,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ED VON ROEMER 129.9"
     },
     {
       "assetId": "JD4021-MF-129.9-25INT-DS-01",
@@ -12337,10 +12337,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAKCHrEHhhKtIKPqICn8zf8ABElbw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "9",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.09 W1.09, SHORE THE CORE 131, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-131-23HVA-PIU-01",
@@ -12447,10 +12447,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAACp5q3Z44ZCXbuO7VTDnDmvABVpwg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "78",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.10 W1.10, BAM 132, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-132-23HVA-PIU-01",
@@ -12550,7 +12550,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HARRIS MOSELEY 133.10"
     },
     {
       "assetId": "JD4021-MF-133.1-12FUR-WT-01",
@@ -12560,7 +12560,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 133.1"
     },
     {
       "assetId": "JD4021-MF-133.1-12FUR-WT-02",
@@ -12570,7 +12570,7 @@
       "entityName": "",
       "generalName": "Work Table",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 133.1"
     },
     {
       "assetId": "JD4021-MF-133.1-23HVA-WG-01",
@@ -12630,7 +12630,7 @@
       "entityName": "",
       "generalName": "Display Screen",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 133.1"
     },
     {
       "assetId": "JD4021-MF-133.1-28ESS-CR-01",
@@ -12660,7 +12660,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "DAVID MOODY 133.2"
     },
     {
       "assetId": "JD4021-MF-133.2-25INT-DS-01",
@@ -12690,7 +12690,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 133.3"
     },
     {
       "assetId": "JD4021-MF-133.3-25INT-DS-01",
@@ -12720,7 +12720,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "STEPHEN McKINNEY 133.4"
     },
     {
       "assetId": "JD4021-MF-133.4-25INT-DS-01",
@@ -12750,7 +12750,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 133.5"
     },
     {
       "assetId": "JD4021-MF-133.5-25INT-DS-01",
@@ -12770,7 +12770,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CRAIG KLIESRATH 133.6"
     },
     {
       "assetId": "JD4021-MF-133.6-25INT-DS-01",
@@ -12800,7 +12800,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ANDY MARTINDILL 133.7"
     },
     {
       "assetId": "JD4021-MF-133.7-25INT-DS-01",
@@ -12830,7 +12830,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "KYLE HINGST 133.8"
     },
     {
       "assetId": "JD4021-MF-133.8-25INT-DS-01",
@@ -12870,7 +12870,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ALEX BAKER 133.9"
     },
     {
       "assetId": "JD4021-MF-133.9-25INT-DS-01",
@@ -12907,10 +12907,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAWx3cxHH5PXogr2kiklOtQACKLDg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "244",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ELECTRICAL 133C, LAN 133B"
     },
     {
       "assetId": "JD4021-MF-133B-26ELE-ER-01",
@@ -12937,10 +12937,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAWx3cxHH5PXogr2kiklOtQACKJ8g",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "243",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "COLLABORATION 133.1, ELECTRICAL 133C"
     },
     {
       "assetId": "JD4021-MF-133C-26ELE-EP-01",
@@ -13000,7 +13000,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "HOTEL 133J"
     },
     {
       "assetId": "JD4021-MF-133J-25INT-DS-01",
@@ -13030,7 +13030,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "CHARTAVIA STEPHENS 133LL"
     },
     {
       "assetId": "JD4021-MF-133LL-25INT-DS-01",
@@ -13060,57 +13060,57 @@
       "entityName": "",
       "generalName": "Mirros",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-08OPE-WD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADhsoiZ0ldFXbDmqCWRiwtgABELSg",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "8",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WALKWAY 1.08 W1.08, WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-08OPE-WD-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ1GA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "26",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-08OPE-WD-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ1sA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "29",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-08OPE-WD-04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ2Ag",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "30",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-08OPE-WD-05",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAACPgRuMEhhPOZO8ifnUaPY2ABJ91Q",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "31",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-10SPE-PF-01",
@@ -13120,7 +13120,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WOMEN 007, WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-10SPE-PF-02",
@@ -13130,7 +13130,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WOMEN 007, WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-10SPE-PF-03",
@@ -13140,7 +13140,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WOMEN 007, WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-22PLU-PF-01",
@@ -13150,7 +13150,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-134-23HVA-SG-01",
@@ -13227,10 +13227,10 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABGF9RcplRC1YhbFun9IGMpACEjUw",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "227",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111, JANITOR 135"
     },
     {
       "assetId": "JD4021-MF-135-26ELE-ER-01",
@@ -13260,57 +13260,57 @@
       "entityName": "",
       "generalName": "Mirros",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-08OPE-WD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADhsoiZ0ldFXbDmqCWRiwtgABEKwA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "7",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "GATHERING 111, MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-08OPE-WD-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADwLpeAMJZF14dw9v2tUn7PABJsMA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "21",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-08OPE-WD-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADwLpeAMJZF14dw9v2tUn7PABJtcA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "22",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-08OPE-WD-04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADwLpeAMJZF14dw9v2tUn7PABJtqQ",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "23",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-08OPE-WD-05",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAADwLpeAMJZF14dw9v2tUn7PABJt0w",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "24",
       "generalName": "Wood Doors",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-10SPE-PF-01",
@@ -13320,7 +13320,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 004, MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-10SPE-PF-02",
@@ -13330,7 +13330,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 004, MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-10SPE-PF-03",
@@ -13340,7 +13340,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 004, MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-10SPE-PF-04",
@@ -13350,7 +13350,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 004, MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-10SPE-PF-05",
@@ -13360,7 +13360,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ELECTRICAL 005, MEN 004, MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-10SPE-PF-06",
@@ -13370,7 +13370,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "ELECTRICAL 005, MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-22PLU-PF-01",
@@ -13380,7 +13380,7 @@
       "entityName": "",
       "generalName": "Plumbing Fixtures",
       "level": "MAIN FLOOR",
-      "room": ""
+      "room": "MEN 136"
     },
     {
       "assetId": "JD4021-MF-136-23HVA-SG-01",
@@ -13477,7 +13477,7 @@
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABHKp6YNN5BT7-vajxPoETcABKFxA",
       "category": "B.Do",
       "department": "",
-      "entityName": "",
+      "entityName": "48",
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
       "room": ""
