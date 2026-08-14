@@ -3,6 +3,7 @@
   "modelUrn": "urn:adsk.dtm:o1yVV15jRhyxTB5CUsSd1A",
   "totalBatches": 10,
   "batchesReceived": [
+    1,
     8,
     9
   ],
@@ -96,6 +97,16 @@
       "generalName": "Light Fixture - Linear Shop Light",
       "level": "LOWER FLOOR",
       "room": "IT 001A"
+    },
+    {
+      "assetId": "JD4021-LF-001B-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAADJVWtYs9He418aPzRfZ4_AAm_jw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": "EQUIPMENT ROOM 001B"
     },
     {
       "assetId": "JD4021-LF-001B-26ELE-LI-01",
@@ -518,6 +529,16 @@
       "room": "FITNESS 015"
     },
     {
+      "assetId": "JD4021-LF-016-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAACLRcZQ6NMiKD7LZSUZhrYAA-s9A",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "LOWER FLOOR",
+      "room": "PULL PLANNING 016"
+    },
+    {
       "assetId": "JD4021-LF-017-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD5uXKQSAhGorvRdN2I49PRAAjsvg",
       "category": "E.Fi",
@@ -664,6 +685,16 @@
       "department": "",
       "entityName": "",
       "generalName": "Light Fixture - Linear Pendant",
+      "level": "LOWER FLOOR",
+      "room": "BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "JD4021-LF-018-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAACLRcZQ6NMiKD7LZSUZhrYAA-sWg",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "SD Access Node",
       "level": "LOWER FLOOR",
       "room": "BOOTS ON THE GROUND 018"
     },
@@ -1048,6 +1079,16 @@
       "room": "@ THE END OF THE DAY 025"
     },
     {
+      "assetId": "JD4021-LF-028-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAADJVWtYs9He418aPzRfZ4_AAm_hw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": "EAT THE ELEPHANT 028"
+    },
+    {
       "assetId": "JD4021-LF-028-26ELE-LI-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD06xD-HuVMyYEpnrpi1yaSAA30zA",
       "category": "E.LF",
@@ -1084,6 +1125,36 @@
       "department": "",
       "entityName": "",
       "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-032-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAJf0ZYYEhKwqL56AeQmzwRABjBxA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "LOWER FLOOR",
+      "room": "BEST IN CLASS 032"
+    },
+    {
+      "assetId": "JD4021-LF-032-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAJf0ZYYEhKwqL56AeQmzwRABjABg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-LF-032-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAJf0ZYYEhKwqL56AeQmzwRABjAEA",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
       "level": "LOWER FLOOR",
       "room": ""
     },
@@ -1138,6 +1209,46 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-LF-26.1-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAE0sPuHyxIhrOSOscCCmiZAApV8w",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "LOWER FLOOR",
+      "room": "HOTEL 026.10"
+    },
+    {
+      "assetId": "JD4021-LF-26.1-27COM-DF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAE0sPuHyxIhrOSOscCCmiZAApWSg",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "LOWER FLOOR",
+      "room": "HOTEL 026.10"
+    },
+    {
+      "assetId": "JD4021-LF-26.9-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAE0sPuHyxIhrOSOscCCmiZAApWNw",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "LOWER FLOOR",
+      "room": "PETER STEPHENSON 026.8, JERMAINE SHEFFIELD 026.9"
+    },
+    {
+      "assetId": "JD4021-LF-26.9-27COM-DF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAE0sPuHyxIhrOSOscCCmiZAApWSA",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "LOWER FLOOR",
+      "room": "JERMAINE SHEFFIELD 026.9"
+    },
+    {
       "assetId": "JD4021-LF-J01-26ELE-SL-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAADS7V4tyEJPiqNXSRFpjKg5AAr5Cg",
       "category": "E.LF",
@@ -1178,6 +1289,36 @@
       "room": "WALKWAY 0.02 W0.02"
     },
     {
+      "assetId": "JD4021-LF-W0.03-27COM-AN-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAACLRcZQ6NMiKD7LZSUZhrYAA-oiw",
+      "category": "Q.CD",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "SD Access Node",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAE0sPuHyxIhrOSOscCCmiZAApV4g",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-W0.05-27COM-DF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAE0sPuHyxIhrOSOscCCmiZAApV6A",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
       "assetId": "JD4021-LF-W0.07-26ELE-ER-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD5uXKQSAhGorvRdN2I49PRAAjqFw",
       "category": "E.Fi",
@@ -1186,6 +1327,46 @@
       "generalName": "Electrical Receptacle",
       "level": "LOWER FLOOR",
       "room": "WALKWAY 0.07 W0.07"
+    },
+    {
+      "assetId": "JD4021-MF-101-26ELE-ER-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjdQw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "RECEPTION 101"
+    },
+    {
+      "assetId": "JD4021-MF-102-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjavg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "BOTTOM LINE 102"
+    },
+    {
+      "assetId": "JD4021-MF-102-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjbRQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "BOTTOM LINE 102"
+    },
+    {
+      "assetId": "JD4021-MF-102-26ELE-ER-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjlhw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "BOTTOM LINE 102"
     },
     {
       "assetId": "JD4021-MF-102-44POL-AQ-01",
@@ -1198,6 +1379,36 @@
       "room": "BOTTOM LINE 102"
     },
     {
+      "assetId": "JD4021-MF-103-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjayQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WIN WIN 103"
+    },
+    {
+      "assetId": "JD4021-MF-103-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjbDw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WIN WIN 103"
+    },
+    {
+      "assetId": "JD4021-MF-103-26ELE-ER-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjleA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WIN WIN 103"
+    },
+    {
       "assetId": "JD4021-MF-103-44POL-AQ-01",
       "assetUrl": "AS-11",
       "category": "Q.CD",
@@ -1208,6 +1419,176 @@
       "room": "WIN WIN 103"
     },
     {
+      "assetId": "JD4021-MF-104-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjB7A",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "THE SILO 104"
+    },
+    {
+      "assetId": "JD4021-MF-104-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjChA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "THE SILO 104"
+    },
+    {
+      "assetId": "JD4021-MF-105-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjBfQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "CIRCLE BACK 105"
+    },
+    {
+      "assetId": "JD4021-MF-105-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjCUA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "CIRCLE BACK 105"
+    },
+    {
+      "assetId": "JD4021-MF-105-26ELE-ER-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjCrw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "CIRCLE BACK 105"
+    },
+    {
+      "assetId": "JD4021-MF-106.10-25INT-DS-01",
+      "assetUrl": "DS96",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "DS96",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "ALYSSA CHAPLIN 106.10"
+    },
+    {
+      "assetId": "JD4021-MF-106.11-25INT-DS-01",
+      "assetUrl": "DS95",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "DS95",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 106.11"
+    },
+    {
+      "assetId": "JD4021-MF-106.12-25INT-DS-01",
+      "assetUrl": "DS94",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "DS94",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "VICKI SARRIS 106.12"
+    },
+    {
+      "assetId": "JD4021-MF-106.13-25INT-DS-01",
+      "assetUrl": "DS93",
+      "category": "Q.CD",
+      "department": "PRECON",
+      "entityName": "DS93",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "CHISTINE KADI 106.13"
+    },
+    {
+      "assetId": "JD4021-MF-106.2-25INT-DS-01",
+      "assetUrl": "DS102",
+      "category": "Q.CD",
+      "department": "EXECUTIVE",
+      "entityName": "DS102",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "DAN KAUFMAN 106.2"
+    },
+    {
+      "assetId": "JD4021-MF-106.3-25INT-DS-01",
+      "assetUrl": "DS103",
+      "category": "Q.CD",
+      "department": "EXECUTIVE",
+      "entityName": "DS103",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "BRIA WEISS 106.3"
+    },
+    {
+      "assetId": "JD4021-MF-106.4-25INT-DS-01",
+      "assetUrl": "DS104",
+      "category": "Q.CD",
+      "department": "EXECUTIVE",
+      "entityName": "DS104",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "PAMELA JOHNSON 106.4"
+    },
+    {
+      "assetId": "JD4021-MF-106.5-25INT-DS-01",
+      "assetUrl": "DS99",
+      "category": "Q.CD",
+      "department": "EXECUTIVE",
+      "entityName": "DS99",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "JOSH ARNOLD 106.5"
+    },
+    {
+      "assetId": "JD4021-MF-106.6-25INT-DS-01",
+      "assetUrl": "DS100",
+      "category": "Q.CD",
+      "department": "EXECUTIVE",
+      "entityName": "DS100",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "JAKE BOWRON 106.6"
+    },
+    {
+      "assetId": "JD4021-MF-106.7-25INT-DS-01",
+      "assetUrl": "DS101",
+      "category": "Q.CD",
+      "department": "EXECUTIVE",
+      "entityName": "DS101",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "MIKE BARTLETT 106.7"
+    },
+    {
+      "assetId": "JD4021-MF-106.8-25INT-DS-01",
+      "assetUrl": "DS98",
+      "category": "Q.CD",
+      "department": "EXECUTIVE",
+      "entityName": "DS98",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "CINDY ROBERTS 106.8"
+    },
+    {
+      "assetId": "JD4021-MF-106.9-25INT-DS-01",
+      "assetUrl": "DS97",
+      "category": "Q.CD",
+      "department": "MARKETING",
+      "entityName": "DS97",
+      "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "AMY BLANCO 106.9"
+    },
+    {
       "assetId": "JD4021-MF-107-26ELE-EP-01",
       "assetUrl": "L2A",
       "category": "E.Eq",
@@ -1216,6 +1597,66 @@
       "generalName": "Electrical Panel",
       "level": "MAIN FLOOR",
       "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjC6g",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjD5g",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-ER-05",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjGAg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-ER-06",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjGJA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-107-26ELE-ER-07",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjMgQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WORKROOM 107"
+    },
+    {
+      "assetId": "JD4021-MF-109.1-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjbvw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 109.1"
     },
     {
       "assetId": "JD4021-MF-109.10-25INT-DS-01",
@@ -1318,6 +1759,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-111-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjGnw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "GATHERING 111"
+    },
+    {
       "assetId": "JD4021-MF-111-26ELE-PD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAD_bSMF9J5PsoGUCUM74l6HAA4Guw",
       "category": "E.LF",
@@ -1418,6 +1869,36 @@
       "room": "GATHERING 111"
     },
     {
+      "assetId": "JD4021-MF-112-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjHNw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "BEST IN FINAL 112"
+    },
+    {
+      "assetId": "JD4021-MF-112-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjNkQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-112-26ELE-ER-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjO0w",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-MF-112-44POL-AQ-01",
       "assetUrl": "AS-20",
       "category": "Q.CD",
@@ -1426,6 +1907,136 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "BEST IN FINAL 112"
+    },
+    {
+      "assetId": "JD4021-MF-116-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjIOA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "IN THE LOOP 116"
+    },
+    {
+      "assetId": "JD4021-MF-116-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjQFw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "IN THE LOOP 116"
+    },
+    {
+      "assetId": "JD4021-MF-117-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjHwg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "PARKING LOT 117"
+    },
+    {
+      "assetId": "JD4021-MF-117-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjSYg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "PARKING LOT 117"
+    },
+    {
+      "assetId": "JD4021-MF-117-26ELE-ER-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjjKQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "PARKING LOT 117"
+    },
+    {
+      "assetId": "JD4021-MF-118-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjTLw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 118"
+    },
+    {
+      "assetId": "JD4021-MF-118-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjTeg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "STAIR 027, OFFICE 118"
+    },
+    {
+      "assetId": "JD4021-MF-119-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjSew",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "OUTSIDE THE BOX 024"
+    },
+    {
+      "assetId": "JD4021-MF-119-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjTDw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "PULL PLANNING 016, OFFICE 119"
+    },
+    {
+      "assetId": "JD4021-MF-120-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjMPw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "OUTSIDE THE BOX 024, OFFICE 120"
+    },
+    {
+      "assetId": "JD4021-MF-120-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjMZg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "PULL PLANNING 016, OFFICE 120"
+    },
+    {
+      "assetId": "JD4021-MF-121-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjL6A",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-121-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjL_A",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 023, OFFICE 121"
     },
     {
       "assetId": "JD4021-MF-122.10-25INT-DS-01",
@@ -1548,6 +2159,176 @@
       "room": "JO TATUM 122.9, ROACH COACH 022"
     },
     {
+      "assetId": "JD4021-MF-124-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjJsg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 023, STORAGE 124"
+    },
+    {
+      "assetId": "JD4021-MF-125-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjJ-A",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "LEVERAGE 125, ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-MF-125-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjKuQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "LEVERAGE 125"
+    },
+    {
+      "assetId": "JD4021-MF-125-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4K0w",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-125-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4K1A",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-125-26ELE-LI-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4K1Q",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjK5g",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "SYNERGY 126"
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjLCw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "SYNERGY 126, BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4I3A",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-LI-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4Khw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-LI-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4Kwg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-126-26ELE-LI-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4Kyg",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-127-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjf3A",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "ROACH COACH 022, CAFE 127"
+    },
+    {
+      "assetId": "JD4021-MF-127-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjiSg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "BOOTS ON THE GROUND 018, CAFE 127"
+    },
+    {
+      "assetId": "JD4021-MF-127-26ELE-ER-03",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjirQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "BOOTS ON THE GROUND 018, CAFE 127"
+    },
+    {
+      "assetId": "JD4021-MF-127-26ELE-ER-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAji2w",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "BOOTS ON THE GROUND 018, CAFE 127"
+    },
+    {
+      "assetId": "JD4021-MF-127-26ELE-LP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4KQQ",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Linear Pendant",
+      "level": "MAIN FLOOR",
+      "room": "CAFE 127"
+    },
+    {
       "assetId": "JD4021-MF-127-28ESS-LD-01",
       "assetUrl": "LEAK DETECTOR 02",
       "category": "Q.CD",
@@ -1556,6 +2337,26 @@
       "generalName": "Leak Detector",
       "level": "MAIN FLOOR",
       "room": "BOOTS ON THE GROUND 018, CAFE 127"
+    },
+    {
+      "assetId": "JD4021-MF-128-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjXjg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "PRIVATE 128, PULL PLANNING 016"
+    },
+    {
+      "assetId": "JD4021-MF-128-26ELE-LI-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAWrHEDo_ZH-ZvW_LuMt9OUAA4KBw",
+      "category": "E.LF",
+      "department": "",
+      "entityName": "",
+      "generalName": "Light Fixture - Lay-in",
+      "level": "MAIN FLOOR",
+      "room": ""
     },
     {
       "assetId": "JD4021-MF-129.1-26ELE-LP-01",
@@ -1588,12 +2389,32 @@
       "room": "TOM RANEY 129.12, FITNESS 015"
     },
     {
+      "assetId": "JD4021-MF-129.12-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApgpw",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": "TOM RANEY 129.12, FITNESS 015"
+    },
+    {
       "assetId": "JD4021-MF-129.13-25INT-DS-01",
       "assetUrl": "DS61",
       "category": "Q.CD",
       "department": "COMMERCIAL",
       "entityName": "DS61",
       "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "ERIN GRABLE 129.13, FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-MF-129.13-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApgtQ",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "ERIN GRABLE 129.13, FITNESS 015"
     },
@@ -1606,6 +2427,16 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "PATRICK FLEMING 129.14, PULL PLANNING 016"
+    },
+    {
+      "assetId": "JD4021-MF-129.14-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApgzA",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": "PATRICK FLEMING 129.14"
     },
     {
       "assetId": "JD4021-MF-129.2-26ELE-LP-01",
@@ -1628,12 +2459,32 @@
       "room": "STUART BRUENING 129.3, BOOTS ON THE GROUND 018"
     },
     {
+      "assetId": "JD4021-MF-129.3-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAAphEA",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": "STUART BRUENING 129.3, BOOTS ON THE GROUND 018"
+    },
+    {
       "assetId": "JD4021-MF-129.4-25INT-DS-01",
       "assetUrl": "DS52",
       "category": "Q.CD",
       "department": "COMMERCIAL",
       "entityName": "DS52",
       "generalName": "Desk Occupancy Sensor",
+      "level": "MAIN FLOOR",
+      "room": "LORI GERTSCH 129.4, BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "JD4021-MF-129.4-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApg-A",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
       "level": "MAIN FLOOR",
       "room": "LORI GERTSCH 129.4, BOOTS ON THE GROUND 018"
     },
@@ -1648,6 +2499,16 @@
       "room": "ALISON CHAFFEE 129.5, BOOTS ON THE GROUND 018"
     },
     {
+      "assetId": "JD4021-MF-129.5-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApg7Q",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": "ALISON CHAFFEE 129.5, BOOTS ON THE GROUND 018"
+    },
+    {
       "assetId": "JD4021-MF-129.6-25INT-DS-01",
       "assetUrl": "DS54",
       "category": "Q.CD",
@@ -1658,6 +2519,26 @@
       "room": "KAREN AVERY 129.6, BOOTS ON THE GROUND 018"
     },
     {
+      "assetId": "JD4021-MF-129.6-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjVTQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "KAREN AVERY 129.6, PULL PLANNING 016"
+    },
+    {
+      "assetId": "JD4021-MF-129.6-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApg6A",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": "KAREN AVERY 129.6"
+    },
+    {
       "assetId": "JD4021-MF-129.7-25INT-DS-01",
       "assetUrl": "DS55",
       "category": "Q.CD",
@@ -1666,6 +2547,16 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "HOTEL 129.7, BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "JD4021-MF-129.7-27COM-DF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAD6PHhYp1Fl7FyCTAEUbPzAApg5w",
+      "category": "Q.CD",
+      "department": "",
+      "entityName": "",
+      "generalName": "Data Outlet - Funiture Feed",
+      "level": "MAIN FLOOR",
+      "room": "HOTEL 129.7, STORAGE 017"
     },
     {
       "assetId": "JD4021-MF-129.8-25INT-DS-01",
@@ -1686,6 +2577,36 @@
       "generalName": "Desk Occupancy Sensor",
       "level": "MAIN FLOOR",
       "room": "ED VON ROEMER 129.9, STORAGE 017"
+    },
+    {
+      "assetId": "JD4021-MF-131-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjUPg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "SHORE THE CORE 131, PULL PLANNING 016"
+    },
+    {
+      "assetId": "JD4021-MF-131-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjUfA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "SHORE THE CORE 131, FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-MF-132-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjUxA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "BAM 132, FITNESS 015"
     },
     {
       "assetId": "JD4021-MF-133.1-26ELE-LP-01",
@@ -1798,6 +2719,36 @@
       "room": "HOTEL 133J, PULL PLANNING 016"
     },
     {
+      "assetId": "JD4021-MF-135-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjdgA",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "JANITOR 135"
+    },
+    {
+      "assetId": "JD4021-MF-P1.02-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjJCg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02, COPY 021"
+    },
+    {
+      "assetId": "JD4021-MF-P1.02-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjJXQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02, OFFICE 023"
+    },
+    {
       "assetId": "JD4021-MF-P1.02-28ESS-CR-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAC6YMshJChGp7kDjX1gxUmuABdufA",
       "category": "Q.SD",
@@ -1806,6 +2757,16 @@
       "generalName": "Card Reader",
       "level": "MAIN FLOOR",
       "room": "PRINT ROOM 1.02 P1.02"
+    },
+    {
+      "assetId": "JD4021-MF-W1.02-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjGWg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02"
     },
     {
       "assetId": "JD4021-MF-W1.03-26ELE-RF-01",
@@ -1848,6 +2809,16 @@
       "room": ""
     },
     {
+      "assetId": "JD4021-MF-W1.05-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjIbQ",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.05 W1.05"
+    },
+    {
       "assetId": "JD4021-MF-W1.05-44POL-AQ-01",
       "assetUrl": "AS-18",
       "category": "Q.CD",
@@ -1856,6 +2827,26 @@
       "generalName": "Air Quality Sensor",
       "level": "MAIN FLOOR",
       "room": "WALKWAY 1.05 W1.05"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-26ELE-ER-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjTqg",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.08 W1.08, PULL PLANNING 016"
+    },
+    {
+      "assetId": "JD4021-MF-W1.08-26ELE-ER-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=o1yVV15jRhyxTB5CUsSd1AAAAAAGpxgwpBZD9a91i_qwZyf4AAjltw",
+      "category": "E.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Electrical Receptacle",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.08 W1.08, STAIRS 02 S02, STAIR 027"
     },
     {
       "assetId": "JD4021-MF-W1.08-26ELE-LP-01",
@@ -1968,6 +2959,16 @@
       "room": "WALKWAY 1.10 W1.10"
     },
     {
+      "assetId": "JD4021-RF-RF.01-48EPG-SP-03",
+      "assetUrl": "SP-C",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "SP-C",
+      "generalName": "Solar Panel",
+      "level": "LOWER FLOOR",
+      "room": ""
+    },
+    {
       "assetId": "JD4021-ST-PL.01-26ELE-PL-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=o1yVV15jRhyxTB5CUsSd1AAAAADX2Pf3m1FPfqxKUHpKZM-bABhdiQ",
       "category": "E.LF",
@@ -2009,5 +3010,5 @@
     }
   ],
   "complete": false,
-  "updatedAt": "2026-08-14T16:46:08.802Z"
+  "updatedAt": "2026-08-14T16:46:11.681Z"
 }
