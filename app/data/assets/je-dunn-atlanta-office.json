@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-07-31T12:32:28.307Z",
-  "totalAssets": 1503,
+  "lastUpdated": "2026-08-14T16:23:51.297Z",
+  "totalAssets": 1504,
   "assets": [
     {
       "assetId": "JD4021-LF-0.01-08OPE-GD-01",
@@ -4534,6 +4534,16 @@
     },
     {
       "assetId": "JD4021-LF-036-11EQU-KA-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAB9YAv5NvFEEbkNy9FtPxFiAB1rEw",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "LOWER FLOOR",
+      "room": "DEEP DIVE 036"
+    },
+    {
+      "assetId": "JD4021-LF-036-11EQU-KA-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA-K_tWuyRB77MGsHf_Pr9YAB1jBw",
       "category": "Q.Fu.Fu",
       "department": "",
@@ -4584,7 +4594,7 @@
     },
     {
       "assetId": "JD4021-LF-036-26ELE-ER-01",
-      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAACUg_lCYZZHS4c8FlaOiyPMABkVTw",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=o1yVV15jRhyxTB5CUsSd1AAAAAB67PbmmUxF55mDQrVRMybCAAj8gw",
       "category": "E.Fi",
       "department": "",
       "entityName": "",
