@@ -3,6 +3,7 @@
   "modelUrn": "urn:adsk.dtm:I8zS7A4ISR655jb8_Z32BA",
   "totalBatches": 6,
   "batchesReceived": [
+    1,
     2,
     3
   ],
@@ -18,6 +19,26 @@
       "room": "WALKWAY 0.01 W0.01"
     },
     {
+      "assetId": "JD4021-LF-001A-08OPE-WD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAiLYItxqhF0qdkFNeXJxfjABjM1Q",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "93",
+      "generalName": "Wood Doors",
+      "level": "LOWER FLOOR",
+      "room": "IT 001A, WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-004-08OPE-MIR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAS7uGtq_VIvL_3rm72NAjUABjT9w",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Mirros",
+      "level": "LOWER FLOOR",
+      "room": "MEN 004"
+    },
+    {
       "assetId": "JD4021-LF-004-08OPE-WD-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABGWHpwmWxOxYOZNqW66JpyABKCSA",
       "category": "B.Do",
@@ -26,6 +47,46 @@
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
       "room": "MEN 004"
+    },
+    {
+      "assetId": "JD4021-LF-006.1-12FUR-WT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAVcB4xLb5CC5MQylXzbERtAB3MHw",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Work Table",
+      "level": "LOWER FLOOR",
+      "room": "COLLABORATION 006.1"
+    },
+    {
+      "assetId": "JD4021-LF-006.1-12FUR-WT-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAVcB4xLb5CC5MQylXzbERtAB3H5Q",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Work Table",
+      "level": "LOWER FLOOR",
+      "room": "COLLABORATION 006.1"
+    },
+    {
+      "assetId": "JD4021-LF-006.1-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAVcB4xLb5CC5MQylXzbERtAB3IsA",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "LOWER FLOOR",
+      "room": "COLLABORATION 006.1"
+    },
+    {
+      "assetId": "JD4021-LF-007-08OPE-MIR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAS7uGtq_VIvL_3rm72NAjUABjUDQ",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Mirros",
+      "level": "LOWER FLOOR",
+      "room": "WOMEN 007"
     },
     {
       "assetId": "JD4021-LF-007-08OPE-WD-05",
@@ -48,6 +109,66 @@
       "room": "WOMEN 007, LOUNGE 008"
     },
     {
+      "assetId": "JD4021-LF-010-08OPE-WD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABU1VQ",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "70",
+      "generalName": "Wood Doors",
+      "level": "LOWER FLOOR",
+      "room": "FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-LF-010-10SPE-PF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABU1Vg",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Plumbing Fixtures",
+      "level": "LOWER FLOOR",
+      "room": "RR 010"
+    },
+    {
+      "assetId": "JD4021-LF-010-22PLU-PF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABU1WA",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Plumbing Fixtures",
+      "level": "LOWER FLOOR",
+      "room": "RR 010"
+    },
+    {
+      "assetId": "JD4021-LF-010-22PLU-PF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABU1WQ",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Plumbing Fixtures",
+      "level": "LOWER FLOOR",
+      "room": "RR 010"
+    },
+    {
+      "assetId": "JD4021-LF-011-22PLU-PF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUxDw",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Plumbing Fixtures",
+      "level": "LOWER FLOOR",
+      "room": "RR 011"
+    },
+    {
+      "assetId": "JD4021-LF-011-22PLU-PF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUyTA",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Plumbing Fixtures",
+      "level": "LOWER FLOOR",
+      "room": "RR 011"
+    },
+    {
       "assetId": "JD4021-LF-011B-08OPE-WD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABtd0NXaRxM-7Zdfpv_aVZIACEXcQ",
       "category": "B.Do",
@@ -56,6 +177,76 @@
       "generalName": "Wood Doors",
       "level": "LOWER FLOOR",
       "room": "EQUIPMENT ROOM 001B"
+    },
+    {
+      "assetId": "JD4021-LF-012-22PLU-PF-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUyIw",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Plumbing Fixtures",
+      "level": "LOWER FLOOR",
+      "room": "RR 012"
+    },
+    {
+      "assetId": "JD4021-LF-012-22PLU-PF-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUyxA",
+      "category": "P.Fi",
+      "department": "",
+      "entityName": "",
+      "generalName": "Plumbing Fixtures",
+      "level": "LOWER FLOOR",
+      "room": "RR 012"
+    },
+    {
+      "assetId": "JD4021-LF-013-08OPE-WD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABU3fw",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "75",
+      "generalName": "Wood Doors",
+      "level": "LOWER FLOOR",
+      "room": "STORAGE 013, FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-LF-015-08OPE-WD-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABU3PQ",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "74",
+      "generalName": "Wood Doors",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.07 W0.07, FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-LF-018-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUW8Q",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "LOWER FLOOR",
+      "room": "BOOTS ON THE GROUND 018"
+    },
+    {
+      "assetId": "JD4021-LF-022-08OPE-GD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUPpA",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "61",
+      "generalName": "Glass Doors",
+      "level": "LOWER FLOOR",
+      "room": "BOOTS ON THE GROUND 018, ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-LF-022-08OPE-GD-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUUyQ",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "62",
+      "generalName": "Glass Doors",
+      "level": "LOWER FLOOR",
+      "room": "BOOTS ON THE GROUND 018, ROACH COACH 022"
     },
     {
       "assetId": "JD4021-LF-022-08OPE-GD-03",
@@ -78,6 +269,26 @@
       "room": "ROACH COACH 022"
     },
     {
+      "assetId": "JD4021-LF-022-11EQU-KA-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAYQEIoF1JDiIVZVtQm12FtACgjRw",
+      "category": "Q",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "LOWER FLOOR",
+      "room": "ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-LF-022-11EQU-KA-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAYQEIoF1JDiIVZVtQm12FtACglCA",
+      "category": "Q",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "LOWER FLOOR",
+      "room": "ROACH COACH 022"
+    },
+    {
       "assetId": "JD4021-LF-022-11EQU-KA-03",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABLEaiz7KhHeYXD8DI2QPrYACAgTQ",
       "category": "Q",
@@ -86,6 +297,46 @@
       "generalName": "Kitchen Appliances",
       "level": "LOWER FLOOR",
       "room": "ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-LF-022-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUYCQ",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "LOWER FLOOR",
+      "room": "ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-LF-022-27COM-DS-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAQX1jeUFtJa7R9mGw7HAs1ABUYWg",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "LOWER FLOOR",
+      "room": "ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-LF-023-12FUR-HT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAprb7uHGpBqJVp1JU2ulk5AB7F1g",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Hotel Table",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04, OFFICE 023"
+    },
+    {
+      "assetId": "JD4021-LF-024-12FUR-WT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAprb7uHGpBqJVp1JU2ulk5AB68cQ",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Work Table",
+      "level": "LOWER FLOOR",
+      "room": "OUTSIDE THE BOX 024"
     },
     {
       "assetId": "JD4021-LF-025-08OPE-GD-01",
@@ -168,6 +419,46 @@
       "room": "IN THE BALLPARK 035, WALKWAY 0.01 W0.01"
     },
     {
+      "assetId": "JD4021-LF-035-11EQU-KA-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAApqeDI8Q9PHqYexhPBpkV-AB2Dnw",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "LOWER FLOOR",
+      "room": "IN THE BALLPARK 035"
+    },
+    {
+      "assetId": "JD4021-LF-035-12FUR-WT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAApqeDI8Q9PHqYexhPBpkV-AB2Dog",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Work Table",
+      "level": "LOWER FLOOR",
+      "room": "IN THE BALLPARK 035"
+    },
+    {
+      "assetId": "JD4021-LF-035-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAApqeDI8Q9PHqYexhPBpkV-AB2DoA",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "LOWER FLOOR",
+      "room": "IN THE BALLPARK 035"
+    },
+    {
+      "assetId": "JD4021-LF-035-27COM-DS-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAApqeDI8Q9PHqYexhPBpkV-AB2DoQ",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "LOWER FLOOR",
+      "room": "IN THE BALLPARK 035"
+    },
+    {
       "assetId": "JD4021-LF-036-08OPE-GD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABqaYi95dBEWoN-z1Egmb4aAB0ALw",
       "category": "B.Do",
@@ -218,6 +509,186 @@
       "room": "DEEP DIVE 036"
     },
     {
+      "assetId": "JD4021-LF-1.2-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cZQ",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "KYLE WOOD 001.2, LINDSEY VARRA 001.3"
+    },
+    {
+      "assetId": "JD4021-LF-1.3-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cbQ",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "ANDY GREEN 001.4"
+    },
+    {
+      "assetId": "JD4021-LF-1.4-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cdQ",
+      "category": "Q.Fu.Fu",
+      "department": "HEALTHCARE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.01 W0.01"
+    },
+    {
+      "assetId": "JD4021-LF-2.1-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cGA",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-2.11-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cIg",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "BENJAMIN SZUBSKI 002.11, PATRICK REDMAN 002.12"
+    },
+    {
+      "assetId": "JD4021-LF-2.12-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cKg",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "NANCY COVE 002.13"
+    },
+    {
+      "assetId": "JD4021-LF-2.13-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cMg",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-2.14-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cyA",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "CHRIS HARM 002.14, MICHAEL MORGAN 002.15"
+    },
+    {
+      "assetId": "JD4021-LF-2.15-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2c0A",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "TODD STUART 002.16"
+    },
+    {
+      "assetId": "JD4021-LF-2.16-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2c2A",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-2.2-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2bxw",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "BRENT STRENGTH 002.2, RYAN WILSON 002.3"
+    },
+    {
+      "assetId": "JD4021-LF-2.3-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2bzw",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "TAMMI HILL 002.4"
+    },
+    {
+      "assetId": "JD4021-LF-2.4-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2b1w",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-2.5-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2b4Q",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "SCOTT BODDEN 002.5, HOTEL 002.6"
+    },
+    {
+      "assetId": "JD4021-LF-2.6-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2b6Q",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "ERIK MAGSAMEN 002.7"
+    },
+    {
+      "assetId": "JD4021-LF-2.7-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2b8Q",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
+    },
+    {
+      "assetId": "JD4021-LF-2.8-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cCA",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "STEVE HAGLUND 002.8, STEPHEN OEHRIG 002.9"
+    },
+    {
+      "assetId": "JD4021-LF-2.9-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2ywFrs3dA67NLcxdYr9ezAB2cEA",
+      "category": "Q.Fu.Fu",
+      "department": "INDUSTRIAL",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WILL CALLIER 002.10"
+    },
+    {
       "assetId": "JD4021-LF-26.1-12FUR-OD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAABTXoldIahAD4Fbsso_ChtOAB4rww",
       "category": "Q.Fu.Fu",
@@ -256,6 +727,36 @@
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
       "room": "MARQUES LOWE 026.12, REGGIE POPE 026.13"
+    },
+    {
+      "assetId": "JD4021-LF-26.14-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAARxh4xL7xB2Y_nCsvEul0oACTIAg",
+      "category": "Q.Fu.Fu",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "PHILLIP NGUYEN 026.14"
+    },
+    {
+      "assetId": "JD4021-LF-26.15-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAARxh4xL7xB2Y_nCsvEul0oACTICQ",
+      "category": "Q.Fu.Fu",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "COLLABORATION 026.1"
+    },
+    {
+      "assetId": "JD4021-LF-26.16-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAARxh4xL7xB2Y_nCsvEul0oACTIEA",
+      "category": "Q.Fu.Fu",
+      "department": "AVIATION",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.8-12FUR-OD-01",
@@ -316,6 +817,66 @@
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
       "room": "ARTHUR HINSHAW 003.12, CHRIS ANDREWS 003.13"
+    },
+    {
+      "assetId": "JD4021-LF-3.2-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAyldr1mq1GX6T3rYmQdOyrAB0gdg",
+      "category": "Q.Fu.Fu",
+      "department": "QUALITY AND SCHED",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-3.3-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAyldr1mq1GX6T3rYmQdOyrAB0gbQ",
+      "category": "Q.Fu.Fu",
+      "department": "QUALITY AND SCHED",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "DAVID YOUNG 003.2"
+    },
+    {
+      "assetId": "JD4021-LF-3.4-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAyldr1mq1GX6T3rYmQdOyrAB0gDw",
+      "category": "Q.Fu.Fu",
+      "department": "QUALITY AND SCHED",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "REESE MOORE 003.5"
+    },
+    {
+      "assetId": "JD4021-LF-3.5-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAyldr1mq1GX6T3rYmQdOyrAB0gGA",
+      "category": "Q.Fu.Fu",
+      "department": "APTITUDE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-3.6-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAyldr1mq1GX6T3rYmQdOyrAB0gBA",
+      "category": "Q.Fu.Fu",
+      "department": "APTITUDE",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "WALKWAY 0.02 W0.02"
+    },
+    {
+      "assetId": "JD4021-LF-3.7-12FUR-OD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/EQwJg-10TpOHiy2plPN41w?selection=I8zS7A4ISR655jb8_Z32BAAAAAAyldr1mq1GX6T3rYmQdOyrAB0f-w",
+      "category": "Q.Fu.Fu",
+      "department": "QUALITY AND SCHED",
+      "entityName": "",
+      "generalName": "Office Desk",
+      "level": "LOWER FLOOR",
+      "room": "BRIAN HOLMES 003.6"
     },
     {
       "assetId": "JD4021-LF-3.8-12FUR-OD-01",
@@ -528,12 +1089,32 @@
       "room": "WALKWAY 1.02 W1.02, BOTTOM LINE 102"
     },
     {
+      "assetId": "JD4021-MF-102-11EQU-KA-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAMM5yP35JOJLkeelinkgN-ACWR3w",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "MAIN FLOOR",
+      "room": "BOTTOM LINE 102"
+    },
+    {
       "assetId": "JD4021-MF-102-11EQU-KA-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABilTxVkg9Oi7L5Ud-88P1hAChEow",
       "category": "Q.Fu.Fu",
       "department": "",
       "entityName": "",
       "generalName": "Kitchen Appliances",
+      "level": "MAIN FLOOR",
+      "room": "BOTTOM LINE 102"
+    },
+    {
+      "assetId": "JD4021-MF-102-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAA0Cp-D6spNM555pt-CYm_-ABkrpA",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
       "level": "MAIN FLOOR",
       "room": "BOTTOM LINE 102"
     },
@@ -558,6 +1139,16 @@
       "room": "WALKWAY 1.02 W1.02, WIN WIN 103"
     },
     {
+      "assetId": "JD4021-MF-103-11EQU-KA-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAMM5yP35JOJLkeelinkgN-ACWRtg",
+      "category": "E.Eq",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "MAIN FLOOR",
+      "room": "WIN WIN 103"
+    },
+    {
       "assetId": "JD4021-MF-103-11EQU-KA-02",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABilTxVkg9Oi7L5Ud-88P1hAChEuA",
       "category": "Q.Fu.Fu",
@@ -568,6 +1159,56 @@
       "room": "WIN WIN 103"
     },
     {
+      "assetId": "JD4021-MF-103-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAA0Cp-D6spNM555pt-CYm_-ABkrRQ",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "MAIN FLOOR",
+      "room": "WIN WIN 103"
+    },
+    {
+      "assetId": "JD4021-MF-104-08OPE-GD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAKCHrEHhhKtIKPqICn8zf8ABEuvg",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "10",
+      "generalName": "Glass Doors",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02, THE SILO 104"
+    },
+    {
+      "assetId": "JD4021-MF-104-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAA0Cp-D6spNM555pt-CYm_-ABksyw",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "MAIN FLOOR",
+      "room": "THE SILO 104"
+    },
+    {
+      "assetId": "JD4021-MF-105-08OPE-GD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAKCHrEHhhKtIKPqICn8zf8ABEvBQ",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "11",
+      "generalName": "Glass Doors",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.02 W1.02, CIRCLE BACK 105"
+    },
+    {
+      "assetId": "JD4021-MF-105-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAA0Cp-D6spNM555pt-CYm_-ABks9A",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "MAIN FLOOR",
+      "room": "CIRCLE BACK 105"
+    },
+    {
       "assetId": "JD4021-MF-106.1-12FUR-OD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABgxPm1fppAZbcUi9lnUZleACLsSA",
       "category": "Q.Fu.Fu",
@@ -576,6 +1217,36 @@
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
       "room": "ALYSSA CHAPLIN 106.10"
+    },
+    {
+      "assetId": "JD4021-MF-106.1-12FUR-WT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAEuFoUMeBL7oWyLhTd4r_fACElyg",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Work Table",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 106.1"
+    },
+    {
+      "assetId": "JD4021-MF-106.1-12FUR-WT-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAEuFoUMeBL7oWyLhTd4r_fACElyA",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Work Table",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 106.1"
+    },
+    {
+      "assetId": "JD4021-MF-106.1-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAEuFoUMeBL7oWyLhTd4r_fACElyQ",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 106.1"
     },
     {
       "assetId": "JD4021-MF-106.11-12FUR-OD-01",
@@ -1058,6 +1729,36 @@
       "room": "PARKING LOT 117"
     },
     {
+      "assetId": "JD4021-MF-118-12FUR-ED-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAApM-JW1lxAL56ZGfILtWZ9ABFMnw",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Executive Desk",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 118"
+    },
+    {
+      "assetId": "JD4021-MF-119-12FUR-ED-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAApM-JW1lxAL56ZGfILtWZ9ABFNrg",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Executive Desk",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 119"
+    },
+    {
+      "assetId": "JD4021-MF-120-12FUR-ED-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAApM-JW1lxAL56ZGfILtWZ9ABFM2g",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Executive Desk",
+      "level": "MAIN FLOOR",
+      "room": "OFFICE 120"
+    },
+    {
       "assetId": "JD4021-MF-121-12FUR-ED-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABNA3JsM-lBy64LImsbCjVmACIXWQ",
       "category": "Q.Fu.Fu",
@@ -1066,6 +1767,16 @@
       "generalName": "Executive Desk",
       "level": "MAIN FLOOR",
       "room": "OFFICE 121"
+    },
+    {
+      "assetId": "JD4021-MF-122.1-08OPE-GD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAKCHrEHhhKtIKPqICn8zf8ABE2Hg",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "12",
+      "generalName": "Glass Doors",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 122.1"
     },
     {
       "assetId": "JD4021-MF-122.1-12FUR-OD-01",
@@ -1218,6 +1929,26 @@
       "room": "JO TATUM 122.9"
     },
     {
+      "assetId": "JD4021-MF-125-08OPE-GD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAvjDnFXWBFc76z9RNZwfZMABg8rA",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "90",
+      "generalName": "Glass Doors",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02, LEVERAGE 125, BOOTS ON THE GROUND 018, ROACH COACH 022"
+    },
+    {
+      "assetId": "JD4021-MF-126-08OPE-GD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAvjDnFXWBFc76z9RNZwfZMABg8lQ",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "89",
+      "generalName": "Glass Doors",
+      "level": "MAIN FLOOR",
+      "room": "PRINT ROOM 1.02 P1.02, SYNERGY 126, BOOTS ON THE GROUND 018"
+    },
+    {
       "assetId": "JD4021-MF-127-11EQU-KA-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABZAN7unMlFAKMUscwOT8cIABavwQ",
       "category": "Q",
@@ -1228,12 +1959,52 @@
       "room": "CAFE 127"
     },
     {
+      "assetId": "JD4021-MF-127-11EQU-KA-02",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAYQEIoF1JDiIVZVtQm12FtACgGjA",
+      "category": "Q",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "MAIN FLOOR",
+      "room": "ROACH COACH 022, CAFE 127"
+    },
+    {
+      "assetId": "JD4021-MF-127-11EQU-KA-04",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAYQEIoF1JDiIVZVtQm12FtACfwSQ",
+      "category": "Q",
+      "department": "",
+      "entityName": "",
+      "generalName": "Kitchen Appliances",
+      "level": "MAIN FLOOR",
+      "room": "CAFE 127"
+    },
+    {
+      "assetId": "JD4021-MF-127-12FUR-WT-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAWPlX4wBdDr5AgHUyd8hzyACDktg",
+      "category": "Q.Fu.Fu",
+      "department": "",
+      "entityName": "",
+      "generalName": "Work Table",
+      "level": "MAIN FLOOR",
+      "room": "CAFE 127"
+    },
+    {
       "assetId": "JD4021-MF-127-22PLU-KS-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABX2lklNOlG_56IA_UjVXnfABfl9A",
       "category": "P.Fi",
       "department": "",
       "entityName": "",
       "generalName": "Kitchen Sink",
+      "level": "MAIN FLOOR",
+      "room": "CAFE 127"
+    },
+    {
+      "assetId": "JD4021-MF-127-27COM-DS-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAABXE8tzwNO8rMRc9yZagD3ACDZLg",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Display Screen",
       "level": "MAIN FLOOR",
       "room": "CAFE 127"
     },
@@ -1358,6 +2129,36 @@
       "room": "ED VON ROEMER 129.9"
     },
     {
+      "assetId": "JD4021-MF-131-08OPE-GD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAKCHrEHhhKtIKPqICn8zf8ABElbw",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "9",
+      "generalName": "Glass Doors",
+      "level": "MAIN FLOOR",
+      "room": "WALKWAY 1.09 W1.09, SHORE THE CORE 131, FITNESS 015"
+    },
+    {
+      "assetId": "JD4021-MF-133B-08OPE-WD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAWx3cxHH5PXogr2kiklOtQACKLDg",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "244",
+      "generalName": "Wood Doors",
+      "level": "MAIN FLOOR",
+      "room": "ELECTRICAL 133C, LAN 133B"
+    },
+    {
+      "assetId": "JD4021-MF-133C-08OPE-WD-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAWx3cxHH5PXogr2kiklOtQACKJ8g",
+      "category": "B.Do",
+      "department": "",
+      "entityName": "243",
+      "generalName": "Wood Doors",
+      "level": "MAIN FLOOR",
+      "room": "COLLABORATION 133.1, ELECTRICAL 133C"
+    },
+    {
       "assetId": "JD4021-MF-133J-12FUR-OD-01",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAABeFIV7qKVFq51fnKS0H3rRACLnRw",
       "category": "Q.Fu.Fu",
@@ -1376,6 +2177,16 @@
       "generalName": "Office Desk",
       "level": "MAIN FLOOR",
       "room": "CHARTAVIA STEPHENS 133LL"
+    },
+    {
+      "assetId": "JD4021-MF-134-08OPE-MIR-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=I8zS7A4ISR655jb8_Z32BAAAAAAS7uGtq_VIvL_3rm72NAjUABjTyA",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "Mirros",
+      "level": "MAIN FLOOR",
+      "room": "WOMEN 134"
     },
     {
       "assetId": "JD4021-MF-135-08OPE-WD-01",
@@ -1406,8 +2217,18 @@
       "generalName": "Glass Doors",
       "level": "MAIN FLOOR",
       "room": ""
+    },
+    {
+      "assetId": "JD4021-MF-EN.01-10SPE-FP-01",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q?selection=I8zS7A4ISR655jb8_Z32BAAAAAA2FGPFlFhIApNzSnlnMNgVACTsgA",
+      "category": "",
+      "department": "",
+      "entityName": "",
+      "generalName": "FLAG POLL",
+      "level": "MAIN FLOOR",
+      "room": ""
     }
   ],
   "complete": false,
-  "updatedAt": "2026-08-14T16:39:54.911Z"
+  "updatedAt": "2026-08-14T16:40:12.269Z"
 }
