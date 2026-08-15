@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<!--
+  Illustrative CMMS work-order mock in the style of the IBM Maximo Manage
+  "Work Orders" Role-Based Application (RBA), MAS Manage 8.11. Original HTML;
+  not affiliated with or endorsed by IBM. The product wordmark (".brand b")
+  is a one-line change if you'd rather show a generic name or your own CMMS.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Work Orders — WO 10472</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --black:#161616; --white:#fff;
+    --g10:#f4f4f4; --g20:#e0e0e0; --g30:#c6c6c6; --g50:#8d8d8d; --g60:#6f6f6f; --g70:#525252; --g90:#262626;
+    --blue:#0f62fe; --blue-hover:#0353e9; --blue-light:#edf5ff; --blue-border:#a6c8ff; --blue-dark:#0043ce;
+    --green:#24a148; --green-bg:#defbe6; --amber:#f1c21b; --red:#da1e28;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{font-family:"IBM Plex Sans",-apple-system,system-ui,sans-serif;background:var(--g10);color:var(--black);
+    font-size:14px;line-height:1.4;-webkit-font-smoothing:antialiased;}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace;}
+  a{color:var(--blue);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  button{font-family:inherit;cursor:pointer;border:none;background:none;}
+  :focus-visible{outline:2px solid var(--blue);outline-offset:2px;}
+  .link{color:var(--blue);cursor:pointer;}
+  .link:hover{text-decoration:underline;}
+  svg{stroke-linecap:round;stroke-linejoin:round;}
+
+  /* ---- app bar ---- */
+  .appbar{height:48px;background:var(--black);color:#f4f4f4;display:flex;align-items:center;padding:0 16px;position:sticky;top:0;z-index:20;}
+  .appbar .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;width:16px;height:16px;margin-right:14px;}
+  .appbar .grid i{background:#c6c6c6;border-radius:1px;}
+  .brand{font-size:15px;color:#c6c6c6;white-space:nowrap;}
+  .brand b{color:#fff;font-weight:600;}
+  .appbar .crumb{margin-left:16px;color:#c6c6c6;font-size:14px;}
+  .appbar .crumb b{color:#f4f4f4;font-weight:500;}
+  .appbar .sp{flex:1;}
+  .appbar .ic{width:36px;height:36px;display:grid;place-items:center;}
+  .appbar .ic:hover{background:#333;}
+  .appbar .ic svg{stroke:#f4f4f4;fill:none;stroke-width:1.6;}
+  .appbar .ava{width:28px;height:28px;border-radius:50%;background:#393939;color:#fff;font-size:12px;font-weight:600;display:grid;place-items:center;margin-left:8px;}
+
+  /* ---- layout ---- */
+  .layout{display:flex;min-height:calc(100vh - 48px);}
+  .sidenav{width:210px;background:var(--white);border-right:1px solid var(--g20);flex:none;padding:8px 0;}
+  .sidenav .snhead{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--g60);padding:12px 16px 6px;}
+  .sidenav a{display:flex;align-items:center;gap:10px;padding:11px 16px;color:var(--g70);font-size:14px;border-left:3px solid transparent;}
+  .sidenav a:hover{background:var(--g10);text-decoration:none;}
+  .sidenav a.active{background:var(--blue-light);color:var(--black);font-weight:600;border-left-color:var(--blue);}
+  .sidenav a svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.5;}
+  .sidenav a .dot{width:6px;height:6px;border-radius:50%;background:var(--blue);margin-left:auto;}
+
+  .content{flex:1;min-width:0;background:var(--white);}
+  .work{display:flex;}
+  .main{flex:1;min-width:0;}
+  .attach{width:312px;flex:none;border-left:1px solid var(--g20);background:#fafafa;}
+  @media(max-width:1080px){.attach{display:none;}}
+
+  /* ---- record header ---- */
+  .rhead{padding:18px 28px 0;border-bottom:1px solid var(--g20);}
+  .rtop{display:flex;align-items:flex-start;gap:20px;}
+  .rtop .titlewrap{flex:1;min-width:0;}
+  .ey{font-size:12px;color:var(--g60);text-transform:uppercase;letter-spacing:.04em;margin-bottom:5px;}
+  .rtitle{margin:0;font-size:22px;font-weight:600;line-height:1.25;}
+  .rtitle .num{font-family:"IBM Plex Mono";}
+  .rtitle .sep{color:var(--g30);margin:0 8px;font-weight:300;}
+  .rtitle .desc{font-weight:400;color:var(--g90);}
+  .rtools{display:flex;align-items:center;gap:8px;flex:none;}
+  .recnav{display:flex;align-items:center;gap:4px;color:var(--g60);font-size:13px;}
+  .recnav button{width:28px;height:28px;display:grid;place-items:center;border:1px solid var(--g20);background:#fff;}
+  .recnav button:hover{background:var(--g10);}
+  .recnav svg{width:14px;height:14px;stroke:var(--g70);fill:none;stroke-width:1.6;}
+  .btn{height:36px;padding:0 15px;font-size:14px;display:inline-flex;align-items:center;gap:8px;}
+  .btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.6;}
+  .btn.dark{background:var(--black);color:#fff;}
+  .btn.dark:hover{background:#393939;}
+  .btn.kebab{width:36px;justify-content:center;border:1px solid var(--g20);color:var(--g70);background:#fff;padding:0;}
+  .btn.kebab:hover{background:var(--g10);}
+
+  .chiprow{display:flex;align-items:center;gap:10px;margin:14px 0 2px;flex-wrap:wrap;}
+  .wchip{display:inline-flex;align-items:center;gap:7px;font-size:13px;font-weight:600;padding:5px 12px;background:var(--g10);border:1px solid var(--g20);border-radius:2px;color:var(--g90);}
+  .wchip.prio{color:#8a4b00;}
+  .wchip.prio .sq{width:9px;height:9px;border-radius:2px;background:var(--amber);}
+  .wchip.wf{background:var(--blue-light);border-color:var(--blue-border);color:var(--blue-dark);}
+  .wchip.wf .sq{width:8px;height:8px;border-radius:50%;background:var(--blue);}
+  .vld{margin-left:auto;color:var(--blue);font-size:13px;display:inline-flex;align-items:center;gap:6px;}
+  .vld svg{width:15px;height:15px;stroke:var(--blue);fill:none;stroke-width:1.6;}
+
+  .statusbar{display:flex;align-items:stretch;gap:0;margin:16px 0 0;border-top:1px solid var(--g20);}
+  .step{flex:1;display:flex;flex-direction:column;gap:5px;padding:14px 8px 16px;position:relative;text-align:center;}
+  .step + .step::before{content:"";position:absolute;left:0;top:26px;width:1px;height:22px;background:var(--g20);}
+  .step .node{width:26px;height:26px;border-radius:50%;display:grid;place-items:center;margin:0 auto;font-size:12px;font-weight:700;}
+  .step.done .node{background:var(--green-bg);color:#0e6027;}
+  .step.done .node svg{width:14px;height:14px;stroke:var(--green);fill:none;stroke-width:2.2;}
+  .step.cur .node{background:var(--blue);color:#fff;box-shadow:0 0 0 4px var(--blue-light);}
+  .step.future .node{background:var(--g10);color:var(--g50);border:1px solid var(--g30);}
+  .step .stat{font-size:12px;font-weight:600;color:var(--g90);}
+  .step.future .stat{color:var(--g50);}
+  .step .when{font-size:11px;color:var(--g60);font-family:"IBM Plex Mono";}
+  .step.cur .stat{color:var(--blue-dark);}
+
+  .body{padding:8px 28px 40px;}
+  .sec{padding:20px 0;border-bottom:1px solid var(--g20);}
+  .sec:last-child{border-bottom:none;}
+  .sec h2{margin:0 0 14px;font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--g70);}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px 40px;}
+  @media(max-width:680px){.grid2{grid-template-columns:1fr;}}
+  .f label{display:block;font-size:12px;color:var(--g60);margin-bottom:4px;border-bottom:1px dotted transparent;width:fit-content;}
+  .f.help label{border-bottom-color:var(--g30);cursor:help;}
+  .f .v{font-size:15px;color:var(--g90);}
+  .f .v.mono{font-family:"IBM Plex Mono";}
+  .f .sub{font-size:12px;color:var(--g60);margin-top:2px;}
+  .f.full{grid-column:1 / -1;}
+
+  .ld{font-size:14px;line-height:1.6;color:var(--g90);}
+  .ld b{font-weight:600;}
+  .ld ol{margin:10px 0 0;padding-left:20px;}
+  .ld li{margin-bottom:4px;}
+  .ld .src{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+  .tag{font-family:"IBM Plex Mono";font-size:12px;background:var(--g10);border:1px solid var(--g20);border-radius:2px;padding:2px 7px;color:var(--g70);}
+
+  .assetimg{border:1px solid var(--g20);background:#fff;overflow:hidden;}
+  .assetimg .cap{font-size:11px;color:var(--g60);padding:8px 10px;border-top:1px solid var(--g20);font-family:"IBM Plex Mono";}
+
+  .apanel{padding:16px;}
+  .apanel h3{margin:0 0 4px;font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--g70);}
+  .apanel .hint{font-size:12px;color:var(--g60);margin:0 0 14px;}
+  .att{display:flex;align-items:flex-start;gap:12px;padding:12px;background:#fff;border:1px solid var(--g20);margin-bottom:10px;}
+  .att .ico{width:34px;height:34px;flex:none;border-radius:2px;display:grid;place-items:center;}
+  .att .ico.tandem{background:var(--blue-light);}
+  .att .ico.tandem svg{width:18px;height:18px;stroke:var(--blue-dark);fill:none;stroke-width:1.6;}
+  .att .ico.pdf{background:#fbe9e7;color:#b71c1c;font-size:10px;font-weight:700;font-family:"IBM Plex Mono";}
+  .att .meta{flex:1;min-width:0;}
+  .att .nm{font-size:13px;font-weight:600;color:var(--g90);line-height:1.3;}
+  .att .ty{font-size:11px;color:var(--g60);margin-top:2px;}
+  .att .launch{flex:none;width:30px;height:30px;display:grid;place-items:center;border:1px solid var(--g20);background:#fff;}
+  .att .launch:hover{background:var(--blue-light);border-color:var(--blue-border);}
+  .att .launch svg{width:15px;height:15px;stroke:var(--blue);fill:none;stroke-width:1.6;}
+  .apanel .addrow{margin-top:4px;}
+  .apanel .add{color:var(--blue);font-size:13px;display:inline-flex;align-items:center;gap:6px;}
+  .apanel .add svg{width:15px;height:15px;stroke:var(--blue);fill:none;stroke-width:1.6;}
+
+  .foot{padding:12px 28px;border-top:1px solid var(--g20);color:var(--g50);font-size:11px;background:#fff;}
+  .foot .mono{color:var(--g60);}
+</style>
+</head>
+<body>
+
+  <div class="appbar">
+    <span class="grid" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+    <span class="brand"><b>Maximo</b> Manage</span>
+    <span class="crumb">Work Orders &nbsp;›&nbsp; <b>WO 10472</b></span>
+    <span class="sp"></span>
+    <button class="ic" aria-label="Search"><svg viewBox="0 0 20 20" width="18" height="18"><circle cx="9" cy="9" r="6"/><line x1="13.5" y1="13.5" x2="18" y2="18"/></svg></button>
+    <button class="ic" aria-label="Help"><svg viewBox="0 0 20 20" width="18" height="18"><circle cx="10" cy="10" r="8"/><path d="M7.5 8a2.5 2.5 0 015 0c0 1.7-2.5 2-2.5 3.5"/><line x1="10" y1="14.5" x2="10" y2="14.6"/></svg></button>
+    <button class="ic" aria-label="Notifications"><svg viewBox="0 0 20 20" width="18" height="18"><path d="M6 8a4 4 0 018 0c0 4 1.5 5 1.5 5h-11S6 12 6 8z"/><path d="M8.5 16a1.5 1.5 0 003 0"/></svg></button>
+    <span class="ava">EB</span>
+  </div>
+
+  <div class="layout">
+
+    <nav class="sidenav">
+      <div class="snhead">Work Order 10472</div>
+      <a href="#" class="active"><svg viewBox="0 0 20 20"><rect x="3" y="3" width="14" height="14" rx="1"/><line x1="6" y1="7" x2="14" y2="7"/><line x1="6" y1="10" x2="14" y2="10"/><line x1="6" y1="13" x2="11" y2="13"/></svg>Summary</a>
+      <a href="#"><svg viewBox="0 0 20 20"><path d="M7 5h9M7 10h9M7 15h9"/><circle cx="3.5" cy="5" r="1.2"/><circle cx="3.5" cy="10" r="1.2"/><circle cx="3.5" cy="15" r="1.2"/></svg>Related Records</a>
+      <a href="#"><svg viewBox="0 0 20 20"><rect x="3" y="3" width="6" height="6" rx="1"/><rect x="11" y="11" width="6" height="6" rx="1"/><path d="M6 9v3a2 2 0 002 2h3"/></svg>Workflow Assignments<span class="dot" title="Workflow available"></span></a>
+      <a href="#"><svg viewBox="0 0 20 20"><rect x="4" y="3" width="12" height="14" rx="1"/><line x1="7" y1="7" x2="13" y2="7"/><line x1="7" y1="10" x2="13" y2="10"/><line x1="7" y1="13" x2="11" y2="13"/></svg>Work Log</a>
+      <a href="#"><svg viewBox="0 0 20 20"><path d="M3 5h14v9H8l-3 3v-3H3z"/></svg>Communication Log</a>
+    </nav>
+
+    <div class="content">
+      <div class="work">
+        <div class="main">
+
+          <div class="rhead">
+            <div class="rtop">
+              <div class="titlewrap">
+                <div class="ey">Work Orders · Summary</div>
+                <h1 class="rtitle"><span class="num">10472</span><span class="sep">|</span><span class="desc">PIU_01_11 — Low supply airflow, delivery below setpoint</span></h1>
+              </div>
+              <div class="rtools">
+                <div class="recnav">
+                  <button aria-label="Previous record"><svg viewBox="0 0 20 20"><path d="M12 5l-5 5 5 5"/></svg></button>
+                  <span>1 of 1</span>
+                  <button aria-label="Next record"><svg viewBox="0 0 20 20"><path d="M8 5l5 5-5 5"/></svg></button>
+                </div>
+                <button class="btn dark">Edit</button>
+                <button class="btn kebab" aria-label="Actions"><svg viewBox="0 0 20 20" width="16" height="16" stroke="currentColor" fill="none" stroke-width="1.8"><circle cx="10" cy="4" r="1"/><circle cx="10" cy="10" r="1"/><circle cx="10" cy="16" r="1"/></svg></button>
+              </div>
+            </div>
+
+            <div class="chiprow">
+              <span class="wchip">CM · Corrective Maintenance</span>
+              <span class="wchip prio"><span class="sq"></span>Priority 2 — High</span>
+              <span class="wchip wf"><span class="sq"></span>Workflow available</span>
+              <span class="vld"><svg viewBox="0 0 20 20"><path d="M4 6h12M4 10h12M4 14h8"/></svg>View Long Description</span>
+            </div>
+
+            <div class="statusbar">
+              <div class="step done">
+                <span class="node"><svg viewBox="0 0 20 20"><path d="M4 10l4 4 8-9"/></svg></span>
+                <span class="stat">WAPPR</span><span class="when">08/14 09:14</span>
+              </div>
+              <div class="step cur">
+                <span class="node">●</span>
+                <span class="stat">APPR</span><span class="when">08/14 09:15</span>
+              </div>
+              <div class="step future">
+                <span class="node">›</span>
+                <span class="stat">COMP</span><span class="when">—</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="body">
+
+            <div class="sec">
+              <h2>Details</h2>
+              <div class="grid2">
+                <div class="f help"><label>Work Order</label><div class="v mono">10472</div></div>
+                <div class="f help"><label>Status</label><div class="v">APPR — Approved</div></div>
+                <div class="f full help"><label>Description</label><div class="v">PIU_01_11 — Low supply airflow, delivery below setpoint</div></div>
+                <div class="f help"><label>Reported By</label><div class="v mono">TANDEM.ALERT</div><div class="sub">Condition alert · Autodesk Tandem</div></div>
+                <div class="f help"><label>Reported Date</label><div class="v mono">08/14/2026 09:14</div></div>
+                <div class="f help"><label>Owned By</label><div class="v link">HVAC-01</div><div class="sub">HVAC Maintenance — Zone East</div></div>
+                <div class="f help"><label>Site</label><div class="v mono">HQ-01</div></div>
+                <div class="f help"><label>GL Account</label><div class="v mono">6200-410-01</div></div>
+                <div class="f help"><label>Failure Class</label><div class="v link">AIRFLOW-DELIVERY</div></div>
+              </div>
+            </div>
+
+            <div class="sec">
+              <h2>Asset &amp; Location</h2>
+              <div class="grid2">
+                <div class="f help"><label>Asset</label><div class="v link mono">PIU_01_11</div><div class="sub">VariTrane parallel fan-powered box</div></div>
+                <div class="f help"><label>Location</label><div class="v link mono">WIN-WIN-103</div><div class="sub">WIN WIN 103 — Main Floor</div></div>
+                <div class="f help"><label>Parent</label><div class="v link mono">RTU-2</div><div class="sub">Rooftop unit — Zone East</div></div>
+                <div class="f help"><label>Classification</label><div class="v link">HVAC \ TERMINAL UNIT \ FPB</div><div class="sub">Fan-powered box, parallel</div></div>
+              </div>
+            </div>
+
+            <div class="sec">
+              <h2>Scheduling</h2>
+              <div class="grid2">
+                <div class="f help"><label>Target Start</label><div class="v mono">08/14/2026 13:00</div></div>
+                <div class="f help"><label>Target Finish</label><div class="v mono">08/14/2026 15:00</div></div>
+                <div class="f help"><label>Estimated Duration</label><div class="v mono">2:00</div></div>
+                <div class="f help"><label>Priority</label><div class="v">2 — High</div></div>
+              </div>
+            </div>
+
+            <div class="sec">
+              <h2>Job Details</h2>
+              <div class="grid2">
+                <div class="f help"><label>PM</label><div class="v" style="color:var(--g50)">—</div></div>
+                <div class="f help"><label>Job Plan</label><div class="v link mono">JP-PIU-AFLOW</div><div class="sub">PIU low-airflow diagnostic</div></div>
+                <div class="f help"><label>Safety Plan</label><div class="v" style="color:var(--g50)">—</div></div>
+                <div class="f help"><label>Contract</label><div class="v" style="color:var(--g50)">—</div></div>
+                <div class="f help"><label>Inspection Form</label><div class="v" style="color:var(--g50)">—</div></div>
+                <div class="f help"><label>Inspection Result</label><div class="v" style="color:var(--g50)">—</div></div>
+              </div>
+            </div>
+
+            <div class="sec">
+              <h2>Long Description</h2>
+              <div class="ld">
+                Condition alert raised by the building digital twin. Supply airflow on <b>PIU_01_11</b> is
+                trending below setpoint: delivered air measured <b>~552 CFM</b> against a desired <b>~624 CFM</b>,
+                holding below the <b>560 CFM</b> lower warn limit for a sustained interval. Fan commanded on;
+                damper driven to ~86% open; the airflow deficit persists while space temperature remains within
+                the comfort band. <b>Proactive service requested before occupant impact.</b>
+                <ol>
+                  <li>Inspect supply fan &amp; ECM motor; verify commanded vs. actual speed.</li>
+                  <li>Check filter and coil for obstruction / fouling; clear as needed.</li>
+                  <li>Verify airflow sensor calibration against a reference reading.</li>
+                  <li>Inspect damper actuator &amp; linkage; confirm full stroke.</li>
+                </ol>
+                <div class="src">Source <span class="tag">Autodesk Tandem</span> · alert rule <span class="tag">Airflow Delivery</span> · <span class="tag">condition-based</span></div>
+              </div>
+            </div>
+
+            <div class="sec">
+              <h2>Asset Image</h2>
+              <div class="assetimg" style="max-width:300px;">
+                <svg viewBox="0 0 300 150" width="300" height="150" style="display:block;background:#f7f9fb;">
+                  <rect x="34" y="40" width="150" height="70" rx="4" fill="#fff" stroke="#8d8d8d" stroke-width="1.5"/>
+                  <ellipse cx="34" cy="75" rx="12" ry="35" fill="#eef1f4" stroke="#8d8d8d" stroke-width="1.5"/>
+                  <circle cx="150" cy="75" r="22" fill="#fff" stroke="#525252" stroke-width="1.5"/>
+                  <g stroke="#525252" stroke-width="1.4" fill="none">
+                    <path d="M150 60c8 4 8 26 0 30M150 60c-8 4-8 26 0 30M136 75c4-8 24-8 28 0M136 75c4 8 24 8 28 0"/>
+                  </g>
+                  <circle cx="150" cy="75" r="3" fill="#525252"/>
+                  <g stroke="#3f8a6b" stroke-width="1.5"><line x1="196" y1="46" x2="196" y2="104"/><line x1="204" y1="46" x2="204" y2="104"/><line x1="212" y1="46" x2="212" y2="104"/><line x1="220" y1="46" x2="220" y2="104"/></g>
+                  <rect x="188" y="40" width="42" height="70" rx="3" fill="none" stroke="#8d8d8d" stroke-width="1.5"/>
+                  <text x="150" y="132" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#6f6f6f">PIU_01_11 · parallel FPB</text>
+                </svg>
+                <div class="cap">asset-piu-01-11.png</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <aside class="attach">
+          <div class="apanel">
+            <h3>Attachments</h3>
+            <p class="hint">Documents and web links on this work order.</p>
+
+            <div class="att">
+              <div class="ico tandem"><svg viewBox="0 0 20 20"><path d="M10 2l7 4v8l-7 4-7-4V6z"/><path d="M10 2v16M3 6l7 4 7-4"/></svg></div>
+              <div class="meta">
+                <div class="nm">Open asset in Tandem</div>
+                <div class="ty">Web link · digital twin</div>
+              </div>
+              <a class="launch" href="https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAB7EQkWgEdIxrP7ar6EtqrpAB2EsQ" target="_blank" rel="noopener" aria-label="Launch Tandem asset">
+                <svg viewBox="0 0 20 20"><path d="M8 4H4v12h12v-4"/><path d="M12 3h5v5"/><path d="M9 11l8-8"/></svg>
+              </a>
+            </div>
+
+            <div class="att">
+              <div class="ico pdf">PDF</div>
+              <div class="meta">
+                <div class="nm">O&amp;M Manual — PIU_01_11 (VariTrane)</div>
+                <div class="ty">Document · 2.4 MB</div>
+              </div>
+              <a class="launch" href="#" aria-label="Open document">
+                <svg viewBox="0 0 20 20"><path d="M8 4H4v12h12v-4"/><path d="M12 3h5v5"/><path d="M9 11l8-8"/></svg>
+              </a>
+            </div>
+
+            <div class="addrow"><span class="add"><svg viewBox="0 0 20 20"><path d="M10 4v12M4 10h12"/></svg>Add attachment</span></div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="foot"><span class="mono">Work Orders (RBA)</span> · record 10472 · site HQ-01 · illustrative demonstration environment</div>
+    </div>
+  </div>
+
+</body>
+</html>
