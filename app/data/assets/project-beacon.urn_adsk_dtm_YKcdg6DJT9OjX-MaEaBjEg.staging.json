@@ -502,7 +502,7 @@
       "assetId": "OM01-21N04-27COM-NS-04",
       "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:_mJ2b5aQTDiPvDaDCFARGg?selection=YKcdg6DJT9OjX-MaEaBjEgEAAADn9MekBCFFwLLZ7Rw2zLfhAE037Q",
       "category": "28ESS.NS - SEC Network Switch",
-      "documentation": "",
+      "documentation": "urn:adsk.dtd:EFswoUvVSb6FEMgZrRWGkA",
       "entityName": "SECSW-21N04-01",
       "generalName": "SEC Network Switch",
       "level": "LEVEL 21",
@@ -1076,5 +1076,5 @@
     }
   ],
   "complete": true,
-  "updatedAt": "2026-06-16T05:20:16.109Z"
+  "updatedAt": "2026-07-24T20:53:13.422Z"
 }
