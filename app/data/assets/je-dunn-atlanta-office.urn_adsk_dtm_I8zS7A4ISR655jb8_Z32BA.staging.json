@@ -1029,7 +1029,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.01 W0.01"
+      "room": "TERESA KIMBRO 001.10, WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-1.11-12FUR-OD-01",
@@ -1039,7 +1039,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.01 W0.01"
+      "room": "TIARA CHAMBLISS 001.11, WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-1.12-12FUR-OD-01",
@@ -1049,7 +1049,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "TIARA CHAMBLISS 001.11"
+      "room": "TIARA CHAMBLISS 001.11, HOTEL 001.12"
     },
     {
       "assetId": "JD4021-LF-1.13-12FUR-OD-01",
@@ -1059,7 +1059,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "HOTEL 001.12, JENNIFER YOUNG 001.13"
+      "room": "JENNIFER YOUNG 001.13"
     },
     {
       "assetId": "JD4021-LF-1.14-12FUR-OD-01",
@@ -1069,7 +1069,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "ADAM ALLISON 001.14, JERMAINE SHEFFIELD 001.15"
+      "room": "ADAM ALLISON 001.14"
     },
     {
       "assetId": "JD4021-LF-1.15-12FUR-OD-01",
@@ -1079,7 +1079,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "JASON SPELLER 001.16"
+      "room": "JERMAINE SHEFFIELD 001.15, JASON SPELLER 001.16"
     },
     {
       "assetId": "JD4021-LF-1.16-12FUR-OD-01",
@@ -1089,7 +1089,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.01 W0.01"
+      "room": "JASON SPELLER 001.16"
     },
     {
       "assetId": "JD4021-LF-1.2-12FUR-OD-01",
@@ -1099,7 +1099,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "KYLE WOOD 001.2, LINDSEY VARRA 001.3"
+      "room": "KYLE WOOD 001.2"
     },
     {
       "assetId": "JD4021-LF-1.3-12FUR-OD-01",
@@ -1109,7 +1109,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "ANDY GREEN 001.4"
+      "room": "LINDSEY VARRA 001.3, ANDY GREEN 001.4"
     },
     {
       "assetId": "JD4021-LF-1.4-12FUR-OD-01",
@@ -1119,7 +1119,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.01 W0.01"
+      "room": "ANDY GREEN 001.4, WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-1.5-12FUR-OD-01",
@@ -1129,7 +1129,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.01 W0.01"
+      "room": "TYLER ELDER 001.5, WALKWAY 0.01 W0.01"
     },
     {
       "assetId": "JD4021-LF-1.6-12FUR-OD-01",
@@ -1139,7 +1139,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "TYLER ELDER 001.5"
+      "room": "TYLER ELDER 001.5, ROBERT FULLERTON 001.6"
     },
     {
       "assetId": "JD4021-LF-1.7-12FUR-OD-01",
@@ -1149,7 +1149,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "ROBERT FULLERTON 001.6, CARLA BOWRON 001.7"
+      "room": "CARLA BOWRON 001.7"
     },
     {
       "assetId": "JD4021-LF-1.8-12FUR-OD-01",
@@ -1159,7 +1159,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "BRAD STOLZ 001.8, MIKE ADAMS 001.9"
+      "room": "BRAD STOLZ 001.8"
     },
     {
       "assetId": "JD4021-LF-1.9-12FUR-OD-01",
@@ -1169,7 +1169,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "TERESA KIMBRO 001.10"
+      "room": "MIKE ADAMS 001.9, TERESA KIMBRO 001.10"
     },
     {
       "assetId": "JD4021-LF-2.1-12FUR-OD-01",
@@ -1179,7 +1179,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "WILL CALLIER 002.10, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.11-12FUR-OD-01",
@@ -1189,7 +1189,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "BENJAMIN SZUBSKI 002.11, PATRICK REDMAN 002.12"
+      "room": "BENJAMIN SZUBSKI 002.11"
     },
     {
       "assetId": "JD4021-LF-2.12-12FUR-OD-01",
@@ -1199,7 +1199,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "NANCY COVE 002.13"
+      "room": "PATRICK REDMAN 002.12, NANCY COVE 002.13"
     },
     {
       "assetId": "JD4021-LF-2.13-12FUR-OD-01",
@@ -1209,7 +1209,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "NANCY COVE 002.13, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.14-12FUR-OD-01",
@@ -1219,7 +1219,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "CHRIS HARM 002.14, MICHAEL MORGAN 002.15"
+      "room": "CHRIS HARM 002.14"
     },
     {
       "assetId": "JD4021-LF-2.15-12FUR-OD-01",
@@ -1229,7 +1229,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "TODD STUART 002.16"
+      "room": "MICHAEL MORGAN 002.15, TODD STUART 002.16"
     },
     {
       "assetId": "JD4021-LF-2.16-12FUR-OD-01",
@@ -1239,7 +1239,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "TODD STUART 002.16, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.2-12FUR-OD-01",
@@ -1249,7 +1249,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "BRENT STRENGTH 002.2, RYAN WILSON 002.3"
+      "room": "BRENT STRENGTH 002.2"
     },
     {
       "assetId": "JD4021-LF-2.3-12FUR-OD-01",
@@ -1259,7 +1259,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "TAMMI HILL 002.4"
+      "room": "RYAN WILSON 002.3, TAMMI HILL 002.4"
     },
     {
       "assetId": "JD4021-LF-2.4-12FUR-OD-01",
@@ -1269,7 +1269,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "TAMMI HILL 002.4, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.5-12FUR-OD-01",
@@ -1279,7 +1279,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "SCOTT BODDEN 002.5, HOTEL 002.6"
+      "room": "SCOTT BODDEN 002.5"
     },
     {
       "assetId": "JD4021-LF-2.6-12FUR-OD-01",
@@ -1289,7 +1289,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "ERIK MAGSAMEN 002.7"
+      "room": "HOTEL 002.6, ERIK MAGSAMEN 002.7"
     },
     {
       "assetId": "JD4021-LF-2.7-12FUR-OD-01",
@@ -1299,7 +1299,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "ERIK MAGSAMEN 002.7, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-2.8-12FUR-OD-01",
@@ -1309,7 +1309,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "STEVE HAGLUND 002.8, STEPHEN OEHRIG 002.9"
+      "room": "STEVE HAGLUND 002.8"
     },
     {
       "assetId": "JD4021-LF-2.9-12FUR-OD-01",
@@ -1319,7 +1319,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WILL CALLIER 002.10"
+      "room": "STEPHEN OEHRIG 002.9, WILL CALLIER 002.10"
     },
     {
       "assetId": "JD4021-LF-26.1-12FUR-OD-01",
@@ -1329,7 +1329,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "HOTEL 026.10, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.11-12FUR-OD-01",
@@ -1339,7 +1339,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "HIAWATHA HILL 026.11, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.12-12FUR-OD-01",
@@ -1349,7 +1349,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "HIAWATHA HILL 026.11"
+      "room": "HIAWATHA HILL 026.11, MARQUES LOWE 026.12"
     },
     {
       "assetId": "JD4021-LF-26.13-12FUR-OD-01",
@@ -1359,7 +1359,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "MARQUES LOWE 026.12, REGGIE POPE 026.13"
+      "room": "REGGIE POPE 026.13"
     },
     {
       "assetId": "JD4021-LF-26.14-12FUR-OD-01",
@@ -1389,7 +1389,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "GARRICK SMITH 026.16, COLLABORATION 026.1, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.2-12FUR-OD-01",
@@ -1399,7 +1399,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "IANA TASSADA 026.2, ALEX VIDARTI 026.3"
+      "room": "IANA TASSADA 026.2"
     },
     {
       "assetId": "JD4021-LF-26.3-12FUR-OD-01",
@@ -1409,7 +1409,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "MICHELLE FREEMAN ROD 026.4"
+      "room": "ALEX VIDARTI 026.3, MICHELLE FREEMAN ROD 026.4"
     },
     {
       "assetId": "JD4021-LF-26.4-12FUR-OD-01",
@@ -1419,7 +1419,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "MICHELLE FREEMAN ROD 026.4, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.5-12FUR-OD-01",
@@ -1429,7 +1429,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.04 W0.04"
+      "room": "CATHY KASHIUS 026.5, WALKWAY 0.04 W0.04"
     },
     {
       "assetId": "JD4021-LF-26.6-12FUR-OD-01",
@@ -1439,7 +1439,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "CATHY KASHIUS 026.5"
+      "room": "CATHY KASHIUS 026.5, HOTEL 026.6"
     },
     {
       "assetId": "JD4021-LF-26.7-12FUR-OD-01",
@@ -1449,7 +1449,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "HOTEL 026.6, SAYAN SMITH 026.7"
+      "room": "SAYAN SMITH 026.7"
     },
     {
       "assetId": "JD4021-LF-26.8-12FUR-OD-01",
@@ -1459,7 +1459,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "PETER STEPHENSON 026.8, JERMAINE SHEFFIELD 026.9"
+      "room": "PETER STEPHENSON 026.8"
     },
     {
       "assetId": "JD4021-LF-26.9-12FUR-OD-01",
@@ -1469,7 +1469,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "HOTEL 026.10"
+      "room": "JERMAINE SHEFFIELD 026.9, HOTEL 026.10"
     },
     {
       "assetId": "JD4021-LF-3.1-12FUR-OD-01",
@@ -1479,7 +1479,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
+      "room": "WALKWAY 0.02 W0.02, MICHAEL ALDRICH 003.10"
     },
     {
       "assetId": "JD4021-LF-3.11-12FUR-OD-01",
@@ -1489,7 +1489,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
+      "room": "WALKWAY 0.02 W0.02, MITCH PURVIS 003.11"
     },
     {
       "assetId": "JD4021-LF-3.12-12FUR-OD-01",
@@ -1499,7 +1499,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "MITCH PURVIS 003.11"
+      "room": "MITCH PURVIS 003.11, ARTHUR HINSHAW 003.12"
     },
     {
       "assetId": "JD4021-LF-3.13-12FUR-OD-01",
@@ -1509,7 +1509,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "ARTHUR HINSHAW 003.12, CHRIS ANDREWS 003.13"
+      "room": "CHRIS ANDREWS 003.13"
     },
     {
       "assetId": "JD4021-LF-3.2-12FUR-OD-01",
@@ -1519,7 +1519,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
+      "room": "WALKWAY 0.02 W0.02, DAVID YOUNG 003.2"
     },
     {
       "assetId": "JD4021-LF-3.3-12FUR-OD-01",
@@ -1529,7 +1529,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "DAVID YOUNG 003.2"
+      "room": "DAVID YOUNG 003.2, CHAD MEADOWS 003.3"
     },
     {
       "assetId": "JD4021-LF-3.4-12FUR-OD-01",
@@ -1539,7 +1539,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "REESE MOORE 003.5"
+      "room": "MATTHEW HAGAN 003.4, REESE MOORE 003.5"
     },
     {
       "assetId": "JD4021-LF-3.5-12FUR-OD-01",
@@ -1549,7 +1549,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
+      "room": "WALKWAY 0.02 W0.02, REESE MOORE 003.5"
     },
     {
       "assetId": "JD4021-LF-3.6-12FUR-OD-01",
@@ -1559,7 +1559,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
+      "room": "WALKWAY 0.02 W0.02, BRIAN HOLMES 003.6"
     },
     {
       "assetId": "JD4021-LF-3.7-12FUR-OD-01",
@@ -1569,7 +1569,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "BRIAN HOLMES 003.6"
+      "room": "BRIAN HOLMES 003.6, DARREN ICE 003.7"
     },
     {
       "assetId": "JD4021-LF-3.8-12FUR-OD-01",
@@ -1579,7 +1579,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "SAM HOLT 003.8, JACOB MARKFORT 003.9"
+      "room": "SAM HOLT 003.8"
     },
     {
       "assetId": "JD4021-LF-3.9-12FUR-OD-01",
@@ -1589,7 +1589,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "MICHAEL ALDRICH 003.10"
+      "room": "JACOB MARKFORT 003.9, MICHAEL ALDRICH 003.10"
     },
     {
       "assetId": "JD4021-LF-6.1-12FUR-OD-01",
@@ -1599,7 +1599,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
+      "room": "WALKWAY 0.02 W0.02, MICHAEL OLIVER 006.10"
     },
     {
       "assetId": "JD4021-LF-6.11-12FUR-OD-01",
@@ -1609,7 +1609,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
+      "room": "WALKWAY 0.02 W0.02, ELIZABETH MARIN 006.11"
     },
     {
       "assetId": "JD4021-LF-6.12-12FUR-OD-01",
@@ -1619,7 +1619,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "ELIZABETH MARIN 006.11"
+      "room": "ELIZABETH MARIN 006.11, ADI BRKIC 006.12"
     },
     {
       "assetId": "JD4021-LF-6.13-12FUR-OD-01",
@@ -1629,7 +1629,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "ADI BRKIC 006.12, WILL ETHEREDGE 006.13"
+      "room": "WILL ETHEREDGE 006.13"
     },
     {
       "assetId": "JD4021-LF-6.2-12FUR-OD-01",
@@ -1639,7 +1639,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "EMORY BURCH 006.3"
+      "room": "EZRA RUSSEL-HOWLAND 006.2"
     },
     {
       "assetId": "JD4021-LF-6.3-12FUR-OD-01",
@@ -1649,7 +1649,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "HOTEL 006.4"
+      "room": "EMORY BURCH 006.3, HOTEL 006.4"
     },
     {
       "assetId": "JD4021-LF-6.4-12FUR-OD-01",
@@ -1659,7 +1659,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
+      "room": "HOTEL 006.4, WALKWAY 0.02 W0.02"
     },
     {
       "assetId": "JD4021-LF-6.5-12FUR-OD-01",
@@ -1669,7 +1669,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "WALKWAY 0.02 W0.02"
+      "room": "WALKWAY 0.02 W0.02, ANDREW MILLER 006.5"
     },
     {
       "assetId": "JD4021-LF-6.6-12FUR-OD-01",
@@ -1679,7 +1679,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "ANDREW MILLER 006.5"
+      "room": "ANDREW MILLER 006.5, SCOTT TUCKER 006.6"
     },
     {
       "assetId": "JD4021-LF-6.7-12FUR-OD-01",
@@ -1689,7 +1689,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "SCOTT TUCKER 006.6"
+      "room": "DEAN NICKELL 006.7"
     },
     {
       "assetId": "JD4021-LF-6.8-12FUR-OD-01",
@@ -1699,7 +1699,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "HARSAL PATEL 006.9"
+      "room": "TODD RIGGAN 006.8"
     },
     {
       "assetId": "JD4021-LF-6.9-12FUR-OD-01",
@@ -1709,7 +1709,7 @@
       "entityName": "",
       "generalName": "Office Desk",
       "level": "LOWER FLOOR",
-      "room": "MICHAEL OLIVER 006.10"
+      "room": "HARSAL PATEL 006.9, MICHAEL OLIVER 006.10"
     },
     {
       "assetId": "JD4021-MF-1.02-08OPE-WD-01",
@@ -3493,5 +3493,5 @@
     }
   ],
   "complete": true,
-  "updatedAt": "2026-08-14T16:46:45.805Z"
+  "updatedAt": "2026-09-27T23:14:40.794Z"
 }

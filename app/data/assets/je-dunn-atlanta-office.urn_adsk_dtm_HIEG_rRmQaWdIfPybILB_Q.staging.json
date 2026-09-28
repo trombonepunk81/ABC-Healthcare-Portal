@@ -1210,7 +1210,7 @@
     },
     {
       "assetId": "JD4021-MF-103-23HVA-PIU-03",
-      "assetUrl": "PIU-1-11",
+      "assetUrl": "https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAAB7EQkWgEdIxrP7ar6EtqrpAB2EsQ",
       "category": "M.Eq",
       "department": "",
       "entityName": "PIU-1-11",
@@ -2490,5 +2490,5 @@
     }
   ],
   "complete": true,
-  "updatedAt": "2026-08-14T16:46:36.310Z"
+  "updatedAt": "2026-09-27T23:14:27.716Z"
 }
