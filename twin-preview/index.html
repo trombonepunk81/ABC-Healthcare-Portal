@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Digital Twin — PIU-1-11</title>
+  <style>
+    :root{
+      --aptitude-navy:#0a1628;
+      --aptitude-cyan:#00d4ff;
+    }
+    *{margin:0;padding:0;box-sizing:border-box;}
+    html,body{height:100%;background:var(--aptitude-navy);overflow:hidden;}
+    body{
+      display:flex;align-items:center;justify-content:center;
+      padding-top:env(safe-area-inset-top,0px);
+      padding-bottom:env(safe-area-inset-bottom,0px);
+    }
+    /* Full-bleed, letterboxed against navy so bars read as intentional */
+    video{
+      width:100%;height:100%;
+      object-fit:contain;
+      background:var(--aptitude-navy);
+      display:block;
+    }
+    /* Tap-to-play fallback — shown only if the browser blocks autoplay */
+    #playbtn{
+      position:fixed;inset:0;z-index:5;
+      display:none;align-items:center;justify-content:center;
+      background:rgba(10,22,40,.55);
+      -webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);
+      cursor:pointer;
+    }
+    #playbtn.show{display:flex;}
+    #playbtn .ring{
+      width:86px;height:86px;border-radius:50%;
+      background:var(--aptitude-cyan);
+      display:flex;align-items:center;justify-content:center;
+      box-shadow:0 10px 40px -8px rgba(0,212,255,.65);
+    }
+    #playbtn svg{width:36px;height:36px;margin-left:5px;}
+  </style>
+</head>
+<body>
+  <!--
+    Assumes the clip was renamed to piu-1-11-scan.mp4 in ABC-Healthcare-Portal/media/.
+    If you kept the original name with spaces, change the src to:
+    /media/PIU%201_11%20Scan.mp4
+  -->
+  <video id="v"
+         src="/media/piu-1-11-scan.mp4"
+         muted autoplay loop playsinline preload="auto"></video>
+
+  <div id="playbtn" role="button" aria-label="Play digital twin preview">
+    <div class="ring">
+      <svg viewBox="0 0 24 24" fill="#0a1628"><path d="M8 5v14l11-7z"/></svg>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var v = document.getElementById('v');
+      var btn = document.getElementById('playbtn');
+
+      function tryPlay() {
+        var p = v.play();
+        if (p && p.catch) {
+          p.catch(function () { btn.classList.add('show'); });
+        }
+      }
+      btn.addEventListener('click', function () {
+        v.play();
+        btn.classList.remove('show');
+      });
+
+      if (v.readyState >= 2) tryPlay();
+      else v.addEventListener('loadeddata', tryPlay);
+
+      // Safety net: any tap anywhere starts it if it's still paused
+      document.addEventListener('touchstart', function once() {
+        if (v.paused) v.play();
+        btn.classList.remove('show');
+        document.removeEventListener('touchstart', once);
+      }, { passive: true });
+    })();
+  </script>
+</body>
+</html>
