@@ -439,6 +439,7 @@
     const docUrl        = urlParams.get('docUrl')         || '';
     const level         = urlParams.get('level')          || '';
     const room          = urlParams.get('room')           || '';
+    const cmmsUrl       = urlParams.get('cmms')           || '';
 
     // Sets a tile's value; hides the whole tile when there's no value.
     function setInfoValue(id, value) {
@@ -567,7 +568,7 @@
 
         const maintenanceEmail = `mailto:emory.burch@aptitudeii.com?subject=Issue Report: Asset ${assetId}&body=Asset ID: ${assetId}%0D%0ATandem Link: ${tandemUrl}%0D%0A%0D%0APlease describe the issue:%0D%0A`;
         document.getElementById('btn-maintenance').href = maintenanceEmail;
-        document.getElementById('btn-service').href = 'https://www.ibm.com/products/maximo';
+        document.getElementById('btn-service').href = cmmsUrl ? decodeURIComponent(cmmsUrl) : 'https://www.ibm.com/products/maximo';
       }
 
       // Populate info fields (each tile hides itself if empty)
