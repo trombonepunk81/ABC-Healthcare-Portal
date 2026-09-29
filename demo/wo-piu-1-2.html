@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!--
+  Illustrative CMMS work-order mock in the refined IBM Maximo Application Suite (Manage)
+  Work Orders style. Original HTML; not affiliated with or endorsed by IBM.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Work Orders — WO 10518 · PIU_1_2</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --g100:#161616; --g90:#262626; --g80:#393939; --g70:#525252;
+    --g60:#6f6f6f; --g50:#8d8d8d; --g40:#a8a8a8; --g30:#c6c6c6;
+    --g20:#e0e0e0; --g10:#f4f4f4; --white:#fff;
+    --blue60:#0f62fe; --blue70:#0043ce; --green:#24a148;
+    --field:#f4f4f4; --fieldline:#8d8d8d;
+    --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html,body{height:100%;}
+  body{font-family:var(--sans);color:var(--g100);background:var(--white);font-size:14px;line-height:1.4;-webkit-font-smoothing:antialiased;}
+  svg{display:block;}
+  a{color:var(--blue60);text-decoration:none;}
+  .appbar{height:48px;border-bottom:1px solid var(--g20);display:flex;align-items:center;position:sticky;top:0;z-index:30;background:var(--white);}
+  .appbar .ham{width:48px;height:48px;display:flex;align-items:center;justify-content:center;border-right:1px solid var(--g20);}
+  .appbar .ham svg{width:18px;height:18px;stroke:var(--g100);}
+  .suite{display:flex;align-items:center;gap:14px;padding:0 16px;white-space:nowrap;}
+  .suite .ibm{font-size:14px;color:var(--g100);} .suite .ibm b{font-weight:700;}
+  .suite .div{width:1px;height:22px;background:var(--g30);}
+  .suite .mod{font-size:14px;color:var(--g70);}
+  .appbar .sp{flex:1;} .appbar .rt{display:flex;align-items:center;}
+  .appbar .ic{width:44px;height:48px;display:flex;align-items:center;justify-content:center;}
+  .appbar .ic svg{width:18px;height:18px;stroke:var(--g80);fill:none;} .appbar .ic.grid svg{width:16px;height:16px;}
+  .shell{display:flex;min-height:calc(100vh - 48px);}
+  .rail{width:48px;flex:none;border-right:1px solid var(--g20);background:var(--white);display:flex;flex-direction:column;align-items:center;padding-top:6px;}
+  .rail .r{width:44px;height:42px;display:flex;align-items:center;justify-content:center;}
+  .rail .r svg{width:18px;height:18px;stroke:var(--g60);fill:none;}
+  .page{flex:1;min-width:0;position:relative;} .page-wrap{min-width:980px;}
+  .titlebar{display:flex;align-items:center;padding:14px 24px 6px;}
+  .titlebar h1{font-size:28px;font-weight:400;letter-spacing:.005em;} .titlebar .tsp{flex:1;}
+  .tb-actions{display:flex;align-items:center;gap:2px;}
+  .tb-actions .b{width:40px;height:40px;display:flex;align-items:center;justify-content:center;}
+  .tb-actions .b svg{width:18px;height:18px;stroke:var(--g80);fill:none;}
+  .tb-actions .vdiv{width:1px;height:22px;background:var(--g30);margin:0 8px;}
+  .tabs{display:flex;align-items:center;gap:0;padding:0 20px;border-bottom:1px solid var(--g20);position:relative;overflow:hidden;}
+  .tabs .t{padding:12px 16px;font-size:14px;color:var(--g70);white-space:nowrap;border-bottom:2px solid transparent;margin-bottom:-1px;}
+  .tabs .t.active{color:var(--g100);font-weight:600;border-bottom-color:var(--blue60);}
+  .tabs .more{margin-left:auto;padding:12px 8px;color:var(--g60);}
+  .railchev{position:absolute;left:8px;top:70px;width:26px;height:26px;border:1px solid var(--g30);background:var(--white);display:flex;align-items:center;justify-content:center;z-index:5;}
+  .railchev svg{width:14px;height:14px;stroke:var(--g70);}
+  .fld{margin-bottom:22px;} .fld .lab{font-size:13px;color:var(--g70);margin-bottom:6px;}
+  .inp{height:40px;background:var(--field);border-bottom:1px solid var(--fieldline);display:flex;align-items:center;padding:0 12px;font-size:14px;color:var(--g100);gap:8px;min-width:0;}
+  .inp .txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .inp .look,.inp .chev,.inp .list{margin-left:auto;flex:none;display:flex;align-items:center;justify-content:center;}
+  .inp svg{width:16px;height:16px;stroke:var(--g70);fill:none;}
+  .txt.lnk{color:var(--blue60);} .muted{color:var(--g50);}
+  .subcap{font-size:11px;color:var(--g60);margin-top:5px;}
+
+  /* ---- WO record area ---- */
+  .work{display:flex;}
+  .main{flex:1;min-width:0;}
+  .rechead{padding:16px 28px 0;}
+  .ey{font-size:12px;color:var(--g60);text-transform:uppercase;letter-spacing:.04em;margin-bottom:5px;}
+  .rtitle{margin:0;font-size:20px;font-weight:600;line-height:1.25;}
+  .rtitle .sep{color:var(--g30);margin:0 8px;font-weight:300;}
+  .rtitle .desc{font-weight:400;color:var(--g90);}
+  .chiprow{display:flex;align-items:center;gap:10px;margin:14px 0 2px;flex-wrap:wrap;}
+  .wchip{display:inline-flex;align-items:center;gap:7px;font-size:12.5px;font-weight:600;padding:5px 12px;background:var(--g10);border:1px solid var(--g20);border-radius:2px;color:var(--g90);}
+  .wchip.prio{color:#8a4b00;} .wchip.prio .sq{width:9px;height:9px;border-radius:2px;background:#f1c21b;}
+  .wchip.wf{background:#edf5ff;border-color:#a6c8ff;color:var(--blue70);} .wchip.wf .sq{width:8px;height:8px;border-radius:50%;background:var(--blue60);}
+  .vld{margin-left:auto;color:var(--blue60);font-size:13px;display:inline-flex;align-items:center;gap:6px;}
+  .vld svg{width:15px;height:15px;stroke:var(--blue60);fill:none;}
+  .statusbar{display:flex;margin:16px 0 4px;border-top:1px solid var(--g20);}
+  .step{flex:1;display:flex;flex-direction:column;gap:5px;padding:14px 8px 16px;text-align:center;position:relative;}
+  .step + .step::before{content:"";position:absolute;left:0;top:26px;width:1px;height:22px;background:var(--g20);}
+  .node{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto;font-size:12px;font-weight:700;}
+  .step.done .node{background:#defbe6;color:#0e6027;} .step.done .node svg{width:14px;height:14px;stroke:var(--green);fill:none;stroke-width:2.2;}
+  .step.cur .node{background:var(--blue60);color:#fff;box-shadow:0 0 0 4px #edf5ff;}
+  .step.future .node{background:var(--g10);color:var(--g50);border:1px solid var(--g30);}
+  .step .stat{font-size:12px;font-weight:600;color:var(--g90);} .step.future .stat{color:var(--g50);} .step.cur .stat{color:var(--blue70);}
+  .step .when{font-size:11px;color:var(--g60);}
+  .wsec{padding:18px 28px;border-top:1px solid var(--g20);}
+  .wsec h2{margin:0 0 14px;font-size:13px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--g70);}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 40px;}
+  .grid2 .full{grid-column:1 / -1;}
+  @media(max-width:680px){.grid2{grid-template-columns:1fr;}}
+  .ld{font-size:14px;line-height:1.6;color:var(--g90);}
+  .ld b{font-weight:600;} .ld ol{margin:10px 0 0;padding-left:20px;} .ld li{margin-bottom:4px;}
+  .ld .src{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+  .tag{font-size:12px;background:var(--g10);border:1px solid var(--g20);border-radius:2px;padding:2px 7px;color:var(--g70);}
+  .aside{width:322px;flex:none;border-left:1px solid var(--g20);background:#fafafa;padding:16px 18px;}
+  .aside h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--g70);font-weight:600;margin-bottom:4px;}
+  .aside .hint{font-size:12px;color:var(--g60);margin-bottom:14px;}
+  .att{display:flex;gap:12px;padding:12px;background:#fff;border:1px solid var(--g20);margin-bottom:10px;align-items:flex-start;}
+  .att .ico{width:34px;height:34px;flex:none;border-radius:2px;display:flex;align-items:center;justify-content:center;}
+  .att .ico.tandem{background:#edf5ff;} .att .ico.tandem svg{width:18px;height:18px;stroke:var(--blue70);fill:none;}
+  .att .ico.pdf{background:#fff1f1;color:#b71c1c;font-size:10px;font-weight:700;}
+  .att .meta{flex:1;min-width:0;} .att .nm{font-size:13px;font-weight:600;color:var(--g90);line-height:1.3;} .att .ty{font-size:11px;color:var(--g60);margin-top:2px;}
+  .att .launch{flex:none;width:30px;height:30px;display:flex;align-items:center;justify-content:center;border:1px solid var(--g20);background:#fff;} .att .launch svg{width:15px;height:15px;stroke:var(--blue60);fill:none;}
+  .addrow{margin-top:4px;} .add{color:var(--blue60);font-size:13px;display:inline-flex;align-items:center;gap:6px;} .add svg{width:15px;height:15px;stroke:var(--blue60);fill:none;}
+  .foot{padding:14px 28px 40px;border-top:1px solid var(--g20);font-size:11.5px;color:var(--g50);}
+  @media(max-width:1080px){.aside{display:none;}}
+</style>
+</head>
+<body>
+
+  <div class="appbar">
+    <div class="ham"><svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg></div>
+    <div class="suite"><span class="ibm"><b>IBM</b> Maximo Application Suite</span><span class="div"></span><span class="mod">Manage</span></div>
+    <div class="sp"></div>
+    <div class="rt">
+      <div class="ic"><svg viewBox="0 0 24 24" stroke-width="2"><rect x="2" y="4" width="20" height="13" rx="1"/><line x1="8" y1="21" x2="16" y2="21"/></svg></div>
+      <div class="ic"><svg viewBox="0 0 24 24" stroke-width="2"><rect x="6" y="4" width="12" height="16" rx="1"/><path d="M9 4V3h6v1"/><path d="M9 9h6M9 13h4"/></svg></div>
+      <div class="ic"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
+      <div class="ic"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1 .8-1 1.7"/></svg></div>
+      <div class="ic"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div>
+      <div class="ic grid"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><circle cx="5" cy="5" r="1.6"/><circle cx="12" cy="5" r="1.6"/><circle cx="19" cy="5" r="1.6"/><circle cx="5" cy="12" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="19" cy="12" r="1.6"/><circle cx="5" cy="19" r="1.6"/><circle cx="12" cy="19" r="1.6"/><circle cx="19" cy="19" r="1.6"/></svg></div>
+    </div>
+  </div>
+
+  <div class="shell">
+    <div class="rail">
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v4h4"/><path d="M12 8v4l3 2"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3 3-5 6-5s6 2 6 5"/><circle cx="17" cy="9" r="2.4"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M8 9h8M8 13h5"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M12 3l8 4v6c0 4-3.5 7-8 8-4.5-1-8-4-8-8V7z"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M6 3h9l4 4v14H6z"/><path d="M9 12h6M9 16h6"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/></svg></div>
+      <div class="r"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M4 6h16M4 12h10M4 18h16"/></svg></div>
+    </div>
+
+    <div class="page">
+      <div class="page-wrap">
+
+        <div class="titlebar">
+          <h1>Work Orders</h1><div class="tsp"></div>
+          <div class="tb-actions">
+            <div class="b"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg></div>
+            <div class="b"><svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><circle cx="12" cy="5" r="1.6"/><circle cx="12" cy="12" r="1.6"/><circle cx="12" cy="19" r="1.6"/></svg></div>
+            <div class="vdiv"></div>
+            <div class="b"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg></div>
+            <div class="b"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M5 3h11l3 3v15H5z"/><path d="M8 3v6h7V3M8 21v-7h8v7"/></svg></div>
+            <div class="b"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M3 12a9 9 0 1 1 3 6.7"/><path d="M3 20v-4h4"/></svg></div>
+            <div class="b"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="20" y1="12" x2="4" y2="12"/><polyline points="10 6 4 12 10 18"/></svg></div>
+            <div class="b"><svg viewBox="0 0 24 24" stroke-width="2"><line x1="4" y1="12" x2="20" y2="12"/><polyline points="14 6 20 12 14 18"/></svg></div>
+            <div class="b"><svg viewBox="0 0 24 24" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <div class="b"><svg viewBox="0 0 24 24" stroke-width="2"><path d="M6 9V3h12v6"/><rect x="4" y="9" width="16" height="8" rx="1"/><path d="M8 17h8v4H8z"/></svg></div>
+          </div>
+        </div>
+
+        <div class="tabs">
+          <div class="t active">Work Order</div><div class="t">Plans</div><div class="t">Assignments</div><div class="t">Actuals</div>
+          <div class="t">Related Records</div><div class="t">Safety</div><div class="t">Log</div><div class="t">Failure Reporting</div>
+          <div class="t">Service Address</div><div class="t">Map</div>
+          <div class="more"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></div>
+        </div>
+
+        <div class="railchev"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg></div>
+
+        <div class="work">
+          <div class="main">
+
+            <div class="rechead">
+              <div class="ey">Work Orders · Summary</div>
+              <h2 class="rtitle">10518<span class="sep">|</span><span class="desc">PIU_1_2 — Low supply airflow, delivery below setpoint</span></h2>
+
+              <div class="chiprow">
+                <span class="wchip">CM · Corrective Maintenance</span>
+                <span class="wchip prio"><span class="sq"></span>Priority 2 — High</span>
+                <span class="wchip wf"><span class="sq"></span>Workflow available</span>
+                <span class="vld"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 10h16M4 14h9"/></svg>View Long Description</span>
+              </div>
+
+              <div class="statusbar">
+                <div class="step done"><span class="node"><svg viewBox="0 0 24 24"><path d="M5 12l4 4 10-10"/></svg></span><span class="stat">WAPPR</span><span class="when">08/16 13:30</span></div>
+                <div class="step cur"><span class="node">●</span><span class="stat">APPR</span><span class="when">08/16 13:30</span></div>
+                <div class="step future"><span class="node">›</span><span class="stat">COMP</span><span class="when">—</span></div>
+              </div>
+            </div>
+
+            <div class="wsec">
+              <h2>Details</h2>
+              <div class="grid2">
+                <div class="fld"><div class="lab">Work Order</div><div class="inp"><span class="txt">10518</span></div></div>
+                <div class="fld"><div class="lab">Status</div><div class="inp"><span class="txt">APPR — Approved</span></div></div>
+                <div class="fld full"><div class="lab">Description</div><div class="inp"><span class="txt">PIU_1_2 — Low supply airflow, delivery below setpoint</span></div></div>
+                <div class="fld"><div class="lab">Reported By</div><div class="inp"><span class="txt">TANDEM.ALERT</span></div><div class="subcap">Condition alert · Autodesk Tandem</div></div>
+                <div class="fld"><div class="lab">Reported Date</div><div class="inp"><span class="txt">08/16/2026 13:30</span></div></div>
+                <div class="fld"><div class="lab">Owned By</div><div class="inp"><span class="txt lnk">HVAC-01</span><span class="list"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M8 9h8M8 13h5"/></svg></span></div><div class="subcap">HVAC Maintenance — Zone East</div></div>
+                <div class="fld"><div class="lab">Site</div><div class="inp"><span class="txt">JD4021</span></div></div>
+                <div class="fld"><div class="lab">GL Account</div><div class="inp"><span class="txt">6200-410-01</span></div></div>
+                <div class="fld"><div class="lab">Failure Class</div><div class="inp"><span class="txt lnk">AIRFLOW-DELIVERY</span><span class="chev"><svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg></span></div></div>
+              </div>
+            </div>
+
+            <div class="wsec">
+              <h2>Asset &amp; Location</h2>
+              <div class="grid2">
+                <div class="fld"><div class="lab">Asset</div><div class="inp"><span class="txt lnk">PIU_1_2</span><span class="list"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M8 9h8M8 13h5"/></svg></span></div><div class="subcap">VariTrane fan-powered box</div></div>
+                <div class="fld"><div class="lab">Location</div><div class="inp"><span class="txt lnk">BOTTOM-LINE-102</span><span class="list"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M8 9h8M8 13h5"/></svg></span></div><div class="subcap">BOTTOM LINE 102 — Main Floor</div></div>
+                <div class="fld"><div class="lab">Parent</div><div class="inp"><span class="txt lnk">AHU-1</span><span class="list"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M8 9h8M8 13h5"/></svg></span></div><div class="subcap">Air handler — Main Level</div></div>
+                <div class="fld"><div class="lab">Classification</div><div class="inp"><span class="txt lnk">HVAC \ TERMINAL UNIT \ FPB</span></div><div class="subcap">Fan-powered box, parallel</div></div>
+              </div>
+            </div>
+
+            <div class="wsec">
+              <h2>Scheduling</h2>
+              <div class="grid2">
+                <div class="fld"><div class="lab">Target Start</div><div class="inp"><span class="txt">08/16/2026 13:30</span></div></div>
+                <div class="fld"><div class="lab">Target Finish</div><div class="inp"><span class="txt">08/16/2026 15:30</span></div></div>
+                <div class="fld"><div class="lab">Estimated Duration</div><div class="inp"><span class="txt">2:00</span></div></div>
+                <div class="fld"><div class="lab">Priority</div><div class="inp"><span class="txt">2 — High</span></div></div>
+              </div>
+            </div>
+
+            <div class="wsec">
+              <h2>Job Details</h2>
+              <div class="grid2">
+                <div class="fld"><div class="lab">PM</div><div class="inp"><span class="txt muted">—</span></div></div>
+                <div class="fld"><div class="lab">Job Plan</div><div class="inp"><span class="txt lnk">JP-PIU-AFLOW</span><span class="list"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="1"/><path d="M8 9h8M8 13h5"/></svg></span></div><div class="subcap">PIU low-airflow diagnostic</div></div>
+                <div class="fld"><div class="lab">Safety Plan</div><div class="inp"><span class="txt muted">—</span></div></div>
+                <div class="fld"><div class="lab">Contract</div><div class="inp"><span class="txt muted">—</span></div></div>
+                <div class="fld"><div class="lab">Inspection Form</div><div class="inp"><span class="txt muted">—</span></div></div>
+                <div class="fld"><div class="lab">Inspection Result</div><div class="inp"><span class="txt muted">—</span></div></div>
+              </div>
+            </div>
+
+            <div class="wsec">
+              <h2>Long Description</h2>
+              <div class="ld">
+                Condition alert raised by the building digital twin. Supply airflow on <b>PIU_1_2</b> is trending
+                below setpoint: delivered air measured <b>~138 CFM</b> against a desired <b>~413 CFM</b>, holding
+                below the <b>200 CFM</b> lower warn limit for a sustained interval. Fan commanded on; damper driven
+                to ~86% open; the airflow deficit persists while space temperature remains within the comfort band.
+                <b>Proactive service requested before occupant impact.</b>
+                <ol>
+                  <li>Inspect supply fan &amp; ECM motor; verify commanded vs. actual speed.</li>
+                  <li>Check filter and coil for obstruction / fouling; clear as needed.</li>
+                  <li>Verify airflow sensor calibration against a reference reading.</li>
+                  <li>Inspect damper actuator &amp; linkage; confirm full stroke.</li>
+                </ol>
+                <div class="src">Source <span class="tag">Autodesk Tandem</span> · alert rule <span class="tag">Airflow Delivery</span> · <span class="tag">condition-based</span></div>
+              </div>
+            </div>
+
+          </div>
+
+          <aside class="aside">
+            <h3>Attachments</h3>
+            <p class="hint">Documents and web links on this work order.</p>
+            <div class="att">
+              <div class="ico tandem"><svg viewBox="0 0 24 24" stroke-width="1.6"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 2v20M3 7l9 5 9-5"/></svg></div>
+              <div class="meta"><div class="nm">Open asset in Tandem</div><div class="ty">Web link · digital twin</div></div>
+              <a class="launch" href="https://tandem.autodesk.com/pages/facilities/urn:adsk.dtt:B8hZMOtdR76XBa5bMUQv2Q/views/x2cZCjJORo-0Vy7h9L5sPA?selection=HIEG_rRmQaWdIfPybILB_QAAAADP1w85xmhJ-YVyr9VZJZGTABgyoA" target="_blank" rel="noopener" aria-label="Launch Tandem asset">
+                <svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 13v6H5V6h6"/></svg>
+              </a>
+            </div>
+            <div class="att">
+              <div class="ico pdf">PDF</div>
+              <div class="meta"><div class="nm">O&amp;M Manual — PIU_1_2 (VariTrane)</div><div class="ty">Document · 2.4 MB</div></div>
+              <a class="launch" href="#" aria-label="Open document"><svg viewBox="0 0 24 24" stroke-width="1.8"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 13v6H5V6h6"/></svg></a>
+            </div>
+            <div class="addrow"><span class="add"><svg viewBox="0 0 24 24" stroke-width="1.8"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>Add attachment</span></div>
+          </aside>
+        </div>
+
+        <div class="foot">Work Orders (RBA) · record 10518 · site JD4021 · illustrative demonstration environment</div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
