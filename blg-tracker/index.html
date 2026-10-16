@@ -340,7 +340,8 @@ document.getElementById('exportBtn').addEventListener('click',function(){
 /* ---------- ACC import ---------- */
 function rank(v){var s=String(v==null?'':v).toLowerCase();if(/dress/.test(s))return 3;if(/patch/.test(s))return 2;if(/pull|\bran\b/.test(s))return 1;return 0}
 function aptRank(v,bb){var s=String(v==null?'':v).toLowerCase().trim();
-  if(!s||/^(no|false|0|n\/a|na|-)$/.test(s)||/not\s*(verified|checked|started)|pending/.test(s))return null;
+  if(/not\s*started/.test(s))return 0;
+  if(!s||/^(no|false|0|n\/a|na|-)$/.test(s)||/not\s*(verified|checked)|pending/.test(s))return null;
   var k=rank(s);if(k)return k;
   if(/^(yes|true|y|x|1|verified|ok|pass|confirmed)$/.test(s))return bb;
   return null}
@@ -364,6 +365,7 @@ function mapper(boxId,fields,rows,onApply,extra){
     if(miss.length){document.getElementById(boxId+'msg').innerHTML='<p class="msg err">Choose a column for '+miss.map(function(f){return f.l}).join(', ')+'.</p>';return}
     onApply(m)});
 }
+function fileDate(n){var m=/(?:^|[^0-9])(\d{2})(\d{2})(\d{2})(?:[^0-9]|$)/.exec(n);if(!m)return null;var d=new Date(2000+ +m[1],+m[2]-1,+m[3],12);return (d.getMonth()===+m[2]-1&&+m[2]>0)?d:null}
 function inferBuildings(list){var m={};list.forEach(function(x){if(x.building)(m[x.room]=m[x.room]||{})[x.building]=1});
   list.forEach(function(x){if(!x.building){var b=Object.keys(m[x.room]||{});if(b.length===1)x.building=b[0]}});return list}
 document.getElementById('ffile').addEventListener('change',function(e){var f=e.target.files[0];if(!f)return;
@@ -380,7 +382,7 @@ document.getElementById('ffile').addEventListener('change',function(e){var f=e.t
       if(/network\s*device/i.test(cat)){var s=String(m.st?r[m.st]:'').toLowerCase();dev.push({name:nm,building:L.building,room:L.room,scanned:/scan/.test(s)&&!/not|un/.test(s),raw:r});return}
       var bb=rank(r[m.bb]);if(!bb&&useFb&&m.st)bb=rank(r[m.st]);
       fiber.push({name:nm,cat:/osp/i.test(cat)?'OSP':'ISP',building:L.building,room:L.room,bb:bb,apt:aptRank(r[m.apt],bb),raw:r})});
-    S.fiber=inferBuildings(fiber);S.devices=inferBuildings(dev);S.fSrc=S.dSrc=f.name;S.asOf=new Date(f.lastModified||Date.now());
+    S.fiber=inferBuildings(fiber);S.devices=inferBuildings(dev);S.fSrc=S.dSrc=f.name;S.asOf=fileDate(f.name)||new Date(f.lastModified||Date.now());
     S.page='all';S.f={building:'',room:'',result:'',scan:''};S.q='';render();
     var isp=fiber.filter(function(c){return c.cat==='ISP'}).length;
     document.getElementById('fmap').innerHTML='<p class="msg">Loaded '+fmt(fiber.length)+' fiber cables ('+fmt(isp)+' ISP, '+fmt(fiber.length-isp)+' OSP) and '+fmt(dev.length)+' network devices from '+esc(f.name)+'.</p>'},
