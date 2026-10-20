@@ -238,7 +238,8 @@ function render(){
   if(S.gate!=='ready'){document.getElementById('kpis').innerHTML='';view.innerHTML=gateView();finish();return}
   var list=filtered(),a=agg(list),N=a.n,inst=1;
   document.getElementById('kpis').innerHTML=kpi('Total Cables',fmt(N))+kpi('Fiber Installed',fmt(a.done[inst]),pct(a.done[inst],a.app[inst])+'%')+
-    kpi('Fully Complete',fmt(a.complete),pct(a.complete,N)+'%')+kpi('Overall Progress',pct(a.sd,a.sa)+'%')+kpi('Out of Sequence',fmt(a.oos),'',a.oos>0);
+    kpi('Fiber Landed',fmt(a.done[4]),pct(a.done[4],a.app[4])+'%')+
+    kpi('Fully Complete',fmt(a.complete),pct(a.complete,N)+'%')+kpi('Overall Progress',pct(a.sd,a.sa)+'%');
   if(!N){view.innerHTML='<div class="tile"><h2>No cables match these filters</h2><p class="asof">Clear filters or pick another tracker.</p></div>';finish();return}
   var h='<section class="cards">'+STG.map(function(s,k){
     var ap=a.app[k],dn=a.done[k],nt=Object.keys(a.trk[k]).length;
