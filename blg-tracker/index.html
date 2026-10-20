@@ -3,41 +3,39 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>BLG Fiber Tracker</title>
+<title>BLG Fiber Milestone Tracker</title>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <style>
 :root{
-  --bg1:#E9EEF4;--bg2:#F6E6D8;--tile:#FFFFFF;--tile-a:rgba(255,255,255,.88);--ink:#1F1F1F;--muted:#5F6670;--line:#E1E4E8;--track:#E9ECEF;
+  --bg1:#E9EEF4;--bg2:#F6E6D8;--tile-a:rgba(255,255,255,.9);--ink:#1F1F1F;--muted:#5F6670;--line:#E1E4E8;--track:#E9ECEF;
   --nav:#0D4A86;--nav-ink:#FFFFFF;--nav-sel:#FFFFFF;--nav-sel-ink:#0D4A86;--title:#0D4A86;--input:#FFFFFF;--inline:#C8CDD3;
-  --bb:#D19C00;--apt:#0D8796;--bad:#C2412A;--good:#2D8655;--warn:#B86E00;
+  --done:#0D8796;--overall:#0D4A86;--bad:#C2412A;--good:#2D8655;--hover:rgba(13,74,134,.06);--sel:rgba(13,74,134,.12);
   --sans:'Segoe UI','Segoe UI Web (West European)',Selawik,-apple-system,BlinkMacSystemFont,Roboto,'Helvetica Neue',sans-serif;
   --light:'Segoe UI Light','Segoe UI',Selawik,-apple-system,BlinkMacSystemFont,Roboto,sans-serif;
   box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg1:#11161D;--bg2:#1B1712;--tile:#1C232D;--tile-a:rgba(28,35,45,.94);--ink:#E6EAEE;--muted:#9AA4AF;--line:#2C3540;--track:#28313C;
+  --bg1:#11161D;--bg2:#1B1712;--tile-a:rgba(28,35,45,.94);--ink:#E6EAEE;--muted:#9AA4AF;--line:#2C3540;--track:#28313C;
   --nav:#0B3463;--nav-ink:#E6EEF8;--nav-sel:#E6EEF8;--nav-sel-ink:#0B3463;--title:#8DB8E8;--input:#151B23;--inline:#3A4552;
-  --bb:#EFC234;--apt:#36C0CF;--bad:#EE7259;--good:#5CC48A;--warn:#E9A23B;color-scheme:dark;}}
+  --done:#36C0CF;--overall:#8DB8E8;--bad:#EE7259;--good:#5CC48A;--hover:rgba(141,184,232,.08);--sel:rgba(141,184,232,.16);color-scheme:dark;}}
 :root[data-theme="dark"]{
-  --bg1:#11161D;--bg2:#1B1712;--tile:#1C232D;--tile-a:rgba(28,35,45,.94);--ink:#E6EAEE;--muted:#9AA4AF;--line:#2C3540;--track:#28313C;
+  --bg1:#11161D;--bg2:#1B1712;--tile-a:rgba(28,35,45,.94);--ink:#E6EAEE;--muted:#9AA4AF;--line:#2C3540;--track:#28313C;
   --nav:#0B3463;--nav-ink:#E6EEF8;--nav-sel:#E6EEF8;--nav-sel-ink:#0B3463;--title:#8DB8E8;--input:#151B23;--inline:#3A4552;
-  --bb:#EFC234;--apt:#36C0CF;--bad:#EE7259;--good:#5CC48A;--warn:#E9A23B;color-scheme:dark;}
+  --done:#36C0CF;--overall:#8DB8E8;--bad:#EE7259;--good:#5CC48A;--hover:rgba(141,184,232,.08);--sel:rgba(141,184,232,.16);color-scheme:dark;}
 *,*::before,*::after{box-sizing:inherit}
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 body{margin:0;background:var(--bg1);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.4}
-.report{display:grid;grid-template-columns:200px minmax(0,1fr);gap:14px;max-width:1400px;margin:0 auto;padding:14px;min-height:100vh;
+.report{display:grid;grid-template-columns:200px minmax(0,1fr);gap:14px;max-width:1440px;margin:0 auto;padding:14px;min-height:100vh;
   background:linear-gradient(120deg,var(--bg1) 0%,var(--bg1) 35%,var(--bg2) 100%)}
-/* nav */
 .nav{background:var(--nav);color:var(--nav-ink);border-radius:28px 28px 0 0;padding:22px 0 24px;align-self:start;position:sticky;top:14px}
 .brand{text-align:center;padding:0 12px 18px}
 .brand b{display:block;font:600 34px/1 var(--sans);letter-spacing:-.02em}
 .brand span{display:block;font-size:10px;letter-spacing:.06em;opacity:.85;margin-top:2px}
-.nav h4{margin:14px 0 6px;padding:0 14px;font-size:12px;font-weight:700;opacity:.95}
+.nav h4{margin:14px 0 6px;padding:0 14px;font-size:12px;font-weight:700}
 .nav button{display:block;width:calc(100% - 20px);margin:2px 10px;text-align:left;appearance:none;border:0;background:none;color:var(--nav-ink);font:400 15px var(--sans);padding:8px 14px;border-radius:16px;cursor:pointer}
 .nav button:hover{background:rgba(255,255,255,.1)}
 .nav button[aria-current="page"]{background:var(--nav-sel);color:var(--nav-sel-ink);font-weight:600}
-button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid var(--apt);outline-offset:2px}
-/* canvas */
+button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visible,.rrow:focus-visible{outline:2px solid var(--done);outline-offset:2px}
 .canvas{min-width:0}
 .ttl{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:8px 16px;margin:2px 0 10px}
 .ttl h1{margin:0;font:600 32px/1.1 var(--sans);color:var(--title)}
@@ -46,12 +44,11 @@ button:focus-visible,select:focus-visible,input:focus-visible,summary:focus-visi
 .kpi{background:var(--tile-a);border-radius:10px;padding:8px 12px 6px}
 .kpi h5{margin:0;font:600 16px var(--sans)}
 .kpi b{display:block;text-align:right;font:300 36px/1.15 var(--light);font-variant-numeric:tabular-nums}
+.kpi b small{font-size:16px;color:var(--muted);margin-left:6px}
 .kpi.alert b{color:var(--bad)}
 .tile{background:var(--tile-a);border-radius:10px;padding:12px 14px;margin-bottom:12px;min-width:0}
-.tile h2{margin:0 0 10px;font:600 18px var(--sans);letter-spacing:.01em}
+.tile h2{margin:0;font:600 18px var(--sans)}
 .th{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px}
-.th h2{margin:0}
-/* slicers */
 .slicers{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px 16px;align-items:end}
 .sl label{display:block;font-size:13px;font-weight:600;margin-bottom:3px}
 select,input[type=search]{width:100%;font:inherit;font-size:13px;color:var(--ink);background:var(--input);border:1px solid var(--inline);border-radius:2px;padding:5px 6px}
@@ -60,54 +57,39 @@ select,input[type=search]{width:100%;font:inherit;font-size:13px;color:var(--ink
 .btn.sec{background:var(--input);color:var(--ink);border-color:var(--inline)}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
 .sw{display:inline-block;width:12px;height:12px;margin-right:5px;vertical-align:-1px}
-/* status cards (unchanged graphics) */
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-bottom:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(178px,1fr));gap:12px;margin-bottom:12px}
 .cards .tile{margin:0}
-.tile h3{display:flex;justify-content:space-between;align-items:baseline;margin:0 0 8px;font:600 18px var(--sans)}
-.tile h3 small{font:400 12px var(--sans);color:var(--muted)}
-.row{margin:9px 0}
-.row .lab{display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px}
-.row .lab b{font-variant-numeric:tabular-nums;font-weight:600}
+.mcard h3{margin:0 0 4px;font:600 15px var(--sans)}
+.mcard .pct{font:300 32px/1.1 var(--light);font-variant-numeric:tabular-nums}
+.mcard .cnt{font-size:13px;color:var(--muted);margin:2px 0 8px;font-variant-numeric:tabular-nums}
+.mcard .foot{font-size:12px;color:var(--muted);margin-top:8px}
+.mcard.na .pct{color:var(--muted)}
 .tube{height:12px;border-radius:6px;background:var(--track);overflow:hidden}
 .tube i{display:block;height:100%;border-radius:6px}
-.bb{background:var(--bb)}.apt{background:var(--apt)}
-.cov{border-top:1px solid var(--line);margin-top:12px;padding-top:8px;font-size:13px;color:var(--muted)}
-.cov b{color:var(--ink);font-variant-numeric:tabular-nums}
-.stack{display:flex;height:22px;border-radius:6px;overflow:hidden;background:var(--track);margin:6px 0 12px}
-.stack i{display:block;height:100%}
-.mkeys{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
-.mk{font-size:13px;color:var(--muted)}
-.mk b{display:block;font:300 26px var(--light);color:var(--ink);font-variant-numeric:tabular-nums}
+.done{background:var(--done)}.ovr{background:var(--overall)}
 .ctl{display:flex;gap:8px;flex-wrap:wrap}
-.ctl input,.ctl select{width:auto;min-width:160px}
-.rhead,.rrow{display:grid;grid-template-columns:minmax(130px,1.2fr) repeat(3,minmax(120px,1fr)) 86px;gap:14px;align-items:center}
-.rhead{font-size:13px;font-weight:600;color:var(--muted);padding:0 6px 8px;border-bottom:1px solid var(--line)}
-.rrow{padding:9px 6px;border-bottom:1px solid var(--line);cursor:pointer}
-.rrow:hover{background:rgba(13,74,134,.06)}
-.rrow.sel{background:rgba(13,74,134,.12)}
+.ctl input,.ctl select{width:auto;min-width:150px}
+.mx{overflow-x:auto}
+.mxin{min-width:980px}
+.rhead,.rrow{display:grid;grid-template-columns:minmax(190px,1.7fr) minmax(96px,1fr) repeat(7,minmax(74px,.8fr));gap:12px;align-items:center}
+.rhead{font-size:12px;font-weight:600;color:var(--muted);padding:0 6px 8px;border-bottom:1px solid var(--line)}
+.rhead span:not(:first-child){text-align:center}
+.rrow{padding:8px 6px;border-bottom:1px solid var(--line);cursor:pointer}
+.rrow:hover{background:var(--hover)}
+.rrow.sel{background:var(--sel)}
 .rrow:last-child{border-bottom:0}
-.rname b{display:block;font-weight:600}
-.rname span{font-size:12px;color:var(--muted)}
-.mini{display:grid;grid-template-columns:1fr 34px;gap:3px 6px;align-items:center;font-size:12px;font-variant-numeric:tabular-nums}
-.mini .tube{height:7px}
-.mini em{font-style:normal;text-align:right}
-.gap{text-align:right;font:600 18px var(--sans);font-variant-numeric:tabular-nums}
-.gap.hot{color:var(--bad)}
-.gap small{display:block;font:400 11px var(--sans);color:var(--muted)}
-.mlab{display:none}
-.rooms{max-height:620px;overflow:auto}
-.dev{display:grid;grid-template-columns:minmax(130px,1.2fr) 3fr 90px;gap:14px;align-items:center;padding:8px 6px;border-bottom:1px solid var(--line)}
-.dev:last-child{border-bottom:0}
-.dev .tube{height:10px}
-.dev em{font-style:normal;text-align:right;font-variant-numeric:tabular-nums;font-size:13px}
+.rname b{display:block;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rname span{font-size:12px;color:var(--muted);display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cell{font-size:12px;font-variant-numeric:tabular-nums;text-align:center}
+.cell .tube{height:7px;margin-top:3px}
+.cell.na{color:var(--muted)}
+.rooms{max-height:560px;overflow-y:auto}
 details.load summary{cursor:pointer;font:600 16px var(--sans)}
-.lgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:10px}
-.lgrid h3{font-size:15px}
-.lgrid label{display:block;font-size:13px;margin:8px 0 3px;color:var(--muted)}
+.lgrid label{display:block;font-size:13px;margin:10px 0 3px;color:var(--muted)}
 .note{font-size:12px;color:var(--muted);margin-top:8px}
 .msg{font-size:13px;margin-top:8px}
 .msg.err{color:var(--bad)}
-.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--tile);padding:8px 14px;border-radius:4px;font-size:13px;display:none;z-index:20}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg1);padding:8px 14px;border-radius:4px;font-size:13px;display:none;z-index:20}
 @media (max-width:860px){
   .report{grid-template-columns:1fr;padding:10px}
   .nav{position:static;border-radius:16px;padding:12px 0}
@@ -116,282 +98,258 @@ details.load summary{cursor:pointer;font:600 16px var(--sans)}
   .nav h4{display:none}
   .nav button{width:auto;margin:2px;white-space:nowrap}
 }
-@media (max-width:760px){
-  .rhead{display:none}
-  .rrow{grid-template-columns:1fr 1fr;gap:10px 14px}
-  .rname{grid-column:1/2}.gap{grid-column:2/3;align-self:start}
-  .mlab{display:block;font-size:11px;color:var(--muted);margin-bottom:2px}
-}
-@media (prefers-reduced-motion:no-preference){.tube i,.stack i{transition:width .4s ease}}
+@media (prefers-reduced-motion:no-preference){.tube i{transition:width .4s ease}}
 </style>
 </head>
 <body>
 <div class="report">
   <nav class="nav" aria-label="Report pages">
     <div class="brand"><b>aptitude</b><span>intelligent integration</span></div>
-    <h4>FIBER TRACKER</h4>
+    <h4>FIBER MILESTONES</h4>
     <div class="navlist" id="navlist"></div>
   </nav>
-
   <div class="canvas">
-    <div class="ttl"><h1 id="pageTitle">Fiber Tracker</h1><div class="asof" id="src"></div></div>
+    <div class="ttl"><h1 id="pageTitle">Fiber Milestone Tracker</h1><div class="asof" id="src"></div></div>
     <div id="kpis" class="kpis"></div>
-
-    <section class="tile" id="slicerTile">
+    <section class="tile">
       <div class="slicers" id="slicers"></div>
       <div class="th" style="margin:12px 0 0">
-        <div class="legend" id="legend"><span><i class="sw bb"></i>Blackbox reported</span><span><i class="sw apt"></i>Aptitude verified in field</span></div>
+        <div class="legend"><span><i class="sw done"></i>Milestone complete (X)</span><span><i class="sw ovr"></i>Overall completion</span><span>— not tracked on that sheet</span></div>
         <div class="acts">
           <button class="btn sec" type="button" id="clearBtn">Clear filters</button>
           <button class="btn" type="button" id="exportBtn">Export to Excel</button>
         </div>
       </div>
     </section>
-
     <main id="view"></main>
-
-    <details class="tile load" id="loadbox">
-      <summary>Load an ACC asset export</summary>
-      <div class="lgrid"><div>
-        <label for="ffile">Full ACC Assets export (.xlsx). Fiber Tracker and Network Device Tracker rows are split automatically by Category.</label>
-        <input type="file" id="ffile" accept=".xlsx,.xls,.csv">
-        <div id="fmap"></div>
-      </div></div>
-      <p class="note">Files are read in your browser only and are never uploaded. Status is cumulative: Dressed counts toward Patched and Pulled. Room is the last segment of the ACC Location path.</p>
-      <button class="btn sec" id="demoBtn" type="button">Go back to sample data</button>
+    <details class="tile load">
+      <summary>Load an updated Milestones Tracker</summary>
+      <div class="lgrid">
+        <label for="ffile">Milestones Tracker workbook (.xlsx). Every sheet with a Pathway Installed column is read; X marks a completed milestone.</label>
+        <input type="file" id="ffile" accept=".xlsx,.xlsm,.xls">
+        <div id="fmsg"></div>
+      </div>
+      <p class="note">The file is read in your browser only and is never uploaded.</p>
     </details>
   </div>
 </div>
 <div class="toast" id="toast" role="status"></div>
-
 <script>
 (function(){
 'use strict';
-var STAGES=['Pulled','Patched','Dressed'],STNAME=['Not Started','Pulled','Patched','Dressed'];
+var STG=['Pathway Installed','Fiber Installed','Fiber Dressed','Rack Install','Fiber Landed','Fiber Terminated','Fiber Tested'];
+var SHORT=['Pathway','Installed','Dressed','Rack','Landed','Terminated','Tested'];
 var esc=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
 var fmt=function(n){return n.toLocaleString('en-US')};
 var pct=function(a,b){return b?Math.round(a/b*1000)/10:0};
 
-/* ---------- sample data ---------- */
-function rng(seed){return function(){seed|=0;seed=seed+0x6D2B79F5|0;var t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
-function sampleData(){
-  var r=rng(20261016);
-  var isp=[['DCB1','NS1',227,.95],['DCB1','NS2',227,.62],['DCB1','NS3',227,.55],['DCB1','NS4',227,.6],['DCB1','GSMDF1',212,.5],['DCB1','GSMDF2',217,.7],['DCB1','DHB',300,.12],['DCB1','CMDF',200,0],['ADMIN','ADMINIDF1',140,0],
-    ['DCB2','NS1',260,.35],['DCB2','NS2',260,.28],['DCB2','NS3',260,.2],['DCB2','NS4',260,.18],['DCB2','GSMDF1',240,.1],['DCB2','GSMDF2',240,.05],['DCB2','DHB',300,0],
-    ['GH1','GHIDF1',96,.4],['WH','WHIDF1',96,.3],['HW','HWIDF1',72,0],['TWRIDF1','TWRIDF1',48,.25],['TWRIDF2','TWRIDF2',48,0],['SUB1','SUB1',64,.45],['SUB2','SUB2',0,.3]];
-  var osp=[['DCB1','EF1',120,.55],['DCB1','EF2',120,.4],['DCB2','GSIDF2A1',96,.15],['DCB2','GSIDF2B1',96,.1],['IWM1','IWM1',72,.3],['IWM2','IWM2',72,.2],['SUB1','SUB1 OSP',59,.35],['TWIDF','TWIDF',50,0]];
-  var s=0;isp.forEach(function(x){s+=x[2]});var o=0;osp.forEach(function(x){o+=x[2]});
-  isp[isp.length-1][2]=5326-o-(s-isp[isp.length-1][2]);
-  var cables=[],devices=[];
-  function gen(list,cat){list.forEach(function(x){
-    var b=x[0],rm=x[1],n=x[2],lvl=x[3],chk=lvl?Math.min(.85,.25+r()*.6):0;
-    for(var i=0;i<n;i++){
-      var bb=0;
-      if(r()<lvl){bb=1;if(r()<lvl*.85)bb=2;if(bb===2&&r()<lvl*.7)bb=3}
-      var apt=null;
-      if(bb>0&&r()<chk){var y=r();apt=y<.14?bb-1:(y<.19?Math.min(3,bb+1):bb)}
-      else if(bb===0&&lvl&&r()<.015){apt=1}
-      cables.push({name:rm.replace(/\s/g,'')+'-'+String(i+1).padStart(3,'0'),cat:cat,building:b,room:rm,bb:bb,apt:apt,raw:null});
-    }});}
-  gen(isp,'ISP');gen(osp,'OSP');
-  isp.forEach(function(x){var n=12+Math.floor(r()*60),rate=Math.min(1,x[3]*1.2+r()*.1);
-    for(var i=0;i<n;i++)devices.push({name:x[1]+'-ND'+(i+1),building:x[0],room:x[1],scanned:r()<rate,raw:null});});
-  return {cables:cables,devices:devices};
-}
-function result(c){if(c.apt==null)return c.bb>0?'Awaiting verification':'Not started';if(c.apt===c.bb)return 'Match';return c.apt<c.bb?'Over-reported':'Under-reported'}
-
-/* ---------- state ---------- */
-var sample=sampleData();
-var S={fiber:sample.cables,devices:sample.devices,fSrc:'Sample data',dSrc:'Sample data',asOf:new Date(),page:'all',f:{building:'',room:'',result:'',scan:''},sort:'gap',q:''};
-var PAGES=[['all','All fiber','Fiber Tracker'],['ISP','ISP','ISP Fiber Tracker'],['OSP','OSP','OSP Fiber Tracker'],['dev','Network devices','Network Device Tracker']];
-
-/* ---------- filtering ---------- */
-function pageList(){return S.page==='dev'?S.devices:(S.page==='all'?S.fiber:S.fiber.filter(function(c){return c.cat===S.page}))}
-function passBR(x){return (!S.f.building||x.building===S.f.building)&&(!S.f.room||x.room===S.f.room)}
-function filtered(){
-  var l=pageList().filter(passBR);
-  if(S.page==='dev'){if(S.f.scan)l=l.filter(function(d){return (S.f.scan==='Scanned')===d.scanned});return l}
-  if(S.f.result){l=l.filter(function(c){var r=result(c);return S.f.result==='Any discrepancy'?(r==='Over-reported'||r==='Under-reported'):r===S.f.result})}
-  return l;
+/* ---------- workbook parser (shared logic with the embedded build) ---------- */
+var SECRE=/^T[A-Z]{2}\d\.\d{3}/;
+function cl(v){return String(v==null?'':v).replace(/\u00a0/g,' ').replace(/\s+/g,' ').trim()}
+function room(s){return cl(String(s).replace(/[\[\]]/g,''))}
+function label(n){return cl(n).replace(/ CABLE TRACKER$| CABLE$/i,'')}
+function parseSheet(name,raw,off){
+  var rows=raw.map(function(r){return (r||[]).map(cl)});
+  var hi=-1;for(var i=0;i<rows.length;i++){if(rows[i].indexOf('Pathway Installed')>-1){hi=i;break}}
+  if(hi<0)return null;
+  var col={};rows[hi].forEach(function(c,i){var k=c.toUpperCase();if(c&&!(k in col))col[k]=i});
+  var nc,tc;
+  if('CABLE' in col){nc=col.CABLE-1;tc=col.CABLE}else if('DESCRIPTION' in col){nc=col.DESCRIPTION;tc=col.FIBER}else return null;
+  var fc=col.FROM,zc=col.TO,mc=col.MEGAPOD;
+  var sidx=STG.map(function(s){var k=s.toUpperCase();return k in col?col[k]:-1});
+  var ap=0;sidx.forEach(function(c,k){if(c>-1)ap|=1<<k});
+  var sec='',mega='',out=[],t=label(name);
+  for(i=hi+1;i<rows.length;i++){
+    var r=rows[i];if(!r.some(Boolean)||r.indexOf('Pathway Installed')>-1)continue;
+    var g=function(c){return c==null||c<0?'':(r[c]||'')};
+    if(mc!=null&&g(mc))mega=g(mc);
+    var sn=r.slice(0,nc).filter(function(x){return SECRE.test(x)})[0];
+    if(sn){sec=sn+' | '+g(nc);if(!g(fc))continue}
+    var nm=g(nc);if(!nm||nm==='A-END')continue;
+    var a=g(fc),z=g(zc),ty=tc!=null?g(tc):'';
+    if(!a&&!z&&!ty)continue;
+    if(zc==null&&a.indexOf('<>')>-1){var p=a.split('<>');a=p[0];z=p[1]||''}
+    var d=0;sidx.forEach(function(c,k){if(c>-1&&g(c).toUpperCase()==='X')d|=1<<k});
+    out.push({t:t,sec:sec,mega:mega,name:nm,type:ty,a:room(a),z:room(z),d:d,ap:ap,row:i+1+off});
+  }
+  return out;
 }
 
-/* ---------- stats ---------- */
-function stats(list){
-  var t={total:list.length,bb:[0,0,0,0],apt:[0,0,0,0],conf:[0,0,0,0],checked:0,match:0,over:0,under:0,awaiting:0};
-  list.forEach(function(c){
-    for(var s=1;s<=3;s++){if(c.bb>=s)t.bb[s]++;if(c.apt!=null&&c.apt>=s)t.apt[s]++;if(c.bb>=s&&c.apt!=null&&c.apt>=s)t.conf[s]++}
-    if(c.apt!=null){t.checked++;if(c.apt===c.bb)t.match++;else if(c.apt<c.bb)t.over++;else t.under++}
-    else if(c.bb>0)t.awaiting++;
-  });
-  return t;
+/* ---------- data ---------- */
+function decode(E){return E.rows.map(function(r){return {t:E.T[r[0]],sec:E.SEC[r[1]],mega:E.MEGA[r[2]],name:r[3],type:r[4],a:r[5],z:r[6],d:r[7],ap:r[8],row:r[9]}})}
+var S={cables:[],src:'',asOf:null,synced:false,gate:'loading',page:'all',f:{sec:'',a:'',mega:'',show:''},group:'',sort:'least',q:''};
+function trackers(){var o=[];S.cables.forEach(function(c){if(o.indexOf(c.t)<0)o.push(c.t)});return o}
+
+/* ---------- status helpers ---------- */
+function complete(c){return (c.d&c.ap)===c.ap}
+function outOfSeq(c){var seenGap=false;for(var k=0;k<7;k++){if(!(c.ap>>k&1))continue;var dn=c.d>>k&1;if(!dn)seenGap=true;else if(seenGap)return true}return false}
+function statusOf(c){return complete(c)?'Complete':(c.d?'In progress':'Not started')}
+function showPass(c,v){
+  if(!v)return true;if(v==='Complete'||v==='In progress'||v==='Not started')return statusOf(c)===v;
+  if(v==='Out of sequence')return outOfSeq(c);
+  var k=STG.indexOf(v.replace(/^Missing: /,''));return k>-1&&(c.ap>>k&1)&&!(c.d>>k&1);
 }
-function groupRooms(list){
-  var m={};list.forEach(function(c){var k=c.building+'|'+c.room;(m[k]=m[k]||{building:c.building,room:c.room,items:[]}).items.push(c)});
-  return Object.keys(m).map(function(k){var g=m[k];g.st=stats(g.items);g.gap=g.st.bb[1]-g.st.conf[1];return g});
-}
-var sorters={gap:function(a,b){return b.gap-a.gap},behind:function(a,b){return pct(a.st.bb[1],a.st.total)-pct(b.st.bb[1],b.st.total)},disc:function(a,b){return (b.st.over+b.st.under)-(a.st.over+a.st.under)},name:function(a,b){return (a.building+a.room).localeCompare(b.building+b.room)}};
-function visibleRooms(list){
-  var rooms=groupRooms(list).filter(function(g){return !S.q||(g.room+' '+g.building).toLowerCase().indexOf(S.q)>-1});
-  rooms.sort(sorters[S.sort]);return rooms;
+function pageList(){return S.page==='all'?S.cables:S.cables.filter(function(c){return c.t===S.page})}
+function filtered(){return pageList().filter(function(c){return (!S.f.sec||c.sec===S.f.sec)&&(!S.f.a||c.a===S.f.a)&&(!S.f.mega||c.mega===S.f.mega)&&showPass(c,S.f.show)})}
+function agg(list){
+  var a={n:list.length,done:[0,0,0,0,0,0,0],app:[0,0,0,0,0,0,0],complete:0,started:0,oos:0,sd:0,sa:0,trk:[{},{},{},{},{},{},{}]};
+  list.forEach(function(c){for(var k=0;k<7;k++){if(c.ap>>k&1){a.app[k]++;a.trk[k][c.t]=1;if(c.d>>k&1)a.done[k]++}}
+    if(complete(c))a.complete++;if(c.d)a.started++;if(outOfSeq(c))a.oos++});
+  for(var k=0;k<7;k++){a.sd+=a.done[k];a.sa+=a.app[k]}
+  return a;
 }
 
 /* ---------- render ---------- */
 var view=document.getElementById('view');
 function tube(cls,n,d){return '<div class="tube"><i class="'+cls+'" style="width:'+pct(n,d)+'%"></i></div>'}
-function opts(vals,sel,all){return '<option value="">'+(all||'All')+'</option>'+vals.map(function(v){return '<option'+(v===sel?' selected':'')+'>'+esc(v)+'</option>'}).join('')}
-function uniq(a){return a.filter(function(v,i){return v&&a.indexOf(v)===i}).sort()}
+function opts(vals,sel){return '<option value="">All</option>'+vals.map(function(v){return '<option'+(v===sel?' selected':'')+'>'+esc(v)+'</option>'}).join('')}
+function uniq(a){var o=[];a.forEach(function(v){if(v&&o.indexOf(v)<0)o.push(v)});return o}
+function groups(){var g=[['sec','Schedule section'],['a','A-end room'],['z','Z-end room']];
+  if(pageList().some(function(c){return c.mega}))g.push(['mega','Megapod']);
+  if(S.page==='all')g.unshift(['t','Tracker']);return g}
 function renderChrome(){
-  document.getElementById('navlist').innerHTML=PAGES.map(function(p){return '<button type="button" data-page="'+p[0]+'"'+(S.page===p[0]?' aria-current="page"':'')+'>'+p[1]+'</button>'}).join('');
-  var pg=PAGES.filter(function(p){return p[0]===S.page})[0];
-  document.getElementById('pageTitle').textContent=pg[2];document.title='BLG '+pg[2];
-  var d=S.asOf;
-  document.getElementById('src').innerHTML='Source: '+esc(S.page==='dev'?S.dSrc:S.fSrc)+'. Data as of '+esc(d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})+' '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'}));
+  var trk=trackers();
+  document.getElementById('navlist').innerHTML=[['all','All trackers']].concat(trk.map(function(t){return [t,t]})).map(function(p){return '<button type="button" data-page="'+esc(p[0])+'"'+(S.page===p[0]?' aria-current="page"':'')+'>'+esc(p[1])+'</button>'}).join('');
+  var title=S.page==='all'?'Fiber Milestone Tracker':S.page+' Milestones';
+  document.getElementById('pageTitle').textContent=title;document.title='BLG '+title;
+  var d=S.asOf;document.getElementById('src').textContent=d?('Source: '+S.src+'. Data as of '+d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})+' '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})+(S.by?' (saved by '+S.by+')':'')+(S.synced?'. Auto-synced from ACC.':'.')):'Waiting for data';
   var base=pageList();
-  var blds=uniq(base.map(function(x){return x.building}));
-  var rms=uniq(base.filter(function(x){return !S.f.building||x.building===S.f.building}).map(function(x){return x.room}));
-  var h='<div class="sl"><label for="fB">Building</label><select id="fB">'+opts(blds,S.f.building)+'</select></div>'+
-        '<div class="sl"><label for="fR">Room</label><select id="fR">'+opts(rms,S.f.room)+'</select></div>';
-  if(S.page==='dev')h+='<div class="sl"><label for="fS">Scan status</label><select id="fS">'+opts(['Scanned','Not scanned'],S.f.scan)+'</select></div>';
-  else h+='<div class="sl"><label for="fX">Verification result</label><select id="fX">'+opts(['Any discrepancy','Over-reported','Under-reported','Match','Awaiting verification','Not started'],S.f.result)+'</select></div>';
+  var secs=uniq(base.map(function(c){return c.sec}));
+  var rooms=uniq(base.filter(function(c){return !S.f.sec||c.sec===S.f.sec}).map(function(c){return c.a})).sort();
+  var megas=uniq(base.map(function(c){return c.mega}));
+  var shows=['Complete','In progress','Not started','Out of sequence'].concat(STG.filter(function(s,k){return base.some(function(c){return c.ap>>k&1})}).map(function(s){return 'Missing: '+s}));
+  var h='<div class="sl"><label for="fSec">Schedule section</label><select id="fSec">'+opts(secs,S.f.sec)+'</select></div>'+
+    '<div class="sl"><label for="fA">A-end room</label><select id="fA">'+opts(rooms,S.f.a)+'</select></div>'+
+    (megas.length?'<div class="sl"><label for="fM">Megapod</label><select id="fM">'+opts(megas,S.f.mega)+'</select></div>':'')+
+    '<div class="sl"><label for="fShow">Show cables</label><select id="fShow">'+opts(shows,S.f.show)+'</select></div>';
   document.getElementById('slicers').innerHTML=h;
-  document.getElementById('legend').style.visibility=S.page==='dev'?'hidden':'visible';
 }
-function kpi(t,v,a){return '<div class="kpi'+(a?' alert':'')+'"><h5>'+t+'</h5><b>'+v+'</b></div>'}
-function fiberView(list){
-  var t=stats(list),T=t.total,K=document.getElementById('kpis');
-  K.innerHTML=kpi('Total Cables',fmt(T))+kpi('Verified Complete',fmt(t.conf[3]))+kpi('Awaiting Verification',fmt(t.awaiting))+kpi('Discrepancies Found',fmt(t.over+t.under),true);
-  if(!T)return '<div class="tile"><h2>No cables match these filters</h2><p class="muted">Clear filters or load an ACC export that includes this category.</p></div>';
-  var h='<section class="cards">'+[1,2,3].map(function(s){
-    return '<div class="tile"><h3>'+STAGES[s-1]+(s===3?' <small>Dressed = fully complete</small>':'')+'</h3>'+
-      '<div class="row"><div class="lab"><span>Blackbox reported</span><b>'+fmt(t.bb[s])+' / '+fmt(T)+' ('+pct(t.bb[s],T)+'%)</b></div>'+tube('bb',t.bb[s],T)+'</div>'+
-      '<div class="row"><div class="lab"><span>Aptitude verified</span><b>'+fmt(t.apt[s])+' / '+fmt(T)+' ('+pct(t.apt[s],T)+'%)</b></div>'+tube('apt',t.apt[s],T)+'</div>'+
-      '<div class="cov">Aptitude has confirmed <b>'+pct(t.conf[s],t.bb[s])+'%</b> of Blackbox\'s '+STAGES[s-1].toLowerCase()+' claims ('+fmt(t.conf[s])+' of '+fmt(t.bb[s])+').</div></div>';
-  }).join('')+'</section>';
-  var C=t.checked||1;
-  h+='<section class="tile"><div class="th"><h2>Blackbox Reporting vs. Field Verification</h2><span class="asof">'+fmt(t.checked)+' cables checked by Aptitude</span></div>'+
-    '<div class="stack" role="img" aria-label="Of checked cables: '+pct(t.match,C)+'% match, '+pct(t.over,C)+'% over-reported, '+pct(t.under,C)+'% under-reported">'+
-    '<i style="width:'+pct(t.match,C)+'%;background:var(--good)"></i><i style="width:'+pct(t.over,C)+'%;background:var(--bad)"></i><i style="width:'+pct(t.under,C)+'%;background:var(--warn)"></i></div>'+
-    '<div class="mkeys">'+
-    '<div class="mk"><b style="color:var(--good)">'+pct(t.match,C)+'%</b>Match: field status equals what Blackbox reported ('+fmt(t.match)+')</div>'+
-    '<div class="mk"><b style="color:var(--bad)">'+pct(t.over,C)+'%</b>Over-reported: Blackbox claimed more than was done ('+fmt(t.over)+')</div>'+
-    '<div class="mk"><b style="color:var(--warn)">'+pct(t.under,C)+'%</b>Under-reported: work was further along than reported ('+fmt(t.under)+')</div>'+
-    '</div></section>';
-  var rooms=visibleRooms(list);
-  h+='<section class="tile"><div class="th"><h2>Progress by Room</h2><div class="ctl">'+
-    '<input type="search" id="q" placeholder="Find a room" aria-label="Find a room" value="'+esc(S.q)+'">'+
-    '<select id="sort" aria-label="Sort rooms">'+[['gap','Most unverified claims'],['disc','Most discrepancies'],['behind','Furthest behind'],['name','Room name']].map(function(o){return '<option value="'+o[0]+'"'+(S.sort===o[0]?' selected':'')+'>'+o[1]+'</option>'}).join('')+'</select></div></div>'+
-    '<div class="rhead"><span>Room</span><span>Pulled</span><span>Patched</span><span>Dressed</span><span style="text-align:right">Unverified</span></div><div class="rooms">'+
-    (rooms.length?rooms.map(function(g){var st=g.st,n=st.total;
-      return '<div class="rrow'+(S.f.room===g.room?' sel':'')+'" data-b="'+esc(g.building)+'" data-r="'+esc(g.room)+'" title="Filter to this room"><div class="rname"><b>'+esc(g.room)+'</b><span>'+esc(g.building&&g.building!==g.room?g.building+', ':'')+fmt(n)+' cables</span></div>'+
-      [1,2,3].map(function(s){return '<div><span class="mlab">'+STAGES[s-1]+'</span><div class="mini">'+tube('bb',st.bb[s],n)+'<em>'+st.bb[s]+'</em>'+tube('apt',st.apt[s],n)+'<em>'+st.apt[s]+'</em></div></div>'}).join('')+
-      '<div class="gap'+(g.gap>0?' hot':'')+'">'+fmt(g.gap)+'<small>'+(st.over+st.under)+' discrepancies</small></div></div>'}).join(''):'<p class="asof">No rooms match that search.</p>')+
-    '</div></section>';
-  return h;
-}
-function devView(list){
-  var T=list.length,sc=list.filter(function(d){return d.scanned}).length;
-  document.getElementById('kpis').innerHTML=kpi('Network Devices',fmt(T))+kpi('Scanned',fmt(sc))+kpi('Not Scanned',fmt(T-sc))+kpi('Scan Completion',pct(sc,T)+'%');
-  if(!T)return '<div class="tile"><h2>No network devices match these filters</h2><p class="asof">Clear filters or load the Network Device Tracker export from ACC.</p></div>';
-  var m={};list.forEach(function(d){var k=d.building+'|'+d.room;(m[k]=m[k]||{building:d.building,room:d.room,n:0,s:0});m[k].n++;if(d.scanned)m[k].s++});
-  var rooms=Object.keys(m).map(function(k){return m[k]}).sort(function(a,b){return a.s/a.n-b.s/b.n});
-  return '<section class="tile"><h3>Overall Scan Completion</h3><div class="row"><div class="lab"><span>Scanned</span><b>'+fmt(sc)+' / '+fmt(T)+' ('+pct(sc,T)+'%)</b></div>'+tube('apt',sc,T)+'</div></section>'+
-    '<section class="tile"><div class="th"><h2>Scan Completion by Room</h2><span class="asof">Least complete first</span></div><div class="rooms">'+
-    rooms.map(function(g){return '<div class="dev"><div class="rname"><b>'+esc(g.room)+'</b><span>'+esc(g.building&&g.building!==g.room?g.building:'')+'</span></div>'+tube('apt',g.s,g.n)+'<em>'+g.s+' / '+g.n+'</em></div>'}).join('')+'</div></section>';
+function kpi(t,v,sub,alert){return '<div class="kpi'+(alert?' alert':'')+'"><h5>'+t+'</h5><b>'+v+(sub?'<small>'+sub+'</small>':'')+'</b></div>'}
+function gateView(){
+  if(S.gate==='loading')return '<div class="tile"><h2>Loading the latest tracker data…</h2></div>';
+  if(S.gate==='locked')return '<div class="tile" style="max-width:460px"><h2>Enter the team passcode</h2><p class="asof">The tracker data is encrypted. Ask Emory Burch for the passcode.</p>'+
+    '<input type="password" id="pass" aria-label="Passcode" autocomplete="current-password" style="width:100%;font:inherit;padding:7px 8px;border:1px solid var(--inline);border-radius:2px;background:var(--input);color:var(--ink)">'+
+    '<label style="display:flex;gap:6px;align-items:center;font-size:13px;margin:8px 0"><input type="checkbox" id="remember" checked>Remember on this device</label>'+
+    '<button class="btn" type="button" id="unlock">Open dashboard</button><div id="passmsg"></div></div>';
+  return '<div class="tile"><h2>No synced data found</h2><p class="asof">Load the Milestones Tracker workbook below to view it.</p></div>';
 }
 function render(){
   renderChrome();
-  var list=filtered();
-  view.innerHTML=S.page==='dev'?devView(list):fiberView(list);
-  document.getElementById('exportBtn').textContent='Export to Excel ('+fmt(exportRows().length)+')';
+  if(S.gate!=='ready'){document.getElementById('kpis').innerHTML='';view.innerHTML=gateView();finish();return}
+  var list=filtered(),a=agg(list),N=a.n,inst=1;
+  document.getElementById('kpis').innerHTML=kpi('Total Cables',fmt(N))+kpi('Fiber Installed',fmt(a.done[inst]),pct(a.done[inst],a.app[inst])+'%')+
+    kpi('Fully Complete',fmt(a.complete),pct(a.complete,N)+'%')+kpi('Overall Progress',pct(a.sd,a.sa)+'%')+kpi('Out of Sequence',fmt(a.oos),'',a.oos>0);
+  if(!N){view.innerHTML='<div class="tile"><h2>No cables match these filters</h2><p class="asof">Clear filters or pick another tracker.</p></div>';finish();return}
+  var h='<section class="cards">'+STG.map(function(s,k){
+    var ap=a.app[k],dn=a.done[k],nt=Object.keys(a.trk[k]).length;
+    if(!ap)return '<div class="tile mcard na"><h3>'+s+'</h3><div class="pct">—</div><div class="cnt">Not tracked here</div>'+tube('done',0,1)+'</div>';
+    return '<div class="tile mcard"><h3>'+s+'</h3><div class="pct">'+pct(dn,ap)+'%</div><div class="cnt">'+fmt(dn)+' of '+fmt(ap)+' cables</div>'+tube('done',dn,ap)+
+      (S.page==='all'?'<div class="foot">Tracked on '+nt+' of '+trackers().length+' trackers</div>':'')+'</div>';
+  }).join('')+'</section>';
+  var G=groups();if(!G.some(function(g){return g[0]===S.group}))S.group=G[0][0];
+  var gl=G.filter(function(g){return g[0]===S.group})[0][1];
+  var m={};list.forEach(function(c){var key=c[S.group]||(S.group==='mega'?'Not in a megapod':'(blank)');(m[key]=m[key]||[]).push(c)});
+  var rows=Object.keys(m).map(function(k){var g=agg(m[k]);g.key=k;g.ov=pct(g.sd,g.sa);return g});
+  if(S.q)rows=rows.filter(function(r){return r.key.toLowerCase().indexOf(S.q)>-1});
+  var srt={least:function(x,y){return x.ov-y.ov||y.n-x.n},most:function(x,y){return y.ov-x.ov||y.n-x.n},size:function(x,y){return y.n-x.n},name:function(x,y){return x.key.localeCompare(y.key)}};
+  if(S.group==='t'){var order=trackers();rows.sort(S.sort==='name'?srt.name:(S.sort==='least'&&!S.sortTouched?function(x,y){return order.indexOf(x.key)-order.indexOf(y.key)}:srt[S.sort]))}else rows.sort(srt[S.sort]);
+  var selVal=S.group==='sec'?S.f.sec:S.group==='a'?S.f.a:S.group==='mega'?S.f.mega:'';
+  h+='<section class="tile"><div class="th"><h2>Milestone Progress by '+esc(gl)+'</h2><div class="ctl">'+
+    '<select id="grp" aria-label="Group by">'+G.map(function(g){return '<option value="'+g[0]+'"'+(S.group===g[0]?' selected':'')+'>By '+g[1].toLowerCase()+'</option>'}).join('')+'</select>'+
+    '<select id="sort" aria-label="Sort">'+[['least','Least complete first'],['most','Most complete first'],['size','Most cables'],['name','Name']].map(function(o){return '<option value="'+o[0]+'"'+(S.sort===o[0]?' selected':'')+'>'+o[1]+'</option>'}).join('')+'</select>'+
+    '<input type="search" id="q" placeholder="Find" aria-label="Find a row" value="'+esc(S.q)+'"></div></div>'+
+    '<div class="mx"><div class="mxin"><div class="rhead"><span>'+esc(gl)+'</span><span>Overall</span>'+SHORT.map(function(s){return '<span>'+s+'</span>'}).join('')+'</div><div class="rooms">'+
+    (rows.length?rows.map(function(r){
+      var parts=r.key.split(' | '),title=parts.length>1?parts[1]:r.key,sub=(parts.length>1?parts[0]+', ':'')+fmt(r.n)+' cables, '+fmt(r.complete)+' complete';
+      return '<div class="rrow'+(selVal===r.key?' sel':'')+'" tabindex="0" data-k="'+esc(r.key)+'" title="'+esc(r.key)+'"><div class="rname"><b>'+esc(title)+'</b><span>'+esc(sub)+'</span></div>'+
+        '<div class="cell"><b>'+r.ov+'%</b>'+tube('ovr',r.sd,r.sa)+'</div>'+
+        STG.map(function(s,k){return r.app[k]?'<div class="cell" title="'+esc(s)+': '+r.done[k]+' of '+r.app[k]+'">'+pct(r.done[k],r.app[k])+'%'+tube('done',r.done[k],r.app[k])+'</div>':'<div class="cell na" title="'+esc(s)+' not tracked">—</div>'}).join('')+'</div>'}).join(''):'<p class="asof">Nothing matches that search.</p>')+
+    '</div></div></div></section>';
+  view.innerHTML=h;finish();
 }
+function finish(){document.getElementById('exportBtn').textContent='Export to Excel ('+fmt(filtered().length)+')'}
 function toast(m){var t=document.getElementById('toast');t.textContent=m;t.style.display='block';clearTimeout(toast.h);toast.h=setTimeout(function(){t.style.display='none'},3200)}
 
 /* ---------- events ---------- */
-document.getElementById('navlist').addEventListener('click',function(e){var b=e.target.closest('[data-page]');if(b){S.page=b.dataset.page;S.f={building:'',room:'',result:'',scan:''};S.q='';render()}});
+function resetF(){S.f={sec:'',a:'',mega:'',show:''};S.q=''}
+document.getElementById('navlist').addEventListener('click',function(e){var b=e.target.closest('[data-page]');if(b){S.page=b.dataset.page;resetF();S.group='';render()}});
 document.getElementById('slicers').addEventListener('change',function(e){var id=e.target.id,v=e.target.value;
-  if(id==='fB'){S.f.building=v;S.f.room=''}else if(id==='fR')S.f.room=v;else if(id==='fX')S.f.result=v;else if(id==='fS')S.f.scan=v;render()});
-document.getElementById('clearBtn').addEventListener('click',function(){S.f={building:'',room:'',result:'',scan:''};S.q='';render()});
+  if(id==='fSec'){S.f.sec=v;S.f.a=''}else if(id==='fA')S.f.a=v;else if(id==='fM')S.f.mega=v;else if(id==='fShow')S.f.show=v;render()});
+document.getElementById('clearBtn').addEventListener('click',function(){resetF();render()});
+view.addEventListener('change',function(e){if(e.target.id==='grp'){S.group=e.target.value;S.q='';render()}else if(e.target.id==='sort'){S.sort=e.target.value;S.sortTouched=true;render()}});
 view.addEventListener('input',function(e){if(e.target.id!=='q')return;S.q=e.target.value.toLowerCase().trim();var pos=e.target.selectionStart;render();var n=document.getElementById('q');n.focus();n.setSelectionRange(pos,pos)});
-view.addEventListener('change',function(e){if(e.target.id==='sort'){S.sort=e.target.value;render()}});
-view.addEventListener('click',function(e){var r=e.target.closest('.rrow');if(!r)return;
-  if(S.f.room===r.dataset.r&&S.f.building===r.dataset.b){S.f.room='';S.f.building=''}else{S.f.building=r.dataset.b;S.f.room=r.dataset.r}render()});
+function pick(r){var k=r.dataset.k;
+  if(S.group==='t'){S.page=k;resetF();S.group='';}
+  else if(S.group==='sec'){S.f.sec=S.f.sec===k?'':k;S.f.a=''}
+  else if(S.group==='a'){S.f.a=S.f.a===k?'':k}
+  else if(S.group==='mega'){S.f.mega=S.f.mega===k?'':k}
+  else return;render()}
+view.addEventListener('click',function(e){var r=e.target.closest('.rrow');if(r)pick(r)});
+view.addEventListener('keydown',function(e){var r=e.target.closest('.rrow');if(r&&(e.key==='Enter'||e.key===' ')){e.preventDefault();pick(r)}});
 
 /* ---------- export ---------- */
-function exportRows(){
-  var list=filtered();
-  if(S.page==='dev')return list.map(function(d){var o={'Device':d.name,'Building':d.building,'Room':d.room,'Scan Status':d.scanned?'Scanned':'Not scanned'};return merge(o,d.raw)});
-  var order={};visibleRooms(list).forEach(function(g,i){order[g.building+'|'+g.room]=i});
-  return list.filter(function(c){return (c.building+'|'+c.room) in order})
-    .sort(function(a,b){return order[a.building+'|'+a.room]-order[b.building+'|'+b.room]||String(a.name).localeCompare(String(b.name))})
-    .map(function(c){var o={'Cable':c.name,'Category':c.cat,'Building':c.building,'Room':c.room,'Blackbox Status':STNAME[c.bb],'Aptitude Verified Status':c.apt==null?'Not verified':STNAME[c.apt],'Verification Result':result(c)};return merge(o,c.raw)});
-}
-function merge(o,raw){if(raw)Object.keys(raw).forEach(function(k){if(!(k in o))o['ACC: '+k]=raw[k]});return o}
 document.getElementById('exportBtn').addEventListener('click',function(){
   if(typeof XLSX==='undefined'){toast('The Excel library did not load. Check your connection and reload.');return}
-  var rows=exportRows();if(!rows.length){toast('Nothing to export with these filters.');return}
+  var list=filtered();if(!list.length){toast('Nothing to export with these filters.');return}
+  var rows=list.map(function(c){var o={'Tracker':c.t,'Schedule Section':c.sec,'Megapod':c.mega,'Cable':c.name,'Cable Type':c.type,'A-End':c.a,'Z-End':c.z};
+    STG.forEach(function(s,k){o[s]=(c.ap>>k&1)?((c.d>>k&1)?'X':''):'N/A'});o['Status']=statusOf(c);o['Out of Sequence']=outOfSeq(c)?'Yes':'';o['Source Row']=c.row;return o});
   var ws=XLSX.utils.json_to_sheet(rows),wb=XLSX.utils.book_new();
-  ws['!cols']=Object.keys(rows[0]).map(function(k){return {wch:Math.min(40,Math.max(10,k.length+2))}});
-  XLSX.utils.book_append_sheet(wb,ws,S.page==='dev'?'Network Devices':'Cables');
-  var tag=[S.page==='dev'?'NetworkDevices':(S.page==='all'?'Fiber':S.page+'_Fiber'),S.f.building,S.f.room,(S.f.result||S.f.scan||'').replace(/\s+/g,'')].filter(Boolean).join('_');
+  ws['!cols']=Object.keys(rows[0]).map(function(k){return {wch:k==='Schedule Section'||k==='Cable'?36:Math.max(10,k.length+2)}});
+  XLSX.utils.book_append_sheet(wb,ws,'Cables');
+  var tag=[S.page==='all'?'AllTrackers':S.page,S.f.sec.split(' | ')[0],S.f.a,S.f.mega,S.f.show].filter(Boolean).join('_').replace(/[^A-Za-z0-9_-]+/g,'');
   var d=new Date(),ds=d.getFullYear()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0');
-  XLSX.writeFile(wb,'BLG_'+tag+'_'+ds+'.xlsx');toast('Exported '+fmt(rows.length)+' rows.');
+  XLSX.writeFile(wb,'BLG_Milestones_'+tag+'_'+ds+'.xlsx');toast('Exported '+fmt(rows.length)+' cables.');
 });
 
-/* ---------- ACC import ---------- */
-function rank(v){var s=String(v==null?'':v).toLowerCase();if(/dress/.test(s))return 3;if(/patch/.test(s))return 2;if(/pull|\bran\b/.test(s))return 1;return 0}
-function aptRank(v,bb){var s=String(v==null?'':v).toLowerCase().trim();
-  if(/not\s*started/.test(s))return 0;
-  if(!s||/^(no|false|0|n\/a|na|-)$/.test(s)||/not\s*(verified|checked)|pending/.test(s))return null;
-  var k=rank(s);if(k)return k;
-  if(/^(yes|true|y|x|1|verified|ok|pass|confirmed)$/.test(s))return bb;
-  return null}
-function parseLoc(v){var p=String(v||'').split('>').map(function(x){return x.trim()}).filter(Boolean);
-  if(!p.length)return {building:'Unassigned',room:'No location'};
-  var room=p[p.length-1],b=p.length>1?p[p.length-2]:'';if(/campus/i.test(b))b='';return {building:b,room:room}}
-function readFile(file,cb,err){
-  if(typeof XLSX==='undefined'){err('The spreadsheet reader could not load. Check your connection and reload the page.');return}
+/* ---------- load updated workbook ---------- */
+document.getElementById('ffile').addEventListener('change',function(e){var f=e.target.files[0],box=document.getElementById('fmsg');if(!f)return;
+  if(typeof XLSX==='undefined'){box.innerHTML='<p class="msg err">The spreadsheet reader could not load. Check your connection and reload.</p>';return}
   var fr=new FileReader();
-  fr.onload=function(e){try{var wb=XLSX.read(new Uint8Array(e.target.result),{type:'array'});var sn=wb.SheetNames.indexOf('Assets')>-1?'Assets':wb.SheetNames[0];
-    var rows=XLSX.utils.sheet_to_json(wb.Sheets[sn],{defval:''});if(!rows.length)throw new Error('empty');cb(rows)}catch(x){err('Could not read rows from that file. Export it from ACC Assets as .xlsx and try again.')}};
-  fr.readAsArrayBuffer(file)}
-function guess(heads,tests){for(var i=0;i<tests.length;i++){for(var j=0;j<heads.length;j++)if(tests[i].test(String(heads[j]).trim()))return heads[j]}return ''}
-function mapper(boxId,fields,rows,onApply,extra){
-  var heads=Object.keys(rows[0]),box=document.getElementById(boxId);
-  box.innerHTML='<p class="msg">'+fmt(rows.length)+' rows found. Confirm which columns to use:</p>'+fields.map(function(f,i){var g=guess(heads,f.t);
-    return '<label for="'+boxId+f.k+'">'+f.l+'</label><select id="'+boxId+f.k+'"><option value="">(none)</option>'+heads.map(function(h,j){return '<option value="'+j+'"'+(h===g?' selected':'')+'>'+esc(h)+'</option>'}).join('')+'</select>'}).join('')+
-    (extra||'')+'<button class="btn" type="button" id="'+boxId+'go" style="margin-top:10px">Use this file</button><div id="'+boxId+'msg"></div>';
-  document.getElementById(boxId+'go').addEventListener('click',function(){var m={};fields.forEach(function(f){var v=document.getElementById(boxId+f.k).value;m[f.k]=v===''?'':heads[+v]});
-    var miss=fields.filter(function(f){return f.req&&!m[f.k]});
-    if(miss.length){document.getElementById(boxId+'msg').innerHTML='<p class="msg err">Choose a column for '+miss.map(function(f){return f.l}).join(', ')+'.</p>';return}
-    onApply(m)});
-}
-function fileDate(n){var m=/(?:^|[^0-9])(\d{2})(\d{2})(\d{2})(?:[^0-9]|$)/.exec(n);if(!m)return null;var d=new Date(2000+ +m[1],+m[2]-1,+m[3],12);return (d.getMonth()===+m[2]-1&&+m[2]>0)?d:null}
-function inferBuildings(list){var m={};list.forEach(function(x){if(x.building)(m[x.room]=m[x.room]||{})[x.building]=1});
-  list.forEach(function(x){if(!x.building){var b=Object.keys(m[x.room]||{});if(b.length===1)x.building=b[0]}});return list}
-document.getElementById('ffile').addEventListener('change',function(e){var f=e.target.files[0];if(!f)return;
-  readFile(f,function(rows){mapper('fmap',[
-    {k:'name',l:'Name',req:true,t:[/^name$/i,/trunk/i,/name/i]},
-    {k:'cat',l:'Category',req:true,t:[/^category$/i,/category/i]},
-    {k:'loc',l:'Location',req:true,t:[/^location$/i,/location/i]},
-    {k:'bb',l:'Blackbox pulled / patched / dressed field',req:true,t:[/^\[?bb cable check\]?$/i,/\bbb\b.*check/i,/blackbox/i]},
-    {k:'apt',l:'Aptitude verified field',req:true,t:[/^\[?apt cable check\]?$/i,/\bapt\b.*check/i,/verif/i]},
-    {k:'st',l:'Status (device scan status and Blackbox fallback)',t:[/^status$/i,/status/i]}
-  ],rows,function(m){
-    var fb=document.getElementById('fmapfb'),useFb=!!(fb&&fb.checked),fiber=[],dev=[];
-    rows.forEach(function(r){var nm=String(r[m.name]).trim();if(!nm)return;var cat=String(r[m.cat]||''),L=parseLoc(r[m.loc]);
-      if(/network\s*device/i.test(cat)){var s=String(m.st?r[m.st]:'').toLowerCase();dev.push({name:nm,building:L.building,room:L.room,scanned:/scan/.test(s)&&!/not|un/.test(s),raw:r});return}
-      var bb=rank(r[m.bb]);if(!bb&&useFb&&m.st)bb=rank(r[m.st]);
-      fiber.push({name:nm,cat:/osp/i.test(cat)?'OSP':'ISP',building:L.building,room:L.room,bb:bb,apt:aptRank(r[m.apt],bb),raw:r})});
-    S.fiber=inferBuildings(fiber);S.devices=inferBuildings(dev);S.fSrc=S.dSrc=f.name;S.asOf=fileDate(f.name)||new Date(f.lastModified||Date.now());
-    S.page='all';S.f={building:'',room:'',result:'',scan:''};S.q='';render();
-    var isp=fiber.filter(function(c){return c.cat==='ISP'}).length;
-    document.getElementById('fmap').innerHTML='<p class="msg">Loaded '+fmt(fiber.length)+' fiber cables ('+fmt(isp)+' ISP, '+fmt(fiber.length-isp)+' OSP) and '+fmt(dev.length)+' network devices from '+esc(f.name)+'.</p>'},
-   '<label style="display:flex;gap:6px;align-items:flex-start;color:var(--ink);margin-top:10px"><input type="checkbox" id="fmapfb" checked>Count Status "Cable Ran" as Blackbox pulled when the Blackbox field is blank</label>')},
-  function(m){document.getElementById('fmap').innerHTML='<p class="msg err">'+esc(m)+'</p>'})});
-document.getElementById('demoBtn').addEventListener('click',function(){S.fiber=sample.cables;S.devices=sample.devices;S.fSrc=S.dSrc='Sample data';S.asOf=new Date();
-  document.getElementById('fmap').innerHTML='';document.getElementById('ffile').value='';render()});
+  fr.onload=function(ev){try{
+    var wb=XLSX.read(new Uint8Array(ev.target.result),{type:'array'}),all=[],used=[];
+    wb.SheetNames.forEach(function(n){var ws=wb.Sheets[n];if(!ws||!ws['!ref'])return;
+      var raw=XLSX.utils.sheet_to_json(ws,{header:1,defval:'',blankrows:true,raw:false});
+      var res=parseSheet(n,raw,XLSX.utils.decode_range(ws['!ref']).s.r);if(res&&res.length){all=all.concat(res);used.push(label(n)+' ('+fmt(res.length)+')')}});
+    if(!all.length)throw new Error('none');
+    S.cables=all;S.src=f.name;S.synced=false;S.by='';S.gate='ready';S.asOf=(wb.Props&&wb.Props.ModifiedDate)?new Date(wb.Props.ModifiedDate):new Date(f.lastModified||Date.now());
+    S.page='all';resetF();S.group='';render();
+    box.innerHTML='<p class="msg">Loaded '+fmt(all.length)+' cables from '+esc(used.join(', '))+'.</p>';
+  }catch(x){box.innerHTML='<p class="msg err">No milestone sheets found. The workbook needs sheets with a Pathway Installed column.</p>'}};
+  fr.readAsArrayBuffer(f);
+});
 
-render();
+/* ---------- synced data: fetch, decrypt, auto-refresh ---------- */
+var DATA_URL='data/milestones.enc.json',KEYNAME='blg-milestones-pass',pkg=null,pass=null;
+function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
+function decrypt(p,pw){var enc=new TextEncoder();
+  return crypto.subtle.importKey('raw',enc.encode(pw),'PBKDF2',false,['deriveKey']).then(function(base){
+    return crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(p.salt),iterations:p.iter,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['decrypt'])})
+  .then(function(key){return crypto.subtle.decrypt({name:'AES-GCM',iv:b64(p.iv)},key,b64(p.ct))})
+  .then(function(buf){return new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'))).text()})
+  .then(JSON.parse)}
+function apply(E){var keep=S.gate==='ready'&&S.synced;S.cables=decode(E);S.src=E.src;S.asOf=new Date(E.asOf);S.by=E.by||'';S.synced=true;S.gate='ready';
+  if(!keep){S.page='all';resetF();S.group=''}render()}
+function openPkg(p){
+  if(p.plain){apply(p.plain);return Promise.resolve()}
+  if(!pass){try{pass=localStorage.getItem(KEYNAME)}catch(e){}}
+  if(!pass){S.gate='locked';render();return Promise.resolve()}
+  return decrypt(p,pass).then(apply,function(){pass=null;try{localStorage.removeItem(KEYNAME)}catch(e){}S.gate='locked';render()});
+}
+function fetchData(){
+  return fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json()})
+    .then(function(p){if(pkg&&pkg.ct===p.ct&&S.gate==='ready')return;pkg=p;return openPkg(p)})
+    .catch(function(){if(S.gate!=='ready'){S.gate='none';render();document.querySelector('details.load').open=true}});
+}
+view.addEventListener('click',function(e){if(e.target.id!=='unlock')return;
+  var pw=document.getElementById('pass').value,rem=document.getElementById('remember').checked,msg=document.getElementById('passmsg');
+  if(!pw)return;msg.innerHTML='<p class="msg">Opening…</p>';
+  decrypt(pkg,pw).then(function(E){pass=pw;if(rem){try{localStorage.setItem(KEYNAME,pw)}catch(x){}}apply(E)},
+    function(){msg.innerHTML='<p class="msg err">That passcode did not work.</p>'});
+});
+view.addEventListener('keydown',function(e){if(e.target.id==='pass'&&e.key==='Enter')document.getElementById('unlock').click()});
+render();fetchData();
+setInterval(function(){if(!document.hidden)fetchData()},5*60*1000);
+document.addEventListener('visibilitychange',function(){if(!document.hidden)fetchData()});
 })();
 </script>
 </body>
