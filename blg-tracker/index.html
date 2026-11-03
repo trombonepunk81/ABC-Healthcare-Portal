@@ -84,6 +84,9 @@ select,input[type=search]{width:100%;font:inherit;font-size:13px;color:var(--ink
 .cell .tube{height:7px;margin-top:3px}
 .cell.na{color:var(--muted)}
 .rooms{max-height:560px;overflow-y:auto}
+.rrow.drow{grid-template-columns:minmax(170px,1.4fr) minmax(160px,3fr) 130px}
+.drow .cnt{text-align:right;font-size:13px;font-variant-numeric:tabular-nums}
+.bigtube{height:16px;border-radius:8px;background:var(--track);overflow:hidden;margin-top:4px}.bigtube i{display:block;height:100%;border-radius:8px}
 details.load summary{cursor:pointer;font:600 16px var(--sans)}
 .lgrid label{display:block;font-size:13px;margin:10px 0 3px;color:var(--muted)}
 .note{font-size:12px;color:var(--muted);margin-top:8px}
@@ -114,7 +117,7 @@ details.load summary{cursor:pointer;font:600 16px var(--sans)}
     <section class="tile">
       <div class="slicers" id="slicers"></div>
       <div class="th" style="margin:12px 0 0">
-        <div class="legend"><span><i class="sw done"></i>Milestone complete (X)</span><span><i class="sw ovr"></i>Overall completion</span><span>— not tracked on that sheet</span></div>
+        <div class="legend" id="legend"><span><i class="sw done"></i>Milestone complete (X)</span><span><i class="sw ovr"></i>Overall completion</span><span>— not tracked on that sheet</span></div>
         <div class="acts">
           <button class="btn sec" type="button" id="clearBtn">Clear filters</button>
           <button class="btn" type="button" id="exportBtn">Export to Excel</button>
@@ -128,6 +131,9 @@ details.load summary{cursor:pointer;font:600 16px var(--sans)}
         <label for="ffile">Milestones Tracker workbook (.xlsx). Every sheet with a Pathway Installed column is read; X marks a completed milestone.</label>
         <input type="file" id="ffile" accept=".xlsx,.xlsm,.xls">
         <div id="fmsg"></div>
+        <label for="dfile">Network Device export from ACC Assets (.xlsx).</label>
+        <input type="file" id="dfile" accept=".xlsx,.xls,.csv">
+        <div id="dmsg"></div>
       </div>
       <p class="note">The file is read in your browser only and is never uploaded.</p>
     </details>
@@ -177,7 +183,8 @@ function parseSheet(name,raw,off){
 
 /* ---------- data ---------- */
 function decode(E){return E.rows.map(function(r){return {t:E.T[r[0]],sec:E.SEC[r[1]],mega:E.MEGA[r[2]],name:r[3],type:r[4],a:r[5],z:r[6],d:r[7],ap:r[8],row:r[9]}})}
-var S={cables:[],src:'',asOf:null,synced:false,gate:'loading',page:'all',f:{sec:'',a:'',mega:'',show:''},group:'',sort:'least',q:''};
+var S={cables:[],src:'',asOf:null,synced:false,gate:'loading',page:'all',f:{sec:'',a:'',mega:'',show:''},group:'',sort:'least',q:'',
+  devices:[],dev:{src:'',asOf:null,by:'',synced:false},df:{b:'',r:'',st:'',scope:'',scan:''},dgroup:'room',dsort:'least',dq:''};
 function trackers(){var o=[];S.cables.forEach(function(c){if(o.indexOf(c.t)<0)o.push(c.t)});return o}
 
 /* ---------- status helpers ---------- */
@@ -209,7 +216,10 @@ function groups(){var g=[['sec','Schedule section'],['a','A-end room'],['z','Z-e
   if(S.page==='all')g.unshift(['t','Tracker']);return g}
 function renderChrome(){
   var trk=trackers();
-  document.getElementById('navlist').innerHTML=[['all','All trackers']].concat(trk.map(function(t){return [t,t]})).map(function(p){return '<button type="button" data-page="'+esc(p[0])+'"'+(S.page===p[0]?' aria-current="page"':'')+'>'+esc(p[1])+'</button>'}).join('');
+  document.getElementById('navlist').innerHTML=[['all','All trackers']].concat(trk.map(function(t){return [t,t]})).map(function(p){return '<button type="button" data-page="'+esc(p[0])+'"'+(S.page===p[0]?' aria-current="page"':'')+'>'+esc(p[1])+'</button>'}).join('')+
+    '<h4>NETWORK DEVICES</h4><button type="button" data-page="dev"'+(S.page==='dev'?' aria-current="page"':'')+'>Network Devices</button>';
+  if(S.page==='dev'){devChrome();return}
+  document.getElementById('legend').style.display='';
   var title=S.page==='all'?'Fiber Milestone Tracker':S.page+' Milestones';
   document.getElementById('pageTitle').textContent=title;document.title='BLG '+title;
   var d=S.asOf;document.getElementById('src').textContent=d?('Source: '+S.src+'. Data as of '+d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})+' '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})+(S.by?' (saved by '+S.by+')':'')+(S.synced?'. Auto-synced from ACC.':'.')):'Waiting for data';
@@ -231,11 +241,12 @@ function gateView(){
     '<input type="password" id="pass" aria-label="Passcode" autocomplete="current-password" style="width:100%;font:inherit;padding:7px 8px;border:1px solid var(--inline);border-radius:2px;background:var(--input);color:var(--ink)">'+
     '<label style="display:flex;gap:6px;align-items:center;font-size:13px;margin:8px 0"><input type="checkbox" id="remember" checked>Remember on this device</label>'+
     '<button class="btn" type="button" id="unlock">Open dashboard</button><div id="passmsg"></div></div>';
-  return '<div class="tile"><h2>No synced data found</h2><p class="asof">Load the Milestones Tracker workbook below to view it.</p></div>';
+  return '<div class="tile"><h2>No synced data found</h2><p class="asof">Load the Milestones Tracker workbook or a Network Device export below to view it.</p></div>';
 }
 function render(){
   renderChrome();
   if(S.gate!=='ready'){document.getElementById('kpis').innerHTML='';view.innerHTML=gateView();finish();return}
+  if(S.page==='dev'){devRender();return}
   var list=filtered(),a=agg(list),N=a.n,inst=1;
   document.getElementById('kpis').innerHTML=kpi('Total Cables',fmt(N))+kpi('Fiber Installed',fmt(a.done[inst]),pct(a.done[inst],a.app[inst])+'%')+
     kpi('Fiber Landed',fmt(a.done[4]),pct(a.done[4],a.app[4])+'%')+
@@ -268,18 +279,20 @@ function render(){
     '</div></div></div></section>';
   view.innerHTML=h;finish();
 }
-function finish(){document.getElementById('exportBtn').textContent='Export to Excel ('+fmt(filtered().length)+')'}
+function finish(){document.getElementById('exportBtn').textContent='Export to Excel ('+fmt(S.page==='dev'?devFiltered().length:filtered().length)+')'}
 function toast(m){var t=document.getElementById('toast');t.textContent=m;t.style.display='block';clearTimeout(toast.h);toast.h=setTimeout(function(){t.style.display='none'},3200)}
 
 /* ---------- events ---------- */
-function resetF(){S.f={sec:'',a:'',mega:'',show:''};S.q=''}
+function resetF(){S.f={sec:'',a:'',mega:'',show:''};S.q='';S.df={b:'',r:'',st:'',scope:S.df?S.df.scope:'',scan:''};S.dq=''}
 document.getElementById('navlist').addEventListener('click',function(e){var b=e.target.closest('[data-page]');if(b){S.page=b.dataset.page;resetF();S.group='';render()}});
 document.getElementById('slicers').addEventListener('change',function(e){var id=e.target.id,v=e.target.value;
+  if(id==='dB'){S.df.b=v;S.df.r=''}else if(id==='dR')S.df.r=v;else if(id==='dSt')S.df.st=v;else if(id==='dScope')S.df.scope=v;else if(id==='dScan')S.df.scan=v;else
   if(id==='fSec'){S.f.sec=v;S.f.a=''}else if(id==='fA')S.f.a=v;else if(id==='fM')S.f.mega=v;else if(id==='fShow')S.f.show=v;render()});
 document.getElementById('clearBtn').addEventListener('click',function(){resetF();render()});
-view.addEventListener('change',function(e){if(e.target.id==='grp'){S.group=e.target.value;S.q='';render()}else if(e.target.id==='sort'){S.sort=e.target.value;S.sortTouched=true;render()}});
-view.addEventListener('input',function(e){if(e.target.id!=='q')return;S.q=e.target.value.toLowerCase().trim();var pos=e.target.selectionStart;render();var n=document.getElementById('q');n.focus();n.setSelectionRange(pos,pos)});
+view.addEventListener('change',function(e){var dv=S.page==='dev';if(e.target.id==='grp'){if(dv){S.dgroup=e.target.value;S.dq=''}else{S.group=e.target.value;S.q=''}render()}else if(e.target.id==='sort'){if(dv)S.dsort=e.target.value;else{S.sort=e.target.value;S.sortTouched=true}render()}});
+view.addEventListener('input',function(e){if(e.target.id!=='q')return;var qv=e.target.value.toLowerCase().trim();if(S.page==='dev')S.dq=qv;else S.q=qv;var pos=e.target.selectionStart;render();var n=document.getElementById('q');n.focus();n.setSelectionRange(pos,pos)});
 function pick(r){var k=r.dataset.k;
+  if(S.page==='dev'){if(S.dgroup==='room')S.df.r=S.df.r===k?'':k;else if(S.dgroup==='b'){S.df.b=S.df.b===k?'':k;S.df.r=''}else S.df.st=S.df.st===k?'':k;render();return}
   if(S.group==='t'){S.page=k;resetF();S.group='';}
   else if(S.group==='sec'){S.f.sec=S.f.sec===k?'':k;S.f.a=''}
   else if(S.group==='a'){S.f.a=S.f.a===k?'':k}
@@ -291,6 +304,7 @@ view.addEventListener('keydown',function(e){var r=e.target.closest('.rrow');if(r
 /* ---------- export ---------- */
 document.getElementById('exportBtn').addEventListener('click',function(){
   if(typeof XLSX==='undefined'){toast('The Excel library did not load. Check your connection and reload.');return}
+  if(S.page==='dev'){devExport();return}
   var list=filtered();if(!list.length){toast('Nothing to export with these filters.');return}
   var rows=list.map(function(c){var o={'Tracker':c.t,'Schedule Section':c.sec,'Megapod':c.mega,'Cable':c.name,'Cable Type':c.type,'A-End':c.a,'Z-End':c.z};
     STG.forEach(function(s,k){o[s]=(c.ap>>k&1)?((c.d>>k&1)?'X':''):'N/A'});o['Status']=statusOf(c);o['Out of Sequence']=outOfSeq(c)?'Yes':'';o['Source Row']=c.row;return o});
@@ -319,6 +333,86 @@ document.getElementById('ffile').addEventListener('change',function(e){var f=e.t
   fr.readAsArrayBuffer(f);
 });
 
+/* ---------- network devices ---------- */
+function fmtDate(d){return d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})+' '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})}
+function devLoc(v){var p=String(v||'').split('>').map(cl).filter(Boolean);if(!p.length)return {b:'',r:'No location'};var r=p[p.length-1],b=p.length>1?p[p.length-2]:'';if(/campus/i.test(b))b='';return {b:b,r:r}}
+function devInfer(list){var m={};list.forEach(function(x){if(x.b)(m[x.r]=m[x.r]||{})[x.b]=1});list.forEach(function(x){if(!x.b){var k=Object.keys(m[x.r]||{});if(k.length===1)x.b=k[0]}});return list}
+function parseDevices(raw){
+  var rows=raw.map(function(r){return (r||[]).map(cl)}),hi=-1;
+  for(var i=0;i<Math.min(rows.length,15);i++){var u=rows[i].map(function(c){return c.toUpperCase()});if(u.indexOf('NAME')>-1&&u.indexOf('STATUS')>-1){hi=i;break}}
+  if(hi<0)return null;
+  var col={};rows[hi].forEach(function(c,i){var k=c.toUpperCase();if(c&&!(k in col))col[k]=i});
+  var g=function(r,k){var c=col[k];return c==null?'':(r[c]||'')};
+  var body=rows.slice(hi+1).filter(function(r){return g(r,'NAME')});
+  if('CATEGORY' in col){var nd=body.filter(function(r){return /network\s*device/i.test(g(r,'CATEGORY'))});if(nd.length)body=nd}
+  return devInfer(body.map(function(r){var L=devLoc(g(r,'LOCATION')),s=g(r,'STATUS').toUpperCase();
+    return {name:g(r,'NAME'),b:L.b,r:L.r,sc:(/SCAN/.test(s)&&!/NOT|UN/.test(s))?1:0,act:('IS ACTIONABLE' in col)?(g(r,'IS ACTIONABLE').toUpperCase()==='TRUE'?1:0):1,st:g(r,'FBNET STATE')}}));
+}
+function decodeDev(D){return D.rows.map(function(r){return {name:r[0],b:D.B[r[1]],r:D.R[r[2]],sc:r[3],act:r[4],st:D.ST[r[5]]}})}
+function roomOf(x){return x.b&&x.b!==x.r?x.b+' '+x.r:x.r}
+function devBase(){return S.devices.filter(function(x){return S.df.scope!=='act'||x.act})}
+function devFiltered(){return devBase().filter(function(x){return (!S.df.b||x.b===S.df.b)&&(!S.df.r||roomOf(x)===S.df.r)&&(!S.df.st||(x.st||'(blank)')===S.df.st)&&(!S.df.scan||(S.df.scan==='Scanned')===!!x.sc)})}
+function sel(id,l,vals,v){return '<div class="sl"><label for="'+id+'">'+l+'</label><select id="'+id+'">'+opts(vals,v)+'</select></div>'}
+function devChrome(){
+  document.getElementById('pageTitle').textContent='Network Device Tracker';document.title='BLG Network Device Tracker';
+  var d=S.dev.asOf;document.getElementById('src').textContent=d?('Source: '+S.dev.src+'. Data as of '+fmtDate(d)+(S.dev.by?' (saved by '+S.dev.by+')':'')+(S.dev.synced?'. Auto-synced from ACC.':'.')):'No device data yet';
+  var base=devBase();
+  var bs=uniq(base.map(function(x){return x.b})).sort();
+  var rs=uniq(base.filter(function(x){return !S.df.b||x.b===S.df.b}).map(roomOf)).sort();
+  var sts=uniq(base.map(function(x){return x.st||'(blank)'})).sort();
+  document.getElementById('slicers').innerHTML=sel('dB','Building',bs,S.df.b)+sel('dR','Room',rs,S.df.r)+sel('dSt','FBNET state',sts,S.df.st)+
+    '<div class="sl"><label for="dScope">Devices</label><select id="dScope"><option value="">All devices</option><option value="act"'+(S.df.scope==='act'?' selected':'')+'>Actionable only</option></select></div>'+
+    sel('dScan','Scan status',['Scanned','Not scanned'],S.df.scan);
+  document.getElementById('legend').style.display='none';
+}
+function devRender(){
+  var list=devFiltered(),T=list.length,sc=list.filter(function(x){return x.sc}).length;
+  document.getElementById('kpis').innerHTML=kpi('Network Devices',fmt(T))+kpi('Scanned',fmt(sc))+kpi('Not Scanned',fmt(T-sc))+kpi('Scan Completion',pct(sc,T)+'%');
+  if(!S.devices.length){view.innerHTML='<div class="tile"><h2>No network device data yet</h2><p class="asof">Export Network Devices from ACC Assets to BLG Network Device Tracker.xlsx and run the sync, or load the export below.</p></div>';finish();return}
+  if(!T){view.innerHTML='<div class="tile"><h2>No devices match these filters</h2><p class="asof">Clear filters to see all devices.</p></div>';finish();return}
+  var G=[['room','Room'],['b','Building'],['st','FBNET state']];
+  var key=function(x){return S.dgroup==='room'?roomOf(x):S.dgroup==='b'?(x.b||'(no building)'):(x.st||'(blank)')};
+  var m={};list.forEach(function(x){var k=key(x),g=m[k]||(m[k]={key:k,n:0,s:0});g.n++;if(x.sc)g.s++});
+  var rows=Object.keys(m).map(function(k){var g=m[k];g.p=pct(g.s,g.n);return g});
+  if(S.dq)rows=rows.filter(function(r){return r.key.toLowerCase().indexOf(S.dq)>-1});
+  var srt={least:function(x,y){return x.p-y.p||y.n-x.n},most:function(x,y){return y.p-x.p||y.n-x.n},size:function(x,y){return y.n-x.n},name:function(x,y){return x.key.localeCompare(y.key)}};
+  rows.sort(srt[S.dsort]);
+  var gl=G.filter(function(g){return g[0]===S.dgroup})[0][1],selVal=S.dgroup==='room'?S.df.r:S.dgroup==='b'?S.df.b:S.df.st;
+  view.innerHTML='<section class="tile"><div class="th"><h2>Overall Scan Completion</h2><span class="asof">'+fmt(sc)+' of '+fmt(T)+' devices scanned ('+pct(sc,T)+'%)</span></div>'+
+    '<div class="bigtube"><i class="done" style="width:'+pct(sc,T)+'%"></i></div></section>'+
+    '<section class="tile"><div class="th"><h2>Scan Completion by '+esc(gl)+'</h2><div class="ctl">'+
+    '<select id="grp" aria-label="Group by">'+G.map(function(g){return '<option value="'+g[0]+'"'+(S.dgroup===g[0]?' selected':'')+'>By '+(g[0]==='st'?'FBNET state':g[1].toLowerCase())+'</option>'}).join('')+'</select>'+
+    '<select id="sort" aria-label="Sort">'+[['least','Least complete first'],['most','Most complete first'],['size','Most devices'],['name','Name']].map(function(o){return '<option value="'+o[0]+'"'+(S.dsort===o[0]?' selected':'')+'>'+o[1]+'</option>'}).join('')+'</select>'+
+    '<input type="search" id="q" placeholder="Find" aria-label="Find a row" value="'+esc(S.dq)+'"></div></div><div class="rooms">'+
+    (rows.length?rows.map(function(r){return '<div class="rrow drow'+(selVal===r.key?' sel':'')+'" tabindex="0" data-k="'+esc(r.key)+'"><div class="rname"><b>'+esc(r.key)+'</b><span>'+fmt(r.n)+' devices</span></div>'+
+      tube('done',r.s,r.n)+'<div class="cnt"><b>'+r.p+'%</b> '+fmt(r.s)+' / '+fmt(r.n)+'</div></div>'}).join(''):'<p class="asof">Nothing matches that search.</p>')+
+    '</div></section>';
+  finish();
+}
+function devExport(){
+  var list=devFiltered();if(!list.length){toast('Nothing to export with these filters.');return}
+  var rows=list.map(function(x){return {'Device':x.name,'Building':x.b,'Room':x.r,'FBNET State':x.st,'Actionable':x.act?'TRUE':'FALSE','Scan Status':x.sc?'Scanned':'Not scanned'}});
+  var ws=XLSX.utils.json_to_sheet(rows),wb=XLSX.utils.book_new();
+  ws['!cols']=[{wch:40},{wch:12},{wch:16},{wch:14},{wch:11},{wch:13}];
+  XLSX.utils.book_append_sheet(wb,ws,'Network Devices');
+  var tag=['NetworkDevices',S.df.b,S.df.r,S.df.st,S.df.scope==='act'?'Actionable':'',S.df.scan].filter(Boolean).join('_').replace(/[^A-Za-z0-9_-]+/g,'');
+  var d=new Date(),ds=d.getFullYear()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0');
+  XLSX.writeFile(wb,'BLG_'+tag+'_'+ds+'.xlsx');toast('Exported '+fmt(rows.length)+' devices.');
+}
+document.getElementById('dfile').addEventListener('change',function(e){var f=e.target.files[0],box=document.getElementById('dmsg');if(!f)return;
+  if(typeof XLSX==='undefined'){box.innerHTML='<p class="msg err">The spreadsheet reader could not load. Check your connection and reload.</p>';return}
+  var fr=new FileReader();
+  fr.onload=function(ev){try{
+    var wb=XLSX.read(new Uint8Array(ev.target.result),{type:'array'}),n=wb.SheetNames.indexOf('Assets')>-1?'Assets':wb.SheetNames[0];
+    var list=parseDevices(XLSX.utils.sheet_to_json(wb.Sheets[n],{header:1,defval:'',blankrows:false,raw:false}));
+    if(!list||!list.length)throw new Error('none');
+    S.devices=list;S.dev={src:f.name,asOf:(wb.Props&&wb.Props.ModifiedDate)?new Date(wb.Props.ModifiedDate):new Date(f.lastModified||Date.now()),by:(wb.Props&&wb.Props.LastAuthor)||'',synced:false};
+    if(S.gate!=='ready')S.gate='ready';S.page='dev';resetF();render();
+    box.innerHTML='<p class="msg">Loaded '+fmt(list.length)+' network devices from '+esc(f.name)+'.</p>';
+  }catch(x){box.innerHTML='<p class="msg err">No device rows found. Export from ACC Assets as .xlsx; it needs Name and Status columns.</p>'}};
+  fr.readAsArrayBuffer(f);
+});
+
 /* ---------- synced data: fetch, decrypt, auto-refresh ---------- */
 var DATA_URL='data/milestones.enc.json',KEYNAME='blg-milestones-pass',pkg=null,pass=null;
 function b64(s){var b=atob(s),u=new Uint8Array(b.length);for(var i=0;i<b.length;i++)u[i]=b.charCodeAt(i);return u}
@@ -328,7 +422,8 @@ function decrypt(p,pw){var enc=new TextEncoder();
   .then(function(key){return crypto.subtle.decrypt({name:'AES-GCM',iv:b64(p.iv)},key,b64(p.ct))})
   .then(function(buf){return new Response(new Blob([buf]).stream().pipeThrough(new DecompressionStream('gzip'))).text()})
   .then(JSON.parse)}
-function apply(E){var keep=S.gate==='ready'&&S.synced;S.cables=decode(E);S.src=E.src;S.asOf=new Date(E.asOf);S.by=E.by||'';S.synced=true;S.gate='ready';
+function apply(E){var keep=S.gate==='ready'&&S.synced;S.cables=decode(E);
+  if(E.D){S.devices=decodeDev(E.D);S.dev={src:E.D.src,asOf:new Date(E.D.asOf),by:E.D.by||'',synced:true}}S.src=E.src;S.asOf=new Date(E.asOf);S.by=E.by||'';S.synced=true;S.gate='ready';
   if(!keep){S.page='all';resetF();S.group=''}render()}
 function openPkg(p){
   if(p.plain){apply(p.plain);return Promise.resolve()}
