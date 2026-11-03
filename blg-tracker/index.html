@@ -222,7 +222,7 @@ function renderChrome(){
   document.getElementById('legend').style.display='';
   var title=S.page==='all'?'Fiber Milestone Tracker':S.page+' Milestones';
   document.getElementById('pageTitle').textContent=title;document.title='BLG '+title;
-  var d=S.asOf;document.getElementById('src').textContent=d?('Source: '+S.src+'. Data as of '+d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})+' '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})+(S.by?' (saved by '+S.by+')':'')+(S.synced?'. Auto-synced from ACC.':'.')):'Waiting for data';
+  var d=S.asOf;document.getElementById('src').textContent=d?('Source: '+S.src+'. Data as of '+d.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})+' '+d.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'})+(S.synced?'. Auto-synced from ACC.':'.')):'Waiting for data';
   var base=pageList();
   var secs=uniq(base.map(function(c){return c.sec}));
   var rooms=uniq(base.filter(function(c){return !S.f.sec||c.sec===S.f.sec}).map(function(c){return c.a})).sort();
@@ -355,7 +355,7 @@ function devFiltered(){return devBase().filter(function(x){return (!S.df.b||x.b=
 function sel(id,l,vals,v){return '<div class="sl"><label for="'+id+'">'+l+'</label><select id="'+id+'">'+opts(vals,v)+'</select></div>'}
 function devChrome(){
   document.getElementById('pageTitle').textContent='Network Device Tracker';document.title='BLG Network Device Tracker';
-  var d=S.dev.asOf;document.getElementById('src').textContent=d?('Source: '+S.dev.src+'. Data as of '+fmtDate(d)+(S.dev.by?' (saved by '+S.dev.by+')':'')+(S.dev.synced?'. Auto-synced from ACC.':'.')):'No device data yet';
+  var d=S.dev.asOf;document.getElementById('src').textContent=d?('Source: '+S.dev.src+'. Data as of '+fmtDate(d)+(S.dev.synced?'. Auto-synced from ACC.':'.')):'No device data yet';
   var base=devBase();
   var bs=uniq(base.map(function(x){return x.b})).sort();
   var rs=uniq(base.filter(function(x){return !S.df.b||x.b===S.df.b}).map(roomOf)).sort();
