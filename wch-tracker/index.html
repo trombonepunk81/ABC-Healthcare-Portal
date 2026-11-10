@@ -98,6 +98,26 @@ td.n,th.n{text-align:right}
 .lock .err{color:var(--hold);min-height:20px;font-size:13px}
 .lock .row{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .hidden{display:none!important}
+.mcards{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:12px;margin-bottom:12px}
+.mcard .big{font-size:30px;font-weight:300;margin:2px 0}
+.mcard .sub{font-size:12.5px;color:var(--muted);margin:2px 0 6px}
+.mcard.off .big{color:var(--faint)}
+.mb{height:9px;border-radius:5px;background:#323c4a;overflow:hidden;min-width:60px}
+.mb i{display:block;height:100%;background:var(--accent);border-radius:5px}
+.mb i.ov{background:var(--overall)}
+table.mt td.mc,table.mt th.mc{text-align:center;min-width:92px}
+td.mc span{display:block;font-size:13px;margin-bottom:4px}
+td.mc.na{color:var(--muted)}
+th.tk,td.tk{text-align:center;padding-left:4px;padding-right:4px}
+.yes{color:var(--accent);font-weight:700}.no{color:var(--faint)}
+.flag{font-size:11.5px;color:var(--patched);font-weight:600;white-space:nowrap}
+.warn{margin-top:10px;font-size:13px;color:#f1d08a}
+.panel.warn{background:#2b2618;margin-bottom:12px}
+.warnt{color:#f1d08a}
+.linkbtn{background:none;border:0;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline}
+.mtks{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}
+.mtk{font-size:12px;padding:2px 8px;border-radius:12px;background:#2a3442;color:var(--muted)}
+.mtk.on{background:rgba(47,184,200,.18);color:var(--accent);font-weight:600}
 @media (max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.filters{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:760px){.app{grid-template-columns:1fr}nav{position:static}.kpis{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr}}
 </style>
@@ -143,10 +163,13 @@ td.n,th.n{text-align:right}
 const DATA_URL='data/assets.enc.json';
 const PASS_KEY='wch-tracker-pass';
 const SHEETJS='https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
-const FIBER_COLS=['Name','Category','Status','Location','Schedule Sheet','Work Package','Building Scope','Network','Cable Type','Cable','Strands','Path','Priority','Pathway Route ID','Data Hall','Megapod','A-End Building','A-End Room','Z-End Building','Z-End Room','[LEE Cable Check]','[APT Cable Check]','Hold Reason','[Notes]'];
+const FIBER_COLS=['Name','Category','Status','Location','Schedule Sheet','Work Package','Building Scope','Network','Cable Type','Cable','Strands','Path','Priority','Pathway Route ID','Data Hall','Megapod','A-End Building','A-End Room','Z-End Building','Z-End Room','Hold Reason','[Notes]','Pathway Installed','Fiber Installed','Fiber Dressed','Rack Install','Fiber Landed','Fiber Terminated','Fiber Tested'];
 const PATH_COLS=['Name','Category','Status','Description','Path','Run','From','To','Feeds IDF','Priority','Hold Reason','[Notes]'];
-const ST={NS:'Not Started',PU:'Pulled',PA:'Patched',TE:'Tested',HO:'On Hold',IN:'Installed'};
-const RANK={'Pulled':1,'Patched':2,'Tested':3};
+const ST={NS:'Not Started',IP:'In Progress',CO:'Complete',HO:'On Hold',IN:'Installed'};
+const MS=['Pathway Installed','Fiber Installed','Fiber Dressed','Rack Install','Fiber Landed','Fiber Terminated','Fiber Tested'];
+const MSL={'Pathway Installed':'Pathway','Fiber Installed':'Installed','Fiber Dressed':'Dressed','Rack Install':'Rack','Fiber Landed':'Landed','Fiber Terminated':'Terminated','Fiber Tested':'Tested'};
+const DEFAULT_MAP={defaults:{OSP:['Pathway Installed','Fiber Installed','Fiber Dressed','Fiber Landed','Fiber Tested'],ISP:['Pathway Installed','Fiber Installed','Fiber Dressed','Fiber Landed','Fiber Terminated','Fiber Tested']},byTab:{}};
+let MMAP=DEFAULT_MAP;
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const fmt=n=>Number(n||0).toLocaleString();
@@ -182,6 +205,7 @@ async function openSynced(o,pass){
 }
 function ingest(d,source){
   const toObj=(cols,rows)=>rows.map(r=>{const o={};cols.forEach((c,i)=>o[c]=r[i]);return o});
+  MMAP=d.milestones&&d.milestones.defaults?d.milestones:DEFAULT_MAP;
   FIB=toObj(d.fiber.cols,d.fiber.rows).map(normF);
   PTH=toObj(d.paths.cols,d.paths.rows).map(normP);
   META={file:d.file,asOf:d.asOf}; SOURCE=source;
@@ -191,6 +215,13 @@ function normF(o){
   o.Status=o.Status||ST.NS; o.Path=o.Path==null?'':String(o.Path); o.Strands=Number(o.Strands)||0;
   o.Priority=o.Priority==null||o.Priority===''?null:Number(o.Priority);
   o._cat=String(o.Category||'').replace(/^Fiber Tracker\s*>\s*/,'');
+  MS.forEach(m=>o[m]=o[m]===1||o[m]===true);
+  const tab=String(o['Schedule Sheet']||'').replace(/\s+/g,' ').trim(), io=/ISP\s*$/.test(o._cat)?'ISP':'OSP';
+  o._ms=(MMAP.byTab&&MMAP.byTab[tab])||MMAP.defaults[io]||DEFAULT_MAP.defaults[io];
+  o._n=o._ms.length; o._done=o._ms.filter(m=>o[m]).length;
+  o._complete=o._n>0&&o._done===o._n;
+  o._expect=o._done===0?ST.NS:o._complete?ST.CO:ST.IP;
+  o._mismatch=o.Status!==ST.HO&&o.Status!==o._expect;
   return o;
 }
 function normP(o){o.Status=o.Status||ST.NS;o.Path=o.Path==null?'':String(o.Path);o.Priority=o.Priority==null?null:Number(o.Priority);return o}
@@ -228,16 +259,18 @@ let sheetjs=null;
 function loadSheetJS(){ return sheetjs||(sheetjs=new Promise((res,rej)=>{const s=document.createElement('script');s.src=SHEETJS;s.onload=()=>res(window.XLSX);s.onerror=()=>rej(new Error('Could not load the Excel exporter. Check your connection and try again.'));document.head.appendChild(s);})); }
 
 /* ---------- helpers ---------- */
-function stageCounts(list){
-  let pu=0,pa=0,te=0,ho=0,str=0;
-  for(const c of list){const r=RANK[c.Status]||0; if(r>=1)pu++; if(r>=2)pa++; if(r>=3)te++; if(c.Status===ST.HO)ho++; str+=c.Strands;}
-  const n=list.length; return {n,pu,pa,te,ho,str,overall:pc(pu+pa+te,3*n)};
+function msStats(list){
+  const t={n:list.length,str:0,done:0,appl:0,full:0,hold:0,mis:0,ms:{}};
+  MS.forEach(m=>t.ms[m]={a:0,d:0});
+  for(const c of list){
+    t.str+=c.Strands; t.done+=c._done; t.appl+=c._n; if(c._complete)t.full++; if(c.Status===ST.HO)t.hold++; if(c._mismatch)t.mis++;
+    for(const m of c._ms){t.ms[m].a++; if(c[m])t.ms[m].d++;}
+  }
+  t.overall=pc(t.done,t.appl); return t;
 }
-function pill(s){const k={'Not Started':'ns','Pulled':'pulled','Patched':'patched','Tested':'tested','On Hold':'hold','Installed':'tested'}[s]||'ns';return `<span class="pill s-${k}">${esc(s)}</span>`}
-function stack(s){ // exclusive bands: tested, patched-only, pulled-only, hold
-  const n=s.n||1; const w=x=>(100*x/n).toFixed(2)+'%';
-  return `<div class="stack" title="Tested ${s.te} · Patched ${s.pa-s.te} · Pulled ${s.pu-s.pa} · On hold ${s.ho}"><i style="width:${w(s.te)};background:var(--tested)"></i><i style="width:${w(s.pa-s.te)};background:var(--patched)"></i><i style="width:${w(s.pu-s.pa)};background:var(--pulled)"></i><i style="width:${w(s.ho)};background:var(--hold)"></i></div>`;
-}
+function pill(s){const k={'Not Started':'ns','In Progress':'pulled','Complete':'tested','On Hold':'hold','Installed':'tested','Pulled':'pulled','Patched':'patched','Tested':'tested'}[s]||'ns';return `<span class="pill s-${k}">${esc(s)}</span>`}
+function mbar(x,cls){return `<div class="mb"><i class="${cls||''}" style="width:${(100*x).toFixed(1)}%"></i></div>`}
+function lastMs(c){let l=null;MS.forEach(m=>{if(c._ms.includes(m)&&c[m])l=MSL[m]});return l}
 const uniq=(arr)=>[...new Set(arr.filter(v=>v!=null&&v!==''))].sort((a,b)=>String(a).localeCompare(String(b),undefined,{numeric:true}));
 function opts(vals,cur){return ['All',...vals].map(v=>`<option${String(v)===String(cur)?' selected':''}>${esc(v)}</option>`).join('')}
 function dateStr(iso){ if(!iso) return '—'; const d=new Date(iso); return isNaN(d)?iso:d.toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'}); }
@@ -261,7 +294,8 @@ function buildRoutes(){
     r.inst=r.segs.filter(s=>s.Status===ST.IN).length; r.hold=r.segs.filter(s=>s.Status===ST.HO).length;
     r.clear=r.segs.length>0&&r.inst===r.segs.length;
     r.trunk=r.cables[0]; r.cst=r.trunk.Status; r.pri=r.trunk.Priority;
-    r.pulled=(RANK[r.cst]||0)>=1; r.ready=r.clear&&!r.pulled;
+    r.pulled=!!r.trunk['Fiber Installed']; r.ready=r.clear&&!r.pulled&&r.cst!==ST.HO;
+    r.boxOff=r.segs.length>0&&(!!r.trunk['Pathway Installed'])!==r.clear;
     ROUTES.push(r);
   });
 }
@@ -288,50 +322,57 @@ function render(){
 }
 
 const GROUPS={'Schedule Sheet':'Tracker tab','_cat':'Category','Path':'Path','Z-End Room':'Z-end room','Z-End Building':'Z-end building','Network':'Network','Data Hall':'Data hall','Megapod':'Megapod','Priority':'Priority'};
+const SHOW=['Not started','In progress','Complete','On hold','Status mismatch'];
 function fiberBase(){return FIB.filter(c=>view.cat==='All'||c._cat===view.cat)}
 function applyF(list){
   return list.filter(c=>(F.sheet==='All'||c['Schedule Sheet']===F.sheet)&&(F.zb==='All'||c['Z-End Building']===F.zb)&&(F.path==='All'||c.Path===F.path)&&(F.net==='All'||c.Network===F.net)&&
-    (F.show==='All'||(F.show==='Not started'&&c.Status===ST.NS)||(F.show==='In progress'&&(c.Status===ST.PU||c.Status===ST.PA))||(F.show==='Tested'&&c.Status===ST.TE)||(F.show==='On hold'&&c.Status===ST.HO)));
+    (F.show==='All'||(F.show==='Not started'&&c._done===0&&c.Status!==ST.HO)||(F.show==='In progress'&&c._done>0&&!c._complete&&c.Status!==ST.HO)||(F.show==='Complete'&&c._complete)||(F.show==='On hold'&&c.Status===ST.HO)||(F.show==='Status mismatch'&&c._mismatch)));
 }
 function renderFiber(){
-  const base=fiberBase(), list=applyF(base), s=stageCounts(list);
+  const base=fiberBase(), list=applyF(base), t=msStats(list);
   $('#title').textContent=view.cat==='All'?'WCH Fiber Tracker':'WCH Fiber · '+view.cat;
   const kpi=(l,v,sub,c)=>`<div class="kpi${c?' dot':''}"${c?` style="--c:${c}"`:''}><div class="l">${l}</div><div class="v">${v}${sub!=null?`<small>${sub}</small>`:''}</div></div>`;
+  const sheets=new Set(list.map(c=>c['Schedule Sheet']));
+  const tracked=m=>new Set(list.filter(c=>c._ms.includes(m)).map(c=>c['Schedule Sheet'])).size;
   const rowsG=groupRows(list);
   const shown=list.slice(0,150);
+  const msCell=(g,m)=>{const x=g.ms[m];return x.a?`<td class="mc"><span>${pcs(pc(x.d,x.a))}</span>${mbar(pc(x.d,x.a))}</td>`:'<td class="mc na">—</td>'};
   $('#vFiber').innerHTML=`
-  <div class="kpis">${kpi('Total cables',fmt(s.n),fmt(s.str)+' strands')}${kpi('Pulled',fmt(s.pu),pcs(pc(s.pu,s.n)),'var(--pulled)')}${kpi('Patched',fmt(s.pa),pcs(pc(s.pa,s.n)),'var(--patched)')}${kpi('Tested',fmt(s.te),pcs(pc(s.te,s.n)),'var(--tested)')}${kpi('On hold',fmt(s.ho),null,'var(--hold)')}${kpi('Overall progress',pcs(s.overall))}</div>
+  <div class="kpis">${kpi('Total cables',fmt(t.n),fmt(t.str)+' strands')}${kpi('Fiber installed',fmt(t.ms['Fiber Installed'].d),pcs(pc(t.ms['Fiber Installed'].d,t.ms['Fiber Installed'].a)))}${kpi('Fiber landed',fmt(t.ms['Fiber Landed'].d),pcs(pc(t.ms['Fiber Landed'].d,t.ms['Fiber Landed'].a)))}${kpi('Fully complete',fmt(t.full),pcs(pc(t.full,t.n)))}${kpi('On hold',fmt(t.hold),null,'var(--hold)')}${kpi('Overall progress',pcs(t.overall))}</div>
   <div class="panel">
     <div class="filters">
       <div><label for="fSheet">Tracker tab</label><select id="fSheet">${opts(uniq(base.map(c=>c['Schedule Sheet'])),F.sheet)}</select></div>
       <div><label for="fZb">Z-end building</label><select id="fZb">${opts(uniq(base.map(c=>c['Z-End Building'])),F.zb)}</select></div>
       <div><label for="fPath">Path</label><select id="fPath">${opts(uniq(base.map(c=>c.Path)),F.path)}</select></div>
       <div><label for="fNet">Network</label><select id="fNet">${opts(uniq(base.map(c=>c.Network)),F.net)}</select></div>
-      <div><label for="fShow">Show cables</label><select id="fShow">${opts(['Not started','In progress','Tested','On hold'],F.show)}</select></div>
+      <div><label for="fShow">Show cables</label><select id="fShow">${opts(SHOW,F.show)}</select></div>
     </div>
     <div class="frow">
-      <div class="legend"><span><i style="background:var(--tested)"></i>Tested</span><span><i style="background:var(--patched)"></i>Patched</span><span><i style="background:var(--pulled)"></i>Pulled</span><span><i style="background:var(--hold)"></i>On hold</span><span><i style="background:var(--ns)"></i>Not started</span><span>Overall = (pulled + patched + tested) ÷ 3 × cables</span></div>
+      <div class="legend"><span><i style="background:var(--accent)"></i>Milestone complete</span><span><i style="background:var(--overall)"></i>Overall completion</span><span>— not tracked on that sheet</span></div>
       <div><button class="btn" id="clr">Clear filters</button> <button class="btn primary" id="exp">Export to Excel (${fmt(list.length)})</button></div>
     </div>
+    ${t.mis?`<div class="warn">${fmt(t.mis)} cable${t.mis>1?'s have a Status':' has a Status'} that doesn’t match ${t.mis>1?'their':'its'} milestone checkboxes. <button class="linkbtn" id="showMis">Show ${t.mis>1?'them':'it'}</button></div>`:''}
   </div>
+  <div class="mcards">${MS.map(m=>{const x=t.ms[m];return `<div class="kpi mcard${x.a?'':' off'}"><div class="l">${esc(m.replace('Rack Install','Rack Install'))}</div><div class="big">${x.a?pcs(pc(x.d,x.a)):'—'}</div><div class="sub">${x.a?`${fmt(x.d)} of ${fmt(x.a)} cables`:'Not tracked here'}</div>${x.a?mbar(pc(x.d,x.a)):'<div class="mb" style="visibility:hidden"></div>'}<div class="sub">Tracked on ${tracked(m)} of ${sheets.size} tracker${sheets.size===1?'':'s'}</div></div>`}).join('')}</div>
   <div class="panel">
-    <div class="ph"><h2>Progress by ${esc(GROUPS[groupBy])}</h2>
+    <div class="ph"><h2>Milestone progress by ${esc(GROUPS[groupBy].toLowerCase())}</h2>
       <div class="ctl"><select id="gBy" aria-label="Group by">${Object.entries(GROUPS).map(([k,v])=>`<option value="${k}"${k===groupBy?' selected':''}>By ${v.toLowerCase()}</option>`).join('')}</select>
       <select id="sBy" aria-label="Sort"><option value="least"${sortBy==='least'?' selected':''}>Least complete first</option><option value="most"${sortBy==='most'?' selected':''}>Most complete first</option><option value="size"${sortBy==='size'?' selected':''}>Most cables first</option><option value="name"${sortBy==='name'?' selected':''}>A to Z</option></select>
       <input type="search" id="find" placeholder="Find" value="${esc(find)}" aria-label="Find a group"></div></div>
-    <div class="scroll"><table><thead><tr><th>${esc(GROUPS[groupBy])}</th><th class="n">Overall</th><th style="width:28%">Status mix</th><th class="n">Pulled</th><th class="n">Patched</th><th class="n">Tested</th><th class="n">On hold</th></tr></thead>
-    <tbody>${rowsG.map(g=>`<tr class="${filterKey(groupBy)?'click':''}" data-k="${esc(g.k)}"><td class="g"><b>${esc(g.label)}</b><span>${fmt(g.s.n)} cables, ${fmt(g.s.str)} strands</span></td><td class="n"><span class="pct">${pcs(g.s.overall)}</span></td><td>${stack(g.s)}</td><td class="n">${pcs(pc(g.s.pu,g.s.n))}</td><td class="n">${pcs(pc(g.s.pa,g.s.n))}</td><td class="n">${pcs(pc(g.s.te,g.s.n))}</td><td class="n">${g.s.ho?fmt(g.s.ho):'<span class="muted">0</span>'}</td></tr>`).join('')||'<tr><td colspan="7" class="muted">No cables match these filters. Clear a filter to see more.</td></tr>'}</tbody></table></div>
+    <div class="scroll"><table class="mt"><thead><tr><th>${esc(GROUPS[groupBy])}</th><th class="mc">Overall</th>${MS.map(m=>`<th class="mc">${MSL[m]}</th>`).join('')}</tr></thead>
+    <tbody>${rowsG.map(g=>`<tr class="${filterKey(groupBy)?'click':''}" data-k="${esc(g.k)}"><td class="g"><b>${esc(g.label)}</b><span>${fmt(g.s.n)} cable${g.s.n===1?'':'s'}, ${fmt(g.s.full)} complete${g.s.hold?`, ${g.s.hold} on hold`:''}</span></td><td class="mc"><span><b>${pcs(g.s.overall)}</b></span>${mbar(g.s.overall,'ov')}</td>${MS.map(m=>msCell(g.s,m)).join('')}</tr>`).join('')||'<tr><td colspan="9" class="muted">No cables match these filters. Clear a filter to see more.</td></tr>'}</tbody></table></div>
   </div>
   <div class="panel">
     <div class="ph"><h2>Cables</h2><span class="muted">${list.length>shown.length?`Showing the first ${shown.length} of ${fmt(list.length)}. Export to see them all.`:fmt(list.length)+' cables'}</span></div>
-    <div class="scroll"><table><thead><tr><th>Cable</th><th>Status</th><th>A-end</th><th>Z-end</th><th>Cable</th><th class="n">Path</th><th class="n">Priority</th><th>Hold reason</th></tr></thead><tbody>
-    ${shown.map(c=>`<tr><td>${esc(c.Name)}</td><td>${pill(c.Status)}</td><td>${esc((c['A-End Building']||'')+' '+(c['A-End Room']||''))}</td><td>${esc((c['Z-End Building']||'')+' '+(c['Z-End Room']||''))}</td><td>${esc(c.Cable||'')}</td><td class="n">${esc(c.Path)}</td><td class="n">${c.Priority??''}</td><td class="muted">${esc(c['Hold Reason']||'')}</td></tr>`).join('')}
+    <div class="scroll"><table><thead><tr><th>Cable</th><th>Status</th><th>A-end</th><th>Z-end</th>${MS.map(m=>`<th class="tk">${MSL[m]}</th>`).join('')}<th>Hold reason</th></tr></thead><tbody>
+    ${shown.map(c=>`<tr><td>${esc(c.Name)}</td><td>${pill(c.Status)}${c._mismatch?` <span class="flag" title="Checkboxes say ${esc(c._expect)}">≠ ${esc(c._expect)}</span>`:''}</td><td>${esc((c['A-End Building']||'')+' '+(c['A-End Room']||''))}</td><td>${esc((c['Z-End Building']||'')+' '+(c['Z-End Room']||''))}</td>${MS.map(m=>`<td class="tk">${c._ms.includes(m)?(c[m]?'<span class="yes" aria-label="done">✓</span>':'<span class="no" aria-label="not done">·</span>'):'<span class="muted">—</span>'}</td>`).join('')}<td class="muted">${esc(c['Hold Reason']||'')}</td></tr>`).join('')}
     </tbody></table></div>
   </div>`;
   const bind=(id,k)=>$(id).onchange=e=>{F[k]=e.target.value;renderFiber()};
   bind('#fSheet','sheet');bind('#fZb','zb');bind('#fPath','path');bind('#fNet','net');bind('#fShow','show');
   $('#clr').onclick=()=>{Object.keys(F).forEach(k=>F[k]='All');find='';renderFiber()};
-  $('#exp').onclick=()=>exportXlsx(list,FIBER_COLS,`WCH_fiber_${new Date().toISOString().slice(0,10)}.xlsx`);
+  if($('#showMis')) $('#showMis').onclick=()=>{F.show='Status mismatch';renderFiber()};
+  $('#exp').onclick=()=>exportXlsx(list.map(c=>Object.assign({},c,{'Status per checkboxes':c._expect})),[...FIBER_COLS,'Status per checkboxes'],`WCH_fiber_${new Date().toISOString().slice(0,10)}.xlsx`);
   $('#gBy').onchange=e=>{groupBy=e.target.value;renderFiber()};
   $('#sBy').onchange=e=>{sortBy=e.target.value;renderFiber()};
   $('#find').oninput=e=>{find=e.target.value;const p=e.target.selectionStart;renderFiber();const i=$('#find');i.focus();i.setSelectionRange(p,p)};
@@ -341,7 +382,7 @@ function filterKey(g){return {'Schedule Sheet':'sheet','Z-End Building':'zb','Pa
 function groupRows(list){
   const m=new Map();
   for(const c of list){let k=c[groupBy];if(k==null||k==='')k='(blank)';k=String(k);if(!m.has(k))m.set(k,[]);m.get(k).push(c)}
-  let out=[...m].map(([k,v])=>({k,label:groupBy==='Path'&&k!=='(blank)'?'Path '+k:groupBy==='Priority'&&k!=='(blank)'?'Priority '+k:k,s:stageCounts(v)}));
+  let out=[...m].map(([k,v])=>({k,label:groupBy==='Path'&&k!=='(blank)'?'Path '+k:groupBy==='Priority'&&k!=='(blank)'?'Priority '+k:k,s:msStats(v)}));
   if(find) out=out.filter(g=>g.label.toLowerCase().includes(find.toLowerCase()));
   const nm=(a,b)=>a.label.localeCompare(b.label,undefined,{numeric:true});
   out.sort(sortBy==='least'?(a,b)=>a.s.overall-b.s.overall||nm(a,b):sortBy==='most'?(a,b)=>b.s.overall-a.s.overall||nm(a,b):sortBy==='size'?(a,b)=>b.s.n-a.s.n||nm(a,b):nm);
@@ -353,18 +394,20 @@ function renderReady(){
   $('#title').textContent='BLG3 GS pull readiness';
   const el=$('#vReady');
   if(!ROUTES.length){el.innerHTML='<div class="panel muted">No cables with a Pathway Route ID in this data, so there’s nothing to match to subduct segments.</div>';return}
-  const rd=ROUTES.filter(r=>r.ready).length, pu=ROUTES.filter(r=>r.pulled).length, wait=ROUTES.filter(r=>!r.clear&&!r.pulled).length;
+  const rd=ROUTES.filter(r=>r.ready).length, pu=ROUTES.filter(r=>r.pulled).length, wait=ROUTES.filter(r=>!r.clear&&!r.pulled).length, box=ROUTES.filter(r=>r.boxOff).length;
   const segInst=PTH.filter(s=>s.Status===ST.IN).length, segHold=PTH.filter(s=>s.Status===ST.HO).length;
   const kpi=(l,v,sub,c)=>`<div class="kpi${c?' dot':''}"${c?` style="--c:${c}"`:''}><div class="l">${l}</div><div class="v">${v}${sub!=null?`<small>${sub}</small>`:''}</div></div>`;
   const pris=uniq(ROUTES.map(r=>r.pri)), paths=uniq(ROUTES.map(r=>r.path));
   const cell=(r)=>{ if(!r) return '<div></div>';
     const strip=r.segs.map(s=>`<i class="${s.Status===ST.IN?'in':s.Status===ST.HO?'ho':''}"></i>`).join('');
-    return `<button class="cell${r.ready?' ready':''}" data-r="${esc(r.id)}" aria-label="${esc(r.id)}"><div class="top">${pill(r.cst)}${r.ready?'<span class="tag">Ready to pull</span>':(r.hold&&!r.pulled)?'<span class="tag" style="color:var(--hold)">Blocked</span>':''}</div><div class="strip">${strip}</div><div class="meta">${r.inst} of ${r.segs.length} segments installed · ${r.run.toLowerCase()}</div></button>`;};
+    const lm=lastMs(r.trunk);
+    return `<button class="cell${r.ready?' ready':''}" data-r="${esc(r.id)}" aria-label="${esc(r.id)}"><div class="top">${pill(r.cst)}${r.ready?'<span class="tag">Ready to pull</span>':(r.hold&&!r.pulled)?'<span class="tag" style="color:var(--hold)">Blocked</span>':''}</div><div class="strip">${strip}</div><div class="meta">${r.inst} of ${r.segs.length} segments · ${r.pulled?'fiber '+esc(lm?lm.toLowerCase():'installed'):'fiber not installed'}</div>${r.boxOff?`<div class="meta warnt">Pathway box ${r.trunk['Pathway Installed']?'checked, segments not all in':'unchecked, segments all in'}</div>`:''}</button>`;};
   const idfOf=p=>{const r=ROUTES.find(x=>x.pri===p);return r?r.idf:''};
   el.innerHTML=`
-  <div class="kpis">${kpi('Trunk routes',ROUTES.length)}${kpi('Ready to pull',rd,null,'var(--accent)')}${kpi('Pulled or beyond',pu,null,'var(--pulled)')}${kpi('Waiting on subduct',wait,null,'var(--ns)')}${kpi('Subduct installed',pcs(pc(segInst,PTH.length)),null,'var(--installed)')}${kpi('Segments on hold',segHold,null,'var(--hold)')}</div>
+  <div class="kpis">${kpi('Trunk routes',ROUTES.length)}${kpi('Ready to pull',rd,null,'var(--accent)')}${kpi('Fiber installed',pu,null,'var(--pulled)')}${kpi('Waiting on subduct',wait,null,'var(--ns)')}${kpi('Subduct installed',pcs(pc(segInst,PTH.length)),null,'var(--installed)')}${kpi('Segments on hold',segHold,null,'var(--hold)')}</div>
+  ${box?`<div class="panel warn" style="margin-top:0">${box} trunk${box>1?'s have a':' has a'} Pathway Installed checkbox that disagrees with the subduct segments. Look for the amber note in the grid.</div>`:''}
   <div class="panel">
-    <div class="ph"><h2>Trunk routes by priority and path</h2><span class="muted">A trunk is ready to pull when every subduct segment on its route is installed. Each tick is one vault-to-vault segment.</span></div>
+    <div class="ph"><h2>Trunk routes by priority and path</h2><span class="muted">A trunk is ready to pull when every subduct segment on its route is installed and its fiber isn’t installed yet. Each tick is one vault-to-vault segment.</span></div>
     <div class="scroll"><div class="grid" style="min-width:860px">
       <div></div>${paths.map(p=>`<div class="gh">Path ${esc(p)}</div>`).join('')}
       ${pris.map(p=>`<div class="pr"><b>Priority ${p}</b><span>${esc(idfOf(p))}</span></div>${paths.map(pa=>cell(ROUTES.find(r=>r.pri===p&&r.path===pa))).join('')}`).join('')}
@@ -379,7 +422,9 @@ function showRoute(){
   const box=$('#rDetail'); if(!box) return; const r=ROUTES.find(x=>x.id===selRoute); if(!r){box.innerHTML='';return}
   const verts=[]; r.segs.forEach((s,i)=>{if(i===0||s.From!==r.segs[i-1].To)verts.push(`<span class="v">${esc(s.From)}</span>`);verts.push(`<span class="sg ${s.Status===ST.IN?'in':s.Status===ST.HO?'ho':''}" title="${esc(s.Name)}: ${esc(s.Status)}"></span><span class="v">${esc(s.To)}</span>`)});
   const blockers=r.segs.filter(s=>s.Status===ST.HO);
+  const ticks=r.trunk._ms.map(m=>`<span class="mtk${r.trunk[m]?' on':''}">${r.trunk[m]?'✓ ':''}${MSL[m]}</span>`).join('');
   box.innerHTML=`<div class="detail"><div class="ph"><h2>${esc(r.trunk.Name)}</h2>${pill(r.cst)}</div>
+  <div class="mtks">${ticks}</div>
   <p class="muted" style="margin:0 0 10px">${esc(r.trunk['A-End Building'])} ${esc(r.trunk['A-End Room'])} to ${esc(r.trunk['Z-End Building'])} ${esc(r.idf)}, path ${esc(r.path)} ${r.run.toLowerCase()}. </p>
   <div class="route">${verts.join('')}</div>
   ${blockers.length?`<p style="margin:12px 0 0"><b>On hold:</b> ${blockers.map(s=>`${esc(s.From)} to ${esc(s.To)}${s['Hold Reason']?` (${esc(s['Hold Reason'])})`:''}`).join('; ')}</p>`:''}</div>`;
