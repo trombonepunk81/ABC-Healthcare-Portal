@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WCH Fiber Tracker</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧵</text></svg>">
+<style>
+:root{
+  --bg:#10151d;--panel:#1a212b;--panel2:#212a36;--line:#2c3644;--text:#e7ecf3;--muted:#95a2b4;--faint:#6b778a;
+  --nav:#0c3767;--nav2:#0a2d55;--accent:#2fb8c8;--overall:#93b4e6;
+  --ns:#4a5566;--pulled:#5aa0e6;--patched:#e2b14d;--tested:#3fc48d;--hold:#e3626d;--installed:#3fc48d;
+  --r:10px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--text);font:14px/1.45 "Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;font-variant-numeric:tabular-nums}
+button,select,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.app{display:grid;grid-template-columns:210px 1fr;gap:16px;padding:16px;min-height:100%}
+nav{background:var(--nav);border-radius:18px;padding:22px 12px;align-self:start;position:sticky;top:16px}
+.brand{text-align:center;margin-bottom:22px}
+.brand b{display:block;font-size:30px;font-weight:600;letter-spacing:-.5px;line-height:1}
+.brand small{font-size:11px;color:#c9d6e8}
+nav h4{margin:18px 6px 6px;font-size:12px;font-weight:700;color:#dbe6f5}
+nav button{display:block;width:100%;text-align:left;background:none;border:0;border-radius:8px;padding:7px 12px;cursor:pointer;color:#e3ecf8}
+nav button:hover{background:var(--nav2)}
+nav button.on{background:#e9eef6;color:#0c2a4d;font-weight:600}
+nav .count{float:right;font-size:12px;opacity:.7}
+main{min-width:0}
+header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin:2px 0 12px}
+h1{margin:0;font-size:30px;font-weight:600;color:var(--overall);letter-spacing:-.3px}
+.src{color:var(--muted);font-size:12.5px;text-align:right}
+.src .local{color:var(--patched)}
+.btn{background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:6px 12px;cursor:pointer}
+.btn:hover{border-color:#41506a}
+.btn.primary{background:#1d4f8f;border-color:#1d4f8f}
+.btn.primary:hover{background:#235da8}
+.kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;margin-bottom:12px}
+.kpi{background:var(--panel);border-radius:var(--r);padding:12px 14px}
+.kpi .l{font-weight:600;font-size:14.5px}
+.kpi .v{font-size:32px;font-weight:300;text-align:right;line-height:1.2;margin-top:4px}
+.kpi .v small{font-size:13px;color:var(--muted);margin-left:6px}
+.kpi.dot .l::before{content:"";display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--c);margin-right:7px}
+.panel{background:var(--panel);border-radius:var(--r);padding:14px 16px;margin-bottom:12px}
+.filters{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}
+.filters label{font-weight:600;font-size:13px;display:block;margin-bottom:5px}
+select,input[type=search]{width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:6px;padding:7px 9px}
+.frow{display:flex;justify-content:space-between;align-items:center;margin-top:12px;gap:10px;flex-wrap:wrap}
+.legend{color:var(--muted);font-size:12.5px;display:flex;gap:14px;flex-wrap:wrap}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.ph{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.ph h2{margin:0;font-size:18px;font-weight:600}
+.ph .ctl{display:flex;gap:8px}
+.ph .ctl select,.ph .ctl input{width:auto;min-width:150px}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse}
+th{font-size:12.5px;color:var(--muted);font-weight:600;text-align:left;padding:8px 8px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:9px 8px;border-bottom:1px solid #232c38;vertical-align:middle}
+tr.click{cursor:pointer}
+tr.click:hover td{background:#1f2733}
+td.n,th.n{text-align:right}
+.g b{display:block;font-weight:600}
+.g span{font-size:12px;color:var(--muted)}
+.stack{display:flex;height:9px;border-radius:5px;overflow:hidden;background:var(--ns);min-width:150px}
+.stack i{display:block;height:100%}
+.pct{font-weight:600;display:inline-block;min-width:46px}
+.pill{display:inline-block;padding:1px 9px;border-radius:20px;font-size:12px;font-weight:600;white-space:nowrap;color:#0f141b}
+.s-ns{background:#5d697b;color:#e7ecf3}.s-pulled{background:var(--pulled)}.s-patched{background:var(--patched)}.s-tested{background:var(--tested)}.s-hold{background:var(--hold)}
+.muted{color:var(--muted)}
+.more{color:var(--muted);font-size:12.5px;padding-top:8px}
+/* pull readiness grid */
+.grid{display:grid;grid-template-columns:150px repeat(4,minmax(170px,1fr));gap:8px}
+.gh{font-size:12.5px;color:var(--muted);font-weight:600;padding:0 4px}
+.pr{display:flex;flex-direction:column;justify-content:center;padding:6px 4px}
+.pr b{font-size:15px}
+.pr span{font-size:12px;color:var(--muted)}
+.cell{background:var(--panel2);border:1px solid var(--line);border-radius:8px;padding:9px 10px;cursor:pointer;text-align:left}
+.cell:hover{border-color:#46566e}
+.cell.ready{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.cell .top{display:flex;justify-content:space-between;align-items:center;gap:6px;margin-bottom:7px}
+.cell .meta{font-size:12px;color:var(--muted);margin-top:6px}
+.strip{display:flex;gap:2px;height:12px}
+.strip i{flex:1;border-radius:1px;background:var(--ns)}
+.strip i.in{background:var(--installed)}.strip i.ho{background:var(--hold)}
+.strip i.br{flex:1.6}
+.tag{font-size:11.5px;font-weight:700;color:var(--accent)}
+.detail{margin-top:12px;border-top:1px solid var(--line);padding-top:12px}
+.route{display:flex;flex-wrap:wrap;gap:4px 2px;align-items:center;font-size:12px}
+.route .v{padding:2px 6px;border-radius:4px;background:#2a3442}
+.route .sg{width:16px;height:3px;background:var(--ns)}
+.route .sg.in{background:var(--installed)}.route .sg.ho{background:var(--hold);height:5px}
+/* lock */
+.lock{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;z-index:10;padding:20px}
+.lock form{background:var(--panel);border-radius:14px;padding:26px;width:min(380px,100%)}
+.lock h2{margin:0 0 4px;font-weight:600}
+.lock p{margin:0 0 16px;color:var(--muted)}
+.lock input[type=password]{width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:9px 11px;margin-bottom:10px}
+.lock .err{color:var(--hold);min-height:20px;font-size:13px}
+.lock .row{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.lock .alt{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
+.hidden{display:none!important}
+@media (max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.filters{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:760px){.app{grid-template-columns:1fr}nav{position:static}.kpis{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="lock" id="lock">
+  <form id="lockForm">
+    <h2>WCH Fiber Tracker</h2>
+    <p id="lockMsg">Loading data…</p>
+    <div id="passBox" class="hidden">
+      <input type="password" id="pass" placeholder="Team passcode" autocomplete="current-password" aria-label="Team passcode">
+      <div class="err" id="passErr"></div>
+      <div class="row">
+        <label class="muted"><input type="checkbox" id="remember" checked> Remember on this device</label>
+        <button class="btn primary" type="submit">Unlock</button>
+      </div>
+    </div>
+    <div class="alt">No synced data? <button class="btn" type="button" id="lockOpen">Open an ACC export</button></div>
+  </form>
+</div>
+<input type="file" id="file" accept=".xlsx,.xls" class="hidden">
+
+<div class="app">
+  <nav aria-label="Views">
+    <div class="brand"><b>aptitude</b><small>intelligent integration</small></div>
+    <h4>Fiber</h4>
+    <div id="navFiber"></div>
+    <h4>Pathways</h4>
+    <button data-view="ready">Pull readiness <span class="count" id="cRoutes"></span></button>
+    <button data-view="segs">Subduct segments <span class="count" id="cSegs"></span></button>
+  </nav>
+  <main>
+    <header>
+      <h1 id="title">WCH Fiber Tracker</h1>
+      <div class="src"><div id="src"></div>
+        <div style="margin-top:6px"><button class="btn" id="openBtn">Open an ACC export</button> <button class="btn" id="syncedBtn" title="Go back to the synced data">Use synced data</button></div></div>
+    </header>
+    <section id="vFiber"></section>
+    <section id="vReady" class="hidden"></section>
+    <section id="vSegs" class="hidden"></section>
+  </main>
+</div>
+
+<script>
+'use strict';
+const DATA_URL='data/assets.enc.json';
+const PASS_KEY='wch-tracker-pass';
+const SHEETJS='https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+const FIBER_COLS=['Name','Category','Status','Location','Schedule Sheet','Work Package','Building Scope','Network','Cable Type','Cable','Strands','Path','Priority','Pathway Route ID','Data Hall','Megapod','A-End Building','A-End Room','Z-End Building','Z-End Room','[BB Cable Check]','[APT Cable Check]','Hold Reason','[Notes]'];
+const PATH_COLS=['Name','Category','Status','Description','Path','Run','From','To','Feeds IDF','Priority','Hold Reason','[Notes]'];
+const ST={NS:'Not Started',PU:'Pulled',PA:'Patched',TE:'Tested',HO:'On Hold',IN:'Installed'};
+const RANK={'Pulled':1,'Patched':2,'Tested':3};
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmt=n=>Number(n||0).toLocaleString();
+const pc=(a,b)=>b?a/b:0;
+const pcs=x=>(x*100).toFixed(x>0&&x<0.001?2:1).replace(/\.0$/,'')+'%';
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}},del(k){try{localStorage.removeItem(k)}catch(e){}}};
+
+let RAW=null, FIB=[], PTH=[], META={}, SOURCE='synced', lastCt=null;
+let view={kind:'fiber',cat:'All'};
+const F={sheet:'All',zb:'All',path:'All',net:'All',show:'All'};
+let groupBy='Schedule Sheet', sortBy='least', find='', selRoute=null, segF={path:'All',run:'All',status:'All'};
+
+/* ---------- data loading ---------- */
+const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function gunzipJSON(bytes){
+  const ds=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+  return JSON.parse(await new Response(ds).text());
+}
+async function decrypt(o,pass){
+  const km=await crypto.subtle.importKey('raw',new TextEncoder().encode(pass),'PBKDF2',false,['deriveKey']);
+  const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(o.salt),iterations:o.iter,hash:'SHA-256'},km,{name:'AES-GCM',length:256},false,['decrypt']);
+  const pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(o.iv)},key,b64(o.ct));
+  return gunzipJSON(new Uint8Array(pt));
+}
+async function fetchData(){
+  const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});
+  if(!r.ok) throw new Error(r.status===404?'No synced data yet. Run the sync once, or open an ACC export below.':'Could not load data ('+r.status+').');
+  return r.json();
+}
+async function openSynced(o,pass){
+  if(o.enc==='none'){ return gunzipJSON(b64(o.gz)); }
+  return decrypt(o,pass);
+}
+function ingest(d,source){
+  const toObj=(cols,rows)=>rows.map(r=>{const o={};cols.forEach((c,i)=>o[c]=r[i]);return o});
+  FIB=toObj(d.fiber.cols,d.fiber.rows).map(normF);
+  PTH=toObj(d.paths.cols,d.paths.rows).map(normP);
+  META={file:d.file,asOf:d.asOf}; SOURCE=source;
+  buildRoutes(); buildNav(); render();
+}
+function normF(o){
+  o.Status=o.Status||ST.NS; o.Path=o.Path==null?'':String(o.Path); o.Strands=Number(o.Strands)||0;
+  o.Priority=o.Priority==null||o.Priority===''?null:Number(o.Priority);
+  o._cat=String(o.Category||'').replace(/^Fiber Tracker\s*>\s*/,'');
+  return o;
+}
+function normP(o){o.Status=o.Status||ST.NS;o.Path=o.Path==null?'':String(o.Path);o.Priority=o.Priority==null?null:Number(o.Priority);return o}
+
+async function boot(){
+  try{ RAW=await fetchData(); lastCt=RAW.ct||RAW.gz; }
+  catch(e){ $('#lockMsg').textContent=e.message; return; }
+  if(RAW.enc==='none'){ ingest(await openSynced(RAW),'synced'); unlock(); return; }
+  const saved=store.get(PASS_KEY);
+  if(saved){ try{ ingest(await openSynced(RAW,saved),'synced'); unlock(); return; }catch(e){ store.del(PASS_KEY); } }
+  $('#lockMsg').textContent='Enter the team passcode to view the data.';
+  $('#passBox').classList.remove('hidden'); $('#pass').focus();
+}
+$('#lockForm').addEventListener('submit',async e=>{
+  e.preventDefault(); const p=$('#pass').value; if(!p) return;
+  $('#passErr').textContent='Checking…';
+  try{ const d=await openSynced(RAW,p); if($('#remember').checked) store.set(PASS_KEY,p); sessionPass=p; ingest(d,'synced'); unlock(); }
+  catch(err){ $('#passErr').textContent='That passcode didn’t work. Check it and try again.'; }
+});
+let sessionPass=null;
+function unlock(){ $('#lock').classList.add('hidden'); }
+async function refresh(){
+  if(SOURCE!=='synced'||!RAW) return;
+  try{
+    const o=await fetchData(); const ct=o.ct||o.gz; if(ct===lastCt) return;
+    const p=store.get(PASS_KEY)||sessionPass; const d=await openSynced(o,p);
+    RAW=o; lastCt=ct; ingest(d,'synced');
+  }catch(e){}
+}
+setInterval(refresh,5*60*1000);
+document.addEventListener('visibilitychange',()=>{ if(!document.hidden) refresh(); });
+
+/* ---------- open a local ACC export ---------- */
+let sheetjs=null;
+function loadSheetJS(){ return sheetjs||(sheetjs=new Promise((res,rej)=>{const s=document.createElement('script');s.src=SHEETJS;s.onload=()=>res(window.XLSX);s.onerror=()=>rej(new Error('Could not load the Excel reader.'));document.head.appendChild(s);})); }
+[$('#openBtn'),$('#lockOpen')].forEach(b=>b.addEventListener('click',()=>$('#file').click()));
+$('#file').addEventListener('change',async e=>{
+  const f=e.target.files[0]; if(!f) return; e.target.value='';
+  try{
+    const X=await loadSheetJS();
+    const wb=X.read(await f.arrayBuffer(),{type:'array'});
+    const rows=X.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,defval:null,raw:true});
+    const hdr=rows[0].map(h=>String(h??'').replace(/\s+/g,' ').trim());
+    const ix=c=>hdr.indexOf(c); if(ix('Name')<0||ix('Category')<0) throw new Error('This file isn’t an ACC Assets export (no Name / Category columns).');
+    const pick=(r,cols)=>cols.map(c=>{const i=ix(c);let v=i<0?null:r[i];if(typeof v==='string'){v=v.trim();if(!v)v=null}return v});
+    const fr=[],pr=[];
+    rows.slice(1).forEach(r=>{ if(!r||r[ix('Name')]==null||r[ix('Name')]==='Name') return; const c=String(r[ix('Category')]||'');
+      if(c.startsWith('Fiber Tracker')) fr.push(pick(r,FIBER_COLS)); else if(c.startsWith('Pathway Tracker')) pr.push(pick(r,PATH_COLS)); });
+    if(!fr.length&&!pr.length) throw new Error('No Fiber Tracker or Pathway Tracker assets found in this file.');
+    ingest({file:f.name,asOf:new Date(f.lastModified).toISOString(),fiber:{cols:FIBER_COLS,rows:fr},paths:{cols:PATH_COLS,rows:pr}},'local');
+    unlock();
+  }catch(err){ alert(err.message); }
+});
+$('#syncedBtn').addEventListener('click',async()=>{ if(!RAW){location.reload();return} const p=store.get(PASS_KEY)||sessionPass; try{ingest(await openSynced(RAW,p),'synced')}catch(e){location.reload()} });
+
+/* ---------- helpers ---------- */
+function stageCounts(list){
+  let pu=0,pa=0,te=0,ho=0,str=0;
+  for(const c of list){const r=RANK[c.Status]||0; if(r>=1)pu++; if(r>=2)pa++; if(r>=3)te++; if(c.Status===ST.HO)ho++; str+=c.Strands;}
+  const n=list.length; return {n,pu,pa,te,ho,str,overall:pc(pu+pa+te,3*n)};
+}
+function pill(s){const k={'Not Started':'ns','Pulled':'pulled','Patched':'patched','Tested':'tested','On Hold':'hold','Installed':'tested'}[s]||'ns';return `<span class="pill s-${k}">${esc(s)}</span>`}
+function stack(s){ // exclusive bands: tested, patched-only, pulled-only, hold
+  const n=s.n||1; const w=x=>(100*x/n).toFixed(2)+'%';
+  return `<div class="stack" title="Tested ${s.te} · Patched ${s.pa-s.te} · Pulled ${s.pu-s.pa} · On hold ${s.ho}"><i style="width:${w(s.te)};background:var(--tested)"></i><i style="width:${w(s.pa-s.te)};background:var(--patched)"></i><i style="width:${w(s.pu-s.pa)};background:var(--pulled)"></i><i style="width:${w(s.ho)};background:var(--hold)"></i></div>`;
+}
+const uniq=(arr)=>[...new Set(arr.filter(v=>v!=null&&v!==''))].sort((a,b)=>String(a).localeCompare(String(b),undefined,{numeric:true}));
+function opts(vals,cur){return ['All',...vals].map(v=>`<option${String(v)===String(cur)?' selected':''}>${esc(v)}</option>`).join('')}
+function dateStr(iso){ if(!iso) return '—'; const d=new Date(iso); return isNaN(d)?iso:d.toLocaleString(undefined,{month:'short',day:'numeric',year:'numeric',hour:'numeric',minute:'2-digit'}); }
+function exportXlsx(rows,cols,name){
+  loadSheetJS().then(X=>{const ws=X.utils.json_to_sheet(rows.map(r=>{const o={};cols.forEach(c=>o[c]=r[c]??'');return o}),{header:cols});const wb=X.utils.book_new();X.utils.book_append_sheet(wb,ws,'Export');X.writeFile(wb,name)}).catch(e=>alert(e.message));
+}
+
+/* ---------- routes (cable ↔ subduct) ---------- */
+let ROUTES=[];
+function buildRoutes(){
+  ROUTES=[];
+  const byId={};
+  FIB.filter(c=>c['Pathway Route ID']).forEach(c=>{
+    const id=c['Pathway Route ID']; const m=id.match(/-P(\d)-(INT|EXT)>(.+)$/); if(!m) return;
+    const r=byId[id]||(byId[id]={id,path:m[1],run:m[2]==='INT'?'Internal':'External',idf:m[3],cables:[],segs:[]});
+    r.cables.push(c);
+  });
+  Object.values(byId).forEach(r=>{
+    r.segs=PTH.filter(s=>s.Path===r.path&&s.Run===r.run&&String(s['Feeds IDF']||'').split(/\s*,\s*/).includes(r.idf))
+      .sort((a,b)=>String(a.Name).localeCompare(String(b.Name),undefined,{numeric:true}));
+    r.inst=r.segs.filter(s=>s.Status===ST.IN).length; r.hold=r.segs.filter(s=>s.Status===ST.HO).length;
+    r.clear=r.segs.length>0&&r.inst===r.segs.length;
+    r.trunk=r.cables[0]; r.cst=r.trunk.Status; r.pri=r.trunk.Priority;
+    r.pulled=(RANK[r.cst]||0)>=1; r.ready=r.clear&&!r.pulled;
+    ROUTES.push(r);
+  });
+}
+
+/* ---------- nav ---------- */
+function buildNav(){
+  const ord=c=>({GS:0,FE:1,BE:2}[c.split(' ')[0]]??9);
+  const cats=uniq(FIB.map(c=>c._cat)).sort((a,b)=>ord(a)-ord(b)||a.localeCompare(b));
+  $('#navFiber').innerHTML=[['All',FIB.length],...cats.map(c=>[c,FIB.filter(x=>x._cat===c).length])]
+    .map(([c,n])=>`<button data-view="fiber" data-cat="${esc(c)}">${c==='All'?'All fiber':esc(c)} <span class="count">${fmt(n)}</span></button>`).join('');
+  $('#cRoutes').textContent=ROUTES.length||''; $('#cSegs').textContent=PTH.length?fmt(PTH.length):'';
+  document.querySelectorAll('nav [data-view]').forEach(b=>b.onclick=()=>{view={kind:b.dataset.view,cat:b.dataset.cat||'All'};render();});
+}
+function markNav(){
+  document.querySelectorAll('nav [data-view]').forEach(b=>b.classList.toggle('on',b.dataset.view===view.kind&&(view.kind!=='fiber'||b.dataset.cat===view.cat)));
+}
+
+/* ---------- render ---------- */
+function render(){
+  markNav();
+  const local=SOURCE==='local';
+  $('#src').innerHTML=`Source: ${esc(META.file)}. Data as of ${esc(dateStr(META.asOf))}. `+(local?'<span class="local">Opened from this device, not the synced copy.</span>':'Auto-synced from ACC.');
+  $('#syncedBtn').classList.toggle('hidden',!local);
+  ['Fiber','Ready','Segs'].forEach(k=>$('#v'+k).classList.toggle('hidden',{fiber:'Fiber',ready:'Ready',segs:'Segs'}[view.kind]!==k));
+  if(view.kind==='fiber') renderFiber(); else if(view.kind==='ready') renderReady(); else renderSegs();
+}
+
+const GROUPS={'Schedule Sheet':'Tracker tab','_cat':'Category','Path':'Path','Z-End Room':'Z-end room','Z-End Building':'Z-end building','Network':'Network','Data Hall':'Data hall','Megapod':'Megapod','Priority':'Priority'};
+function fiberBase(){return FIB.filter(c=>view.cat==='All'||c._cat===view.cat)}
+function applyF(list){
+  return list.filter(c=>(F.sheet==='All'||c['Schedule Sheet']===F.sheet)&&(F.zb==='All'||c['Z-End Building']===F.zb)&&(F.path==='All'||c.Path===F.path)&&(F.net==='All'||c.Network===F.net)&&
+    (F.show==='All'||(F.show==='Not started'&&c.Status===ST.NS)||(F.show==='In progress'&&(c.Status===ST.PU||c.Status===ST.PA))||(F.show==='Tested'&&c.Status===ST.TE)||(F.show==='On hold'&&c.Status===ST.HO)));
+}
+function renderFiber(){
+  const base=fiberBase(), list=applyF(base), s=stageCounts(list);
+  $('#title').textContent=view.cat==='All'?'WCH Fiber Tracker':'WCH Fiber · '+view.cat;
+  const kpi=(l,v,sub,c)=>`<div class="kpi${c?' dot':''}"${c?` style="--c:${c}"`:''}><div class="l">${l}</div><div class="v">${v}${sub!=null?`<small>${sub}</small>`:''}</div></div>`;
+  const rowsG=groupRows(list);
+  const shown=list.slice(0,150);
+  $('#vFiber').innerHTML=`
+  <div class="kpis">${kpi('Total cables',fmt(s.n),fmt(s.str)+' strands')}${kpi('Pulled',fmt(s.pu),pcs(pc(s.pu,s.n)),'var(--pulled)')}${kpi('Patched',fmt(s.pa),pcs(pc(s.pa,s.n)),'var(--patched)')}${kpi('Tested',fmt(s.te),pcs(pc(s.te,s.n)),'var(--tested)')}${kpi('On hold',fmt(s.ho),null,'var(--hold)')}${kpi('Overall progress',pcs(s.overall))}</div>
+  <div class="panel">
+    <div class="filters">
+      <div><label for="fSheet">Tracker tab</label><select id="fSheet">${opts(uniq(base.map(c=>c['Schedule Sheet'])),F.sheet)}</select></div>
+      <div><label for="fZb">Z-end building</label><select id="fZb">${opts(uniq(base.map(c=>c['Z-End Building'])),F.zb)}</select></div>
+      <div><label for="fPath">Path</label><select id="fPath">${opts(uniq(base.map(c=>c.Path)),F.path)}</select></div>
+      <div><label for="fNet">Network</label><select id="fNet">${opts(uniq(base.map(c=>c.Network)),F.net)}</select></div>
+      <div><label for="fShow">Show cables</label><select id="fShow">${opts(['Not started','In progress','Tested','On hold'],F.show)}</select></div>
+    </div>
+    <div class="frow">
+      <div class="legend"><span><i style="background:var(--tested)"></i>Tested</span><span><i style="background:var(--patched)"></i>Patched</span><span><i style="background:var(--pulled)"></i>Pulled</span><span><i style="background:var(--hold)"></i>On hold</span><span><i style="background:var(--ns)"></i>Not started</span><span>Overall = (pulled + patched + tested) ÷ 3 × cables</span></div>
+      <div><button class="btn" id="clr">Clear filters</button> <button class="btn primary" id="exp">Export to Excel (${fmt(list.length)})</button></div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="ph"><h2>Progress by ${esc(GROUPS[groupBy])}</h2>
+      <div class="ctl"><select id="gBy" aria-label="Group by">${Object.entries(GROUPS).map(([k,v])=>`<option value="${k}"${k===groupBy?' selected':''}>By ${v.toLowerCase()}</option>`).join('')}</select>
+      <select id="sBy" aria-label="Sort"><option value="least"${sortBy==='least'?' selected':''}>Least complete first</option><option value="most"${sortBy==='most'?' selected':''}>Most complete first</option><option value="size"${sortBy==='size'?' selected':''}>Most cables first</option><option value="name"${sortBy==='name'?' selected':''}>A to Z</option></select>
+      <input type="search" id="find" placeholder="Find" value="${esc(find)}" aria-label="Find a group"></div></div>
+    <div class="scroll"><table><thead><tr><th>${esc(GROUPS[groupBy])}</th><th class="n">Overall</th><th style="width:28%">Status mix</th><th class="n">Pulled</th><th class="n">Patched</th><th class="n">Tested</th><th class="n">On hold</th></tr></thead>
+    <tbody>${rowsG.map(g=>`<tr class="${filterKey(groupBy)?'click':''}" data-k="${esc(g.k)}"><td class="g"><b>${esc(g.label)}</b><span>${fmt(g.s.n)} cables, ${fmt(g.s.str)} strands</span></td><td class="n"><span class="pct">${pcs(g.s.overall)}</span></td><td>${stack(g.s)}</td><td class="n">${pcs(pc(g.s.pu,g.s.n))}</td><td class="n">${pcs(pc(g.s.pa,g.s.n))}</td><td class="n">${pcs(pc(g.s.te,g.s.n))}</td><td class="n">${g.s.ho?fmt(g.s.ho):'<span class="muted">0</span>'}</td></tr>`).join('')||'<tr><td colspan="7" class="muted">No cables match these filters. Clear a filter to see more.</td></tr>'}</tbody></table></div>
+  </div>
+  <div class="panel">
+    <div class="ph"><h2>Cables</h2><span class="muted">${list.length>shown.length?`Showing the first ${shown.length} of ${fmt(list.length)}. Export to see them all.`:fmt(list.length)+' cables'}</span></div>
+    <div class="scroll"><table><thead><tr><th>Cable</th><th>Status</th><th>A-end</th><th>Z-end</th><th>Cable</th><th class="n">Path</th><th class="n">Priority</th><th>Hold reason</th></tr></thead><tbody>
+    ${shown.map(c=>`<tr><td>${esc(c.Name)}</td><td>${pill(c.Status)}</td><td>${esc((c['A-End Building']||'')+' '+(c['A-End Room']||''))}</td><td>${esc((c['Z-End Building']||'')+' '+(c['Z-End Room']||''))}</td><td>${esc(c.Cable||'')}</td><td class="n">${esc(c.Path)}</td><td class="n">${c.Priority??''}</td><td class="muted">${esc(c['Hold Reason']||'')}</td></tr>`).join('')}
+    </tbody></table></div>
+  </div>`;
+  const bind=(id,k)=>$(id).onchange=e=>{F[k]=e.target.value;renderFiber()};
+  bind('#fSheet','sheet');bind('#fZb','zb');bind('#fPath','path');bind('#fNet','net');bind('#fShow','show');
+  $('#clr').onclick=()=>{Object.keys(F).forEach(k=>F[k]='All');find='';renderFiber()};
+  $('#exp').onclick=()=>exportXlsx(list,FIBER_COLS,`WCH_fiber_${new Date().toISOString().slice(0,10)}.xlsx`);
+  $('#gBy').onchange=e=>{groupBy=e.target.value;renderFiber()};
+  $('#sBy').onchange=e=>{sortBy=e.target.value;renderFiber()};
+  $('#find').oninput=e=>{find=e.target.value;const p=e.target.selectionStart;renderFiber();const i=$('#find');i.focus();i.setSelectionRange(p,p)};
+  document.querySelectorAll('#vFiber tr.click').forEach(tr=>tr.onclick=()=>{const fk=filterKey(groupBy);if(fk){F[fk]=tr.dataset.k;renderFiber();window.scrollTo({top:0,behavior:'smooth'})}});
+}
+function filterKey(g){return {'Schedule Sheet':'sheet','Z-End Building':'zb','Path':'path','Network':'net'}[g]}
+function groupRows(list){
+  const m=new Map();
+  for(const c of list){let k=c[groupBy];if(k==null||k==='')k='(blank)';k=String(k);if(!m.has(k))m.set(k,[]);m.get(k).push(c)}
+  let out=[...m].map(([k,v])=>({k,label:groupBy==='Path'&&k!=='(blank)'?'Path '+k:groupBy==='Priority'&&k!=='(blank)'?'Priority '+k:k,s:stageCounts(v)}));
+  if(find) out=out.filter(g=>g.label.toLowerCase().includes(find.toLowerCase()));
+  const nm=(a,b)=>a.label.localeCompare(b.label,undefined,{numeric:true});
+  out.sort(sortBy==='least'?(a,b)=>a.s.overall-b.s.overall||nm(a,b):sortBy==='most'?(a,b)=>b.s.overall-a.s.overall||nm(a,b):sortBy==='size'?(a,b)=>b.s.n-a.s.n||nm(a,b):nm);
+  return out;
+}
+
+/* ---------- pull readiness ---------- */
+function renderReady(){
+  $('#title').textContent='BLG3 GS pull readiness';
+  const el=$('#vReady');
+  if(!ROUTES.length){el.innerHTML='<div class="panel muted">No cables with a Pathway Route ID in this data, so there’s nothing to match to subduct segments.</div>';return}
+  const rd=ROUTES.filter(r=>r.ready).length, pu=ROUTES.filter(r=>r.pulled).length, wait=ROUTES.filter(r=>!r.clear&&!r.pulled).length;
+  const segInst=PTH.filter(s=>s.Status===ST.IN).length, segHold=PTH.filter(s=>s.Status===ST.HO).length;
+  const kpi=(l,v,sub,c)=>`<div class="kpi${c?' dot':''}"${c?` style="--c:${c}"`:''}><div class="l">${l}</div><div class="v">${v}${sub!=null?`<small>${sub}</small>`:''}</div></div>`;
+  const pris=uniq(ROUTES.map(r=>r.pri)), paths=uniq(ROUTES.map(r=>r.path));
+  const cell=(r)=>{ if(!r) return '<div></div>';
+    const strip=r.segs.map(s=>`<i class="${s.Status===ST.IN?'in':s.Status===ST.HO?'ho':''}"></i>`).join('');
+    return `<button class="cell${r.ready?' ready':''}" data-r="${esc(r.id)}" aria-label="${esc(r.id)}"><div class="top">${pill(r.cst)}${r.ready?'<span class="tag">Ready to pull</span>':(r.hold&&!r.pulled)?'<span class="tag" style="color:var(--hold)">Blocked</span>':''}</div><div class="strip">${strip}</div><div class="meta">${r.inst} of ${r.segs.length} segments installed · ${r.run.toLowerCase()}</div></button>`;};
+  const idfOf=p=>{const r=ROUTES.find(x=>x.pri===p);return r?r.idf:''};
+  el.innerHTML=`
+  <div class="kpis">${kpi('Trunk routes',ROUTES.length)}${kpi('Ready to pull',rd,null,'var(--accent)')}${kpi('Pulled or beyond',pu,null,'var(--pulled)')}${kpi('Waiting on subduct',wait,null,'var(--ns)')}${kpi('Subduct installed',pcs(pc(segInst,PTH.length)),null,'var(--installed)')}${kpi('Segments on hold',segHold,null,'var(--hold)')}</div>
+  <div class="panel">
+    <div class="ph"><h2>Trunk routes by priority and path</h2><span class="muted">A trunk is ready to pull when every subduct segment on its route is installed. Each tick is one vault-to-vault segment.</span></div>
+    <div class="scroll"><div class="grid" style="min-width:860px">
+      <div></div>${paths.map(p=>`<div class="gh">Path ${esc(p)}</div>`).join('')}
+      ${pris.map(p=>`<div class="pr"><b>Priority ${p}</b><span>${esc(idfOf(p))}</span></div>${paths.map(pa=>cell(ROUTES.find(r=>r.pri===p&&r.path===pa))).join('')}`).join('')}
+    </div></div>
+    <div class="legend" style="margin-top:12px"><span><i style="background:var(--installed)"></i>Segment installed</span><span><i style="background:var(--hold)"></i>Segment on hold</span><span><i style="background:var(--ns)"></i>Not installed</span></div>
+    <div id="rDetail"></div>
+  </div>`;
+  el.querySelectorAll('.cell').forEach(b=>b.onclick=()=>{selRoute=selRoute===b.dataset.r?null:b.dataset.r;showRoute()});
+  showRoute();
+}
+function showRoute(){
+  const box=$('#rDetail'); if(!box) return; const r=ROUTES.find(x=>x.id===selRoute); if(!r){box.innerHTML='';return}
+  const verts=[]; r.segs.forEach((s,i)=>{if(i===0||s.From!==r.segs[i-1].To)verts.push(`<span class="v">${esc(s.From)}</span>`);verts.push(`<span class="sg ${s.Status===ST.IN?'in':s.Status===ST.HO?'ho':''}" title="${esc(s.Name)}: ${esc(s.Status)}"></span><span class="v">${esc(s.To)}</span>`)});
+  const blockers=r.segs.filter(s=>s.Status===ST.HO);
+  box.innerHTML=`<div class="detail"><div class="ph"><h2>${esc(r.trunk.Name)}</h2>${pill(r.cst)}</div>
+  <p class="muted" style="margin:0 0 10px">${esc(r.trunk['A-End Building'])} ${esc(r.trunk['A-End Room'])} to ${esc(r.trunk['Z-End Building'])} ${esc(r.idf)}, path ${esc(r.path)} ${r.run.toLowerCase()}. </p>
+  <div class="route">${verts.join('')}</div>
+  ${blockers.length?`<p style="margin:12px 0 0"><b>On hold:</b> ${blockers.map(s=>`${esc(s.From)} to ${esc(s.To)}${s['Hold Reason']?` (${esc(s['Hold Reason'])})`:''}`).join('; ')}</p>`:''}</div>`;
+}
+
+/* ---------- segments ---------- */
+function renderSegs(){
+  $('#title').textContent='BLG3 GS subduct segments';
+  const list=PTH.filter(s=>(segF.path==='All'||s.Path===segF.path)&&(segF.run==='All'||s.Run===segF.run)&&(segF.status==='All'||s.Status===segF.status));
+  const groups=new Map(); PTH.forEach(s=>{const k=`Path ${s.Path} ${s.Run.toLowerCase()}`;if(!groups.has(k))groups.set(k,[]);groups.get(k).push(s)});
+  const gr=[...groups].sort((a,b)=>a[0].localeCompare(b[0],undefined,{numeric:true}));
+  $('#vSegs').innerHTML=`
+  <div class="panel"><div class="ph"><h2>Installed by path and run</h2></div><div class="scroll"><table><thead><tr><th>Run</th><th class="n">Segments</th><th class="n">Installed</th><th style="width:40%">Progress</th><th class="n">On hold</th></tr></thead><tbody>
+  ${gr.map(([k,v])=>{const i=v.filter(s=>s.Status===ST.IN).length,h=v.filter(s=>s.Status===ST.HO).length;return `<tr><td><b>${esc(k)}</b></td><td class="n">${v.length}</td><td class="n">${pcs(pc(i,v.length))}</td><td><div class="stack"><i style="width:${100*i/v.length}%;background:var(--installed)"></i><i style="width:${100*h/v.length}%;background:var(--hold)"></i></div></td><td class="n">${h||'<span class="muted">0</span>'}</td></tr>`}).join('')}
+  </tbody></table></div></div>
+  <div class="panel">
+    <div class="filters" style="grid-template-columns:repeat(3,minmax(0,1fr))">
+      <div><label for="sp">Path</label><select id="sp">${opts(uniq(PTH.map(s=>s.Path)),segF.path)}</select></div>
+      <div><label for="sr">Run</label><select id="sr">${opts(uniq(PTH.map(s=>s.Run)),segF.run)}</select></div>
+      <div><label for="ss">Status</label><select id="ss">${opts(['Not Started','Installed','On Hold'],segF.status)}</select></div>
+    </div>
+    <div class="frow"><span class="muted">${fmt(list.length)} segments</span><button class="btn primary" id="sexp">Export to Excel (${fmt(list.length)})</button></div>
+  </div>
+  <div class="panel"><div class="scroll"><table><thead><tr><th>Segment</th><th>Status</th><th>From</th><th>To</th><th>Feeds IDF</th><th class="n">Priority</th><th>Hold reason</th></tr></thead><tbody>
+  ${list.slice(0,400).map(s=>`<tr><td>${esc(s.Name)}</td><td>${pill(s.Status)}</td><td>${esc(s.From)}</td><td>${esc(s.To)}</td><td class="muted">${esc(s['Feeds IDF'])}</td><td class="n">${s.Priority??''}</td><td class="muted">${esc(s['Hold Reason']||'')}</td></tr>`).join('')}
+  </tbody></table></div></div>`;
+  $('#sp').onchange=e=>{segF.path=e.target.value;renderSegs()};$('#sr').onchange=e=>{segF.run=e.target.value;renderSegs()};$('#ss').onchange=e=>{segF.status=e.target.value;renderSegs()};
+  $('#sexp').onclick=()=>exportXlsx(list,PATH_COLS,`WCH_subduct_${new Date().toISOString().slice(0,10)}.xlsx`);
+}
+
+boot();
+</script>
+</body>
+</html>
