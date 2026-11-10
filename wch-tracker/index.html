@@ -31,7 +31,6 @@ main{min-width:0}
 header{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;margin:2px 0 12px}
 h1{margin:0;font-size:30px;font-weight:600;color:var(--overall);letter-spacing:-.3px}
 .src{color:var(--muted);font-size:12.5px;text-align:right}
-.src .local{color:var(--patched)}
 .btn{background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:6px 12px;cursor:pointer}
 .btn:hover{border-color:#41506a}
 .btn.primary{background:#1d4f8f;border-color:#1d4f8f}
@@ -98,7 +97,6 @@ td.n,th.n{text-align:right}
 .lock input[type=password]{width:100%;background:var(--panel2);border:1px solid var(--line);border-radius:7px;padding:9px 11px;margin-bottom:10px}
 .lock .err{color:var(--hold);min-height:20px;font-size:13px}
 .lock .row{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.lock .alt{margin-top:16px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}
 .hidden{display:none!important}
 @media (max-width:1100px){.kpis{grid-template-columns:repeat(3,1fr)}.filters{grid-template-columns:repeat(2,1fr)}}
 @media (max-width:760px){.app{grid-template-columns:1fr}nav{position:static}.kpis{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr}}
@@ -117,10 +115,8 @@ td.n,th.n{text-align:right}
         <button class="btn primary" type="submit">Unlock</button>
       </div>
     </div>
-    <div class="alt">No synced data? <button class="btn" type="button" id="lockOpen">Open an ACC export</button></div>
   </form>
 </div>
-<input type="file" id="file" accept=".xlsx,.xls" class="hidden">
 
 <div class="app">
   <nav aria-label="Views">
@@ -134,8 +130,7 @@ td.n,th.n{text-align:right}
   <main>
     <header>
       <h1 id="title">WCH Fiber Tracker</h1>
-      <div class="src"><div id="src"></div>
-        <div style="margin-top:6px"><button class="btn" id="openBtn">Open an ACC export</button> <button class="btn" id="syncedBtn" title="Go back to the synced data">Use synced data</button></div></div>
+      <div class="src" id="src"></div>
     </header>
     <section id="vFiber"></section>
     <section id="vReady" class="hidden"></section>
@@ -148,7 +143,7 @@ td.n,th.n{text-align:right}
 const DATA_URL='data/assets.enc.json';
 const PASS_KEY='wch-tracker-pass';
 const SHEETJS='https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
-const FIBER_COLS=['Name','Category','Status','Location','Schedule Sheet','Work Package','Building Scope','Network','Cable Type','Cable','Strands','Path','Priority','Pathway Route ID','Data Hall','Megapod','A-End Building','A-End Room','Z-End Building','Z-End Room','[BB Cable Check]','[APT Cable Check]','Hold Reason','[Notes]'];
+const FIBER_COLS=['Name','Category','Status','Location','Schedule Sheet','Work Package','Building Scope','Network','Cable Type','Cable','Strands','Path','Priority','Pathway Route ID','Data Hall','Megapod','A-End Building','A-End Room','Z-End Building','Z-End Room','[LEE Cable Check]','[APT Cable Check]','Hold Reason','[Notes]'];
 const PATH_COLS=['Name','Category','Status','Description','Path','Run','From','To','Feeds IDF','Priority','Hold Reason','[Notes]'];
 const ST={NS:'Not Started',PU:'Pulled',PA:'Patched',TE:'Tested',HO:'On Hold',IN:'Installed'};
 const RANK={'Pulled':1,'Patched':2,'Tested':3};
@@ -178,7 +173,7 @@ async function decrypt(o,pass){
 }
 async function fetchData(){
   const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});
-  if(!r.ok) throw new Error(r.status===404?'No synced data yet. Run the sync once, or open an ACC export below.':'Could not load data ('+r.status+').');
+  if(!r.ok) throw new Error(r.status===404?'No synced data yet. Run the sync once, then reload this page.':'Could not load data ('+r.status+').');
   return r.json();
 }
 async function openSynced(o,pass){
@@ -228,28 +223,9 @@ async function refresh(){
 setInterval(refresh,5*60*1000);
 document.addEventListener('visibilitychange',()=>{ if(!document.hidden) refresh(); });
 
-/* ---------- open a local ACC export ---------- */
+/* ---------- Excel export ---------- */
 let sheetjs=null;
-function loadSheetJS(){ return sheetjs||(sheetjs=new Promise((res,rej)=>{const s=document.createElement('script');s.src=SHEETJS;s.onload=()=>res(window.XLSX);s.onerror=()=>rej(new Error('Could not load the Excel reader.'));document.head.appendChild(s);})); }
-[$('#openBtn'),$('#lockOpen')].forEach(b=>b.addEventListener('click',()=>$('#file').click()));
-$('#file').addEventListener('change',async e=>{
-  const f=e.target.files[0]; if(!f) return; e.target.value='';
-  try{
-    const X=await loadSheetJS();
-    const wb=X.read(await f.arrayBuffer(),{type:'array'});
-    const rows=X.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]],{header:1,defval:null,raw:true});
-    const hdr=rows[0].map(h=>String(h??'').replace(/\s+/g,' ').trim());
-    const ix=c=>hdr.indexOf(c); if(ix('Name')<0||ix('Category')<0) throw new Error('This file isn’t an ACC Assets export (no Name / Category columns).');
-    const pick=(r,cols)=>cols.map(c=>{const i=ix(c);let v=i<0?null:r[i];if(typeof v==='string'){v=v.trim();if(!v)v=null}return v});
-    const fr=[],pr=[];
-    rows.slice(1).forEach(r=>{ if(!r||r[ix('Name')]==null||r[ix('Name')]==='Name') return; const c=String(r[ix('Category')]||'');
-      if(c.startsWith('Fiber Tracker')) fr.push(pick(r,FIBER_COLS)); else if(c.startsWith('Pathway Tracker')) pr.push(pick(r,PATH_COLS)); });
-    if(!fr.length&&!pr.length) throw new Error('No Fiber Tracker or Pathway Tracker assets found in this file.');
-    ingest({file:f.name,asOf:new Date(f.lastModified).toISOString(),fiber:{cols:FIBER_COLS,rows:fr},paths:{cols:PATH_COLS,rows:pr}},'local');
-    unlock();
-  }catch(err){ alert(err.message); }
-});
-$('#syncedBtn').addEventListener('click',async()=>{ if(!RAW){location.reload();return} const p=store.get(PASS_KEY)||sessionPass; try{ingest(await openSynced(RAW,p),'synced')}catch(e){location.reload()} });
+function loadSheetJS(){ return sheetjs||(sheetjs=new Promise((res,rej)=>{const s=document.createElement('script');s.src=SHEETJS;s.onload=()=>res(window.XLSX);s.onerror=()=>rej(new Error('Could not load the Excel exporter. Check your connection and try again.'));document.head.appendChild(s);})); }
 
 /* ---------- helpers ---------- */
 function stageCounts(list){
@@ -306,9 +282,7 @@ function markNav(){
 /* ---------- render ---------- */
 function render(){
   markNav();
-  const local=SOURCE==='local';
-  $('#src').innerHTML=`Source: ${esc(META.file)}. Data as of ${esc(dateStr(META.asOf))}. `+(local?'<span class="local">Opened from this device, not the synced copy.</span>':'Auto-synced from ACC.');
-  $('#syncedBtn').classList.toggle('hidden',!local);
+  $('#src').textContent=`Source: ${META.file}. Data as of ${dateStr(META.asOf)}. Auto-synced from ACC.`;
   ['Fiber','Ready','Segs'].forEach(k=>$('#v'+k).classList.toggle('hidden',{fiber:'Fiber',ready:'Ready',segs:'Segs'}[view.kind]!==k));
   if(view.kind==='fiber') renderFiber(); else if(view.kind==='ready') renderReady(); else renderSegs();
 }
