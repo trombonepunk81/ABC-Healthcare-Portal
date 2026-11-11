@@ -221,7 +221,10 @@ function normF(o){
   o._n=o._ms.length; o._done=o._ms.filter(m=>o[m]).length;
   o._complete=o._n>0&&o._done===o._n;
   o._expect=o._done===0?ST.NS:o._complete?ST.CO:ST.IP;
-  o._mismatch=o.Status!==ST.HO&&o.Status!==o._expect;
+  // Tracker status comes from the 7 milestones; ACC's own Status field is ignored.
+  // On Hold = anything written in Hold Reason.
+  o._accStatus=o.Status; o._holdReason=String(o['Hold Reason']||'').trim();
+  o.Status=o._holdReason?ST.HO:o._expect;
   return o;
 }
 function normP(o){o.Status=o.Status||ST.NS;o.Path=o.Path==null?'':String(o.Path);o.Priority=o.Priority==null?null:Number(o.Priority);return o}
@@ -263,7 +266,7 @@ function msStats(list){
   const t={n:list.length,str:0,done:0,appl:0,full:0,hold:0,mis:0,ms:{}};
   MS.forEach(m=>t.ms[m]={a:0,d:0});
   for(const c of list){
-    t.str+=c.Strands; t.done+=c._done; t.appl+=c._n; if(c._complete)t.full++; if(c.Status===ST.HO)t.hold++; if(c._mismatch)t.mis++;
+    t.str+=c.Strands; t.done+=c._done; t.appl+=c._n; if(c._complete)t.full++; if(c.Status===ST.HO)t.hold++;
     for(const m of c._ms){t.ms[m].a++; if(c[m])t.ms[m].d++;}
   }
   t.overall=pc(t.done,t.appl); return t;
@@ -322,11 +325,11 @@ function render(){
 }
 
 const GROUPS={'Schedule Sheet':'Tracker tab','_cat':'Category','Path':'Path','Z-End Room':'Z-end room','Z-End Building':'Z-end building','Network':'Network','Data Hall':'Data hall','Megapod':'Megapod','Priority':'Priority'};
-const SHOW=['Not started','In progress','Complete','On hold','Status mismatch'];
+const SHOW=['Not started','In progress','Complete','On hold'];
 function fiberBase(){return FIB.filter(c=>view.cat==='All'||c._cat===view.cat)}
 function applyF(list){
   return list.filter(c=>(F.sheet==='All'||c['Schedule Sheet']===F.sheet)&&(F.zb==='All'||c['Z-End Building']===F.zb)&&(F.path==='All'||c.Path===F.path)&&(F.net==='All'||c.Network===F.net)&&
-    (F.show==='All'||(F.show==='Not started'&&c._done===0&&c.Status!==ST.HO)||(F.show==='In progress'&&c._done>0&&!c._complete&&c.Status!==ST.HO)||(F.show==='Complete'&&c._complete)||(F.show==='On hold'&&c.Status===ST.HO)||(F.show==='Status mismatch'&&c._mismatch)));
+    (F.show==='All'||(F.show==='Not started'&&c._done===0&&c.Status!==ST.HO)||(F.show==='In progress'&&c._done>0&&!c._complete&&c.Status!==ST.HO)||(F.show==='Complete'&&c._complete&&c.Status!==ST.HO)||(F.show==='On hold'&&c.Status===ST.HO)));
 }
 function renderFiber(){
   const base=fiberBase(), list=applyF(base), t=msStats(list);
@@ -348,10 +351,9 @@ function renderFiber(){
       <div><label for="fShow">Show cables</label><select id="fShow">${opts(SHOW,F.show)}</select></div>
     </div>
     <div class="frow">
-      <div class="legend"><span><i style="background:var(--accent)"></i>Milestone complete</span><span><i style="background:var(--overall)"></i>Overall completion</span><span>— not tracked on that sheet</span></div>
+      <div class="legend"><span><i style="background:var(--accent)"></i>Milestone complete</span><span><i style="background:var(--overall)"></i>Overall completion</span><span>— not tracked on that sheet</span><span>Status is set from the milestones; anything in Hold Reason marks a cable on hold</span></div>
       <div><button class="btn" id="clr">Clear filters</button> <button class="btn primary" id="exp">Export to Excel (${fmt(list.length)})</button></div>
     </div>
-    ${t.mis?`<div class="warn">${fmt(t.mis)} cable${t.mis>1?'s have a Status':' has a Status'} that doesn’t match ${t.mis>1?'their':'its'} milestone checkboxes. <button class="linkbtn" id="showMis">Show ${t.mis>1?'them':'it'}</button></div>`:''}
   </div>
   <div class="mcards">${MS.map(m=>{const x=t.ms[m];return `<div class="kpi mcard${x.a?'':' off'}"><div class="l">${esc(m.replace('Rack Install','Rack Install'))}</div><div class="big">${x.a?pcs(pc(x.d,x.a)):'—'}</div><div class="sub">${x.a?`${fmt(x.d)} of ${fmt(x.a)} cables`:'Not tracked here'}</div>${x.a?mbar(pc(x.d,x.a)):'<div class="mb" style="visibility:hidden"></div>'}<div class="sub">Tracked on ${tracked(m)} of ${sheets.size} tracker${sheets.size===1?'':'s'}</div></div>`}).join('')}</div>
   <div class="panel">
@@ -365,14 +367,13 @@ function renderFiber(){
   <div class="panel">
     <div class="ph"><h2>Cables</h2><span class="muted">${list.length>shown.length?`Showing the first ${shown.length} of ${fmt(list.length)}. Export to see them all.`:fmt(list.length)+' cables'}</span></div>
     <div class="scroll"><table><thead><tr><th>Cable</th><th>Status</th><th>A-end</th><th>Z-end</th>${MS.map(m=>`<th class="tk">${MSL[m]}</th>`).join('')}<th>Hold reason</th></tr></thead><tbody>
-    ${shown.map(c=>`<tr><td>${esc(c.Name)}</td><td>${pill(c.Status)}${c._mismatch?` <span class="flag" title="Checkboxes say ${esc(c._expect)}">≠ ${esc(c._expect)}</span>`:''}</td><td>${esc((c['A-End Building']||'')+' '+(c['A-End Room']||''))}</td><td>${esc((c['Z-End Building']||'')+' '+(c['Z-End Room']||''))}</td>${MS.map(m=>`<td class="tk">${c._ms.includes(m)?(c[m]?'<span class="yes" aria-label="done">✓</span>':'<span class="no" aria-label="not done">·</span>'):'<span class="muted">—</span>'}</td>`).join('')}<td class="muted">${esc(c['Hold Reason']||'')}</td></tr>`).join('')}
+    ${shown.map(c=>`<tr><td>${esc(c.Name)}</td><td>${pill(c.Status)}</td><td>${esc((c['A-End Building']||'')+' '+(c['A-End Room']||''))}</td><td>${esc((c['Z-End Building']||'')+' '+(c['Z-End Room']||''))}</td>${MS.map(m=>`<td class="tk">${c._ms.includes(m)?(c[m]?'<span class="yes" aria-label="done">✓</span>':'<span class="no" aria-label="not done">·</span>'):'<span class="muted">—</span>'}</td>`).join('')}<td class="muted">${esc(c['Hold Reason']||'')}</td></tr>`).join('')}
     </tbody></table></div>
   </div>`;
   const bind=(id,k)=>$(id).onchange=e=>{F[k]=e.target.value;renderFiber()};
   bind('#fSheet','sheet');bind('#fZb','zb');bind('#fPath','path');bind('#fNet','net');bind('#fShow','show');
   $('#clr').onclick=()=>{Object.keys(F).forEach(k=>F[k]='All');find='';renderFiber()};
-  if($('#showMis')) $('#showMis').onclick=()=>{F.show='Status mismatch';renderFiber()};
-  $('#exp').onclick=()=>exportXlsx(list.map(c=>Object.assign({},c,{'Status per checkboxes':c._expect})),[...FIBER_COLS,'Status per checkboxes'],`WCH_fiber_${new Date().toISOString().slice(0,10)}.xlsx`);
+  $('#exp').onclick=()=>exportXlsx(list.map(c=>Object.assign({},c,{'Tracker Status':c.Status})),['Tracker Status',...FIBER_COLS.filter(k=>k!=='Status')],`WCH_fiber_${new Date().toISOString().slice(0,10)}.xlsx`);
   $('#gBy').onchange=e=>{groupBy=e.target.value;renderFiber()};
   $('#sBy').onchange=e=>{sortBy=e.target.value;renderFiber()};
   $('#find').oninput=e=>{find=e.target.value;const p=e.target.selectionStart;renderFiber();const i=$('#find');i.focus();i.setSelectionRange(p,p)};
